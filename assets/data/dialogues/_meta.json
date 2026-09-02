@@ -1,0 +1,31 @@
+{
+  "lang": "fr",
+  "variety": "fr_FR",
+  "label": "표준 프랑스어 (France)",
+  "version": "v1-2026-08-20",
+  "schema": "v1",
+  "levels": {
+    "L1": {
+      "file": "L1.json",
+      "schema": "5ep40turn",
+      "target_turns": 200,
+      "current_turns": 0,
+      "status": "미착수"
+    },
+    "L2": {
+      "file": null,
+      "schema": "TBD",
+      "target_turns": 300,
+      "status": "미착수",
+      "current_turns": 0
+    },
+    "L3": {
+      "file": null,
+      "schema": "TBD",
+      "target_turns": 300,
+      "status": "미착수",
+      "current_turns": 0
+    }
+  },
+  "characters_canonical": {}
+}

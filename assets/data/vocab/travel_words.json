@@ -1,0 +1,9230 @@
+{
+ "_meta": "co-Trip 여행 프랑스어 — 주제별 단어",
+ "themes": [
+  {
+   "id": "basics",
+   "title": "인사·기본 표현",
+   "emoji": "👋",
+   "sections": [
+    {
+     "title": "~, 부탁합니다 (~, s'il vous plaît. 실 부 쁠래) — 단어",
+     "words": [
+      {
+       "ko": "커피",
+       "tx": "Un café",
+       "rd": "엉 꺄페",
+       "ic": "☕"
+      },
+      {
+       "ko": "차",
+       "tx": "Un thé",
+       "rd": "엉 떼",
+       "ic": "👋"
+      },
+      {
+       "ko": "콜라",
+       "tx": "Un coca",
+       "rd": "엉 꼬까",
+       "ic": "👋"
+      },
+      {
+       "ko": "미네랄 워터",
+       "tx": "De l'eau minérale",
+       "rd": "드 로 미네할",
+       "ic": "👋"
+      },
+      {
+       "ko": "맥주",
+       "tx": "Une bière",
+       "rd": "윈느 비에흐",
+       "ic": "🍺"
+      },
+      {
+       "ko": "레드 와인",
+       "tx": "Du vin rouge",
+       "rd": "뒤 방 후즈",
+       "ic": "🍷"
+      },
+      {
+       "ko": "소고기",
+       "tx": "Du bœuf",
+       "rd": "뒤 붸프",
+       "ic": "🥩"
+      },
+      {
+       "ko": "생선",
+       "tx": "Du poisson",
+       "rd": "뒤 뿌아쏭",
+       "ic": "🐟"
+      },
+      {
+       "ko": "키슈",
+       "tx": "Une quiche",
+       "rd": "윈느 끼쉬",
+       "ic": "👋"
+      },
+      {
+       "ko": "마카롱",
+       "tx": "Un macaron",
+       "rd": "엉 마꺄홍",
+       "ic": "👋"
+      },
+      {
+       "ko": "메뉴",
+       "tx": "La carte",
+       "rd": "라 꺄흐뜨",
+       "ic": "👋"
+      },
+      {
+       "ko": "지도",
+       "tx": "Un plan",
+       "rd": "엉 쁠랑",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "팸플릿(책자)",
+       "tx": "Une brochure",
+       "rd": "윈느 브호쉬흐",
+       "ic": "📖"
+      },
+      {
+       "ko": "영수증",
+       "tx": "Le reçu",
+       "rd": "르 흐쉬",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "~할 수 있나요? (Puis-je ~? 뀌 쥬) — 단어",
+     "words": [
+      {
+       "ko": "사진을 찍다",
+       "tx": "prendre une photo",
+       "rd": "프헝드흐 윈느 포또",
+       "ic": "📷"
+      },
+      {
+       "ko": "화장실을 가다",
+       "tx": "aller aux toilettes",
+       "rd": "알레 오 뚜알레뜨",
+       "ic": "💄"
+      },
+      {
+       "ko": "주문하다",
+       "tx": "commander",
+       "rd": "꼬멍데",
+       "ic": "👋"
+      },
+      {
+       "ko": "여기에 앉다",
+       "tx": "m'asseoir ici",
+       "rd": "마쑤아흐 이씨",
+       "ic": "👋"
+      },
+      {
+       "ko": "창문을 열다",
+       "tx": "ouvrir la fenêtre",
+       "rd": "우브히흐 라 프네트흐",
+       "ic": "👋"
+      },
+      {
+       "ko": "예약하다",
+       "tx": "faire une réservation",
+       "rd": "페흐 윈느 헤제흐바시옹",
+       "ic": "💊"
+      },
+      {
+       "ko": "체크인하다",
+       "tx": "faire le check-in",
+       "rd": "페흐 르 체크인",
+       "ic": "👋"
+      },
+      {
+       "ko": "그곳에 가다",
+       "tx": "aller là-bas",
+       "rd": "알레 라 바",
+       "ic": "👋"
+      },
+      {
+       "ko": "여기에 머물다",
+       "tx": "rester ici",
+       "rd": "레스떼 이씨",
+       "ic": "💧"
+      },
+      {
+       "ko": "핸드폰을 사용하다",
+       "tx": "utiliser le téléphone",
+       "rd": "위띨리제 르 뗄레폰느",
+       "ic": "👋"
+      },
+      {
+       "ko": "나중에 전화하다",
+       "tx": "vous appeler plus tard",
+       "rd": "부 자쁠레 쁠뤼 따흐",
+       "ic": "📞"
+      },
+      {
+       "ko": "쿠폰을 사용하다",
+       "tx": "utiliser un coupon",
+       "rd": "위띨리제 엉 쿠뽕",
+       "ic": "👋"
+      },
+      {
+       "ko": "걸어서 그곳에 가다",
+       "tx": "y aller à pied",
+       "rd": "이 알레 아 피에",
+       "ic": "👋"
+      },
+      {
+       "ko": "여기서 결제하다",
+       "tx": "payer ici",
+       "rd": "뻬이에 이씨",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "~은 어디에 있나요? (Où est ~? 우 에) — 단어",
+     "words": [
+      {
+       "ko": "이 음식점",
+       "tx": "ce restaurant",
+       "rd": "쓰 헤스토헝",
+       "ic": "👋"
+      },
+      {
+       "ko": "화장실",
+       "tx": "les toilettes",
+       "rd": "레 뚜알레뜨",
+       "ic": "💄"
+      },
+      {
+       "ko": "(기차)역, 정거장",
+       "tx": "la gare",
+       "rd": "라 갸흐",
+       "ic": "🚆"
+      },
+      {
+       "ko": "매표소",
+       "tx": "la billetterie",
+       "rd": "라 비에트리",
+       "ic": "👋"
+      },
+      {
+       "ko": "내 자리",
+       "tx": "mon siège",
+       "rd": "몽 시에쥐",
+       "ic": "👋"
+      },
+      {
+       "ko": "지하철 역",
+       "tx": "la station de métro",
+       "rd": "라 스따씨옹 드 메트흐",
+       "ic": "🚇"
+      },
+      {
+       "ko": "안내소",
+       "tx": "le centre d'informations",
+       "rd": "르 썽트흐 댕포흐마씨옹",
+       "ic": "👋"
+      },
+      {
+       "ko": "에스컬레이터",
+       "tx": "les escaliers roulants",
+       "rd": "레 레즈꺌리에 훌렁",
+       "ic": "👋"
+      },
+      {
+       "ko": "엘리베이터",
+       "tx": "l'ascenseur",
+       "rd": "라썽쇠흐",
+       "ic": "👋"
+      },
+      {
+       "ko": "계단",
+       "tx": "les escaliers",
+       "rd": "레 제스꺌리에흐",
+       "ic": "👋"
+      },
+      {
+       "ko": "카페",
+       "tx": "le café",
+       "rd": "르 꺄페",
+       "ic": "👋"
+      },
+      {
+       "ko": "은행",
+       "tx": "la banque",
+       "rd": "라 방끄",
+       "ic": "🏦"
+      },
+      {
+       "ko": "우체국",
+       "tx": "la poste",
+       "rd": "라 뽀스트",
+       "ic": "📮"
+      },
+      {
+       "ko": "경찰서",
+       "tx": "le commissariat",
+       "rd": "르 꼬미싸히야",
+       "ic": "🚓"
+      }
+     ]
+    },
+    {
+     "title": "~을 가지고 있으신가요? (Avez-vous ~? 아베 부) — 단어",
+     "words": [
+      {
+       "ko": "약",
+       "tx": "des médicaments",
+       "rd": "데 메디꺄멍",
+       "ic": "💊"
+      },
+      {
+       "ko": "우유",
+       "tx": "du lait",
+       "rd": "뒤 래",
+       "ic": "🥛"
+      },
+      {
+       "ko": "잡지",
+       "tx": "un magazine",
+       "rd": "엉 마가진",
+       "ic": "👋"
+      },
+      {
+       "ko": "초콜릿",
+       "tx": "du chocolat",
+       "rd": "뒤 쇼꼴라",
+       "ic": "🍫"
+      },
+      {
+       "ko": "변압기",
+       "tx": "un transformateur",
+       "rd": "엉 트헝스포흐마뙤흐",
+       "ic": "👋"
+      },
+      {
+       "ko": "버터",
+       "tx": "du beurre",
+       "rd": "뒤 베흐",
+       "ic": "👋"
+      },
+      {
+       "ko": "잼",
+       "tx": "de la confiture",
+       "rd": "드 라 꽁피뛰흐",
+       "ic": "👋"
+      },
+      {
+       "ko": "케첩",
+       "tx": "du ketchup",
+       "rd": "뒤 케첩",
+       "ic": "👋"
+      },
+      {
+       "ko": "소금",
+       "tx": "du sel",
+       "rd": "뒤 쎌",
+       "ic": "🧂"
+      },
+      {
+       "ko": "후추",
+       "tx": "du poivre",
+       "rd": "뒤 뿌아부흐",
+       "ic": "👋"
+      },
+      {
+       "ko": "휴지",
+       "tx": "des serviettes en papier",
+       "rd": "데 세흐비에 떵 빠삐에",
+       "ic": "👋"
+      },
+      {
+       "ko": "배터리",
+       "tx": "des piles",
+       "rd": "데 삘",
+       "ic": "👋"
+      },
+      {
+       "ko": "복사기",
+       "tx": "une photocopieuse",
+       "rd": "윈느 포또까삐어즈",
+       "ic": "👋"
+      },
+      {
+       "ko": "가위",
+       "tx": "des ciseaux",
+       "rd": "데 씨조",
+       "ic": "👋"
+      },
+      {
+       "ko": "(참고) 생리대",
+       "tx": "serviette hygiénique",
+       "rd": "세흐비에 띠지에니크",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "저는 ~을 찾고 있습니다 (Je cherche ~. 쥬 쉐흑슈) — 단어",
+     "words": [
+      {
+       "ko": "나의 지갑",
+       "tx": "mon portefeuille",
+       "rd": "몽 포흐뜨풔이으",
+       "ic": "👛"
+      },
+      {
+       "ko": "나의 여권",
+       "tx": "mon passeport",
+       "rd": "몽 빠스뽀흐",
+       "ic": "🛂"
+      },
+      {
+       "ko": "나의 카메라",
+       "tx": "mon appareil photo",
+       "rd": "몽 나빠헤이오 포또",
+       "ic": "📷"
+      },
+      {
+       "ko": "화장실",
+       "tx": "les toilettes",
+       "rd": "레 뚜알레뜨",
+       "ic": "💄"
+      },
+      {
+       "ko": "출구",
+       "tx": "la sortie",
+       "rd": "라 쏘흐띠",
+       "ic": "👋"
+      },
+      {
+       "ko": "입구",
+       "tx": "l'entrée",
+       "rd": "렁트헤",
+       "ic": "👋"
+      },
+      {
+       "ko": "T셔츠",
+       "tx": "des T-shirts",
+       "rd": "데 띠 셔흐뜨",
+       "ic": "👔"
+      },
+      {
+       "ko": "신발",
+       "tx": "des chaussures",
+       "rd": "데 쇼쉬흐",
+       "ic": "👟"
+      },
+      {
+       "ko": "가방",
+       "tx": "des sacs",
+       "rd": "데 싸크",
+       "ic": "👜"
+      },
+      {
+       "ko": "화장품",
+       "tx": "des produits de beauté",
+       "rd": "데 프호뒤 드 보떼",
+       "ic": "🧴"
+      },
+      {
+       "ko": "슈퍼마켓",
+       "tx": "un supermarché",
+       "rd": "엉 슈뻬흐막쉐",
+       "ic": "👋"
+      },
+      {
+       "ko": "환전소",
+       "tx": "un bureau de change",
+       "rd": "엉 뷔호 드 샹쥬",
+       "ic": "👋"
+      },
+      {
+       "ko": "서점",
+       "tx": "une librairie",
+       "rd": "윈느 리브해히",
+       "ic": "👋"
+      },
+      {
+       "ko": "아스피린",
+       "tx": "de l'aspirine",
+       "rd": "드 라스피힌느",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "~해 주실 수 있으신가요? (Pourriez-vous ~? 뿌히에 부) — 단어",
+     "words": [
+      {
+       "ko": "부탁을 들어 주다",
+       "tx": "me rendre un service",
+       "rd": "므 헝드흐 엉 쎄흐비스",
+       "ic": "👋"
+      },
+      {
+       "ko": "도와주다",
+       "tx": "m'aider",
+       "rd": "매데",
+       "ic": "👋"
+      },
+      {
+       "ko": "다시 말하다",
+       "tx": "répéter",
+       "rd": "헤뻬떼",
+       "ic": "👋"
+      },
+      {
+       "ko": "천천히 말하다",
+       "tx": "parler plus lentement",
+       "rd": "빠흘레 쁠뤼 렁뜨멍",
+       "ic": "👋"
+      },
+      {
+       "ko": "(방금) 했던 말을 쓰다",
+       "tx": "écrire ce que vous m'avez dit",
+       "rd": "에크리흐 스 끄 부 마베 디",
+       "ic": "👋"
+      },
+      {
+       "ko": "택시를 부르다",
+       "tx": "m'appeler un taxi",
+       "rd": "마쁠레 엉 딱씨",
+       "ic": "🚕"
+      },
+      {
+       "ko": "길을 가르쳐 주다",
+       "tx": "me montrer le chemin",
+       "rd": "므 몽트헤 르 슈망",
+       "ic": "🛣️"
+      },
+      {
+       "ko": "담요를 주다",
+       "tx": "me donner une couverture",
+       "rd": "므 도네 윈느 꾸베흐뛰흐",
+       "ic": "👋"
+      },
+      {
+       "ko": "의사를 부르다",
+       "tx": "m'appeler un médecin",
+       "rd": "마쁠레 엉 메드상",
+       "ic": "🩺"
+      },
+      {
+       "ko": "잠시 기다리다",
+       "tx": "attendre une minute",
+       "rd": "아떵드흐 윈느 미뉘트",
+       "ic": "👋"
+      },
+      {
+       "ko": "찾다",
+       "tx": "chercher",
+       "rd": "쉐흑쉐",
+       "ic": "👋"
+      },
+      {
+       "ko": "안내하다",
+       "tx": "me guider",
+       "rd": "므 기데",
+       "ic": "👋"
+      },
+      {
+       "ko": "짐을 옮기다",
+       "tx": "porter la valise",
+       "rd": "뽀흐떼 라 발리즈",
+       "ic": "🧳"
+      },
+      {
+       "ko": "연락처를 가르쳐 주다",
+       "tx": "me donner vos coordonnées",
+       "rd": "므 도네 보 꼬오흐도네",
+       "ic": "👋"
+      }
+     ]
+    },
+    {
+     "title": "이런 상황들을 이용해서 실제로 사용해 봅시다",
+     "words": [
+      {
+       "ko": "쇼핑",
+       "tx": "shopping",
+       "rd": "쇼삥",
+       "ic": "👋"
+      },
+      {
+       "ko": "뷰티",
+       "tx": "beauté",
+       "rd": "보떼",
+       "ic": "👋"
+      },
+      {
+       "ko": "엔터테인먼트",
+       "tx": "divertissement",
+       "rd": "디베흐띠스망",
+       "ic": "👋"
+      },
+      {
+       "ko": "관광",
+       "tx": "tourisme",
+       "rd": "뚜히즘",
+       "ic": "👋"
+      },
+      {
+       "ko": "미식가",
+       "tx": "Gourmet",
+       "rd": "구흐메",
+       "ic": "👋"
+      },
+      {
+       "ko": "맛있게 드세요.",
+       "tx": "Bon appétit!",
+       "rd": "보나뻬띠!",
+       "ic": "🦀"
+      },
+      {
+       "ko": "맛있다",
+       "tx": "C'est bon.",
+       "rd": "쎄 봉",
+       "ic": "👋"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "places",
+   "title": "지역·지명",
+   "emoji": "🗺️",
+   "sections": [
+    {
+     "title": "프랑스는 이런 곳입니다 — 프랑스의 대표적인 지명",
+     "words": [
+      {
+       "ko": "몽생미셸",
+       "tx": "Mont Saint Michel",
+       "rd": "몽생미셸",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "루앙",
+       "tx": "Rouen",
+       "rd": "루앙",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "렌",
+       "tx": "Rennes",
+       "rd": "렌",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "브레스트",
+       "tx": "Brest",
+       "rd": "브레스트",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "오를레앙",
+       "tx": "Orléans",
+       "rd": "오를레앙",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "리모주",
+       "tx": "Limoges",
+       "rd": "리모주",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "보르도",
+       "tx": "Bordeaux",
+       "rd": "보르도",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "샹티이성",
+       "tx": "Chantilly",
+       "rd": "샹티이성",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "파리",
+       "tx": "Paris",
+       "rd": "파리",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "샤르트르",
+       "tx": "Chartres",
+       "rd": "샤르트르",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "스트라스부르",
+       "tx": "Strasbourg",
+       "rd": "스트라스부르",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "브장송",
+       "tx": "Besançon",
+       "rd": "브장송",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "본",
+       "tx": "Beaune",
+       "rd": "본",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "리옹",
+       "tx": "Lyon",
+       "rd": "리옹",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "니스",
+       "tx": "Nice",
+       "rd": "니스",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "칸",
+       "tx": "Cannes",
+       "rd": "칸",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "엑상프로방스",
+       "tx": "Aix-en-Provence",
+       "rd": "엑상프로방스",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "툴루즈",
+       "tx": "Toulouse",
+       "rd": "툴루즈",
+       "ic": "🗺️"
+      }
+     ]
+    },
+    {
+     "title": "프랑스는 이런 곳입니다 — 원포인트 (지명을 사용해 말해 봅시다)",
+     "words": [
+      {
+       "ko": "~에 가고 싶습니다.",
+       "tx": "Je voudrais aller à ~.",
+       "rd": "쥬 부드해 잘레 아",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "어디에서 오셨나요?",
+       "tx": "D'où venez-vous?",
+       "rd": "두 브네 부?",
+       "ic": "🗺️"
+      },
+      {
+       "ko": "저는 ~에서 왔습니다.",
+       "tx": "Je viens de ~.",
+       "rd": "쥬 비앙 드",
+       "ic": "🗺️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sightsee",
+   "title": "관광",
+   "emoji": "🏛️",
+   "sections": [
+    {
+     "title": "프랑스는 이런 곳입니다 — 그 외의 관광지 WORD",
+     "words": [
+      {
+       "ko": "센 강",
+       "tx": "La Seine",
+       "rd": "라 센느",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "베르사유 궁전",
+       "tx": "Château de Versailles",
+       "rd": "샤또 드 베흐사이으",
+       "ic": "🏰"
+      },
+      {
+       "ko": "낭트",
+       "tx": "Nantes",
+       "rd": "낭뜨",
+       "ic": "🗿"
+      }
+     ]
+    },
+    {
+     "title": "길을 물을 때 쓰는 단어",
+     "words": [
+      {
+       "ko": "직진",
+       "tx": "tout droit",
+       "rd": "뚜 두화",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "큰길",
+       "tx": "avenue",
+       "rd": "아브뉴",
+       "ic": "🛣️"
+      },
+      {
+       "ko": "모서리",
+       "tx": "coin",
+       "rd": "쿠앙",
+       "ic": "🏰"
+      },
+      {
+       "ko": "왼쪽",
+       "tx": "gauche",
+       "rd": "고쉬",
+       "ic": "🗿"
+      },
+      {
+       "ko": "거리",
+       "tx": "rue",
+       "rd": "휘",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "건물",
+       "tx": "bâtiment",
+       "rd": "바티멍",
+       "ic": "💧"
+      },
+      {
+       "ko": "오른쪽",
+       "tx": "droite",
+       "rd": "두화뜨",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "광고판",
+       "tx": "panneau",
+       "rd": "빠노",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "주차장",
+       "tx": "parking",
+       "rd": "빠흐낑",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "사거리",
+       "tx": "croisement",
+       "rd": "쿠화즈멍",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "신호등",
+       "tx": "feu de signalisation",
+       "rd": "푸 드 시냘리쟈씨옹",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "간판",
+       "tx": "Panneau publicitaire",
+       "rd": "빠노 쀼블리시때흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "횡단보도",
+       "tx": "passage clouté",
+       "rd": "빠사쥐 클루떼",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "자동차",
+       "tx": "voiture",
+       "rd": "부아뛰흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "블록",
+       "tx": "pâté de maisons",
+       "rd": "빠떼 드 매종",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "인도",
+       "tx": "trottoir",
+       "rd": "트호투아",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어 WORD (관광)",
+     "words": [
+      {
+       "ko": "관광 안내소",
+       "tx": "office de tourisme",
+       "rd": "오피스 드 뚜히즘",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "성",
+       "tx": "château",
+       "rd": "샤또",
+       "ic": "🏰"
+      },
+      {
+       "ko": "대성당",
+       "tx": "cathédrale",
+       "rd": "꺄떼드할르",
+       "ic": "⛪"
+      },
+      {
+       "ko": "박물관",
+       "tx": "musée",
+       "rd": "뮤제",
+       "ic": "💧"
+      },
+      {
+       "ko": "광장",
+       "tx": "place",
+       "rd": "쁠라스",
+       "ic": "⛲"
+      },
+      {
+       "ko": "공원",
+       "tx": "jardin public",
+       "rd": "쟈흐당 쀠블릭",
+       "ic": "🌳"
+      },
+      {
+       "ko": "강",
+       "tx": "rivière",
+       "rd": "리베흐",
+       "ic": "🗿"
+      },
+      {
+       "ko": "섬",
+       "tx": "île",
+       "rd": "일",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "운하",
+       "tx": "canal",
+       "rd": "꺄날",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "다리",
+       "tx": "pont",
+       "rd": "뽕",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "세계 유산",
+       "tx": "patrimoine mondial",
+       "rd": "빠트히무안 몽디알",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "유적",
+       "tx": "ruines",
+       "rd": "휜느",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "궁전",
+       "tx": "palais",
+       "rd": "빨래",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "정원",
+       "tx": "jardin",
+       "rd": "쟈흐당",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "촬영 금지",
+       "tx": "photos interdites",
+       "rd": "포또 엥떼흐디뜨",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "출입 금지",
+       "tx": "entrée interdite",
+       "rd": "엉트헤 엥떼흐디뜨",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어 WORD (관광 안내소)",
+     "words": [
+      {
+       "ko": "교회",
+       "tx": "église",
+       "rd": "에글리즈",
+       "ic": "⛪"
+      },
+      {
+       "ko": "예배당",
+       "tx": "chapelle",
+       "rd": "샤뻴",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "스테인드글라스",
+       "tx": "vitraux",
+       "rd": "비트호",
+       "ic": "🏰"
+      },
+      {
+       "ko": "전망대",
+       "tx": "belvédère",
+       "rd": "벨베데흐",
+       "ic": "🗿"
+      },
+      {
+       "ko": "배",
+       "tx": "bateau",
+       "rd": "바또",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "묘지",
+       "tx": "cimetière",
+       "rd": "씸티에흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "탑",
+       "tx": "tour",
+       "rd": "뚜흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "천문대",
+       "tx": "observatoire",
+       "rd": "업세흐바뚜아흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "수족관",
+       "tx": "aquarium",
+       "rd": "아쿠아히움",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "크루즈",
+       "tx": "circuit en bateau",
+       "rd": "쎄흐뀌 떵 바또",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "야경",
+       "tx": "vue nocturne",
+       "rd": "뷔 녹뛰흔느",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "케이블카",
+       "tx": "funiculaire",
+       "rd": "퓌니뀰레흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "분수",
+       "tx": "fontaine / jet d'eau",
+       "rd": "퐁뗀느 / 제도",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "해안",
+       "tx": "bord de la mer",
+       "rd": "보드라메흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "벼룩시장",
+       "tx": "marché aux puces",
+       "rd": "막쉐 오 쀠스",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "티켓",
+       "tx": "billet",
+       "rd": "비에",
+       "ic": "🎫"
+      },
+      {
+       "ko": "매점",
+       "tx": "kiosque",
+       "rd": "키오스끄",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "팸플릿",
+       "tx": "brochure",
+       "rd": "브호쉬흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "지도",
+       "tx": "plan",
+       "rd": "쁠랑",
+       "ic": "🗺️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어 WORD (화가 이름)",
+     "words": [
+      {
+       "ko": "요하네스 페르메이르",
+       "tx": "Johannes Vermeer",
+       "rd": "조하네스 베흐메이흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "조르주 드 라 투르",
+       "tx": "Georges de La Tour",
+       "rd": "조흐주 드 라 뚜흐",
+       "ic": "🏰"
+      },
+      {
+       "ko": "테오도르 제리코",
+       "tx": "Théodore Géricault",
+       "rd": "떼오도흐 제히코",
+       "ic": "🗿"
+      },
+      {
+       "ko": "기욤 쿠스투",
+       "tx": "Guillaume Coustou",
+       "rd": "기욤 꾸스투",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "외젠 들라크루아",
+       "tx": "Eugène Delacroix",
+       "rd": "외젠 들라쿠아",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "레오나르도 다빈치",
+       "tx": "Léonard de Vinci",
+       "rd": "레오나흐 드 방씨",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "에드가르 드가",
+       "tx": "Edgar Degas",
+       "rd": "에드갸흐 드가스",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "빈센트 반 고흐",
+       "tx": "Vincent Van Gogh",
+       "rd": "방쎙 반 고그",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "오귀스트 로댕",
+       "tx": "Auguste Rodin",
+       "rd": "옹귀스트 호당",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "에두아르 마네",
+       "tx": "Edouard Manet",
+       "rd": "에두아흐 마네",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "폴 고갱",
+       "tx": "Paul Gauguin",
+       "rd": "뽈 고걍",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "장 프랑수아 밀레",
+       "tx": "Jean François Millet",
+       "rd": "쟝 프항수아 미예",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어 (미술 작품)",
+     "words": [
+      {
+       "ko": "레이스를 만드는 여인",
+       "tx": "La Dentellière",
+       "rd": "라 덩띨레흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "목수 성 요셉",
+       "tx": "Saint Joseph Charpentier",
+       "rd": "썽 죠셉 샤흐뻥띠에",
+       "ic": "🏰"
+      },
+      {
+       "ko": "메두사 호의 뗏목",
+       "tx": "Le Radeau de la Méduse",
+       "rd": "르 하도 드 라 메듀즈",
+       "ic": "🗿"
+      },
+      {
+       "ko": "나폴레옹 1세의 대관식",
+       "tx": "Le Sacre de Napoléon",
+       "rd": "르 샤크흐 드 나뽈레옹",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "사모트라케의 니케",
+       "tx": "Victoire de Samothrace",
+       "rd": "빅뚜아흐 드 싸모트하스",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "작가의 초상",
+       "tx": "Portrait de L'artiste",
+       "rd": "포트해 드 락띠스트",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "마를리의 말",
+       "tx": "Les Chevaux de Marly",
+       "rd": "레 슈보 드 마힐리",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "이삭 줍는 여인들",
+       "tx": "Les Glaneuses",
+       "rd": "레 글라누즈",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "카드놀이 하는 사람들",
+       "tx": "Les joueurs de cartes",
+       "rd": "레 쥬어흐 드 꺄흐뜨",
+       "ic": "💳"
+      },
+      {
+       "ko": "올랭피아",
+       "tx": "Olympia",
+       "rd": "올랭삐아",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "습작, 햇빛 속의 토르소",
+       "tx": "Étude, Torse, effet de soleil",
+       "rd": "에뛰드 또흐쓰 에페드 쏠레이",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어 (투어)",
+     "words": [
+      {
+       "ko": "자리 예약",
+       "tx": "réservation",
+       "rd": "헤제흐바씨옹",
+       "ic": "💊"
+      },
+      {
+       "ko": "책자",
+       "tx": "brochure",
+       "rd": "브호쉬흐",
+       "ic": "📖"
+      },
+      {
+       "ko": "오전",
+       "tx": "matin",
+       "rd": "마땅",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "오후",
+       "tx": "après-midi",
+       "rd": "아프헤 미디",
+       "ic": "🏰"
+      },
+      {
+       "ko": "당일치기",
+       "tx": "d'une journée",
+       "rd": "뒨느 주흐네",
+       "ic": "🗿"
+      },
+      {
+       "ko": "가격",
+       "tx": "prix",
+       "rd": "프히",
+       "ic": "🏷️"
+      },
+      {
+       "ko": "입장료",
+       "tx": "entrée",
+       "rd": "엉트헤",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "지불",
+       "tx": "paiement",
+       "rd": "빼멍",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "추천",
+       "tx": "recommandation",
+       "rd": "흐꼬멍다씨옹",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "취소 수수료",
+       "tx": "frais d'annulation",
+       "rd": "프해 다뉼라씨옹",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "식사",
+       "tx": "repas",
+       "rd": "흐빠",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "버스",
+       "tx": "autobus",
+       "rd": "오토뷔스",
+       "ic": "🚌"
+      },
+      {
+       "ko": "야경",
+       "tx": "vue nocturne",
+       "rd": "뷔 녹뛰흔느",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "성인",
+       "tx": "adulte",
+       "rd": "아뒬뜨",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "어린이",
+       "tx": "enfant",
+       "rd": "엉펑",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 관광지 Sites touristiques (씨트 뚜히스띠크)",
+     "words": [
+      {
+       "ko": "~에 가고 싶습니다",
+       "tx": "Je voudrais aller à ~.",
+       "rd": "쥬 부드해 잘레 아 ~",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "뱅센 숲",
+       "tx": "Bois de Vincennes",
+       "rd": "부아 드 방센느",
+       "ic": "🏰"
+      },
+      {
+       "ko": "오랑주리 미술관",
+       "tx": "Musée de L'orangerie",
+       "rd": "뮤제 드 로항쥬히",
+       "ic": "🖼️"
+      },
+      {
+       "ko": "오르세 미술관",
+       "tx": "Musée d'Orsay",
+       "rd": "뮤제 도흐세",
+       "ic": "🖼️"
+      },
+      {
+       "ko": "라탱 지구",
+       "tx": "Quartier Latin",
+       "rd": "꺄흐티에 라땅",
+       "ic": "🗿"
+      },
+      {
+       "ko": "그랑 팔레",
+       "tx": "Grand Palais",
+       "rd": "그헝 빨래",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "생 제르맹 데 프레 교회",
+       "tx": "Église St-Germain des Prés",
+       "rd": "에글리즈 썽 제흐망 데 프헤",
+       "ic": "⛪"
+      },
+      {
+       "ko": "생미셸 광장",
+       "tx": "Boulevard St. Michel",
+       "rd": "블루바흐 썽 미쉘",
+       "ic": "⛲"
+      },
+      {
+       "ko": "생트샤펠 성당",
+       "tx": "Sainte Chapelle",
+       "rd": "썽뜨 샤뻴르",
+       "ic": "🕍"
+      },
+      {
+       "ko": "시테 섬",
+       "tx": "Île de la Cité",
+       "rd": "일 드 라 씨떼",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "센강",
+       "tx": "La Seine",
+       "rd": "라 센느",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "튈르리 정원",
+       "tx": "Jardin des Tuileries",
+       "rd": "쟈흐당 데 뛸르히",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "바스티유 광장",
+       "tx": "Place de la Bastille",
+       "rd": "쁠라스 드 라 바스띠유",
+       "ic": "⛲"
+      },
+      {
+       "ko": "파리 시청",
+       "tx": "Hôtel de Ville",
+       "rd": "오뗄 드 빌르",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "불로뉴 숲",
+       "tx": "Bois de Boulogne",
+       "rd": "부아 드 불로뉴",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "퐁피두 센터",
+       "tx": "Centre Georges Pompidou",
+       "rd": "썽트흐 조흐쥬 퐁피두",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "마레 지구",
+       "tx": "Marais",
+       "rd": "마해",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "몽파르나스",
+       "tx": "Montparnasse",
+       "rd": "몽빠흐나쓰",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "몽파르나스 공동묘지",
+       "tx": "Cimetière de Montparnasse",
+       "rd": "씸티에흐 드 몽빠흐나쓰",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "몽마르트르 언덕",
+       "tx": "Montmartre",
+       "rd": "몽마흐뜨흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "뤽상부르 공원",
+       "tx": "Jardin du Luxembourg",
+       "rd": "쟈흐당 뒤 뤽썽부흐",
+       "ic": "🌳"
+      },
+      {
+       "ko": "프티 트리아농",
+       "tx": "Petit Trianon",
+       "rd": "쁘띠 트히아농",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "그랑 트리아농",
+       "tx": "Grand Trianon",
+       "rd": "그헝 트히아농",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "퐁텐블로 성",
+       "tx": "Château de Fontainebleau",
+       "rd": "샤또 드 퐁땐블로",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "고흐의 집",
+       "tx": "Maison de Van Gogh",
+       "rd": "매종 드 반 고그",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "잔다르크 성당",
+       "tx": "Église Jeanne d'Arc",
+       "rd": "에글리즈 쟝 다흐끄",
+       "ic": "⛪"
+      },
+      {
+       "ko": "루아르 강변의 성",
+       "tx": "Châteaux de la Loire",
+       "rd": "샤또 드 라 루아흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "잔다르크의 집",
+       "tx": "Maison de Jeanne d'Arc",
+       "rd": "매종 드 쟝 다흐끄",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "르 리유 위니크 현대 미술관",
+       "tx": "Le Lieu Unique",
+       "rd": "르 리유 위니크",
+       "ic": "🖼️"
+      },
+      {
+       "ko": "생 가티앵 대성당",
+       "tx": "Cathédrale St-Gatien",
+       "rd": "꺄떼드할르 썽 갸티앙",
+       "ic": "⛪"
+      },
+      {
+       "ko": "성 안드레 대성당",
+       "tx": "Cathédrale St-André",
+       "rd": "꺄떼드할르 썽 앙드헤",
+       "ic": "⛪"
+      },
+      {
+       "ko": "생테밀리온",
+       "tx": "St-Émilion",
+       "rd": "썽떼밀리옹",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "이프 성",
+       "tx": "Château d'If",
+       "rd": "샤또 디프",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "롱샹 궁전",
+       "tx": "Palais Longchamp",
+       "rd": "빨래 롱샹",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "원형 극장",
+       "tx": "Amphithéâtre",
+       "rd": "엉피떼아트흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "레보 성",
+       "tx": "Château des Baux",
+       "rd": "샤또 데 보",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "아비뇽 교황청",
+       "tx": "Palais des Papes",
+       "rd": "빨래 드 빠쁘",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "아비뇽 다리(생베네제교)",
+       "tx": "Pont St-Bénézet",
+       "rd": "뽕 썽 베네제",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "가르교",
+       "tx": "Pont du Gard",
+       "rd": "뽕 뒤 갸흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "세잔 아틀리에",
+       "tx": "Atelier Cézanne",
+       "rd": "아뜰리에 세쟌느",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "밀레의 생가",
+       "tx": "Maison Atelier de Jean-François Millet",
+       "rd": "매종 아뜰리에 드 쟝 프항수아 미예",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "클로드 모네의 집과 정원",
+       "tx": "Maison et Jardin de Claude Monet",
+       "rd": "매종 에 쟈흐당 드 클로드 모네",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "지베르니 인상파 미술관",
+       "tx": "Musée des Impressionnismes Giverny",
+       "rd": "뮤제 데 정프레시오니즘 기베흐니",
+       "ic": "🖼️"
+      },
+      {
+       "ko": "국립 샤갈 성서 박물관",
+       "tx": "Musée National Message Biblique Marc Chagall",
+       "rd": "뮤제 나시오날 메싸쥐 비블리끄 마흑 샤갈르",
+       "ic": "💧"
+      },
+      {
+       "ko": "비노라마 와인 박물관",
+       "tx": "Vinorama de Bordeaux, Musée du vin",
+       "rd": "비노하마 드 보흐도 뮤제 뒤 방",
+       "ic": "🍷"
+      },
+      {
+       "ko": "니스 현대 미술관",
+       "tx": "Musée d'Art Moderne et d'Art Contemporain",
+       "rd": "뮤제 다흐 모데흔느 에 다흐 꽁떵뽀항",
+       "ic": "🖼️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 저는 ~을 찾고 있습니다 (Je cherche)",
+     "words": [
+      {
+       "ko": "저는 ~을 찾고 있습니다",
+       "tx": "Je cherche ~.",
+       "rd": "쥬 쉐흑슈 ~",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "개선문",
+       "tx": "Arc de Triomphe",
+       "rd": "아흐크 드 트리옹프",
+       "ic": "🏰"
+      },
+      {
+       "ko": "샹젤리제 거리",
+       "tx": "Av. des Champs-Élysées",
+       "rd": "아브뉴 데 셩젤리제",
+       "ic": "🗿"
+      },
+      {
+       "ko": "에펠 탑",
+       "tx": "Tour Eiffel",
+       "rd": "뚜흐 에펠",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "생 마르탱 운하",
+       "tx": "Canal St.Martin",
+       "rd": "꺄날 썽 마흐땅",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "오페라 가르니에",
+       "tx": "Opéra Garnier",
+       "rd": "오페하 가흐니에",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "노트르담 대성당",
+       "tx": "Cathédrale Notre-Dame",
+       "rd": "꺄떼드할르 노트흐 담므",
+       "ic": "⛪"
+      },
+      {
+       "ko": "콩코르드 광장",
+       "tx": "Place de la Concorde",
+       "rd": "쁠라스 드 라 꽁꼬흐드",
+       "ic": "⛲"
+      },
+      {
+       "ko": "사크레쾨르 대성당",
+       "tx": "Basilique du Sacré-Cœur",
+       "rd": "바질리끄 뒤 사크헤 꿰흐",
+       "ic": "🕍"
+      },
+      {
+       "ko": "베르사유 궁전",
+       "tx": "Château de Versailles",
+       "rd": "샤또 드 베흐사이으",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "루브르 박물관",
+       "tx": "Musée du Louvre",
+       "rd": "뮤제 뒤 루브흐",
+       "ic": "💧"
+      },
+      {
+       "ko": "몽생미셸",
+       "tx": "Mont-St-Michel",
+       "rd": "몽썽미쉘",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "샹티이 성",
+       "tx": "Château de Chantilly",
+       "rd": "샤또 드 셩띠이",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "마티스 미술관",
+       "tx": "Musée Matisse",
+       "rd": "뮤제 마띠쓰",
+       "ic": "🖼️"
+      },
+      {
+       "ko": "영국인 산책로",
+       "tx": "La Promenade des Anglais",
+       "rd": "라 프홈므나드 데 쟝글래",
+       "ic": "📖"
+      },
+      {
+       "ko": "시미에 원형 경기장",
+       "tx": "Les Arènes de Cimiez",
+       "rd": "레자헨느 드 씨미에",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "마세나 광장",
+       "tx": "Place Masséna",
+       "rd": "쁠라스 마세나",
+       "ic": "⛲"
+      },
+      {
+       "ko": "성의 공원",
+       "tx": "Parc du Château",
+       "rd": "빠흐크 뒤 샤또",
+       "ic": "🌳"
+      },
+      {
+       "ko": "스타니슬라스 광장",
+       "tx": "Place Stanislas",
+       "rd": "쁠라스 스타니슬라",
+       "ic": "⛲"
+      },
+      {
+       "ko": "프라고나르 향수 공장",
+       "tx": "Les Parfumeries Fragonard",
+       "rd": "레 빠흐퓨메히에 프하고나흐",
+       "ic": "🌸"
+      },
+      {
+       "ko": "팔레 데 페스티벌 에 데 콩그레",
+       "tx": "Le Palais des Festivals et des Congrès",
+       "rd": "르 빨래 데 페스티발 에 데 꽁그헤",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "아미앵 대성당",
+       "tx": "Cathédrale d'Amiens",
+       "rd": "꺄떼드할르 다미앙",
+       "ic": "⛪"
+      },
+      {
+       "ko": "부르고뉴 공작 궁전",
+       "tx": "Palais des Ducs de Bourgogne",
+       "rd": "빨래 데 뒤크 드 부흐곤뉴",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "거리 걷기 — Promenade (프홈므나드)",
+     "words": [
+      {
+       "ko": "호텔",
+       "tx": "hôtel",
+       "rd": "오뗄",
+       "ic": "🏨"
+      },
+      {
+       "ko": "정거장",
+       "tx": "gare",
+       "rd": "갸흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "은행",
+       "tx": "banque",
+       "rd": "방끄",
+       "ic": "🏦"
+      },
+      {
+       "ko": "현금 인출기 ATM",
+       "tx": "distributeur de l'argent",
+       "rd": "디스트히뷰떠흐 드 라흐졍",
+       "ic": "🏰"
+      },
+      {
+       "ko": "지폐",
+       "tx": "billet",
+       "rd": "비예",
+       "ic": "🗿"
+      },
+      {
+       "ko": "동전",
+       "tx": "monnaie",
+       "rd": "모내",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "환전소",
+       "tx": "change",
+       "rd": "샹쥬",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "화장실",
+       "tx": "toilettes",
+       "rd": "뚜알레뜨",
+       "ic": "💄"
+      },
+      {
+       "ko": "공중전화",
+       "tx": "téléphone public",
+       "rd": "뗄레폰 쀠블릭",
+       "ic": "📞"
+      },
+      {
+       "ko": "슈퍼마켓",
+       "tx": "supérette",
+       "rd": "슈뻬헤뜨",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "술집",
+       "tx": "magasin de vin",
+       "rd": "매가장 드 방",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "쇼핑몰",
+       "tx": "centre commercial",
+       "rd": "썽트흐 꼬멕씨알",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "영화관",
+       "tx": "cinéma",
+       "rd": "씨네마",
+       "ic": "🎬"
+      },
+      {
+       "ko": "레스토랑",
+       "tx": "restaurant",
+       "rd": "헤스토헝",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "카페",
+       "tx": "café",
+       "rd": "꺄페",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "호프집",
+       "tx": "bistro",
+       "rd": "비스트호",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "뷔페, 뷔페 조리사",
+       "tx": "traiteur",
+       "rd": "트해떠흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "잡화점",
+       "tx": "droguerie",
+       "rd": "드호게리",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "약국",
+       "tx": "pharmacie",
+       "rd": "파흐마씨",
+       "ic": "💊"
+      },
+      {
+       "ko": "골동품상",
+       "tx": "antiquaire",
+       "rd": "엉티깨흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "서점",
+       "tx": "librairie",
+       "rd": "리브해히",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "레코드 가게",
+       "tx": "magasin de disques",
+       "rd": "매가장 드 디스크",
+       "ic": "🦀"
+      },
+      {
+       "ko": "꽃집",
+       "tx": "boutique de fleuriste",
+       "rd": "부띠끄 드 플러히스뜨",
+       "ic": "💐"
+      },
+      {
+       "ko": "명품 가게",
+       "tx": "magasin de marque",
+       "rd": "매가장 드 마흐크",
+       "ic": "🦀"
+      },
+      {
+       "ko": "도서관",
+       "tx": "bibliothèque",
+       "rd": "비블리오떼크",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "극장의 구조",
+     "words": [
+      {
+       "ko": "특별석",
+       "tx": "Stalles",
+       "rd": "스딸르",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "6층 센터 박스석",
+       "tx": "5e Loges de face",
+       "rd": "쌩키엠므 로쥬 드 파쓰",
+       "ic": "🏰"
+      },
+      {
+       "ko": "5층 정면 관람석",
+       "tx": "Amphithéâtre",
+       "rd": "엉피떼아트흐",
+       "ic": "🍜"
+      },
+      {
+       "ko": "5층 사이드 박스석",
+       "tx": "4e Loges de côté",
+       "rd": "꺄트히엠므 로쥬 드 꼬떼",
+       "ic": "🗿"
+      },
+      {
+       "ko": "4층 센터 박스석",
+       "tx": "3e Loges de face",
+       "rd": "투와지엠므 쥬드 파쓰",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "4층 사이드 박스석",
+       "tx": "3e Loges de côté",
+       "rd": "투와지엠므 로쥬 드 꼬떼",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "3층 센터 박스석",
+       "tx": "2e Loges de face",
+       "rd": "두지엠므 로쥬 드 파쓰",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "3층 사이드 박스석",
+       "tx": "2e Loges de côté",
+       "rd": "두지엠므 로쥬 드 꼬떼",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "2층 센터 박스석",
+       "tx": "1ère Loges de face",
+       "rd": "프허미에흐 로쥬 드 파쓰",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "2층 사이드 박스석",
+       "tx": "1ère Loges de côté",
+       "rd": "프허미에흐 로쥬 드 꼬떼",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "1층 관람석",
+       "tx": "Baignoires",
+       "rd": "배뉴아흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "오케스트라석",
+       "tx": "Orchestre",
+       "rd": "옥케스트흐",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "발코니 좌석",
+       "tx": "Balcon",
+       "rd": "발콩",
+       "ic": "🏛️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (공연·극장)",
+     "words": [
+      {
+       "ko": "오페라",
+       "tx": "opéra",
+       "rd": "오뻬하",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "희곡",
+       "tx": "pièce de théâtre",
+       "rd": "삐에스 드 떼아트흐",
+       "ic": "🏰"
+      },
+      {
+       "ko": "발레",
+       "tx": "ballet",
+       "rd": "발레",
+       "ic": "🗿"
+      },
+      {
+       "ko": "무용",
+       "tx": "danse",
+       "rd": "덩쓰",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "뮤지컬",
+       "tx": "musicale",
+       "rd": "뮤지꺌",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "예매권",
+       "tx": "billet vendu à l'avance",
+       "rd": "비에 벙뒤 아 라벙쓰",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "당일권",
+       "tx": "billet pour aujourd'hui",
+       "rd": "비에 뿌흐 오쥬흐디",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "좌석",
+       "tx": "siège",
+       "rd": "씨에쥬",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "좌석표",
+       "tx": "plan de la salle",
+       "rd": "쁠랑 드 라 쌀",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "프로그램",
+       "tx": "programme",
+       "rd": "프호그햄",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "책자",
+       "tx": "brochure",
+       "rd": "브호쉬흐",
+       "ic": "📖"
+      },
+      {
+       "ko": "입구",
+       "tx": "entrée",
+       "rd": "엉트헤",
+       "ic": "🏛️"
+      },
+      {
+       "ko": "출구",
+       "tx": "sortie",
+       "rd": "쏘흐띠",
+       "ic": "🏛️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "title": "맛집·음식",
+   "emoji": "🍽️",
+   "sections": [
+    {
+     "title": "풀코스의 흐름은 이런 느낌입니다",
+     "words": [
+      {
+       "ko": "식전주",
+       "tx": "apéritif",
+       "rd": "아뻬히티프",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "전식",
+       "tx": "entrée",
+       "rd": "엉트헤",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "생선류",
+       "tx": "poisson",
+       "rd": "뿌아쏭",
+       "ic": "🐟"
+      },
+      {
+       "ko": "육류",
+       "tx": "viande",
+       "rd": "비엉드",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "치즈",
+       "tx": "fromage",
+       "rd": "프호마쥬",
+       "ic": "🧀"
+      },
+      {
+       "ko": "디저트",
+       "tx": "dessert",
+       "rd": "데세흐",
+       "ic": "🍰"
+      },
+      {
+       "ko": "식후주",
+       "tx": "digestif",
+       "rd": "디제스티프",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — ~이 있나요? (Avez-vous ~?) : 고기 요리 Viandes",
+     "words": [
+      {
+       "ko": "~이 있나요?",
+       "tx": "Avez-vous ~?",
+       "rd": "아베 부 ~?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "양갈비 스테이크",
+       "tx": "sauté de côtes d'agneau",
+       "rd": "쏘떼 드 꼬뜨 다뇨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소고기 찜",
+       "tx": "daube de bœuf",
+       "rd": "도브 드 붸프",
+       "ic": "🥩"
+      },
+      {
+       "ko": "베코프",
+       "tx": "baeckeoff",
+       "rd": "베코프",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "맷비둘기 구이",
+       "tx": "pigeon rôtis",
+       "rd": "피죵 호띠",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오리 구이",
+       "tx": "rôti de canard",
+       "rd": "호띠 드 꺄나흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "새끼 양고기 넓적다리",
+       "tx": "gigot d'agneau rôti",
+       "rd": "지고 다뇨 흐띠",
+       "ic": "🍖"
+      },
+      {
+       "ko": "소고기 와인 스튜",
+       "tx": "bœuf bourguignon",
+       "rd": "뵈프 부흐귀뇽",
+       "ic": "🍷"
+      },
+      {
+       "ko": "푸아그라",
+       "tx": "sauté de foie gras",
+       "rd": "쏘떼 드 푸아 그하",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "토끼고기 테린",
+       "tx": "terrine de lapin en gelée",
+       "rd": "떼힌 드 라빵 엉 젤레",
+       "ic": "🥓"
+      },
+      {
+       "ko": "돼지 포토푀",
+       "tx": "pot-au-feu de porc",
+       "rd": "뽀또프 드 뽀흐",
+       "ic": "🍖"
+      },
+      {
+       "ko": "파테 앙 크루트",
+       "tx": "pâté en croûte",
+       "rd": "빠떼 엉 크후트",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오리 콩피",
+       "tx": "confit de canard",
+       "rd": "꽁피 드 꺄나흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "프랑스식 육회",
+       "tx": "steak tartare",
+       "rd": "스테크 딱따흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "블랑켓 드 보",
+       "tx": "blanquette de veau",
+       "rd": "블렁켓 드 보",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "코코뱅",
+       "tx": "coq au vin",
+       "rd": "코 코 방",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "토끼고기 요리",
+       "tx": "lapin désossé",
+       "rd": "라팡 데조쎄",
+       "ic": "🥩"
+      },
+      {
+       "ko": "소시지 테린",
+       "tx": "terrine d'andouillette",
+       "rd": "떼힌느 덩두이에뜨",
+       "ic": "🌭"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 생선 요리 Poissons / Crustacés",
+     "words": [
+      {
+       "ko": "생선 / 갑각류",
+       "tx": "Poissons / Crustacés",
+       "rd": "뿌아쏭 / 크휘스따쎄",
+       "ic": "🐟"
+      },
+      {
+       "ko": "훈제 바닷가재",
+       "tx": "homard fumé",
+       "rd": "오마흐 퓨메",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "정어리 절임",
+       "tx": "sardines marinées",
+       "rd": "싸흐딘느 마히네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "연어 구이",
+       "tx": "saumon grillé",
+       "rd": "쏘몽 그히에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "삶은 바닷가재",
+       "tx": "homard bouilli",
+       "rd": "오마드 부이",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "홍합찜",
+       "tx": "moules",
+       "rd": "물르",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "농어 필레",
+       "tx": "filet de bar",
+       "rd": "필레 드 바흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "달팽이 요리",
+       "tx": "escargots",
+       "rd": "에스꺄흐고",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "청어 절임",
+       "tx": "hareng mariné",
+       "rd": "아헝 마히네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "굴",
+       "tx": "huîtres",
+       "rd": "위트흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "훈제 가자미",
+       "tx": "sole de Bretagne",
+       "rd": "썰 드 브헤탄느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "정어리 구이",
+       "tx": "sardines grillées",
+       "rd": "싸흐딘느 그히에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "노랑촉수 필레",
+       "tx": "filets de rougets",
+       "rd": "필레 드 후제",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "브랑다드",
+       "tx": "brandade",
+       "rd": "브헝다드",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "가리비 절임",
+       "tx": "St. Jacques marinées",
+       "rd": "성 쟈크마리네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "해산물",
+       "tx": "fruits de mer",
+       "rd": "프휘 드 메흐",
+       "ic": "💧"
+      },
+      {
+       "ko": "조개",
+       "tx": "Coquillages",
+       "rd": "꼬끼아쥐",
+       "ic": "🦪"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 채소·계란 요리 Légumes·Œufs",
+     "words": [
+      {
+       "ko": "채소·계란 요리",
+       "tx": "Légumes·œufs",
+       "rd": "레귬므 어프",
+       "ic": "🥚"
+      },
+      {
+       "ko": "타르티플레트",
+       "tx": "tartiflette",
+       "rd": "따흐띠플레트",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "도피네 지방의 감자 그라탕",
+       "tx": "gratin dauphinois",
+       "rd": "그하탕 도피누아",
+       "ic": "🥔"
+      },
+      {
+       "ko": "수프 오 피스투",
+       "tx": "soupe au pistou",
+       "rd": "수프 오 피스투",
+       "ic": "🥣"
+      },
+      {
+       "ko": "라따뚜이",
+       "tx": "ratatouille",
+       "rd": "하따뚜이오",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "채소 티앙",
+       "tx": "tian de légumes",
+       "rd": "티엉 드 레귬므",
+       "ic": "🥬"
+      },
+      {
+       "ko": "당근 라페",
+       "tx": "carottes râpées",
+       "rd": "꺄호트 하페",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "감자 샐러드",
+       "tx": "salade de pomme de terre",
+       "rd": "살라드 드 뽐 드 떼흐",
+       "ic": "🥗"
+      },
+      {
+       "ko": "키슈",
+       "tx": "quiche",
+       "rd": "끼쉬",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오믈렛",
+       "tx": "omelette",
+       "rd": "오믈레뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "부야베스",
+       "tx": "bouillabaisse",
+       "rd": "부야베쓰",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "아티초크 벨루테",
+       "tx": "velouté d'artichaut",
+       "rd": "벨루떼 닥티쇼",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — ~를 주세요 (~, s'il vous plaît.) : 향토 요리 Cuisine Régionale",
+     "words": [
+      {
+       "ko": "~를 주세요.",
+       "tx": "~, s'il vous plaît.",
+       "rd": "~ 씰 부 쁠래",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "향토 요리",
+       "tx": "Cuisine Régionale",
+       "rd": "뀌진느 헤지오날",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "과일 누가",
+       "tx": "nougat aux fruits",
+       "rd": "누갸 모 프휘뜨",
+       "ic": "🍎"
+      },
+      {
+       "ko": "타르트 아 로뇽",
+       "tx": "tarte à l'oignon",
+       "rd": "따흐트 아 로뇽",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "부댕 블랑",
+       "tx": "boudin blanc",
+       "rd": "부뎅 블렁",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "부댕 누아",
+       "tx": "boudin noir",
+       "rd": "부뎅 누아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "수란",
+       "tx": "œuf poché",
+       "rd": "어프 뽀쉬",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "그라탕 드비앙드",
+       "tx": "gratin de viande",
+       "rd": "그하탕 드 비엉드",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "슈크루트",
+       "tx": "choucroute",
+       "rd": "슈크후뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "크넬 드 브로셰",
+       "tx": "quenelle de brochet",
+       "rd": "끄넬 드 브호쉐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "부리드",
+       "tx": "Bourride",
+       "rd": "부히드",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "어프 앙 므레트",
+       "tx": "œufs en meurette",
+       "rd": "어프 엉 므헤뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "튀긴 과자",
+       "tx": "beignets",
+       "rd": "베녜",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "타르트 플랑베",
+       "tx": "tarte flambée",
+       "rd": "타흐트 플렁베",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "니수아즈 샐러드",
+       "tx": "salade niçoise",
+       "rd": "살라드 니수아즈",
+       "ic": "🥗"
+      },
+      {
+       "ko": "소카",
+       "tx": "socca",
+       "rd": "쏘까",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 디저트 Dessert",
+     "words": [
+      {
+       "ko": "디저트",
+       "tx": "Dessert",
+       "rd": "데세흐",
+       "ic": "🍰"
+      },
+      {
+       "ko": "배 타르트",
+       "tx": "tarte à la poire",
+       "rd": "따흐뜨 아 라 뿌아",
+       "ic": "⛴️"
+      },
+      {
+       "ko": "몽블랑",
+       "tx": "Mont Blanc",
+       "rd": "몽 블랑",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오페라",
+       "tx": "opéra",
+       "rd": "오뻬하",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "가토 오 쇼콜라",
+       "tx": "gâteau au chocolat",
+       "rd": "갸또 오 쇼꼴라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사과 타르트",
+       "tx": "tarte aux pommes",
+       "rd": "따흐뜨 모 뽐므",
+       "ic": "🍎"
+      },
+      {
+       "ko": "크렘브륄레",
+       "tx": "crème brûlée",
+       "rd": "크헴 브휠레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소르베",
+       "tx": "sorbet",
+       "rd": "소흐베",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사과 크럼블",
+       "tx": "crumble aux pommes",
+       "rd": "크험블 오 뽐므",
+       "ic": "🍏"
+      },
+      {
+       "ko": "누가 글라세",
+       "tx": "nougat glacé",
+       "rd": "누갸 글라세",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "과일 그라탕",
+       "tx": "gratin de fruits",
+       "rd": "그하탕 드 프휘",
+       "ic": "🍑"
+      },
+      {
+       "ko": "레몬 타르트",
+       "tx": "tarte au citron",
+       "rd": "타흐뜨 오 시트홍",
+       "ic": "🍋"
+      },
+      {
+       "ko": "버터설탕 크레페",
+       "tx": "crêpe au beurre et sucre",
+       "rd": "크헤프헤오 베흐 에 쉬크흐",
+       "ic": "🍬"
+      },
+      {
+       "ko": "카라멜 크림",
+       "tx": "crème caramel",
+       "rd": "크헴 꺄하멜르",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "수플레",
+       "tx": "soufflé",
+       "rd": "수플레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "무스",
+       "tx": "mousse",
+       "rd": "무쓰",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "파르페",
+       "tx": "parfait",
+       "rd": "빠흐페",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 재료 Ingrédient",
+     "words": [
+      {
+       "ko": "재료",
+       "tx": "Ingrédient",
+       "rd": "앵그헤디엉",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소고기",
+       "tx": "bœuf",
+       "rd": "붸프",
+       "ic": "🥩"
+      },
+      {
+       "ko": "닭고기",
+       "tx": "poulet",
+       "rd": "뿔레",
+       "ic": "🍗"
+      },
+      {
+       "ko": "양고기",
+       "tx": "mouton",
+       "rd": "무똥",
+       "ic": "🍖"
+      },
+      {
+       "ko": "송아지",
+       "tx": "veau",
+       "rd": "보",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "돼지고기",
+       "tx": "porc",
+       "rd": "뽀흐",
+       "ic": "🍖"
+      },
+      {
+       "ko": "새끼 양고기",
+       "tx": "agneau",
+       "rd": "아니오",
+       "ic": "🥓"
+      },
+      {
+       "ko": "토끼",
+       "tx": "lapin",
+       "rd": "라빵",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "넓적다리",
+       "tx": "cuisse",
+       "rd": "뀌스",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "연어",
+       "tx": "saumon",
+       "rd": "쏘몽",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "굴",
+       "tx": "huître",
+       "rd": "위트흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "계란",
+       "tx": "œuf",
+       "rd": "어프",
+       "ic": "🥚"
+      },
+      {
+       "ko": "등심",
+       "tx": "entrecôte",
+       "rd": "엉트흐꼬뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "게",
+       "tx": "crabe",
+       "rd": "크하브",
+       "ic": "🦀"
+      },
+      {
+       "ko": "작은 새우",
+       "tx": "crevette",
+       "rd": "크헤베트",
+       "ic": "🦐"
+      },
+      {
+       "ko": "아스파라거스",
+       "tx": "asperge",
+       "rd": "아스페흐쥬",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "브로콜리",
+       "tx": "brocoli",
+       "rd": "브호콜리",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "셀러리",
+       "tx": "céleri",
+       "rd": "셀르히",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "양배추",
+       "tx": "chou",
+       "rd": "슈",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "아보카도",
+       "tx": "avocat",
+       "rd": "아보꺄",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "아티초크",
+       "tx": "artichaut",
+       "rd": "악티쇼",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "감자",
+       "tx": "pomme de terre",
+       "rd": "뽐 드 떼흐",
+       "ic": "🥔"
+      },
+      {
+       "ko": "쌀",
+       "tx": "riz",
+       "rd": "히",
+       "ic": "🍚"
+      },
+      {
+       "ko": "호박",
+       "tx": "courgette",
+       "rd": "꾸흐제뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "가지",
+       "tx": "aubergine",
+       "rd": "오베흐진",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "버섯",
+       "tx": "champignon",
+       "rd": "셩삐뇽",
+       "ic": "🍄"
+      },
+      {
+       "ko": "햄",
+       "tx": "jambon",
+       "rd": "졍봉",
+       "ic": "🥓"
+      },
+      {
+       "ko": "살라미",
+       "tx": "salami",
+       "rd": "살라미",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "우유",
+       "tx": "lait",
+       "rd": "래",
+       "ic": "🥛"
+      },
+      {
+       "ko": "버터",
+       "tx": "beurre",
+       "rd": "베흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "생크림",
+       "tx": "crème fraîche",
+       "rd": "크헴 프헤쉬",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 치즈 Fromage",
+     "words": [
+      {
+       "ko": "치즈",
+       "tx": "Fromage",
+       "rd": "프호마쥬",
+       "ic": "🧀"
+      },
+      {
+       "ko": "쾨흐 드 뇌프샤텔",
+       "tx": "Cœur de Neufchâtel",
+       "rd": "꿰흐 드 네프샤텔",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "퐁레베크",
+       "tx": "Pont L'Evéque",
+       "rd": "퐁 레베크",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "캉탈",
+       "tx": "Cantal",
+       "rd": "껑딸르",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "발랑세",
+       "tx": "Valençay",
+       "rd": "발렁세",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "카망베르",
+       "tx": "Camembert",
+       "rd": "꺄멍베흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "로크포르",
+       "tx": "Roquefort",
+       "rd": "로크포흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "생트 모르",
+       "tx": "Sainte Maure",
+       "rd": "썽트 모흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "에푸아스",
+       "tx": "Epoisses",
+       "rd": "에뿌아쓰",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "르블로숑",
+       "tx": "Reblochon",
+       "rd": "르블로셩",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "크로탱 드 샤비뇰",
+       "tx": "Crottin de Chavignol",
+       "rd": "크호땅 드 샤비뇰",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 음료 Boisson",
+     "words": [
+      {
+       "ko": "음료",
+       "tx": "Boisson",
+       "rd": "부아쏭",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "레드 와인",
+       "tx": "vin rouge",
+       "rd": "방 후즈",
+       "ic": "🍷"
+      },
+      {
+       "ko": "화이트 와인",
+       "tx": "vin blanc",
+       "rd": "방 블랑",
+       "ic": "🍷"
+      },
+      {
+       "ko": "로제 와인",
+       "tx": "vin rosé",
+       "rd": "방 호제",
+       "ic": "🍷"
+      },
+      {
+       "ko": "맥주",
+       "tx": "bière",
+       "rd": "비에흐",
+       "ic": "🍺"
+      },
+      {
+       "ko": "커피",
+       "tx": "café",
+       "rd": "꺄페",
+       "ic": "☕"
+      },
+      {
+       "ko": "헤레스산 백포도주",
+       "tx": "xérès",
+       "rd": "제헤스",
+       "ic": "🍇"
+      },
+      {
+       "ko": "샴페인",
+       "tx": "champagne",
+       "rd": "샹반느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "하우스 와인",
+       "tx": "vin de la maison",
+       "rd": "방 드 라 매종",
+       "ic": "🍷"
+      },
+      {
+       "ko": "스파클링 와인",
+       "tx": "vin mousseux",
+       "rd": "방 무쏘",
+       "ic": "🍷"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 조리법 Recette",
+     "words": [
+      {
+       "ko": "조리법",
+       "tx": "Recette",
+       "rd": "헤쎄뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "구운 고기",
+       "tx": "rôti",
+       "rd": "호띠",
+       "ic": "🥩"
+      },
+      {
+       "ko": "숯불 구이를 한",
+       "tx": "grillé au feu de bois",
+       "rd": "그히에 오 푸 드 부아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "(약한 불로) 익힌",
+       "tx": "braisé",
+       "rd": "브해제",
+       "ic": "💊"
+      },
+      {
+       "ko": "오븐에 구운",
+       "tx": "grillé",
+       "rd": "그히에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "삶다",
+       "tx": "cuit à l'eau",
+       "rd": "뀌 따 로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "튀긴",
+       "tx": "frit",
+       "rd": "프리",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "베샤멜 소스",
+       "tx": "sauce béchamel",
+       "rd": "소스 베샤멜",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "얼린",
+       "tx": "congelé",
+       "rd": "꽁즐레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "날것의",
+       "tx": "cru",
+       "rd": "크휘",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "얇게 조각낸",
+       "tx": "coupé en fines tranches",
+       "rd": "꾸페 엉 핀느 트헝쉬",
+       "ic": "🦀"
+      },
+      {
+       "ko": "다진",
+       "tx": "haché",
+       "rd": "아쉐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "종이 포장을 하다",
+       "tx": "tarte en papillotte",
+       "rd": "따흐뜨 엉 빠삐욧",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "신선한",
+       "tx": "frais",
+       "rd": "프해",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "향신료를 더한",
+       "tx": "épicé",
+       "rd": "에삐세",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "양념을 한",
+       "tx": "assaisonné",
+       "rd": "아쎄조네",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "식초에 절인",
+       "tx": "au vinaigre",
+       "rd": "오 비네그흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "훈제된",
+       "tx": "fumé",
+       "rd": "퓨메",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "찐",
+       "tx": "à la vapeur",
+       "rd": "아 라 바뿨흐",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 조미료 Assaisonnement",
+     "words": [
+      {
+       "ko": "조미료",
+       "tx": "Assaisonnement",
+       "rd": "아쎄존느멍",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "기름",
+       "tx": "huile",
+       "rd": "윌르",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "올리브 기름",
+       "tx": "huile d'olive",
+       "rd": "윌 돌리브",
+       "ic": "🫒"
+      },
+      {
+       "ko": "후추",
+       "tx": "poivre",
+       "rd": "뿌아브흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "겨자",
+       "tx": "moutarde",
+       "rd": "무따흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "파프리카",
+       "tx": "paprika",
+       "rd": "빠쁘히꺄",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "마늘",
+       "tx": "ail",
+       "rd": "아이",
+       "ic": "🧄"
+      },
+      {
+       "ko": "소금",
+       "tx": "sel",
+       "rd": "쎌",
+       "ic": "🧂"
+      },
+      {
+       "ko": "설탕",
+       "tx": "sucre",
+       "rd": "쉬크흐",
+       "ic": "🍬"
+      },
+      {
+       "ko": "허브",
+       "tx": "herbes",
+       "rd": "에흐브",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "식초",
+       "tx": "vinaigre",
+       "rd": "비내그흐",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "메뉴를 해석해 봅시다",
+     "words": [
+      {
+       "ko": "메뉴",
+       "tx": "carte",
+       "rd": "꺄흐뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "토마토 타불레, 새우구이, 피스투(야채 수프)",
+       "tx": "Fin taboulé à la tomate, gambas poêlées, pistou",
+       "rd": "팡 따불레 아 라 또마드, 감바스 뿌알레, 피스투",
+       "ic": "🦐"
+      },
+      {
+       "ko": "정어리 구이, 피킬로와 햇양파",
+       "tx": "Sardines poêlées, piquillos et oignons nouveaux",
+       "rd": "사흐딘느 푸알레, 피낄로 에 어니용 누보",
+       "ic": "🧅"
+      },
+      {
+       "ko": "양치즈, 채소 마리네와 루콜라 샐러드",
+       "tx": "Pressé de chèvre, légumes marinés et salade de roquette",
+       "rd": "프헤쎄 드 쉐브흐, 레귬므 마히네 에 살라드 드 호껫뜨",
+       "ic": "🧀"
+      },
+      {
+       "ko": "노랑촉수 즉석 푸알레, 타프나드와 레몬 절임",
+       "tx": "Rouget juste poêlées, tapenade et citrons confits",
+       "rd": "후제 쥬쓰뜨 뿌알레, 타쁘나드 에 시트홍 꽁피",
+       "ic": "🍋"
+      },
+      {
+       "ko": "쏨뱅이 양념 버터구이, 레드 와인 소스",
+       "tx": "Rascasse au beurre d'épices, sauce vin rouge",
+       "rd": "하스꺄스 오 베흐 데삐스, 쏘스 방 후즈",
+       "ic": "🍷"
+      },
+      {
+       "ko": "돼지 볼살 코코트 구이와 생 푸아그라",
+       "tx": "La joue de cochon en cocotte, et foie gras crû",
+       "rd": "라 주 드 코숑 엉 코코뜨, 에 푸아 그하 그휘",
+       "ic": "🍖"
+      },
+      {
+       "ko": "카페 풍 과일 타르트",
+       "tx": "Tarte aux fruits façon Troquet",
+       "rd": "따흐뜨 오 프휘 파송 트호께",
+       "ic": "🍎"
+      },
+      {
+       "ko": "체리 쥬빌레, 바닐라 아이스 크넬",
+       "tx": "Cerises en jubilé, quenelle de glace vanille",
+       "rd": "쎄히즈 엉 쥬빌레, 끄넬 드 글라스 바닐",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "카페에서의 표현들을 알아 둡시다",
+     "words": [
+      {
+       "ko": "카운터",
+       "tx": "comptoir",
+       "rd": "꽁뚜아흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "실내석",
+       "tx": "siège à l'intérieur",
+       "rd": "시에쥬 아 렁떼히으",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "테라스석",
+       "tx": "siège en terrasse",
+       "rd": "시에쥬 엉 떼하쓰",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "고기요리를 주문할 때는?",
+     "words": [
+      {
+       "ko": "레어",
+       "tx": "saignant",
+       "rd": "쎄니엉",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "미디엄",
+       "tx": "à point",
+       "rd": "아 뿌앙",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "웰던",
+       "tx": "bien cuit",
+       "rd": "비앙 뀌뜨",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "메뉴에 대해 물어 봅시다",
+     "words": [
+      {
+       "ko": "세트 메뉴가 있나요?",
+       "tx": "Est-ce qu'il y a des formules?",
+       "rd": "에 스 낄리 야 데 포뮬르?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "이것은 무엇인가요?",
+       "tx": "Qu'est-ce que c'est?",
+       "rd": "께 스 끄 쎄?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "어떤 메뉴를 추천하시나요?",
+       "tx": "Qu'est-ce que vous me conseillez?",
+       "rd": "께 스 끄 부 므 꽁쎄이에?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "저도 같은 것으로 주세요.",
+       "tx": "Moi aussi.",
+       "rd": "무아 오씨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오늘의 추천 음식[디저트]은 무엇인가요?",
+       "tx": "Quel est le plat [dessert] du jour?",
+       "rd": "껠 레 르 쁠라 [데세흐] 뒤 쥬흐?",
+       "ic": "🍰"
+      },
+      {
+       "ko": "음식을 나눌 수 있을까요?",
+       "tx": "Est-ce qu'il serait possible de partager ce plat?",
+       "rd": "에스 낄 쓰해 뽀시블르 드 빠흐따줴 쓰 쁠라?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "다른 커피 한 잔 더 주세요.",
+       "tx": "Une autre tasse de café, s'il vous plaît.",
+       "rd": "윈느 어트르 따쓰 드 꺄페 씰 부 쁠래",
+       "ic": "☕"
+      }
+     ]
+    },
+    {
+     "title": "원포인트 — 요리 이름을 알아 봅시다",
+     "words": [
+      {
+       "ko": "토끼 고기 (주재료)",
+       "tx": "lapin",
+       "rd": "라빵",
+       "ic": "🥩"
+      },
+      {
+       "ko": "머스타드 소스 (소스)",
+       "tx": "sauce moutarde",
+       "rd": "써스 무따흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "감자 (사이드 메뉴)",
+       "tx": "pomme de terre",
+       "rd": "뽐 드 떼흐",
+       "ic": "🥔"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — ~ 부탁합니다 (~, s'il vous plaît. 씰 부 쁠래) : 카페 메뉴 Carte de café",
+     "words": [
+      {
+       "ko": "카페 메뉴",
+       "tx": "Carte de café",
+       "rd": "꺄흐뜨 드 꺄페",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "키슈 로렌",
+       "tx": "quiche lorraine",
+       "rd": "끼쉬 로핸느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "샌드위치",
+       "tx": "sandwich",
+       "rd": "썽드위치",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "니수아즈 샐러드",
+       "tx": "salade niçoise",
+       "rd": "살라드 니수아즈",
+       "ic": "🥗"
+      },
+      {
+       "ko": "오믈렛",
+       "tx": "omelette",
+       "rd": "오믈레뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "스테이크 감자튀김",
+       "tx": "steak-frites",
+       "rd": "스테크 프히뜨",
+       "ic": "🥔"
+      },
+      {
+       "ko": "크로크무슈",
+       "tx": "croque-monsieur",
+       "rd": "크호끄무슈",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소르베(셔벗)",
+       "tx": "sorbet",
+       "rd": "소흐베",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "크루아상",
+       "tx": "croissant",
+       "rd": "크화쌍",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "커피",
+       "tx": "café",
+       "rd": "꺄페",
+       "ic": "☕"
+      },
+      {
+       "ko": "카페 크렘",
+       "tx": "café crème",
+       "rd": "꺄페 크헴",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "카페 콘 판나",
+       "tx": "café viennois",
+       "rd": "꺄페 비엔누아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "생과일 오렌지 주스",
+       "tx": "orange pressée",
+       "rd": "오헝쥐 프헤쎄",
+       "ic": "🧃"
+      },
+      {
+       "ko": "박하 음료",
+       "tx": "menthe à l'eau",
+       "rd": "멍뜨 아 로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "프렌치 토스트",
+       "tx": "pain perdu",
+       "rd": "빵 뻬흐뒤",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "아이스크림",
+       "tx": "glace",
+       "rd": "글라스",
+       "ic": "🍦"
+      },
+      {
+       "ko": "에스프레소",
+       "tx": "café express",
+       "rd": "꺄페 엑스프헤쓰",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "허브티",
+       "tx": "infusion",
+       "rd": "엉퓨지옹",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "초콜릿",
+       "tx": "chocolat",
+       "rd": "쇼꼴라",
+       "ic": "🍫"
+      },
+      {
+       "ko": "카페오레",
+       "tx": "café au lait",
+       "rd": "꺄페 오 래",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "홍차",
+       "tx": "thé",
+       "rd": "떼",
+       "ic": "🫖"
+      },
+      {
+       "ko": "레몬차",
+       "tx": "thé au citron",
+       "rd": "떼 오 시트홍",
+       "ic": "🍋"
+      },
+      {
+       "ko": "레드 와인",
+       "tx": "vin rouge",
+       "rd": "방 후즈",
+       "ic": "🍷"
+      },
+      {
+       "ko": "샴페인",
+       "tx": "champagne",
+       "rd": "샹반느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "맥주",
+       "tx": "bière",
+       "rd": "비에흐",
+       "ic": "🍺"
+      },
+      {
+       "ko": "페리에",
+       "tx": "perrier",
+       "rd": "뻬히에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "화이트 와인",
+       "tx": "vin blanc",
+       "rd": "방 블랑",
+       "ic": "🍷"
+      },
+      {
+       "ko": "그로그",
+       "tx": "grog",
+       "rd": "그호그",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "과일 주스",
+       "tx": "jus de fruits",
+       "rd": "쥬 드 프휘뜨",
+       "ic": "🧃"
+      },
+      {
+       "ko": "콜라",
+       "tx": "coke",
+       "rd": "꼬크",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "치즈와 올리브유를 사러 가 봅시다 — 치즈의 종류",
+     "words": [
+      {
+       "ko": "흰곰팡이 치즈",
+       "tx": "fromage à croûte fleurie",
+       "rd": "프호마쥬 아 쿠후뜨 플러히",
+       "ic": "🧀"
+      },
+      {
+       "ko": "프레시 치즈",
+       "tx": "frais",
+       "rd": "프해",
+       "ic": "🧀"
+      },
+      {
+       "ko": "비가열 압착 치즈",
+       "tx": "pressée non cuite",
+       "rd": "프레쎄 농 뀌트",
+       "ic": "🧀"
+      },
+      {
+       "ko": "워시 치즈",
+       "tx": "fromage à croûte lavée",
+       "rd": "프호마쥬 아 쿠후뜨 라베",
+       "ic": "🧀"
+      }
+     ]
+    },
+    {
+     "title": "올리브유 종류",
+     "words": [
+      {
+       "ko": "엑스트라버진 올리브유",
+       "tx": "huile d'olive vierge extra",
+       "rd": "윌 돌리브 비에흐쥬 엑스트하",
+       "ic": "🫒"
+      },
+      {
+       "ko": "버진 올리브유",
+       "tx": "huile d'olive vierge",
+       "rd": "윌 돌리브 비에흐쥬",
+       "ic": "🫒"
+      },
+      {
+       "ko": "오디너리 버진",
+       "tx": "huile d'olive vierge courante",
+       "rd": "윌 돌리브 비에흐쥬 꾸헝",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "퓨어 올리브유",
+       "tx": "huile d'olive pure",
+       "rd": "윌 돌리브 쀼흐",
+       "ic": "🫒"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어 (치즈·올리브유)",
+     "words": [
+      {
+       "ko": "우유",
+       "tx": "lait",
+       "rd": "래",
+       "ic": "🥛"
+      },
+      {
+       "ko": "재료",
+       "tx": "ingrédient",
+       "rd": "앵그헤디엉",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "원산지",
+       "tx": "pays producteur",
+       "rd": "뻬이 프호뒥떠흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "신맛",
+       "tx": "acidité",
+       "rd": "아씨디떼",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "향이 있는",
+       "tx": "corsé",
+       "rd": "꼬흐세",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "말랑한",
+       "tx": "souple",
+       "rd": "수플르",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "순한",
+       "tx": "doux",
+       "rd": "두",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "크리미한",
+       "tx": "crèmeux",
+       "rd": "크렘무",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "짠",
+       "tx": "salé",
+       "rd": "살레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "풍미",
+       "tx": "parfum",
+       "rd": "빠흐펑",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 패스트푸드 (Restauration rapide 헤스또하씨옹 하삐드)",
+     "words": [
+      {
+       "ko": "~ 부탁합니다.",
+       "tx": "~, s'il vous plaît.",
+       "rd": "씰 부 쁠래",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "햄버거",
+       "tx": "hamburger",
+       "rd": "엉붸흐게흐",
+       "ic": "🥓"
+      },
+      {
+       "ko": "파니니",
+       "tx": "panini",
+       "rd": "빠니니",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "샌드위치",
+       "tx": "sandwich",
+       "rd": "썽드위치",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "키슈",
+       "tx": "quiche",
+       "rd": "끼쉬",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "샤와르마",
+       "tx": "chawarma",
+       "rd": "샤와흐마",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "바게트 샌드위치",
+       "tx": "sandwich baguette",
+       "rd": "썽드위치 바게뜨",
+       "ic": "🦀"
+      },
+      {
+       "ko": "카프타",
+       "tx": "kafta",
+       "rd": "카프타",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "튀김 요리, 도넛",
+       "tx": "beignet",
+       "rd": "베니에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "피자",
+       "tx": "pizza",
+       "rd": "피자",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "감자튀김",
+       "tx": "pommes frites",
+       "rd": "뽐 프히뜨",
+       "ic": "🥔"
+      },
+      {
+       "ko": "수프",
+       "tx": "soupe",
+       "rd": "수프",
+       "ic": "🥣"
+      },
+      {
+       "ko": "크로크마담",
+       "tx": "croque-madame",
+       "rd": "크호끄 마담",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "오렌지 주스",
+       "tx": "jus d'orange",
+       "rd": "쥬 도헝쥐",
+       "ic": "🧃"
+      },
+      {
+       "ko": "케밥",
+       "tx": "kebab",
+       "rd": "께밥",
+       "ic": "🍚"
+      },
+      {
+       "ko": "커피",
+       "tx": "café",
+       "rd": "까페",
+       "ic": "☕"
+      }
+     ]
+    },
+    {
+     "title": "원포인트 — 속재료를 골라 봅시다",
+     "words": [
+      {
+       "ko": "~를 넣어 주세요.",
+       "tx": "Mettez-moi ~.",
+       "rd": "메떼 무아",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "상추",
+       "tx": "laitue",
+       "rd": "래뜌",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "훈제 베이컨",
+       "tx": "lard fumé",
+       "rd": "라흐 퓨메",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "닭고기",
+       "tx": "poulet",
+       "rd": "뿔레",
+       "ic": "🍗"
+      },
+      {
+       "ko": "토마토",
+       "tx": "tomate",
+       "rd": "또마트",
+       "ic": "🍅"
+      },
+      {
+       "ko": "생 햄",
+       "tx": "jambon cru",
+       "rd": "장봉 크휘",
+       "ic": "🥓"
+      },
+      {
+       "ko": "참치",
+       "tx": "thon",
+       "rd": "똔",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "채소",
+       "tx": "légumes",
+       "rd": "레귬므",
+       "ic": "🥬"
+      },
+      {
+       "ko": "치즈",
+       "tx": "fromage",
+       "rd": "프호마쥬",
+       "ic": "🧀"
+      },
+      {
+       "ko": "계란",
+       "tx": "œuf",
+       "rd": "어프",
+       "ic": "🥚"
+      },
+      {
+       "ko": "버터",
+       "tx": "beurre",
+       "rd": "베흐",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "마트에서 식재료를 직접 사 볼까요? — 그럼 주문을 해 봅시다",
+     "words": [
+      {
+       "ko": "안녕하세요.",
+       "tx": "Bonjour.",
+       "rd": "봉쥬흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "어서오세요. 무엇을 드릴까요?",
+       "tx": "Bonjour. Que désirez-vous?",
+       "rd": "봉쥬흐 끄 데지헤 부?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "타불레 200그램과 베이컨 키슈 한 조각 주세요.",
+       "tx": "Je voudrais 200 grammes de taboulé et une tranche de quiche au lard.",
+       "rd": "쥬 부드해 두썽 그햄므 드 따불레 에 윈느 트헝슈 드 끼쉬 오 라흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "다른 주문은요?",
+       "tx": "Et avec ça?",
+       "rd": "에 아베끄 싸?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "그리고 이 파테 100그램이요. / 더 없어요.",
+       "tx": "Et 100 grammes de ce pâté. / C'est tout.",
+       "rd": "에 썽 그햄므 드 쓰 빠떼 / 쎄 뚜",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "15유로입니다.",
+       "tx": "Ça fait 15 euros.",
+       "rd": "싸 패 깽쥬호",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "50유로 밖에 없네요. 거스름돈을 주시겠어요?",
+       "tx": "Je n'ai qu'un billet de 50 euros. Pouvez-vous me rendre la monnaie?",
+       "rd": "쥬 내 껑 비에 드 쌩껑 뜌호 뿌베 부 므 헝드흐 라 모내?",
+       "ic": "💶"
+      },
+      {
+       "ko": "네, 여기 35유로입니다.",
+       "tx": "Oui, voilà 35 euros.",
+       "rd": "위 부알라 트헝뜨 쌩큐호",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "감사합니다.",
+       "tx": "Merci.",
+       "rd": "멕씨",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 반찬 (Plat 쁠라)",
+     "words": [
+      {
+       "ko": "캐럿 라페",
+       "tx": "carottes râpées",
+       "rd": "꺄호트 하페",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "타불레",
+       "tx": "taboulé",
+       "rd": "따불레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "렌틸콩 계란 라구",
+       "tx": "ragoût de lentilles et œuf",
+       "rd": "하구 렁띨르 에 어프",
+       "ic": "🥚"
+      },
+      {
+       "ko": "샐러드",
+       "tx": "macédoine",
+       "rd": "마쎼두안",
+       "ic": "🥗"
+      },
+      {
+       "ko": "팔라펠",
+       "tx": "falafel",
+       "rd": "팔라플",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "파테 앙 쿠르트",
+       "tx": "pâté en croûte",
+       "rd": "빠떼 엉 크후트",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "프로마쥬 블랑 키슈",
+       "tx": "tarte au fromage blanc",
+       "rd": "따흐뜨 오 프호마쥬 블랑",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "연어 젤리",
+       "tx": "saumon en gelée",
+       "rd": "소몽 엉 쥴레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소 머리고기",
+       "tx": "museau de bœuf",
+       "rd": "뮈조 드 붸프",
+       "ic": "🥩"
+      },
+      {
+       "ko": "채소 볶음",
+       "tx": "légumes grillés",
+       "rd": "레귬므 그히에",
+       "ic": "🥬"
+      },
+      {
+       "ko": "햄치즈 샌드위치",
+       "tx": "sandwich au jambon cru et au fromage",
+       "rd": "썽드위치 오 장봉 크휘 에 오 프호마쥬",
+       "ic": "🧀"
+      },
+      {
+       "ko": "닭고기 우엉 구이",
+       "tx": "poulet et bardane cuit",
+       "rd": "뿔레 에 바흐단느 뀌뜨",
+       "ic": "🍗"
+      },
+      {
+       "ko": "파 타르트",
+       "tx": "tarte aux poireaux",
+       "rd": "따흐뜨 오 뿌아호",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "토끼고기 젤리",
+       "tx": "lapin en gelée",
+       "rd": "라빵 엉 쥴레",
+       "ic": "🍖"
+      },
+      {
+       "ko": "훈제 연어",
+       "tx": "saumon fumé",
+       "rd": "소몽 퓨메",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "다양한 전채 요리",
+       "tx": "hors-d'œuvre varié",
+       "rd": "오흐 도브흐 배히에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "연어 밀푀유",
+       "tx": "millefeuille de saumon",
+       "rd": "밀푀이으 드 소몽",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소시지",
+       "tx": "saucisse",
+       "rd": "소씨쓰",
+       "ic": "🌭"
+      },
+      {
+       "ko": "테린",
+       "tx": "terrine",
+       "rd": "떼힌느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "올리브",
+       "tx": "olive",
+       "rd": "올리브",
+       "ic": "🫒"
+      },
+      {
+       "ko": "포토푀",
+       "tx": "pot-au-feu",
+       "rd": "포또푀",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "페네",
+       "tx": "penne",
+       "rd": "뻰느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "바구니에 넣은 도시락",
+       "tx": "panier repas",
+       "rd": "빼니에 흐빠",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "달달한 간식도 여행의 또 다른 재미죠",
+     "words": [
+      {
+       "ko": "마시멜로우",
+       "tx": "guimauve",
+       "rd": "기모브",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "밀푀유",
+       "tx": "millefeuille",
+       "rd": "밀푀이으",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "캐러멜",
+       "tx": "caramel",
+       "rd": "까하멜",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사과 타르트",
+       "tx": "tarte tatin",
+       "rd": "따흐뜨 따떵",
+       "ic": "🍎"
+      },
+      {
+       "ko": "쇼송 오 뽐므",
+       "tx": "chausson aux pommes",
+       "rd": "쇼쏭 오 뽐므",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "마카롱",
+       "tx": "macaron",
+       "rd": "마꺄홍",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "과일에 대한 단어를 알아 둡시다",
+     "words": [
+      {
+       "ko": "블루베리",
+       "tx": "myrtille",
+       "rd": "미흐띠으",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사과",
+       "tx": "pomme",
+       "rd": "뽐므",
+       "ic": "🍎"
+      },
+      {
+       "ko": "자두",
+       "tx": "prune",
+       "rd": "프휜느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "살구",
+       "tx": "abricot",
+       "rd": "아브히코",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "배",
+       "tx": "poire",
+       "rd": "뿌아흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "복숭아",
+       "tx": "pêche",
+       "rd": "뻬슈",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "딸기",
+       "tx": "fraise",
+       "rd": "프헤즈",
+       "ic": "🍓"
+      },
+      {
+       "ko": "레몬",
+       "tx": "citron",
+       "rd": "시트홍",
+       "ic": "🍋"
+      }
+     ]
+    },
+    {
+     "title": "달달한 간식 (디저트 종류)",
+     "words": [
+      {
+       "ko": "몽블랑",
+       "tx": "Mont Blanc",
+       "rd": "몽 블랑",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사블레",
+       "tx": "sablé",
+       "rd": "사블레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "무스",
+       "tx": "mousse",
+       "rd": "무스",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "에끌레어",
+       "tx": "éclair",
+       "rd": "에끌래흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "까눌레",
+       "tx": "cannelé",
+       "rd": "꺄늘레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사탕",
+       "tx": "bonbon",
+       "rd": "봉봉",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "여기서 먹어도 되나요?",
+       "tx": "Est-ce qu'on peut manger ici?",
+       "rd": "에 스 꽁 뿌 멍쥬 이씨?",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "선물용으로 포장해 주시겠어요?",
+       "tx": "C'est pour offrir.",
+       "rd": "쎄 뿌흐 오프히흐",
+       "ic": "💧"
+      },
+      {
+       "ko": "얼마동안 신선하게 유지되나요?",
+       "tx": "Se conservent-ils longtemps?",
+       "rd": "쓰 꽁세흐브 띨 롱떵?",
+       "ic": "🦀"
+      }
+     ]
+    },
+    {
+     "title": "내 입맛에 맞는 갈레트와 크레이프를 맛보고 싶어요",
+     "words": [
+      {
+       "ko": "갈레트",
+       "tx": "galette",
+       "rd": "갈레뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "크레이프",
+       "tx": "crêpe",
+       "rd": "크헤프",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "베이컨",
+       "tx": "bacon",
+       "rd": "베컨느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "치즈",
+       "tx": "fromage",
+       "rd": "프호마쥬",
+       "ic": "🧀"
+      },
+      {
+       "ko": "크렘 프레슈",
+       "tx": "crème fraîche",
+       "rd": "크헴 프헤쉬",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "에그 프라이",
+       "tx": "œuf sur le plat",
+       "rd": "어프 쉬흐 르 쁠라",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "블루베리 잼",
+       "tx": "confiture de myrtilles",
+       "rd": "꽁피뛰흐 드 미흐띠으",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "메뉴판을 Check! — 짭짤한 크레이프 (crêpe salée)",
+     "words": [
+      {
+       "ko": "짭짤한 크레이프",
+       "tx": "crêpe salée",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "햄",
+       "tx": "jambon",
+       "rd": "",
+       "ic": "🥓"
+      },
+      {
+       "ko": "치즈",
+       "tx": "fromage",
+       "rd": "",
+       "ic": "🧀"
+      },
+      {
+       "ko": "저민 고기",
+       "tx": "viande hachée",
+       "rd": "",
+       "ic": "🥩"
+      },
+      {
+       "ko": "계란",
+       "tx": "œuf",
+       "rd": "",
+       "ic": "🥚"
+      },
+      {
+       "ko": "참치",
+       "tx": "thon",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "닭고기",
+       "tx": "poulet",
+       "rd": "",
+       "ic": "🍗"
+      },
+      {
+       "ko": "버섯",
+       "tx": "champignon",
+       "rd": "",
+       "ic": "🍄"
+      },
+      {
+       "ko": "토마토",
+       "tx": "tomate",
+       "rd": "",
+       "ic": "🍅"
+      },
+      {
+       "ko": "소시지",
+       "tx": "saucisse",
+       "rd": "",
+       "ic": "🌭"
+      },
+      {
+       "ko": "앤초비",
+       "tx": "anchois",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "훈제 연어",
+       "tx": "saumon fumé",
+       "rd": "",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "메뉴판을 Check! — 달달한 크레이프 (crêpe sucrée)",
+     "words": [
+      {
+       "ko": "달달한 크레이프",
+       "tx": "crêpe sucrée",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "꿀",
+       "tx": "miel",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "아몬드",
+       "tx": "amande",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "코코넛",
+       "tx": "noix de coco",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "설탕",
+       "tx": "sucre",
+       "rd": "",
+       "ic": "🍬"
+      },
+      {
+       "ko": "버터",
+       "tx": "beurre",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "레몬",
+       "tx": "citron",
+       "rd": "",
+       "ic": "🍋"
+      },
+      {
+       "ko": "크렘 드 마롱",
+       "tx": "crème de marron",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "사과 콩포트",
+       "tx": "compote de pomme",
+       "rd": "",
+       "ic": "🍎"
+      },
+      {
+       "ko": "누텔라",
+       "tx": "Nutella",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "바나나",
+       "tx": "banane",
+       "rd": "",
+       "ic": "🍌"
+      },
+      {
+       "ko": "잼 (딸기, 살구, 딸기나무)",
+       "tx": "confiture (fraise, abricot, framboise)",
+       "rd": "",
+       "ic": "🍓"
+      },
+      {
+       "ko": "그랑 마니에르, 설탕",
+       "tx": "grand marnier, sucre",
+       "rd": "",
+       "ic": "🍬"
+      },
+      {
+       "ko": "초콜릿",
+       "tx": "chocolat",
+       "rd": "",
+       "ic": "🍫"
+      },
+      {
+       "ko": "아이스크림",
+       "tx": "glace",
+       "rd": "",
+       "ic": "🍦"
+      },
+      {
+       "ko": "카라멜",
+       "tx": "caramel",
+       "rd": "",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "딸기",
+       "tx": "fraise",
+       "rd": "",
+       "ic": "🍓"
+      },
+      {
+       "ko": "복숭아",
+       "tx": "pêche",
+       "rd": "",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "와인을 똑똑하게 고르는 방법 — 와인 리스트",
+     "words": [
+      {
+       "ko": "레드 와인",
+       "tx": "vin rouge",
+       "rd": "방 후즈",
+       "ic": "🍷"
+      },
+      {
+       "ko": "화이트 와인",
+       "tx": "vin blanc",
+       "rd": "방 블랑",
+       "ic": "🍷"
+      },
+      {
+       "ko": "로제 와인",
+       "tx": "vin rosé",
+       "rd": "방 호제",
+       "ic": "🍷"
+      },
+      {
+       "ko": "하우스 와인",
+       "tx": "vin de la maison",
+       "rd": "방 드 라 메종",
+       "ic": "🍷"
+      },
+      {
+       "ko": "샴페인 & 스파클링 와인",
+       "tx": "Champagne et Crémant",
+       "rd": "샴페인 에 크레망",
+       "ic": "🍷"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어 (와인)",
+     "words": [
+      {
+       "ko": "원산지",
+       "tx": "origine",
+       "rd": "오히쥔느",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "상표",
+       "tx": "marque",
+       "rd": "마흐끄",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "제조년도",
+       "tx": "millésime",
+       "rd": "밀레짐므",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "포도",
+       "tx": "raisin",
+       "rd": "해장",
+       "ic": "🍇"
+      },
+      {
+       "ko": "등급",
+       "tx": "classement",
+       "rd": "끌래쓰멍",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "마실 준비가 된",
+       "tx": "prêt à boire",
+       "rd": "프레 따 부아흐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "소믈리에",
+       "tx": "sommelier",
+       "rd": "소믈리에",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "드라이",
+       "tx": "sec",
+       "rd": "섹",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "단",
+       "tx": "doux",
+       "rd": "두",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "신맛",
+       "tx": "acidité",
+       "rd": "아시디떼",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "향",
+       "tx": "arôme",
+       "rd": "아홈므",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "과일향이 나는",
+       "tx": "fruité",
+       "rd": "프휘떼",
+       "ic": "🍎"
+      },
+      {
+       "ko": "시원한",
+       "tx": "frais",
+       "rd": "프해",
+       "ic": "🍽️"
+      }
+     ]
+    },
+    {
+     "title": "여러 가지 수량을 재는 단위",
+     "words": [
+      {
+       "ko": "1킬로당 3유로",
+       "tx": "3 euros le kilo",
+       "rd": "투와 에호 르 낄로",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1병당 1.5 유로",
+       "tx": "1.5 euro la bouteille",
+       "rd": "엉 베흐귤 쌍뀨호 라 부떼이으",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1병",
+       "tx": "une bouteille",
+       "rd": "윈느 부떼이으",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1상자, 캔",
+       "tx": "une boîte",
+       "rd": "윈느 부아뜨",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1봉지",
+       "tx": "un sachet",
+       "rd": "윈느 싸쉐",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1팩",
+       "tx": "un paquet",
+       "rd": "엉 빠께",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1개",
+       "tx": "une pièce",
+       "rd": "윈느 삐에스",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1망",
+       "tx": "un filet",
+       "rd": "엉 필레",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1바구니",
+       "tx": "un panier",
+       "rd": "엉 빠니예",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1그루",
+       "tx": "un pied",
+       "rd": "엉 피예",
+       "ic": "🍽️"
+      },
+      {
+       "ko": "1다스",
+       "tx": "une douzaine",
+       "rd": "윈느 두잰느",
+       "ic": "🍽️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "shopping",
+   "title": "쇼핑",
+   "emoji": "🛍️",
+   "sections": [
+    {
+     "title": "LOOK — 상점 종류·브랜드",
+     "words": [
+      {
+       "ko": "~은 어디에 있나요?",
+       "tx": "Où se trouve ~?",
+       "rd": "우 쓰 트후브",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "백화점",
+       "tx": "grand magasin",
+       "rd": "그헝 마가장",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "셀렉 샵",
+       "tx": "boutique select",
+       "rd": "부띠끄 셀렉뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "슈퍼마켓",
+       "tx": "supermarché",
+       "rd": "수뻬흐마흑쉐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "쇼핑몰",
+       "tx": "centre commercial",
+       "rd": "썽트흐 꼬멕씨알",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "옷 가게",
+       "tx": "magasin de vêtements",
+       "rd": "마가장 드 베뜨멍",
+       "ic": "🦀"
+      },
+      {
+       "ko": "신발 가게",
+       "tx": "magasin de chaussures",
+       "rd": "마가장 드 쇼쉬흐",
+       "ic": "🦀"
+      },
+      {
+       "ko": "가방 가게",
+       "tx": "bagagerie",
+       "rd": "바가제히",
+       "ic": "🦀"
+      },
+      {
+       "ko": "면세점",
+       "tx": "duty-free, boutique hors taxes",
+       "rd": "듀티프히, 부띠끄 오흐 딱쓰",
+       "ic": "🍜"
+      },
+      {
+       "ko": "루이 비통",
+       "tx": "LOUIS VUITTON",
+       "rd": "루이뷔똥",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "에르메스",
+       "tx": "HERMES",
+       "rd": "에흐메스",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샤넬",
+       "tx": "CHANEL",
+       "rd": "샤넬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "까르띠에",
+       "tx": "Cartier",
+       "rd": "꺄흐띠에",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "디올",
+       "tx": "Dior",
+       "rd": "디오흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "셀린느",
+       "tx": "CELINE",
+       "rd": "셀린느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "끌로에",
+       "tx": "Chloé",
+       "rd": "끌로에",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "니나 리치",
+       "tx": "NinaRicci",
+       "rd": "니나리치",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "랑방",
+       "tx": "LANVIN",
+       "rd": "랑방",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "지방시",
+       "tx": "GIVENCHY",
+       "rd": "지방시",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "쿠레쥬",
+       "tx": "Courrèges",
+       "rd": "꾸레쥬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "롱샴",
+       "tx": "LONGCHAMP",
+       "rd": "롱셩",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "반클리프 아펠",
+       "tx": "Van Cleef & Arpels",
+       "rd": "방 클리프 & 아뻴",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "프라다",
+       "tx": "PRADA",
+       "rd": "프하다",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "구찌",
+       "tx": "GUCCI",
+       "rd": "구찌",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "불가리",
+       "tx": "BVLGARI",
+       "rd": "불갸히",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어 (의류 사이즈·형용사)",
+     "words": [
+      {
+       "ko": "사이즈",
+       "tx": "pointure / taille",
+       "rd": "뿌앙뛰흐 / 따이으",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "큰",
+       "tx": "grand / grande(여)",
+       "rd": "그헝 / 그헝드",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "긴팔",
+       "tx": "manches longues",
+       "rd": "멍슈 롱그",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "작다",
+       "tx": "petit / petite(여)",
+       "rd": "쁘띠 / 쁘띠뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "길다",
+       "tx": "long / longue(여)",
+       "rd": "롱 / 롱그",
+       "ic": "🛣️"
+      },
+      {
+       "ko": "짧다",
+       "tx": "court / courte(여)",
+       "rd": "꾸흐 / 꾸흐뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "꼭 맞다",
+       "tx": "serré / serrée(여)",
+       "rd": "쎄헤 / 쎄헤",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "반팔",
+       "tx": "manches courtes",
+       "rd": "멍슈 꾸흐뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "두껍다",
+       "tx": "épais / épaisse(여)",
+       "rd": "에빼 / 에빼쓰",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "얇다",
+       "tx": "fin / fine(여)",
+       "rd": "팡 / 핀느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "꼭 맞다",
+       "tx": "juste",
+       "rd": "쥬스뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "수수하다",
+       "tx": "sobre",
+       "rd": "쏘브흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "민소매",
+       "tx": "sans manches",
+       "rd": "썽 멍슈",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (소재·촉감·색)",
+     "words": [
+      {
+       "ko": "부드럽다",
+       "tx": "mou / molle",
+       "rd": "무 / 몰르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "거칠다",
+       "tx": "dur / dure",
+       "rd": "뒤흐 / 뒤흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "면",
+       "tx": "coton",
+       "rd": "꼬똥",
+       "ic": "🍜"
+      },
+      {
+       "ko": "실크",
+       "tx": "soie",
+       "rd": "수아",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "리넨",
+       "tx": "lin",
+       "rd": "렁",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "울",
+       "tx": "laine",
+       "rd": "랜느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스웨이드 가죽",
+       "tx": "daim",
+       "rd": "당",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "인조 가죽",
+       "tx": "faux cuir",
+       "rd": "포 퀴흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "밝은 색",
+       "tx": "clair",
+       "rd": "끌래흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "어두운 색",
+       "tx": "sombre",
+       "rd": "쏭브흐",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 패션 (Mode 모드)",
+     "words": [
+      {
+       "ko": "~ 부탁합니다.",
+       "tx": "~, s'il vous plaît.",
+       "rd": "씰 부 쁠래",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "티셔츠",
+       "tx": "t-shirt",
+       "rd": "띠 셔흐뜨",
+       "ic": "👔"
+      },
+      {
+       "ko": "재킷",
+       "tx": "veste",
+       "rd": "베스트",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "블라우스",
+       "tx": "chemisier",
+       "rd": "슈미지에",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스웨터",
+       "tx": "pull-over / chandail",
+       "rd": "쀌로버흐 / 셩다이으",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "카디건",
+       "tx": "cardigan",
+       "rd": "꺄흐디겅",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "치마",
+       "tx": "jupe",
+       "rd": "쥐쁘",
+       "ic": "👗"
+      },
+      {
+       "ko": "청바지",
+       "tx": "jeans",
+       "rd": "진",
+       "ic": "👖"
+      },
+      {
+       "ko": "코트",
+       "tx": "manteau",
+       "rd": "멍또",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "캐미솔",
+       "tx": "camisole",
+       "rd": "깨미솔",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "셔츠",
+       "tx": "chemise",
+       "rd": "슈미즈",
+       "ic": "👔"
+      },
+      {
+       "ko": "긴 바지",
+       "tx": "pantalon",
+       "rd": "빵딸롱",
+       "ic": "👖"
+      },
+      {
+       "ko": "스톨",
+       "tx": "étole",
+       "rd": "에똘르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "헤어 액세서리",
+       "tx": "accessoire cheveux",
+       "rd": "액쎄수아흐 슈부",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "원피스",
+       "tx": "robe",
+       "rd": "호브",
+       "ic": "👚"
+      },
+      {
+       "ko": "펜던트",
+       "tx": "pendentif",
+       "rd": "뻥덩띠프",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스카프",
+       "tx": "écharpe",
+       "rd": "에쨔흐쁘",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "머플러",
+       "tx": "foulard",
+       "rd": "풀라흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "넥타이",
+       "tx": "cravate",
+       "rd": "크하바트",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "브로치",
+       "tx": "broche",
+       "rd": "브호슈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "모자",
+       "tx": "chapeau",
+       "rd": "샤뽀",
+       "ic": "🧢"
+      },
+      {
+       "ko": "팬티",
+       "tx": "slip (de femme)",
+       "rd": "슬리프(드 팜므)",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "지갑",
+       "tx": "portefeuille",
+       "rd": "포흐뜨풔이으",
+       "ic": "👛"
+      },
+      {
+       "ko": "브래지어",
+       "tx": "soutien-gorge",
+       "rd": "수띠앙 고흐쥬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "선글라스",
+       "tx": "lunettes de soleil",
+       "rd": "뤼네뜨 드 쏠레이",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스타킹",
+       "tx": "bas / collant",
+       "rd": "바 / 꼴롱",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "장갑",
+       "tx": "gants",
+       "rd": "겅",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "양말",
+       "tx": "chaussettes",
+       "rd": "쇼세프",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "세탁이 가능한가요?",
+       "tx": "Est-ce lavable?",
+       "rd": "에 스 라바블르?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "조금 더 싼[비싼] 것이 있나요?",
+       "tx": "Avez-vous quelque chose de moins [plus] cher?",
+       "rd": "아베 부 껠끄 쇼즈 드 무앙 [쁠뤼] 쉐흐?",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 색 (Couleur 꿀러흐)",
+     "words": [
+      {
+       "ko": "~가 있나요?",
+       "tx": "Avez-vous ~?",
+       "rd": "아베 부 ~?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "검은색",
+       "tx": "noir / noire",
+       "rd": "누아 / 누아흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "흰색",
+       "tx": "blanc / blanche",
+       "rd": "블랑 / 블랑슈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "빨강",
+       "tx": "rouge",
+       "rd": "후즈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파랑",
+       "tx": "bleu / bleue",
+       "rd": "블루 / 블루",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "노랑",
+       "tx": "jaune",
+       "rd": "죤느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "초록",
+       "tx": "vert / verte",
+       "rd": "베흐 / 베흐뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "분홍",
+       "tx": "rose",
+       "rd": "호즈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "주황",
+       "tx": "orange",
+       "rd": "오헝쥐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보라",
+       "tx": "violet / violette",
+       "rd": "비올레 / 비올레뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이보리색",
+       "tx": "ivoire",
+       "rd": "이부아흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "베이지색",
+       "tx": "beige",
+       "rd": "베쥬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "갈색",
+       "tx": "marron",
+       "rd": "마홍",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "금색",
+       "tx": "doré / dorée",
+       "rd": "도헤 / 도헤",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "은색",
+       "tx": "argenté / argentée",
+       "rd": "아흐정떼 / 아흐정떼",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "LOOK — 무늬 (Motif 모띠프)",
+     "words": [
+      {
+       "ko": "줄무늬",
+       "tx": "rayé",
+       "rd": "하예",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "체크무늬",
+       "tx": "à carreaux",
+       "rd": "아 꺄호",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "물방울무늬",
+       "tx": "à pois",
+       "rd": "아 뿌아",
+       "ic": "💧"
+      },
+      {
+       "ko": "꽃무늬",
+       "tx": "motif de fleurs",
+       "rd": "모띠프 드 플러흐",
+       "ic": "💐"
+      },
+      {
+       "ko": "민무늬",
+       "tx": "uni",
+       "rd": "위니",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "유행하는",
+       "tx": "à la mode",
+       "rd": "아 라 모드",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (신발)",
+     "words": [
+      {
+       "ko": "무도화",
+       "tx": "escarpins",
+       "rd": "에스꺄흐빵",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "하이힐",
+       "tx": "souliers à talons hauts",
+       "rd": "쑬리에 아 딸롱 조",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샌들",
+       "tx": "sandales",
+       "rd": "썽달르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "실내 슬리퍼",
+       "tx": "mules",
+       "rd": "뮬르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "발레화",
+       "tx": "ballerine",
+       "rd": "발르힌느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "장화",
+       "tx": "bottes",
+       "rd": "보트",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "부츠",
+       "tx": "boots",
+       "rd": "부츠",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "하프 부츠",
+       "tx": "bottines",
+       "rd": "부틴느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "롱 부츠",
+       "tx": "bottes",
+       "rd": "보트",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스니커즈",
+       "tx": "sneakers",
+       "rd": "스니커즈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "천으로 만든",
+       "tx": "en toile",
+       "rd": "엉 뚜알르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "가죽으로 만든",
+       "tx": "en cuir",
+       "rd": "엉 퀴흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "걷기 편한",
+       "tx": "facile à marcher",
+       "rd": "파씰 아 막쉐",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (가방)",
+     "words": [
+      {
+       "ko": "핸드백",
+       "tx": "sac à main",
+       "rd": "싹 까 망",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "숄더 백",
+       "tx": "sac à bandoulière",
+       "rd": "싹 까 벙둘리에흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "여행용 가방",
+       "tx": "valise",
+       "rd": "발리즈",
+       "ic": "👜"
+      },
+      {
+       "ko": "여행용",
+       "tx": "de voyage",
+       "rd": "드 부아야쥐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "업무용",
+       "tx": "de travail",
+       "rd": "드 트라바이으",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "일상용",
+       "tx": "de tous les jours",
+       "rd": "드 뚜 레 쥬흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "끈이 있는[없는]",
+       "tx": "avec [sans] bandoulière",
+       "rd": "아베끄 [썽] 벙둘리에흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "주머니",
+       "tx": "poche",
+       "rd": "뽀슈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "지퍼",
+       "tx": "fermeture éclair",
+       "rd": "페흐메떠흐 에끌래흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "가죽으로 만든",
+       "tx": "en cuir",
+       "rd": "엉 퀴흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "천으로 만든",
+       "tx": "en toile(tissu)",
+       "rd": "엉 뚜알르 (띠슈)",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "방수가 되는",
+       "tx": "résistant à l'eau",
+       "rd": "헤지스떵 따 로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "소상인",
+       "tx": "petit commerçant",
+       "rd": "쁘띠 꼬메흐씽",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "잡화, 액세서리, 수예 용품 (Articles de ménage / accessoire / mercerie)",
+     "words": [
+      {
+       "ko": "~ 부탁합니다.",
+       "tx": "~, s'il vous plaît.",
+       "rd": "씰 부 쁠래",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "반지",
+       "tx": "bague",
+       "rd": "바그",
+       "ic": "💍"
+      },
+      {
+       "ko": "목걸이",
+       "tx": "collier",
+       "rd": "꼴리에",
+       "ic": "📿"
+      },
+      {
+       "ko": "팔찌",
+       "tx": "bracelet",
+       "rd": "브하슬레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "귀걸이",
+       "tx": "boucles d'oreilles",
+       "rd": "부끌르 도헤이오",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "넥타이 핀",
+       "tx": "épingle de cravate",
+       "rd": "에빵글르 드 크하바뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "브로치",
+       "tx": "broche",
+       "rd": "브호슈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "커프스 단추",
+       "tx": "bouton de manchette",
+       "rd": "부똥 드 멍쉐뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "단추",
+       "tx": "bouton",
+       "rd": "부똥",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "천",
+       "tx": "tissu",
+       "rd": "띠슈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "휘장",
+       "tx": "écusson",
+       "rd": "에뀌쏭",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "재봉틀 실",
+       "tx": "fil pour machine à coudre",
+       "rd": "필 뿌흐 머쉬느 아 꾸드흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "리본",
+       "tx": "ruban",
+       "rd": "휘봉",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "비즈",
+       "tx": "perle de verre",
+       "rd": "뻬흘르 드 베흐",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (수예 용품)",
+     "words": [
+      {
+       "ko": "금",
+       "tx": "or",
+       "rd": "오흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "은",
+       "tx": "argent",
+       "rd": "아흐정",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "백금",
+       "tx": "platine",
+       "rd": "쁠라띤느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "캐럿",
+       "tx": "carat",
+       "rd": "꺄하",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스테인리스",
+       "tx": "acier inoxydable",
+       "rd": "아시에 이녹시다블르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "장식핀",
+       "tx": "épingle",
+       "rd": "에빵글르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스팽글",
+       "tx": "paillette",
+       "rd": "빠이예뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "레이스",
+       "tx": "dentelle",
+       "rd": "덩뗄르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "식탁보",
+       "tx": "nappe",
+       "rd": "나쁘",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "키드",
+       "tx": "kit",
+       "rd": "끼트",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "뜨개질",
+       "tx": "tricot",
+       "rd": "트히꼬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자수실",
+       "tx": "fil à broder",
+       "rd": "필 아 브호데",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "무명실",
+       "tx": "fil de coton",
+       "rd": "필 드 꼬똥",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "실패",
+       "tx": "bobine",
+       "rd": "보빈느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "패치워크",
+       "tx": "patchwork",
+       "rd": "빠치워흐크",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "펠트",
+       "tx": "feutre",
+       "rd": "푸트흐",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "화장품 라벨에 표시된 단어장",
+     "words": [
+      {
+       "ko": "안티에이징",
+       "tx": "anti-âge",
+       "rd": "엉띠 아쥐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "얼룩을 쉽게 지우는",
+       "tx": "antitache",
+       "rd": "엉띠따쉬",
+       "ic": "🦀"
+      },
+      {
+       "ko": "주름",
+       "tx": "ride",
+       "rd": "히드",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "모공",
+       "tx": "pore",
+       "rd": "뽀흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "식물성의",
+       "tx": "végétal",
+       "rd": "베제딸",
+       "ic": "💧"
+      },
+      {
+       "ko": "무착색",
+       "tx": "sans colorant",
+       "rd": "썽 꼴로헝",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "무향료",
+       "tx": "sans arôme",
+       "rd": "썽 아홈므",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "방부제 무사용",
+       "tx": "sans antiseptique",
+       "rd": "썽 엉티셉티크",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보존료 무사용",
+       "tx": "sans conservateur",
+       "rd": "썽 꽁쎄흐바뙤흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "유기농",
+       "tx": "bio",
+       "rd": "비오",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "화장품 (Produits de beauté) — LOOK",
+     "words": [
+      {
+       "ko": "~은 있나요?",
+       "tx": "Avez-vous ~ ?",
+       "rd": "아베 부 ~ ?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "밀크 로션",
+       "tx": "lait de beauté",
+       "rd": "래 드 보떼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "미용 크림",
+       "tx": "crème de beauté",
+       "rd": "크헴 드 보떼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "세럼",
+       "tx": "sérum",
+       "rd": "세험므",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "메이크업 리무버",
+       "tx": "démaquillant",
+       "rd": "데마끼엉",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "립밤",
+       "tx": "crème à lèvres",
+       "rd": "크헴 아 레브흐",
+       "ic": "🌙"
+      },
+      {
+       "ko": "각질 제거",
+       "tx": "gommage",
+       "rd": "고마쥬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "로션",
+       "tx": "lotion",
+       "rd": "로씨옹",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "데이 크림",
+       "tx": "crème de jour",
+       "rd": "크헴 드 쥬흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "세안제",
+       "tx": "nettoyant",
+       "rd": "네뚜아영",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "마스크 팩",
+       "tx": "masque",
+       "rd": "마스크",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보습제",
+       "tx": "crème hydratante",
+       "rd": "크헴 이드하떵뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "나이트 크림",
+       "tx": "crème de nuit",
+       "rd": "크헴 드 뉘",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "헤어, 바디케어",
+       "tx": "Soin du corps et du cheveau",
+       "rd": "수앙 뒤 꼬흐 에 뒤 슈부",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "비누",
+       "tx": "savon",
+       "rd": "싸봉",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보디 오일",
+       "tx": "huile pour le corps",
+       "rd": "윌 뿌흐 르 꼬흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "페이셜 오일",
+       "tx": "huile pour le visage",
+       "rd": "윌 뿌흐 르 비자쥬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "향수",
+       "tx": "parfum",
+       "rd": "빠흐펑",
+       "ic": "🌸"
+      },
+      {
+       "ko": "로즈 미스트",
+       "tx": "eau de rose",
+       "rd": "오 드 호즈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샴푸",
+       "tx": "shampooing",
+       "rd": "셩뿌앙",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "헤어 트리트먼트",
+       "tx": "soin reconstituant",
+       "rd": "수앙 허꽁스띠뜌엉",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "린스",
+       "tx": "après-shampooing",
+       "rd": "아프레 셩뿌앙",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샤워 젤",
+       "tx": "gel douche",
+       "rd": "젤 두슈",
+       "ic": "🚿"
+      },
+      {
+       "ko": "향수 신제품이 있나요?",
+       "tx": "Avez-vous des nouveaux parfums?",
+       "rd": "아베 부 데 누보 빠흐펑?",
+       "ic": "🌸"
+      },
+      {
+       "ko": "세럼 샘플이 있나요?",
+       "tx": "Avez-vous des échantillons de sérum?",
+       "rd": "아베 부 데 제셩띠용 드 세험므?",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "화장품 (Produits de beauté) — LOOK (추천 표현·메이크업)",
+     "words": [
+      {
+       "ko": "어떤 ~을 추천하시나요?",
+       "tx": "Qu'est-ce-que vous recommandez comme ~ ?",
+       "rd": "께 쓰 끄 부 흐꼬몽데 꼼므 ~ ?",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아로마 오일",
+       "tx": "huile aromatique",
+       "rd": "윌 아호마띠크",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "호호바 오일",
+       "tx": "huile de jojoba",
+       "rd": "윌 드 조조바",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아르간 오일",
+       "tx": "huile d'argan",
+       "rd": "윌 다흐겅",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "밀 배아 오일",
+       "tx": "huile de germes de blé",
+       "rd": "윌 드 제흠므드 블레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아로마 젤",
+       "tx": "gel aromatique",
+       "rd": "젤 아호마띠크",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "시어 버터",
+       "tx": "beurre de karité",
+       "rd": "베흐 드 꺄히떼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "에센셜 오일",
+       "tx": "huile essentielle",
+       "rd": "윌 레썽씨엘르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "시어 버터 크림",
+       "tx": "crème de beurre de karité",
+       "rd": "크헴 드 베흐 드 꺄히떼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "립스틱",
+       "tx": "rouge à lèvres",
+       "rd": "후즈 아 레브흐",
+       "ic": "💄"
+      },
+      {
+       "ko": "마스카라",
+       "tx": "mascara",
+       "rd": "마스꺄하",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "매니큐어",
+       "tx": "vernis à ongles",
+       "rd": "베흐니 아 옹글르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "블러셔",
+       "tx": "fard à joues",
+       "rd": "파흐 아 쥬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이라이너",
+       "tx": "crayon pour les yeux",
+       "rd": "크래용 뿌흐 레 지유",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이쉐도우",
+       "tx": "fard à paupières",
+       "rd": "파흐 아 뽀삐에흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파운데이션",
+       "tx": "fond de teint",
+       "rd": "퐁 드 땅",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파우더",
+       "tx": "poudre",
+       "rd": "뿌드흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이브로우",
+       "tx": "crayon sourcils",
+       "rd": "크래용 쑥씨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "립글로스",
+       "tx": "gloss",
+       "rd": "글로스",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "메이크업 베이스",
+       "tx": "crème de base",
+       "rd": "크헴 드 바즈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "컨실러",
+       "tx": "correcteur",
+       "rd": "꼬헥크떠흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "립 라이너",
+       "tx": "crayon à lèvres",
+       "rd": "크래용 아 레브흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "리퀴드 아이라이너",
+       "tx": "liquide pour les yeux",
+       "rd": "리키드 뿌흐 레 지유",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "톤업 크림",
+       "tx": "embellisseur de teint",
+       "rd": "엉벨리써흐 드 땅",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스펀지 팁",
+       "tx": "applicateur mousse",
+       "rd": "아쁠리꺄떠흐 무쓰",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아이 크림",
+       "tx": "crème pour les yeux",
+       "rd": "크헴 뿌흐 레 지유",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "솜",
+       "tx": "coton",
+       "rd": "꼬똥",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "워터프루프",
+       "tx": "résistant à l'eau",
+       "rd": "헤지스떵 따 로",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (피부·화장품)",
+     "words": [
+      {
+       "ko": "여드름",
+       "tx": "bouton",
+       "rd": "부똥",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "다크닝",
+       "tx": "peau sombre",
+       "rd": "뽀 쏭브흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "다크서클",
+       "tx": "cerne",
+       "rd": "쎄흔느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "건조",
+       "tx": "dessèchement",
+       "rd": "디쎄쉬멍",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "모공",
+       "tx": "pore",
+       "rd": "뽀흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "피부 처짐",
+       "tx": "relâchement de peau",
+       "rd": "헐라슈멍 드 뽀",
+       "ic": "🧳"
+      },
+      {
+       "ko": "미백",
+       "tx": "blanchissement",
+       "rd": "블렁쉬쓰멍",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자외선",
+       "tx": "ultraviolet",
+       "rd": "윌트라비올레",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "보습",
+       "tx": "hydratant",
+       "rd": "이드하떵",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "지성 피부",
+       "tx": "peau grasse",
+       "rd": "뽀 그하쓰",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "알레르기",
+       "tx": "allergie",
+       "rd": "알레흐쥐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "콜라겐",
+       "tx": "collagène",
+       "rd": "꼴라줸느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "비타민",
+       "tx": "vitamine",
+       "rd": "비타민느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "천연 성분",
+       "tx": "composant naturel",
+       "rd": "꽁뽀정 나튜헬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "민감성 피부",
+       "tx": "peau sensible",
+       "rd": "뽀 썽씨블르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "건성 피부",
+       "tx": "peau sèche",
+       "rd": "뽀 쎄슈",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "슈퍼마켓이나 백화점에서 기념품 쇼핑하기",
+     "words": [
+      {
+       "ko": "올리브",
+       "tx": "olive",
+       "rd": "올리브",
+       "ic": "🫒"
+      },
+      {
+       "ko": "수프 (고체 육수)",
+       "tx": "bouillon",
+       "rd": "부이용",
+       "ic": "🥣"
+      },
+      {
+       "ko": "소시지",
+       "tx": "saucisse",
+       "rd": "소씨쓰",
+       "ic": "🌭"
+      },
+      {
+       "ko": "라즈베리",
+       "tx": "framboise",
+       "rd": "프헝부아즈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "건조 버섯",
+       "tx": "champignon séché",
+       "rd": "셩삐뇽 쎄쉐",
+       "ic": "🍄"
+      },
+      {
+       "ko": "크렘 드 마롱",
+       "tx": "crème de marrons",
+       "rd": "크헴 드 마홍",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (식료품)",
+     "words": [
+      {
+       "ko": "와인",
+       "tx": "vin",
+       "rd": "방",
+       "ic": "🍷"
+      },
+      {
+       "ko": "잼",
+       "tx": "confiture",
+       "rd": "꽁피뛰흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "사프란",
+       "tx": "safran",
+       "rd": "싸프헝",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "홍차",
+       "tx": "thé",
+       "rd": "떼",
+       "ic": "🫖"
+      },
+      {
+       "ko": "향신료",
+       "tx": "épices",
+       "rd": "에삐쓰",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "후추",
+       "tx": "poivre",
+       "rd": "뿌아부흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "소금",
+       "tx": "sel",
+       "rd": "쎌",
+       "ic": "🧂"
+      },
+      {
+       "ko": "허브티",
+       "tx": "tisane",
+       "rd": "티잔느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "시럽",
+       "tx": "sirop",
+       "rd": "씨홉",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "사탕",
+       "tx": "bonbon",
+       "rd": "봉봉",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "바질",
+       "tx": "basilic",
+       "rd": "바질릭",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아티초크",
+       "tx": "artichaut",
+       "rd": "악티쇼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "식초",
+       "tx": "vinaigre",
+       "rd": "비네그흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "마멀레이드",
+       "tx": "marmelade",
+       "rd": "마흐믈라드",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "캐비어",
+       "tx": "caviar",
+       "rd": "깨비어흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "트러플",
+       "tx": "truffe",
+       "rd": "트휘프",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "잡화, 일회용품 (Articles de maison) — LOOK",
+     "words": [
+      {
+       "ko": "~을 찾고 있습니다.",
+       "tx": "Je cherche ~.",
+       "rd": "쥬 쉐흐슈 ~",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "커피 원두 통",
+       "tx": "boîte à café en grains",
+       "rd": "부아뜨 아 꺄페 엉 그항",
+       "ic": "☕"
+      },
+      {
+       "ko": "냅킨",
+       "tx": "serviette en papier",
+       "rd": "세흐비에뜨 엉 빠삐에",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "꽃병",
+       "tx": "vase",
+       "rd": "바즈",
+       "ic": "💐"
+      },
+      {
+       "ko": "도마",
+       "tx": "planche à découper",
+       "rd": "쁠렁쉬 아 데꾸뻬",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "냄비",
+       "tx": "casserole / marmite",
+       "rd": "꺄쓰홀르 / 마흐미트",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "항아리",
+       "tx": "pot",
+       "rd": "뽀",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "과자 굽는 틀",
+       "tx": "moule à biscuit",
+       "rd": "물 아 비스뀌",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "그림 접시",
+       "tx": "assiette peinte",
+       "rd": "아씨에뜨 빵뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "우산",
+       "tx": "parapluie",
+       "rd": "빠하쁠뤼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "안경",
+       "tx": "lunettes",
+       "rd": "뤼네뜨",
+       "ic": "👓"
+      },
+      {
+       "ko": "선글라스",
+       "tx": "lunettes de soleil",
+       "rd": "뤼네뜨 드 쏠레이",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "찻잔",
+       "tx": "tasse",
+       "rd": "따쓰",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "바구니",
+       "tx": "panier",
+       "rd": "빠니예",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "접시",
+       "tx": "assiette",
+       "rd": "아씨에뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "반숙된 계란을 넣어 먹는 잔",
+       "tx": "coquetier",
+       "rd": "꼬크띠예",
+       "ic": "🥚"
+      },
+      {
+       "ko": "칵테일 스틱",
+       "tx": "piques à cocktail",
+       "rd": "삐끄 아 꼬끄땔르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "사발",
+       "tx": "bol",
+       "rd": "볼르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "물병",
+       "tx": "carafe",
+       "rd": "꺄하프",
+       "ic": "💧"
+      },
+      {
+       "ko": "손목시계",
+       "tx": "montre",
+       "rd": "몽트흐",
+       "ic": "⌚"
+      },
+      {
+       "ko": "스탠드",
+       "tx": "lampe de bureau",
+       "rd": "렁프 드 뷔호",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "동전지갑",
+       "tx": "porte-monnaie",
+       "rd": "뽀흐뜨 모내",
+       "ic": "👛"
+      },
+      {
+       "ko": "펜",
+       "tx": "stylo",
+       "rd": "스띨로",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "공책",
+       "tx": "cahier",
+       "rd": "꺄이예",
+       "ic": "📖"
+      },
+      {
+       "ko": "편지 세트",
+       "tx": "set de correspondance",
+       "rd": "쎄트 드 꼬헤스뽕덩스",
+       "ic": "✉️"
+      },
+      {
+       "ko": "연필",
+       "tx": "crayon",
+       "rd": "크래용",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "엽서",
+       "tx": "carte postale",
+       "rd": "꺄흐뜨 뽀스딸",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "아로마 향초",
+       "tx": "bougie aromatique",
+       "rd": "부지 아호마띠끄",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "액자",
+       "tx": "cadre",
+       "rd": "꺄드흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파우치",
+       "tx": "pochette",
+       "rd": "뽀쉐뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "저금통",
+       "tx": "tirelire",
+       "rd": "티흐리흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "책",
+       "tx": "livre",
+       "rd": "리브흐",
+       "ic": "📖"
+      },
+      {
+       "ko": "음반",
+       "tx": "disque",
+       "rd": "디스크",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "식품 (Produits Alimentaires) — LOOK",
+     "words": [
+      {
+       "ko": "잼",
+       "tx": "confiture",
+       "rd": "꽁피뛰흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "치즈",
+       "tx": "fromage",
+       "rd": "프호마쥬",
+       "ic": "🧀"
+      },
+      {
+       "ko": "꿀",
+       "tx": "miel",
+       "rd": "미엘",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "포도 식초",
+       "tx": "vinaigre de vin",
+       "rd": "비내그흐 드 방",
+       "ic": "🍇"
+      },
+      {
+       "ko": "머스터드",
+       "tx": "moutarde",
+       "rd": "무따흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "향신료",
+       "tx": "épice",
+       "rd": "에삐쓰",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "정어리",
+       "tx": "sardine",
+       "rd": "싸흐딘느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "파스타",
+       "tx": "pâtes",
+       "rd": "빠뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "프루트 젤리",
+       "tx": "gelée aux fruits",
+       "rd": "쥴레 오 프휘",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "드롭스(사탕)",
+       "tx": "pastille",
+       "rd": "빠스띠으",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "비스킷",
+       "tx": "biscuit",
+       "rd": "비스뀌",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "판 초콜릿",
+       "tx": "tablette de chocolat",
+       "rd": "따블레뜨 드 쇼꼴라",
+       "ic": "🍫"
+      },
+      {
+       "ko": "야채 주스",
+       "tx": "jus de légumes",
+       "rd": "쥬 드 레귬므",
+       "ic": "🧃"
+      }
+     ]
+    },
+    {
+     "title": "아로마 향을 한국에서도 느끼고 싶어요 — 아로마의 종류",
+     "words": [
+      {
+       "ko": "허브 종류",
+       "tx": "herbes",
+       "rd": "에흐브",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "시원한",
+       "tx": "rafraîchissant",
+       "rd": "하프해시썽",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스피어민트",
+       "tx": "menthe verte",
+       "rd": "멍뜨 베흐뜨",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "바질",
+       "tx": "basilic",
+       "rd": "바질릭",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "페퍼민트",
+       "tx": "menthe poivrée",
+       "rd": "멍뜨 뿌아브헤",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "로즈메리",
+       "tx": "romarin",
+       "rd": "호마항",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "향신료 종류",
+       "tx": "épices",
+       "rd": "에삐쓰",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자극적인",
+       "tx": "stimulant",
+       "rd": "스띠뮬렁",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "고수",
+       "tx": "coriandre",
+       "rd": "꼬히엉드흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "계피",
+       "tx": "cannelle",
+       "rd": "꺄넬르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "생강",
+       "tx": "gingembre",
+       "rd": "쟝정브흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "월계수",
+       "tx": "laurier",
+       "rd": "러히예",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "꽃 종류",
+       "tx": "fleurs",
+       "rd": "플러흐",
+       "ic": "💐"
+      },
+      {
+       "ko": "달달한",
+       "tx": "doux",
+       "rd": "두",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "카모마일",
+       "tx": "camomille",
+       "rd": "꺄모미으",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "라벤더",
+       "tx": "lavande",
+       "rd": "라벙드",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "재스민",
+       "tx": "jasmin",
+       "rd": "쟈스멍",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "장미",
+       "tx": "rose",
+       "rd": "호즈",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "제라늄",
+       "tx": "géranium",
+       "rd": "제하늄",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "일랑일랑",
+       "tx": "ylang-ylang / ilang-ilang",
+       "rd": "일렁일렁",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "감귤 종류",
+       "tx": "agrumes",
+       "rd": "아구휨므",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "가벼운",
+       "tx": "léger",
+       "rd": "레제",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "자몽",
+       "tx": "pamplemousse",
+       "rd": "뻥쁠루무쓰",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스위트오렌지",
+       "tx": "orange douce",
+       "rd": "오헝쥬 두스",
+       "ic": "🍊"
+      },
+      {
+       "ko": "베르가모트",
+       "tx": "bergamote",
+       "rd": "베흐가모트",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "만다린",
+       "tx": "mandarine",
+       "rd": "멍다힌느",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "레몬그라스",
+       "tx": "citronnelle",
+       "rd": "시트호넬르",
+       "ic": "🍋"
+      },
+      {
+       "ko": "나무 종류",
+       "tx": "arbres",
+       "rd": "아흐브흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "산뜻한",
+       "tx": "rafraîchissant",
+       "rd": "하프해시썽",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "백단(샌들우드)",
+       "tx": "santal",
+       "rd": "썽딸르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "시더우드",
+       "tx": "cèdre",
+       "rd": "쎄드흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "티트리",
+       "tx": "arbre à thé",
+       "rd": "아흐브흐 아 떼",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "유칼립투스",
+       "tx": "eucalyptus",
+       "rd": "에꺌리프튀스",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "로즈우드",
+       "tx": "palissandre",
+       "rd": "빨리썽드흐",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "아로마 상품 단어장",
+     "words": [
+      {
+       "ko": "디퓨저",
+       "tx": "diffuseur",
+       "rd": "디퓨줘흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "양초",
+       "tx": "bougie",
+       "rd": "부지",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "향(종교에 쓰는 향)",
+       "tx": "encens",
+       "rd": "엉썽",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스크럽",
+       "tx": "sel de bain",
+       "rd": "쎌 드 방",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "항아리",
+       "tx": "pot",
+       "rd": "뽀",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "오일",
+       "tx": "huile",
+       "rd": "윌",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "샴푸",
+       "tx": "shampooing",
+       "rd": "셩뿌앙",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "비누",
+       "tx": "savon",
+       "rd": "싸봉",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "트리트먼트",
+       "tx": "traitement",
+       "rd": "트해트멍",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "배합",
+       "tx": "assortiment",
+       "rd": "아쏘흐띠멍",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "병",
+       "tx": "bouteille",
+       "rd": "부떼이으",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "스프레이",
+       "tx": "atomiseur",
+       "rd": "아또미져흐",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "민감성 피부",
+       "tx": "peau sensible",
+       "rd": "뽀 썽씨블르",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "첨가물이 없는",
+       "tx": "sans additif",
+       "rd": "썽 아디띠프",
+       "ic": "💧"
+      },
+      {
+       "ko": "(향이)우아한",
+       "tx": "élégant",
+       "rd": "엘레겅",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "(향이)이국적인",
+       "tx": "exotique",
+       "rd": "엑조티크",
+       "ic": "🛍️"
+      }
+     ]
+    },
+    {
+     "title": "사이즈",
+     "words": [
+      {
+       "ko": "한국",
+       "tx": "XS",
+       "rd": "S",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "프랑스",
+       "tx": "36",
+       "rd": "38",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "한국",
+       "tx": "220",
+       "rd": "225",
+       "ic": "🛍️"
+      },
+      {
+       "ko": "프랑스",
+       "tx": "34",
+       "rd": "35",
+       "ic": "🛍️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "trouble",
+   "title": "긴급·건강",
+   "emoji": "🚨",
+   "sections": [
+    {
+     "title": "불랑주리에서 맛있는 빵을 사고 싶어요 — 프랑스 빵의 종류",
+     "words": [
+      {
+       "ko": "브리오슈",
+       "tx": "brioche",
+       "rd": "브히오슈",
+       "ic": "🚨"
+      },
+      {
+       "ko": "(손가락으로 가리키며) 저것 두 조각 주세요.",
+       "tx": "Je voudrais 2 tranches de ça.",
+       "rd": "쥬 부드해 두 트헝슈 드 싸",
+       "ic": "🚨"
+      },
+      {
+       "ko": "키슈",
+       "tx": "quiche",
+       "rd": "끼쉬",
+       "ic": "🚨"
+      },
+      {
+       "ko": "쇼송 오 폼므",
+       "tx": "chausson aux pommes",
+       "rd": "쇼쏭 오 뽐므",
+       "ic": "🚨"
+      },
+      {
+       "ko": "팽 오 쇼콜라",
+       "tx": "pain au chocolat",
+       "rd": "빵 오 쇼꼴라",
+       "ic": "🚨"
+      },
+      {
+       "ko": "바게트",
+       "tx": "baguette",
+       "rd": "바게뜨",
+       "ic": "🦀"
+      },
+      {
+       "ko": "캄파뉴",
+       "tx": "campagne",
+       "rd": "껑빤느",
+       "ic": "🚨"
+      },
+      {
+       "ko": "전부 얼마인가요?",
+       "tx": "Combien est-ce que ça coûte en tout?",
+       "rd": "꽁비앙 에 스 끄 싸 꾸뜨 엉 뚜?",
+       "ic": "🚨"
+      }
+     ]
+    },
+    {
+     "title": "분실, 도난 — 도움이 되는 단어장",
+     "words": [
+      {
+       "ko": "전화",
+       "tx": "téléphone",
+       "rd": "뗄레폰",
+       "ic": "📞"
+      },
+      {
+       "ko": "돈",
+       "tx": "argent / monnaie",
+       "rd": "아흐정 / 모내",
+       "ic": "💶"
+      },
+      {
+       "ko": "경찰",
+       "tx": "police",
+       "rd": "뽈리쓰",
+       "ic": "🚓"
+      },
+      {
+       "ko": "주소",
+       "tx": "adresse",
+       "rd": "아드헤쓰",
+       "ic": "🚨"
+      },
+      {
+       "ko": "구급차",
+       "tx": "ambulance",
+       "rd": "엉뷸렁스",
+       "ic": "🚨"
+      },
+      {
+       "ko": "여행자 수표",
+       "tx": "chèque de voyage",
+       "rd": "쉐크 드 부아야쥐",
+       "ic": "🚨"
+      },
+      {
+       "ko": "분실",
+       "tx": "perte",
+       "rd": "뻬흐뜨",
+       "ic": "🚨"
+      },
+      {
+       "ko": "신용 카드",
+       "tx": "carte de crédit",
+       "rd": "꺄흐뜨 드 크헤디",
+       "ic": "💳"
+      },
+      {
+       "ko": "한국 대사관",
+       "tx": "ambassade de Corée",
+       "rd": "엉바싸드 드 꼬헤",
+       "ic": "🚨"
+      },
+      {
+       "ko": "여권",
+       "tx": "passeport",
+       "rd": "빠스뽀흐",
+       "ic": "🛂"
+      },
+      {
+       "ko": "소매치기",
+       "tx": "pickpocket",
+       "rd": "픽뽀께트",
+       "ic": "🚨"
+      },
+      {
+       "ko": "보안",
+       "tx": "garde",
+       "rd": "갸흐드",
+       "ic": "🚨"
+      },
+      {
+       "ko": "보험 회사",
+       "tx": "compagnie d'assurance",
+       "rd": "꽁빠니 다슈헝스",
+       "ic": "🚨"
+      }
+     ]
+    },
+    {
+     "title": "신체 부위 명칭 (~가 아파요. J'ai mal à ~. 재 말 라 ~)",
+     "words": [
+      {
+       "ko": "머리",
+       "tx": "tête",
+       "rd": "떼뜨",
+       "ic": "🚨"
+      },
+      {
+       "ko": "관자놀이",
+       "tx": "tempe",
+       "rd": "떵쁘",
+       "ic": "🚨"
+      },
+      {
+       "ko": "이마",
+       "tx": "front",
+       "rd": "프홍",
+       "ic": "🚨"
+      },
+      {
+       "ko": "볼",
+       "tx": "joue",
+       "rd": "주",
+       "ic": "🚨"
+      },
+      {
+       "ko": "눈",
+       "tx": "œil / yeux",
+       "rd": "어이으 / 이유",
+       "ic": "🚨"
+      },
+      {
+       "ko": "귀",
+       "tx": "oreille",
+       "rd": "오헤이으",
+       "ic": "🚨"
+      },
+      {
+       "ko": "코",
+       "tx": "nez",
+       "rd": "네",
+       "ic": "🚨"
+      },
+      {
+       "ko": "이",
+       "tx": "dent",
+       "rd": "덩",
+       "ic": "🚨"
+      },
+      {
+       "ko": "턱",
+       "tx": "menton",
+       "rd": "멍똥",
+       "ic": "🚨"
+      },
+      {
+       "ko": "목",
+       "tx": "cou",
+       "rd": "꾸",
+       "ic": "🚨"
+      },
+      {
+       "ko": "인후",
+       "tx": "gorge",
+       "rd": "고흐쥬",
+       "ic": "🚨"
+      },
+      {
+       "ko": "발",
+       "tx": "pied",
+       "rd": "피에",
+       "ic": "🚨"
+      },
+      {
+       "ko": "허벅지",
+       "tx": "cuisse",
+       "rd": "뀌쓰",
+       "ic": "🚨"
+      },
+      {
+       "ko": "무릎",
+       "tx": "genou",
+       "rd": "쥬누",
+       "ic": "🚨"
+      },
+      {
+       "ko": "정강이",
+       "tx": "tibia",
+       "rd": "티비아",
+       "ic": "🚨"
+      },
+      {
+       "ko": "종아리",
+       "tx": "mollet",
+       "rd": "몰레",
+       "ic": "🚨"
+      },
+      {
+       "ko": "발목",
+       "tx": "cheville",
+       "rd": "슈비으",
+       "ic": "🚨"
+      },
+      {
+       "ko": "발끝",
+       "tx": "pointe des pieds",
+       "rd": "뿌앙트 데 피에",
+       "ic": "🚨"
+      },
+      {
+       "ko": "발뒤꿈치",
+       "tx": "talon",
+       "rd": "딸롱",
+       "ic": "🚨"
+      },
+      {
+       "ko": "어깨",
+       "tx": "épaule",
+       "rd": "에뽈",
+       "ic": "🚨"
+      },
+      {
+       "ko": "가슴",
+       "tx": "poitrine",
+       "rd": "뿌아트린느",
+       "ic": "🚨"
+      },
+      {
+       "ko": "배",
+       "tx": "ventre",
+       "rd": "벙트흐",
+       "ic": "🚨"
+      },
+      {
+       "ko": "팔",
+       "tx": "bras",
+       "rd": "브하",
+       "ic": "🚨"
+      },
+      {
+       "ko": "팔꿈치",
+       "tx": "coude",
+       "rd": "쿠드",
+       "ic": "🚨"
+      },
+      {
+       "ko": "손",
+       "tx": "main",
+       "rd": "망",
+       "ic": "🚨"
+      },
+      {
+       "ko": "손목",
+       "tx": "poignet",
+       "rd": "뿌아녜",
+       "ic": "🚨"
+      },
+      {
+       "ko": "손가락",
+       "tx": "doigt",
+       "rd": "두아",
+       "ic": "🚨"
+      },
+      {
+       "ko": "손톱, 발톱",
+       "tx": "ongle",
+       "rd": "옹글르",
+       "ic": "🚨"
+      },
+      {
+       "ko": "등",
+       "tx": "dos",
+       "rd": "도",
+       "ic": "🚨"
+      },
+      {
+       "ko": "겨드랑이",
+       "tx": "aisselle",
+       "rd": "에쎌르",
+       "ic": "🚨"
+      },
+      {
+       "ko": "피부",
+       "tx": "peau",
+       "rd": "뽀",
+       "ic": "🚨"
+      },
+      {
+       "ko": "아랫배",
+       "tx": "abdomen",
+       "rd": "압도멘",
+       "ic": "🚨"
+      },
+      {
+       "ko": "윗배",
+       "tx": "épigastre",
+       "rd": "에삐갸스트흐",
+       "ic": "🚨"
+      },
+      {
+       "ko": "배꼽",
+       "tx": "nombril",
+       "rd": "농브힐르",
+       "ic": "🚨"
+      },
+      {
+       "ko": "허리",
+       "tx": "reins",
+       "rd": "항",
+       "ic": "🚨"
+      },
+      {
+       "ko": "엉덩이",
+       "tx": "fesse",
+       "rd": "페쓰",
+       "ic": "🚨"
+      },
+      {
+       "ko": "음부",
+       "tx": "parties sexuelles",
+       "rd": "빠흐띠흐 섹슈엘르",
+       "ic": "🚨"
+      }
+     ]
+    },
+    {
+     "title": "아픔, 부상 — 도움이 되는 단어장",
+     "words": [
+      {
+       "ko": "시차증",
+       "tx": "décalage horaire",
+       "rd": "데꺌라쥐 오해흐",
+       "ic": "🚨"
+      },
+      {
+       "ko": "수면 부족",
+       "tx": "manque de sommeil",
+       "rd": "멍끄 드 소메이으",
+       "ic": "🍜"
+      },
+      {
+       "ko": "설사",
+       "tx": "diarrhée",
+       "rd": "디아헤",
+       "ic": "🚨"
+      },
+      {
+       "ko": "감기",
+       "tx": "rhume",
+       "rd": "휨므",
+       "ic": "🚨"
+      },
+      {
+       "ko": "골절",
+       "tx": "fracture",
+       "rd": "프학크튀흐",
+       "ic": "🚨"
+      },
+      {
+       "ko": "삐다",
+       "tx": "entorse",
+       "rd": "엉또흐쓰",
+       "ic": "🚨"
+      },
+      {
+       "ko": "치통",
+       "tx": "maux de dents",
+       "rd": "모 드 덩",
+       "ic": "🚨"
+      },
+      {
+       "ko": "오한",
+       "tx": "froid",
+       "rd": "푸아",
+       "ic": "🚨"
+      },
+      {
+       "ko": "벤 상처",
+       "tx": "coupure",
+       "rd": "꾸뷔흐",
+       "ic": "🚨"
+      },
+      {
+       "ko": "약",
+       "tx": "médicament",
+       "rd": "메디꺄멍",
+       "ic": "💊"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "enter",
+   "title": "엔터테인먼트",
+   "emoji": "🎭",
+   "sections": [
+    {
+     "title": "도움이 되는 단어장 (클럽·바)",
+     "words": [
+      {
+       "ko": "클럽",
+       "tx": "club de nuit",
+       "rd": "클러브 드 뉘",
+       "ic": "🎭"
+      },
+      {
+       "ko": "무도장",
+       "tx": "discothèque",
+       "rd": "디스코떼크",
+       "ic": "🎭"
+      },
+      {
+       "ko": "상송 가수",
+       "tx": "chansonnier",
+       "rd": "셩써니예",
+       "ic": "🎭"
+      },
+      {
+       "ko": "라이브 음악 클럽",
+       "tx": "club de musique live",
+       "rd": "클러브 드 뮤지크 라이브",
+       "ic": "🎵"
+      },
+      {
+       "ko": "카바레",
+       "tx": "cabaret",
+       "rd": "꺄바헤",
+       "ic": "🎭"
+      },
+      {
+       "ko": "공연 가격",
+       "tx": "prix du spectacle",
+       "rd": "프히 뒤 스뻭따끌르",
+       "ic": "🏷️"
+      },
+      {
+       "ko": "자릿세",
+       "tx": "couvert",
+       "rd": "꾸베흐",
+       "ic": "🎭"
+      },
+      {
+       "ko": "위스키",
+       "tx": "whisky",
+       "rd": "위스키",
+       "ic": "🎭"
+      },
+      {
+       "ko": "스코틀랜드산 위스키",
+       "tx": "scotch",
+       "rd": "스코취",
+       "ic": "⛰️"
+      },
+      {
+       "ko": "버번 위스키",
+       "tx": "bourbon",
+       "rd": "부흐봉",
+       "ic": "🎭"
+      },
+      {
+       "ko": "칵테일",
+       "tx": "cocktail",
+       "rd": "꼬끄땔르",
+       "ic": "🎭"
+      },
+      {
+       "ko": "맥주",
+       "tx": "bière",
+       "rd": "비에흐",
+       "ic": "🍺"
+      },
+      {
+       "ko": "콜라",
+       "tx": "coca",
+       "rd": "꼬까",
+       "ic": "🎭"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "beauty",
+   "title": "뷰티·마사지",
+   "emoji": "💆",
+   "sections": [
+    {
+     "title": "LOOK: 시술 (Soin)",
+     "words": [
+      {
+       "ko": "전신 마사지",
+       "tx": "massage corporel",
+       "rd": "마싸쥬 꼬흐뽀헬",
+       "ic": "💆"
+      },
+      {
+       "ko": "얼굴 관리",
+       "tx": "soin du visage",
+       "rd": "수앙 뒤 비자쥬",
+       "ic": "💆"
+      },
+      {
+       "ko": "발 마사지",
+       "tx": "massage des pieds",
+       "rd": "마싸쥬 데 피에",
+       "ic": "💆"
+      },
+      {
+       "ko": "웜스톤 마사지",
+       "tx": "pierres chaudes",
+       "rd": "삐에흐 쇼드",
+       "ic": "💆"
+      },
+      {
+       "ko": "두피 마사지",
+       "tx": "massage du cuir chevelu",
+       "rd": "마싸쥬 뒤 뀌흐 슈블뤼",
+       "ic": "💆"
+      },
+      {
+       "ko": "손 마사지",
+       "tx": "massage des mains",
+       "rd": "마싸쥬 데 망",
+       "ic": "💆"
+      },
+      {
+       "ko": "림프 마사지",
+       "tx": "massage lymphatique",
+       "rd": "마싸쥬 렁파티크",
+       "ic": "💆"
+      },
+      {
+       "ko": "약용 식물 요법",
+       "tx": "phytothérapie",
+       "rd": "피또떼하삐",
+       "ic": "💧"
+      },
+      {
+       "ko": "리플렉솔로지",
+       "tx": "réfléxologie",
+       "rd": "레플렉쏠로쥐",
+       "ic": "💆"
+      },
+      {
+       "ko": "아로마 테라피",
+       "tx": "massage aromathérapique",
+       "rd": "마싸쥬 아호마떼하피끄",
+       "ic": "💆"
+      },
+      {
+       "ko": "해수 요법",
+       "tx": "thalassothérapie",
+       "rd": "딸라쏘떼하삐",
+       "ic": "💆"
+      },
+      {
+       "ko": "비노 테라피",
+       "tx": "vinothérapie",
+       "rd": "비노떼하삐",
+       "ic": "💆"
+      },
+      {
+       "ko": "디톡스",
+       "tx": "détoxication",
+       "rd": "데톡씨까씨옹",
+       "ic": "💆"
+      },
+      {
+       "ko": "근육 이완",
+       "tx": "relaxation",
+       "rd": "헐랙싸씨옹",
+       "ic": "💆"
+      },
+      {
+       "ko": "화이트닝",
+       "tx": "éclaircissement",
+       "rd": "에끌래흐시쓰멍",
+       "ic": "💆"
+      },
+      {
+       "ko": "허브 볼",
+       "tx": "tampon d'herbes",
+       "rd": "떵뽕 데흐브",
+       "ic": "💆"
+      },
+      {
+       "ko": "모공 관리",
+       "tx": "soin des pores",
+       "rd": "쑤앙 데 뽀흐",
+       "ic": "💆"
+      },
+      {
+       "ko": "박피",
+       "tx": "exfoliation",
+       "rd": "엑스폴리아씨옹",
+       "ic": "💆"
+      },
+      {
+       "ko": "클렌징",
+       "tx": "démaquillant",
+       "rd": "데마끼영",
+       "ic": "💆"
+      },
+      {
+       "ko": "리프팅",
+       "tx": "lifting",
+       "rd": "리프팅",
+       "ic": "💆"
+      },
+      {
+       "ko": "스팀 케어",
+       "tx": "soin vapeur",
+       "rd": "수앙 바뻐흐",
+       "ic": "💆"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (WORD)",
+     "words": [
+      {
+       "ko": "여윈 몸",
+       "tx": "amincissement",
+       "rd": "아멍시쓰멍",
+       "ic": "💆"
+      },
+      {
+       "ko": "주름",
+       "tx": "ride",
+       "rd": "히드",
+       "ic": "💆"
+      },
+      {
+       "ko": "부종",
+       "tx": "enflure",
+       "rd": "엉플뤼흐",
+       "ic": "💆"
+      },
+      {
+       "ko": "수면 부족",
+       "tx": "manque de sommeil",
+       "rd": "멍끄 드 쏘메이으",
+       "ic": "🍜"
+      },
+      {
+       "ko": "피로",
+       "tx": "fatigue",
+       "rd": "파띠그",
+       "ic": "💆"
+      },
+      {
+       "ko": "스트레스",
+       "tx": "stress",
+       "rd": "스트헤쓰",
+       "ic": "💆"
+      },
+      {
+       "ko": "혈액 순환",
+       "tx": "circulation sanguine",
+       "rd": "쎄흐뀰라씨옹 썽귄느",
+       "ic": "💆"
+      },
+      {
+       "ko": "냉증",
+       "tx": "frileux",
+       "rd": "프힐로",
+       "ic": "💆"
+      },
+      {
+       "ko": "탈의실",
+       "tx": "vestiaires",
+       "rd": "베스띠애흐",
+       "ic": "💆"
+      },
+      {
+       "ko": "화장실",
+       "tx": "toilettes",
+       "rd": "뚜알레뜨",
+       "ic": "💄"
+      },
+      {
+       "ko": "로커",
+       "tx": "vestiaire",
+       "rd": "베스띠애흐",
+       "ic": "💆"
+      },
+      {
+       "ko": "샤워(실)",
+       "tx": "douche",
+       "rd": "두슈",
+       "ic": "🚿"
+      },
+      {
+       "ko": "접수",
+       "tx": "réception",
+       "rd": "헤쎕씨옹",
+       "ic": "💆"
+      },
+      {
+       "ko": "수건",
+       "tx": "serviette",
+       "rd": "쎄흐비에뜨",
+       "ic": "🧻"
+      },
+      {
+       "ko": "슬리퍼",
+       "tx": "pantoufle",
+       "rd": "뻥뚜플르",
+       "ic": "💆"
+      },
+      {
+       "ko": "침대",
+       "tx": "lit",
+       "rd": "리",
+       "ic": "🛏️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hotel",
+   "title": "호텔",
+   "emoji": "🏨",
+   "sections": [
+    {
+     "title": "호텔은 이렇게 되어 있습니다 (단어)",
+     "words": [
+      {
+       "ko": "룸서비스",
+       "tx": "service en chambre",
+       "rd": "쎄흐비스 엉 샹브흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "현관 로비",
+       "tx": "hall d'entrée",
+       "rd": "올 덩트헤",
+       "ic": "🏨"
+      },
+      {
+       "ko": "콘시어지",
+       "tx": "concierge",
+       "rd": "꽁씨에흐쥬",
+       "ic": "🏨"
+      },
+      {
+       "ko": "포터",
+       "tx": "porteur",
+       "rd": "뽀흐떠흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "프런트",
+       "tx": "réceptionniste",
+       "rd": "헤쎕씨오니스뜨",
+       "ic": "🏨"
+      },
+      {
+       "ko": "벨보이",
+       "tx": "chasseur",
+       "rd": "샤써흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "클럭",
+       "tx": "vestiaire",
+       "rd": "베스띠애흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "방까지 안내해 드리겠습니다.",
+       "tx": "Je vais vous conduire à votre chambre.",
+       "rd": "쥬 배 부 꽁뒤흐 아 보트흐 샹브흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "짐을 옮겨 드리겠습니다.",
+       "tx": "Je porterai vos valises.",
+       "rd": "쥬 뽀흐뜨해 보 발리즈",
+       "ic": "🧳"
+      },
+      {
+       "ko": "엘리베이터는 이쪽에 있습니다.",
+       "tx": "L'ascenseur est par ici.",
+       "rd": "라썽쉬흐 에 빠히씨",
+       "ic": "🏨"
+      },
+      {
+       "ko": "안녕하세요.",
+       "tx": "Bonjour.",
+       "rd": "",
+       "ic": "🏨"
+      }
+     ]
+    },
+    {
+     "title": "객실은 이런 느낌입니다 (단어)",
+     "words": [
+      {
+       "ko": "창문",
+       "tx": "fenêtre",
+       "rd": "프네트흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "탁자",
+       "tx": "table",
+       "rd": "따블르",
+       "ic": "🏨"
+      },
+      {
+       "ko": "커튼",
+       "tx": "rideau",
+       "rd": "히도",
+       "ic": "🏨"
+      },
+      {
+       "ko": "소파",
+       "tx": "canapé",
+       "rd": "꺄나뻬",
+       "ic": "🏨"
+      },
+      {
+       "ko": "램프",
+       "tx": "lampe",
+       "rd": "렁프",
+       "ic": "🏨"
+      },
+      {
+       "ko": "TV",
+       "tx": "télévision, télé",
+       "rd": "뗄레비지옹, 뗄레",
+       "ic": "🏨"
+      },
+      {
+       "ko": "침대",
+       "tx": "lit",
+       "rd": "리",
+       "ic": "🛏️"
+      },
+      {
+       "ko": "금고",
+       "tx": "coffre",
+       "rd": "꼬프흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "수도꼭지",
+       "tx": "robinet",
+       "rd": "호비네",
+       "ic": "🏨"
+      },
+      {
+       "ko": "냉장고",
+       "tx": "frigo",
+       "rd": "프히고",
+       "ic": "🏨"
+      },
+      {
+       "ko": "변기",
+       "tx": "cuvette",
+       "rd": "뀨베트",
+       "ic": "🏨"
+      },
+      {
+       "ko": "옷장",
+       "tx": "penderie",
+       "rd": "뻥드히",
+       "ic": "👕"
+      },
+      {
+       "ko": "문",
+       "tx": "porte",
+       "rd": "뽀흐뜨",
+       "ic": "🏨"
+      },
+      {
+       "ko": "샤워실",
+       "tx": "douche",
+       "rd": "두슈",
+       "ic": "🚿"
+      },
+      {
+       "ko": "욕실",
+       "tx": "salle de bain",
+       "rd": "쌀 드 방",
+       "ic": "🛁"
+      },
+      {
+       "ko": "욕조",
+       "tx": "baignoire",
+       "rd": "배뉴아",
+       "ic": "🏨"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (호텔)",
+     "words": [
+      {
+       "ko": "물",
+       "tx": "eau",
+       "rd": "오",
+       "ic": "💧"
+      },
+      {
+       "ko": "따뜻한 물",
+       "tx": "eau chaude",
+       "rd": "오 쇼드",
+       "ic": "💧"
+      },
+      {
+       "ko": "베개",
+       "tx": "oreiller",
+       "rd": "오헤이예",
+       "ic": "🏨"
+      },
+      {
+       "ko": "타월",
+       "tx": "drap",
+       "rd": "드하",
+       "ic": "🏨"
+      },
+      {
+       "ko": "솜이불",
+       "tx": "couette",
+       "rd": "꾸에드",
+       "ic": "🏨"
+      },
+      {
+       "ko": "매트리스",
+       "tx": "matelas",
+       "rd": "마뜰라",
+       "ic": "🏨"
+      },
+      {
+       "ko": "에어컨",
+       "tx": "climatisation",
+       "rd": "클리마띠자씨옹",
+       "ic": "🏨"
+      },
+      {
+       "ko": "샴푸",
+       "tx": "shampooing",
+       "rd": "셩뿌앙",
+       "ic": "🏨"
+      },
+      {
+       "ko": "비누",
+       "tx": "savon",
+       "rd": "싸봉",
+       "ic": "🏨"
+      },
+      {
+       "ko": "수건",
+       "tx": "serviette de bain",
+       "rd": "세흐비에드 드 방",
+       "ic": "🧻"
+      },
+      {
+       "ko": "휴지",
+       "tx": "papier toilette",
+       "rd": "빠삐에 뚜알레뜨",
+       "ic": "🏨"
+      },
+      {
+       "ko": "옷걸이",
+       "tx": "cintre",
+       "rd": "썽트흐",
+       "ic": "👕"
+      },
+      {
+       "ko": "실내화",
+       "tx": "pantoufle",
+       "rd": "뻥뚜플르",
+       "ic": "🏨"
+      },
+      {
+       "ko": "글라스 잔",
+       "tx": "verre",
+       "rd": "베흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "건조기",
+       "tx": "séchoir",
+       "rd": "세쑤아흐",
+       "ic": "🏨"
+      },
+      {
+       "ko": "재떨이",
+       "tx": "cendrier",
+       "rd": "썽드히예",
+       "ic": "🏨"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "transport",
+   "title": "교통·공항",
+   "emoji": "✈️",
+   "sections": [
+    {
+     "title": "도움이 되는 단어장 (공항 도착)",
+     "words": [
+      {
+       "ko": "도착",
+       "tx": "arrivée",
+       "rd": "아히베",
+       "ic": "✈️"
+      },
+      {
+       "ko": "입국 심사",
+       "tx": "immigration",
+       "rd": "이미그하씨옹",
+       "ic": "✈️"
+      },
+      {
+       "ko": "수하물 배달",
+       "tx": "livraison de bagages",
+       "rd": "리브헤종 드 바가쥬",
+       "ic": "💧"
+      },
+      {
+       "ko": "세관",
+       "tx": "douane",
+       "rd": "두안",
+       "ic": "✈️"
+      },
+      {
+       "ko": "도착 로비",
+       "tx": "hall d'arrivée",
+       "rd": "올 다히베",
+       "ic": "✈️"
+      },
+      {
+       "ko": "입국 카드",
+       "tx": "carte de débarquement",
+       "rd": "꺄흐뜨 드 데바흐끄멍",
+       "ic": "💳"
+      },
+      {
+       "ko": "수하물표",
+       "tx": "récépissé",
+       "rd": "헤세삐쎄",
+       "ic": "💧"
+      },
+      {
+       "ko": "검역",
+       "tx": "quarantaine",
+       "rd": "꺄헝땐느",
+       "ic": "✈️"
+      },
+      {
+       "ko": "면세/과세",
+       "tx": "hors taxe / taxation",
+       "rd": "오흐스 딱쓰 / 딱싸씨옹",
+       "ic": "🍜"
+      },
+      {
+       "ko": "세관 신고서",
+       "tx": "déclaration douane",
+       "rd": "데끌라하씨옹 두안",
+       "ic": "✈️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (기내)",
+     "words": [
+      {
+       "ko": "사용 중",
+       "tx": "occupé",
+       "rd": "오큐뻬",
+       "ic": "✈️"
+      },
+      {
+       "ko": "비어 있음",
+       "tx": "libre",
+       "rd": "리브흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "창가 쪽 좌석",
+       "tx": "siège côté fenêtre",
+       "rd": "씨에쥬 꼬떼 프네트흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "통로 쪽 좌석",
+       "tx": "siège côté couloir",
+       "rd": "씨에쥬 꼬떼 꿀루아흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "좌석 번호",
+       "tx": "numéro de siège",
+       "rd": "뉴메호 드 씨에쥬",
+       "ic": "✈️"
+      },
+      {
+       "ko": "현지 시간",
+       "tx": "l'heure locale",
+       "rd": "러흐 로꺌",
+       "ic": "⏰"
+      },
+      {
+       "ko": "시차",
+       "tx": "décalage horaire",
+       "rd": "데꺌라쥐 오해흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "구토",
+       "tx": "nausée",
+       "rd": "노제",
+       "ic": "✈️"
+      },
+      {
+       "ko": "비상구",
+       "tx": "sortie de secours",
+       "rd": "소흐띠 드 쓰꾸흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "약",
+       "tx": "médicament",
+       "rd": "메디꺄멍",
+       "ic": "💊"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (지하철)",
+     "words": [
+      {
+       "ko": "티켓",
+       "tx": "ticket",
+       "rd": "티께",
+       "ic": "🎫"
+      },
+      {
+       "ko": "승차권",
+       "tx": "carnet",
+       "rd": "꺄흐네",
+       "ic": "✈️"
+      },
+      {
+       "ko": "매표소",
+       "tx": "guichet",
+       "rd": "기셰",
+       "ic": "✈️"
+      },
+      {
+       "ko": "ATM",
+       "tx": "distributeur automatique",
+       "rd": "디스트히뷰떠흐 오또마띠끄",
+       "ic": "✈️"
+      },
+      {
+       "ko": "거스름돈",
+       "tx": "monnaie",
+       "rd": "모내",
+       "ic": "💶"
+      },
+      {
+       "ko": "개찰구",
+       "tx": "accès au quai",
+       "rd": "아쎄 오 깨",
+       "ic": "✈️"
+      },
+      {
+       "ko": "플랫폼",
+       "tx": "quai",
+       "rd": "깨",
+       "ic": "✈️"
+      },
+      {
+       "ko": "안내판",
+       "tx": "panneau d'information",
+       "rd": "빠노 덩포흐마씨옹",
+       "ic": "✈️"
+      },
+      {
+       "ko": "노선도",
+       "tx": "plan",
+       "rd": "쁠랑",
+       "ic": "✈️"
+      },
+      {
+       "ko": "운행 시간표",
+       "tx": "horaire",
+       "rd": "오해흐",
+       "ic": "⏰"
+      },
+      {
+       "ko": "소요시간",
+       "tx": "temps requis",
+       "rd": "떵 흐끼",
+       "ic": "⏰"
+      },
+      {
+       "ko": "역무원",
+       "tx": "employé de la gare",
+       "rd": "엉플루아예 드 라 갸흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "차장",
+       "tx": "contrôleur",
+       "rd": "꽁트홀러흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "환승",
+       "tx": "changement",
+       "rd": "샹쥬멍",
+       "ic": "✈️"
+      },
+      {
+       "ko": "입구",
+       "tx": "entrée",
+       "rd": "엉트헤",
+       "ic": "✈️"
+      },
+      {
+       "ko": "출구",
+       "tx": "sortie",
+       "rd": "쏘흑띠",
+       "ic": "✈️"
+      }
+     ]
+    },
+    {
+     "title": "도움이 되는 단어장 (철도)",
+     "words": [
+      {
+       "ko": "편도 티켓",
+       "tx": "aller simple",
+       "rd": "알레 썽쁠르",
+       "ic": "🎫"
+      },
+      {
+       "ko": "왕복",
+       "tx": "aller et retour",
+       "rd": "알레 에 흐뚜흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "간이침대",
+       "tx": "couchette",
+       "rd": "꾸쉐뜨",
+       "ic": "🛏️"
+      },
+      {
+       "ko": "유로스타",
+       "tx": "Eurostar",
+       "rd": "에호스따",
+       "ic": "✈️"
+      },
+      {
+       "ko": "정거장",
+       "tx": "gare",
+       "rd": "갸흐",
+       "ic": "✈️"
+      },
+      {
+       "ko": "운행 시간표",
+       "tx": "horaire",
+       "rd": "오해흐",
+       "ic": "⏰"
+      },
+      {
+       "ko": "노선",
+       "tx": "ligne",
+       "rd": "린느",
+       "ic": "✈️"
+      },
+      {
+       "ko": "플랫폼",
+       "tx": "quai",
+       "rd": "깨",
+       "ic": "✈️"
+      },
+      {
+       "ko": "탈리스",
+       "tx": "Thalys",
+       "rd": "딸리",
+       "ic": "✈️"
+      },
+      {
+       "ko": "선로",
+       "tx": "voie",
+       "rd": "부아",
+       "ic": "✈️"
+      },
+      {
+       "ko": "탑승권",
+       "tx": "titre de transport",
+       "rd": "티트흐 드 트헝스뽀흐",
+       "ic": "✈️"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "life",
+   "title": "생활 편의",
+   "emoji": "📮",
+   "sections": [
+    {
+     "title": "우편과 배송 — 도움이 되는 단어장",
+     "words": [
+      {
+       "ko": "우표",
+       "tx": "timbre",
+       "rd": "떵브흐",
+       "ic": "📮"
+      },
+      {
+       "ko": "편지",
+       "tx": "lettre",
+       "rd": "레트흐",
+       "ic": "✉️"
+      },
+      {
+       "ko": "엽서",
+       "tx": "carte postale",
+       "rd": "꺄흐뜨 뽀스딸",
+       "ic": "📮"
+      },
+      {
+       "ko": "인쇄물",
+       "tx": "Imprimés",
+       "rd": "엉프히메",
+       "ic": "💧"
+      },
+      {
+       "ko": "파손 주의",
+       "tx": "Fragile",
+       "rd": "프하쥘르",
+       "ic": "📮"
+      },
+      {
+       "ko": "취급 주의",
+       "tx": "à manipuler avec précaution",
+       "rd": "아 마니뷀레 아베끄 프레꼬씨용",
+       "ic": "📮"
+      },
+      {
+       "ko": "소포",
+       "tx": "colis",
+       "rd": "꼴리",
+       "ic": "📮"
+      }
+     ]
+    },
+    {
+     "title": "컴퓨터 (ordinateur 오흐디나떠흐) — 단어",
+     "words": [
+      {
+       "ko": "모니터",
+       "tx": "moniteur",
+       "rd": "모니떠흐",
+       "ic": "📮"
+      },
+      {
+       "ko": "프린터",
+       "tx": "imprimante",
+       "rd": "앵프리멍",
+       "ic": "📮"
+      },
+      {
+       "ko": "마우스",
+       "tx": "souris",
+       "rd": "쑤히",
+       "ic": "📮"
+      },
+      {
+       "ko": "WIFI",
+       "tx": "WiFi",
+       "rd": "위피",
+       "ic": "📮"
+      },
+      {
+       "ko": "키보드",
+       "tx": "clavier",
+       "rd": "클라비에",
+       "ic": "📮"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "basicwords",
+   "title": "기본 단어",
+   "emoji": "🔢",
+   "sections": [
+    {
+     "title": "기본 단어 — 숫자",
+     "words": [
+      {
+       "ko": "0",
+       "tx": "zéro",
+       "rd": "제호",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1",
+       "tx": "un",
+       "rd": "엉",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2",
+       "tx": "deux",
+       "rd": "두",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3",
+       "tx": "trois",
+       "rd": "투와",
+       "ic": "🔢"
+      },
+      {
+       "ko": "4",
+       "tx": "quatre",
+       "rd": "꺄트흐",
+       "ic": "🔢"
+      },
+      {
+       "ko": "5",
+       "tx": "cinq",
+       "rd": "쌩크",
+       "ic": "🔢"
+      },
+      {
+       "ko": "6",
+       "tx": "six",
+       "rd": "씨스",
+       "ic": "🔢"
+      },
+      {
+       "ko": "7",
+       "tx": "sept",
+       "rd": "쎄뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "8",
+       "tx": "huit",
+       "rd": "위뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "9",
+       "tx": "neuf",
+       "rd": "너프",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10",
+       "tx": "dix",
+       "rd": "디(스)",
+       "ic": "🔢"
+      },
+      {
+       "ko": "11",
+       "tx": "onze",
+       "rd": "옹즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "12",
+       "tx": "douze",
+       "rd": "두즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "13",
+       "tx": "treize",
+       "rd": "트헤즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "14",
+       "tx": "quatorze",
+       "rd": "꺄또즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "15",
+       "tx": "quinze",
+       "rd": "깽즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "16",
+       "tx": "seize",
+       "rd": "쎄즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "17",
+       "tx": "dix-sept",
+       "rd": "디세뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "18",
+       "tx": "dix-huit",
+       "rd": "디즈위뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "19",
+       "tx": "dix-neuf",
+       "rd": "디즈너프",
+       "ic": "🔢"
+      },
+      {
+       "ko": "20",
+       "tx": "vingt",
+       "rd": "방",
+       "ic": "🔢"
+      },
+      {
+       "ko": "21",
+       "tx": "vingt et un",
+       "rd": "방떼엉",
+       "ic": "🔢"
+      },
+      {
+       "ko": "22",
+       "tx": "vingt-deux",
+       "rd": "방두",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30",
+       "tx": "trente",
+       "rd": "트헝뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "40",
+       "tx": "quarante",
+       "rd": "꺄헝뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "50",
+       "tx": "cinquante",
+       "rd": "쌩껑뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "60",
+       "tx": "soixante",
+       "rd": "수아썽뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "70",
+       "tx": "soixante-dix",
+       "rd": "수아썽드 디(스)",
+       "ic": "🔢"
+      },
+      {
+       "ko": "77",
+       "tx": "soixante-dix-sept",
+       "rd": "수아썽 디 쎄뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "80",
+       "tx": "quatre-vingts",
+       "rd": "꺄트흐 방",
+       "ic": "🔢"
+      },
+      {
+       "ko": "88",
+       "tx": "quatre-vingt-huit",
+       "rd": "꺄트흐 방 위뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "90",
+       "tx": "quatre-vingt-dix",
+       "rd": "꺄트흐 방 디스",
+       "ic": "🔢"
+      },
+      {
+       "ko": "100",
+       "tx": "cent",
+       "rd": "썽",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1000",
+       "tx": "mille",
+       "rd": "밀",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10000",
+       "tx": "dix mille",
+       "rd": "디밀",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10만",
+       "tx": "cent mille",
+       "rd": "썽 밀",
+       "ic": "🔢"
+      },
+      {
+       "ko": "100만",
+       "tx": "un million",
+       "rd": "엉 밀리옹",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2배",
+       "tx": "double",
+       "rd": "두블르",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3배",
+       "tx": "triple",
+       "rd": "트리쁠르",
+       "ic": "🔢"
+      },
+      {
+       "ko": "첫 번째",
+       "tx": "premier (première)",
+       "rd": "프허미에(프허미에흐)",
+       "ic": "🔢"
+      },
+      {
+       "ko": "두 번째",
+       "tx": "deuxième",
+       "rd": "두지엠므",
+       "ic": "🔢"
+      },
+      {
+       "ko": "세 번째",
+       "tx": "troisième",
+       "rd": "투와지엠므",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "기본 단어 — 월, 계절",
+     "words": [
+      {
+       "ko": "1월",
+       "tx": "janvier",
+       "rd": "쟝비에",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2월",
+       "tx": "février",
+       "rd": "페브히예",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3월",
+       "tx": "mars",
+       "rd": "마흐",
+       "ic": "🔢"
+      },
+      {
+       "ko": "4월",
+       "tx": "avril",
+       "rd": "아브릴",
+       "ic": "🔢"
+      },
+      {
+       "ko": "5월",
+       "tx": "mai",
+       "rd": "매",
+       "ic": "🔢"
+      },
+      {
+       "ko": "6월",
+       "tx": "juin",
+       "rd": "쥐앙",
+       "ic": "🔢"
+      },
+      {
+       "ko": "7월",
+       "tx": "juillet",
+       "rd": "쥐에",
+       "ic": "🔢"
+      },
+      {
+       "ko": "8월",
+       "tx": "août",
+       "rd": "우뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "9월",
+       "tx": "septembre",
+       "rd": "쎕떵브흐",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10월",
+       "tx": "octobre",
+       "rd": "옥또브흐",
+       "ic": "🔢"
+      },
+      {
+       "ko": "11월",
+       "tx": "novembre",
+       "rd": "노벙브흐",
+       "ic": "🔢"
+      },
+      {
+       "ko": "12월",
+       "tx": "décembre",
+       "rd": "데썽브흐",
+       "ic": "🔢"
+      },
+      {
+       "ko": "봄",
+       "tx": "printemps",
+       "rd": "프랭떵",
+       "ic": "🔢"
+      },
+      {
+       "ko": "여름",
+       "tx": "été",
+       "rd": "에떼",
+       "ic": "🔢"
+      },
+      {
+       "ko": "가을",
+       "tx": "automne",
+       "rd": "오똔느",
+       "ic": "🔢"
+      },
+      {
+       "ko": "겨울",
+       "tx": "hiver",
+       "rd": "이베",
+       "ic": "🔢"
+      },
+      {
+       "ko": "저는 한국에 2월 9일에 돌아갑니다.",
+       "tx": "Je retourne en Corée le neuf février.",
+       "rd": "쥬 흐뚜흔 엉 꼬헤 르 너프 페브히예",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "기본 단어 — 요일",
+     "words": [
+      {
+       "ko": "일",
+       "tx": "dimanche",
+       "rd": "디멍슈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "월",
+       "tx": "lundi",
+       "rd": "렁디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "화",
+       "tx": "mardi",
+       "rd": "마흐디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "수",
+       "tx": "mercredi",
+       "rd": "메크허디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "목",
+       "tx": "jeudi",
+       "rd": "쥬디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "금",
+       "tx": "vendredi",
+       "rd": "벙드허디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "토",
+       "tx": "samedi",
+       "rd": "쌈디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "평일",
+       "tx": "jour de semaine",
+       "rd": "쥬흐 드 쓰맨느",
+       "ic": "🔢"
+      },
+      {
+       "ko": "주말",
+       "tx": "fin de semaine",
+       "rd": "팡 드 쓰맨느",
+       "ic": "🔢"
+      },
+      {
+       "ko": "공휴일",
+       "tx": "jour férié",
+       "rd": "쥬흐 페히예",
+       "ic": "🔢"
+      },
+      {
+       "ko": "오늘[내일/어제]은 무슨 요일인가요?",
+       "tx": "Quel jour de la semaine sommes-nous aujourd'hui[sera-t-il demain / était-ce hier]?",
+       "rd": "껠 쥬흐 드 라 쓰맨느 쏨므 누 오쥬흐디 [스하 띨 드망 / 에때 쓰 이에]?",
+       "ic": "📅"
+      },
+      {
+       "ko": "오늘[내일 / 어제]은 월요일입니다.",
+       "tx": "Aujourd'hui[Demain / Hier] est[sera / était] lundi.",
+       "rd": "오쥬흐디 [드망/이에] 에 [스하/에때] 렁디",
+       "ic": "🗓️"
+      }
+     ]
+    },
+    {
+     "title": "기본 단어 — 때",
+     "words": [
+      {
+       "ko": "아침",
+       "tx": "matin",
+       "rd": "마땅",
+       "ic": "🌅"
+      },
+      {
+       "ko": "정오",
+       "tx": "midi",
+       "rd": "미디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "저녁",
+       "tx": "soir",
+       "rd": "수아흐",
+       "ic": "🌆"
+      },
+      {
+       "ko": "밤",
+       "tx": "nuit",
+       "rd": "뉘",
+       "ic": "🌙"
+      },
+      {
+       "ko": "오전",
+       "tx": "matin",
+       "rd": "마땅",
+       "ic": "🔢"
+      },
+      {
+       "ko": "오후",
+       "tx": "après-midi",
+       "rd": "아프레 미디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "어제",
+       "tx": "hier",
+       "rd": "이에흐",
+       "ic": "📅"
+      },
+      {
+       "ko": "오늘",
+       "tx": "aujourd'hui",
+       "rd": "오쥬흐디",
+       "ic": "🗓️"
+      },
+      {
+       "ko": "내일",
+       "tx": "demain",
+       "rd": "드망",
+       "ic": "📆"
+      },
+      {
+       "ko": "모레",
+       "tx": "après-demain",
+       "rd": "아프레 드망",
+       "ic": "🔢"
+      },
+      {
+       "ko": "하루 전",
+       "tx": "un jour avant",
+       "rd": "엉 쥬흐 아벙",
+       "ic": "🔢"
+      },
+      {
+       "ko": "이틀 뒤",
+       "tx": "deux jours après",
+       "rd": "두 쥬흐 아프레",
+       "ic": "🔢"
+      },
+      {
+       "ko": "세 번째 날",
+       "tx": "troisième",
+       "rd": "투와지엠",
+       "ic": "🔢"
+      },
+      {
+       "ko": "한 시간",
+       "tx": "une heure",
+       "rd": "위 너흐",
+       "ic": "⏰"
+      }
+     ]
+    },
+    {
+     "title": "기본 단어 — 시간",
+     "words": [
+      {
+       "ko": "시",
+       "tx": "heure",
+       "rd": "어흐",
+       "ic": "🔢"
+      },
+      {
+       "ko": "분",
+       "tx": "minute",
+       "rd": "미뉘트",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30분",
+       "tx": "et demie",
+       "rd": "에 드미",
+       "ic": "🔢"
+      },
+      {
+       "ko": "전[후]",
+       "tx": "moins[et]",
+       "rd": "무앙 [에]",
+       "ic": "🔢"
+      },
+      {
+       "ko": "시계",
+       "tx": "horloge",
+       "rd": "오흘로쥬",
+       "ic": "⌚"
+      },
+      {
+       "ko": "5분",
+       "tx": "cinq",
+       "rd": "쌩크",
+       "ic": "🔢"
+      },
+      {
+       "ko": "15분",
+       "tx": "et quart",
+       "rd": "에 꺄",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30분",
+       "tx": "et demie",
+       "rd": "에 드미",
+       "ic": "🔢"
+      },
+      {
+       "ko": "45분",
+       "tx": "moins le quart",
+       "rd": "무앙 르 꺄",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30분간",
+       "tx": "trente minutes",
+       "rd": "트헝뜨 미뉘트",
+       "ic": "🔢"
+      },
+      {
+       "ko": "지금 몇 시인가요?",
+       "tx": "Quelle heure est-il maintenant?",
+       "rd": "껠 러흐 에 띨 맹뜨넝?",
+       "ic": "🔢"
+      },
+      {
+       "ko": "몇 시에 시작하나요?",
+       "tx": "À quelle heure est-ce que ça commence?",
+       "rd": "아 껠 러흐 에 스 끄 싸 꼬멍쓰?",
+       "ic": "🔢"
+      },
+      {
+       "ko": "8시 20분",
+       "tx": "huit heures vingt",
+       "rd": "위 떠흐 방",
+       "ic": "🔢"
+      },
+      {
+       "ko": "9시 반",
+       "tx": "neuf heures et demie",
+       "rd": "너 버흐 에 드미",
+       "ic": "🔢"
+      },
+      {
+       "ko": "오전 11시",
+       "tx": "onze heures du matin",
+       "rd": "옹 저흐 뒤 마땅",
+       "ic": "🔢"
+      },
+      {
+       "ko": "어제 11시",
+       "tx": "hier, à onze heures",
+       "rd": "이에 아 옹저흐",
+       "ic": "📅"
+      },
+      {
+       "ko": "10시 5분 전",
+       "tx": "dix heures moins cinq",
+       "rd": "디 저흐 무앙 쌩끄",
+       "ic": "🔢"
+      },
+      {
+       "ko": "15분 후에",
+       "tx": "dans quinze minutes",
+       "rd": "덩 깽즈 미뉘트",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "숫자 — 기본 숫자",
+     "words": [
+      {
+       "ko": "숫자",
+       "tx": "프랑스어",
+       "rd": "독음",
+       "ic": "🔢"
+      },
+      {
+       "ko": "0",
+       "tx": "zéro",
+       "rd": "제호",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1",
+       "tx": "un",
+       "rd": "엉",
+       "ic": "🔢"
+      },
+      {
+       "ko": "2",
+       "tx": "deux",
+       "rd": "두",
+       "ic": "🔢"
+      },
+      {
+       "ko": "3",
+       "tx": "trois",
+       "rd": "투와",
+       "ic": "🔢"
+      },
+      {
+       "ko": "4",
+       "tx": "quatre",
+       "rd": "꺄트흐",
+       "ic": "🔢"
+      },
+      {
+       "ko": "5",
+       "tx": "cinq",
+       "rd": "쎙크",
+       "ic": "🔢"
+      },
+      {
+       "ko": "6",
+       "tx": "six",
+       "rd": "씨스",
+       "ic": "🔢"
+      },
+      {
+       "ko": "7",
+       "tx": "sept",
+       "rd": "쎄뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "8",
+       "tx": "huit",
+       "rd": "위뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "9",
+       "tx": "neuf",
+       "rd": "너프",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10",
+       "tx": "dix",
+       "rd": "디(스)",
+       "ic": "🔢"
+      },
+      {
+       "ko": "11",
+       "tx": "onze",
+       "rd": "옹즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "12",
+       "tx": "douze",
+       "rd": "두즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "13",
+       "tx": "treize",
+       "rd": "트헤즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "14",
+       "tx": "quatorze",
+       "rd": "꺄또즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "15",
+       "tx": "quinze",
+       "rd": "껭즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "16",
+       "tx": "seize",
+       "rd": "쎄즈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "17",
+       "tx": "dix-sept",
+       "rd": "디세뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "18",
+       "tx": "dix-huit",
+       "rd": "디즈위뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "19",
+       "tx": "dix-neuf",
+       "rd": "디즈너프",
+       "ic": "🔢"
+      },
+      {
+       "ko": "20",
+       "tx": "vingt",
+       "rd": "방",
+       "ic": "🔢"
+      },
+      {
+       "ko": "30",
+       "tx": "trente",
+       "rd": "트헝뜨",
+       "ic": "🔢"
+      },
+      {
+       "ko": "100",
+       "tx": "cent",
+       "rd": "썽",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1000",
+       "tx": "mille",
+       "rd": "밀",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10000",
+       "tx": "dix mille",
+       "rd": "디밀",
+       "ic": "🔢"
+      },
+      {
+       "ko": "10만",
+       "tx": "cent mille",
+       "rd": "썽밀",
+       "ic": "🔢"
+      },
+      {
+       "ko": "100만",
+       "tx": "un million",
+       "rd": "엉 밀리옹",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1억",
+       "tx": "cent millions",
+       "rd": "썽 밀리옹",
+       "ic": "🔢"
+      },
+      {
+       "ko": "0.1",
+       "tx": "zéro virgule un",
+       "rd": "제호 베흐귈 렁",
+       "ic": "🔢"
+      },
+      {
+       "ko": "1/4",
+       "tx": "un quart",
+       "rd": "엉 꺄흐",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "때",
+     "words": [
+      {
+       "ko": "아침",
+       "tx": "matin",
+       "rd": "마땅",
+       "ic": "🌅"
+      },
+      {
+       "ko": "정오",
+       "tx": "midi",
+       "rd": "미디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "저녁",
+       "tx": "soir",
+       "rd": "수아흐",
+       "ic": "🌆"
+      },
+      {
+       "ko": "밤",
+       "tx": "nuit",
+       "rd": "뉘",
+       "ic": "🌙"
+      },
+      {
+       "ko": "오늘",
+       "tx": "aujourd'hui",
+       "rd": "오쥬흐디",
+       "ic": "📅"
+      },
+      {
+       "ko": "내일",
+       "tx": "demain",
+       "rd": "드망",
+       "ic": "🗓️"
+      },
+      {
+       "ko": "어제",
+       "tx": "hier",
+       "rd": "이에흐",
+       "ic": "📆"
+      },
+      {
+       "ko": "오전",
+       "tx": "matin",
+       "rd": "마땅",
+       "ic": "🔢"
+      },
+      {
+       "ko": "오후",
+       "tx": "après-midi",
+       "rd": "아프레 미디",
+       "ic": "🔢"
+      }
+     ]
+    },
+    {
+     "title": "요일",
+     "words": [
+      {
+       "ko": "일요일",
+       "tx": "dimanche",
+       "rd": "디멍슈",
+       "ic": "🔢"
+      },
+      {
+       "ko": "월요일",
+       "tx": "lundi",
+       "rd": "렁디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "화요일",
+       "tx": "mardi",
+       "rd": "마흐디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "수요일",
+       "tx": "mercredi",
+       "rd": "메크허디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "목요일",
+       "tx": "jeudi",
+       "rd": "쥬디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "금요일",
+       "tx": "vendredi",
+       "rd": "벙드허디",
+       "ic": "🔢"
+      },
+      {
+       "ko": "토요일",
+       "tx": "samedi",
+       "rd": "쌈디",
+       "ic": "🔢"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

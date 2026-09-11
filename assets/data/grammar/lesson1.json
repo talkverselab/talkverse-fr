@@ -1,0 +1,258 @@
+{
+ "lesson": 1,
+ "title": "프랑스어 기본 문형 1",
+ "subtitle": "회화에 바로 쓰는 핵심 패턴 10개 × 예문 3",
+ "tts_lang": "fr-FR",
+ "stages": [
+  {
+   "stage": 1,
+   "title": "인칭·소개·질문"
+  },
+  {
+   "stage": 2,
+   "title": "동사·시간·장소"
+  }
+ ],
+ "patterns": [
+  {
+   "id": "p01",
+   "key": "Je suis …",
+   "label": "나는 ~이다",
+   "explanation": "être 1인칭. 이름·직업·상태.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Je suis Minjun.",
+     "rd": "쥬 쒸 민준.",
+     "ko": "나는 민준이야."
+    },
+    {
+     "tl": "Je suis étudiant.",
+     "rd": "쥬 쒸 제뛰디앙.",
+     "ko": "나는 학생이야."
+    },
+    {
+     "tl": "Je suis fatigué.",
+     "rd": "쥬 쒸 파띠게.",
+     "ko": "나는 피곤해."
+    }
+   ]
+  },
+  {
+   "id": "p02",
+   "key": "Je m'appelle …",
+   "label": "내 이름은 ~",
+   "explanation": "s'appeler = ~라고 불리다.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Je m'appelle Camille.",
+     "rd": "쥬 마뻴 꺄미유.",
+     "ko": "내 이름은 카미유야."
+    },
+    {
+     "tl": "Tu t'appelles comment ?",
+     "rd": "뛰 따뻴 꼬망?",
+     "ko": "네 이름은 뭐야?"
+    },
+    {
+     "tl": "Il s'appelle Paul.",
+     "rd": "일 싸뻴 뽈.",
+     "ko": "그의 이름은 폴이야."
+    }
+   ]
+  },
+  {
+   "id": "p03",
+   "key": "Tu viens d'où ?",
+   "label": "어디에서 왔어?",
+   "explanation": "venir de + 나라.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Tu viens d'où ?",
+     "rd": "뛰 비앵 두?",
+     "ko": "어디에서 왔어?"
+    },
+    {
+     "tl": "Je viens de Corée.",
+     "rd": "쥬 비앵 드 꼬레.",
+     "ko": "한국에서 왔어."
+    },
+    {
+     "tl": "Elle vient de Lyon.",
+     "rd": "엘 비앵 드 리옹.",
+     "ko": "그녀는 리옹에서 왔어."
+    }
+   ]
+  },
+  {
+   "id": "p04",
+   "key": "J'ai …",
+   "label": "나는 ~을 가지고 있다",
+   "explanation": "avoir. 시간·물건·형제.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "J'ai le temps.",
+     "rd": "제 르 땅.",
+     "ko": "나 시간 있어."
+    },
+    {
+     "tl": "Tu as un frère ?",
+     "rd": "뛰 아 엉 프레르?",
+     "ko": "형제 있어?"
+    },
+    {
+     "tl": "Nous avons faim.",
+     "rd": "누 자봉 팽.",
+     "ko": "우리 배고파."
+    }
+   ]
+  },
+  {
+   "id": "p05",
+   "key": "Qu'est-ce que …?",
+   "label": "무엇",
+   "explanation": "구어 의문. 문장 앞에.",
+   "stage": 1,
+   "examples": [
+    {
+     "tl": "Qu'est-ce que tu fais ?",
+     "rd": "께스끄 뛰 페?",
+     "ko": "뭐 해?"
+    },
+    {
+     "tl": "Qu'est-ce que c'est ?",
+     "rd": "께스끄 쎄?",
+     "ko": "이게 뭐야?"
+    },
+    {
+     "tl": "Qu'est-ce que tu veux ?",
+     "rd": "께스끄 뛰 뵈?",
+     "ko": "뭘 원해?"
+    }
+   ]
+  },
+  {
+   "id": "p06",
+   "key": "Je voudrais …",
+   "label": "~하고 싶어요",
+   "explanation": "정중한 소망. 주문·요청.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Je voudrais un café.",
+     "rd": "쥬 부드레 엉 꺄페.",
+     "ko": "커피 한 잔 주세요."
+    },
+    {
+     "tl": "Je voudrais rentrer.",
+     "rd": "쥬 부드레 랑트레.",
+     "ko": "집에 가고 싶어."
+    },
+    {
+     "tl": "Tu voudrais venir ?",
+     "rd": "뛰 부드레 브니르?",
+     "ko": "같이 갈래?"
+    }
+   ]
+  },
+  {
+   "id": "p07",
+   "key": "Je peux …",
+   "label": "나는 ~할 수 있다",
+   "explanation": "pouvoir + 동사원형.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Je peux parler français.",
+     "rd": "쥬 뾔 빠를레 프항쎄.",
+     "ko": "나 프랑스어 할 수 있어."
+    },
+    {
+     "tl": "Tu peux m'aider ?",
+     "rd": "뛰 뾔 메데?",
+     "ko": "나 좀 도와줄래?"
+    },
+    {
+     "tl": "On peut y aller demain.",
+     "rd": "옹 뾔 이 알레 드맹.",
+     "ko": "우리 내일 갈 수 있어."
+    }
+   ]
+  },
+  {
+   "id": "p08",
+   "key": "Où est …?",
+   "label": "~는 어디에 있어?",
+   "explanation": "장소 묻기.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "Où est la gare ?",
+     "rd": "우 에 라 갸르?",
+     "ko": "역이 어디예요?"
+    },
+    {
+     "tl": "Tu habites où ?",
+     "rd": "뛰 아비뜨 우?",
+     "ko": "어디 살아?"
+    },
+    {
+     "tl": "On est où ?",
+     "rd": "옹 에 우?",
+     "ko": "우리 어디야?"
+    }
+   ]
+  },
+  {
+   "id": "p09",
+   "key": "À … heures",
+   "label": "~시에",
+   "explanation": "시각 앞에는 à.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "À sept heures.",
+     "rd": "아 쎄 뙤르.",
+     "ko": "7시에."
+    },
+    {
+     "tl": "On se voit à huit heures.",
+     "rd": "옹 쓰 부아 아 위 뙤르.",
+     "ko": "우리 8시에 만나."
+    },
+    {
+     "tl": "À quelle heure ?",
+     "rd": "아 껠 뢰르?",
+     "ko": "몇 시에?"
+    }
+   ]
+  },
+  {
+   "id": "p10",
+   "key": "C'était …",
+   "label": "~였다",
+   "explanation": "être 반과거. 감상 말하기.",
+   "stage": 2,
+   "examples": [
+    {
+     "tl": "C'était bien.",
+     "rd": "쎄떼 비앙.",
+     "ko": "좋았어."
+    },
+    {
+     "tl": "Le film était beau.",
+     "rd": "르 필므 에떼 보.",
+     "ko": "영화 좋았어."
+    },
+    {
+     "tl": "J'étais fatigué hier.",
+     "rd": "제떼 파띠게 이에르.",
+     "ko": "나 어제 피곤했어."
+    }
+   ]
+  }
+ ]
+}

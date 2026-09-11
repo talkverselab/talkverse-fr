@@ -1,18 +1,510 @@
 {
-  "level": "L1",
-  "variety": "fr_FR",
-  "version": "v1-2026-08-20",
-  "schema": "v1-L1-5ep40turn",
-  "title": "L1 — 매칭 narrative (준비 중)",
-  "description": "프랑스어 L1 대화 — 콘텐츠 준비 중",
-  "kpi": {
-    "episodes_target": 5,
-    "turns_per_episode": 40,
-    "turns_total_target": 200,
-    "turns_total_current": 0,
-    "progress_pct": 0.0
+ "level": "L1",
+ "variety": "fr_FR",
+ "version": "v2-2026-09-11",
+ "schema": "v2-L1-8turn",
+ "title": "L1 — 프랑스어 첫 만남 (초안)",
+ "description": "프랑스어 회화 초안 — 5편 × 8턴. 한글 독음 포함.",
+ "kpi": {
+  "episodes_target": 5,
+  "turns_per_episode": 8,
+  "turns_total_target": 40,
+  "turns_total_current": 40,
+  "progress_pct": 100.0
+ },
+ "characters": {
+  "A": {
+   "name": "Minjun",
+   "role": "",
+   "gender": "male"
   },
-  "characters": {},
-  "function_words": [],
-  "episodes": []
+  "B": {
+   "name": "Camille",
+   "role": "",
+   "gender": "female"
+  }
+ },
+ "function_words": [],
+ "episodes": [
+  {
+   "id": "ep1",
+   "title": "첫 인사",
+   "emoji": "💕",
+   "scenario": "언어교환 앱에서 처음 말을 건다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Salut ! Je m'appelle Minjun. Et toi ?",
+     "rd": "쌀뤼! 쥬 마뻴 민준. 에 뚜아?",
+     "ko": "안녕! 나는 민준이야. 너는?",
+     "note": "je m'appelle = 내 이름은",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Bonjour, moi c'est Camille. Tu viens d'où ?",
+     "rd": "봉주르, 무아 쎄 꺄미유. 뛰 비앵 두?",
+     "ko": "안녕, 나는 카미유야. 어디에서 왔어?",
+     "note": "d'où = 어디에서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "Je viens de Corée. J'apprends le français.",
+     "rd": "쥬 비앵 드 꼬레. 쟈프항 르 프항쎄.",
+     "ko": "한국에서 왔어. 프랑스어 배우고 있어.",
+     "note": "apprendre = 배우다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Super ! Ton français est déjà bon.",
+     "rd": "쒸뻬르! 똥 프항쎄 에 데자 봉.",
+     "ko": "멋지다! 네 프랑스어 벌써 좋은데.",
+     "note": "déjà = 벌써",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Merci ! Je pratique tous les jours.",
+     "rd": "메르씨! 쥬 프라띠끄 뚜 레 주르.",
+     "ko": "고마워! 매일 연습해.",
+     "note": "tous les jours = 매일",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Tu habites à Paris ?",
+     "rd": "뛰 아비뜨 아 빠리?",
+     "ko": "파리에 살아?",
+     "note": "habiter = 살다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Oui, depuis deux mois.",
+     "rd": "위, 드쀠 되 무아.",
+     "ko": "응, 두 달 전부터.",
+     "note": "depuis = ~이래로",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Alors je te montre la ville !",
+     "rd": "알로르 쥬 뜨 몽트르 라 빌!",
+     "ko": "그럼 내가 도시를 보여 줄게!",
+     "note": "te = 너에게",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep2",
+   "title": "카페에서",
+   "emoji": "☕",
+   "scenario": "처음 만나 카페에서 주문한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Qu'est-ce que tu veux boire ?",
+     "rd": "께스끄 뛰 뵈 부아르?",
+     "ko": "뭐 마실래?",
+     "note": "qu'est-ce que = 무엇을",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Un café, s'il te plaît. Et toi ?",
+     "rd": "엉 꺄페, 씰 뜨 쁠래. 에 뚜아?",
+     "ko": "커피 하나, 부탁해. 너는?",
+     "note": "s'il te plaît = 부탁해(반말)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "Je prends un thé au lait.",
+     "rd": "쥬 프항 엉 떼 오 레.",
+     "ko": "나는 밀크티로 할게.",
+     "note": "prendre = 고르다·먹다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Le gâteau est bon ici ?",
+     "rd": "르 갸또 에 봉 이씨?",
+     "ko": "여기 케이크 맛있어?",
+     "note": "ici = 여기",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "Très bon ! La tarte aux pommes est ma préférée.",
+     "rd": "트레 봉! 라 따르뜨 오 뽐 에 마 프레페레.",
+     "ko": "엄청! 사과 타르트가 내 최애야.",
+     "note": "ma préférée = 내가 제일 좋아하는",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Alors on prend deux parts.",
+     "rd": "알로르 옹 프항 되 빠르.",
+     "ko": "그럼 두 조각 시키자.",
+     "note": "on = 우리(구어)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Parfait. C'est moi qui invite.",
+     "rd": "빠르페. 쎄 무아 끼 앵비뜨.",
+     "ko": "완벽해. 내가 살게.",
+     "note": "inviter = 한턱내다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "Non non, aujourd'hui je paie !",
+     "rd": "농 농, 오주르뒤 쥬 뻬!",
+     "ko": "아니 아니, 오늘은 내가 낼게!",
+     "note": "payer = 지불하다",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep3",
+   "title": "길 묻기",
+   "emoji": "🗺️",
+   "scenario": "박물관 가는 길을 묻는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Excusez-moi, où est le musée ?",
+     "rd": "엑스뀌제 무아, 우 에 르 뮈제?",
+     "ko": "실례합니다, 박물관이 어디예요?",
+     "note": "où = 어디",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Va tout droit, puis à gauche.",
+     "rd": "바 뚜 드루아, 쀠 아 고슈.",
+     "ko": "직진하다가 왼쪽으로 가.",
+     "note": "tout droit = 직진",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "C'est loin ?",
+     "rd": "쎄 루앙?",
+     "ko": "멀어?",
+     "note": "loin = 먼",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Non, cinq minutes à pied.",
+     "rd": "농, 쌩끄 미뉘뜨 아 삐에.",
+     "ko": "아니, 걸어서 5분이야.",
+     "note": "à pied = 걸어서",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "Génial. C'est ouvert aujourd'hui ?",
+     "rd": "제니알. 쎄 우베르 오주르뒤?",
+     "ko": "좋다. 오늘 열었어?",
+     "note": "ouvert = 열린",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Oui, jusqu'à dix-huit heures.",
+     "rd": "위, 쥐스꺄 디즈위 뙤르.",
+     "ko": "응, 18시까지.",
+     "note": "jusqu'à = ~까지",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Tu viens avec moi ?",
+     "rd": "뛰 비앵 아베끄 무아?",
+     "ko": "같이 갈래?",
+     "note": "avec moi = 나와 함께",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Avec plaisir ! J'adore l'art.",
+     "rd": "아베끄 쁠레지르! 쟈도르 라르.",
+     "ko": "좋아! 나 예술 진짜 좋아해.",
+     "note": "adorer = 아주 좋아하다",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep4",
+   "title": "약속 잡기",
+   "emoji": "📅",
+   "scenario": "주말에 만날 약속을 잡는다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "B",
+     "es": "Tu es libre samedi ?",
+     "rd": "뛰 에 리브르 쌈디?",
+     "ko": "토요일에 시간 있어?",
+     "note": "libre = 한가한",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "A",
+     "es": "Oui, je suis libre. On fait quoi ?",
+     "rd": "위, 쥬 쒸 리브르. 옹 페 꾸아?",
+     "ko": "응, 한가해. 뭐 할까?",
+     "note": "on fait quoi = 뭐 할까",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "B",
+     "es": "On pourrait aller au cinéma.",
+     "rd": "옹 뿌레 알레 오 씨네마.",
+     "ko": "영화관에 갈 수도 있지.",
+     "note": "pourrait = ~할 수 있을 텐데",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "A",
+     "es": "Bonne idée ! À quelle heure ?",
+     "rd": "본 이데! 아 껠 뢰르?",
+     "ko": "좋은 생각! 몇 시에?",
+     "note": "à quelle heure = 몇 시에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "B",
+     "es": "À sept heures ? Après on mange un truc.",
+     "rd": "아 쎄 뙤르? 아프레 옹 망쥬 엉 트뤽.",
+     "ko": "7시? 그 다음에 뭐 좀 먹자.",
+     "note": "après = 그 후에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "A",
+     "es": "Ça marche. On se retrouve où ?",
+     "rd": "싸 마르슈. 옹 쓰 르트루브 우?",
+     "ko": "좋아. 어디서 만나?",
+     "note": "se retrouver = 만나다",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "B",
+     "es": "Devant la gare, à Châtelet.",
+     "rd": "드방 라 갸르, 아 샤뜰레.",
+     "ko": "샤틀레 역 앞에서.",
+     "note": "devant = ~앞에",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "A",
+     "es": "D'accord, à samedi !",
+     "rd": "다꼬르, 아 쌈디!",
+     "ko": "알았어, 토요일에 봐!",
+     "note": "à + 시간 = ~에 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ep5",
+   "title": "감정 말하기",
+   "emoji": "💬",
+   "scenario": "영화를 보고 나서 마음을 전한다",
+   "turns": [
+    {
+     "num": 1,
+     "speaker": "A",
+     "es": "Le film était vraiment beau.",
+     "rd": "르 필므 에떼 브레망 보.",
+     "ko": "영화 정말 좋았어.",
+     "note": "était = ~였다(반과거)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 2,
+     "speaker": "B",
+     "es": "Oui, mais la fin était triste.",
+     "rd": "위, 메 라 팽 에떼 트리스뜨.",
+     "ko": "응, 근데 결말이 슬펐어.",
+     "note": "mais = 하지만",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 3,
+     "speaker": "A",
+     "es": "J'aime les films avec toi.",
+     "rd": "젬 레 필므 아베끄 뚜아.",
+     "ko": "너랑 보는 영화가 좋아.",
+     "note": "avec toi = 너와",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 4,
+     "speaker": "B",
+     "es": "Moi aussi. Tu es très gentil.",
+     "rd": "무아 오씨. 뛰 에 트레 정띠.",
+     "ko": "나도. 너 참 다정해.",
+     "note": "aussi = ~도",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 5,
+     "speaker": "A",
+     "es": "On se revoit la semaine prochaine ?",
+     "rd": "옹 쓰 르부아 라 쓰멘 프로쉔?",
+     "ko": "다음 주에 또 볼까?",
+     "note": "prochaine = 다음의",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 6,
+     "speaker": "B",
+     "es": "Bien sûr. Écris-moi !",
+     "rd": "비앙 쒸르. 에크리 무아!",
+     "ko": "당연하지. 문자해!",
+     "note": "écris = 써(명령)",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 7,
+     "speaker": "A",
+     "es": "Je le ferai. Bonne nuit, Camille.",
+     "rd": "쥬 르 프레. 본 뉘, 꺄미유.",
+     "ko": "그럴게. 잘 자, 카미유.",
+     "note": "bonne nuit = 잘 자",
+     "tags": [
+      "draft"
+     ]
+    },
+    {
+     "num": 8,
+     "speaker": "B",
+     "es": "Bonne nuit, Minjun. À bientôt !",
+     "rd": "본 뉘, 민준. 아 비앙또!",
+     "ko": "잘 자, 민준. 곧 봐!",
+     "note": "à bientôt = 곧 보자",
+     "tags": [
+      "draft"
+     ]
+    }
+   ]
+  }
+ ]
 }

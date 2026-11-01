@@ -103,6 +103,7 @@ adb -s R3CY20HDN2K install --user 0 -r <apk>
 - 대상어 문장 칸 이름은 템플릿 그대로 `es` 다(스페인어 앱에서 복제된 흔적). 언어와 무관하게 "대상어"로 읽으면 된다.
 - **콘텐츠는 초안**이다 — 회화 5편 × 8턴, 문법 10패턴 × 예문 3. 자체 제작이며 원문·출처를 쓰지 않는다.
   내용을 늘리려면 `_update_kit/content/<언어코드>.py` 를 고치고 `build_content.py` 로 다시 만든다.
+- **회화를 만들거나 고칠 때는 공통 원칙 https://talkverse.uk/talkverse/dialogue-rules/ 를 따른다**(2026-11-02 확정, 레벨 = 절벽 R1~R4). 프랑스어 특이점(독음 표기·말투·성별판)은 `docs/DIALOGUE_RULES.md`.
 - **주제별 단어·표현(`travel_words.json`·`travel_expressions.json`)은 2026-11-02 비웠다** — 외부 원서에서 뽑은 데이터라 사용자 결정으로 제거(「단어」·「표현」·「단어 카드」 화면은 빈 상태). 빈도표(R1~R3) 기반 자체 제작으로 다시 채운다. 원서·여행책에서 뽑은 단어는 쓰지 않는다.
 - 말하기 연습은 `RECORD_AUDIO` 권한과 기기의 음성 인식(Google 앱)이 필요하다. 인식 언어는 `TtsService.locale` 을 따른다.
 

@@ -62,6 +62,15 @@ flutter:
     - assets/data/grammar/
     - assets/data/vocab/
 
+  # 글꼴 — talkverse.uk 와 같은 Pretendard(OFL). 2026-11-03 사용자 "그림 시안처럼 더 가볍게":
+  # 400·600 두 굵기만 넣는다 → 코드가 700~900 을 써도 600 으로 그려져 전체가 가벼워진다.
+  fonts:
+    - family: Pretendard
+      fonts:
+        - asset: assets/fonts/Pretendard-Regular.otf
+        - asset: assets/fonts/Pretendard-SemiBold.otf
+          weight: 600
+
 flutter_launcher_icons:
   android: true
   ios: true

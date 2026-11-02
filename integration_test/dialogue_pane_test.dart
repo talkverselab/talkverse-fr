@@ -57,6 +57,13 @@ void main() {
     await wait(t, 1500);
     await shot(t, '04_reader');
 
+    // 캡션의 단어를 누르면 단어 카드(UX/UI 시안 01)
+    await t.tap(find.text("m'appelle ").first);
+    await wait(t, 1200);
+    await shot(t, '04b_word_card');
+    await t.tapAt(const Offset(20, 300));
+    await wait(t, 1000);
+
     await t.tap(find.text('재생').first);
     await wait(t, 6000);
     await shot(t, '05_reader_playing');

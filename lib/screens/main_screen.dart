@@ -157,7 +157,7 @@ class HomeScreen extends StatelessWidget {
                           Row(
                             children: const [
                               Text(
-                                '¡Hola!',
+                                'Bonjour !',
                                 style: TextStyle(
                                   fontSize: 28,
                                   fontWeight: FontWeight.w700,
@@ -320,7 +320,7 @@ class _TodayMissionState extends State<_TodayMission> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              meta.level == 'L1' ? 'PRINCIPIANTE 1' : meta.level,
+              meta.level == 'L1' ? 'DÉBUTANT 1' : meta.level,
               style: const TextStyle(
                 color: AppColors.gualdaBright,
                 fontSize: 11,
@@ -339,7 +339,7 @@ class _TodayMissionState extends State<_TodayMission> {
             ),
             const SizedBox(height: 2),
             Text(
-              trf('Minjun & Lucía 스토리 {0}', [meta.emoji]),
+              trf('Minjun & Camille 스토리 {0}', [meta.emoji]),
               style: TextStyle(color: AppColors.cal.withValues(alpha: 0.85), fontSize: 12),
             ),
             const SizedBox(height: 12),
@@ -364,49 +364,78 @@ class _TodayMissionState extends State<_TodayMission> {
   }
 }
 
+/// 홈 메뉴 — UX/UI 시안 01(2026-11-03 사용자 통과): 회화 / 문법·소리 / 단어 세 묶음,
+/// 준비중(성·수·발음)은 타일 대신 묶음 끝 한 줄, 비어 있는 단어 메뉴는 「준비 중」 꼬리표.
 class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final items = <_MenuItem>[
-      _MenuItem(label: tr('회화'), sub: 'Conversation', badge: 'Ch', color: AppColors.rojo,
-        builder: (_) => const DialogueHomeScreen()),
-      _MenuItem(label: tr('문법'), sub: 'Grammaire', badge: 'G', color: AppColors.rojoDeep,
-        builder: (_) => const GrammarHubScreen()),
-      _MenuItem(label: tr('문장 카드'), sub: 'Phrases', badge: 'S', color: AppColors.tinta,
-        builder: (_) => const SentenceFlashcardScreen()),
-      _MenuItem(label: tr('말하기'), sub: 'Parler', badge: '🎙', color: AppColors.rojo,
-        builder: (_) => const SpeakingPracticeScreen()),
-      _MenuItem(label: tr('청크 검색'), sub: 'Recherche', badge: '🔍', color: AppColors.gualdaDeep,
-        builder: (_) => const ChunkSearchScreen()),
-      _MenuItem(label: tr('동사 활용'), sub: 'Conjugaison', badge: 'V', color: AppColors.irregular,
-        builder: (_) => const VerbScreen()),
-      _MenuItem(label: tr('단어'), sub: 'Vocabulaire', badge: 'W', color: AppColors.oliva,
-        builder: (_) => const TopicVocabScreen()),
-      _MenuItem(label: tr('표현'), sub: 'Expression', badge: 'E', color: AppColors.rojoLight,
-        builder: (_) => TopicVocabScreen(
-            title: tr('주제별 표현'),
-            asset: 'assets/data/vocab/travel_expressions.json')),
-      _MenuItem(label: tr('빈도 단어'), sub: 'Fréquence', badge: 'F', color: AppColors.francais,
-        builder: (_) => const WordFreqScreen()),
-      _MenuItem(label: tr('성·수'), sub: 'Genre', badge: 'el/la', color: AppColors.mar,
-        builder: (_) => _ComingSoon(title: tr('성·수 일치'))),
-      _MenuItem(label: tr('발음'), sub: 'Prononciation', badge: 'rr', color: AppColors.er,
-        builder: (_) => _ComingSoon(title: tr('발음 (rr · ñ · 강세)'))),
-      _MenuItem(label: tr('단어 카드'), sub: 'Cartes', badge: 'R', color: AppColors.gualdaDeep,
-        builder: (_) => const WordFlashcardScreen()),
+    final groups = <(String, List<_MenuItem>)>[
+      (tr('회화'), [
+        _MenuItem(label: tr('회화'), sub: 'Conversation', badge: 'Ch', color: AppColors.beni,
+          builder: (_) => const DialogueHomeScreen()),
+        _MenuItem(label: tr('문장 카드'), sub: 'Phrases', badge: 'S', color: AppColors.tinta,
+          builder: (_) => const SentenceFlashcardScreen()),
+        _MenuItem(label: tr('말하기'), sub: 'Parler', badge: '🎙', color: AppColors.rojo,
+          builder: (_) => const SpeakingPracticeScreen()),
+      ]),
+      (tr('문법·소리'), [
+        _MenuItem(label: tr('문법'), sub: 'Grammaire', badge: 'G', color: AppColors.rojoDeep,
+          builder: (_) => const GrammarHubScreen()),
+        _MenuItem(label: tr('동사 활용'), sub: 'Conjugaison', badge: 'V', color: AppColors.irregular,
+          builder: (_) => const VerbScreen()),
+        _MenuItem(label: tr('청크 검색'), sub: 'Recherche', badge: '🔍', color: AppColors.gualdaDeep,
+          builder: (_) => const ChunkSearchScreen()),
+      ]),
+      (tr('단어'), [
+        _MenuItem(label: tr('빈도 단어'), sub: 'Fréquence', badge: 'F', color: AppColors.francais,
+          builder: (_) => const WordFreqScreen()),
+        _MenuItem(label: tr('단어'), sub: 'Vocabulaire', badge: 'W', color: AppColors.oliva, soon: true,
+          builder: (_) => const TopicVocabScreen()),
+        _MenuItem(label: tr('표현'), sub: 'Expression', badge: 'E', color: AppColors.rojoLight, soon: true,
+          builder: (_) => TopicVocabScreen(
+              title: tr('주제별 표현'),
+              asset: 'assets/data/vocab/travel_expressions.json')),
+        _MenuItem(label: tr('단어 카드'), sub: 'Cartes', badge: 'R', color: AppColors.gualdaDeep, soon: true,
+          builder: (_) => const WordFlashcardScreen()),
+      ]),
     ];
 
-    return GridView.builder(
-      shrinkWrap: true,
-      physics: const NeverScrollableScrollPhysics(),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 3,
-        mainAxisSpacing: 10,
-        crossAxisSpacing: 10,
-        mainAxisExtent: 150, // 고정 높이 — 아이패드 왼쪽 좁은 칸(300~440)에서 비율로 잡으면 아래가 넘친다
-      ),
-      itemCount: items.length,
-      itemBuilder: (context, i) => _MenuTile(item: items[i]),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        for (final (title, items) in groups) ...[
+          Padding(
+            padding: const EdgeInsets.fromLTRB(2, 6, 2, 8),
+            child: Text(title, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: AppColors.muted)),
+          ),
+          GridView.builder(
+            shrinkWrap: true,
+            physics: const NeverScrollableScrollPhysics(),
+            gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 3,
+              mainAxisSpacing: 10,
+              crossAxisSpacing: 10,
+              mainAxisExtent: 150, // 고정 높이 — 아이패드 왼쪽 좁은 칸(300~440)에서 비율로 잡으면 아래가 넘친다
+            ),
+            itemCount: items.length,
+            itemBuilder: (context, i) => _MenuTile(item: items[i]),
+          ),
+          if (title == tr('문법·소리'))
+            // 준비중 메뉴는 타일 대신 한 줄(시안 01 §2)
+            Padding(
+              padding: const EdgeInsets.only(top: 8),
+              child: Wrap(crossAxisAlignment: WrapCrossAlignment.center, spacing: 6, children: [
+                Text(tr('곧 열려요'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+                for (final (label, t) in [(tr('성·수'), tr('성·수 일치')), (tr('발음'), tr('발음'))])
+                  InkWell(
+                    onTap: () => openPane(context, (_) => _ComingSoon(title: t)),
+                    child: Text('· $label', style: const TextStyle(fontSize: 12, color: AppColors.muted, decoration: TextDecoration.underline)),
+                  ),
+              ]),
+            ),
+          const SizedBox(height: 14),
+        ],
+      ],
     );
   }
 }
@@ -417,12 +446,14 @@ class _MenuItem {
   final String badge;
   final Color color;
   final WidgetBuilder builder;
+  final bool soon; // 데이터가 비어 있음 — 타일에 「준비 중」 꼬리표
   _MenuItem({
     required this.label,
     required this.sub,
     required this.badge,
     required this.color,
     required this.builder,
+    this.soon = false,
   });
 }
 
@@ -462,8 +493,8 @@ class _MenuTile extends StatelessWidget {
               ),
               const SizedBox(height: 2),
               Text(
-                item.sub,
-                style: const TextStyle(fontSize: 10, color: AppColors.tintaLight),
+                item.soon ? tr('준비 중') : item.sub,
+                style: TextStyle(fontSize: 10, color: item.soon ? AppColors.beni : AppColors.tintaLight),
                 overflow: TextOverflow.ellipsis,
               ),
             ],
@@ -485,7 +516,7 @@ class _ComingSoon extends StatelessWidget {
       appBar: AppBar(title: Text(title)),
       body: Center(
         child: Text(
-          tr('Próximamente · 준비 중'),
+          tr('준비 중'),
           style: TextStyle(color: AppColors.tintaLight, letterSpacing: 2),
         ),
       ),

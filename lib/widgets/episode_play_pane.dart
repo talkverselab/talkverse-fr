@@ -327,7 +327,8 @@ class _Caption extends StatelessWidget {
         child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(LearnerPrefs.fill(turn.tl), style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+              // 단어를 누르면 단어 카드(UX/UI 시안 01 §1-①, 2026-11-03 사용자 통과)
+              _TapWords(text: LearnerPrefs.fill(turn.tl), note: turn.note, style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
               if (showGloss && turn.gloss.isNotEmpty && turn.gloss != turn.tl) Text(turn.gloss, style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w600)),
               if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
               if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko, ko: true), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),
@@ -338,6 +339,94 @@ class _Caption extends StatelessWidget {
       ),
     );
   }
+}
+
+/// 문장을 낱말로 나눠 누를 수 있게 그린다. 누르면 [WordCardSheet].
+class _TapWords extends StatelessWidget {
+  final String text;
+  final String note;
+  final TextStyle style;
+  const _TapWords({required this.text, required this.note, required this.style});
+
+  @override
+  Widget build(BuildContext context) {
+    final parts = text.split(' ');
+    return Wrap(children: [
+      for (var i = 0; i < parts.length; i++)
+        GestureDetector(
+          behavior: HitTestBehavior.opaque,
+          onTap: WordCardSheet.norm(parts[i]).isEmpty ? null : () => WordCardSheet.show(context, parts[i], note),
+          child: Text(i < parts.length - 1 ? '${parts[i]} ' : parts[i], style: style),
+        ),
+    ]);
+  }
+}
+
+/// 단어 카드 — 단어 힌트(회화 데이터의 note `x = 뜻`) + 성·수/동사 활용 자리.
+/// 성·수 색·관사·6인칭 활용은 그 데이터가 생기면 채운다(지금은 「준비 중」 — 콘텐츠 작업 보류, 2026-11-03).
+class WordCardSheet extends StatelessWidget {
+  final String word;
+  final List<(String, String)> hints;
+  const WordCardSheet({super.key, required this.word, required this.hints});
+
+  /// 비교용 낱말: 소문자, 앞뒤 문장부호 제거(악센트·생략 부호는 유지).
+  static String norm(String w) => w.toLowerCase().replaceAll(RegExp(r"^[^\p{L}]+|[^\p{L}']+$", unicode: true), '');
+
+  static List<(String, String)> hintsFor(String word, String note) {
+    final k = norm(word);
+    final bare = k.contains("'") ? k.split("'").last : k; // m'appelle → appelle 도 비교
+    final out = <(String, String)>[];
+    for (final part in note.split(RegExp(r'[,;·]'))) {
+      if (!part.contains('=')) continue;
+      final head = part.split('=').first.trim();
+      final words = head.toLowerCase().split(RegExp(r'\s+')).map(norm).toSet();
+      if (words.contains(k) || words.contains(bare)) out.add((head, part.split('=').sublist(1).join('=').trim()));
+    }
+    return out;
+  }
+
+  static Future<void> show(BuildContext context, String word, String note) => showModalBottomSheet(
+        context: context,
+        showDragHandle: true,
+        backgroundColor: AppColors.washi,
+        builder: (_) => WordCardSheet(word: norm(word), hints: hintsFor(word, note)),
+      );
+
+  @override
+  Widget build(BuildContext context) => SafeArea(
+        top: false,
+        child: Padding(
+          padding: EdgeInsets.fromLTRB(24, 0, 24, 20 + bottomInset(context)),
+          child: Column(mainAxisSize: MainAxisSize.min, crossAxisAlignment: CrossAxisAlignment.start, children: [
+            Row(children: [
+              Container(width: 8, height: 8, decoration: const BoxDecoration(color: AppColors.beni, shape: BoxShape.circle)),
+              const SizedBox(width: 8),
+              Text(word, style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600, color: AppColors.sumi)),
+              const Spacer(),
+              IconButton(
+                onPressed: () => TtsService.instance.speak(word),
+                icon: const Icon(Icons.volume_up, color: AppColors.beni),
+              ),
+            ]),
+            const SizedBox(height: 8),
+            if (hints.isEmpty)
+              Text(tr('이 단어의 뜻 힌트는 아직 없어요'), style: const TextStyle(fontSize: 14, color: AppColors.muted))
+            else
+              for (final (head, mean) in hints)
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 6),
+                  child: Text.rich(TextSpan(children: [
+                    TextSpan(text: head, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w600, color: AppColors.sumi)),
+                    TextSpan(text: '  $mean', style: const TextStyle(fontSize: 15, color: AppColors.sumiLight)),
+                  ])),
+                ),
+            const SizedBox(height: 10),
+            Container(height: 1, color: AppColors.line),
+            const SizedBox(height: 10),
+            Text(tr('성·수 · 관사 · 동사 활용은 준비 중'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+          ]),
+        ),
+      );
 }
 
 /// 하단 고정 컨트롤: ▶ 재생 · 진행 슬라이더 · 속도 · 자막 단계.

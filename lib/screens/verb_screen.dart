@@ -11,7 +11,7 @@ import '../widgets/spanish_decor.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
 
-const _persons = ['yo', 'tú', 'él/ella', 'nosotros', 'vosotros', 'ellos'];
+const _persons = ['je', 'tu', 'il/elle', 'nous', 'vous', 'ils/elles']; // 프랑스어 6인칭(템플릿의 스페인어 인칭 교체)
 
 /// 동사 활용 — 핵심 동사 목록 + 현재/단순과거 표.
 class VerbScreen extends StatefulWidget {

@@ -45,7 +45,7 @@ void main() {
     await shot(t, '01_home_wide');
 
     // 홈 메뉴 「회화」 → 오른쪽 칸에 새 회화 리더 홈
-    await t.tap(find.text('회화').first);
+    await t.tap(find.text('Conversation')); // 묶음 제목 「회화」와 겹치지 않게 타일의 부제로
     await wait(t, 2500);
     await shot(t, '02_dialogue_home_right');
 
@@ -61,7 +61,7 @@ void main() {
     await t.tap(find.text("m'appelle ").first);
     await wait(t, 1200);
     await shot(t, '04b_word_card');
-    await t.tapAt(const Offset(20, 300));
+    await t.tapAt(const Offset(600, 400)); // 시트 바깥(오른쪽 칸 안 — 시트는 그 칸에만 뜬다)
     await wait(t, 1000);
 
     await t.tap(find.text('재생').first);

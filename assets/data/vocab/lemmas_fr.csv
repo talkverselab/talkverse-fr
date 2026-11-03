@@ -1,0 +1,2501 @@
+rank,word,reading,ko,en,pos,level,picturable
+1,le,,그 (정관사),the,det,R1,N
+2,de,,~의,of,prep,R1,N
+3,je,,나,I,pron,R1,N
+4,ce,,이것,this,pron,R1,N
+5,un,,하나의,a,det,R1,N
+6,être,,~이다,to be,v,R1,N
+7,que,,~라는 것,that,conj,R1,N
+8,pas,,아니다,not,adv,R1,N
+9,avoir,,가지다,to have,v,R1,N
+10,vous,,당신,you,pron,R1,N
+11,ne,,~않다,not,adv,R1,N
+12,tu,,너,you,pron,R1,N
+13,il,,그,he,pron,R1,N
+14,à,,~에,to,prep,R1,N
+15,et,,그리고,and,conj,R1,N
+16,aller,,가다,to go,v,R1,Y
+17,cela,,그것,that,pron,R1,N
+18,te,,너를,you,pron,R1,N
+19,faire,,하다,to do,v,R1,N
+20,me,,나를,me,pron,R1,N
+21,on,,우리·사람들,one,pron,R1,N
+22,pour,,~위해,for,prep,R1,N
+23,en,,~에서,in,prep,R1,N
+24,mon,,나의,my,det,R1,N
+25,lui,,그에게,him,pron,R1,N
+26,tout,,모든,all,det,R1,N
+27,se,,자기 자신,oneself,pron,R1,N
+28,pouvoir,,할 수 있다,can,v,R1,N
+29,dire,,말하다,to say,v,R1,Y
+30,mais,,하지만,but,conj,R1,N
+31,qui,,누구,who,pron,R1,N
+32,vouloir,,원하다,to want,v,R1,N
+33,non,,아니요,no,adv,R1,N
+34,dans,,~안에,in,prep,R1,N
+35,savoir,,알다,to know,v,R1,N
+36,son,,그의,his,det,R1,N
+37,nous,,우리,we,pron,R1,N
+38,bien,,잘,well,adv,R1,N
+39,si,,만약,if,conj,R1,N
+40,plus,,더,more,adv,R1,N
+41,oui,,네,yes,adv,R1,N
+42,voir,,보다,to see,v,R1,Y
+43,avec,,~와 함께,with,prep,R1,N
+44,moi,,나,me,pron,R1,N
+45,au,,~에 (à+le),to the,det,R2,N
+46,y,,거기에,there,pron,R2,N
+47,devoir,,해야 하다,must,v,R2,N
+48,là,,거기,there,adv,R2,N
+49,ton,,너의,your,det,R2,N
+50,quoi,,무엇,what,pron,R2,N
+51,comme,,~처럼,like,conj,R2,N
+52,votre,,당신의,your,det,R2,N
+53,venir,,오다,to come,v,R2,Y
+54,sur,,~위에,on,prep,R2,Y
+55,toi,,너,you,pron,R2,N
+56,bon,,좋은,good,adj,R2,N
+57,rien,,아무것도,nothing,pron,R2,N
+58,parler,,말하다,to speak,v,R2,Y
+59,ici,,여기,here,adv,R2,N
+60,pourquoi,,왜,why,adv,R2,N
+61,où,,어디,where,adv,R2,N
+62,quand,,언제,when,adv,R3,N
+63,quelque,,어떤,some,det,R3,N
+64,par,,~에 의해,by,prep,R3,N
+65,alors,,그러면,then,adv,R3,N
+66,falloir,,필요하다,must,v,R3,N
+67,prendre,,잡다,to take,v,R3,Y
+68,chose,,것,thing,n,R3,N
+69,passer,,지나가다,to pass,v,R3,N
+70,penser,,생각하다,to think,v,R3,N
+71,comment,,어떻게,how,adv,R3,N
+72,croire,,믿다,to believe,v,R3,N
+73,très,,매우,very,adv,R3,N
+74,merci,,고마워요,thank you,intj,R3,N
+75,ou,,또는,or,conj,R3,N
+76,notre,,우리의,our,det,R3,N
+77,même,,같은,same,adj,R3,N
+78,jamais,,결코,never,adv,R3,N
+79,petit,,작은,small,adj,R3,Y
+80,aussi,,또한,also,adv,R3,N
+81,laisser,,두다,to leave,v,R3,N
+82,trouver,,찾다,to find,v,R3,N
+83,monsieur,,"~씨, 신사",sir,n,R3,Y
+84,peu,,조금,little,adv,R3,N
+85,deux,,둘,two,num,R3,Y
+86,rester,,머무르다,to stay,v,R3,N
+87,celui,,그것(사람),the one,pron,R3,N
+88,donner,,주다,to give,v,R3,Y
+89,oh,,오,oh,intj,R3,N
+90,ah,,아,ah,intj,R3,N
+91,encore,,"아직, 다시",again,adv,R3,N
+92,temps,,"시간, 날씨",time,n,R3,N
+93,regarder,,바라보다,to look,v,R3,Y
+94,quel,,어떤,which,det,R3,N
+95,toujours,,항상,always,adv,R3,N
+96,maintenant,,지금,now,adv,R3,N
+97,attendre,,기다리다,to wait,v,R3,Y
+98,femme,,"여자, 아내",woman,n,R3,Y
+99,vie,,삶,life,n,R3,N
+100,comprendre,,이해하다,to understand,v,R3,N
+101,sûr,,확실한,sure,adj,R3,N
+102,connaître,,알다,to know,v,R3,N
+103,jour,,날,day,n,R3,N
+104,juste,,"바로, 정당한",just,adv,R3,N
+105,demander,,묻다,to ask,v,R3,N
+106,seul,,혼자의,alone,adj,R3,Y
+107,mettre,,놓다,to put,v,R3,Y
+108,autre,,다른,other,adj,R3,N
+109,sans,,~없이,without,prep,R3,N
+110,vraiment,,정말,really,adv,R3,N
+111,trop,,너무,too,adv,R3,N
+112,fois,,번,time,n,R3,N
+113,monde,,세상,world,n,R3,Y
+114,personne,,사람,person,n,R3,Y
+115,arriver,,도착하다,to arrive,v,R3,Y
+116,peut-être,,아마,maybe,adv,R3,N
+117,an,,"해, 년",year,n,R3,N
+118,père,,아버지,father,n,R3,Y
+119,partir,,떠나다,to leave,v,R3,Y
+120,mort,,죽음,death,n,R3,N
+121,vrai,,진짜의,true,adj,R3,N
+122,arrêter,,멈추다,to stop,v,R3,Y
+123,besoin,,필요,need,n,R3,N
+124,chez,,~의 집에,at,prep,R3,N
+125,fille,,"딸, 소녀",girl,n,R3,Y
+126,homme,,남자,man,n,R3,Y
+127,parce que,,왜냐하면,because,conj,R3,N
+128,heure,,"시간, 시",hour,n,R3,Y
+129,ça,,그것,that,pron,R3,N
+130,voilà,,여기 있다,here is,adv,R3,N
+131,tuer,,죽이다,to kill,v,R3,N
+132,beau,,아름다운,beautiful,adj,R3,Y
+133,mal,,"나쁘게, 아픔",badly,adv,R3,N
+134,dieu,,신,god,n,R3,N
+135,donc,,그러므로,so,conj,R3,N
+136,sortir,,나가다,to go out,v,R3,Y
+137,ouais,,응,yeah,intj,R3,N
+138,avant,,~전에,before,prep,R3,N
+139,ami,,친구,friend,n,R3,Y
+140,grand,,큰,big,adj,R3,Y
+141,nouveau,,새로운,new,adj,R3,N
+142,après,,~후에,after,prep,R3,N
+143,bonjour,,안녕하세요,hello,intj,R3,Y
+144,mère,,어머니,mother,n,R3,Y
+145,déjà,,이미,already,adv,R3,N
+146,chercher,,찾다,to look for,v,R3,Y
+147,ok,,오케이,OK,intj,R3,N
+148,depuis,,~이래로,since,prep,R4,N
+149,entrer,,들어가다,to enter,v,R4,Y
+150,mieux,,더 잘,better,adv,R4,N
+151,écouter,,듣다,to listen,v,R4,Y
+152,beaucoup,,많이,a lot,adv,R4,N
+153,désolé,,미안한,sorry,adj,R4,N
+154,enfant,,아이,child,n,R4,Y
+155,revenir,,돌아오다,to come back,v,R4,N
+156,gens,,사람들,people,n,R4,Y
+157,hein,,응?,eh,intj,R4,N
+158,plaire,,마음에 들다,to please,v,R4,N
+159,soir,,저녁,evening,n,R4,Y
+160,finir,,끝내다,to finish,v,R4,N
+161,maison,,집,house,n,R4,Y
+162,nuit,,밤,night,n,R4,Y
+163,nom,,이름,name,n,R4,N
+164,peur,,두려움,fear,n,R4,Y
+165,perdre,,잃다,to lose,v,R4,N
+166,fou,,미친,crazy,adj,R4,N
+167,porte,,문,door,n,R4,Y
+168,maman,,엄마,mom,n,R4,Y
+169,musique,,음악,music,n,R4,Y
+170,mourir,,죽다,to die,v,R4,N
+171,coup,,"타격, 한 번",blow,n,R4,N
+172,aimer,,사랑하다,to love,v,R4,Y
+173,merde,,젠장,damn,intj,R4,N
+174,appeler,,"부르다, 전화하다",to call,v,R4,Y
+175,ben,,"뭐, 글쎄",well,intj,R4,N
+176,dernier,,마지막의,last,adj,R4,N
+177,premier,,첫 번째의,first,adj,R4,N
+178,moins,,덜,less,adv,R4,N
+179,jouer,,놀다,to play,v,R4,Y
+180,fils,,아들,son,n,R4,Y
+181,rentrer,,돌아가다,to return,v,R4,N
+182,vite,,빨리,fast,adv,R4,Y
+183,raison,,이유,reason,n,R4,N
+184,travailler,,일하다,to work,v,R4,Y
+185,papa,,아빠,dad,n,R4,Y
+186,entendre,,듣다,to hear,v,R4,Y
+187,problème,,문제,problem,n,R4,N
+188,aucun,,아무 ~도,no,det,R4,N
+189,moment,,순간,moment,n,R4,N
+190,salut,,안녕,hi,intj,R4,Y
+191,changer,,바꾸다,to change,v,R4,N
+192,main,,손,hand,n,R4,Y
+193,tête,,머리,head,n,R4,Y
+194,tien,,너의 것,yours,pron,R4,N
+195,demain,,내일,tomorrow,adv,R4,N
+196,truc,,물건,thing,n,R4,N
+197,eh,,에이,hey,intj,R4,N
+198,essayer,,시도하다,to try,v,R4,N
+199,question,,질문,question,n,R4,N
+200,commencer,,시작하다,to begin,v,R4,N
+201,famille,,가족,family,n,R4,Y
+202,rendre,,돌려주다,to give back,v,R4,N
+203,revoir,,다시 보다,to see again,v,R4,N
+204,tenir,,쥐다,to hold,v,R4,Y
+205,trois,,셋,three,num,R4,Y
+206,manger,,먹다,to eat,v,R4,Y
+207,putain,,젠장,damn,intj,R4,N
+208,vivre,,살다,to live,v,R4,N
+209,vieux,,늙은,old,adj,R4,Y
+210,devenir,,되다,to become,v,R4,N
+211,hé,,이봐,hey,intj,R4,N
+212,somme,,합계,sum,n,R4,N
+213,travail,,일,work,n,R4,Y
+214,assez,,충분히,enough,adv,R4,N
+215,frère,,형제,brother,n,R4,Y
+216,payer,,지불하다,to pay,v,R4,Y
+217,jusque,,~까지,until,prep,R4,N
+218,dormir,,자다,to sleep,v,R4,Y
+219,voiture,,자동차,car,n,R4,Y
+220,rire,,웃다,to laugh,v,R4,Y
+221,pardon,,실례합니다,sorry,intj,R4,N
+222,excuser,,용서하다,to excuse,v,R4,N
+223,part,,몫,share,n,R4,N
+224,minute,,분,minute,n,R4,N
+225,combien,,얼마나,how much,adv,R4,N
+226,sens,,"의미, 감각",sense,n,R4,N
+227,enfin,,마침내,finally,adv,R4,N
+228,souvenir,,기억하다,to remember,v,R4,N
+229,tant,,그만큼,so much,adv,R4,N
+230,tard,,늦게,late,adv,R4,N
+231,chance,,행운,luck,n,R4,N
+232,tirer,,"당기다, 쏘다",to pull,v,R4,Y
+233,contre,,~에 반대하여,against,prep,R4,N
+234,prêt,,준비된,ready,adj,R4,N
+235,aider,,돕다,to help,v,R4,Y
+236,mois,,"달, 월",month,n,R4,N
+237,sous,,~아래에,under,prep,R4,Y
+238,idée,,생각,idea,n,R4,N
+239,place,,"자리, 광장",place,n,R4,N
+240,jeune,,젊은,young,adj,R4,Y
+241,aujourd'hui,,오늘,today,adv,R4,N
+242,ni,,~도 아니다,nor,conj,R4,N
+243,cas,,경우,case,n,R4,N
+244,pendant,,~동안,during,prep,R4,N
+245,mec,,녀석,guy,n,R4,Y
+246,gros,,"뚱뚱한, 큰",fat,adj,R4,Y
+247,gars,,녀석,guy,n,R4,Y
+248,retrouver,,되찾다,to find again,v,R4,N
+249,affaire,,"일, 사건",matter,n,R4,N
+250,compte,,"계좌, 계산",account,n,R4,N
+251,longtemps,,오랫동안,long time,adv,R4,N
+252,oeil,,눈,eye,n,R4,Y
+253,fort,,강한,strong,adj,R4,Y
+254,côté,,옆,side,n,R4,N
+255,oublier,,잊다,to forget,v,R4,N
+256,ensemble,,함께,together,adv,R4,N
+257,semaine,,주,week,n,R4,N
+258,plein,,가득 찬,full,adj,R4,Y
+259,suite,,"계속, 다음",continuation,n,R4,N
+260,meilleur,,더 좋은,better,adj,R4,N
+261,attention,,주의,attention,n,R4,N
+262,matin,,아침,morning,n,R4,Y
+263,tomber,,넘어지다,to fall,v,R4,Y
+264,chambre,,방,bedroom,n,R4,Y
+265,loin,,멀리,far,adv,R4,N
+266,continuer,,계속하다,to continue,v,R4,N
+267,année,,"해, 연도",year,n,R4,N
+268,police,,경찰,police,n,R4,Y
+269,ville,,도시,city,n,R4,Y
+270,terre,,"땅, 지구",earth,n,R4,Y
+271,droit,,"권리, 곧은",right,n,R4,N
+272,chéri,,"자기, 사랑하는",darling,n,R4,N
+273,rappeler,,다시 전화하다,to call back,v,R4,N
+274,foutre,,하다(속어),to do,v,R4,N
+275,sang,,피,blood,n,R4,Y
+276,certain,,확실한,certain,adj,R4,N
+277,envoyer,,보내다,to send,v,R4,N
+278,possible,,가능한,possible,adj,R4,N
+279,cher,,"비싼, 친애하는",dear,adj,R4,N
+280,mari,,남편,husband,n,R4,Y
+281,lire,,읽다,to read,v,R4,Y
+282,mot,,단어,word,n,R4,N
+283,prier,,기도하다,to pray,v,R4,Y
+284,partie,,부분,part,n,R4,N
+285,toucher,,만지다,to touch,v,R4,Y
+286,super,,대단한,great,adj,R4,N
+287,histoire,,"이야기, 역사",story,n,R4,N
+288,cœur,,"심장, 마음",heart,n,R4,Y
+289,train,,기차,train,n,R4,Y
+290,devant,,~앞에,in front of,prep,R4,Y
+291,manquer,,"놓치다, 그립다",to miss,v,R4,N
+292,type,,"유형, 녀석",type,n,R4,N
+293,chaque,,각각의,each,det,R4,N
+294,leur,,그들의,their,det,R4,N
+295,bouger,,움직이다,to move,v,R4,N
+296,quitter,,떠나다,to leave,v,R4,N
+297,répondre,,대답하다,to answer,v,R4,N
+298,point,,점,point,n,R4,N
+299,servir,,봉사하다,to serve,v,R4,N
+300,car,,왜냐하면,because,conj,R4,N
+301,seulement,,단지,only,adv,R4,N
+302,poser,,놓다,to put,v,R4,N
+303,sentir,,"느끼다, 냄새 맡다",to feel,v,R4,N
+304,fin,,끝,end,n,R4,N
+305,gagner,,"이기다, 벌다",to win,v,R4,N
+306,suivre,,따라가다,to follow,v,R4,Y
+307,mauvais,,나쁜,bad,adj,R4,N
+308,euh,,어…,uh,intj,R4,N
+309,envie,,욕구,desire,n,R4,N
+310,raconter,,이야기하다,to tell,v,R4,N
+311,sort,,운명,fate,n,R4,N
+312,recevoir,,받다,to receive,v,R4,N
+313,façon,,방식,way,n,R4,N
+314,calme,,조용한,calm,adj,R4,N
+315,vers,,~쪽으로,toward,prep,R4,N
+316,cause,,원인,cause,n,R4,N
+317,corps,,몸,body,n,R4,Y
+318,boire,,마시다,to drink,v,R4,Y
+319,genre,,종류,kind,n,R4,N
+320,garçon,,소년,boy,n,R4,Y
+321,heureux,,행복한,happy,adj,R4,Y
+322,écrire,,쓰다,to write,v,R4,Y
+323,roi,,왕,king,n,R4,Y
+324,guerre,,전쟁,war,n,R4,N
+325,sœur,,자매,sister,n,R4,Y
+326,tellement,,너무나,so,adv,R4,N
+327,garder,,지키다,to keep,v,R4,N
+328,ouvrir,,열다,to open,v,R4,Y
+329,sembler,,~처럼 보이다,to seem,v,R4,N
+330,retourner,,돌아가다,to return,v,R4,N
+331,téléphone,,전화,telephone,n,R4,Y
+332,plaisir,,즐거움,pleasure,n,R4,N
+333,con,,바보,idiot,n,R4,N
+334,garde,,"경비, 보호",guard,n,R4,Y
+335,content,,기쁜,glad,adj,R4,Y
+336,asseoir,,앉히다,to sit,v,R4,Y
+337,dur,,"딱딱한, 어려운",hard,adj,R4,N
+338,apprendre,,배우다,to learn,v,R4,N
+339,marche,,"걷기, 계단",walk,n,R4,N
+340,sauver,,구하다,to save,v,R4,N
+341,important,,중요한,important,adj,R4,N
+342,joli,,예쁜,pretty,adj,R4,N
+343,dont,,그것의,whose,pron,R4,N
+344,pauvre,,가난한,poor,adj,R4,N
+345,feu,,불,fire,n,R4,Y
+346,rencontrer,,만나다,to meet,v,R4,Y
+347,gentil,,친절한,kind,adj,R4,N
+348,photo,,사진,photo,n,R4,Y
+349,chef,,"우두머리, 요리사",chief,n,R4,Y
+350,courir,,달리다,to run,v,R4,Y
+351,suffire,,충분하다,to suffice,v,R4,N
+352,confiance,,신뢰,trust,n,R4,N
+353,occuper,,차지하다,to occupy,v,R4,N
+354,voici,,여기 있다,here is,adv,R4,N
+355,livre,,책,book,n,R4,Y
+356,promettre,,약속하다,to promise,v,R4,N
+357,montrer,,보여주다,to show,v,R4,Y
+358,près,,가까이,near,adv,R4,N
+359,allô,,여보세요,hello,intj,R4,Y
+360,pays,,나라,country,n,R4,N
+361,film,,영화,film,n,R4,Y
+362,plutôt,,오히려,rather,adv,R4,N
+363,cacher,,숨기다,to hide,v,R4,Y
+364,mademoiselle,,아가씨,miss,n,R4,N
+365,bonsoir,,안녕하세요(저녁),good evening,intj,R4,N
+366,préférer,,선호하다,to prefer,v,R4,N
+367,hier,,어제,yesterday,adv,R4,N
+368,permettre,,허락하다,to allow,v,R4,N
+369,porter,,"들다, 입다",to carry,v,R4,Y
+370,long,,긴,long,adj,R4,Y
+371,vue,,"시야, 경치",view,n,R4,N
+372,peine,,"고통, 수고",sorrow,n,R4,N
+373,pied,,발,foot,n,R4,Y
+374,arme,,무기,weapon,n,R4,Y
+375,chien,,개,dog,n,R4,Y
+376,ferme,,농장,farm,n,R4,Y
+377,vérité,,진실,truth,n,R4,N
+378,bébé,,아기,baby,n,R4,Y
+379,docteur,,의사,doctor,n,R4,Y
+380,tour,,"탑, 차례",tower,n,R4,N
+381,tourner,,돌다,to turn,v,R4,Y
+382,dehors,,밖에,outside,adv,R4,N
+383,boulot,,일(구어),job,n,R4,N
+384,voler,,"날다, 훔치다",to fly,v,R4,Y
+385,prochain,,다음의,next,adj,R4,N
+386,surtout,,특히,especially,adv,R4,N
+387,malade,,아픈,sick,adj,R4,Y
+388,décider,,결정하다,to decide,v,R4,N
+389,vendre,,팔다,to sell,v,R4,Y
+390,noir,,검은,black,adj,R4,Y
+391,battre,,때리다,to beat,v,R4,Y
+392,service,,"서비스, 부탁",service,n,R4,N
+393,jeu,,"놀이, 게임",game,n,R4,Y
+394,parfait,,완벽한,perfect,adj,R4,N
+395,bientôt,,곧,soon,adv,R4,N
+396,parent,,부모,parent,n,R4,Y
+397,présent,,현재의,present,adj,R4,N
+398,descendre,,내려가다,to go down,v,R4,Y
+399,grave,,심각한,serious,adj,R4,N
+400,marier,,결혼시키다,to marry,v,R4,Y
+401,casser,,깨다,to break,v,R4,Y
+402,journée,,하루,day,n,R4,N
+403,rêve,,꿈,dream,n,R4,N
+404,choisir,,고르다,to choose,v,R4,N
+405,taire,,입을 다물다,to be quiet,v,R4,N
+406,lit,,침대,bed,n,R4,Y
+407,plan,,"계획, 지도",plan,n,R4,N
+408,français,,프랑스의,French,adj,R4,N
+409,endroit,,장소,place,n,R4,N
+410,route,,"길, 도로",road,n,R4,Y
+411,presque,,거의,almost,adv,R4,N
+412,derrière,,~뒤에,behind,prep,R4,Y
+413,valoir,,가치가 있다,to be worth,v,R4,N
+414,préparer,,준비하다,to prepare,v,R4,N
+415,réveiller,,깨우다,to wake,v,R4,Y
+416,lieu,,장소,place,n,R4,N
+417,disparaître,,사라지다,to disappear,v,R4,N
+418,ramener,,데려오다,to bring back,v,R4,N
+419,sinon,,그렇지 않으면,otherwise,conj,R4,N
+420,bas,,낮은,low,adj,R4,N
+421,gueule,,주둥이(속어),mouth,n,R4,N
+422,bureau,,"사무실, 책상",office,n,R4,Y
+423,numéro,,번호,number,n,R4,N
+424,secret,,비밀,secret,n,R4,N
+425,haut,,높은,high,adj,R4,Y
+426,pareil,,같은,same,adj,R4,N
+427,exactement,,정확히,exactly,adv,R4,N
+428,grâce,,"은혜, 덕분",grace,n,R4,N
+429,cinq,,다섯,five,num,R4,Y
+430,ainsi,,이렇게,thus,adv,R4,N
+431,général,,"장군, 일반적인",general,n,R4,N
+432,sauf,,~을 제외하고,except,prep,R4,N
+433,lettre,,"편지, 글자",letter,n,R4,Y
+434,blanc,,흰,white,adj,R4,Y
+435,propre,,깨끗한,clean,adj,R4,Y
+436,monter,,올라가다,to go up,v,R4,Y
+437,faute,,잘못,fault,n,R4,N
+438,force,,힘,strength,n,R4,N
+439,clair,,"밝은, 분명한",clear,adj,R4,N
+440,flic,,경찰관,cop,n,R4,Y
+441,quatre,,넷,four,num,R4,Y
+442,acheter,,사다,to buy,v,R4,Y
+443,café,,"커피, 카페",coffee,n,R4,Y
+444,simple,,간단한,simple,adj,R4,N
+445,verre,,유리잔,glass,n,R4,Y
+446,rue,,거리,street,n,R4,Y
+447,jeter,,던지다,to throw,v,R4,Y
+448,jurer,,맹세하다,to swear,v,R4,N
+449,difficile,,어려운,difficult,adj,R4,N
+450,facile,,쉬운,easy,adj,R4,N
+451,dessus,,위에,on top,adv,R4,N
+452,partout,,어디에나,everywhere,adv,R4,N
+453,cours,,"수업, 흐름",class,n,R4,Y
+454,amour,,사랑,love,n,R4,N
+455,sérieux,,진지한,serious,adj,R4,N
+456,rapport,,"관계, 보고서",report,n,R4,N
+457,choix,,선택,choice,n,R4,N
+458,doute,,의심,doubt,n,R4,N
+459,rendez-vous,,약속,appointment,n,R4,N
+460,moyen,,수단,means,n,R4,N
+461,lever,,들어올리다,to raise,v,R4,Y
+462,pire,,더 나쁜,worse,adj,R4,N
+463,normal,,보통의,normal,adj,R4,N
+464,mariage,,결혼,wedding,n,R4,Y
+465,terminer,,끝내다,to finish,v,R4,N
+466,reconnaître,,알아보다,to recognize,v,R4,N
+467,coucher,,"눕히다, 자다",to lie down,v,R4,Y
+468,remettre,,다시 놓다,to put back,v,R4,N
+469,pleurer,,울다,to cry,v,R4,Y
+470,sécurité,,안전,safety,n,R4,N
+471,souvent,,자주,often,adv,R4,N
+472,cri,,외침,scream,n,R4,Y
+473,aide,,도움,help,n,R4,N
+474,humain,,인간의,human,adj,R4,N
+475,protéger,,보호하다,to protect,v,R4,N
+476,faux,,"틀린, 가짜의",false,adj,R4,N
+477,parfois,,가끔,sometimes,adv,R4,N
+478,drôle,,웃기는,funny,adj,R4,N
+479,lâche,,비겁한,cowardly,adj,R4,N
+480,impossible,,불가능한,impossible,adj,R4,N
+481,carte,,"카드, 지도",card,n,R4,Y
+482,emmener,,데려가다,to take along,v,R4,N
+483,lequel,,어느 것,which,pron,R4,N
+484,retour,,귀환,return,n,R4,N
+485,voix,,목소리,voice,n,R4,N
+486,reprendre,,다시 잡다,to take back,v,R4,N
+487,frapper,,때리다,to hit,v,R4,Y
+488,pousser,,밀다,to push,v,R4,Y
+489,risque,,위험,risk,n,R4,N
+490,autant,,그만큼,as much,adv,R4,N
+491,tel,,그러한,such,adj,R4,N
+492,fête,,"파티, 축제",party,n,R4,Y
+493,message,,메시지,message,n,R4,N
+494,bras,,팔,arm,n,R4,Y
+495,voyage,,여행,trip,n,R4,Y
+496,dès,,~부터 곧,from,prep,R4,N
+497,bois,,"나무, 숲",wood,n,R4,Y
+498,vivant,,살아 있는,alive,adj,R4,N
+499,mentir,,거짓말하다,to lie,v,R4,N
+500,capitaine,,"선장, 대위",captain,n,R4,Y
+501,prison,,감옥,prison,n,R4,Y
+502,pierre,,돌,stone,n,R4,Y
+503,cul,,엉덩이(속어),butt,n,R4,N
+504,ordre,,"명령, 질서",order,n,R4,N
+505,refuser,,거절하다,to refuse,v,R4,N
+506,pièce,,"방, 조각, 동전",room,n,R4,N
+507,doux,,부드러운,soft,adj,R4,N
+508,libre,,자유로운,free,adj,R4,N
+509,million,,백만,million,num,R4,N
+510,déranger,,방해하다,to disturb,v,R4,N
+511,bout,,"끝, 조각",end,n,R4,N
+512,froid,,추운,cold,adj,R4,Y
+513,prévenir,,"알리다, 예방하다",to warn,v,R4,N
+514,utiliser,,사용하다,to use,v,R4,N
+515,second,,두 번째의,second,adj,R4,N
+516,réfléchir,,생각하다,to think,v,R4,N
+517,différent,,다른,different,adj,R4,N
+518,montre,,시계,watch,n,R4,Y
+519,réussir,,성공하다,to succeed,v,R4,N
+520,client,,고객,customer,n,R4,Y
+521,clé,,열쇠,key,n,R4,Y
+522,seigneur,,영주/주님,lord,n,R4,Y
+523,colonel,,대령,colonel,n,R4,Y
+524,propos,,화제,remark,n,R4,N
+525,bizarre,,이상한,strange,adj,R4,N
+526,rouge,,빨간,red,adj,R4,Y
+527,découvrir,,발견하다,to discover,v,R4,N
+528,amener,,데려오다,to bring,v,R4,N
+529,apporter,,가져오다,to bring,v,R4,Y
+530,mien,,내 것,mine,pron,R4,N
+531,enlever,,벗다/치우다,to remove,v,R4,Y
+532,ressembler,,닮다,to resemble,v,R4,N
+533,paix,,평화,peace,n,R4,N
+534,tromper,,속이다,to deceive,v,R4,N
+535,tôt,,일찍,early,adv,R4,N
+536,sale,,더러운,dirty,adj,R4,Y
+537,sac,,가방,bag,n,R4,Y
+538,sujet,,주제,subject,n,R4,N
+539,faim,,배고픔,hunger,n,R4,Y
+540,marcher,,걷다,to walk,v,R4,Y
+541,ensuite,,그 다음에,then,adv,R4,N
+542,bravo,,브라보,bravo,intj,R4,N
+543,chemin,,길,path,n,R4,Y
+544,face,,정면,front,n,R4,N
+545,expliquer,,설명하다,to explain,v,R4,N
+546,chaud,,뜨거운,hot,adj,R4,Y
+547,tranquille,,조용한,quiet,adj,R4,N
+548,début,,시작,beginning,n,R4,N
+549,offrir,,선물하다,to offer,v,R4,Y
+550,génial,,멋진,great,adj,R4,N
+551,fond,,바닥,bottom,n,R4,N
+552,médecin,,의사,doctor,n,R4,Y
+553,sûrement,,틀림없이,surely,adv,R4,N
+554,régler,,해결하다,to settle,v,R4,N
+555,conduire,,운전하다,to drive,v,R4,Y
+556,dix,,열(10),ten,num,R4,Y
+557,camp,,캠프,camp,n,R4,Y
+558,dîner,,저녁 식사,dinner,n,R4,Y
+559,salle,,방/홀,room,n,R4,Y
+560,visage,,얼굴,face,n,R4,Y
+561,retard,,지각,delay,n,R4,N
+562,cadeau,,선물,gift,n,R4,Y
+563,crier,,소리치다,to shout,v,R4,Y
+564,six,,여섯(6),six,num,R4,Y
+565,maître,,주인/스승,master,n,R4,N
+566,nul,,형편없는,worthless,adj,R4,N
+567,marché,,시장,market,n,R4,Y
+568,remercier,,감사하다,to thank,v,R4,N
+569,amoureux,,사랑에 빠진,in love,adj,R4,N
+570,prix,,가격,price,n,R4,N
+571,bienvenu,,환영받는,welcome,adj,R4,N
+572,patron,,사장,boss,n,R4,Y
+573,papier,,종이,paper,n,R4,Y
+574,président,,대통령,president,n,R4,Y
+575,âge,,나이,age,n,R4,N
+576,preuve,,증거,proof,n,R4,N
+577,table,,탁자,table,n,R4,Y
+578,paraître,,~처럼 보이다,to seem,v,R4,N
+579,bateau,,배,boat,n,R4,Y
+580,vaisseau,,함선,ship,n,R4,Y
+581,pardonner,,용서하다,to forgive,v,R4,N
+582,accepter,,받아들이다,to accept,v,R4,N
+583,lumière,,빛,light,n,R4,Y
+584,compter,,세다,to count,v,R4,N
+585,situation,,상황,situation,n,R4,N
+586,victime,,피해자,victim,n,R4,N
+587,allemand,,독일의,German,adj,R4,N
+588,gauche,,왼쪽,left,n,R4,Y
+589,balle,,공/총알,ball,n,R4,Y
+590,ceci,,이것,this,pron,R4,N
+591,tombe,,무덤,grave,n,R4,Y
+592,couper,,자르다,to cut,v,R4,Y
+593,doucement,,살살,gently,adv,R4,N
+594,cheval,,말,horse,n,R4,Y
+595,bordel,,엉망,mess,n,R4,N
+596,soirée,,저녁 파티,party,n,R4,Y
+597,complètement,,완전히,completely,adv,R4,N
+598,rejoindre,,합류하다,to join,v,R4,N
+599,dépêcher,,서두르다,to hurry,v,R4,N
+600,mission,,임무,mission,n,R4,N
+601,soldat,,군인,soldier,n,R4,Y
+602,meurtre,,살인,murder,n,R4,N
+603,pourtant,,그렇지만,yet,adv,R4,N
+604,dame,,부인,lady,n,R4,Y
+605,gamin,,꼬마,kid,n,R4,Y
+606,dangereux,,위험한,dangerous,adj,R4,N
+607,dossier,,서류철,file,n,R4,Y
+608,effet,,효과,effect,n,R4,N
+609,agent,,요원,agent,n,R4,Y
+610,triste,,슬픈,sad,adj,R4,Y
+611,soleil,,해,sun,n,R4,Y
+612,sauter,,뛰다,to jump,v,R4,Y
+613,bruit,,소음,noise,n,R4,N
+614,connerie,,헛소리,nonsense,n,R4,N
+615,bête,,어리석은,stupid,adj,R4,N
+616,supposer,,추측하다,to suppose,v,R4,N
+617,signe,,신호,sign,n,R4,N
+618,groupe,,그룹,group,n,R4,N
+619,chacun,,각자,each one,pron,R4,N
+620,état,,상태,state,n,R4,N
+621,américain,,미국의,American,adj,R4,N
+622,journal,,신문,newspaper,n,R4,Y
+623,idiot,,바보,idiot,n,R4,N
+624,parole,,말,word,n,R4,N
+625,été,,여름,summer,n,R4,Y
+626,magnifique,,훌륭한,magnificent,adj,R4,N
+627,recherche,,연구/수색,search,n,R4,N
+628,loi,,법,law,n,R4,N
+629,naître,,태어나다,to be born,v,R4,N
+630,fil,,실,thread,n,R4,Y
+631,présenter,,소개하다,to introduce,v,R4,N
+632,dégager,,치우다,to clear,v,R4,N
+633,réponse,,대답,answer,n,R4,N
+634,vérifier,,확인하다,to check,v,R4,N
+635,anglais,,영국의/영어,English,adj,R4,N
+636,ouvert,,열린,open,adj,R4,Y
+637,scène,,장면/무대,scene,n,R4,N
+638,mont,,산,mountain,n,R4,Y
+639,baiser,,키스,kiss,n,R4,Y
+640,traiter,,다루다,to treat,v,R4,N
+641,erreur,,실수,mistake,n,R4,N
+642,peuple,,민족,people,n,R4,N
+643,droite,,오른쪽,right,n,R4,Y
+644,ligne,,선,line,n,R4,Y
+645,équipe,,팀,team,n,R4,N
+646,mer,,바다,sea,n,R4,Y
+647,rose,,장미,rose,n,R4,Y
+648,système,,시스템,system,n,R4,N
+649,plusieurs,,여러,several,det,R4,N
+650,souffrir,,고통받다,to suffer,v,R4,N
+651,détruire,,파괴하다,to destroy,v,R4,N
+652,cheveu,,머리카락,hair,n,R4,Y
+653,contrôle,,통제,control,n,R4,N
+654,silence,,침묵,silence,n,R4,N
+655,jambe,,다리,leg,n,R4,Y
+656,fermer,,닫다,to close,v,R4,Y
+657,absolument,,절대적으로,absolutely,adv,R4,N
+658,pute,,창녀,prostitute,n,R4,N
+659,blesser,,다치게 하다,to hurt,v,R4,N
+660,lâcher,,놓다,to let go,v,R4,N
+661,public,,대중,public,n,R4,N
+662,chasser,,사냥하다,to hunt,v,R4,Y
+663,évidemment,,물론,obviously,adv,R4,N
+664,conseil,,조언,advice,n,R4,N
+665,brûler,,태우다,to burn,v,R4,Y
+666,ancien,,옛,former,adj,R4,N
+667,espèce,,종류,species,n,R4,N
+668,forme,,형태,shape,n,R4,N
+669,juif,,유대인의,Jewish,adj,R4,N
+670,exemple,,예,example,n,R4,N
+671,majesté,,폐하,majesty,n,R4,N
+672,noël,,크리스마스,Christmas,n,R4,Y
+673,dos,,등,back,n,R4,Y
+674,visite,,방문,visit,n,R4,N
+675,mur,,벽,wall,n,R4,Y
+676,boîte,,상자,box,n,R4,Y
+677,juge,,판사,judge,n,R4,Y
+678,honte,,부끄러움,shame,n,R4,N
+679,voie,,길,way,n,R4,N
+680,capable,,할 수 있는,capable,adj,R4,N
+681,vent,,바람,wind,n,R4,Y
+682,accident,,사고,accident,n,R4,Y
+683,proposer,,제안하다,to propose,v,R4,N
+684,pote,,친구,buddy,n,R4,Y
+685,cool,,멋진,cool,adj,R4,N
+686,argent,,돈,money,n,R4,Y
+687,surprise,,놀람,surprise,n,R4,N
+688,avis,,의견,opinion,n,R4,N
+689,reposer,,쉬다,to rest,v,R4,N
+690,incroyable,,믿을 수 없는,incredible,adj,R4,N
+691,mener,,이끌다,to lead,v,R4,N
+692,imaginer,,상상하다,to imagine,v,R4,N
+693,autour,,주위에,around,adv,R4,N
+694,puisque,,~이니까,since,conj,R4,N
+695,signer,,서명하다,to sign,v,R4,Y
+696,poste,,자리/우체국,post,n,R4,N
+697,bosser,,일하다,to work,v,R4,N
+698,village,,마을,village,n,R4,Y
+699,instant,,순간,moment,n,R4,N
+700,politique,,정치,politics,n,R4,N
+701,trou,,구멍,hole,n,R4,Y
+702,projet,,계획,project,n,R4,N
+703,copain,,친구,friend,n,R4,Y
+704,respirer,,숨쉬다,to breathe,v,R4,Y
+705,justement,,바로,exactly,adv,R4,N
+706,reine,,여왕,queen,n,R4,Y
+707,fier,,자랑스러운,proud,adj,R4,N
+708,importer,,중요하다,to matter,v,R4,N
+709,discuter,,의논하다,to discuss,v,R4,N
+710,appel,,전화/부름,call,n,R4,N
+711,ciel,,하늘,sky,n,R4,Y
+712,bord,,가장자리,edge,n,R4,N
+713,détester,,싫어하다,to hate,v,R4,N
+714,chier,,똥 싸다,to shit,v,R4,N
+715,fatigué,,피곤한,tired,adj,R4,Y
+716,avion,,비행기,airplane,n,R4,Y
+717,surveiller,,감시하다,to watch over,v,R4,N
+718,simplement,,단순히,simply,adv,R4,N
+719,sonner,,울리다,to ring,v,R4,Y
+720,fleur,,꽃,flower,n,R4,Y
+721,bleu,,파란,blue,adj,R4,Y
+722,santé,,건강,health,n,R4,N
+723,durer,,지속되다,to last,v,R4,N
+724,lancer,,던지다,to throw,v,R4,Y
+725,saint,,성인,saint,n,R4,N
+726,dollar,,달러,dollar,n,R4,Y
+727,âme,,영혼,soul,n,R4,N
+728,danger,,위험,danger,n,R4,N
+729,machine,,기계,machine,n,R4,Y
+730,coin,,구석,corner,n,R4,Y
+731,travers,,가로질러,across,adv,R4,N
+732,gosse,,아이,kid,n,R4,Y
+733,neuf,,아홉(9),nine,num,R4,Y
+734,classe,,교실/학급,class,n,R4,Y
+735,chant,,노래,song,n,R4,N
+736,proche,,가까운,near,adj,R4,N
+737,dommage,,유감,pity,n,R4,N
+738,peau,,피부,skin,n,R4,Y
+739,contact,,연락,contact,n,R4,N
+740,debout,,서서,standing,adv,R4,Y
+741,salaud,,개자식,bastard,n,R4,N
+742,prouver,,증명하다,to prove,v,R4,N
+743,créer,,만들다,to create,v,R4,N
+744,vide,,빈,empty,adj,R4,Y
+745,remarquer,,알아차리다,to notice,v,R4,N
+746,décision,,결정,decision,n,R4,N
+747,prise,,잡기,grip,n,R4,N
+748,sympa,,친절한,nice,adj,R4,N
+749,répéter,,반복하다,to repeat,v,R4,N
+750,épouser,,결혼하다,to marry,v,R4,Y
+751,cuisine,,부엌,kitchen,n,R4,Y
+752,vin,,와인,wine,n,R4,Y
+753,selon,,~에 따르면,according to,prep,R4,N
+754,oncle,,삼촌,uncle,n,R4,Y
+755,récupérer,,되찾다,to recover,v,R4,N
+756,bouche,,입,mouth,n,R4,Y
+757,prévoir,,예상하다,to foresee,v,R4,N
+758,riche,,부유한,rich,adj,R4,Y
+759,avocat,,변호사,lawyer,n,R4,Y
+760,connard,,멍청이,jerk,n,R4,N
+761,radio,,라디오,radio,n,R4,Y
+762,doigt,,손가락,finger,n,R4,Y
+763,dedans,,안에,inside,adv,R4,N
+764,témoin,,증인,witness,n,R4,N
+765,planète,,행성,planet,n,R4,Y
+766,chanson,,노래,song,n,R4,Y
+767,moitié,,절반,half,n,R4,Y
+768,souhaiter,,바라다,to wish,v,R4,N
+769,spécial,,특별한,special,adj,R4,N
+770,patient,,환자,patient,n,R4,Y
+771,fric,,돈,money,n,R4,Y
+772,personnel,,개인적인,personal,adj,R4,N
+773,solution,,해결책,solution,n,R4,N
+774,esprit,,정신,mind,n,R4,N
+775,avance,,앞섬,advance,n,R4,N
+776,manière,,방식,manner,n,R4,N
+777,craindre,,두려워하다,to fear,v,R4,N
+778,franc,,솔직한,frank,adj,R4,N
+779,commandant,,지휘관,commander,n,R4,Y
+780,contraire,,반대,opposite,n,R4,N
+781,but,,목표/골,goal,n,R4,N
+782,foutu,,망한,damned,adj,R4,N
+783,soin,,돌봄,care,n,R4,N
+784,abandonner,,포기하다,to give up,v,R4,N
+785,liberté,,자유,freedom,n,R4,N
+786,liste,,목록,list,n,R4,N
+787,danser,,춤추다,to dance,v,R4,Y
+788,fenêtre,,창문,window,n,R4,Y
+789,diable,,악마,devil,n,R4,Y
+790,rater,,놓치다,to miss,v,R4,N
+791,court,,짧은,short,adj,R4,Y
+792,responsable,,책임 있는,responsible,adj,R4,N
+793,vol,,비행/도둑질,flight,n,R4,N
+794,cousin,,사촌,cousin,n,R4,Y
+795,blague,,농담,joke,n,R4,N
+796,monstre,,괴물,monster,n,R4,Y
+797,hors,,~밖에,outside,prep,R4,N
+798,banque,,은행,bank,n,R4,Y
+799,combat,,싸움,fight,n,R4,Y
+800,directeur,,국장/교장,director,n,R4,Y
+801,regretter,,후회하다,to regret,v,R4,N
+802,étrange,,이상한,strange,adj,R4,N
+803,approcher,,다가가다,to approach,v,R4,N
+804,menacer,,위협하다,to threaten,v,R4,N
+805,ange,,천사,angel,n,R4,Y
+806,partager,,나누다,to share,v,R4,Y
+807,assurer,,보장하다,to assure,v,R4,N
+808,terrible,,끔찍한,terrible,adj,R4,N
+809,télé,,텔레비전,TV,n,R4,Y
+810,recommencer,,다시 시작하다,to start again,v,R4,N
+811,douleur,,통증,pain,n,R4,N
+812,retirer,,빼내다,to withdraw,v,R4,N
+813,courage,,용기,courage,n,R4,N
+814,vacances,,휴가,holiday,n,R4,Y
+815,relation,,관계,relationship,n,R4,N
+816,lorsque,,~할 때,when,conj,R4,N
+817,seconde,,초,second,n,R4,N
+818,bain,,목욕,bath,n,R4,Y
+819,cesser,,그만두다,to stop,v,R4,N
+820,course,,경주,race,n,R4,Y
+821,milieu,,가운데,middle,n,R4,N
+822,mise,,놓기,placing,n,R4,N
+823,priver,,빼앗다,to deprive,v,R4,N
+824,départ,,출발,departure,n,R4,N
+825,bonheur,,행복,happiness,n,R4,N
+826,base,,기지/기초,base,n,R4,N
+827,coupable,,유죄인,guilty,adj,R4,N
+828,sacré,,신성한,sacred,adj,R4,N
+829,calmer,,진정시키다,to calm,v,R4,N
+830,libérer,,풀어주다,to free,v,R4,N
+831,centre,,중심,center,n,R4,N
+832,remonter,,다시 올라가다,to go back up,v,R4,N
+833,rôle,,역할,role,n,R4,N
+834,celui-ci,,이것,this one,pron,R4,N
+835,merveilleux,,멋진,wonderful,adj,R4,N
+836,professeur,,선생님,teacher,n,R4,Y
+837,dingue,,미친,crazy,adj,R4,N
+838,compagnie,,회사/동행,company,n,R4,N
+839,intéressant,,흥미로운,interesting,adj,R4,N
+840,anniversaire,,생일,birthday,n,R4,Y
+841,langue,,언어/혀,language,n,R4,N
+842,sentiment,,감정,feeling,n,R4,N
+843,baisser,,낮추다,to lower,v,R4,N
+844,code,,코드,code,n,R4,N
+845,chat,,고양이,cat,n,R4,Y
+846,société,,사회/회사,society,n,R4,N
+847,ailleurs,,다른 곳에,elsewhere,adv,R4,N
+848,secours,,구조,help,n,R4,N
+849,rencontre,,만남,meeting,n,R4,N
+850,ministre,,장관,minister,n,R4,Y
+851,arrivée,,도착,arrival,n,R4,N
+852,kilomètre,,킬로미터,kilometre,n,R4,N
+853,nez,,코,nose,n,R4,Y
+854,mémoire,,기억,memory,n,R4,N
+855,souci,,걱정,worry,n,R4,N
+856,voisin,,이웃,neighbour,n,R4,Y
+857,gouvernement,,정부,government,n,R4,N
+858,profiter,,즐기다,to enjoy,v,R4,N
+859,couleur,,색,colour,n,R4,Y
+860,note,,메모/점수,note,n,R4,N
+861,adorer,,매우 좋아하다,to adore,v,R4,N
+862,trace,,흔적,trace,n,R4,N
+863,danse,,춤,dance,n,R4,Y
+864,exister,,존재하다,to exist,v,R4,N
+865,quartier,,동네,neighbourhood,n,R4,N
+866,chut,,쉿,shh,intj,R4,N
+867,marre,,지긋지긋함,fed up,adv,R4,N
+868,entier,,전체의,whole,adj,R4,N
+869,position,,위치,position,n,R4,N
+870,rouler,,굴러가다,to roll,v,R4,Y
+871,nature,,자연,nature,n,R4,Y
+872,cour,,마당,courtyard,n,R4,Y
+873,vif,,생생한,lively,adj,R4,N
+874,crever,,죽다,to die,v,R4,N
+875,pitié,,동정,pity,n,R4,N
+876,ficher,,하다(속어),to do,v,R4,N
+877,tort,,잘못,wrong,n,R4,N
+878,charge,,짐/책임,charge,n,R4,N
+879,sept,,일곱(7),seven,num,R4,Y
+880,marquer,,표시하다,to mark,v,R4,N
+881,bombe,,폭탄,bomb,n,R4,Y
+882,méchant,,못된,mean,adj,R4,N
+883,probablement,,아마,probably,adv,R4,N
+884,don,,재능/선물,gift,n,R4,N
+885,soupir,,한숨,sigh,n,R4,N
+886,embrasser,,키스하다,to kiss,v,R4,Y
+887,camarade,,동지,comrade,n,R4,N
+888,construire,,짓다,to build,v,R4,Y
+889,cerveau,,뇌,brain,n,R4,Y
+890,loup,,늑대,wolf,n,R4,Y
+891,thé,,차,tea,n,R4,Y
+892,colère,,화,anger,n,R4,N
+893,prince,,왕자,prince,n,R4,Y
+894,défendre,,지키다,to defend,v,R4,N
+895,russe,,러시아의,Russian,adj,R4,N
+896,concerner,,관련되다,to concern,v,R4,N
+897,fumer,,담배 피우다,to smoke,v,R4,Y
+898,nord,,북쪽,north,n,R4,N
+899,pis,,더 나쁘게,worse,adv,R4,N
+900,déjeuner,,점심,lunch,n,R4,Y
+901,compliqué,,복잡한,complicated,adj,R4,N
+902,métier,,직업,job,n,R4,N
+903,ennemi,,적,enemy,n,R4,N
+904,moteur,,엔진,engine,n,R4,Y
+905,survivre,,살아남다,to survive,v,R4,N
+906,censé,,~하기로 된,supposed,adj,R4,N
+907,cent,,백(100),hundred,num,R4,N
+908,copine,,여자친구,girlfriend,n,R4,Y
+909,rêver,,꿈꾸다,to dream,v,R4,Y
+910,animal,,동물,animal,n,R4,Y
+911,dépendre,,달려 있다,to depend,v,R4,N
+912,niveau,,수준,level,n,R4,N
+913,excellent,,훌륭한,excellent,adj,R4,N
+914,résultat,,결과,result,n,R4,N
+915,empêcher,,막다,to prevent,v,R4,N
+916,camion,,트럭,truck,n,R4,Y
+917,attaquer,,공격하다,to attack,v,R4,N
+918,billet,,표,ticket,n,R4,Y
+919,mériter,,받을 만하다,to deserve,v,R4,N
+920,dent,,이,tooth,n,R4,Y
+921,image,,그림,picture,n,R4,Y
+922,signifier,,의미하다,to mean,v,R4,N
+923,bar,,바,bar,n,R4,Y
+924,drogue,,마약,drug,n,R4,N
+925,intérêt,,관심/이자,interest,n,R4,N
+926,poisson,,물고기,fish,n,R4,Y
+927,chanter,,노래하다,to sing,v,R4,Y
+928,tueur,,살인자,killer,n,R4,N
+929,vert,,초록색의,green,adj,R4,Y
+930,maladie,,병,illness,n,R4,N
+931,commissaire,,경찰서장,superintendent,n,R4,N
+932,traverser,,건너다,to cross,v,R4,Y
+933,exact,,정확한,exact,adj,R4,N
+934,frais,,신선한,fresh,adj,R4,N
+935,salope,,나쁜 년,bitch,n,R4,N
+936,respecter,,존중하다,to respect,v,R4,N
+937,coupe,,잔/컵,cup,n,R4,Y
+938,goût,,맛,taste,n,R4,N
+939,joie,,기쁨,joy,n,R4,N
+940,bière,,맥주,beer,n,R4,Y
+941,habiter,,살다,to live,v,R4,N
+942,grandir,,자라다,to grow up,v,R4,Y
+943,zone,,구역,zone,n,R4,N
+944,fermé,,닫힌,closed,adj,R4,Y
+945,justice,,정의,justice,n,R4,N
+946,lieutenant,,중위,lieutenant,n,R4,Y
+947,lui-même,,그 자신,himself,pron,R4,N
+948,étranger,,외국인,foreigner,n,R4,N
+949,attraper,,잡다,to catch,v,R4,Y
+950,inutile,,쓸모없는,useless,adj,R4,N
+951,respect,,존중,respect,n,R4,N
+952,caméra,,카메라,camera,n,R4,Y
+953,deuxième,,두 번째,second,adj,R4,N
+954,virer,,해고하다,to fire,v,R4,N
+955,diriger,,이끌다,to lead,v,R4,N
+956,militaire,,군사의,military,adj,R4,N
+957,séparer,,분리하다,to separate,v,R4,N
+958,contrat,,계약,contract,n,R4,N
+959,détail,,세부,detail,n,R4,N
+960,huit,,여덟(8),eight,num,R4,Y
+961,interdire,,금지하다,to forbid,v,R4,N
+962,hasard,,우연,chance,n,R4,N
+963,mignon,,귀여운,cute,adj,R4,N
+964,pain,,빵,bread,n,R4,Y
+965,réaliser,,실현하다,to realize,v,R4,N
+966,parmi,,~가운데,among,prep,R4,N
+967,avancer,,나아가다,to move forward,v,R4,N
+968,traîner,,끌다,to drag,v,R4,N
+969,nécessaire,,필요한,necessary,adj,R4,N
+970,champ,,들판,field,n,R4,Y
+971,reculer,,물러나다,to back up,v,R4,N
+972,piquer,,찌르다,to sting,v,R4,N
+973,couple,,커플,couple,n,R4,Y
+974,inviter,,초대하다,to invite,v,R4,N
+975,formidable,,굉장한,great,adj,R4,N
+976,produit,,제품,product,n,R4,Y
+977,morceau,,조각,piece,n,R4,Y
+978,enceinte,,임신한,pregnant,adj,R4,Y
+979,cinéma,,영화관,cinema,n,R4,Y
+980,démon,,악마,demon,n,R4,Y
+981,suivant,,다음의,next,adj,R4,N
+982,réunion,,회의,meeting,n,R4,Y
+983,réparer,,고치다,to repair,v,R4,Y
+984,sourire,,미소,smile,n,R4,Y
+985,charger,,싣다,to load,v,R4,Y
+986,test,,시험,test,n,R4,N
+987,ridicule,,우스운,ridiculous,adj,R4,N
+988,fuir,,도망치다,to flee,v,R4,Y
+989,conversation,,대화,conversation,n,R4,Y
+990,sud,,남쪽,south,n,R4,N
+991,prisonnier,,죄수,prisoner,n,R4,Y
+992,madame,,부인,madam,n,R4,Y
+993,vache,,소,cow,n,R4,Y
+994,tenter,,시도하다,to try,v,R4,N
+995,pont,,다리,bridge,n,R4,Y
+996,coincer,,끼이게 하다,to jam,v,R4,N
+997,invité,,손님,guest,n,R4,Y
+998,programme,,프로그램,program,n,R4,N
+999,presse,,언론,press,n,R4,N
+1000,air,,공기,air,n,R4,N
+1001,fonctionner,,작동하다,to work,v,R4,N
+1002,tante,,이모,aunt,n,R4,Y
+1003,vidéo,,영상,video,n,R4,Y
+1004,grand-mère,,할머니,grandmother,n,R4,Y
+1005,lune,,달,moon,n,R4,Y
+1006,lien,,연결,link,n,R4,N
+1007,portable,,휴대폰,mobile phone,n,R4,Y
+1008,agir,,행동하다,to act,v,R4,N
+1009,franchement,,솔직히,frankly,adv,R4,N
+1010,adieu,,안녕,farewell,intj,R4,N
+1011,foi,,믿음,faith,n,R4,N
+1012,retenir,,붙잡다,to hold back,v,R4,N
+1013,membre,,회원,member,n,R4,N
+1014,club,,클럽,club,n,R4,N
+1015,acteur,,배우,actor,n,R4,Y
+1016,coûter,,비용이 들다,to cost,v,R4,N
+1017,toilette,,화장실,toilet,n,R4,Y
+1018,montagne,,산,mountain,n,R4,Y
+1019,convaincre,,설득하다,to convince,v,R4,N
+1020,oiseau,,새,bird,n,R4,Y
+1021,réalité,,현실,reality,n,R4,N
+1022,obtenir,,얻다,to obtain,v,R4,N
+1023,voleur,,도둑,thief,n,R4,Y
+1024,regard,,시선,look,n,R4,N
+1025,forcer,,강요하다,to force,v,R4,N
+1026,inquiéter,,걱정시키다,to worry,v,R4,N
+1027,beauté,,아름다움,beauty,n,R4,N
+1028,vôtre,,당신 것,yours,pron,R4,N
+1029,deviner,,알아맞히다,to guess,v,R4,N
+1030,finalement,,결국,finally,adv,R4,N
+1031,innocent,,무죄의,innocent,adj,R4,N
+1032,intéresser,,관심을 끌다,to interest,v,R4,N
+1033,mensonge,,거짓말,lie,n,R4,N
+1034,souffle,,숨,breath,n,R4,N
+1035,savon,,비누,soap,n,R4,Y
+1036,renvoyer,,돌려보내다,to send back,v,R4,N
+1037,certainement,,틀림없이,certainly,adv,R4,N
+1038,lourd,,무거운,heavy,adj,R4,Y
+1039,crise,,위기,crisis,n,R4,N
+1040,félicitation,,축하,congratulations,n,R4,N
+1041,grand-père,,할아버지,grandfather,n,R4,Y
+1042,rapporter,,가져오다,to bring back,v,R4,N
+1043,campagne,,시골,countryside,n,R4,Y
+1044,condition,,조건,condition,n,R4,N
+1045,information,,정보,information,n,R4,N
+1046,glace,,얼음,ice,n,R4,Y
+1047,arbre,,나무,tree,n,R4,Y
+1048,collègue,,동료,colleague,n,R4,Y
+1049,attaque,,공격,attack,n,R4,N
+1050,arrière,,뒤,back,n,R4,N
+1051,dimanche,,일요일,Sunday,n,R4,N
+1052,tas,,더미,pile,n,R4,Y
+1053,bouteille,,병,bottle,n,R4,Y
+1054,taxi,,택시,taxi,n,R4,Y
+1055,défense,,방어,defense,n,R4,N
+1056,héros,,영웅,hero,n,R4,Y
+1057,fantôme,,유령,ghost,n,R4,Y
+1058,règle,,규칙,rule,n,R4,N
+1059,déposer,,내려놓다,to drop off,v,R4,Y
+1060,stupide,,어리석은,stupid,adj,R4,N
+1061,immédiatement,,즉시,immediately,adv,R4,N
+1062,spectacle,,공연,show,n,R4,Y
+1063,relever,,일으키다,to raise,v,R4,N
+1064,remplir,,채우다,to fill,v,R4,Y
+1065,valise,,여행 가방,suitcase,n,R4,Y
+1066,policier,,경찰관,police officer,n,R4,Y
+1067,jaloux,,질투하는,jealous,adj,R4,N
+1068,pleuvoir,,비가 오다,to rain,v,R4,Y
+1069,appartenir,,속하다,to belong,v,R4,N
+1070,couche,,기저귀,diaper,n,R4,Y
+1071,honneur,,명예,honor,n,R4,N
+1072,réserver,,예약하다,to book,v,R4,N
+1073,restaurer,,복원하다,to restore,v,R4,N
+1074,direction,,방향,direction,n,R4,N
+1075,remplacer,,대신하다,to replace,v,R4,N
+1076,jardin,,정원,garden,n,R4,Y
+1077,signal,,신호,signal,n,R4,N
+1078,poche,,주머니,pocket,n,R4,Y
+1079,malgré,,~에도 불구하고,despite,prep,R4,N
+1080,miracle,,기적,miracle,n,R4,N
+1081,obligé,,어쩔 수 없는,obliged,adj,R4,N
+1082,cigarette,,담배,cigarette,n,R4,Y
+1083,oser,,감히 하다,to dare,v,R4,N
+1084,intelligent,,똑똑한,intelligent,adj,R4,N
+1085,charmant,,매력적인,charming,adj,R4,N
+1086,coffre,,트렁크,trunk,n,R4,Y
+1087,rat,,쥐,rat,n,R4,Y
+1088,malheureux,,불행한,unhappy,adj,R4,N
+1089,différence,,차이,difference,n,R4,N
+1090,nombreux,,많은,numerous,adj,R4,N
+1091,sol,,바닥,floor,n,R4,Y
+1092,présence,,존재,presence,n,R4,N
+1093,moindre,,가장 작은,least,adj,R4,N
+1094,source,,원천,source,n,R4,N
+1095,gare,,기차역,station,n,R4,Y
+1096,appartement,,아파트,apartment,n,R4,Y
+1097,tableau,,그림,painting,n,R4,Y
+1098,réel,,실제의,real,adj,R4,N
+1099,siècle,,세기,century,n,R4,N
+1100,château,,성,castle,n,R4,Y
+1101,connaissance,,지식,knowledge,n,R4,N
+1102,terrain,,땅,ground,n,R4,Y
+1103,nourrir,,먹이다,to feed,v,R4,Y
+1104,conscience,,의식,conscience,n,R4,N
+1105,couler,,흐르다,to flow,v,R4,Y
+1106,mesure,,치수,measure,n,R4,N
+1107,inquiet,,걱정하는,worried,adj,R4,N
+1108,paradis,,천국,paradise,n,R4,N
+1109,risquer,,위험을 무릅쓰다,to risk,v,R4,N
+1110,double,,두 배의,double,adj,R4,N
+1111,poursuivre,,추적하다,to pursue,v,R4,N
+1112,commande,,주문,order,n,R4,N
+1113,pur,,순수한,pure,adj,R4,N
+1114,désirer,,원하다,to desire,v,R4,N
+1115,nu,,벌거벗은,naked,adj,R4,N
+1116,cellule,,감방,cell,n,R4,N
+1117,couteau,,칼,knife,n,R4,Y
+1118,enquête,,수사,investigation,n,R4,N
+1119,maire,,시장,mayor,n,R4,N
+1120,criminel,,범죄자,criminal,n,R4,N
+1121,placer,,놓다,to place,v,R4,N
+1122,destin,,운명,destiny,n,R4,N
+1123,installer,,설치하다,to install,v,R4,N
+1124,euro,,유로,euro,n,R4,Y
+1125,soigner,,치료하다,to treat,v,R4,Y
+1126,mètre,,미터,meter,n,R4,N
+1127,nombre,,수,number,n,R4,N
+1128,faillir,,~할 뻔하다,to almost do,v,R4,N
+1129,refaire,,다시 하다,to redo,v,R4,N
+1130,passage,,통로,passage,n,R4,N
+1131,arranger,,정리하다,to arrange,v,R4,N
+1132,olivier,,올리브나무,olive tree,n,R4,Y
+1133,honnête,,정직한,honest,adj,R4,N
+1134,italien,,이탈리아의,Italian,adj,R4,N
+1135,genou,,무릎,knee,n,R4,Y
+1136,procès,,재판,trial,n,R4,N
+1137,pression,,압력,pressure,n,R4,N
+1138,apparemment,,보아하니,apparently,adv,R4,N
+1139,journaliste,,기자,journalist,n,R4,Y
+1140,briser,,깨뜨리다,to break,v,R4,Y
+1141,inspecteur,,형사,inspector,n,R4,Y
+1142,étoile,,별,star,n,R4,Y
+1143,valeur,,가치,value,n,R4,N
+1144,week-end,,주말,weekend,n,R4,N
+1145,tendre,,부드러운,tender,adj,R4,N
+1146,officier,,장교,officer,n,R4,Y
+1147,chapeau,,모자,hat,n,R4,Y
+1148,joindre,,연락하다,to reach,v,R4,N
+1149,costume,,정장,suit,n,R4,Y
+1150,joyeux,,즐거운,joyful,adj,R4,Y
+1151,action,,행동,action,n,R4,N
+1152,ressentir,,느끼다,to feel,v,R4,N
+1153,page,,페이지,page,n,R4,Y
+1154,parfaitement,,완벽하게,perfectly,adv,R4,N
+1155,nettoyer,,청소하다,to clean,v,R4,Y
+1156,hôtel,,호텔,hotel,n,R4,Y
+1157,expérience,,경험,experience,n,R4,N
+1158,détendre,,긴장을 풀다,to relax,v,R4,N
+1159,cloche,,종,bell,n,R4,Y
+1160,magasin,,가게,shop,n,R4,Y
+1161,plupart,,대부분,most,n,R4,N
+1162,trahir,,배신하다,to betray,v,R4,N
+1163,horrible,,끔찍한,horrible,adj,R4,N
+1164,sire,,폐하,sire,n,R4,N
+1165,confier,,맡기다,to entrust,v,R4,N
+1166,engager,,고용하다,to hire,v,R4,N
+1167,heureusement,,다행히,fortunately,adv,R4,N
+1168,marrant,,웃기는,funny,adj,R4,N
+1169,suspect,,용의자,suspect,n,R4,N
+1170,avouer,,자백하다,to confess,v,R4,N
+1171,représenter,,나타내다,to represent,v,R4,N
+1172,amuser,,즐겁게 하다,to amuse,v,R4,N
+1173,éviter,,피하다,to avoid,v,R4,N
+1174,talent,,재능,talent,n,R4,N
+1175,principal,,주요한,main,adj,R4,N
+1176,sage,,현명한,wise,adj,R4,N
+1177,nourriture,,음식,food,n,R4,Y
+1178,commun,,공동의,common,adj,R4,N
+1179,rapide,,빠른,fast,adj,R4,Y
+1180,imbécile,,바보,idiot,n,R4,N
+1181,victoire,,승리,victory,n,R4,N
+1182,forêt,,숲,forest,n,R4,Y
+1183,supplier,,애원하다,to beg,v,R4,N
+1184,piano,,피아노,piano,n,R4,Y
+1185,conseiller,,조언하다,to advise,v,R4,N
+1186,mouvement,,움직임,movement,n,R4,N
+1187,soupirer,,한숨 쉬다,to sigh,v,R4,N
+1188,bus,,버스,bus,n,R4,Y
+1189,supporter,,견디다,to bear,v,R4,N
+1190,atteindre,,도달하다,to reach,v,R4,N
+1191,nôtre,,우리 것,ours,pron,R4,N
+1192,ravi,,기쁜,delighted,adj,R4,N
+1193,confirmer,,확인하다,to confirm,v,R4,N
+1194,titre,,제목,title,n,R4,N
+1195,chinois,,중국의,Chinese,adj,R4,N
+1196,princesse,,공주,princess,n,R4,Y
+1197,sérieusement,,진지하게,seriously,adv,R4,N
+1198,menteur,,거짓말쟁이,liar,n,R4,N
+1199,au-dessus,,위에,above,adv,R4,N
+1200,rassurer,,안심시키다,to reassure,v,R4,N
+1201,leçon,,수업,lesson,n,R4,Y
+1202,école,,학교,school,n,R4,Y
+1203,sein,,가슴,breast,n,R4,N
+1204,théâtre,,극장,theater,n,R4,Y
+1205,chaussure,,신발,shoe,n,R4,Y
+1206,forcément,,반드시,necessarily,adv,R4,N
+1207,naturel,,자연스러운,natural,adj,R4,N
+1208,enchanté,,반가운,delighted,adj,R4,N
+1209,sexe,,성,sex,n,R4,N
+1210,poulet,,닭고기,chicken,n,R4,Y
+1211,cadavre,,시체,corpse,n,R4,N
+1212,gérer,,관리하다,to manage,v,R4,N
+1213,nerveux,,긴장한,nervous,adj,R4,N
+1214,enfermer,,가두다,to lock up,v,R4,N
+1215,rigoler,,웃다,to laugh,v,R4,Y
+1216,piste,,단서,track,n,R4,N
+1217,fiancer,,약혼시키다,to get engaged,v,R4,N
+1218,couille,,불알,testicle,n,R4,N
+1219,carrière,,경력,career,n,R4,N
+1220,acte,,행위,act,n,R4,N
+1221,taille,,키,size,n,R4,N
+1222,accord,,동의,agreement,n,R4,N
+1223,contrôler,,통제하다,to control,v,R4,N
+1224,aïe,,아야,ouch,intj,R4,N
+1225,surpris,,놀란,surprised,adj,R4,Y
+1226,ventre,,배,belly,n,R4,Y
+1227,espérer,,바라다,to hope,v,R4,N
+1228,champagne,,샴페인,champagne,n,R4,Y
+1229,repas,,식사,meal,n,R4,Y
+1230,élevé,,높은,high,adj,R4,N
+1231,donnée,,데이터,data,n,R4,N
+1232,utile,,유용한,useful,adj,R4,N
+1233,vêtement,,옷,clothes,n,R4,Y
+1234,énorme,,거대한,huge,adj,R4,Y
+1235,adresse,,주소,address,n,R4,N
+1236,volonté,,의지,will,n,R4,N
+1237,changement,,변화,change,n,R4,N
+1238,date,,날짜,date,n,R4,N
+1239,gâteau,,케이크,cake,n,R4,Y
+1240,désir,,욕망,desire,n,R4,N
+1241,concentrer,,집중하다,to concentrate,v,R4,N
+1242,lors,,~때,during,adv,R4,N
+1243,ignorer,,모르다,to ignore,v,R4,N
+1244,plaisanter,,농담하다,to joke,v,R4,N
+1245,léger,,가벼운,light,adj,R4,N
+1246,plage,,해변,beach,n,R4,Y
+1247,malheureusement,,불행히도,unfortunately,adv,R4,N
+1248,rare,,드문,rare,adj,R4,N
+1249,environ,,약,about,adv,R4,N
+1250,couvrir,,덮다,to cover,v,R4,Y
+1251,vision,,시야,vision,n,R4,N
+1252,futur,,미래,future,n,R4,N
+1253,autrement,,다르게,otherwise,adv,R4,N
+1254,caisse,,계산대,cash register,n,R4,Y
+1255,juger,,판단하다,to judge,v,R4,N
+1256,obliger,,강요하다,to oblige,v,R4,N
+1257,organiser,,조직하다,to organize,v,R4,N
+1258,violence,,폭력,violence,n,R4,N
+1259,effort,,노력,effort,n,R4,N
+1260,oreille,,귀,ear,n,R4,Y
+1261,sombre,,어두운,dark,adj,R4,Y
+1262,presser,,누르다,to press,v,R4,N
+1263,armé,,무장한,armed,adj,R4,N
+1264,pisser,,오줌 누다,to pee,v,R4,N
+1265,opération,,수술,operation,n,R4,N
+1266,responsabilité,,책임,responsibility,n,R4,N
+1267,accompagner,,동행하다,to accompany,v,R4,N
+1268,considérer,,고려하다,to consider,v,R4,N
+1269,inconnu,,모르는,unknown,adj,R4,N
+1270,posséder,,소유하다,to own,v,R4,N
+1271,déclarer,,선언하다,to declare,v,R4,N
+1272,échapper,,빠져나가다,to escape,v,R4,N
+1273,sergent,,병장,sergeant,n,R4,Y
+1274,salon,,거실,living room,n,R4,Y
+1275,paquet,,소포,package,n,R4,Y
+1276,malin,,영리한,clever,adj,R4,N
+1277,piège,,함정,trap,n,R4,Y
+1278,troisième,,세 번째의,third,adj,R4,N
+1279,samedi,,토요일,Saturday,n,R4,N
+1280,profond,,깊은,deep,adj,R4,Y
+1281,discours,,연설,speech,n,R4,Y
+1282,terme,,용어,term,n,R4,N
+1283,causer,,일으키다,to cause,v,R4,N
+1284,social,,사회의,social,adj,R4,N
+1285,faible,,약한,weak,adj,R4,N
+1286,folie,,광기,madness,n,R4,N
+1287,afin,,~하기 위해,in order to,conj,R4,N
+1288,pomme,,사과,apple,n,R4,Y
+1289,curieux,,호기심 많은,curious,adj,R4,N
+1290,gardien,,경비원,guard,n,R4,Y
+1291,objet,,물건,object,n,R4,N
+1292,naissance,,탄생,birth,n,R4,N
+1293,téléphoner,,전화하다,to phone,v,R4,Y
+1294,national,,국가의,national,adj,R4,N
+1295,soi,,자기,oneself,pron,R4,N
+1296,sec,,마른,dry,adj,R4,N
+1297,médicament,,약,medicine,n,R4,Y
+1298,commettre,,저지르다,to commit,v,R4,N
+1299,ennui,,지루함,boredom,n,R4,N
+1300,sauvage,,야생의,wild,adj,R4,N
+1301,assassiner,,암살하다,to murder,v,R4,N
+1302,retraite,,은퇴,retirement,n,R4,N
+1303,or,,금,gold,n,R4,Y
+1304,superbe,,멋진,superb,adj,R4,N
+1305,côte,,해안,coast,n,R4,Y
+1306,gramme,,그램,gram,n,R4,N
+1307,blessure,,상처,wound,n,R4,Y
+1308,fabriquer,,만들다,to make,v,R4,N
+1309,limite,,한계,limit,n,R4,N
+1310,plainte,,고소,complaint,n,R4,N
+1311,sonnerie,,벨소리,ringtone,n,R4,N
+1312,cauchemar,,악몽,nightmare,n,R4,N
+1313,unique,,유일한,unique,adj,R4,N
+1314,débarrasser,,치우다,to get rid of,v,R4,N
+1315,série,,시리즈,series,n,R4,N
+1316,enfoiré,,개자식,bastard,n,R4,N
+1317,lier,,묶다,to tie,v,R4,N
+1318,bref,,요컨대,in short,adv,R4,N
+1319,rythme,,리듬,rhythm,n,R4,N
+1320,repartir,,다시 떠나다,to leave again,v,R4,N
+1321,moral,,사기,morale,n,R4,N
+1322,maîtresse,,정부,mistress,n,R4,N
+1323,lycée,,고등학교,high school,n,R4,Y
+1324,rang,,줄,row,n,R4,N
+1325,mêler,,섞다,to mix,v,R4,N
+1326,neige,,눈,snow,n,R4,Y
+1327,midi,,정오,noon,n,R4,N
+1328,louer,,빌리다,to rent,v,R4,N
+1329,artiste,,예술가,artist,n,R4,Y
+1330,pourrir,,썩다,to rot,v,R4,N
+1331,personnage,,등장인물,character,n,R4,N
+1332,plat,,요리,dish,n,R4,Y
+1333,gémissement,,신음,moan,n,R4,N
+1334,serrer,,꽉 쥐다,to squeeze,v,R4,N
+1335,combattre,,싸우다,to fight,v,R4,Y
+1336,perte,,손실,loss,n,R4,N
+1337,filer,,달아나다,to run off,v,R4,N
+1338,tir,,사격,shot,n,R4,N
+1339,complet,,완전한,complete,adj,R4,N
+1340,voile,,돛,sail,n,R4,Y
+1341,trésor,,보물,treasure,n,R4,Y
+1342,étage,,층,floor,n,R4,N
+1343,inventer,,발명하다,to invent,v,R4,N
+1344,succès,,성공,success,n,R4,N
+1345,malheur,,불행,misfortune,n,R4,N
+1346,civil,,민간의,civil,adj,R4,N
+1347,lapin,,토끼,rabbit,n,R4,Y
+1348,gaz,,가스,gas,n,R4,N
+1349,supérieur,,상사,superior,n,R4,N
+1350,suicide,,자살,suicide,n,R4,N
+1351,direct,,직접적인,direct,adj,R4,N
+1352,vitesse,,속도,speed,n,R4,N
+1353,fouiller,,뒤지다,to search,v,R4,N
+1354,viande,,고기,meat,n,R4,Y
+1355,choc,,충격,shock,n,R4,N
+1356,après-midi,,오후,afternoon,n,R4,N
+1357,sommeil,,잠,sleep,n,R4,N
+1358,grand-chose,,대단한 것,much,pron,R4,N
+1359,couloir,,복도,corridor,n,R4,Y
+1360,chocolat,,초콜릿,chocolate,n,R4,Y
+1361,poil,,털,hair,n,R4,Y
+1362,exploser,,폭발하다,to explode,v,R4,Y
+1363,vélo,,자전거,bicycle,n,R4,Y
+1364,pape,,교황,pope,n,R4,Y
+1365,comte,,백작,count,n,R4,N
+1366,fortune,,재산,fortune,n,R4,N
+1367,couvert,,식기,cutlery,n,R4,Y
+1368,ravir,,매혹하다,to delight,v,R4,N
+1369,pluie,,비,rain,n,R4,Y
+1370,bêtise,,어리석은 짓,nonsense,n,R4,N
+1371,bataille,,전투,battle,n,R4,Y
+1372,sexuel,,성적인,sexual,adj,R4,N
+1373,nommer,,임명하다,to name,v,R4,N
+1374,lundi,,월요일,Monday,n,R4,N
+1375,chasseur,,사냥꾼,hunter,n,R4,Y
+1376,info,,정보,information,n,R4,N
+1377,génie,,천재,genius,n,R4,N
+1378,enfer,,지옥,hell,n,R4,N
+1379,souris,,쥐,mouse,n,R4,Y
+1380,parier,,내기하다,to bet,v,R4,N
+1381,gêne,,불편,embarrassment,n,R4,N
+1382,labo,,실험실,laboratory,n,R4,Y
+1383,chemise,,셔츠,shirt,n,R4,Y
+1384,professionnel,,전문적인,professional,adj,R4,N
+1385,respiration,,호흡,breathing,n,R4,N
+1386,bip,,삐 소리,beep,n,R4,N
+1387,gaffe,,실수,blunder,n,R4,N
+1388,maudire,,저주하다,to curse,v,R4,N
+1389,réseau,,네트워크,network,n,R4,N
+1390,assassin,,살인자,murderer,n,R4,N
+1391,eau,,물,water,n,R4,Y
+1392,job,,일자리,job,n,R4,N
+1393,tente,,텐트,tent,n,R4,Y
+1394,étudier,,공부하다,to study,v,R4,Y
+1395,espoir,,희망,hope,n,R4,N
+1396,millier,,천 개쯤,thousand,n,R4,N
+1397,égal,,같은,equal,adj,R4,N
+1398,vierge,,처녀,virgin,n,R4,N
+1399,totalement,,완전히,totally,adv,R4,N
+1400,livrer,,배달하다,to deliver,v,R4,Y
+1401,lac,,호수,lake,n,R4,Y
+1402,cochon,,돼지,pig,n,R4,Y
+1403,intrigant,,음모를 꾸미는,scheming,adj,R4,N
+1404,désormais,,이제부터,from now on,adv,R4,N
+1405,prudent,,조심스러운,careful,adj,R4,N
+1406,résoudre,,해결하다,to solve,v,R4,N
+1407,station,,역,station,n,R4,Y
+1408,vendredi,,금요일,Friday,n,R4,N
+1409,créature,,생물,creature,n,R4,Y
+1410,article,,기사,article,n,R4,Y
+1411,claquer,,쾅 닫다,to slam,v,R4,Y
+1412,puissance,,힘,power,n,R4,N
+1413,étude,,연구,study,n,R4,N
+1414,propriétaire,,주인,owner,n,R4,N
+1415,rapidement,,빠르게,quickly,adv,R4,N
+1416,région,,지역,region,n,R4,N
+1417,lendemain,,다음 날,next day,n,R4,N
+1418,arabe,,아랍의,Arab,adj,R4,N
+1419,échange,,교환,exchange,n,R4,N
+1420,douche,,샤워,shower,n,R4,Y
+1421,palais,,궁전,palace,n,R4,Y
+1422,amant,,연인,lover,n,R4,N
+1423,fruit,,과일,fruit,n,R4,Y
+1424,cou,,목,neck,n,R4,Y
+1425,mode,,유행,fashion,n,R4,N
+1426,rond,,둥근,round,adj,R4,Y
+1427,impliquer,,연루시키다,to involve,v,R4,N
+1428,cité,,도시,city,n,R4,Y
+1429,parc,,공원,park,n,R4,Y
+1430,doué,,재능 있는,gifted,adj,R4,N
+1431,match,,경기,match,n,R4,Y
+1432,royaume,,왕국,kingdom,n,R4,N
+1433,frontière,,국경,border,n,R4,Y
+1434,scientifique,,과학자,scientist,n,R4,Y
+1435,zéro,,영,zero,num,R4,Y
+1436,célèbre,,유명한,famous,adj,R4,N
+1437,arrêt,,정류장,stop,n,R4,Y
+1438,théorie,,이론,theory,n,R4,N
+1439,cible,,과녁,target,n,R4,Y
+1440,sien,,그의 것,his,pron,R4,N
+1441,promesse,,약속,promise,n,R4,N
+1442,allumer,,켜다,to turn on,v,R4,Y
+1443,démarrer,,시동 걸다,to start,v,R4,N
+1444,moquer,,놀리다,to mock,v,R4,N
+1445,canon,,대포,cannon,n,R4,Y
+1446,traitement,,치료,treatment,n,R4,N
+1447,directement,,곧바로,directly,adv,R4,N
+1448,planquer,,숨기다,to hide,v,R4,N
+1449,soif,,갈증,thirst,n,R4,Y
+1450,fusil,,소총,rifle,n,R4,Y
+1451,bâtiment,,건물,building,n,R4,Y
+1452,assister,,참석하다,to attend,v,R4,N
+1453,sirène,,사이렌,siren,n,R4,Y
+1454,chauffeur,,운전기사,driver,n,R4,Y
+1455,correct,,올바른,correct,adj,R4,N
+1456,annoncer,,발표하다,to announce,v,R4,N
+1457,final,,마지막의,final,adj,R4,N
+1458,armer,,무장시키다,to arm,v,R4,N
+1459,science,,과학,science,n,R4,N
+1460,classique,,고전적인,classic,adj,R4,N
+1461,accuser,,고발하다,to accuse,v,R4,N
+1462,saison,,계절,season,n,R4,N
+1463,enculer,,비속어(욕),to screw,v,R4,N
+1464,époque,,시대,era,n,R4,N
+1465,qualité,,품질,quality,n,R4,N
+1466,figurer,,나타나다,to appear,v,R4,N
+1467,secrétaire,,비서,secretary,n,R4,Y
+1468,envers,,~에 대해,toward,prep,R4,N
+1469,distance,,거리,distance,n,R4,N
+1470,fesse,,엉덩이,buttock,n,R4,Y
+1471,révolution,,혁명,revolution,n,R4,N
+1472,flingue,,총,gun,n,R4,Y
+1473,excuse,,변명,excuse,n,R4,N
+1474,également,,또한,also,adv,R4,N
+1475,physique,,신체의,physical,adj,R4,N
+1476,front,,이마,forehead,n,R4,Y
+1477,repos,,휴식,rest,n,R4,N
+1478,agréable,,즐거운,pleasant,adj,R4,N
+1479,sorcière,,마녀,witch,n,R4,Y
+1480,étudiant,,대학생,student,n,R4,Y
+1481,parer,,막다,to parry,v,R4,N
+1482,romain,,로마의,Roman,adj,R4,N
+1483,convenir,,적합하다,to suit,v,R4,N
+1484,gorge,,목구멍,throat,n,R4,Y
+1485,prière,,기도,prayer,n,R4,Y
+1486,désert,,사막,desert,n,R4,Y
+1487,technologie,,기술,technology,n,R4,N
+1488,dessin,,그림,drawing,n,R4,Y
+1489,ménage,,집안일,housework,n,R4,Y
+1490,fidèle,,충실한,faithful,adj,R4,N
+1491,centaine,,백 개쯤,hundred,n,R4,N
+1492,violer,,어기다,to violate,v,R4,N
+1493,gêner,,방해하다,to bother,v,R4,N
+1494,foule,,군중,crowd,n,R4,Y
+1495,traître,,배신자,traitor,n,R4,N
+1496,croix,,십자가,cross,n,R4,Y
+1497,commander,,주문하다,to order,v,R4,N
+1498,auprès,,곁에,near,adv,R4,N
+1499,toit,,지붕,roof,n,R4,Y
+1500,soutien,,지지,support,n,R4,N
+1501,pause,,휴식,break,n,R4,N
+1502,permission,,허가,permission,n,R4,N
+1503,pilote,,조종사,pilot,n,R4,Y
+1504,total,,전체의,total,adj,R4,N
+1505,enterrer,,묻다,to bury,v,R4,Y
+1506,disque,,음반,record,n,R4,Y
+1507,principe,,원칙,principle,n,R4,N
+1508,fâcher,,화나게 하다,to anger,v,R4,N
+1509,apparaître,,나타나다,to appear,v,R4,N
+1510,site,,장소,site,n,R4,N
+1511,urgence,,응급,emergency,n,R4,N
+1512,barre,,막대,bar,n,R4,Y
+1513,lunette,,안경,glasses,n,R4,Y
+1514,particulier,,특별한,particular,adj,R4,N
+1515,communiste,,공산주의자,communist,n,R4,N
+1516,vingt,,스물,twenty,num,R4,N
+1517,bijou,,보석,jewel,n,R4,Y
+1518,poids,,무게,weight,n,R4,N
+1519,vague,,파도,wave,n,R4,Y
+1520,brave,,용감한,brave,adj,R4,N
+1521,goûter,,맛보다,to taste,v,R4,Y
+1522,manteau,,외투,coat,n,R4,Y
+1523,major,,소령,major,n,R4,N
+1524,chiffre,,숫자,digit,n,R4,Y
+1525,entrée,,입구,entrance,n,R4,Y
+1526,corde,,밧줄,rope,n,R4,Y
+1527,jeunesse,,젊음,youth,n,R4,N
+1528,hurler,,소리 지르다,to scream,v,R4,Y
+1529,autoriser,,허락하다,to allow,v,R4,N
+1530,chair,,살,flesh,n,R4,N
+1531,saluer,,인사하다,to greet,v,R4,Y
+1532,laver,,씻다,to wash,v,R4,Y
+1533,chaleur,,더위,heat,n,R4,Y
+1534,véritable,,진짜의,real,adj,R4,N
+1535,unité,,단위,unit,n,R4,N
+1536,cave,,지하실,cellar,n,R4,Y
+1537,hâter,,서두르다,to hurry,v,R4,N
+1538,fer,,철,iron,n,R4,N
+1539,ranger,,정리하다,to tidy,v,R4,Y
+1540,fuite,,도주,escape,n,R4,N
+1541,passion,,열정,passion,n,R4,N
+1542,laurier,,월계수,laurel,n,R4,Y
+1543,style,,스타일,style,n,R4,N
+1544,prénom,,이름,first name,n,R4,N
+1545,contenir,,담다,to contain,v,R4,N
+1546,attirer,,끌다,to attract,v,R4,N
+1547,puce,,벼룩,flea,n,R4,Y
+1548,souffrance,,고통,suffering,n,R4,N
+1549,soupe,,수프,soup,n,R4,Y
+1550,aveugle,,눈먼,blind,adj,R4,Y
+1551,document,,서류,document,n,R4,Y
+1552,prêter,,빌려주다,to lend,v,R4,N
+1553,horreur,,공포,horror,n,R4,N
+1554,exprès,,일부러,on purpose,adv,R4,N
+1555,délicieux,,맛있는,delicious,adj,R4,Y
+1556,patte,,발,paw,n,R4,Y
+1557,amusant,,재미있는,fun,adj,R4,N
+1558,navré,,미안한,sorry,adj,R4,N
+1559,chouette,,올빼미,owl,n,R4,Y
+1560,gâcher,,망치다,to waste,v,R4,N
+1561,dette,,빚,debt,n,R4,N
+1562,peindre,,칠하다,to paint,v,R4,Y
+1563,protection,,보호,protection,n,R4,N
+1564,faveur,,호의,favor,n,R4,N
+1565,repérer,,찾아내다,to spot,v,R4,N
+1566,veille,,전날,eve,n,R4,N
+1567,péter,,방귀 뀌다,to fart,v,R4,N
+1568,condamner,,선고하다,to condemn,v,R4,N
+1569,gloire,,영광,glory,n,R4,N
+1570,prêtre,,신부,priest,n,R4,Y
+1571,affreux,,끔찍한,awful,adj,R4,N
+1572,plante,,식물,plant,n,R4,Y
+1573,déplacer,,옮기다,to move,v,R4,Y
+1574,habiller,,옷을 입히다,to dress,v,R4,Y
+1575,bouton,,단추,button,n,R4,Y
+1576,technique,,기술,technique,n,R4,N
+1577,mystère,,신비,mystery,n,R4,N
+1578,applaudissement,,박수,applause,n,R4,Y
+1579,minuit,,자정,midnight,n,R4,Y
+1580,médical,,의료의,medical,adj,R4,N
+1581,tâche,,일,task,n,R4,N
+1582,pot,,항아리,pot,n,R4,Y
+1583,subir,,겪다,to undergo,v,R4,N
+1584,môme,,꼬마,kid,n,R4,Y
+1585,voyager,,여행하다,to travel,v,R4,Y
+1586,réaction,,반응,reaction,n,R4,N
+1587,évident,,명백한,obvious,adj,R4,N
+1588,geste,,몸짓,gesture,n,R4,Y
+1589,annuler,,취소하다,to cancel,v,R4,N
+1590,bisou,,뽀뽀,kiss,n,R4,Y
+1591,île,,섬,island,n,R4,Y
+1592,accès,,접근,access,n,R4,N
+1593,citoyen,,시민,citizen,n,R4,N
+1594,tribunal,,법원,court,n,R4,Y
+1595,rumeur,,소문,rumor,n,R4,N
+1596,quant,,~에 관해,as for,prep,R4,N
+1597,concert,,콘서트,concert,n,R4,Y
+1598,version,,판,version,n,R4,N
+1599,port,,항구,port,n,R4,Y
+1600,transformer,,바꾸다,to transform,v,R4,N
+1601,avenir,,미래,future,n,R4,N
+1602,divorce,,이혼,divorce,n,R4,N
+1603,troupe,,부대,troop,n,R4,Y
+1604,suisse,,스위스의,Swiss,adj,R4,N
+1605,veste,,재킷,jacket,n,R4,Y
+1606,larme,,눈물,tear,n,R4,Y
+1607,entreprise,,회사,company,n,R4,N
+1608,dégueulasse,,역겨운,disgusting,adj,R4,N
+1609,rivière,,강,river,n,R4,Y
+1610,terroriste,,테러리스트,terrorist,n,R4,N
+1611,adulte,,어른,adult,n,R4,Y
+1612,dessous,,아래,underneath,adv,R4,N
+1613,méthode,,방법,method,n,R4,N
+1614,accorder,,허락하다,to grant,v,R4,N
+1615,queue,,꼬리,tail,n,R4,Y
+1616,pêche,,낚시,fishing,n,R4,Y
+1617,modèle,,모델,model,n,R4,N
+1618,contacter,,연락하다,to contact,v,R4,N
+1619,débile,,멍청한,stupid,adj,R4,N
+1620,fournir,,제공하다,to provide,v,R4,N
+1621,logique,,논리,logic,n,R4,N
+1622,magie,,마법,magic,n,R4,Y
+1623,matériel,,장비,equipment,n,R4,N
+1624,bagnole,,차,car,n,R4,Y
+1625,roman,,소설,novel,n,R4,Y
+1626,taper,,타자 치다,to type,v,R4,Y
+1627,proposition,,제안,proposal,n,R4,N
+1628,prof,,선생님,teacher,n,R4,Y
+1629,précieux,,귀중한,precious,adj,R4,N
+1630,importance,,중요성,importance,n,R4,N
+1631,parfum,,향수,perfume,n,R4,Y
+1632,pendre,,매달다,to hang,v,R4,Y
+1633,planter,,심다,to plant,v,R4,Y
+1634,cancer,,암,cancer,n,R4,N
+1635,venger,,복수하다,to avenge,v,R4,N
+1636,sport,,운동,sport,n,R4,Y
+1637,extraordinaire,,놀라운,extraordinary,adj,R4,N
+1638,incapable,,할 수 없는,unable,adj,R4,N
+1639,champion,,챔피언,champion,n,R4,Y
+1640,véhicule,,차량,vehicle,n,R4,Y
+1641,esclave,,노예,slave,n,R4,N
+1642,précis,,정확한,precise,adj,R4,N
+1643,passeport,,여권,passport,n,R4,Y
+1644,ouvrier,,노동자,worker,n,R4,Y
+1645,virus,,바이러스,virus,n,R4,N
+1646,impressionner,,감동시키다,to impress,v,R4,N
+1647,top,,최고,top,n,R4,N
+1648,croiser,,마주치다,to cross,v,R4,N
+1649,péché,,죄,sin,n,R4,N
+1650,visiter,,방문하다,to visit,v,R4,N
+1651,débrouiller,,해내다,to manage,v,R4,N
+1652,sucre,,설탕,sugar,n,R4,Y
+1653,chaise,,의자,chair,n,R4,Y
+1654,république,,공화국,republic,n,R4,N
+1655,conséquence,,결과,consequence,n,R4,N
+1656,os,,뼈,bone,n,R4,Y
+1657,tension,,긴장,tension,n,R4,N
+1658,provoquer,,일으키다,to provoke,v,R4,N
+1659,bouclier,,방패,shield,n,R4,Y
+1660,urgent,,급한,urgent,adj,R4,N
+1661,période,,기간,period,n,R4,N
+1662,monseigneur,,각하,my lord,n,R4,N
+1663,guérir,,낫다,to heal,v,R4,N
+1664,élever,,기르다,to raise,v,R4,N
+1665,clinique,,병원,clinic,n,R4,Y
+1666,examen,,시험,exam,n,R4,Y
+1667,foyer,,가정,home,n,R4,N
+1668,discussion,,토론,discussion,n,R4,N
+1669,lutte,,싸움,struggle,n,R4,N
+1670,résister,,저항하다,to resist,v,R4,N
+1671,otage,,인질,hostage,n,R4,N
+1672,demi,,반,half,adj,R4,N
+1673,bouffe,,음식,food,n,R4,Y
+1674,informer,,알리다,to inform,v,R4,N
+1675,copie,,복사본,copy,n,R4,N
+1676,ciao,,안녕,bye,intj,R4,N
+1677,sexy,,섹시한,sexy,adj,R4,N
+1678,critique,,비평,criticism,n,R4,N
+1679,couverture,,담요,blanket,n,R4,Y
+1680,événement,,사건,event,n,R4,N
+1681,attacher,,묶다,to tie,v,R4,Y
+1682,fan,,팬,fan,n,R4,N
+1683,lèvre,,입술,lip,n,R4,Y
+1684,ordonner,,명령하다,to order,v,R4,N
+1685,noble,,고귀한,noble,adj,R4,N
+1686,patience,,인내,patience,n,R4,N
+1687,tempête,,폭풍,storm,n,R4,Y
+1688,vider,,비우다,to empty,v,R4,N
+1689,télévision,,텔레비전,television,n,R4,Y
+1690,soutenir,,지지하다,to support,v,R4,N
+1691,procureur,,검사,prosecutor,n,R4,N
+1692,pratique,,실용적인,practical,adj,R4,N
+1693,communication,,소통,communication,n,R4,N
+1694,indien,,인디언,Indian,adj,R4,N
+1695,hélas,,아아,alas,intj,R4,N
+1696,procédure,,절차,procedure,n,R4,N
+1697,balancer,,흔들다,to swing,v,R4,Y
+1698,normalement,,보통,normally,adv,R4,N
+1699,associer,,연결하다,to associate,v,R4,N
+1700,fonction,,기능,function,n,R4,N
+1701,échouer,,실패하다,to fail,v,R4,N
+1702,meurtrier,,살인자,murderer,n,R4,N
+1703,bagage,,짐,luggage,n,R4,Y
+1704,pointe,,끝,tip,n,R4,N
+1705,crétin,,바보,idiot,n,R4,N
+1706,facilement,,쉽게,easily,adv,R4,N
+1707,explication,,설명,explanation,n,R4,N
+1708,sacrifice,,희생,sacrifice,n,R4,N
+1709,gémir,,신음하다,to moan,v,R4,N
+1710,possibilité,,가능성,possibility,n,R4,N
+1711,whisky,,위스키,whisky,n,R4,Y
+1712,autorité,,권위,authority,n,R4,N
+1713,sacrifier,,희생하다,to sacrifice,v,R4,N
+1714,ordure,,쓰레기,garbage,n,R4,Y
+1715,mardi,,화요일,Tuesday,n,R4,N
+1716,œil,,눈,eye,n,R4,Y
+1717,suicider,,자살하다,to kill oneself,v,R4,N
+1718,singe,,원숭이,monkey,n,R4,Y
+1719,occasion,,기회,opportunity,n,R4,N
+1720,destiner,,예정하다,to destine,v,R4,N
+1721,jeudi,,목요일,Thursday,n,R4,N
+1722,identifier,,확인하다,to identify,v,R4,N
+1723,millimètre,,밀리미터,millimeter,n,R4,N
+1724,officiel,,공식적인,official,adj,R4,N
+1725,peinture,,그림,painting,n,R4,Y
+1726,insister,,고집하다,to insist,v,R4,N
+1727,raisonnable,,합리적인,reasonable,adj,R4,N
+1728,bloquer,,막다,to block,v,R4,N
+1729,baron,,남작,baron,n,R4,N
+1730,surveillance,,감시,surveillance,n,R4,N
+1731,garage,,차고,garage,n,R4,Y
+1732,fromage,,치즈,cheese,n,R4,Y
+1733,punir,,벌주다,to punish,v,R4,N
+1734,joueur,,선수,player,n,R4,Y
+1735,salaire,,월급,salary,n,R4,N
+1736,mince,,날씬한,thin,adj,R4,Y
+1737,rechercher,,찾다,to search,v,R4,N
+1738,partenaire,,파트너,partner,n,R4,N
+1739,siège,,좌석,seat,n,R4,Y
+1740,fantastique,,환상적인,fantastic,adj,R4,N
+1741,prétendre,,주장하다,to claim,v,R4,N
+1742,magique,,마법의,magic,adj,R4,N
+1743,chute,,추락,fall,n,R4,Y
+1744,déclaration,,선언,declaration,n,R4,N
+1745,passager,,승객,passenger,n,R4,Y
+1746,effacer,,지우다,to erase,v,R4,Y
+1747,original,,독창적인,original,adj,R4,N
+1748,naturellement,,자연스럽게,naturally,adv,R4,N
+1749,digne,,자격 있는,worthy,adj,R4,N
+1750,amen,,아멘,amen,intj,R4,N
+1751,noyer,,익사시키다,to drown,v,R4,N
+1752,concours,,대회,contest,n,R4,N
+1753,bonhomme,,녀석,fellow,n,R4,N
+1754,élément,,요소,element,n,R4,N
+1755,royal,,왕의,royal,adj,R4,N
+1756,coucou,,안녕,hi,intj,R4,N
+1757,fêter,,축하하다,to celebrate,v,R4,Y
+1758,panique,,공황,panic,n,R4,N
+1759,moche,,못생긴,ugly,adj,R4,N
+1760,masque,,가면,mask,n,R4,Y
+1761,bague,,반지,ring,n,R4,Y
+1762,plonger,,다이빙하다,to dive,v,R4,Y
+1763,participer,,참여하다,to take part,v,R4,N
+1764,scandale,,스캔들,scandal,n,R4,N
+1765,mystérieux,,신비한,mysterious,adj,R4,N
+1766,botte,,장화,boot,n,R4,Y
+1767,saisir,,붙잡다,to seize,v,R4,N
+1768,révéler,,드러내다,to reveal,v,R4,N
+1769,domaine,,분야,domain,n,R4,N
+1770,klaxon,,경적,horn,n,R4,Y
+1771,solide,,튼튼한,solid,adj,R4,N
+1772,dénoncer,,고발하다,to denounce,v,R4,N
+1773,complice,,공범,accomplice,n,R4,N
+1774,délicat,,섬세한,delicate,adj,R4,N
+1775,moto,,오토바이,motorcycle,n,R4,Y
+1776,annonce,,발표,announcement,n,R4,N
+1777,dépasser,,넘다,to overtake,v,R4,Y
+1778,vote,,투표,vote,n,R4,Y
+1779,ordinateur,,컴퓨터,computer,n,R4,Y
+1780,mordre,,물다,to bite,v,R4,Y
+1781,chaîne,,사슬,chain,n,R4,Y
+1782,bite,,음경(비속어),penis,n,R4,N
+1783,admettre,,인정하다,to admit,v,R4,N
+1784,nation,,국가,nation,n,R4,N
+1785,piscine,,수영장,swimming pool,n,R4,Y
+1786,raccompagner,,바래다주다,to walk home,v,R4,N
+1787,surface,,표면,surface,n,R4,N
+1788,pantalon,,바지,trousers,n,R4,Y
+1789,soudain,,갑자기,suddenly,adv,R4,N
+1790,coller,,붙이다,to stick,v,R4,Y
+1791,composer,,구성하다,to compose,v,R4,N
+1792,commission,,위원회,commission,n,R4,N
+1793,crâne,,두개골,skull,n,R4,Y
+1794,mai,,5월,May,n,R4,N
+1795,maximum,,최대,maximum,n,R4,N
+1796,circonstance,,상황,circumstance,n,R4,N
+1797,plaindre,,불쌍히 여기다,to pity,v,R4,N
+1798,serveur,,종업원,waiter,n,R4,Y
+1799,saloperie,,쓰레기 같은 것,crap,n,R4,N
+1800,conclure,,결론짓다,to conclude,v,R4,N
+1801,cruel,,잔인한,cruel,adj,R4,N
+1802,bouffer,,먹다(속어),to eat,v,R4,Y
+1803,renoncer,,포기하다,to give up,v,R4,N
+1804,courrier,,우편물,mail,n,R4,Y
+1805,boucle,,고리,loop,n,R4,Y
+1806,milliard,,10억,billion,num,R4,N
+1807,enchanter,,매혹하다,to delight,v,R4,N
+1808,symbole,,상징,symbol,n,R4,N
+1809,mamie,,할머니,grandma,n,R4,Y
+1810,idéal,,이상적인,ideal,adj,R4,N
+1811,aventure,,모험,adventure,n,R4,N
+1812,jaune,,노란,yellow,adj,R4,Y
+1813,secteur,,부문,sector,n,R4,N
+1814,filmer,,촬영하다,to film,v,R4,Y
+1815,crédit,,신용,credit,n,R4,N
+1816,excellence,,탁월함,excellence,n,R4,N
+1817,support,,지지대,support,n,R4,N
+1818,local,,지역의,local,adj,R4,N
+1819,génération,,세대,generation,n,R4,N
+1820,interroger,,심문하다,to question,v,R4,N
+1821,cardinal,,추기경,cardinal,n,R4,Y
+1822,régner,,군림하다,to reign,v,R4,N
+1823,douter,,의심하다,to doubt,v,R4,N
+1824,transmettre,,전달하다,to transmit,v,R4,N
+1825,goutte,,방울,drop,n,R4,Y
+1826,haine,,증오,hatred,n,R4,N
+1827,trouble,,혼란,trouble,n,R4,N
+1828,électrique,,전기의,electric,adj,R4,N
+1829,pension,,연금,pension,n,R4,N
+1830,communauté,,공동체,community,n,R4,N
+1831,shérif,,보안관,sheriff,n,R4,Y
+1832,boutique,,가게,shop,n,R4,Y
+1833,blond,,금발의,blond,adj,R4,Y
+1834,mandat,,임기,mandate,n,R4,N
+1835,sain,,건강한,healthy,adj,R4,N
+1836,renfort,,지원군,reinforcement,n,R4,N
+1837,dramatique,,극적인,dramatic,adj,R4,N
+1838,printemps,,봄,spring,n,R4,Y
+1839,uniquement,,오로지,only,adv,R4,N
+1840,voter,,투표하다,to vote,v,R4,Y
+1841,quart,,4분의 1,quarter,n,R4,N
+1842,former,,형성하다,to form,v,R4,N
+1843,signature,,서명,signature,n,R4,Y
+1844,veiller,,지켜보다,to watch over,v,R4,N
+1845,établir,,세우다,to establish,v,R4,N
+1846,mortel,,치명적인,deadly,adj,R4,N
+1847,duc,,공작,duke,n,R4,Y
+1848,pistolet,,권총,pistol,n,R4,Y
+1849,rattraper,,따라잡다,to catch up,v,R4,Y
+1850,danseur,,무용수,dancer,n,R4,Y
+1851,récemment,,최근에,recently,adv,R4,N
+1852,fatigue,,피로,tiredness,n,R4,Y
+1853,boucher,,정육점 주인,butcher,n,R4,Y
+1854,bal,,무도회,ball,n,R4,Y
+1855,cabinet,,사무실,office,n,R4,N
+1856,taule,,감옥(속어),jail,n,R4,Y
+1857,observer,,관찰하다,to observe,v,R4,Y
+1858,brillant,,빛나는,brilliant,adj,R4,N
+1859,sable,,모래,sand,n,R4,Y
+1860,vampire,,흡혈귀,vampire,n,R4,Y
+1861,comportement,,행동,behaviour,n,R4,N
+1862,réputation,,평판,reputation,n,R4,N
+1863,davantage,,더,more,adv,R4,N
+1864,séance,,회의,session,n,R4,N
+1865,porc,,돼지,pig,n,R4,Y
+1866,généreux,,너그러운,generous,adj,R4,N
+1867,promener,,산책시키다,to walk,v,R4,Y
+1868,fragile,,깨지기 쉬운,fragile,adj,R4,N
+1869,lentement,,천천히,slowly,adv,R4,N
+1870,correspondre,,일치하다,to correspond,v,R4,N
+1871,puer,,악취가 나다,to stink,v,R4,Y
+1872,balance,,저울,scale,n,R4,Y
+1873,satisfaire,,만족시키다,to satisfy,v,R4,N
+1874,ex,,전 애인,ex,n,R4,N
+1875,crème,,크림,cream,n,R4,Y
+1876,courageux,,용감한,brave,adj,R4,N
+1877,internet,,인터넷,internet,n,R4,N
+1878,enregistrer,,녹음하다,to record,v,R4,N
+1879,épuiser,,지치게 하다,to exhaust,v,R4,N
+1880,absurde,,터무니없는,absurd,adj,R4,N
+1881,taré,,미친,crazy,adj,R4,N
+1882,religion,,종교,religion,n,R4,N
+1883,emploi,,일자리,job,n,R4,N
+1884,carrément,,아예,downright,adv,R4,N
+1885,musée,,박물관,museum,n,R4,Y
+1886,cependant,,그러나,however,adv,R4,N
+1887,demi-heure,,30분,half hour,n,R4,N
+1888,dessiner,,그리다,to draw,v,R4,Y
+1889,cirque,,서커스,circus,n,R4,Y
+1890,rock,,록 음악,rock music,n,R4,N
+1891,liquide,,액체,liquid,n,R4,Y
+1892,ballon,,공,ball,n,R4,Y
+1893,rassembler,,모으다,to gather,v,R4,N
+1894,disparition,,실종,disappearance,n,R4,N
+1895,capacité,,능력,ability,n,R4,N
+1896,romantique,,낭만적인,romantic,adj,R4,N
+1897,lion,,사자,lion,n,R4,Y
+1898,cardiaque,,심장의,cardiac,adj,R4,N
+1899,international,,국제적인,international,adj,R4,N
+1900,capital,,자본,capital,n,R4,N
+1901,portrait,,초상화,portrait,n,R4,Y
+1902,cinglé,,미친,crazy,adj,R4,N
+1903,cercle,,원,circle,n,R4,Y
+1904,effrayer,,겁주다,to frighten,v,R4,N
+1905,chevalier,,기사,knight,n,R4,Y
+1906,énerver,,짜증나게 하다,to annoy,v,R4,N
+1907,marquis,,후작,marquis,n,R4,N
+1908,écraser,,짓누르다,to crush,v,R4,Y
+1909,nuage,,구름,cloud,n,R4,Y
+1910,jus,,주스,juice,n,R4,Y
+1911,odeur,,냄새,smell,n,R4,N
+1912,curé,,신부,priest,n,R4,Y
+1913,crime,,범죄,crime,n,R4,N
+1914,vengeance,,복수,revenge,n,R4,N
+1915,glisser,,미끄러지다,to slip,v,R4,Y
+1916,ramasser,,줍다,to pick up,v,R4,Y
+1917,panne,,고장,breakdown,n,R4,N
+1918,accueillir,,맞이하다,to welcome,v,R4,N
+1919,candidat,,후보자,candidate,n,R4,N
+1920,cage,,우리,cage,n,R4,Y
+1921,résistance,,저항,resistance,n,R4,N
+1922,guerrier,,전사,warrior,n,R4,Y
+1923,transport,,교통,transport,n,R4,N
+1924,ours,,곰,bear,n,R4,Y
+1925,poule,,암탉,hen,n,R4,Y
+1926,négocier,,협상하다,to negotiate,v,R4,N
+1927,hauteur,,높이,height,n,R4,N
+1928,misère,,비참함,misery,n,R4,N
+1929,grec,,그리스의,Greek,adj,R4,N
+1930,élève,,학생,pupil,n,R4,Y
+1931,mouche,,파리,fly,n,R4,Y
+1932,paysan,,농부,peasant,n,R4,Y
+1933,poupée,,인형,doll,n,R4,Y
+1934,émotion,,감정,emotion,n,R4,N
+1935,empreinte,,자국,print,n,R4,Y
+1936,gang,,갱단,gang,n,R4,N
+1937,culture,,문화,culture,n,R4,N
+1938,activité,,활동,activity,n,R4,N
+1939,repasser,,다림질하다,to iron,v,R4,Y
+1940,quiconque,,누구든지,anyone,pron,R4,N
+1941,cérémonie,,의식,ceremony,n,R4,N
+1942,mercredi,,수요일,Wednesday,n,R4,N
+1943,progrès,,진보,progress,n,R4,N
+1944,explosion,,폭발,explosion,n,R4,Y
+1945,épée,,칼,sword,n,R4,Y
+1946,éloigner,,멀리하다,to move away,v,R4,N
+1947,fumée,,연기,smoke,n,R4,Y
+1948,trafic,,밀매,trafficking,n,R4,N
+1949,église,,교회,church,n,R4,Y
+1950,commerce,,상업,trade,n,R4,N
+1951,amitié,,우정,friendship,n,R4,N
+1952,marchand,,상인,merchant,n,R4,Y
+1953,négatif,,부정적인,negative,adj,R4,N
+1954,sincère,,진실한,sincere,adj,R4,N
+1955,céder,,양보하다,to give in,v,R4,N
+1956,suspense,,긴장감,suspense,n,R4,N
+1957,transparent,,투명한,transparent,adj,R4,N
+1958,gay,,게이,gay,adj,R4,N
+1959,sonnette,,초인종,doorbell,n,R4,Y
+1960,chrétien,,기독교인,Christian,n,R4,N
+1961,brun,,갈색의,brown,adj,R4,Y
+1962,religieux,,종교적인,religious,adj,R4,N
+1963,monnaie,,잔돈,change,n,R4,Y
+1964,japonais,,일본의,Japanese,adj,R4,N
+1965,catastrophe,,재앙,disaster,n,R4,N
+1966,quinze,,열다섯,fifteen,num,R4,Y
+1967,tradition,,전통,tradition,n,R4,N
+1968,volontaire,,자원봉사자,volunteer,n,R4,N
+1969,apprécier,,좋아하다,to appreciate,v,R4,N
+1970,condamné,,사형수,convict,n,R4,N
+1971,barbe,,수염,beard,n,R4,Y
+1972,éliminer,,제거하다,to eliminate,v,R4,N
+1973,piéger,,함정에 빠뜨리다,to trap,v,R4,N
+1974,creuser,,파다,to dig,v,R4,Y
+1975,cimetière,,묘지,cemetery,n,R4,Y
+1976,liaison,,관계,affair,n,R4,N
+1977,ceinture,,허리띠,belt,n,R4,Y
+1978,comédie,,코미디,comedy,n,R4,N
+1979,fauteuil,,안락의자,armchair,n,R4,Y
+1980,psy,,정신과 의사,shrink,n,R4,N
+1981,appareil,,기기,device,n,R4,N
+1982,maintenir,,유지하다,to maintain,v,R4,N
+1983,traduction,,번역,translation,n,R4,N
+1984,neveu,,조카,nephew,n,R4,N
+1985,transporter,,운반하다,to carry,v,R4,Y
+1986,blessé,,부상자,injured,n,R4,Y
+1987,médecine,,의학,medicine,n,R4,N
+1988,personnellement,,개인적으로,personally,adv,R4,N
+1989,hyper,,엄청,very,adv,R4,N
+1990,fièvre,,열,fever,n,R4,Y
+1991,furieux,,격노한,furious,adj,R4,Y
+1992,boss,,보스,boss,n,R4,N
+1993,jouet,,장난감,toy,n,R4,Y
+1994,renverser,,엎지르다,to knock over,v,R4,Y
+1995,nager,,수영하다,to swim,v,R4,Y
+1996,tarder,,늦어지다,to delay,v,R4,N
+1997,déconner,,헛소리하다,to mess around,v,R4,N
+1998,charme,,매력,charm,n,R4,N
+1999,mineur,,미성년자,minor,n,R4,N
+2000,comparer,,비교하다,to compare,v,R4,N
+2001,veuve,,과부,widow,n,R4,N
+2002,branche,,나뭇가지,branch,n,R4,Y
+2003,chou,,양배추,cabbage,n,R4,Y
+2004,clairement,,분명히,clearly,adv,R4,N
+2005,poison,,독,poison,n,R4,N
+2006,étonnant,,놀라운,amazing,adj,R4,N
+2007,bourré,,취한,drunk,adj,R4,Y
+2008,commissariat,,경찰서,police station,n,R4,Y
+2009,éteindre,,끄다,to switch off,v,R4,Y
+2010,fac,,대학,university,n,R4,N
+2011,déménager,,이사하다,to move house,v,R4,Y
+2012,enfance,,어린 시절,childhood,n,R4,N
+2013,rejeter,,거절하다,to reject,v,R4,N
+2014,produire,,생산하다,to produce,v,R4,N
+2015,lesbienne,,레즈비언,lesbian,n,R4,N
+2016,cassette,,카세트,cassette,n,R4,Y
+2017,voyou,,불량배,thug,n,R4,N
+2018,immense,,거대한,huge,adj,R4,Y
+2019,texte,,글,text,n,R4,N
+2020,cuir,,가죽,leather,n,R4,Y
+2021,examiner,,검사하다,to examine,v,R4,N
+2022,chagrin,,슬픔,sorrow,n,R4,N
+2023,grève,,파업,strike,n,R4,N
+2024,extrêmement,,극도로,extremely,adv,R4,N
+2025,conférence,,회의,conference,n,R4,N
+2026,messe,,미사,mass,n,R4,N
+2027,douze,,열둘,twelve,num,R4,Y
+2028,parking,,주차장,car park,n,R4,Y
+2029,entraîner,,훈련하다,to train,v,R4,N
+2030,mars,,3월,March,n,R4,N
+2031,étape,,단계,step,n,R4,N
+2032,expert,,전문가,expert,n,R4,N
+2033,tousser,,기침하다,to cough,v,R4,Y
+2034,guide,,안내인,guide,n,R4,Y
+2035,miroir,,거울,mirror,n,R4,Y
+2036,découverte,,발견,discovery,n,R4,N
+2037,propriété,,소유지,property,n,R4,N
+2038,poitrine,,가슴,chest,n,R4,Y
+2039,moderne,,현대적인,modern,adj,R4,N
+2040,navire,,배,ship,n,R4,Y
+2041,sensible,,민감한,sensitive,adj,R4,N
+2042,témoignage,,증언,testimony,n,R4,N
+2043,foncer,,돌진하다,to rush,v,R4,N
+2044,coïncidence,,우연,coincidence,n,R4,N
+2045,échec,,실패,failure,n,R4,N
+2046,flotte,,함대,fleet,n,R4,Y
+2047,mélancolique,,우울한,melancholy,adj,R4,N
+2048,jugement,,판결,judgement,n,R4,N
+2049,section,,부분,section,n,R4,N
+2050,au-delà,,너머,beyond,adv,R4,N
+2051,madeleine,,마들렌,madeleine,n,R4,Y
+2052,familial,,가족의,family,adj,R4,N
+2053,exiger,,요구하다,to demand,v,R4,N
+2054,émission,,방송,broadcast,n,R4,N
+2055,habituer,,익숙하게 하다,to accustom,v,R4,N
+2056,uniforme,,제복,uniform,n,R4,Y
+2057,chèque,,수표,cheque,n,R4,Y
+2058,discret,,신중한,discreet,adj,R4,N
+2059,phrase,,문장,sentence,n,R4,N
+2060,autrefois,,예전에,formerly,adv,R4,N
+2061,témoigner,,증언하다,to testify,v,R4,N
+2062,opérer,,수술하다,to operate,v,R4,N
+2063,accomplir,,완수하다,to accomplish,v,R4,N
+2064,altesse,,전하,highness,n,R4,N
+2065,pleurs,,울음,tears,n,R4,Y
+2066,tarte,,파이,pie,n,R4,Y
+2067,métro,,지하철,subway,n,R4,Y
+2068,septembre,,9월,September,n,R4,N
+2069,population,,인구,population,n,R4,N
+2070,complexe,,복잡한,complex,adj,R4,N
+2071,ralentir,,속도를 줄이다,to slow down,v,R4,N
+2072,célibataire,,미혼의,single,adj,R4,N
+2073,volant,,운전대,steering wheel,n,R4,Y
+2074,thème,,주제,theme,n,R4,N
+2075,pile,,건전지,battery,n,R4,Y
+2076,analyse,,분석,analysis,n,R4,N
+2077,opinion,,의견,opinion,n,R4,N
+2078,embarquer,,탑승하다,to board,v,R4,Y
+2079,adorable,,사랑스러운,adorable,adj,R4,N
+2080,colline,,언덕,hill,n,R4,Y
+2081,pédé,,게이(비하어),queer,n,R4,N
+2082,plateau,,쟁반,tray,n,R4,Y
+2083,renseigner,,알려주다,to inform,v,R4,N
+2084,caractère,,성격,character,n,R4,N
+2085,ministère,,부처,ministry,n,R4,N
+2086,catholique,,가톨릭의,Catholic,adj,R4,N
+2087,espagnol,,스페인의,Spanish,adj,R4,N
+2088,hôpital,,병원,hospital,n,R4,Y
+2089,demi-tour,,유턴,U-turn,n,R4,Y
+2090,intention,,의도,intention,n,R4,N
+2091,déçu,,실망한,disappointed,adj,R4,Y
+2092,masse,,덩어리,mass,n,R4,N
+2093,business,,사업,business,n,R4,N
+2094,fonds,,자금,funds,n,R4,N
+2095,réveil,,알람 시계,alarm clock,n,R4,Y
+2096,entièrement,,완전히,entirely,adv,R4,N
+2097,sénateur,,상원의원,senator,n,R4,N
+2098,tapis,,양탄자,carpet,n,R4,Y
+2099,sourd,,귀먹은,deaf,adj,R4,N
+2100,traduire,,번역하다,to translate,v,R4,N
+2101,conduite,,행실,conduct,n,R4,N
+2102,rembourser,,갚다,to repay,v,R4,N
+2103,défoncer,,부수다,to smash,v,R4,Y
+2104,marin,,선원,sailor,n,R4,Y
+2105,large,,넓은,wide,adj,R4,Y
+2106,massacre,,학살,massacre,n,R4,N
+2107,aimable,,친절한,kind,adj,R4,N
+2108,avril,,4월,April,n,R4,N
+2109,bloc,,블록,block,n,R4,Y
+2110,studio,,스튜디오,studio,n,R4,Y
+2111,torturer,,고문하다,to torture,v,R4,N
+2112,voyant,,점쟁이,psychic,n,R4,N
+2113,réellement,,정말로,really,adv,R4,N
+2114,serpent,,뱀,snake,n,R4,Y
+2115,placard,,벽장,cupboard,n,R4,Y
+2116,sandwich,,샌드위치,sandwich,n,R4,Y
+2117,légende,,전설,legend,n,R4,N
+2118,dose,,복용량,dose,n,R4,N
+2119,compliment,,칭찬,compliment,n,R4,N
+2120,avantage,,이점,advantage,n,R4,N
+2121,sel,,소금,salt,n,R4,Y
+2122,torture,,고문,torture,n,R4,N
+2123,tester,,시험하다,to test,v,R4,N
+2124,détective,,탐정,detective,n,R4,Y
+2125,capturer,,붙잡다,to capture,v,R4,Y
+2126,indiquer,,가리키다,to indicate,v,R4,Y
+2127,ajouter,,더하다,to add,v,R4,N
+2128,collection,,수집품,collection,n,R4,N
+2129,buter,,죽이다(속어),to kill,v,R4,N
+2130,habitude,,습관,habit,n,R4,N
+2131,dispute,,말다툼,argument,n,R4,Y
+2132,matière,,재료,material,n,R4,N
+2133,facture,,청구서,bill,n,R4,Y
+2134,viser,,겨누다,to aim,v,R4,Y
+2135,central,,중앙의,central,adj,R4,N
+2136,pognon,,돈(속어),money,n,R4,Y
+2137,appétit,,식욕,appetite,n,R4,N
+2138,fiston,,아들,son,n,R4,Y
+2139,débarquer,,내리다,to land,v,R4,N
+2140,adaptation,,각색,adaptation,n,R4,N
+2141,trente,,서른,thirty,num,R4,Y
+2142,inquiétant,,걱정스러운,worrying,adj,R4,N
+2143,profondément,,깊이,deeply,adv,R4,N
+2144,territoire,,영토,territory,n,R4,N
+2145,absence,,부재,absence,n,R4,N
+2146,juillet,,7월,July,n,R4,N
+2147,réduire,,줄이다,to reduce,v,R4,N
+2148,pizza,,피자,pizza,n,R4,Y
+2149,kilo,,킬로그램,kilogram,n,R4,N
+2150,langage,,언어,language,n,R4,N
+2151,chantier,,공사장,building site,n,R4,Y
+2152,tonnerre,,천둥,thunder,n,R4,Y
+2153,objectif,,목표,goal,n,R4,N
+2154,tandis,,~하는 반면,while,conj,R4,N
+2155,sanglot,,흐느낌,sob,n,R4,Y
+2156,volontiers,,기꺼이,gladly,adv,R4,N
+2157,mairie,,시청,town hall,n,R4,Y
+2158,mondial,,세계적인,worldwide,adj,R4,N
+2159,chic,,멋진,chic,adj,R4,N
+2160,revolver,,리볼버,revolver,n,R4,Y
+2161,concevoir,,고안하다,to design,v,R4,N
+2162,géant,,거인,giant,n,R4,Y
+2163,dégoûter,,역겹게 하다,to disgust,v,R4,N
+2164,alerte,,경보,alert,n,R4,N
+2165,ruiner,,망치다,to ruin,v,R4,N
+2166,racheter,,다시 사다,to buy back,v,R4,N
+2167,juin,,6월,June,n,R4,N
+2168,poussière,,먼지,dust,n,R4,Y
+2169,rage,,분노,rage,n,R4,N
+2170,formation,,교육,training,n,R4,N
+2171,congé,,휴가,leave,n,R4,N
+2172,comtesse,,백작부인,countess,n,R4,Y
+2173,option,,선택지,option,n,R4,N
+2174,poudre,,가루,powder,n,R4,Y
+2175,chanceux,,운 좋은,lucky,adj,R4,N
+2176,employer,,사용하다,to use,v,R4,N
+2177,renseignement,,정보,information,n,R4,N
+2178,foie,,간,liver,n,R4,Y
+2179,commandement,,지휘,command,n,R4,N
+2180,veine,,정맥,vein,n,R4,Y
+2181,sainteté,,신성함,holiness,n,R4,N
+2182,fameux,,유명한,famous,adj,R4,N
+2183,préciser,,명확히 하다,to specify,v,R4,N
+2184,laid,,못생긴,ugly,adj,R4,Y
+2185,trahison,,배신,betrayal,n,R4,N
+2186,justifier,,정당화하다,to justify,v,R4,N
+2187,trône,,왕좌,throne,n,R4,Y
+2188,atterrir,,착륙하다,to land,v,R4,Y
+2189,batterie,,배터리,battery,n,R4,Y
+2190,cabine,,객실,cabin,n,R4,Y
+2191,vachement,,엄청,really,adv,R4,N
+2192,développer,,발전시키다,to develop,v,R4,N
+2193,positif,,긍정적인,positive,adj,R4,N
+2194,bol,,그릇,bowl,n,R4,Y
+2195,producteur,,제작자,producer,n,R4,N
+2196,bâton,,막대기,stick,n,R4,Y
+2197,habitant,,주민,inhabitant,n,R4,N
+2198,ambulance,,구급차,ambulance,n,R4,Y
+2199,regret,,후회,regret,n,R4,N
+2200,allier,,연합하다,to ally,v,R4,N
+2201,production,,생산,production,n,R4,N
+2202,lecture,,독서,reading,n,R4,Y
+2203,soulever,,들어 올리다,to lift,v,R4,Y
+2204,transférer,,옮기다,to transfer,v,R4,N
+2205,éclater,,터지다,to burst,v,R4,Y
+2206,appuyer,,누르다,to press,v,R4,Y
+2207,chiant,,짜증나는,annoying,adj,R4,N
+2208,drame,,드라마,drama,n,R4,N
+2209,décès,,사망,death,n,R4,N
+2210,peser,,무게를 달다,to weigh,v,R4,Y
+2211,mobile,,휴대폰,mobile phone,n,R4,Y
+2212,cabane,,오두막,hut,n,R4,Y
+2213,divorcer,,이혼하다,to divorce,v,R4,N
+2214,ordinaire,,평범한,ordinary,adj,R4,N
+2215,profil,,옆모습,profile,n,R4,N
+2216,pneu,,타이어,tire,n,R4,Y
+2217,scénario,,시나리오,script,n,R4,N
+2218,foot,,축구,football,n,R4,Y
+2219,marine,,해군,navy,n,R4,Y
+2220,pro,,프로,professional,n,R4,N
+2221,luxe,,사치,luxury,n,R4,N
+2222,musicien,,음악가,musician,n,R4,Y
+2223,escalier,,계단,stairs,n,R4,Y
+2224,patrie,,조국,homeland,n,R4,N
+2225,comité,,위원회,committee,n,R4,N
+2226,sorte,,종류,kind,n,R4,N
+2227,disposition,,처분,disposal,n,R4,N
+2228,récompense,,보상,reward,n,R4,N
+2229,compagnon,,동반자,companion,n,R4,N
+2230,tentative,,시도,attempt,n,R4,N
+2231,tasse,,잔,cup,n,R4,Y
+2232,régime,,다이어트,diet,n,R4,N
+2233,chatte,,암고양이,female cat,n,R4,Y
+2234,casino,,카지노,casino,n,R4,Y
+2235,honnêtement,,솔직히,honestly,adv,R4,N
+2236,légal,,합법적인,legal,adj,R4,N
+2237,piger,,이해하다,to get,v,R4,N
+2238,essai,,시도,try,n,R4,N
+2239,domestique,,하인,servant,n,R4,Y
+2240,espion,,스파이,spy,n,R4,Y
+2241,nerf,,신경,nerve,n,R4,N
+2242,infirmier,,간호사,nurse,n,R4,Y
+2243,précédemment,,이전에,previously,adv,R4,N
+2244,reproche,,비난,reproach,n,R4,N
+2245,temple,,신전,temple,n,R4,Y
+2246,interne,,내부의,internal,adj,R4,N
+2247,soulager,,덜어주다,to relieve,v,R4,N
+2248,tonne,,톤,ton,n,R4,N
+2249,illégal,,불법의,illegal,adj,R4,N
+2250,abruti,,바보,idiot,n,R4,N
+2251,effectivement,,실제로,indeed,adv,R4,N
+2252,rebelle,,반역자,rebel,n,R4,N
+2253,parvenir,,도달하다,to reach,v,R4,N
+2254,financier,,재정의,financial,adj,R4,N
+2255,efficace,,효과적인,effective,adj,R4,N
+2256,timide,,수줍은,shy,adj,R4,Y
+2257,loyer,,집세,rent,n,R4,N
+2258,compromettre,,위태롭게 하다,to compromise,v,R4,N
+2259,pub,,광고,advertisement,n,R4,N
+2260,empoisonner,,독살하다,to poison,v,R4,N
+2261,faiblesse,,약점,weakness,n,R4,N
+2262,beurre,,버터,butter,n,R4,Y
+2263,meuf,,여자,woman,n,R4,Y
+2264,coma,,혼수상태,coma,n,R4,N
+2265,plaquer,,차버리다,to dump,v,R4,N
+2266,raser,,면도하다,to shave,v,R4,Y
+2267,casier,,사물함,locker,n,R4,Y
+2268,lame,,칼날,blade,n,R4,Y
+2269,manuel,,설명서,manual,n,R4,Y
+2270,identité,,신원,identity,n,R4,N
+2271,bibliothèque,,도서관,library,n,R4,Y
+2272,poète,,시인,poet,n,R4,Y
+2273,impression,,인상,impression,n,R4,N
+2274,univers,,우주,universe,n,R4,Y
+2275,populaire,,인기 있는,popular,adj,R4,N
+2276,reconnaissance,,감사,gratitude,n,R4,N
+2277,communiquer,,소통하다,to communicate,v,R4,N
+2278,pompier,,소방관,firefighter,n,R4,Y
+2279,tache,,얼룩,stain,n,R4,Y
+2280,galaxie,,은하,galaxy,n,R4,Y
+2281,collège,,중학교,middle school,n,R4,Y
+2282,cap,,곶,cape,n,R4,N
+2283,combinaison,,조합,combination,n,R4,N
+2284,canard,,오리,duck,n,R4,Y
+2285,enseigner,,가르치다,to teach,v,R4,Y
+2286,net,,깨끗한,clean,adj,R4,N
+2287,outil,,도구,tool,n,R4,Y
+2288,pécher,,죄를 짓다,to sin,v,R4,N
+2289,injuste,,부당한,unfair,adj,R4,N
+2290,abattre,,쓰러뜨리다,to shoot down,v,R4,N
+2291,précisément,,정확히,precisely,adv,R4,N
+2292,pâte,,반죽,dough,n,R4,Y
+2293,blé,,밀,wheat,n,R4,Y
+2294,serment,,맹세,oath,n,R4,N
+2295,employé,,직원,employee,n,R4,Y
+2296,verser,,붓다,to pour,v,R4,Y
+2297,fixer,,고정하다,to fix,v,R4,N
+2298,livraison,,배달,delivery,n,R4,Y
+2299,gonfler,,부풀리다,to inflate,v,R4,Y
+2300,guider,,안내하다,to guide,v,R4,N
+2301,majeur,,성인의,adult,adj,R4,N
+2302,allié,,동맹,ally,n,R4,N
+2303,survie,,생존,survival,n,R4,N
+2304,miel,,꿀,honey,n,R4,Y
+2305,pair,,짝수의,even,adj,R4,N
+2306,manche,,소매,sleeve,n,R4,Y
+2307,anonyme,,익명의,anonymous,adj,R4,N
+2308,épisode,,에피소드,episode,n,R4,N
+2309,photographe,,사진작가,photographer,n,R4,Y
+2310,sympathique,,친절한,nice,adj,R4,N
+2311,bac,,수능,baccalaureate,n,R4,N
+2312,personnalité,,성격,personality,n,R4,N
+2313,tordre,,비틀다,to twist,v,R4,Y
+2314,alliance,,동맹,alliance,n,R4,N
+2315,humeur,,기분,mood,n,R4,N
+2316,aile,,날개,wing,n,R4,Y
+2317,sauce,,소스,sauce,n,R4,Y
+2318,invisible,,보이지 않는,invisible,adj,R4,N
+2319,couronne,,왕관,crown,n,R4,Y
+2320,température,,온도,temperature,n,R4,Y
+2321,renaître,,다시 태어나다,to be reborn,v,R4,N
+2322,chèvre,,염소,goat,n,R4,Y
+2323,publier,,출판하다,to publish,v,R4,N
+2324,sensation,,느낌,sensation,n,R4,N
+2325,choquer,,충격을 주다,to shock,v,R4,N
+2326,cuisiner,,요리하다,to cook,v,R4,Y
+2327,collier,,목걸이,necklace,n,R4,Y
+2328,tunnel,,터널,tunnel,n,R4,Y
+2329,cercueil,,관,coffin,n,R4,Y
+2330,réception,,접수처,reception,n,R4,N
+2331,soupçonner,,의심하다,to suspect,v,R4,N
+2332,suffisamment,,충분히,enough,adv,R4,N
+2333,solitude,,고독,loneliness,n,R4,N
+2334,dessert,,디저트,dessert,n,R4,Y
+2335,recommander,,추천하다,to recommend,v,R4,N
+2336,énergie,,에너지,energy,n,R4,N
+2337,violon,,바이올린,violin,n,R4,Y
+2338,fumier,,거름,manure,n,R4,N
+2339,noce,,결혼식,wedding,n,R4,Y
+2340,galerie,,미술관,gallery,n,R4,Y
+2341,bouquin,,책,book,n,R4,Y
+2342,bâtard,,잡종,bastard,n,R4,N
+2343,remède,,치료약,remedy,n,R4,N
+2344,décéder,,사망하다,to die,v,R4,N
+2345,violent,,폭력적인,violent,adj,R4,N
+2346,division,,분할,division,n,R4,N
+2347,ennuyeux,,지루한,boring,adj,R4,N
+2348,deuil,,애도,mourning,n,R4,N
+2349,revanche,,복수,revenge,n,R4,N
+2350,instruction,,지시,instruction,n,R4,N
+2351,décevoir,,실망시키다,to disappoint,v,R4,N
+2352,avertir,,경고하다,to warn,v,R4,N
+2353,époux,,배우자,spouse,n,R4,Y
+2354,stade,,경기장,stadium,n,R4,Y
+2355,lampe,,램프,lamp,n,R4,Y
+2356,sommet,,정상,summit,n,R4,Y
+2357,augmenter,,늘리다,to increase,v,R4,N
+2358,circuler,,돌아다니다,to circulate,v,R4,N
+2359,rayon,,광선,ray,n,R4,N
+2360,micro,,마이크,microphone,n,R4,Y
+2361,requin,,상어,shark,n,R4,Y
+2362,machin,,거시기,thingy,n,R4,N
+2363,mental,,정신의,mental,adj,R4,N
+2364,laboratoire,,실험실,laboratory,n,R4,Y
+2365,règlement,,규칙,regulation,n,R4,N
+2366,tonton,,삼촌,uncle,n,R4,Y
+2367,intervenir,,개입하다,to intervene,v,R4,N
+2368,disponible,,이용 가능한,available,adj,R4,N
+2369,destination,,목적지,destination,n,R4,N
+2370,motif,,동기,motive,n,R4,N
+2371,carnet,,수첩,notebook,n,R4,Y
+2372,commercial,,상업의,commercial,adj,R4,N
+2373,gant,,장갑,glove,n,R4,Y
+2374,doc,,의사,doctor,n,R4,Y
+2375,élection,,선거,election,n,R4,N
+2376,fleuve,,강,river,n,R4,Y
+2377,bagarre,,싸움,fight,n,R4,Y
+2378,signaler,,알리다,to report,v,R4,N
+2379,disputer,,다투다,to argue,v,R4,N
+2380,habit,,옷,clothes,n,R4,Y
+2381,dizaine,,열 개쯤,about ten,n,R4,N
+2382,défiler,,행진하다,to parade,v,R4,N
+2383,délire,,망상,delirium,n,R4,N
+2384,chaos,,혼돈,chaos,n,R4,N
+2385,dégât,,피해,damage,n,R4,N
+2386,fermeture,,폐쇄,closing,n,R4,N
+2387,moine,,수도사,monk,n,R4,Y
+2388,repousser,,밀어내다,to push back,v,R4,N
+2389,priorité,,우선순위,priority,n,R4,N
+2390,tatouage,,문신,tattoo,n,R4,Y
+2391,suspendre,,매달다,to hang,v,R4,N
+2392,tireur,,사수,shooter,n,R4,N
+2393,récent,,최근의,recent,adj,R4,N
+2394,creux,,움푹한,hollow,adj,R4,N
+2395,jazz,,재즈,jazz,n,R4,N
+2396,démissionner,,사직하다,to resign,v,R4,N
+2397,officiellement,,공식적으로,officially,adv,R4,N
+2398,misérable,,비참한,miserable,adj,R4,N
+2399,réagir,,반응하다,to react,v,R4,N
+2400,cracher,,침을 뱉다,to spit,v,R4,Y
+2401,art,,예술,art,n,R4,N
+2402,frigo,,냉장고,fridge,n,R4,Y
+2403,lutter,,싸우다,to fight,v,R4,N
+2404,tragédie,,비극,tragedy,n,R4,N
+2405,adn,,DNA,DNA,n,R4,N
+2406,puissant,,강력한,powerful,adj,R4,N
+2407,énormément,,엄청나게,enormously,adv,R4,N
+2408,écrivain,,작가,writer,n,R4,Y
+2409,janvier,,1월,January,n,R4,N
+2410,civilisation,,문명,civilization,n,R4,N
+2411,douloureux,,고통스러운,painful,adj,R4,N
+2412,sincèrement,,진심으로,sincerely,adv,R4,N
+2413,ère,,시대,era,n,R4,N
+2414,activer,,작동시키다,to activate,v,R4,N
+2415,prononcer,,발음하다,to pronounce,v,R4,N
+2416,connexion,,연결,connection,n,R4,N
+2417,échantillon,,견본,sample,n,R4,N
+2418,déguiser,,변장시키다,to disguise,v,R4,N
+2419,paniquer,,당황하다,to panic,v,R4,N
+2420,travailleur,,노동자,worker,n,R4,Y
+2421,exprimer,,표현하다,to express,v,R4,N
+2422,destruction,,파괴,destruction,n,R4,N
+2423,linge,,빨래,laundry,n,R4,Y
+2424,pipi,,쉬,pee,n,R4,N
+2425,recette,,요리법,recipe,n,R4,N
+2426,séjour,,체류,stay,n,R4,N
+2427,existence,,존재,existence,n,R4,N
+2428,pigeon,,비둘기,pigeon,n,R4,Y
+2429,certes,,물론,certainly,adv,R4,N
+2430,mat,,무광의,matte,adj,R4,N
+2431,choper,,잡다,to catch,v,R4,N
+2432,flipper,,겁먹다,to freak out,v,R4,N
+2433,grill,,그릴,grill,n,R4,Y
+2434,marque,,상표,brand,n,R4,N
+2435,plastique,,플라스틱,plastic,n,R4,Y
+2436,tournage,,촬영,filming,n,R4,N
+2437,préféré,,좋아하는,favorite,adj,R4,N
+2438,degré,,도,degree,n,R4,N
+2439,actuel,,현재의,current,adj,R4,N
+2440,souffler,,불다,to blow,v,R4,Y
+2441,garce,,나쁜 년,bitch,n,R4,N
+2442,fracas,,굉음,crash,n,R4,N
+2443,balade,,산책,walk,n,R4,Y
+2444,panneau,,표지판,sign,n,R4,Y
+2445,malédiction,,저주,curse,n,R4,N
+2446,magazine,,잡지,magazine,n,R4,Y
+2447,affronter,,맞서다,to face,v,R4,N
+2448,solitaire,,외로운,lonely,adj,R4,N
+2449,taux,,비율,rate,n,R4,N
+2450,phase,,단계,phase,n,R4,N
+2451,particulièrement,,특히,particularly,adv,R4,N
+2452,canapé,,소파,sofa,n,R4,Y
+2453,européen,,유럽의,European,adj,R4,N
+2454,représentant,,대표,representative,n,R4,N
+2455,user,,닳게 하다,to wear out,v,R4,N
+2456,emmerder,,귀찮게 하다,to annoy,v,R4,N
+2457,conflit,,갈등,conflict,n,R4,N
+2458,emporter,,가져가다,to take away,v,R4,N
+2459,puits,,우물,well,n,R4,Y
+2460,douceur,,부드러움,softness,n,R4,N
+2461,mélange,,혼합,mixture,n,R4,N
+2462,tranquillement,,조용히,quietly,adv,R4,N
+2463,consulter,,상담하다,to consult,v,R4,N
+2464,trouille,,겁,fear,n,R4,N
+2465,etc,,등등,etc.,adv,R4,N
+2466,drapeau,,깃발,flag,n,R4,Y
+2467,noter,,적다,to note,v,R4,N
+2468,libération,,해방,liberation,n,R4,N
+2469,meuble,,가구,furniture,n,R4,Y
+2470,grouiller,,우글거리다,to swarm,v,R4,N
+2471,minimum,,최소,minimum,n,R4,N
+2472,peintre,,화가,painter,n,R4,Y
+2473,coordonnée,,좌표·연락처,coordinates,n,R4,N
+2474,boisson,,음료,drink,n,R4,Y
+2475,stratégie,,전략,strategy,n,R4,N
+2476,marteau,,망치,hammer,n,R4,Y
+2477,conclusion,,결론,conclusion,n,R4,N
+2478,calcul,,계산,calculation,n,R4,N
+2479,apparence,,외모,appearance,n,R4,N
+2480,répandre,,퍼뜨리다,to spread,v,R4,N
+2481,consacrer,,바치다,to devote,v,R4,N
+2482,bougie,,양초,candle,n,R4,Y
+2483,judiciaire,,사법의,judicial,adj,R4,N
+2484,localiser,,위치를 찾다,to locate,v,R4,N
+2485,processus,,과정,process,n,R4,N
+2486,pouce,,엄지,thumb,n,R4,Y
+2487,touche,,건반·키,key,n,R4,Y
+2488,guitare,,기타,guitar,n,R4,Y
+2489,cadre,,액자·틀,frame,n,R4,Y
+2490,hôte,,주인·손님,host,n,R4,N
+2491,transfert,,이전,transfer,n,R4,N
+2492,racine,,뿌리,root,n,R4,Y
+2493,zombie,,좀비,zombie,n,R4,Y
+2494,feuille,,잎·종이,leaf,n,R4,Y
+2495,salopard,,개자식,bastard,n,R4,N
+2496,déterminer,,결정하다,to determine,v,R4,N
+2497,survivant,,생존자,survivor,n,R4,N
+2498,construction,,건설,construction,n,R4,Y
+2499,crainte,,두려움,fear,n,R4,N
+2500,tendance,,경향,trend,n,R4,N

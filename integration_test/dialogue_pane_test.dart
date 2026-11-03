@@ -40,7 +40,8 @@ void main() {
     await AppLangPrefs.load();
     await LearnerPrefs.load();
     await AchievementService.instance.load();
-    await t.pumpWidget(const FrenchUniverseApp());
+    // 시뮬레이터에서는 그림 내려받기 화면을 건너뛴다(syncFirst=false)
+    await t.pumpWidget(const FrenchUniverseApp(syncFirst: false));
     await wait(t, 1500);
     await shot(t, '01_home_wide');
 

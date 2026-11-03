@@ -5,6 +5,9 @@ import 'dart:io';
 import 'package:flutter/foundation.dart' show debugPrint;
 import 'package:shared_preferences/shared_preferences.dart';
 
+import 'content_sync.dart';
+import 'learner_prefs.dart';
+
 /// 단어 그림(talkverse.uk 공용 그림 저장소) — 2026-11-03.
 ///
 /// talkverse.uk 세션이 Cloudflare 에 올린 공개 API(인증 없음) — 일본어앱에서 옮김(2026-11-02). 프랑스어 세트는 아직 0장:
@@ -17,6 +20,11 @@ class ArtService {
   static final ArtService instance = ArtService._();
 
   static const manifestUrl = 'https://auth.talkverse.uk/art/fr/manifest';
+  /// 회화 장면 컷: `GET …/art/fr/scene/manifest?episode=<편id>` → items[{episode,cut,key_1168,key_584,w,h}], 그림 = base+key.
+  /// 컷 번호 N = A·B 대화 한 쌍(턴 2개)당 1장(N 은 1부터). 그림에는 말풍선·글자가 없고 앱이 얹는다.
+  static const sceneManifestUrl = 'https://auth.talkverse.uk/art/fr/scene/manifest';
+  final Map<String, Map<int, String>> _scene = {}; // 편id → {컷번호 → URL}
+  final Map<String, Future<void>> _sceneLoading = {};
   static const _prefKey = 'art_manifest_fr_v1';
   static const _prefAt = 'art_manifest_fr_at';
   static const _ttl = Duration(hours: 24);
@@ -50,6 +58,54 @@ class ArtService {
     if (best == null) return null;
     final key = _byWord[best]!;
     return MapEntry(best, _base.endsWith('/') ? '$_base$key' : '$_base/$key');
+  }
+
+  /// 편의 장면 컷 URL(턴 번호 1부터 → 컷 (num+1)~/2). 없으면 null. 편당 한 번만 받아 둔다(실패해도 조용히 null).
+  Future<String?> sceneCut(String episodeId, int turnNum, {bool large = false}) async {
+    final n = (turnNum + 1) ~/ 2;
+    // 학습자가 여자로 설정돼 있으면 여자판 컷(편id + '_f')을 먼저 — 없으면 기본 컷(2026-11-04)
+    if (LearnerPrefs.gender.value == 'female') {
+      final f = await _sceneCuts('${episodeId}_f', large: large);
+      if (f[n] != null) return f[n];
+    }
+    final cuts = await _sceneCuts(episodeId, large: large);
+    if (cuts.isEmpty) return null;
+    return cuts[n] ?? cuts[cuts.keys.reduce((a, b) => (a - n).abs() <= (b - n).abs() ? a : b)];
+  }
+
+  Future<Map<int, String>> _sceneCuts(String episodeId, {bool large = false}) async {
+    final key = '$episodeId${large ? ':L' : ''}';
+    if (_scene.containsKey(key)) return _scene[key]!;
+    // 시작 때 받아 둔 전체 장면 매니페스트(ContentSync) — 편마다 네트워크를 타지 않는다
+    final idx = ContentSync.instance.sceneIndex[episodeId];
+    if (idx != null && idx.isNotEmpty) {
+      final b = ContentSync.instance.base;
+      return _scene[key] = {for (final e in idx.entries) e.key: '$b/${e.value}'};
+    }
+    await (_sceneLoading[key] ??= () async {
+      final out = <int, String>{};
+      try {
+        final client = HttpClient()..connectionTimeout = const Duration(seconds: 8);
+        final req = await client.getUrl(Uri.parse('$sceneManifestUrl?episode=${Uri.encodeQueryComponent(episodeId)}'));
+        req.headers.set(HttpHeaders.userAgentHeader, 'talkverse-fr/0.1');
+        final res = await req.close().timeout(const Duration(seconds: 12));
+        if (res.statusCode == 200) {
+          final j = json.decode(await res.transform(utf8.decoder).join()) as Map<String, dynamic>;
+          final base = (j['base'] as String? ?? '').replaceAll(RegExp(r'/$'), '');
+          for (final it in (j['items'] as List? ?? const [])) {
+            final m = it as Map<String, dynamic>;
+            final k = (large ? m['key_1168'] : m['key_584']) as String? ?? m['key_1168'] as String?;
+            final cut = m['cut'];
+            if (k != null && cut is int && base.isNotEmpty) out[cut] = '$base/$k';
+          }
+        }
+        client.close();
+      } catch (e) {
+        debugPrint('ArtService: scene manifest 실패 $episodeId $e');
+      }
+      _scene[key] = out;
+    }());
+    return _scene[key] ?? const {};
   }
 
   /// 로드 없이 즉시 조회(이미 받아 둔 경우만).

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../core/cliff.dart';
 import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
@@ -21,7 +22,7 @@ Future<void> showWordSheet(BuildContext context, WordEntry w) => showModalBottom
               Container(
                 padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                 decoration: BoxDecoration(color: AppColors.beni.withValues(alpha: 0.1), borderRadius: BorderRadius.circular(8)),
-                child: Text('${w.level} · ${w.rank}', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w600, color: AppColors.beni)),
+                child: Text(w.rank > 2500 ? regionOf(w.rank) : '${regionOf(w.rank)} · ${w.rank}', style: const TextStyle(fontSize: 11, fontWeight: FontWeight.w600, color: AppColors.beni)),
               ),
               IconButton(onPressed: () => TtsService.instance.speak(w.word), icon: const Icon(Icons.volume_up, color: AppColors.beni)),
             ]),

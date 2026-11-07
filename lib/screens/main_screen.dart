@@ -5,6 +5,7 @@ import '../core/platform.dart';
 import '../core/theme.dart';
 import '../main.dart';
 import '../widgets/spanish_decor.dart';
+import 'about_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
@@ -88,6 +89,30 @@ class _MainScreenState extends State<MainScreen> {
                     for (final t in tabs)
                       NavigationRailDestination(icon: t.icon, selectedIcon: t.selectedIcon, label: Text(t.label)),
                   ],
+                  // 레일 맨 아래 「앱 소개」(사용자 지시 2026-11-07)
+                  trailing: Expanded(
+                    child: Align(
+                      alignment: Alignment.bottomCenter,
+                      child: Padding(
+                        padding: const EdgeInsets.only(bottom: 16),
+                        child: InkWell(
+                          onTap: () => openPane(context, (_) => const AboutScreen()),
+                          borderRadius: BorderRadius.circular(8),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                const Icon(Icons.info_outline, color: AppColors.muted, size: 22),
+                                const SizedBox(height: 4),
+                                Text(tr('앱 소개'), style: const TextStyle(color: AppColors.muted, fontSize: 11, fontWeight: FontWeight.w600)),
+                              ],
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ),
                 ),
                 const VerticalDivider(width: 1, thickness: 1, color: AppColors.line),
                 SizedBox(width: left, child: stack),
@@ -364,30 +389,28 @@ class _TodayMissionState extends State<_TodayMission> {
   }
 }
 
-/// 홈 메뉴 — UX/UI 시안 01(2026-11-03 사용자 통과): 회화 / 문법·소리 / 단어 세 묶음,
+/// 홈 메뉴 — UX/UI 시안 01 묶음에 일본어앱 순서(사용자 지시 2026-11-07): 문법·소리 / 회화 / 단어 / 참고,
 /// 준비중(성·수·발음)은 타일 대신 묶음 끝 한 줄, 비어 있는 단어 메뉴는 「준비 중」 꼬리표.
 class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final groups = <(String, List<_MenuItem>)>[
-      (tr('회화'), [
-        _MenuItem(label: tr('회화'), sub: 'Conversation', badge: 'Ch', color: AppColors.beni,
-          builder: (_) => const DialogueHomeScreen()),
-        _MenuItem(label: tr('문장 카드'), sub: 'Phrases', badge: 'S', color: AppColors.tinta,
-          builder: (_) => const SentenceFlashcardScreen()),
-        _MenuItem(label: tr('말하기'), sub: 'Parler', badge: '🎙', color: AppColors.rojo,
-          builder: (_) => const SpeakingPracticeScreen()),
-      ]),
       (tr('문법·소리'), [
         _MenuItem(label: tr('문법'), sub: 'Grammaire', badge: 'G', color: AppColors.rojoDeep,
           builder: (_) => const GrammarHubScreen()),
         _MenuItem(label: tr('동사 활용'), sub: 'Conjugaison', badge: 'V', color: AppColors.irregular,
           builder: (_) => const VerbScreen()),
-        _MenuItem(label: tr('청크 검색'), sub: 'Recherche', badge: '🔍', color: AppColors.gualdaDeep,
-          builder: (_) => const ChunkSearchScreen()),
+      ]),
+      (tr('회화'), [
+        _MenuItem(label: tr('회화'), sub: 'Conversation', badge: 'Ch', color: AppColors.beni,
+          builder: (_) => const DialogueHomeScreen()),
+        _MenuItem(label: tr('문장 말하기'), sub: tr('한글 보고 프랑스어로 · 10초/5초/2초'), badge: '🎙', color: AppColors.rojo,
+          builder: (_) => const SpeakingPracticeScreen()),
+        _MenuItem(label: tr('문장 카드'), sub: 'Phrases', badge: 'S', color: AppColors.tinta,
+          builder: (_) => const SentenceFlashcardScreen()),
       ]),
       (tr('단어'), [
-        _MenuItem(label: tr('빈도 단어'), sub: 'Fréquence', badge: 'F', color: AppColors.francais,
+        _MenuItem(label: tr('절벽 단어'), sub: 'R1~R5', badge: 'F', color: AppColors.francais,
           builder: (_) => const WordFreqScreen()),
         _MenuItem(label: tr('단어'), sub: 'Vocabulaire', badge: 'W', color: AppColors.oliva, soon: true,
           builder: (_) => const TopicVocabScreen()),
@@ -397,6 +420,10 @@ class _MenuGrid extends StatelessWidget {
               asset: 'assets/data/vocab/travel_expressions.json')),
         _MenuItem(label: tr('단어 카드'), sub: 'Cartes', badge: 'R', color: AppColors.gualdaDeep, soon: true,
           builder: (_) => const WordFlashcardScreen()),
+      ]),
+      (tr('참고'), [
+        _MenuItem(label: tr('청크 검색'), sub: 'Recherche', badge: '🔍', color: AppColors.gualdaDeep,
+          builder: (_) => const ChunkSearchScreen()),
       ]),
     ];
 
@@ -495,6 +522,8 @@ class _MenuTile extends StatelessWidget {
               Text(
                 item.soon ? tr('준비 중') : item.sub,
                 style: TextStyle(fontSize: 10, color: item.soon ? AppColors.beni : AppColors.tintaLight),
+                textAlign: TextAlign.center,
+                maxLines: 3,
                 overflow: TextOverflow.ellipsis,
               ),
             ],

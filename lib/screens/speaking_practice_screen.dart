@@ -83,7 +83,7 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.cal,
-      appBar: AppBar(title: Text(tr('말하기 연습'))),
+      appBar: AppBar(title: Text(tr('문장 말하기'))),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : ListView(
@@ -108,6 +108,8 @@ class _SpeakingPracticeScreenState extends State<SpeakingPracticeScreen> {
                     ],
                   ],
                 ),
+                const SizedBox(height: 8),
+                Text(tr('발음 품질은 보지 않아요 — 문장의 단어가 들어 있는지만 봅니다'), style: const TextStyle(fontSize: 12, color: AppColors.tintaLight)),
                 const SizedBox(height: 16),
                 Text(
                   _onlyLearned

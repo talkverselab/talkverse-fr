@@ -59,11 +59,18 @@ void main() {
     await shot(t, '04_reader');
 
     // 캡션의 단어를 누르면 단어 카드(UX/UI 시안 01)
-    await t.tap(find.text("m'appelle ").first);
+    await t.tapOnText(find.textRange.ofSubstring('appelle').first);
     await wait(t, 1200);
     await shot(t, '04b_word_card');
     await t.tapAt(const Offset(600, 400)); // 시트 바깥(오른쪽 칸 안 — 시트는 그 칸에만 뜬다)
     await wait(t, 1000);
+
+    // 독음 전역 토글(기본 미표시) — 켜면 스낵바, 다시 끈다
+    await t.tap(find.byType(KoReadingToggleAction).first);
+    await wait(t, 800);
+    await shot(t, '04c_reading_on');
+    await t.tap(find.byType(KoReadingToggleAction).first);
+    await wait(t, 3500);
 
     await t.tap(find.text('재생').first);
     await wait(t, 6000);
@@ -85,5 +92,24 @@ void main() {
     await t.tap(rail('프로필'));
     await wait(t, 1500);
     await shot(t, '09_profile');
+
+    await t.tap(rail('앱 소개'));
+    await wait(t, 1500);
+    await shot(t, '10_about');
+
+    await t.tap(rail('홈'));
+    await wait(t, 1000);
+    final cliffTile = find.text('R1~R5');
+    await t.dragUntilVisible(cliffTile, find.byType(ListView).first, const Offset(0, -200));
+    await wait(t, 800);
+    await shot(t, '11_home_menu_lower');
+    await t.tap(cliffTile);
+    await wait(t, 2500);
+    await shot(t, '12_cliff_words');
+    await t.tap(find.textContaining('회화 단어 포함'));
+    await wait(t, 800);
+    await t.tap(find.text('회화').last);
+    await wait(t, 1200);
+    await shot(t, '13_cliff_conv');
   });
 }

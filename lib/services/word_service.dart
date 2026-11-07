@@ -48,5 +48,8 @@ class WordService {
     return {for (final b in bases) if (_byWord[b] != null) b: _byWord[b]!};
   }
 
+  /// 단어장 전체(절벽 단어 화면).
+  Iterable<WordEntry> get all => _byWord.values;
+
   int get count => _byWord.length;
 }

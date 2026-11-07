@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:flutter/gestures.dart' show TapGestureRecognizer;
 import 'package:flutter/material.dart';
 
 import '../core/l10n.dart';
@@ -11,11 +12,14 @@ import '../services/achievement_service.dart';
 import '../services/art_service.dart';
 import '../services/content_sync.dart';
 import '../services/dialogue_service.dart';
+import '../services/ko_reading.dart';
 import '../services/learner_prefs.dart';
 import '../services/tts_service.dart';
+import '../services/word_service.dart';
 import 'achievement_desk.dart';
 import 'learner_setup_dialog.dart';
 import 'lemma_chips.dart';
+import 'word_sheet.dart';
 
 /// 「모든 문장 듣기」 재생 패널 — 일본어앱 Grok UXUI 시안 02 「만화책 읽기형」을 옮김(2026-11-02, 일본어앱 `data/review/uxui/sian_02.md`).
 ///
@@ -38,7 +42,6 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   bool _playing = false;
   double _rate = 1.0; // 0.75 / 1.0 / 1.25
   bool _showGloss = false;
-  bool _showRd = true;
   bool _showKo = true;
   int _session = 0; // 재생 루프 세대(중단 판별)
   bool _done = false; // 완주 연출 표시
@@ -48,9 +51,13 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
   Dialogue get d => widget.dialogue;
   DialogueTurn get turn => d.turns[_i];
 
+  bool get _showRd => KoReadingPrefs.show.value; // 전역 독음 설정(기본 미표시)
+  void _onRd() { if (mounted) setState(() {}); }
+
   @override
   void initState() {
     super.initState();
+    KoReadingPrefs.show.addListener(_onRd);
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       if (!mounted) return;
       // 대사에 {name} 자리가 있는데 이름이 없으면 먼저 묻는다(앱 켠 뒤 한 번, 사용자 지시 2026-11-04)
@@ -62,6 +69,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
 
   @override
   void dispose() {
+    KoReadingPrefs.show.removeListener(_onRd);
     _session++;
     TtsService.instance.stop();
     super.dispose();
@@ -148,7 +156,7 @@ class _EpisodePlayPaneState extends State<EpisodePlayPane> {
       onSeek: (v) => _goto(v),
       onRate: () => setState(() => _rate = _rate >= 1.25 ? 0.75 : (_rate + 0.25)),
       onGloss: () => setState(() => _showGloss = !_showGloss),
-      onRd: () => setState(() => _showRd = !_showRd),
+      onRd: () => KoReadingPrefs.toggleFrom(context),
       onKo: () => setState(() => _showKo = !_showKo),
     );
     return LayoutBuilder(builder: (context, c) {
@@ -207,6 +215,7 @@ class _Script extends StatelessWidget {
           const SizedBox(width: 6),
           Text(tr('대화 스크립트'), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.sumi)),
           const Spacer(),
+          if (isWide(context) && d.turns.any((t) => t.rd.isNotEmpty)) const KoReadingToggleAction(),
           Container(
             width: 22,
             height: 22,
@@ -245,7 +254,7 @@ class _Script extends StatelessWidget {
                     const SizedBox(width: 8),
                     Expanded(
                       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                        Text(LearnerPrefs.fill(t.tl), style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+                        TapWords(turn: t, style: TextStyle(fontSize: on ? 16.5 : 15, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
                         if (showGloss && t.gloss.isNotEmpty && t.gloss != t.tl) Text(t.gloss, style: const TextStyle(fontSize: 11, color: AppColors.ai, fontWeight: FontWeight.w600)),
                         if (showRd && t.rd.isNotEmpty) Text(LearnerPrefs.fill(t.rd, ko: true), style: const TextStyle(fontSize: 11.5, color: AppColors.muted)),
                         if (showKo) Text(LearnerPrefs.fill(t.ko, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.sumiLight, height: 1.35)),
@@ -336,8 +345,8 @@ class _Caption extends StatelessWidget {
         child: Row(crossAxisAlignment: CrossAxisAlignment.center, children: [
           Expanded(
             child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              // 단어를 누르면 단어 카드(UX/UI 시안 01 §1-①, 2026-11-03 사용자 통과)
-              _TapWords(text: LearnerPrefs.fill(turn.tl), note: turn.note, style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
+              // 단어를 누르면 단어창(레마) · 단어장 밖 낱말은 단어 카드(UX/UI 시안 01 §1-①)
+              TapWords(turn: turn, fallback: true, style: TextStyle(fontSize: wide ? 20 : 17, fontWeight: FontWeight.w800, color: AppColors.sumi, height: 1.35)),
               if (showGloss && turn.gloss.isNotEmpty && turn.gloss != turn.tl) Text(turn.gloss, style: const TextStyle(fontSize: 12, color: AppColors.ai, fontWeight: FontWeight.w600)),
               if (showRd && turn.rd.isNotEmpty) Text(LearnerPrefs.fill(turn.rd, ko: true), style: const TextStyle(fontSize: 12.5, color: AppColors.muted)),
               if (showKo) Padding(padding: const EdgeInsets.only(top: 2), child: Text(LearnerPrefs.fill(turn.ko, ko: true), style: const TextStyle(fontSize: 13.5, color: AppColors.sumiLight, height: 1.35))),
@@ -351,24 +360,105 @@ class _Caption extends StatelessWidget {
   }
 }
 
-/// 문장을 낱말로 나눠 누를 수 있게 그린다. 누르면 [WordCardSheet].
-class _TapWords extends StatelessWidget {
-  final String text;
-  final String note;
+/// 회화 문장 — 레마(내용어) 단위로 누를 수 있게 그린다(사용자 지시 2026-11-07). 단어장에 있는 레마는 밑줄 + 탭하면 단어창([showWordSheet]).
+/// `fallback` 이면 그 밖의 낱말도 탭 → [WordCardSheet](note 힌트). 끄면 문장 나머지 탭은 바깥(스크립트 줄 선택)으로 넘어간다.
+class TapWords extends StatefulWidget {
+  final DialogueTurn turn;
   final TextStyle style;
-  const _TapWords({required this.text, required this.note, required this.style});
+  final bool fallback;
+  const TapWords({super.key, required this.turn, required this.style, this.fallback = false});
+
+  @override
+  State<TapWords> createState() => _TapWordsState();
+}
+
+class _TapWordsState extends State<TapWords> {
+  Map<String, WordEntry> _found = const {};
+  final List<TapGestureRecognizer> _taps = [];
+
+  @override
+  void initState() {
+    super.initState();
+    _lookup();
+  }
+
+  @override
+  void didUpdateWidget(TapWords old) {
+    super.didUpdateWidget(old);
+    if (!identical(old.turn, widget.turn)) _lookup();
+  }
+
+  Future<void> _lookup() async {
+    final turn = widget.turn;
+    final found = await WordService.instance.byLemmas(turn.lemmas.map((l) => l.base));
+    if (mounted && identical(turn, widget.turn)) setState(() => _found = found);
+  }
+
+  void _clearTaps() {
+    for (final t in _taps) {
+      t.dispose();
+    }
+    _taps.clear();
+  }
+
+  @override
+  void dispose() {
+    _clearTaps();
+    super.dispose();
+  }
+
+  TapGestureRecognizer _tap(VoidCallback f) {
+    final r = TapGestureRecognizer()..onTap = f;
+    _taps.add(r);
+    return r;
+  }
+
+  void _plain(List<InlineSpan> out, String text) {
+    if (!widget.fallback) {
+      out.add(TextSpan(text: text));
+      return;
+    }
+    text.splitMapJoin(RegExp(r"[\p{L}'’-]+", unicode: true), onMatch: (m) {
+      final w = m[0]!;
+      out.add(TextSpan(
+        text: w,
+        recognizer: WordCardSheet.norm(w).isEmpty ? null : _tap(() => WordCardSheet.show(context, w, widget.turn.note)),
+      ));
+      return '';
+    }, onNonMatch: (g) {
+      if (g.isNotEmpty) out.add(TextSpan(text: g));
+      return '';
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
-    final parts = text.split(' ');
-    return Wrap(children: [
-      for (var i = 0; i < parts.length; i++)
-        GestureDetector(
-          behavior: HitTestBehavior.opaque,
-          onTap: WordCardSheet.norm(parts[i]).isEmpty ? null : () => WordCardSheet.show(context, parts[i], note),
-          child: Text(i < parts.length - 1 ? '${parts[i]} ' : parts[i], style: style),
-        ),
-    ]);
+    _clearTaps();
+    final text = LearnerPrefs.fill(widget.turn.tl);
+    final byForm = <String, WordEntry>{
+      for (final l in widget.turn.lemmas)
+        if (_found[l.base] != null) l.surface.toLowerCase(): _found[l.base]!,
+    };
+    final spans = <InlineSpan>[];
+    if (byForm.isEmpty) {
+      _plain(spans, text);
+    } else {
+      final forms = byForm.keys.toList()..sort((a, b) => b.length.compareTo(a.length));
+      final re = RegExp('(?<![\\p{L}])(${forms.map(RegExp.escape).join('|')})(?![\\p{L}])', unicode: true, caseSensitive: false);
+      var at = 0;
+      for (final m in re.allMatches(text)) {
+        if (m.start > at) _plain(spans, text.substring(at, m.start));
+        final w = byForm[m[0]!.toLowerCase()];
+        spans.add(TextSpan(
+          text: m[0],
+          style: const TextStyle(decoration: TextDecoration.underline, decorationColor: AppColors.kinDeep, decorationThickness: 1.5),
+          recognizer: w == null ? null : _tap(() => showWordSheet(context, w)),
+        ));
+        at = m.end;
+      }
+      if (at < text.length) _plain(spans, text.substring(at));
+    }
+    return Text.rich(TextSpan(style: widget.style, children: spans));
   }
 }
 

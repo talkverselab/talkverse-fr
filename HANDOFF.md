@@ -7,8 +7,8 @@
 | 캐릭터 시안 | **통과 2026-11-03** — `data/review/art/chars_fr_v1.jpg`, 인물표 `data/review/uxui/CHARACTERS.md` |
 | UX/UI 시안 | **통과 2026-11-03**(사용자 "좋아 폰트만 좀 바꾸자" → 더 가볍게) — 글 `data/review/uxui/sian_fr_01.md`(이 세션 작성), 그림 `sian_fr_01.jpg` |
 | 아이패드 빌드 | 커밋 `21b3e3f`(master, 푸시됨). 스크린샷 10장 넘침 0(iPad Air 11, `integration_test/dialogue_pane_test.dart`) |
-| Android | CI 빌드 11(625ecf3) → Zealot 「프랑스어유니버스」 https://apps.talkverse.uk/DnBeJ/301 · PC 백업 `D:\OneDrive\app project\talkverse-fr\` |
-| iOS | TestFlight 업로드 성공 빌드 **2611071647**(2026-11-07, `tools/ios_release.sh`). ⚠ IPA 에 Sign in with Apple 권한 아직 없음 → 사용자가 개발자 포털 App ID `com.talkverse.frenchUniverse` 에 capability 를 켠 뒤 다시 빌드 |
+| Android | CI 빌드 12(249c5eb, 2026-11-08 알파벳과 발음) → Zealot 「프랑스어유니버스」 https://apps.talkverse.uk/DnBeJ/379 · PC 백업 `D:\OneDrive\app project\talkverse-fr\` |
+| iOS | TestFlight 업로드 성공 빌드 **2611081728**(2026-11-08, 249c5eb, `tools/ios_release.sh`). ⚠ IPA 에 Sign in with Apple 권한 아직 없음 → 사용자가 개발자 포털 App ID `com.talkverse.frenchUniverse` 에 capability 를 켠 뒤 다시 빌드 |
 | 로그인·결제 | Talkverse ID(client_id `fr`, `talkverse.fr://auth`) + 평생 이용권(iOS `com.talkverse.frenchUniverse.lifetime` / Android `lang_fr`) 연동됨. **잠근 기능 없음** — 무엇을 유료로 할지 사용자 결정 대기(그 전 심사 제출 시 3.1.1 반려 위험) |
 | 단어 그림 리스트 | **푸시 완료** `talkverselab/talkversehanja` c94fcc1 — `talkverse_art/words/fr.csv`(2,500, Y 574) + `fr_food.csv`(50). 그림은 talkverse.uk 세션이 그린다 |
 | 콘텐츠 | 회화·단어·예문 새로 만들기 **금지**(사용자 지시 2026-11-02). 회화 = 옛 L1 5편×8턴 초안, 주제별 단어·표현 파일은 비움(원서 유래 제거, 이력까지 정리 2026-11-02) |
@@ -42,6 +42,7 @@
 - **알파벳과 발음 메뉴**(공통 프롬프터 §5-3): 홈 「기초」 첫 줄. `lib/screens/alphabet_chart_screen.dart`·`lib/widgets/fr_sound_sheet.dart`·`lib/services/fr_phonetics.dart`(알파벳 26·모음 13·비모음 6·자음 11·연음 8), 조음 그림 `assets/images/ipa/places_of_articulation.png` = **임시(출처 표기 없음, 출시 전 Grok 그림으로 교체 — 사용자 지시)**. 위젯 테스트 `test/alphabet_chart_test.dart`. 시뮬레이터 실화면은 아직(아래).
 - 시뮬레이터: CoreSimulator 1174.21 로 해결됨. `tools/pane_shots.py` 통합 테스트는 이번에 Xcode 빌드 뒤 앱 실행 단계에서 멈춰 끊었다 — 다음 세션에서 다시(iPad Air 11 `D198951A-…`, 끝나면 shutdown).
 - 다음 할 일: ① Grok 완전 재작성(11-09 13:30 재개 뒤, 편 1개씩) → 리뷰 → DB ② 새 회화 음성(uk 「지금 시작」 뒤 `tools/tts/trial.py`) ③ 앱 로더를 R0~R5 로(`docs/APP_STRATEGY_FR.md` 코드 변경 목록) ④ 코어 40 단어표(전략 A12 ①) ⑤ missing_lemmas 115 정리 → uk ⑥ 조음 그림 교체.
+- iOS 빌드 뒤 생기는 `ios/Podfile`·`Podfile.lock`·`swiftpm/` 폴더(미추적)는 커밋하지 않는다(Flutter 가 SPM 통합하며 만듦).
 - 출처 금지어 목록은 저장소 밖 `~/.talkverse_forbidden.txt`(검사기가 읽음).
 
 ## 2026-11-08 회화 전편 초안(굴절어 전략 레벨 0~5, Opus)

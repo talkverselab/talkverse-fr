@@ -1,0 +1,568 @@
+{
+ "id": "r3_friends_a2",
+ "region": "R3",
+ "island": "friends",
+ "kind": "short",
+ "title": "조금만 잘라 줘, 둘 다",
+ "emoji": "✂️",
+ "scene": "레벨 1 「조금만 잘라 줘」를 복수로 — A 와 테오가 위고와 카미유에게 머리를 맡긴다. 같은 문장을 vous·nous·복수로",
+ "where": "위고네 거실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Théo",
+  "D": "Camille"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수(nos frères·asseyez-vous) — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "ouais",
+  "carrément"
+ ],
+ "tags": [
+  "base:r1_friends_a2"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Vous nous coupez les cheveux ? Juste un peu.",
+   "rd": "부 누 꾸뻬 레 슈뵈? 쥐스뜨 앙 뾔.",
+   "ko": "너희 우리 머리 좀 잘라 줄래? 조금만.",
+   "note": "tu me coupes → vous nous coupez",
+   "tags": [
+    "callback:r1_friends_a2",
+    "form:vous",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "coupez",
+     "couper",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "cheveux",
+     "cheveu",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ]
+   ],
+   "lemmas": [
+    [
+     "coupez",
+     "couper",
+     ""
+    ],
+    [
+     "cheveux",
+     "cheveu",
+     ""
+    ],
+    [
+     "Juste",
+     "juste",
+     ""
+    ],
+    [
+     "peu",
+     "peu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Ouais, carrément. Nous avons déjà coupé ceux de nos frères.",
+   "rd": "웨, 까레망. 누 자봉 데쟈 꾸뻬 쐬 드 노 프레르.",
+   "ko": "응, 당연하지. 우리 형제들 머리도 잘라 봤어.",
+   "note": "j'ai → nous avons · mon frère → nos frères",
+   "tags": [
+    "expr:ouais",
+    "expr:carrément",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "carrément",
+     "carrément",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "avons",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "coupé",
+     "couper",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ceux",
+     "celui",
+     "PRON",
+     "Gender=Masc|Number=Plur|PronType=Dem"
+    ],
+    [
+     "nos",
+     "notre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "frères",
+     "frère",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "carrément",
+     "carrément",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "coupé",
+     "couper",
+     ""
+    ],
+    [
+     "frères",
+     "frère",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Et ils ont dit quoi, vos frères ?",
+   "rd": "에 일 종 디 꾸아, 보 프레르?",
+   "ko": "그래서 너희 형제들이 뭐래?",
+   "note": "il a dit → ils ont dit · ton → vos",
+   "tags": [
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "ils",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Plur|Person=3"
+    ],
+    [
+     "ont",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "frères",
+     "frère",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "frères",
+     "frère",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "fr": "Rien. Ils nous parlent plus depuis. Bon, asseyez-vous !",
+   "rd": "리앵. 일 누 빠를 쁠뤼 드쀠. 봉, 아쎄예 부!",
+   "ko": "아무 말도. 그 뒤로 우리랑 말을 안 해. 자, 앉아!",
+   "note": "il me parle → ils nous parlent · assieds-toi → asseyez-vous",
+   "tags": [
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Rien. Ils nous parlent plus depuis."
+    ],
+    [
+     "cheerful",
+     "Bon, asseyez-vous !"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Ils",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Plur|Person=3"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "parlent",
+     "parler",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "-vous",
+     "vous",
+     "PRON",
+     "Gender=Masc|Number=Plur|Person=3"
+    ]
+   ],
+   "lemmas": [
+    [
+     "parlent",
+     "parler",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "Bon",
+     "bon",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Attendez… vous allez couper avec ça ?!",
+   "rd": "아땅데… 부 잘레 꾸뻬 아벡 싸?!",
+   "ko": "잠깐… 너희 그걸로 자르려고?!",
+   "note": "tu vas → vous allez",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "allez",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "couper",
+     "couper",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "allez",
+     "aller",
+     ""
+    ],
+    [
+     "couper",
+     "couper",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Vous inquiétez pas, ça va aller… Atchoum !",
+   "rd": "부 쟁끼에떼 빠, 싸 바 알레… 아츔!",
+   "ko": "걱정 마, 괜찮을… 에취!",
+   "note": "t'inquiète → vous inquiétez pas",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "Vous inquiétez pas, ça va aller…"
+    ],
+    [
+     "shout",
+     "Atchoum !"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "inquiétez",
+     "inquiéter",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "aller",
+     "aller",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "inquiétez",
+     "inquiéter",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Hugo, Camille… vous nous parlez plus ?",
+   "rd": "위고, 까미유… 부 누 빠를레 쁠뤼?",
+   "ko": "위고, 카미유… 우리랑도 말 안 할 거야?",
+   "note": "ils nous parlent plus(4턴) → vous nous parlez plus ? · 레벨 1 tu me parles → vous nous parlez",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "parlez",
+     "parler",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "parlez",
+     "parler",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "fr": "Bon… Vous avez déjà pensé aux casquettes ?",
+   "rd": "봉… 부 자베 데쟈 빵쎄 오 까스께뜨?",
+   "ko": "음… 모자 써 볼 생각 해 본 적 있어?",
+   "note": "t'as pensé à la casquette → vous avez pensé aux casquettes",
+   "tags": [
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "pensé",
+     "penser",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "casquettes",
+     "casquette",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "pensé",
+     "penser",
+     ""
+    ],
+    [
+     "casquettes",
+     "casquette",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

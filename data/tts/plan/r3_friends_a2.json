@@ -1,0 +1,82 @@
+{
+ "ep": "r3_friends_a2",
+ "cast": {
+  "B": "hugo",
+  "C": "theo",
+  "D": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Vous nous coupez les cheveux ? Juste un peu."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Ouais, carrément. Nous avons déjà coupé ceux de nos frères."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Et ils ont dit quoi, vos frères ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Rien. Ils nous parlent plus depuis."
+    ],
+    [
+     "cheerful",
+     "Bon, asseyez-vous !"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Attendez… vous allez couper avec ça ?!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Vous inquiétez pas, ça va aller…"
+    ],
+    [
+     "shout",
+     "Atchoum !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Hugo, Camille… vous nous parlez plus ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Bon… Vous avez déjà pensé aux casquettes ?"
+    ]
+   ]
+  }
+ }
+}

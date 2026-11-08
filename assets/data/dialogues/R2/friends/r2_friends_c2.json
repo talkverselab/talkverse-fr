@@ -1,0 +1,877 @@
+{
+ "id": "r2_friends_c2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "오늘 밤 데이트 상대",
+ "emoji": "📸",
+ "scene": "카미유가 오늘 밤 첫 데이트라며 들떠서 문자한다. 사진을 보니 A 의 룸메이트 테오다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "사람 묘사(Il est comment ? / grand·drôle)·채팅 말투(ouf·stylé·chelou·stp)",
+ "expressions": [
+  "ouf",
+  "stylé",
+  "chelou",
+  "stp",
+  "vas-y"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Urgence ! J'ai un date ce soir 😱",
+   "rd": "위르장쓰! 제 앙 데뜨 쓰 수아르.",
+   "ko": "비상! 나 오늘 밤 데이트 있어 😱",
+   "note": "urgence = 비상 · un date = 데이트(구어, 영어에서)",
+   "tags": [],
+   "new": [
+    "urgence",
+    "date"
+   ],
+   "emotion": "excited",
+   "at": "18:20",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Urgence",
+     "urgence",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "date",
+     "date",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "😱",
+     "😱",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Urgence",
+     "urgence",
+     ""
+    ],
+    [
+     "date",
+     "date",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouf, enfin ! Il est comment ?",
+   "rd": "우프, 앙팽! 일 레 꼬망?",
+   "ko": "와, 드디어! 어떤 사람이야?",
+   "note": "ouf = 대박 · Il est comment ? = 어떤 사람이야?",
+   "tags": [
+    "expr:ouf"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "at": "18:21",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "enfin",
+     "enfin",
+     ""
+    ],
+    [
+     "comment",
+     "comment",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Grand, drôle, il fait du vélo partout. Un peu chelou, mais mignon.",
+   "rd": "그랑, 드롤, 일 페 뒤 벨로 빠르뚜. 앙 뾔 셸루, 메 미뇽.",
+   "ko": "키 크고, 웃기고, 어디든 자전거 타. 좀 이상한데 귀여워.",
+   "note": "drôle = 웃긴 · chelou = 이상한(louche 를 뒤집은 말) · mignon = 귀여운",
+   "tags": [
+    "expr:chelou"
+   ],
+   "new": [
+    "drôle",
+    "mignon"
+   ],
+   "emotion": "shy",
+   "at": "18:22",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Grand",
+     "grand",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "drôle",
+     "drôle",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vélo",
+     "vélo",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chelou",
+     "chelou",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Grand",
+     "grand",
+     ""
+    ],
+    [
+     "drôle",
+     "drôle",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "vélo",
+     "vélo",
+     ""
+    ],
+    [
+     "partout",
+     "partout",
+     ""
+    ],
+    [
+     "peu",
+     "peu",
+     ""
+    ],
+    [
+     "chelou",
+     "chelou",
+     ""
+    ],
+    [
+     "mignon",
+     "mignon",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Stylé. Montre une photo, stp !",
+   "rd": "스띨레. 몽트르 윈 포또, 에쓰떼뻬!",
+   "ko": "멋지다. 사진 보여 줘, 제발!",
+   "note": "stylé = 멋진 · stp = s'il te plaît",
+   "tags": [
+    "expr:stylé",
+    "expr:stp"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "at": "18:22",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Montre",
+     "montre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "photo",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Montre",
+     "montre",
+     ""
+    ],
+    [
+     "photo",
+     "photo",
+     ""
+    ],
+    [
+     "stp",
+     "stp",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Attends… j'ai trois photos. Voilà 👇",
+   "rd": "아땅… 제 트루아 포또. 부알라.",
+   "ko": "잠깐… 사진 세 장 있어. 여기 👇",
+   "note": "une photo → trois photos(복수) · 사진을 보낸다",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "at": "18:23",
+   "stamp": "📷",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "photos",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "photos",
+     "photo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "…Camille. C’est Théo. Mon coloc.",
+   "rd": "…까미유. 쎄 떼오. 몽 꼴록.",
+   "ko": "…카미유. 테오잖아. 내 룸메이트.",
+   "note": "coloc = 룸메이트(colocataire)",
+   "tags": [],
+   "new": [
+    "coloc"
+   ],
+   "emotion": "surprised",
+   "at": "18:25",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "C’",
+     "c’",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "coloc",
+     "colocataire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "C’",
+     "c’",
+     ""
+    ],
+    [
+     "coloc",
+     "colocataire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "QUOI ?! Celui qui chante sous la douche ?",
+   "rd": "꾸아?! 쓸뤼 끼 샹뜨 쑤 라 두슈?",
+   "ko": "뭐?! 샤워하면서 노래하는 그 사람?",
+   "note": "celui qui = …하는 사람 · douche = 샤워",
+   "tags": [],
+   "new": [
+    "douche"
+   ],
+   "emotion": "shout",
+   "at": "18:25",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "QUOI",
+     "quoi",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Celui",
+     "celui",
+     "PRON",
+     "Number=Sing"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "chante",
+     "cher",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "douche",
+     "douche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "QUOI",
+     "quoi",
+     ""
+    ],
+    [
+     "chante",
+     "cher",
+     ""
+    ],
+    [
+     "douche",
+     "douche",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Ouais. Tous les matins. Et il chante faux.",
+   "rd": "웨. 뚜 레 마땡. 에 일 샹뜨 포.",
+   "ko": "응. 매일 아침. 그리고 음치야.",
+   "note": "chanter faux = 음정이 틀리다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "at": "18:26",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Tous",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "matins",
+     "matin",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "chante",
+     "cher",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "faux",
+     "faux",
+     "ADJ",
+     "Gender=Masc"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tous",
+     "tout",
+     ""
+    ],
+    [
+     "matins",
+     "matin",
+     ""
+    ],
+    [
+     "chante",
+     "cher",
+     ""
+    ],
+    [
+     "faux",
+     "faux",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Bon… il est quand même mignon. Je fais quoi ? J'y vais ?",
+   "rd": "봉… 일 레 깡 멤 미뇽. 쥬 페 꾸아? 쥐 베?",
+   "ko": "음… 그래도 귀엽긴 해. 나 어떡해? 가 볼까?",
+   "note": "quand même = 그래도 · il fait → je fais · j'y vais = 나 간다",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "at": "18:27",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fais",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "vais",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "quand",
+     "quand",
+     ""
+    ],
+    [
+     "même",
+     "même",
+     ""
+    ],
+    [
+     "mignon",
+     "mignon",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "vais",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Vas-y ! Ça va aller. Et s'il chante, tu fermes les oreilles.",
+   "rd": "바지! 싸 바 알레. 에 씰 샹뜨, 뛰 페름 레 조레이.",
+   "ko": "가! 괜찮을 거야. 노래하면 귀 막고.",
+   "note": "j'y vais ? → vas-y ! · ça va aller = 괜찮을 거야 · fermer les oreilles = 귀를 막다",
+   "tags": [
+    "expr:vas-y"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "at": "18:28",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "aller",
+     "aller",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "chante",
+     "chant",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "fermes",
+     "ferme",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "oreilles",
+     "oreille",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "chante",
+     "chant",
+     ""
+    ],
+    [
+     "fermes",
+     "ferme",
+     ""
+    ],
+    [
+     "oreilles",
+     "oreille",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Il vient de m’écrire. Il dit que toi aussi, tu chantes sous la douche 🫠",
+   "rd": "일 비앵 드 메크리르. 일 디 끄 뚜아 오씨, 뛰 샹뜨 쑤 라 두슈.",
+   "ko": "방금 문자 왔어. 너도 샤워하면서 노래한대 🫠",
+   "note": "venir de + 동사 = 방금 …했다 · il chante → tu chantes",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "at": "18:31",
+   "stamp": "😂",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "vient",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "m’",
+     "m’",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "écrire",
+     "écrir",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "chantes",
+     "chanter",
+     "PRON",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "douche",
+     "douche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vient",
+     "venir",
+     ""
+    ],
+    [
+     "m’",
+     "m’",
+     ""
+    ],
+    [
+     "écrire",
+     "écrire",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "douche",
+     "douche",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

@@ -1,0 +1,843 @@
+{
+ "id": "r2_love_c1",
+ "region": "R2",
+ "island": "love",
+ "kind": "chat",
+ "title": "이웃집 고양이",
+ "emoji": "💘",
+ "scene": "데이팅앱에서 레아가 먼저 말을 건다. 프로필 사진 속 고양이는 사실 옆집 고양이. 데이트 신청에 레아가 답이 없다",
+ "where": "데이팅앱",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "ignore",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "데이팅앱 말투(mdr·ptdr·genre·sérieux)·복합과거 재귀(je me suis endormie)",
+ "expressions": [
+  "mdr",
+  "ptdr",
+  "sérieux",
+  "genre",
+  "tant pis"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Salut ! Le chat sur ta photo… c’est ton chat ? 😍",
+   "rd": "쌀뤼! 르 샤 쒸르 따 포또… 쎄 똥 샤?",
+   "ko": "안녕! 네 사진 속 고양이… 네 고양이야? 😍",
+   "note": "첫 메시지는 여자 쪽이 먼저",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "at": "22:47",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chat",
+     "chat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ta",
+     "ton",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "photo",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c’",
+     "c’",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "chat",
+     "chat",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "😍",
+     "😍",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chat",
+     "chat",
+     ""
+    ],
+    [
+     "photo",
+     "photo",
+     ""
+    ],
+    [
+     "c’",
+     "c’",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Mdr non, c'est le chat de ma voisine. Il squatte chez moi.",
+   "rd": "엠데에르 농, 쎄 르 샤 드 마 부아진. 일 스꽈뜨 셰 무아.",
+   "ko": "ㅋㅋ 아니, 옆집 고양이야. 우리 집에 눌러살아.",
+   "note": "mdr = ㅋㅋ · voisine = 이웃(여) · squatter = 눌러앉다(구어)",
+   "tags": [
+    "expr:mdr"
+   ],
+   "new": [
+    "voisin",
+    "squatter"
+   ],
+   "emotion": "amused",
+   "at": "22:49",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chat",
+     "chat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "voisine",
+     "voisin",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "squatte",
+     "squatter",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chat",
+     "chat",
+     ""
+    ],
+    [
+     "voisine",
+     "voisin",
+     ""
+    ],
+    [
+     "squatte",
+     "squatter",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Ptdr. Donc tu mens sur ton profil ? 🤨",
+   "rd": "쁘떼데에르. 동끄 뛰 망 쒸르 똥 프로필?",
+   "ko": "ㅋㅋㅋ 그럼 프로필 사기네? 🤨",
+   "note": "ptdr = 빵 터짐 · mentir = 거짓말하다 · profil = 프로필",
+   "tags": [
+    "expr:ptdr"
+   ],
+   "new": [
+    "mentir",
+    "profil"
+   ],
+   "emotion": "teasing",
+   "at": "22:50",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "mens",
+     "men",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "profil",
+     "profil",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "🤨",
+     "🤨",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Donc",
+     "donc",
+     ""
+    ],
+    [
+     "mens",
+     "men",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "profil",
+     "profil",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Un peu. Mais lui, il m'aime vraiment.",
+   "rd": "앙 뾔. 메 뤼, 일 멤 브레망.",
+   "ko": "조금. 근데 걔는 나 진짜 좋아해.",
+   "note": "lui, il … = 걔는(강조)",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "at": "22:51",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "aime",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peu",
+     "peu",
+     ""
+    ],
+    [
+     "aime",
+     "aimer",
+     ""
+    ],
+    [
+     "vraiment",
+     "vraiment",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Et moi, je peux venir squatter aussi ? 😇",
+   "rd": "에 무아, 쥬 뾔 브니르 스꽈떼 오씨?",
+   "ko": "그럼 나도 눌러살러 가도 돼? 😇",
+   "note": "심쿵 한 줄 — 고양이 말을 그대로 받아친다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "at": "22:53",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "peux",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "venir",
+     "venir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "squatter",
+     "squatter",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "venir",
+     "venir",
+     ""
+    ],
+    [
+     "squatter",
+     "squatter",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "…Sérieux ? Genre, samedi ? On boit un café ?",
+   "rd": "…쎄리외? 쟝르, 싸므디? 옹 부아 앙 까페?",
+   "ko": "…진짜? 그러니까, 토요일? 커피 마실래?",
+   "note": "genre = 그러니까, 막 · on boit = 우리 마시다(on)",
+   "tags": [
+    "expr:sérieux",
+    "expr:genre"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "…Sérieux ?"
+    ],
+    [
+     "shy",
+     "Genre, samedi ? On boit un café ?"
+    ]
+   ],
+   "at": "22:54",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Sérieux",
+     "sérieux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "samedi",
+     "samedi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "boit",
+     "boire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Sérieux",
+     "sérieux",
+     ""
+    ],
+    [
+     "samedi",
+     "samedi",
+     ""
+    ],
+    [
+     "boit",
+     "boire",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Bon… je suis allé trop vite. Tant pis 🫠",
+   "rd": "봉… 쥬 쒸 잘레 트로 비뜨. 땅 삐.",
+   "ko": "음… 내가 너무 빨랐나. 뭐 어쩔 수 없지 🫠",
+   "note": "읽고 답이 없다(읽씹) · tant pis = 어쩔 수 없지 · allé/allée 성 일치",
+   "tags": [
+    "expr:tant pis"
+   ],
+   "new": [],
+   "emotion": "sad",
+   "at": "23:41",
+   "read": false,
+   "fr_f": "Bon… je suis allée trop vite. Tant pis 🫠",
+   "rd_f": "봉… 쥬 쒸 잘레 트로 비뜨. 땅 삐.",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "allé",
+     "aller",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "allée",
+     "aller",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "allé",
+     "aller",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "vite",
+     "vite",
+     ""
+    ],
+    [
+     "Tant",
+     "tant",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "NON PARDON !! Je me suis endormie sur mon téléphone 😭",
+   "rd": "농 빠르동!! 쥬 므 쒸 장도르미 쒸르 몽 뗄레폰.",
+   "ko": "아니 미안!! 폰 보다가 잠들었어 😭",
+   "note": "s'endormir = 잠들다 (je me suis endormie)",
+   "tags": [],
+   "new": [
+    "endormir"
+   ],
+   "emotion": "flustered",
+   "at": "07:58",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "endormie",
+     "endormi",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "téléphone",
+     "téléphone",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "😭",
+     "😭",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "endormie",
+     "endormi",
+     ""
+    ],
+    [
+     "téléphone",
+     "téléphone",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Samedi, c'est oui. Mais le chat vient aussi.",
+   "rd": "싸므디, 쎄 위. 메 르 샤 비앵 오씨.",
+   "ko": "토요일, 좋아. 근데 고양이도 데려와.",
+   "note": "c'est oui = 좋아(승낙)",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "at": "07:59",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "oui",
+     "oui",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chat",
+     "chat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vient",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chat",
+     "chat",
+     ""
+    ],
+    [
+     "vient",
+     "venir",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Il peut pas. Il est jaloux, il me parle plus depuis hier soir.",
+   "rd": "일 뾔 빠. 일 레 쟐루, 일 므 빠를 쁠뤼 드쀠 이에르 수아르.",
+   "ko": "걘 못 가. 질투해서 어젯밤부터 나랑 말도 안 해.",
+   "note": "je peux(5턴) → il peut · jaloux = 질투하는 · il me parle plus = 나랑 말 안 한다",
+   "tags": [],
+   "new": [
+    "jaloux"
+   ],
+   "emotion": "amused",
+   "at": "08:01",
+   "stamp": "😼",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "peut",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "jaloux",
+     "jaloux",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "parle",
+     "parler",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peut",
+     "pouvoir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "jaloux",
+     "jaloux",
+     ""
+    ],
+    [
+     "parle",
+     "parler",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "hier",
+     "hier",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

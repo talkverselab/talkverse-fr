@@ -1,0 +1,640 @@
+{
+ "id": "r1_friends_a1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "안 돌아가는 열쇠",
+ "emoji": "🔑",
+ "scene": "밤, 아파트 계단. 열쇠를 잃어버린 카미유에게 A 가 여분 열쇠를 갖다주는데 문이 안 열린다 — 한 층 아래 남의 집 문이었다",
+ "where": "아파트 계단",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Voisin"
+ },
+ "cast": {
+  "C": "man_o"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "tu 현재·복합과거(t'as perdu)·aller+inf(je vais essayer)·구어 부정(tourne pas)",
+ "expressions": [
+  "tiens",
+  "bref",
+  "attends",
+  "t'es sûr",
+  "oh là là",
+  "la honte"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Enfin ! T'as la clé ? J'attends depuis une heure.",
+   "rd": "앙팽! 따 라 끌레? 쟈땅 드쀠 윈 뇌르.",
+   "ko": "드디어! 열쇠 가져왔어? 한 시간째 기다렸어.",
+   "note": "clé = 열쇠 · depuis une heure = 한 시간째",
+   "tags": [],
+   "new": [
+    "clé"
+   ],
+   "segs": [
+    [
+     "excited",
+     "Enfin !"
+    ],
+    [
+     "annoyed",
+     "T'as la clé ? J'attends depuis une heure."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "as",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "clé",
+     "clé",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "attends",
+     "attendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "heure",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "as",
+     "as",
+     ""
+    ],
+    [
+     "clé",
+     "clé",
+     ""
+    ],
+    [
+     "attends",
+     "attendre",
+     ""
+    ],
+    [
+     "heure",
+     "heure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, tiens. Mais t'as perdu la tienne où ?",
+   "rd": "웨, 띠앵. 메 따 뻬르뒤 라 띠엔 우?",
+   "ko": "응, 여기. 근데 네 건 어디서 잃어버렸어?",
+   "note": "tiens = 자, 여기 · la tienne = 네 것(열쇠)",
+   "tags": [
+    "expr:tiens",
+    "form:passé composé"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "tiens",
+     "tien",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "as",
+     "as",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "perdu",
+     "perdre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tienne",
+     "tienne",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tiens",
+     "tien",
+     ""
+    ],
+    [
+     "perdu",
+     "perdre",
+     ""
+    ],
+    [
+     "tienne",
+     "tienne",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Je perds toujours mes clés… Bref, ouvre vite !",
+   "rd": "쥬 뻬르 뚜쥬르 메 끌레… 브레프, 우브르 비뜨!",
+   "ko": "나 열쇠 맨날 잃어버려… 아무튼 빨리 열어!",
+   "note": "t'as perdu → je perds · la clé → mes clés · bref = 아무튼, 됐고",
+   "tags": [
+    "expr:bref"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "perds",
+     "perdre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mes",
+     "mon",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "clés",
+     "clé",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "ouvre",
+     "ouvrir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "perds",
+     "perdre",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ],
+    [
+     "clés",
+     "clé",
+     ""
+    ],
+    [
+     "Bref",
+     "bref",
+     ""
+    ],
+    [
+     "ouvre",
+     "ouvrir",
+     ""
+    ],
+    [
+     "vite",
+     "vite",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Attends… elle veut pas tourner. T'es sûre ?",
+   "rd": "아땅… 엘 뵈 빠 뚜르네. 떼 쒸르?",
+   "ko": "잠깐… 안 돌아가. 이거 맞아?",
+   "note": "elle veut pas tourner = 도무지 안 돌아간다 · t'es sûre ? = 확실해?(카미유라 여성형)",
+   "tags": [
+    "expr:attends",
+    "expr:t'es sûr"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "veut",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tourner",
+     "tourner",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "sûre",
+     "sûre",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "veut",
+     "vouloir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "tourner",
+     "tourner",
+     ""
+    ],
+    [
+     "sûre",
+     "sûre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Donne, je veux essayer… Non, elle tourne pas.",
+   "rd": "돈, 쥬 뵈 제쎄예… 농, 엘 뚜른 빠.",
+   "ko": "줘 봐, 내가 해 볼게… 아니, 안 돌아가네.",
+   "note": "elle veut → je veux · tourner → elle tourne pas",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Donne, je veux essayer…"
+    ],
+    [
+     "worried",
+     "Non, elle tourne pas."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "essayer",
+     "essayer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "tourne",
+     "tourne",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "essayer",
+     "essayer",
+     ""
+    ],
+    [
+     "tourne",
+     "tourne",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Camille… ta porte, elle est pas en haut ?",
+   "rd": "까미유… 따 뽀르뜨, 엘 레 빠 앙 오?",
+   "ko": "카미유… 너네 집 문, 위층 아니야?",
+   "note": "en haut = 위에, 위층 (h 는 이어 읽지 않는다)",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "ta",
+     "ton",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "porte",
+     "porte",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "haut",
+     "haut",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "porte",
+     "porte",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "haut",
+     "haut",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "…Si, c'est en haut. Oh là là, la honte.",
+   "rd": "…씨, 쎄 땅 오. 올랄라, 라 옹뜨.",
+   "ko": "…맞다, 위층이지. 아 진짜, 창피해.",
+   "note": "si = (부정 질문에) 아니, 맞아 · la honte = 창피해",
+   "tags": [
+    "expr:oh là là",
+    "expr:la honte"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "haut",
+     "haut",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "honte",
+     "honte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "haut",
+     "haut",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "honte",
+     "honte",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "fr": "C'est fini, là ? Je dors, moi !",
+   "rd": "쎄 피니, 라? 쥬 도르, 무아!",
+   "ko": "이제 끝났어요? 나 자고 있거든요!",
+   "note": "문 안에서 이웃이 외친다 — 대명사 없이 말해 반말·존댓말이 드러나지 않는다",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fini",
+     "finir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fini",
+     "finir",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "dors",
+     "dormir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

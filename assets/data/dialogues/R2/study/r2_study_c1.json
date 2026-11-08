@@ -1,0 +1,1145 @@
+{
+ "id": "r2_study_c1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "title": "시험은 월요일",
+ "emoji": "📚",
+ "scene": "금요일 밤, 미술사 시험 노트를 빌리려고 레아에게 문자한다. 둘이 아는 시험 날짜가 다르다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "exam_other"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "부탁(tu peux m'envoyer…?)·요일·시간·복합과거 부정(j'ai rien lu)",
+ "expressions": [
+  "attends",
+  "ben",
+  "c'est pas vrai",
+  "au fait",
+  "stp",
+  "grave"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Léa stp, tu peux m'envoyer tes notes ? Pour l'exam de lundi 🙏",
+   "rd": "레아 에쓰떼뻬, 뛰 뾔 망부아예 떼 노뜨? 뿌르 레그잠 드 룅디.",
+   "ko": "레아 제발, 노트 좀 보내 줄 수 있어? 월요일 시험 때문에 🙏",
+   "note": "stp = 제발(s'il te plaît) · envoyer = 보내다 · notes = 필기 · exam = 시험(구어)",
+   "tags": [],
+   "new": [
+    "envoyer",
+    "note",
+    "exam"
+   ],
+   "emotion": "polite",
+   "at": "21:05",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "peux",
+     "peux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "envoyer",
+     "envoyer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "tes",
+     "te",
+     "ADJ",
+     "Number=Plur"
+    ],
+    [
+     "notes",
+     "note",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "exam",
+     "examen",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "lundi",
+     "lundi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "🙏",
+     "🙏",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "stp",
+     "stp",
+     ""
+    ],
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "envoyer",
+     "envoyer",
+     ""
+    ],
+    [
+     "tes",
+     "te",
+     ""
+    ],
+    [
+     "notes",
+     "note",
+     ""
+    ],
+    [
+     "exam",
+     "examen",
+     ""
+    ],
+    [
+     "lundi",
+     "lundi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Ouais, attends, je prends des photos.",
+   "rd": "웨, 아땅, 쥬 프랑 데 포또.",
+   "ko": "응, 잠깐, 사진 찍을게.",
+   "note": "prendre des photos = 사진을 찍다",
+   "tags": [
+    "expr:attends"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "at": "21:12",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "attends",
+     "attend",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "prends",
+     "prend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "photos",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "attends",
+     "attend",
+     ""
+    ],
+    [
+     "prends",
+     "prendre",
+     ""
+    ],
+    [
+     "photos",
+     "photo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Voilà 📸 Je t'envoie tout. C'est un peu le bazar, désolée.",
+   "rd": "부알라. 쥬 땅부아 뚜. 쎄 땅 뾔 르 바자르, 데졸레.",
+   "ko": "여기 📸 다 보낼게. 좀 엉망이야, 미안.",
+   "note": "envoyer → je t'envoie · c'est le bazar = 엉망이다 · désolée = 미안(여)",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "at": "21:14",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "📸",
+     "📸",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "envoie",
+     "envoyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bazar",
+     "bazar",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "désolée",
+     "désoler",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "envoie",
+     "envoyer",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "peu",
+     "peu",
+     ""
+    ],
+    [
+     "bazar",
+     "bazar",
+     ""
+    ],
+    [
+     "désolée",
+     "désoler",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Merci, t'es la meilleure ❤️ J'ai tout le week-end pour réviser.",
+   "rd": "메르씨, 떼 라 메이외르. 제 뚜 르 위껜드 뿌르 레비제.",
+   "ko": "고마워, 네가 최고야 ❤️ 주말 내내 복습할 수 있어.",
+   "note": "la meilleure = 최고(여) · réviser = 복습하다",
+   "tags": [],
+   "new": [
+    "réviser"
+   ],
+   "emotion": "cheerful",
+   "at": "21:15",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "es",
+     "être",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "meilleure",
+     "meilleur",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "️",
+     "️",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "week",
+     "week",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "-",
+     "-",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "end",
+     "end",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "réviser",
+     "réviser",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "meilleure",
+     "meilleur",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "week",
+     "week",
+     ""
+    ],
+    [
+     "end",
+     "end",
+     ""
+    ],
+    [
+     "réviser",
+     "réviser",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Le week-end ? 🤨",
+   "rd": "르 위껜드?",
+   "ko": "주말? 🤨",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "at": "21:15",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "week",
+     "week",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "-",
+     "-",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "end",
+     "end",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "week",
+     "week",
+     ""
+    ],
+    [
+     "end",
+     "end",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Ben oui, l'exam, c'est lundi, neuf heures. Je lis tout dimanche.",
+   "rd": "뱅 위, 레그잠, 쎄 룅디, 뇌 뵈르. 쥬 리 뚜 디망슈.",
+   "ko": "응, 시험 월요일 9시잖아. 일요일에 다 읽을 거야.",
+   "note": "ben oui = 그야 그렇지 · je lis = 읽는다(현재로 가까운 미래)",
+   "tags": [
+    "expr:ben"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "at": "21:16",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "oui",
+     "oui",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "exam",
+     "examen",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "lundi",
+     "lundi",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "neuf",
+     "neuf",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lis",
+     "lire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dimanche",
+     "dimanche",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "exam",
+     "examen",
+     ""
+    ],
+    [
+     "lundi",
+     "lundi",
+     ""
+    ],
+    [
+     "neuf",
+     "neuf",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "lis",
+     "lire",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "dimanche",
+     "dimanche",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "{name}… l'exam, c'est demain. Neuf heures.",
+   "rd": "{name}… 레그잠, 쎄 드맹. 뇌 뵈르.",
+   "ko": "{name}… 시험 내일이야. 9시.",
+   "note": "demain = 내일",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "at": "21:16",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "exam",
+     "examen",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Neuf",
+     "neuf",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "exam",
+     "examen",
+     ""
+    ],
+    [
+     "demain",
+     "demain",
+     ""
+    ],
+    [
+     "Neuf",
+     "neuf",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "QUOI ?! C'est pas vrai… j'ai rien lu !",
+   "rd": "꾸아?! 쎄 빠 브레… 제 리앵 뤼!",
+   "ko": "뭐?! 말도 안 돼… 아무것도 안 읽었어!",
+   "note": "je lis → j'ai rien lu = 아무것도 안 읽었다(ne 생략)",
+   "tags": [
+    "expr:c'est pas vrai"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "at": "21:17",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "QUOI",
+     "quoi",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vrai",
+     "vrai",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rien",
+     "rien",
+     "PRON",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "QUOI",
+     "quoi",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "vrai",
+     "vrai",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Viens chez moi. On révise ensemble cette nuit. J'ai du café.",
+   "rd": "비앵 셰 무아. 옹 레비즈 앙쌍블 쎄뜨 뉘. 제 뒤 까페.",
+   "ko": "우리 집 와. 오늘 밤 같이 공부하자. 커피 있어.",
+   "note": "réviser → on révise = 우리 복습하다(on)",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "at": "21:18",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "révise",
+     "révis",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "ensemble",
+     "ensembl",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "nuit",
+     "nuit",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "révise",
+     "révis",
+     ""
+    ],
+    [
+     "ensemble",
+     "ensemble",
+     ""
+    ],
+    [
+     "nuit",
+     "nuit",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Grave. J'arrive, vingt minutes max !",
+   "rd": "그라브. 쟈리브, 뱅 미뉘뜨 막쓰!",
+   "ko": "완전. 갈게, 길어야 20분!",
+   "note": "grave = 완전(구어) · max = 길어야",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "at": "21:18",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "minutes",
+     "minute",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "max",
+     "max",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "arrive",
+     "arriver",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ],
+    [
+     "max",
+     "max",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Au fait… page douze, c'est pas une note. C'est toi. Je dessine en cours 🙈",
+   "rd": "오 페뜨… 빠쥬 두즈, 쎄 빠 쥔 노뜨. 쎄 뚜아. 쥬 데씬 앙 꾸르.",
+   "ko": "아 참… 12쪽은 필기 아니야. 너야. 수업 때 그려 🙈",
+   "note": "au fait = 아 참, 그런데 · en cours = 수업 중에",
+   "tags": [],
+   "new": [
+    "page"
+   ],
+   "emotion": "shy",
+   "at": "21:19",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "fait",
+     "fait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "DET",
+     "Number=Plur"
+    ],
+    [
+     "page",
+     "page",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "note",
+     "note",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "toi",
+     "toi",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dessine",
+     "dessiner",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cours",
+     "cours",
+     "NOUN",
+     "Gender=Masc"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "page",
+     "page",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "note",
+     "note",
+     ""
+    ],
+    [
+     "dessine",
+     "dessiner",
+     ""
+    ],
+    [
+     "cours",
+     "cours",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "…Tu me dessines, moi ? Je peux la garder, cette page ?",
+   "rd": "…뛰 므 데씬, 무아? 쥬 뾔 라 가르데, 쎄뜨 빠쥬?",
+   "ko": "…나를 그린다고? 그 페이지, 내가 가져도 돼?",
+   "note": "je dessine → tu me dessines · garder = 간직하다 · la = cette page",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "at": "21:21",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Tu",
+     "taire",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "dessines",
+     "dessiner",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "peux",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "garder",
+     "garder",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "page",
+     "page",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dessines",
+     "dessiner",
+     ""
+    ],
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "garder",
+     "garder",
+     ""
+    ],
+    [
+     "page",
+     "page",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

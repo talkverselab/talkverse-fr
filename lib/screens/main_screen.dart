@@ -6,6 +6,7 @@ import '../core/theme.dart';
 import '../main.dart';
 import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
+import 'alphabet_chart_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
@@ -395,6 +396,10 @@ class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final groups = <(String, List<_MenuItem>)>[
+      (tr('기초'), [
+        _MenuItem(label: tr('알파벳과 발음'), sub: tr('Alphabet · 비모음 · 연음'), badge: 'Aa', color: AppColors.francais,
+          builder: (_) => const AlphabetChartScreen()),
+      ]),
       (tr('문법·소리'), [
         _MenuItem(label: tr('문법'), sub: 'Grammaire', badge: 'G', color: AppColors.rojoDeep,
           builder: (_) => const GrammarHubScreen()),
@@ -453,7 +458,7 @@ class _MenuGrid extends StatelessWidget {
               padding: const EdgeInsets.only(top: 8),
               child: Wrap(crossAxisAlignment: WrapCrossAlignment.center, spacing: 6, children: [
                 Text(tr('곧 열려요'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
-                for (final (label, t) in [(tr('성·수'), tr('성·수 일치')), (tr('발음'), tr('발음'))])
+                for (final (label, t) in [(tr('성·수'), tr('성·수 일치'))])
                   InkWell(
                     onTap: () => openPane(context, (_) => _ComingSoon(title: t)),
                     child: Text('· $label', style: const TextStyle(fontSize: 12, color: AppColors.muted, decoration: TextDecoration.underline)),

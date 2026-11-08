@@ -1,0 +1,623 @@
+{
+ "id": "r3_love_a3",
+ "region": "R3",
+ "island": "love",
+ "kind": "short",
+ "title": "첫 크레프들",
+ "emoji": "🥞",
+ "scene": "레벨 1 「첫 크레프」를 복수로 — 위고와 레아가 A 와 테오에게 크레프 뒤집기를 가르친다. 같은 문장을 vous·nous·복수로",
+ "where": "위고네 부엌",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Léa",
+  "D": "Théo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "life"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수(les retournez·elles sont) — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "d'accord",
+  "allez",
+  "grave",
+  "voilà"
+ ],
+ "tags": [
+  "base:r1_love_a3"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Bon, premières crêpes. Vous les retournez, d'accord ?",
+   "rd": "봉, 프르미에르 크레쁘. 부 레 르뚜르네, 다꼬르?",
+   "ko": "자, 첫 크레프들. 너희가 뒤집어, 알았지?",
+   "note": "tu la retournes → vous les retournez",
+   "tags": [
+    "expr:d'accord",
+    "callback:r1_love_a3",
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "premières",
+     "premier",
+     "ADJ",
+     "Gender=Fem|NumType=Ord|Number=Plur"
+    ],
+    [
+     "crêpes",
+     "crêpe",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "les",
+     "le",
+     "PRON",
+     "Number=Plur|Person=3"
+    ],
+    [
+     "retournez",
+     "retourner",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "premières",
+     "premier",
+     ""
+    ],
+    [
+     "crêpes",
+     "crêpe",
+     ""
+    ],
+    [
+     "retournez",
+     "retourner",
+     ""
+    ],
+    [
+     "accord",
+     "accord",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Nous ? On a jamais fait ça. Vous allez rire.",
+   "rd": "누? 옹 나 자메 페 싸. 부 잘레 리르.",
+   "ko": "우리가? 한 번도 안 해 봤어. 너희 웃을 거야.",
+   "note": "moi → nous · j'ai → on a · tu vas → vous allez",
+   "tags": [
+    "form:nous",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "allez",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rire",
+     "rir",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "allez",
+     "aller",
+     ""
+    ],
+    [
+     "rire",
+     "rire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Nous allons pas rire. Allez, un, deux… trois !",
+   "rd": "누 잘롱 빠 리르. 알레, 앙, 되… 트루아!",
+   "ko": "안 웃어. 자, 하나, 둘… 셋!",
+   "note": "je vais → nous allons",
+   "tags": [
+    "expr:allez",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "allons",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rire",
+     "rir",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Allez",
+     "aller",
+     "VERB",
+     "Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "allons",
+     "aller",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "rire",
+     "rire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "fr": "Elles sont où ? …Oh non, elles sont tombées.",
+   "rd": "엘 쏭 우? …오 농, 엘 쏭 똥베.",
+   "ko": "어디 갔지? …아 안 돼, 떨어졌어.",
+   "note": "elle est tombée → elles sont tombées(복수 일치)",
+   "tags": [
+    "form:pluriel"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Elles sont où ?"
+    ],
+    [
+     "flustered",
+     "…Oh non, elles sont tombées."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tombées",
+     "tomber",
+     "VERB",
+     "Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tombées",
+     "tomber",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Pas grave, les premières, elles tombent toujours.",
+   "rd": "빠 그라브, 레 프르미에르, 엘 똥브 뚜쥬르.",
+   "ko": "괜찮아, 첫 장들은 원래 떨어져.",
+   "note": "elles sont tombées → elles tombent toujours · 레벨 1 elle tombe → elles tombent",
+   "tags": [
+    "expr:grave",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "grave",
+     "grave",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "premières",
+     "première",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "tombent",
+     "tomber",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ],
+    [
+     "premières",
+     "première",
+     ""
+    ],
+    [
+     "tombent",
+     "tomber",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "fr": "Attendez, vous avez de la farine… là.",
+   "rd": "아땅데, 부 자베 들 라 파린… 라.",
+   "ko": "잠깐, 너희 밀가루 묻었어… 여기.",
+   "note": "attends → attendez · t'as → vous avez",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "farine",
+     "farine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "farine",
+     "farine",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "…Ici ? Vous pouvez nous aider ?",
+   "rd": "…이씨? 부 뿌베 누 제데?",
+   "ko": "…여기? 좀 도와줄래?",
+   "note": "tu peux m'aider → vous pouvez nous aider",
+   "tags": [
+    "form:vous",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "pouvez",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "aider",
+     "aider",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Ici",
+     "ici",
+     ""
+    ],
+    [
+     "pouvez",
+     "pouvoir",
+     ""
+    ],
+    [
+     "aider",
+     "aider",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Voilà. …Les prochaines, on va les retourner ensemble.",
+   "rd": "부알라. …레 쁘로셴, 옹 바 레 르뚜르네 앙쌍블.",
+   "ko": "됐다. …다음 건 같이 뒤집자.",
+   "note": "vous les retournez → on va les retourner · la prochaine → les prochaines",
+   "tags": [
+    "expr:voilà",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "Les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "prochaines",
+     "prochaine",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "PRON",
+     "Number=Plur|Person=3"
+    ],
+    [
+     "retourner",
+     "retourner",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "ensemble",
+     "ensemble",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "prochaines",
+     "prochaine",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "retourner",
+     "retourner",
+     ""
+    ],
+    [
+     "ensemble",
+     "ensemble",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

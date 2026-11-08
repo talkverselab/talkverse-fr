@@ -1,0 +1,1420 @@
+{
+ "id": "r5_work_b1",
+ "region": "R5",
+ "island": "work",
+ "kind": "long",
+ "title": "요거트 견적서",
+ "emoji": "💻",
+ "scene": "재택근무 중 고객사와 화상 회의. 납기 협상이 막힌 순간 룸메이트 테오가 요거트를 따지러 카메라 앞에 등장하고, 협상까지 해 버린다",
+ "where": "셰어하우스 방·화상 회의",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Cliente",
+  "D": "Manager"
+ },
+ "cast": {
+  "C": "woman_m",
+  "D": "man_m"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "회의·영업 어휘(ordre du jour·devis·délai·livraison·télétravail·partager l'écran·tableau·concurrent·tarif·augmentation·direction), 새 문법 없음",
+ "expressions": [
+  "bien sûr",
+  "voilà",
+  "trop",
+  "pardon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "D",
+   "fr": "Bonjour à tous. On commence ? L'ordre du jour : le devis et les délais de livraison.",
+   "rd": "봉쥬르 아 뚜쓰. 옹 꼬망쓰? 로르드르 뒤 쥬르, 르 드비 에 레 델레 드 리브레종.",
+   "ko": "안녕하세요, 여러분. 시작할까요? 안건은 견적서와 납기입니다.",
+   "note": "ordre du jour = 안건 · devis = 견적서 · délai = 기한",
+   "tags": [],
+   "new": [
+    "ordre du jour",
+    "devis",
+    "délai",
+    "livraison"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "tous",
+     "tout",
+     "PRON",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "commence",
+     "commencer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "L'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "ordre",
+     "ordre",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "jour",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "devis",
+     "devis",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "délais",
+     "délai",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "livraison",
+     "livraison",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "commence",
+     "commencer",
+     ""
+    ],
+    [
+     "ordre",
+     "ordre",
+     ""
+    ],
+    [
+     "jour",
+     "jour",
+     ""
+    ],
+    [
+     "devis",
+     "devis",
+     ""
+    ],
+    [
+     "délais",
+     "délai",
+     ""
+    ],
+    [
+     "livraison",
+     "livraison",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "fr": "Bonjour. Je vous entends mal, votre micro grésille un peu.",
+   "rd": "봉쥬르. 쥬 부 장땅 말, 보트르 미끄로 그레지이 앙 뾔.",
+   "ko": "안녕하세요. 잘 안 들려요, 마이크가 좀 지직거려요.",
+   "note": "grésiller = 지직거리다",
+   "tags": [],
+   "new": [
+    "micro",
+    "grésiller"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "entends",
+     "entendre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "micro",
+     "micro",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "grésille",
+     "grésill",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ]
+   ],
+   "lemmas": [
+    [
+     "entends",
+     "entendre",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "micro",
+     "micro",
+     ""
+    ],
+    [
+     "grésille",
+     "grésill",
+     ""
+    ],
+    [
+     "peu",
+     "peu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Pardon, je suis en télétravail aujourd'hui. Et maintenant, c'est mieux ?",
+   "rd": "빠르동, 쥬 쒸 장 뗄레트라바이 오쥬르뒤. 에 맹뜨낭, 쎄 미외?",
+   "ko": "죄송해요, 오늘 재택이라서요. 이제 좀 나아요?",
+   "note": "télétravail = 재택근무",
+   "tags": [
+    "expr:pardon"
+   ],
+   "new": [
+    "télétravail"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "télétravail",
+     "télétravail",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "télétravail",
+     "télétravail",
+     ""
+    ],
+    [
+     "aujourd'hui",
+     "aujourd'hui",
+     ""
+    ],
+    [
+     "maintenant",
+     "maintenant",
+     ""
+    ],
+    [
+     "mieux",
+     "mieux",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "fr": "Parfait. Vous pouvez partager votre écran ? Je voudrais voir le tableau des prix.",
+   "rd": "빠르페. 부 뿌베 빠르따제 보트르 에끄랑? 쥬 부드레 부아르 르 따블로 데 프리.",
+   "ko": "좋아요. 화면 공유해 주실래요? 가격표를 보고 싶어요.",
+   "note": "partager l'écran = 화면 공유 · tableau = 표",
+   "tags": [],
+   "new": [
+    "écran",
+    "tableau"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Parfait",
+     "parfaire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "pouvez",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "partager",
+     "partager",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "écran",
+     "écran",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "voudrais",
+     "vouloir",
+     "VERB",
+     "Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "voir",
+     "voir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "tableau",
+     "tableau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "prix",
+     "prix",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Parfait",
+     "parfait",
+     ""
+    ],
+    [
+     "pouvez",
+     "pouvoir",
+     ""
+    ],
+    [
+     "partager",
+     "partager",
+     ""
+    ],
+    [
+     "écran",
+     "écran",
+     ""
+    ],
+    [
+     "voudrais",
+     "vouloir",
+     ""
+    ],
+    [
+     "voir",
+     "voir",
+     ""
+    ],
+    [
+     "tableau",
+     "tableau",
+     ""
+    ],
+    [
+     "prix",
+     "prix",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Bien sûr. Voilà : livraison en trois semaines, installation comprise.",
+   "rd": "비앵 쒸르. 부알라, 리브레종 앙 트루아 쓰멘, 앵스딸라씨옹 꽁프리즈.",
+   "ko": "물론이죠. 여기요. 설치 포함 3주 안에 납품입니다.",
+   "note": "compris(e) = 포함된",
+   "tags": [
+    "expr:bien sûr",
+    "expr:voilà"
+   ],
+   "new": [
+    "installation",
+    "compris"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Voilà",
+     "voilà",
+     "VERB",
+     "Mood=Ind|VerbForm=Fin"
+    ],
+    [
+     "livraison",
+     "livraison",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "semaines",
+     "semaine",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "installation",
+     "installation",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "comprise",
+     "comprendre",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "Voilà",
+     "voilà",
+     ""
+    ],
+    [
+     "livraison",
+     "livraison",
+     ""
+    ],
+    [
+     "semaines",
+     "semaine",
+     ""
+    ],
+    [
+     "installation",
+     "installation",
+     ""
+    ],
+    [
+     "comprise",
+     "comprendre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "fr": "Trois semaines, c'est long. Nos concurrents proposent dix jours.",
+   "rd": "트루아 쓰멘, 쎄 롱. 노 꽁뀌랑 프로뽀즈 디 쥬르.",
+   "ko": "3주는 길어요. 경쟁사들은 열흘이라던데요.",
+   "note": "concurrent = 경쟁사",
+   "tags": [],
+   "new": [
+    "concurrent",
+    "proposer"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "semaines",
+     "semaine",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "long",
+     "long",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Nos",
+     "notre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "concurrents",
+     "concurrent",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "proposent",
+     "proposer",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "jours",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "semaines",
+     "semaine",
+     ""
+    ],
+    [
+     "long",
+     "long",
+     ""
+    ],
+    [
+     "concurrents",
+     "concurrent",
+     ""
+    ],
+    [
+     "proposent",
+     "proposer",
+     ""
+    ],
+    [
+     "jours",
+     "jour",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "fr": "On peut réduire le délai, mais le tarif augmente de dix pour cent.",
+   "rd": "옹 뾔 레뒤르 르 델레, 메 르 따리프 오그망뜨 드 디 뿌르 쌍.",
+   "ko": "기한은 줄일 수 있지만, 그러면 단가가 10% 오릅니다.",
+   "note": "tarif = 요금, 단가 · pour cent = 퍼센트",
+   "tags": [],
+   "new": [
+    "réduire",
+    "tarif",
+    "augmenter"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "peut",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "réduire",
+     "réduire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "délai",
+     "délai",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "tarif",
+     "tarif",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "augmente",
+     "augmenter",
+     "VERB",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dix",
+     "dix",
+     "PRON",
+     "NumType=Card"
+    ],
+    [
+     "cent",
+     "cent",
+     "PRON",
+     "NumType=Card"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peut",
+     "pouvoir",
+     ""
+    ],
+    [
+     "réduire",
+     "réduire",
+     ""
+    ],
+    [
+     "délai",
+     "délai",
+     ""
+    ],
+    [
+     "tarif",
+     "tarif",
+     ""
+    ],
+    [
+     "augmente",
+     "augmenter",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "fr": "Dix pour cent… Je dois en parler à ma direction.",
+   "rd": "디 뿌르 쌍… 쥬 두아 앙 빠를레 아 마 디렉씨옹.",
+   "ko": "10%라… 경영진과 상의해야겠네요.",
+   "note": "direction = 경영진",
+   "tags": [],
+   "new": [
+    "direction"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "cent",
+     "cent",
+     "PRON",
+     "NumType=Card"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dois",
+     "devoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parler",
+     "parler",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "direction",
+     "direction",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dois",
+     "devoir",
+     ""
+    ],
+    [
+     "parler",
+     "parler",
+     ""
+    ],
+    [
+     "direction",
+     "direction",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "{name} ! T'as encore mangé mon yaourt ? Il y avait mon nom dessus !",
+   "rd": "{name}! 따 장꼬르 망제 몽 야우르뜨? 일 리 아베 몽 농 드쒸!",
+   "ko": "{name}! 너 또 내 요거트 먹었지? 내 이름 써 놨잖아!",
+   "note": "룸메이트가 카메라 앞에 등장",
+   "tags": [],
+   "new": [
+    "yaourt"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mangé",
+     "manger",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "yaourt",
+     "yaourt",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "avait",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "nom",
+     "nom",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dessus",
+     "dessu",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "encore",
+     "encore",
+     ""
+    ],
+    [
+     "mangé",
+     "manger",
+     ""
+    ],
+    [
+     "yaourt",
+     "yaourt",
+     ""
+    ],
+    [
+     "nom",
+     "nom",
+     ""
+    ],
+    [
+     "dessus",
+     "dessus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Théo, je suis en réunion ! Tu es dans le champ de la caméra !",
+   "rd": "떼오, 쥬 쒸 장 레위니옹! 뛰 에 당 르 샹 들 라 까메라!",
+   "ko": "테오, 나 회의 중이야! 카메라에 너 나오고 있어!",
+   "note": "champ = (카메라의) 화면 안",
+   "tags": [],
+   "new": [
+    "réunion",
+    "champ",
+    "caméra"
+   ],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "réunion",
+     "réunion",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "es",
+     "être",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "champ",
+     "champ",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "caméra",
+     "caméra",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "réunion",
+     "réunion",
+     ""
+    ],
+    [
+     "champ",
+     "champ",
+     ""
+    ],
+    [
+     "caméra",
+     "caméra",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Oh pardon… Bonjour, madame. Il est bien, votre tableau. Mais trois semaines, c'est trop.",
+   "rd": "오 빠르동… 봉쥬르, 마담. 일 레 비앵, 보트르 따블로. 메 트루아 쓰멘, 쎄 트로.",
+   "ko": "아 죄송해요… 안녕하세요. 표 좋네요. 근데 3주는 너무 길어요.",
+   "note": "테오가 협상에 끼어든다",
+   "tags": [
+    "expr:trop"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Oh pardon… Bonjour, madame."
+    ],
+    [
+     "amused",
+     "Il est bien, votre tableau. Mais trois semaines, c'est trop."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "pardon",
+     "pardon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "madame",
+     "monsieur",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "tableau",
+     "tableau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "semaines",
+     "semaine",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pardon",
+     "pardon",
+     ""
+    ],
+    [
+     "madame",
+     "monsieur",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "tableau",
+     "tableau",
+     ""
+    ],
+    [
+     "semaines",
+     "semaine",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "Il a raison. Votre colocataire négocie mieux que vous.",
+   "rd": "일 라 레종. 보트르 꼴로까떼르 네고씨 미외 끄 부.",
+   "ko": "저분 말이 맞아요. 룸메이트분이 두 분보다 협상을 잘하시네요.",
+   "note": "avoir raison = 말이 맞다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "raison",
+     "raison",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "colocataire",
+     "colocataire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "négocie",
+     "négocier",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ]
+   ],
+   "lemmas": [
+    [
+     "raison",
+     "raison",
+     ""
+    ],
+    [
+     "colocataire",
+     "colocataire",
+     ""
+    ],
+    [
+     "négocie",
+     "négocier",
+     ""
+    ],
+    [
+     "mieux",
+     "mieux",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "D",
+   "fr": "Bon… Dix jours, sans augmentation. Je vous envoie le nouveau devis ce soir.",
+   "rd": "봉… 디 쥬르, 쌍 조그망따씨옹. 쥬 부 장부아 르 누보 드비 쓰 수아르.",
+   "ko": "음… 열흘, 인상 없이 하죠. 새 견적서는 오늘 저녁에 보내 드리겠습니다.",
+   "note": "augmentation = 인상",
+   "tags": [],
+   "new": [
+    "augmentation"
+   ],
+   "segs": [
+    [
+     "sad",
+     "Bon…"
+    ],
+    [
+     "stiff",
+     "Dix jours, sans augmentation. Je vous envoie le nouveau devis ce soir."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "jours",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "augmentation",
+     "augmentation",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "envoie",
+     "envoyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "nouveau",
+     "nouveau",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "devis",
+     "devis",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "jours",
+     "jour",
+     ""
+    ],
+    [
+     "augmentation",
+     "augmentation",
+     ""
+    ],
+    [
+     "envoie",
+     "envoyer",
+     ""
+    ],
+    [
+     "nouveau",
+     "nouveau",
+     ""
+    ],
+    [
+     "devis",
+     "devis",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "fr": "Et pour le yaourt, je t'envoie mon devis aussi. Deux euros, livraison comprise.",
+   "rd": "에 뿌르 르 야우르뜨, 쥬 땅부아 몽 드비 오씨. 되 죄로, 리브레종 꽁프리즈.",
+   "ko": "그리고 요거트는, 나도 견적서 보낼게. 2유로, 배달 포함.",
+   "note": "회의 어휘로 받아치는 킥",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "yaourt",
+     "yaourt",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "envoie",
+     "envoyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "devis",
+     "devis",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "livraison",
+     "livraison",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "comprise",
+     "comprise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "yaourt",
+     "yaourt",
+     ""
+    ],
+    [
+     "envoie",
+     "envoyer",
+     ""
+    ],
+    [
+     "devis",
+     "devis",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "euros",
+     "euro",
+     ""
+    ],
+    [
+     "livraison",
+     "livraison",
+     ""
+    ],
+    [
+     "comprise",
+     "comprise",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

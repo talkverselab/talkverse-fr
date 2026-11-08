@@ -1,0 +1,76 @@
+{
+ "ep": "r1_love_c1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Salut ! Alors, c'est bien toi ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Oui, c'est moi ! Et toi, Léa ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Ouais. Tu fais quoi, là ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Un film, chez moi. Et toi ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Pareil. Enfin, je regarde pas trop…"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Ah bon ? Pourquoi ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "Ben… je parle avec toi, en fait."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Moi aussi."
+    ],
+    [
+     "amused",
+     "Le film, c'est mort"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,72 @@
+{
+ "ep": "r1_culture_a1",
+ "cast": {
+  "B": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "T'as vu le nouveau film avec le robot ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Ouais, hier soir. Franchement, la musique est trop belle."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Et l'histoire ? Tu l'as aimée ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Bof. J'aime bien le début, mais après…"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Après quoi ? Vas-y, raconte !"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "À la fin, le robot, c'est son père."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "…Quoi ?! Je vais le voir ce soir, moi !"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Ah… Bah, tu vas aimer la musique, tu vois."
+    ]
+   ]
+  }
+ }
+}

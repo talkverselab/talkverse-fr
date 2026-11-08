@@ -1,0 +1,340 @@
+{
+ "id": "r0_friends_a1",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "이름이 뭐였더라",
+ "emoji": "👋",
+ "scene": "친구 집 파티에서 카미유가 먼저 인사한다. 이름을 주고받자마자 A 가 하필 카미유 언니 이름으로 부른다",
+ "where": "파티",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "첫인사·이름·출신(Moi, c'est… / Tu es d'où ?)",
+ "expressions": [
+  "ça va",
+  "pardon",
+  "ouais"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Salut ! Moi, c'est Camille. Et toi ?",
+   "rd": "쌀뤼! 무아, 쎄 까미유. 에 뚜아?",
+   "ko": "안녕! 나는 카미유야. 너는?",
+   "note": "Moi, c'est … = 나는 …야",
+   "tags": [
+    "expr:moi, c'est"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": []
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Moi, c'est {name}. Ça va, toi ?",
+   "rd": "무아, 쎄 {name}. 싸 바, 뚜아?",
+   "ko": "나는 {name}. 너는 잘 지내?",
+   "note": "Ça va ? = 잘 지내?/괜찮아?",
+   "tags": [
+    "expr:ça va"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "va",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Ouais, je vais bien ! Et toi, tu viens d'où ?",
+   "rd": "웨, 쥬 베 비앵! 에 뚜아, 뛰 비앵 두?",
+   "ko": "응, 잘 지내! 너는 어디서 왔어?",
+   "note": "ça va → je vais bien (aller) · Tu viens d'où ? = 어디서 왔어?",
+   "tags": [
+    "expr:ouais"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vais",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "toi",
+     "toi",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "viens",
+     "vien",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vais",
+     "aller",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "viens",
+     "venir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Je viens de {city}. Et toi, Claire ?",
+   "rd": "쥬 비앵 드 {city}. 에 뚜아, 끌레르?",
+   "ko": "나는 {city}에서 왔어. 너는, 클레르?",
+   "note": "tu viens → je viens · Je viens de … = …에서 왔어",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "viens",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "X.",
+     "x.",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "toi",
+     "toi",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "viens",
+     "venir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Claire ?! C'est ma sœur ! Elle vient de Lyon.",
+   "rd": "끌레르?! 쎄 마 쐬르! 엘 비앵 드 리옹.",
+   "ko": "클레르?! 그건 우리 언니야! 언니는 리옹에서 왔어.",
+   "note": "sœur = 자매(언니·여동생) · je viens → elle vient (3인칭)",
+   "tags": [],
+   "new": [
+    "sœur"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Claire ?! C'est ma sœur !"
+    ],
+    [
+     "tsukkomi",
+     "Elle vient de Lyon."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "sœur",
+     "sœur",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "vient",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sœur",
+     "sœur",
+     ""
+    ],
+    [
+     "vient",
+     "venir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Euh… pardon, Camille ! Et toi, tu viens d'où ?",
+   "rd": "외… 빠르동, 까미유! 에 뚜아, 뛰 비앵 두?",
+   "ko": "어… 미안, 카미유! 그럼 너는 어디서 왔어?",
+   "note": "같은 질문을 처음부터 다시 · tu viens",
+   "tags": [
+    "expr:pardon"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "toi",
+     "toi",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "viens",
+     "vien",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Euh",
+     "euh",
+     ""
+    ],
+    [
+     "pardon",
+     "pardon",
+     ""
+    ],
+    [
+     "viens",
+     "venir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

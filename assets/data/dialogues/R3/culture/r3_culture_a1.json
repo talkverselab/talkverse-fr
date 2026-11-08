@@ -1,0 +1,666 @@
+{
+ "id": "r3_culture_a1",
+ "region": "R3",
+ "island": "culture",
+ "kind": "short",
+ "title": "음악은 좋았어 (우리는)",
+ "emoji": "🎬",
+ "scene": "레벨 1 「음악은 좋았어」를 복수로 — A 와 위고가 신이 나서 카미유와 레아에게 결말을 말해 버린다. 둘은 오늘 밤 보러 간다",
+ "where": "카페",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Léa",
+  "D": "Hugo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수(les robots·ses parents)·과거분사 일치(l'avez aimée) — 새 단어 0",
+ "expressions": [
+  "ouais",
+  "franchement",
+  "trop",
+  "bof",
+  "bah"
+ ],
+ "tags": [
+  "base:r1_culture_a1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Vous avez vu le nouveau film avec les robots ?",
+   "rd": "부 자베 뷔 르 누보 필름 아벡 레 로보?",
+   "ko": "너희 그 로봇들 나오는 새 영화 봤어?",
+   "note": "t'as vu → vous avez vu · le robot → les robots",
+   "tags": [
+    "callback:r1_culture_a1",
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vu",
+     "voir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "nouveau",
+     "nouveau",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "film",
+     "film",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "robots",
+     "robot",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vu",
+     "voir",
+     ""
+    ],
+    [
+     "nouveau",
+     "nouveau",
+     ""
+    ],
+    [
+     "film",
+     "film",
+     ""
+    ],
+    [
+     "robots",
+     "robot",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, nous l'avons vu hier soir. Franchement, la musique est trop belle.",
+   "rd": "웨, 누 라봉 뷔 이에르 수아르. 프랑슈망, 라 뮈지끄 에 트로 벨.",
+   "ko": "응, 어젯밤에 봤어. 솔직히 음악이 너무 좋아.",
+   "note": "nous l'avons vu = 우리 그거 봤어",
+   "tags": [
+    "expr:ouais",
+    "expr:franchement",
+    "expr:trop",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "avons",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vu",
+     "voir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "musique",
+     "musique",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "belle",
+     "bel",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vu",
+     "voir",
+     ""
+    ],
+    [
+     "hier",
+     "hier",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "Franchement",
+     "franchement",
+     ""
+    ],
+    [
+     "musique",
+     "musique",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "belle",
+     "bel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Et l'histoire ? Vous l'avez aimée ?",
+   "rd": "에 리스뚜아르? 부 라베 제메?",
+   "ko": "스토리는? 너희 좋았어?",
+   "note": "l'avez aimée = 그걸(histoire, 여성) 좋아했다 — 과거분사 일치",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "histoire",
+     "histoire",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "aimée",
+     "aimer",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "histoire",
+     "histoire",
+     ""
+    ],
+    [
+     "aimée",
+     "aimer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "fr": "Bof. Nous, on aime bien le début, mais après…",
+   "rd": "보프. 누, 옹 넴 비앵 르 데뷔, 메 아프레…",
+   "ko": "별로. 우린 초반은 좋은데, 그 뒤로…",
+   "note": "vous l'avez aimée → on aime bien(구어 on = nous) · 레벨 1 j'aime bien → on aime bien",
+   "tags": [
+    "expr:bof",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "aime",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "début",
+     "début",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "aime",
+     "aimer",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "début",
+     "début",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Après quoi ? Allez-y, racontez !",
+   "rd": "아프레 꾸아? 알레지, 라꽁떼!",
+   "ko": "그 뒤로 뭐? 말해 봐!",
+   "note": "vas-y → allez-y · raconte → racontez",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "Allez",
+     "aller",
+     "VERB",
+     "Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "-",
+     "-",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "racontez",
+     "raconter",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Allez",
+     "aller",
+     ""
+    ],
+    [
+     "racontez",
+     "raconter",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "À la fin, les robots, ce sont ses parents.",
+   "rd": "아 라 팽, 레 로보, 쓰 쏭 쎄 빠랑.",
+   "ko": "마지막에, 그 로봇들이 주인공 부모야.",
+   "note": "c'est son père → ce sont ses parents",
+   "tags": [
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fin",
+     "fin",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "robots",
+     "robot",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ce",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ses",
+     "son",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "parents",
+     "parent",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fin",
+     "fin",
+     ""
+    ],
+    [
+     "robots",
+     "robot",
+     ""
+    ],
+    [
+     "parents",
+     "parent",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "…Quoi ?! Nous allons le voir ce soir, nous !",
+   "rd": "…꾸아?! 누 잘롱 르 부아르 쓰 수아르, 누!",
+   "ko": "…뭐?! 우리 오늘 밤에 보러 가는데!",
+   "note": "je vais → nous allons · moi → nous",
+   "tags": [
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "Quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "allons",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "voir",
+     "voir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ]
+   ],
+   "lemmas": [
+    [
+     "allons",
+     "aller",
+     ""
+    ],
+    [
+     "voir",
+     "voir",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "fr": "Ah… Bah, vous allez aimer la musique, vous voyez.",
+   "rd": "아… 바, 부 잘레 제메 라 뮈지끄, 부 부아예.",
+   "ko": "아… 뭐, 음악은 마음에 들 거야, 그치.",
+   "note": "nous allons → vous allez aimer · tu vois → vous voyez",
+   "tags": [
+    "expr:bah",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "allez",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "aimer",
+     "aimer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "musique",
+     "musique",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "voyez",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "allez",
+     "aller",
+     ""
+    ],
+    [
+     "aimer",
+     "aimer",
+     ""
+    ],
+    [
+     "musique",
+     "musique",
+     ""
+    ],
+    [
+     "voyez",
+     "voir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

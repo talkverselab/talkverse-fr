@@ -1,0 +1,156 @@
+{
+ "ep": "r4_work_b1",
+ "cast": {
+  "B": "hugo",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Asseyez-vous. Votre CV est intéressant. Vous avez travaillé où, avant ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Dans un petit bistrot à {city}. J'y suis resté deux ans."
+    ]
+   ],
+   "f": {
+    "text": "Dans un petit bistrot à {city}. J'y suis restée deux ans.",
+    "rd": "당 장 쁘띠 비스트로 아 {city}. 쥐 쒸 레스떼 되 장.",
+    "ko": "{city}의 작은 비스트로에서요. 거기서 2년 있었어요.",
+    "segs": [
+     [
+      "stiff",
+      "Dans un petit bistrot à {city}. J'y suis restée deux ans."
+     ]
+    ]
+   }
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Bien. Il faudrait que vous soyez disponible le soir et le week-end. Ça vous irait ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Pas de problème. Je préfère qu'on me le dise dès le début."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Parfait. Avant qu'on aille plus loin, je voudrais que vous goûtiez cette sauce."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "D'accord, je goûte… Franchement ?"
+    ],
+    [
+     "stiff",
+     "Elle manque d'acidité, et il y a trop de sel."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Trop de sel… C'est moi qui l'ai faite, cette sauce."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Ah… Si j'avais su, j'aurais été plus diplomate."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Non, j'aime qu'on me dise la vérité. Bien que ça fasse mal."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shout",
+     "Cheffe ! Le frigo est en panne et la salle est pleine ! Qu'est-ce qu'on fait ?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Hugo ?!"
+    ],
+    [
+     "shout",
+     "Bon… il y a de la glace ? Mets-en dans les bacs, vite !"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Vous vous connaissez ?"
+    ],
+    [
+     "stiff",
+     "…Peu importe. Aidez-le, je vous regarde."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "excited",
+     "Tout est sauvé ! Sans toi, on aurait tout jeté."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "Bon. Vous travaillez avec nous dès lundi."
+    ],
+    [
+     "gentle",
+     "Et ici, on se tutoie… si ça te va."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "teasing",
+     "Ça me va. Mais la sauce, je te la refais demain, cheffe."
+    ]
+   ]
+  }
+ }
+}

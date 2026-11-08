@@ -1,0 +1,555 @@
+{
+ "id": "r3_love_a1",
+ "region": "R3",
+ "island": "love",
+ "kind": "short",
+ "title": "같은 책들",
+ "emoji": "📚",
+ "scene": "레벨 1 「같은 책」을 복수로 — A 와 테오가 같이 책을 읽는데 레아와 카미유가 다가온다. 같은 문장을 vous·nous·복수로 바꿔 말한다",
+ "where": "공원",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa",
+  "C": "Théo",
+  "D": "Camille"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "c'est pas vrai",
+  "bof",
+  "pardon"
+ ],
+ "tags": [
+  "base:r1_love_a1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Pardon… vous lisez quoi ?",
+   "rd": "빠르동… 부 리제 꾸아?",
+   "ko": "저기… 너희 뭐 읽어?",
+   "note": "vous lisez = 너희가 읽다 (tu lis → vous lisez)",
+   "tags": [
+    "callback:r1_love_a1",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "lisez",
+     "lire",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ]
+   ],
+   "lemmas": [
+    [
+     "lisez",
+     "lire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Des livres sur Paris. Pourquoi ?",
+   "rd": "데 리브르 쒸르 빠리. 뿌르꾸아?",
+   "ko": "파리에 관한 책들. 왜?",
+   "note": "un livre → des livres",
+   "tags": [
+    "form:pluriel"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "neutral",
+     "Des livres sur Paris."
+    ],
+    [
+     "surprised",
+     "Pourquoi ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "livres",
+     "livre",
+     "NOUN",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "livres",
+     "livre",
+     ""
+    ],
+    [
+     "Pourquoi",
+     "pourquoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Parce qu'on a les mêmes ! Vous voyez ?",
+   "rd": "빠르스 꽁 나 레 멤! 부 부아예?",
+   "ko": "우리도 똑같은 거 있거든! 보여?",
+   "note": "j'ai le même → on a les mêmes · tu vois → vous voyez — 7턴 on vous a vus 와 같은 동사",
+   "tags": [
+    "form:nous",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "mêmes",
+     "même",
+     "ADJ",
+     "Number=Plur"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "voyez",
+     "voir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mêmes",
+     "même",
+     ""
+    ],
+    [
+     "voyez",
+     "voir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "fr": "C'est pas vrai ! Vous les aimez bien ?",
+   "rd": "쎄 빠 브레! 부 레 제메 비앵?",
+   "ko": "말도 안 돼! 너희 그 책들 좋아?",
+   "note": "tu l'aimes → vous les aimez",
+   "tags": [
+    "expr:c'est pas vrai"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vrai",
+     "vrai",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "aimez",
+     "aimez",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "vrai",
+     "vrai",
+     ""
+    ],
+    [
+     "aimez",
+     "aimez",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "D",
+   "fr": "Bof… on aime les couvertures. On les a pas lus.",
+   "rd": "보프… 옹 넴 레 꾸베르뛰르. 옹 레 자 빠 뤼.",
+   "ko": "글쎄… 표지가 좋아. 아직 안 읽었어.",
+   "note": "vous les aimez → on aime · couverture = 표지 · vous lisez → lus(복수 일치, 소리는 같다)",
+   "tags": [
+    "expr:bof"
+   ],
+   "new": [
+    "couverture"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "aime",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "couvertures",
+     "couverture",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "les",
+     "le",
+     "PRON",
+     "Number=Plur|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "aime",
+     "aimer",
+     ""
+    ],
+    [
+     "couvertures",
+     "couverture",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "lus",
+     "lire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Alors pourquoi vous les avez achetés ?",
+   "rd": "알로르 뿌르꾸아 부 레 자베 자슈떼?",
+   "ko": "그럼 너희 그거 왜 샀어?",
+   "note": "tu l'as acheté → vous les avez achetés",
+   "tags": [
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "les",
+     "le",
+     "PRON",
+     "Number=Plur|Person=3"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "achetés",
+     "acheter",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Alors",
+     "alors",
+     ""
+    ],
+    [
+     "pourquoi",
+     "pourquoi",
+     ""
+    ],
+    [
+     "achetés",
+     "acheter",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "…Parce qu'on vous a vus les acheter hier.",
+   "rd": "…빠르스 꽁 부 자 뷔 레 자슈떼 이에르.",
+   "ko": "…어제 너희가 그거 사는 걸 봤거든.",
+   "note": "vous les avez achetés → on vous a vus les acheter(남녀가 섞이면 vus) · 레벨 1 je t'ai vu → on vous a vus",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vus",
+     "voir",
+     "VERB",
+     "Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "PRON",
+     "Number=Plur|Person=3"
+    ],
+    [
+     "acheter",
+     "acheter",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vus",
+     "voir",
+     ""
+    ],
+    [
+     "acheter",
+     "acheter",
+     ""
+    ],
+    [
+     "hier",
+     "hier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Hier ? Alors… on va les lire ensemble ?",
+   "rd": "이에르? 알로르… 옹 바 레 리르 앙쌍블?",
+   "ko": "어제? 그럼… 같이 읽을까?",
+   "note": "vous lisez → lus → on va les lire · 레벨 1 le → les",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Hier ?"
+    ],
+    [
+     "gentle",
+     "Alors… on va les lire ensemble ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "lire",
+     "lire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "ensemble",
+     "ensemble",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Hier",
+     "hier",
+     ""
+    ],
+    [
+     "Alors",
+     "alors",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "lire",
+     "lire",
+     ""
+    ],
+    [
+     "ensemble",
+     "ensemble",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

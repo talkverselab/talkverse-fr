@@ -1,0 +1,91 @@
+{
+ "ep": "r1_life_a1",
+ "cast": {
+  "B": "theo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Mon gâteau est plus dans le frigo. C'est toi ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Moi ? Non !"
+    ],
+    [
+     "worried",
+     "J'ai rien mangé, je te jure."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Sérieux ? Moi, je mange pas la nuit."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Ben, hier soir, je suis rentré tard. Toi, non ?"
+    ]
+   ],
+   "f": {
+    "text": "Ben, hier soir, je suis rentrée tard. Toi, non ?",
+    "rd": "뱅, 이에르 수아르, 쥬 쒸 랑트레 따르. 뚜아, 농?",
+    "ko": "그게, 어젯밤에 나 늦게 들어왔어. 넌 아니야?",
+    "segs": [
+     [
+      "worried",
+      "Ben, hier soir, je suis rentrée tard. Toi, non ?"
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Moi ? Je rentre jamais tard. J'ai dormi, moi."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "À deux heures, je t'ai vu dans la cuisine."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Comment ça ? Je dormais, moi !"
+    ],
+    [
+     "worried",
+     "J'ai fait quoi ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Tu dormais, ouais… et tu mangeais ton gâteau."
+    ]
+   ]
+  }
+ }
+}

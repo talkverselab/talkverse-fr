@@ -1,0 +1,578 @@
+{
+ "id": "r1_friends_a2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "조금만 잘라 줘",
+ "emoji": "✂️",
+ "scene": "위고네 거실. 미용실 대신 위고에게 머리를 맡겼는데, 가위를 든 위고가 재채기를 한다",
+ "where": "위고네 거실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "tu 현재·복합과거(j'ai déjà coupé)·aller+inf(tu vas couper)·명령(assieds-toi)",
+ "expressions": [
+  "ouais",
+  "carrément",
+  "attends",
+  "t'inquiète"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Tu me coupes les cheveux ? Juste un peu.",
+   "rd": "뛰 므 꾸쁘 레 슈뵈? 쥐스뜨 앙 뾔.",
+   "ko": "머리 좀 잘라 줄래? 조금만.",
+   "note": "couper = 자르다 · cheveux = 머리카락",
+   "tags": [],
+   "new": [
+    "couper",
+    "cheveux"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "coupes",
+     "couper",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "cheveux",
+     "cheveu",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ]
+   ],
+   "lemmas": [
+    [
+     "coupes",
+     "couper",
+     ""
+    ],
+    [
+     "cheveux",
+     "cheveu",
+     ""
+    ],
+    [
+     "Juste",
+     "juste",
+     ""
+    ],
+    [
+     "peu",
+     "peu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Ouais, carrément. J'ai déjà coupé ceux de mon frère.",
+   "rd": "웨, 까레망. 제 데쟈 꾸뻬 쐬 드 몽 프레르.",
+   "ko": "응, 당연하지. 우리 형 머리도 잘라 봤어.",
+   "note": "carrément = 당연하지 · ceux de … = …의 것(들)",
+   "tags": [
+    "expr:ouais",
+    "expr:carrément"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "carrément",
+     "carrément",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "coupé",
+     "couper",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ceux",
+     "celui",
+     "PRON",
+     "Gender=Masc|Number=Plur|PronType=Dem"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "frère",
+     "frère",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "carrément",
+     "carrément",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "coupé",
+     "couper",
+     ""
+    ],
+    [
+     "frère",
+     "frère",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Et il a dit quoi, ton frère ?",
+   "rd": "에 일 라 디 꾸아, 똥 프레르?",
+   "ko": "그래서 형이 뭐래?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "frère",
+     "frère",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "frère",
+     "frère",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Rien. Il me parle plus depuis. Bon, assieds-toi !",
+   "rd": "리앵. 일 므 빠를 쁠뤼 드쀠. 봉, 아씨에 뚜아!",
+   "ko": "아무 말도. 그 뒤로 나랑 말을 안 해. 자, 앉아!",
+   "note": "depuis = 그 뒤로 · assieds-toi = 앉아",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Rien. Il me parle plus depuis."
+    ],
+    [
+     "cheerful",
+     "Bon, assieds-toi !"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "parle",
+     "parler",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "assieds",
+     "assied",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "parle",
+     "parler",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "assieds",
+     "assied",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Attends… tu vas couper avec ça ?!",
+   "rd": "아땅… 뛰 바 꾸뻬 아벡 싸?!",
+   "ko": "잠깐… 그걸로 자르려고?!",
+   "note": "tu vas couper = 자를 거야(aller + 동사원형)",
+   "tags": [
+    "expr:attends",
+    "form:futur proche"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "vas",
+     "aller",
+     "AUX",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "couper",
+     "couper",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "couper",
+     "couper",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "T'inquiète, ça va aller… Atchoum !",
+   "rd": "땡끼에뜨, 싸 바 알레… 아츔!",
+   "ko": "걱정 마, 괜찮을… 에취!",
+   "note": "t'inquiète = 걱정 마 · atchoum = 에취(재채기)",
+   "tags": [
+    "expr:t'inquiète"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "gentle",
+     "T'inquiète, ça va aller…"
+    ],
+    [
+     "shout",
+     "Atchoum !"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "aller",
+     "aller",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Hugo… tu me parles plus ?",
+   "rd": "위고… 뛰 므 빠를 쁠뤼?",
+   "ko": "위고… 나랑도 말 안 할 거야?",
+   "note": "il me parle plus(4턴, 형) → tu me parles plus ?(이번엔 위고가) — 같은 동사 parler",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "parles",
+     "parler",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "parles",
+     "parler",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Bon… T'as déjà pensé à la casquette ?",
+   "rd": "봉… 따 데쟈 빵쎄 아 라 까스께뜨?",
+   "ko": "음… 모자 써 볼 생각 해 본 적 있어?",
+   "note": "casquette = 야구 모자",
+   "tags": [],
+   "new": [
+    "casquette"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "pensé",
+     "penser",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "casquette",
+     "casquette",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "pensé",
+     "penser",
+     ""
+    ],
+    [
+     "casquette",
+     "casquette",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

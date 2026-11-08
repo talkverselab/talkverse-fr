@@ -1,0 +1,665 @@
+{
+ "id": "r1_life_a1",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "새벽 두 시의 범인",
+ "emoji": "🍰",
+ "scene": "셰어하우스 아침. 테오가 냉장고의 케이크가 사라졌다며 A 를 의심한다 — 새벽에 부엌에서 먹은 건 테오 자신이었다",
+ "where": "셰어하우스 부엌",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "복합과거(j'ai mangé·je suis rentré(e)·je t'ai vu)·부정(rien·pas)",
+ "expressions": [
+  "je te jure",
+  "sérieux",
+  "ben",
+  "comment ça"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Mon gâteau est plus dans le frigo. C'est toi ?",
+   "rd": "몽 가또 에 쁠뤼 당 르 프리고. 쎄 뚜아?",
+   "ko": "내 케이크 냉장고에 없어. 너지?",
+   "note": "gâteau = 케이크 · frigo = 냉장고 · plus = 더는 (없다)",
+   "tags": [],
+   "new": [
+    "gâteau",
+    "frigo"
+   ],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "Mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "frigo",
+     "frigo",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "toi",
+     "toi",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "gâteau",
+     "gâteau",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "frigo",
+     "frigo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Moi ? Non ! J'ai rien mangé, je te jure.",
+   "rd": "무아? 농! 제 리앵 망제, 쥬 뜨 쥐르.",
+   "ko": "나? 아니야! 아무것도 안 먹었어, 진짜야.",
+   "note": "je te jure = 맹세해, 진짜야",
+   "tags": [
+    "expr:je te jure",
+    "form:passé composé"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Moi ? Non !"
+    ],
+    [
+     "worried",
+     "J'ai rien mangé, je te jure."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "jure",
+     "jurer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "jure",
+     "jurer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Sérieux ? Moi, je mange pas la nuit.",
+   "rd": "쎄리외? 무아, 쥬 망쥬 빠 라 뉘.",
+   "ko": "진짜? 난 밤엔 안 먹어.",
+   "note": "j'ai rien mangé → je mange pas",
+   "tags": [
+    "expr:sérieux"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "Sérieux",
+     "sérieux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "mange",
+     "manger",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "nuit",
+     "nuit",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Sérieux",
+     "sérieux",
+     ""
+    ],
+    [
+     "mange",
+     "manger",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "nuit",
+     "nuit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Ben, hier soir, je suis rentré tard. Toi, non ?",
+   "rd": "뱅, 이에르 수아르, 쥬 쒸 랑트레 따르. 뚜아, 농?",
+   "ko": "그게, 어젯밤에 나 늦게 들어왔어. 넌 아니야?",
+   "note": "ben = 그게, 음 · rentrer = 집에 오다 — 학습자가 여자면 rentrée(소리는 같다)",
+   "tags": [
+    "expr:ben",
+    "form:passé composé être"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "fr_f": "Ben, hier soir, je suis rentrée tard. Toi, non ?",
+   "rd_f": "뱅, 이에르 수아르, 쥬 쒸 랑트레 따르. 뚜아, 농?",
+   "morph_tags": [
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rentré",
+     "rentrer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rentrée",
+     "rentrer",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "hier",
+     "hier",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "rentré",
+     "rentrer",
+     ""
+    ],
+    [
+     "tard",
+     "tard",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Moi ? Je rentre jamais tard. J'ai dormi, moi.",
+   "rd": "무아? 쥬 랑트르 자메 따르. 제 도르미, 무아.",
+   "ko": "나? 난 늦게 안 들어와. 계속 잤어.",
+   "note": "je suis rentré → je rentre jamais · j'ai dormi = 잤다",
+   "tags": [
+    "form:passé composé"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "rentre",
+     "rentrer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dormi",
+     "dormir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "rentre",
+     "rentrer",
+     ""
+    ],
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "tard",
+     "tard",
+     ""
+    ],
+    [
+     "dormi",
+     "dormir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "À deux heures, je t'ai vu dans la cuisine.",
+   "rd": "아 되 죄르, 쥬 떼 뷔 당 라 뀌진.",
+   "ko": "새벽 두 시에 너 부엌에서 봤는데.",
+   "note": "cuisine = 부엌",
+   "tags": [],
+   "new": [
+    "cuisine"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vu",
+     "voir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "cuisine",
+     "cuisine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "vu",
+     "voir",
+     ""
+    ],
+    [
+     "cuisine",
+     "cuisine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Comment ça ? Je dormais, moi ! J'ai fait quoi ?",
+   "rd": "꼬망 싸? 쥬 도르메, 무아! 제 페 꾸아?",
+   "ko": "무슨 소리야? 나 자고 있었는데! 내가 뭘 했는데?",
+   "note": "comment ça ? = 그게 무슨 말이야? · je dors → je dormais(반과거, 자고 있었다)",
+   "tags": [
+    "expr:comment ça"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Comment ça ? Je dormais, moi !"
+    ],
+    [
+     "worried",
+     "J'ai fait quoi ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dormais",
+     "dormir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Comment",
+     "comment",
+     ""
+    ],
+    [
+     "dormais",
+     "dormir",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "quoi",
+     "quoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Tu dormais, ouais… et tu mangeais ton gâteau.",
+   "rd": "뛰 도르메, 웨… 에 뛰 망제 똥 가또.",
+   "ko": "자고 있었지, 응… 그러면서 네 케이크 먹고 있었어.",
+   "note": "je dormais → tu dormais · je mange pas → tu mangeais(반과거, 먹고 있었다)",
+   "tags": [
+    "form:imparfait"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Tu",
+     "taire",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dormais",
+     "dormir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ouais",
+     "ouai",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mangeais",
+     "mangeai",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dormais",
+     "dormir",
+     ""
+    ],
+    [
+     "ouais",
+     "ouais",
+     ""
+    ],
+    [
+     "mangeais",
+     "mangeai",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

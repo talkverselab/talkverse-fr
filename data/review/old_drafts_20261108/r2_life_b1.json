@@ -1,0 +1,258 @@
+{
+ "id": "r2_life_b1",
+ "region": "R2",
+ "island": "life",
+ "kind": "long",
+ "title": "크레프 하나 때문에",
+ "emoji": "🥞",
+ "scene": "셰어하우스 토요일 아침. 처음 크레프를 굽는 {name} 을 Théo 가 「할 줄 안다」며 돕는다 — 천장, 경보기, 그리고 아랫집 이웃.",
+ "where": "셰어하우스 주방",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Voisin"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "부탁·거절·사고 수습 한 마디(laisse-moi faire · vas-y · c'est pas grave · c'est bon)와 「~ 어디 있어?」(Elle est où ?) 익히기",
+ "expressions": [
+  "attends",
+  "vas-y",
+  "c'est pas grave",
+  "c'est bon",
+  "du coup"
+ ],
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Tu fais quoi ? Ça sent le brûlé, là.",
+   "rd": "뛰 페 꾸아? 싸 쌍 르 브륄레, 라.",
+   "ko": "뭐 해? 뭔가 타는 냄새 나는데.",
+   "note": "Ça sent le brûlé = 탄 냄새가 나다 (brûlé = 탄 것)",
+   "tags": [
+    "expr:tu fais quoi",
+    "form:ça sent"
+   ],
+   "new": [
+    "sentir",
+    "brûlé"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Tu fais quoi ?"
+    ],
+    [
+     "worried",
+     "Ça sent le brûlé, là."
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Des crêpes. Enfin, j'essaie. La première est un peu… noire.",
+   "rd": "데 크레쁘. 앙팽, 제쎄. 라 프르미에르 에 땅 뾔… 누아르.",
+   "ko": "크레프. 아니, 해 보는 중이야. 첫 장이 좀… 까맸어.",
+   "note": "crêpe = 크레프 / j'essaie = 해 보고 있어 (essayer) / est un → 에 땅 (연음)",
+   "tags": [
+    "expr:enfin",
+    "liaison:est un"
+   ],
+   "new": [
+    "crêpe",
+    "essayer",
+    "premier",
+    "noir"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Attends, laisse-moi faire. Je sais faire, moi.",
+   "rd": "아땅, 레쓰 무아 페르. 쥬 쎄 페르, 무아.",
+   "ko": "잠깐, 내가 할게. 나 할 줄 알아.",
+   "note": "laisse-moi faire = 내가 할게·맡겨 / Je sais faire = 할 줄 알아",
+   "tags": [
+    "expr:attends",
+    "expr:laisse-moi faire"
+   ],
+   "new": [
+    "laisser",
+    "savoir"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Vas-y, mais doucement avec la poêle.",
+   "rd": "바지, 메 두쓰망 아벡 라 뿌알.",
+   "ko": "해 봐, 근데 프라이팬 살살 다뤄.",
+   "note": "vas-y = 해 봐·어서 (연음 바지) / poêle = 프라이팬 (뿌알)",
+   "tags": [
+    "expr:vas-y"
+   ],
+   "new": [
+    "doucement",
+    "poêle"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Regarde ça. Hop ! Elle tourne toute seule…",
+   "rd": "르가르드 싸. 옵! 엘 뚜른 뚜뜨 쐴…",
+   "ko": "이거 봐. 휙! 저절로 뒤집어진다…",
+   "note": "Hop ! = 휙·짠 (동작 감탄) / toute seule = 저절로 (crêpe 가 여성이라 toute seule)",
+   "tags": [
+    "form:toute seule"
+   ],
+   "new": [
+    "tourner",
+    "seul"
+   ],
+   "emotion": "excited"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Théo. Elle est où, la crêpe ?",
+   "rd": "떼오. 엘 레 우, 라 크레쁘?",
+   "ko": "테오. 크레프 어디 갔어?",
+   "note": "Elle est où, la crêpe ? = 그거 어디 있어, 크레프? (구어 어순: 대명사 먼저, 명사 뒤에)",
+   "tags": [
+    "form:elle est où"
+   ],
+   "new": [
+    "où"
+   ],
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "…Au plafond. Bon, c'est pas grave, j'en fais une autre.",
+   "rd": "…오 쁠라퐁. 봉, 쎄 빠 그라브, 쟝 페 윈 오트르.",
+   "ko": "…천장에. 뭐, 괜찮아, 하나 더 하면 되지.",
+   "note": "plafond = 천장 / c'est pas grave = 괜찮아·별일 아냐 / j'en fais une autre = 하나 더 만들어 (en = 그걸)",
+   "tags": [
+    "expr:c'est pas grave",
+    "form:en"
+   ],
+   "new": [
+    "plafond",
+    "grave",
+    "autre"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Attends, l'alarme ! Ouvre la fenêtre, vite !",
+   "rd": "아땅, 라라름! 우브르 라 프네트르, 비뜨!",
+   "ko": "잠깐, 경보기! 창문 열어, 빨리!",
+   "note": "alarme = 경보기 (연기 감지기) / Ouvre ! = 열어 (명령)",
+   "tags": [
+    "expr:attends",
+    "form:명령"
+   ],
+   "new": [
+    "alarme",
+    "ouvrir",
+    "fenêtre",
+    "vite"
+   ],
+   "emotion": "shout"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "C'est bon, c'est bon ! Encore une fois… et hop !",
+   "rd": "쎄 봉, 쎄 봉! 앙꼬르 윈 푸아… 에 옵!",
+   "ko": "됐어, 됐어! 한 번 더… 휙!",
+   "note": "C'est bon = 됐어·괜찮아 / encore une fois = 한 번 더",
+   "tags": [
+    "expr:c'est bon"
+   ],
+   "new": [
+    "encore",
+    "fois"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "C'est bon, c'est bon !"
+    ],
+    [
+     "excited",
+     "Encore une fois… et hop !"
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Théo… la fenêtre était ouverte.",
+   "rd": "떼오… 라 프네트르 에떼 뚜베르뜨.",
+   "ko": "테오… 창문 열려 있었어.",
+   "note": "était ouverte → 에떼 뚜베르뜨 (연음) / 열어 둔 창문으로 두 번째 크레프가 날아갔다",
+   "tags": [
+    "liaison:était ouverte"
+   ],
+   "new": [
+    "ouvert"
+   ],
+   "emotion": "sad"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "fr": "Bonjour. C'est à vous, la crêpe sur mon balcon ?",
+   "rd": "봉쥬르. 쎄 따 부, 라 크레쁘 쒸르 몽 발꽁?",
+   "ko": "안녕하세요. 제 발코니에 떨어진 크레프, 그쪽 거죠?",
+   "note": "C'est à vous ? = 당신 거예요? (연음 쎄 따 부) / balcon = 발코니 — 반전: 아랫집 이웃 등장",
+   "tags": [
+    "form:c'est à vous",
+    "twist"
+   ],
+   "new": [
+    "balcon"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "fr": "Du coup… on va manger dehors ?",
+   "rd": "뒤 꾸… 옹 바 망제 드오르?",
+   "ko": "그래서 말인데… 나가서 먹을까?",
+   "note": "du coup = 그래서·그럼 (구어 접속) / manger dehors = 밖에서 먹다 (dehors 의 h 묵음 → 드오르)",
+   "tags": [
+    "expr:du coup"
+   ],
+   "new": [
+    "manger",
+    "dehors"
+   ],
+   "emotion": "flustered"
+  }
+ ],
+ "cast": {
+  "C": "man_m"
+ }
+}

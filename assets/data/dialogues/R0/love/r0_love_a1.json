@@ -1,0 +1,406 @@
+{
+ "id": "r0_love_a1",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "비 오는 정류장",
+ "emoji": "☔",
+ "scene": "비 오는 버스 정류장. 레아가 먼저 말을 건다. 버스가 오지만 A 는 타지 않는다",
+ "where": "버스 정류장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "좋고 싫음·이유(Pourquoi ? / Parce que…)",
+ "expressions": [
+  "pardon",
+  "ah bon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Pardon… tu attends le bus ?",
+   "rd": "빠르동… 뛰 아땅 르 뷔스?",
+   "ko": "저기… 버스 기다려?",
+   "note": "attendre = 기다리다 · bus = 버스",
+   "tags": [
+    "expr:pardon"
+   ],
+   "new": [
+    "bus"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "attends",
+     "attend",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bus",
+     "bus",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "attends",
+     "attend",
+     ""
+    ],
+    [
+     "bus",
+     "boire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Oui. Il pleut, c'est nul.",
+   "rd": "위. 일 쁠뢰, 쎄 뉠.",
+   "ko": "응. 비 오고, 최악이야.",
+   "note": "il pleut = 비가 온다 · nul = 별로인, 최악",
+   "tags": [],
+   "new": [
+    "pleuvoir"
+   ],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "pleut",
+     "pleuvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nul",
+     "nul",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pleut",
+     "pleuvoir",
+     ""
+    ],
+    [
+     "nul",
+     "nul",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Moi, j'aime bien la pluie.",
+   "rd": "무아, 젬 비앵 라 쁠뤼.",
+   "ko": "난 비 좋은데.",
+   "note": "j'aime bien = 좋아해 · pluie = 비",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "aime",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "pluie",
+     "pluie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "aime",
+     "aimer",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "pluie",
+     "pluie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Ah bon ? Pourquoi tu aimes la pluie ?",
+   "rd": "아 봉? 뿌르꾸아 뛰 엠 라 쁠뤼?",
+   "ko": "그래? 비가 왜 좋아?",
+   "note": "j'aime → tu aimes · Ah bon ? = 그래?, 정말?",
+   "tags": [
+    "expr:ah bon"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Ah",
+     "ah",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "aimes",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "pluie",
+     "pluie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "Pourquoi",
+     "pourquoi",
+     ""
+    ],
+    [
+     "aimes",
+     "aimer",
+     ""
+    ],
+    [
+     "pluie",
+     "pluie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Parce que… comme ça, je peux parler avec toi.",
+   "rd": "빠르스 끄… 꼼 싸, 쥬 뾔 빠를레 아벡 뚜아.",
+   "ko": "왜냐면… 이러면 너랑 얘기할 수 있잖아.",
+   "note": "comme ça = 이렇게(해서) · je peux + 동사원형 = …할 수 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "…",
+     "…",
+     "PRON",
+     "Gender=Masc|Number=Plur|Person=3"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "peux",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parler",
+     "parler",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "parler",
+     "parler",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Ah, le bus… Bon, il peut partir.",
+   "rd": "아, 르 뷔스… 봉, 일 뾔 빠르띠르.",
+   "ko": "아, 버스… 뭐, 가라 그래.",
+   "note": "je peux → il peut (3인칭) · partir = 떠나다 · 버스를 그냥 보낸다",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ah, le bus…"
+    ],
+    [
+     "gentle",
+     "Bon, il peut partir."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bus",
+     "bus",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "peut",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "partir",
+     "partir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bus",
+     "boire",
+     ""
+    ],
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "peut",
+     "pouvoir",
+     ""
+    ],
+    [
+     "partir",
+     "partir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

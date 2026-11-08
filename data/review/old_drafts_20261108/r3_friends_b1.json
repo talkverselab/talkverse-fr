@@ -1,0 +1,346 @@
+{
+ "id": "r3_friends_b1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "long",
+ "title": "서프라이즈는 우리가 당했다",
+ "emoji": "🎂",
+ "scene": "Camille 집, 저녁 7시 반. Hugo 깜짝 생일 파티 준비 중 — 손님은 다른 주소에, 케이크는 숯이 되고, 주인공은 30분 일찍 온다.",
+ "where": "Camille 의 아파트",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Hugo"
+ },
+ "register": "casual",
+ "twist": 13,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "수습·짐작·당황 표현(t'inquiète · laisse-moi deviner · comment ça · j'hallucine)과 시간·주소 말하기, 「Reste plus qu'à…」 익히기",
+ "expressions": [
+  "t'inquiète",
+  "comment ça",
+  "franchement",
+  "j'hallucine",
+  "bah",
+  "y a"
+ ],
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Bon, le gâteau est dans le four, les ballons sont là… Il manque quoi ?",
+   "rd": "봉, 르 가또 에 당 르 푸르, 레 발롱 쏭 라… 일 망끄 꾸아?",
+   "ko": "자, 케이크는 오븐에, 풍선은 여기… 뭐가 빠졌지?",
+   "note": "four = 오븐 / ballon = 풍선 / Il manque quoi ? = 뭐가 빠졌지?",
+   "tags": [
+    "form:il manque"
+   ],
+   "new": [
+    "gâteau",
+    "four",
+    "ballon",
+    "manquer"
+   ],
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Les invités ? Y a personne, Camille. Il est dix-neuf heures trente.",
+   "rd": "레 쟁비떼? 야 뻬르쏜, 까미유. 일 레 디즈뇌 뵈르 트랑뜨.",
+   "ko": "손님? 아무도 없잖아, 카미유. 지금 7시 반이야.",
+   "note": "invité = 손님 (연음 레 쟁비떼) / Y a personne = 아무도 없어 (il n'y a 의 구어) / dix-neuf heures → 디즈뇌 뵈르 (f→v 연음)",
+   "tags": [
+    "expr:y a",
+    "liaison:les invités",
+    "liaison:neuf heures"
+   ],
+   "new": [
+    "invité",
+    "personne",
+    "heure"
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "Les invités ? Y a personne, Camille."
+    ],
+    [
+     "worried",
+     "Il est dix-neuf heures trente."
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "T'inquiète, les gens sont toujours en retard. Hugo arrive à vingt heures.",
+   "rd": "땅끼에뜨, 레 쟝 쏭 뚜쥬르 앙 르따르. 위고 아리브 아 뱅 뙤르.",
+   "ko": "걱정 마, 사람들은 늘 늦어. 위고는 8시에 와.",
+   "note": "T'inquiète = 걱정 마 (ne t'inquiète pas 의 구어) / en retard = 늦은 / vingt heures → 뱅 뙤르",
+   "tags": [
+    "expr:t'inquiète",
+    "liaison:vingt heures"
+   ],
+   "new": [
+    "gens",
+    "retard",
+    "arriver"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Ton téléphone sonne. C'est Théo ?",
+   "rd": "똥 뗄레폰 쏜. 쎄 떼오?",
+   "ko": "네 전화 울린다. 테오야?",
+   "note": "sonner = (전화가) 울리다",
+   "tags": [],
+   "new": [
+    "téléphone",
+    "sonner"
+   ],
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Allô ? …Comment ça, vous êtes devant la porte et personne ouvre ? Vous êtes où ?",
+   "rd": "알로? …꼬망 싸, 부 제뜨 드방 라 뽀르뜨 에 뻬르쏜 우브르? 부 제뜨 우?",
+   "ko": "여보세요? …뭐라고, 문 앞인데 아무도 안 열어 준다고? 너네 어디야?",
+   "note": "Comment ça ? = 뭐라고·무슨 소리야 / 여기 vous = 손님들(복수) / devant = 앞에",
+   "tags": [
+    "expr:comment ça",
+    "form:vous 복수"
+   ],
+   "new": [
+    "devant",
+    "porte"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Laisse-moi deviner. Mauvaise adresse.",
+   "rd": "레쓰 무아 드비네. 모베 자드레쓰.",
+   "ko": "내가 맞혀 볼게. 주소 잘못 갔지.",
+   "note": "Laisse-moi deviner = 내가 맞혀 볼게 / mauvaise adresse → 모베 자드레쓰 (연결)",
+   "tags": [
+    "expr:laisse-moi deviner"
+   ],
+   "new": [
+    "deviner",
+    "adresse",
+    "mauvais"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Ils sont au douze. J'habite au vingt-deux. Bravo.",
+   "rd": "일 쏭 또 두즈. 쟈비뜨 오 뱅뜨되. 브라보.",
+   "ko": "12번지에 있대. 나는 22번지 살고. 잘한다.",
+   "note": "au douze = 12번지에 (sont au → 쏭 또 연음) / Bravo = 잘한다 (비꼼)",
+   "tags": [
+    "liaison:sont au",
+    "form:비꼼"
+   ],
+   "new": [
+    "habiter",
+    "douze",
+    "vingt-deux"
+   ],
+   "emotion": "annoyed"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Ça sent quoi, là ? …Camille, le gâteau.",
+   "rd": "싸 쌍 꾸아, 라? …까미유, 르 가또.",
+   "ko": "이거 무슨 냄새야? …카미유, 케이크.",
+   "note": "Ça sent quoi ? = 무슨 냄새야?",
+   "tags": [
+    "form:ça sent"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "worried",
+     "Ça sent quoi, là ?"
+    ],
+    [
+     "surprised",
+     "…Camille, le gâteau."
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Non non non. Pas le gâteau. Ouvre, ouvre !",
+   "rd": "농 농 농. 빠 르 가또. 우브르, 우브르!",
+   "ko": "안 돼 안 돼 안 돼. 케이크는 안 돼. 열어, 열어!",
+   "note": "Pas le gâteau = 케이크만은 안 돼 (동사 없는 구어 부정)",
+   "tags": [
+    "form:pas + 명사"
+   ],
+   "new": [],
+   "emotion": "shout"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Il est tout noir. On dirait une pierre.",
+   "rd": "일 레 뚜 누아르. 옹 디레 윈 삐에르.",
+   "ko": "완전 까맣다. 돌덩이 같아.",
+   "note": "On dirait = ~ 같아 (조건법 관용) / pierre = 돌",
+   "tags": [
+    "form:on dirait"
+   ],
+   "new": [
+    "pierre"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Franchement, j'hallucine. Bon, on éteint la lumière, les gens arrivent, et on cache le gâteau.",
+   "rd": "프랑슈망, 쟐뤼씬. 봉, 옹 네땡 라 뤼미에르, 레 쟝 자리브, 에 옹 까슈 르 가또.",
+   "ko": "진심 어이가 없다. 좋아, 불 끄고, 사람들 오면, 케이크는 숨기자.",
+   "note": "j'hallucine = 어이가 없다·믿기지 않아 / éteindre la lumière = 불 끄다 (on éteint → 옹 네땡) / cacher = 숨기다",
+   "tags": [
+    "expr:franchement",
+    "expr:j'hallucine",
+    "liaison:on éteint"
+   ],
+   "new": [
+    "éteindre",
+    "lumière",
+    "cacher"
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Franchement, j'hallucine."
+    ],
+    [
+     "flustered",
+     "Bon, on éteint la lumière, les gens arrivent, et on cache le gâteau."
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Et on cache où ? Dans le four ? Il est encore chaud.",
+   "rd": "에 옹 까슈 우? 당 르 푸르? 일 레 땅꼬르 쇼.",
+   "ko": "어디에 숨겨? 오븐에? 아직 뜨거운데.",
+   "note": "est encore → 에 땅꼬르 (연음) / chaud = 뜨거운",
+   "tags": [
+    "liaison:est encore"
+   ],
+   "new": [
+    "encore",
+    "chaud"
+   ],
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "fr": "Salut ! Pourquoi c'est tout noir, ici ? Et pourquoi ça sent le feu ?",
+   "rd": "쌀뤼! 뿌르꾸아 쎄 뚜 누아르, 이씨? 에 뿌르꾸아 싸 쌍 르 푀?",
+   "ko": "안녕! 왜 다 깜깜해? 그리고 왜 불 냄새가 나?",
+   "note": "반전: 주인공 Hugo 가 30분 일찍 들어온다 / ça sent le feu = 불 냄새가 난다",
+   "tags": [
+    "twist",
+    "form:ça sent"
+   ],
+   "new": [
+    "feu"
+   ],
+   "emotion": "surprised"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "fr": "SURPRISE ! …Enfin, surprise pour nous aussi, t'es en avance de trente minutes.",
+   "rd": "쒸르프리즈! …앙팽, 쒸르프리즈 뿌르 누 조씨, 떼 앙 나방쓰 드 트랑뜨 미뉘뜨.",
+   "ko": "서프라이즈! …아니, 우리한테도 서프라이즈네, 너 30분 일찍 왔어.",
+   "note": "être en avance = 일찍 오다 (en avance → 앙 나방쓰) / nous aussi → 누 조씨",
+   "tags": [
+    "expr:enfin",
+    "liaison:nous aussi",
+    "liaison:en avance"
+   ],
+   "new": [
+    "surprise",
+    "avance",
+    "minute"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "SURPRISE ! …Enfin, surprise pour nous aussi, t'es en avance de trente minutes.",
+     "Surprise ! Enfin, surprise pour nous aussi, t'es en avance de trente minutes."
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "C",
+   "fr": "Bah, j'ai apporté un gâteau, au cas où. Je vous connais.",
+   "rd": "바, 제 아뽀르떼 앙 가또, 오 까 우. 쥬 부 꼬네.",
+   "ko": "뭐, 혹시 몰라서 케이크 하나 사 왔어. 너희를 아니까.",
+   "note": "au cas où = 혹시 몰라서 / apporter = 가져오다 / Je vous connais = 너희 잘 알지",
+   "tags": [
+    "expr:bah",
+    "expr:au cas où"
+   ],
+   "new": [
+    "apporter",
+    "connaître"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 16,
+   "speaker": "A",
+   "fr": "Le chef a sauvé la fête. Reste plus qu'à retrouver les invités.",
+   "rd": "르 셰프 아 쏘베 라 페뜨. 레스뜨 쁠뤼 까 르트루베 레 쟁비떼.",
+   "ko": "요리사가 파티를 살렸네. 이제 손님만 찾으면 돼.",
+   "note": "Reste plus qu'à + 동사 = 이제 ~만 남았다 (il ne reste plus qu'à 의 구어) / retrouver = 되찾다",
+   "tags": [
+    "form:reste plus qu'à"
+   ],
+   "new": [
+    "chef",
+    "sauver",
+    "fête",
+    "retrouver"
+   ],
+   "segs": [
+    [
+     "amused",
+     "Le chef a sauvé la fête."
+    ],
+    [
+     "teasing",
+     "Reste plus qu'à retrouver les invités."
+    ]
+   ]
+  }
+ ]
+}

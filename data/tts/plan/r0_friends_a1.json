@@ -1,0 +1,60 @@
+{
+ "ep": "r0_friends_a1",
+ "cast": {
+  "B": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Salut ! Moi, c'est Camille. Et toi ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Moi, c'est {name}. Ça va, toi ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, je vais bien ! Et toi, tu viens d'où ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Je viens de {city}. Et toi, Claire ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Claire ?! C'est ma sœur !"
+    ],
+    [
+     "tsukkomi",
+     "Elle vient de Lyon."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Euh… pardon, Camille ! Et toi, tu viens d'où ?"
+    ]
+   ]
+  }
+ }
+}

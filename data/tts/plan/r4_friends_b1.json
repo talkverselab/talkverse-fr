@@ -1,0 +1,129 @@
+{
+ "ep": "r4_friends_b1",
+ "cast": {
+  "B": "camille",
+  "C": "man_o"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Regarde, c'est la lampe dont je t'ai parlé ! Il faut que je l'aie."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Bien qu'elle soit un peu vieille ? Elle a l'air cassée, ta lampe."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "C'est ça qui me plaît. Elle irait parfaitement dans le coin où je lis."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Bon. Avant que tu l'achètes, laisse-moi négocier. J'ai l'habitude."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Celle-là ? Je la vends quarante euros. Elle vient d'un appartement du quartier."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Quarante ? Si elle marchait, je dirais pas non. Vous me la faites à vingt ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Elle marche très bien, je vous assure. Je l'ai testée ce matin."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Franchement, qu'elle marche ou pas, je suis prête à payer cinquante. Elle est trop belle."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Camille ! Il faut pas qu'il le sache !"
+    ],
+    [
+     "stiff",
+     "…Bon, trente, c'est mon dernier prix."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "D'accord, trente. Moi, je l'ai payée dix, rue des Lilas. Un grand blond à vélo."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "Rue des Lilas… c'est chez moi."
+    ],
+    [
+     "shout",
+     "Théo a vendu ma lampe ?!"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "surprised",
+     "Attends, c'est ta lampe qu'il a vendue ? Celle dont tu m'as dit qu'elle était moche ?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "sad",
+     "Ouais… Si j'avais su, je l'aurais jamais laissée dans le couloir."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "T'inquiète. Je te la prête quand tu veux… le dimanche, par exemple."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "ep": "r3_love_a1",
+ "cast": {
+  "B": "lea",
+  "C": "theo",
+  "D": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Pardon… vous lisez quoi ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Des livres sur Paris."
+    ],
+    [
+     "surprised",
+     "Pourquoi ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Parce qu'on a les mêmes ! Vous voyez ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "C'est pas vrai ! Vous les aimez bien ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Bof… on aime les couvertures. On les a pas lus."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Alors pourquoi vous les avez achetés ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "…Parce qu'on vous a vus les acheter hier."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Hier ?"
+    ],
+    [
+     "gentle",
+     "Alors… on va les lire ensemble ?"
+    ]
+   ]
+  }
+ }
+}

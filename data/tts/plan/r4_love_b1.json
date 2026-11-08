@@ -1,0 +1,125 @@
+{
+ "ep": "r4_love_b1",
+ "cast": {
+  "B": "hugo",
+  "C": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Il faut que tu me dises tout. Elle arrive à quelle heure ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "À huit heures. Et j'aimerais que tout soit parfait, d'accord ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "T'inquiète. Le dessert, je m'en occupe. Elle aime le chocolat ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Elle l'adore. Mais n'en mets pas trop, elle n'aime pas quand c'est trop sucré."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Pas de souci. Et les fleurs ? Tu les lui donnes quand ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Au dessert. À moins qu'elle les voie avant… elles sont dans ta cuisine."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Coucou ! Je suis arrivée en avance, j'espère que ça vous dérange pas ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Pas du tout ! Asseyez-vous, je vous apporte… euh… de l'eau."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Mmm, ça sent le chocolat."
+    ],
+    [
+     "surprised",
+     "Et… c'est quoi, cette fumée ?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shout",
+     "Le gâteau ! Si tu m'avais pas parlé des fleurs, je l'aurais pas oublié !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Et c'est de ma faute si tu oublies tout ? Va le sortir, vite !"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Attendez… ces fleurs dans la cuisine, elles sont pour qui ?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "shy",
+     "Euh… pour toi. Je voulais te les donner au dessert."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Alors on a déjà le dessert. Et le gâteau… même brûlé, j'en veux."
+    ]
+   ]
+  }
+ }
+}

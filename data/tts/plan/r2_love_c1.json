@@ -1,0 +1,103 @@
+{
+ "ep": "r2_love_c1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Salut ! Le chat sur ta photo… c’est ton chat ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Mdr non, c'est le chat de ma voisine. Il squatte chez moi."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Ptdr. Donc tu mens sur ton profil ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Un peu. Mais lui, il m'aime vraiment."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Et moi, je peux venir squatter aussi ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "…Sérieux ?"
+    ],
+    [
+     "shy",
+     "Genre, samedi ? On boit un café ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Bon… je suis allé trop vite. Tant pis"
+    ]
+   ],
+   "f": {
+    "text": "Bon… je suis allée trop vite. Tant pis 🫠",
+    "rd": "봉… 쥬 쒸 잘레 트로 비뜨. 땅 삐.",
+    "ko": "음… 내가 너무 빨랐나. 뭐 어쩔 수 없지 🫠",
+    "segs": [
+     [
+      "sad",
+      "Bon… je suis allée trop vite. Tant pis"
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "NON PARDON !! Je me suis endormie sur mon téléphone"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "cheerful",
+     "Samedi, c'est oui. Mais le chat vient aussi."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Il peut pas. Il est jaloux, il me parle plus depuis hier soir."
+    ]
+   ]
+  }
+ }
+}

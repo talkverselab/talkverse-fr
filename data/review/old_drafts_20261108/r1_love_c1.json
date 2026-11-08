@@ -1,0 +1,191 @@
+{
+ "id": "r1_love_c1",
+ "region": "R1",
+ "island": "love",
+ "kind": "chat",
+ "title": "영화는 망했네",
+ "emoji": "💬",
+ "scene": "데이팅앱에서 매칭된 밤. Léa 가 먼저 말을 건다 — 둘 다 영화를 보고 있다는데, 사실은 둘 다 안 보고 있다.",
+ "where": "데이팅앱 1:1 채팅",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "채팅 첫인사(Salut · c'est toi ?)와 「지금 뭐 해?」(Tu fais quoi, là ?) 를 익히고, en fait 로 속마음 꺼내기",
+ "expressions": [
+  "ouais",
+  "enfin",
+  "ben",
+  "en fait",
+  "c'est mort"
+ ],
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Salut ! Alors, c'est bien toi ? 😊",
+   "rd": "쌀뤼! 알로르, 쎄 비앵 뚜아?",
+   "ko": "안녕! 그러니까, 진짜 너야? 😊",
+   "note": "c'est bien toi ? = 진짜 너야? (매칭 뒤 첫 확인 인사, bien = 정말)",
+   "tags": [
+    "expr:salut",
+    "form:c'est"
+   ],
+   "new": [
+    "salut",
+    "alors"
+   ],
+   "ui": "bubble",
+   "at": "21:03",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Oui, c'est moi ! Et toi, Léa ?",
+   "rd": "위, 쎄 무아! 에 뚜아, 레아?",
+   "ko": "응, 나야! 너는 레아지?",
+   "note": "Et toi ? = 너는? — 되묻기 한 마디",
+   "tags": [
+    "form:et toi"
+   ],
+   "new": [],
+   "ui": "bubble",
+   "at": "21:05",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Ouais. Tu fais quoi, là ?",
+   "rd": "웨. 뛰 페 꾸아, 라?",
+   "ko": "응. 지금 뭐 해?",
+   "note": "Tu fais quoi, là ? = 지금 뭐 해? (구어 어순, 문장 끝 là = 지금)",
+   "tags": [
+    "expr:ouais",
+    "expr:tu fais quoi"
+   ],
+   "new": [
+    "faire",
+    "là"
+   ],
+   "ui": "bubble",
+   "at": "21:05",
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Un film, chez moi. Et toi ?",
+   "rd": "앙 필름, 셰 무아. 에 뚜아?",
+   "ko": "집에서 영화. 너는?",
+   "note": "chez moi = 우리 집에서",
+   "tags": [
+    "form:chez"
+   ],
+   "new": [
+    "film",
+    "chez"
+   ],
+   "ui": "bubble",
+   "at": "21:06",
+   "emotion": "neutral"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Pareil. Enfin, je regarde pas trop… 😅",
+   "rd": "빠레이. 앙팽, 쥬 르가르드 빠 트로…",
+   "ko": "나도. 아니 사실, 별로 안 보고 있어… 😅",
+   "note": "pareil = 똑같아·나도 / enfin = 아니 그게… (말 고치기) / ne 없는 구어 부정(je regarde pas)",
+   "tags": [
+    "expr:enfin",
+    "form:ne 생략"
+   ],
+   "new": [
+    "pareil",
+    "regarder"
+   ],
+   "ui": "bubble",
+   "at": "21:06",
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Ah bon ? Pourquoi ?",
+   "rd": "아 봉? 뿌르꾸아?",
+   "ko": "어? 왜?",
+   "note": "Ah bon ? = 어, 그래? (가벼운 놀람)",
+   "tags": [
+    "expr:ah bon"
+   ],
+   "new": [
+    "pourquoi"
+   ],
+   "ui": "bubble",
+   "at": "21:07",
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Ben… je parle avec toi, en fait.",
+   "rd": "뱅… 쥬 빠를 아벡 뚜아, 앙 페뜨.",
+   "ko": "음… 사실 너랑 얘기하고 있잖아.",
+   "note": "ben = 음… (말 머뭇) / en fait = 사실은 (끝 t 발음) — 반전·심쿵: 영화 안 보는 이유가 상대",
+   "tags": [
+    "expr:ben",
+    "expr:en fait",
+    "twist"
+   ],
+   "new": [
+    "parler",
+    "avec"
+   ],
+   "ui": "bubble",
+   "at": "21:09",
+   "stamp": "❤️",
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Moi aussi. Le film, c'est mort 😂",
+   "rd": "무아 오씨. 르 필름, 쎄 모르.",
+   "ko": "나도. 영화는 망했네 😂",
+   "note": "c'est mort = 끝났어·물 건너갔어 (구어)",
+   "tags": [
+    "expr:c'est mort"
+   ],
+   "new": [
+    "aussi"
+   ],
+   "ui": "bubble",
+   "at": "21:10",
+   "segs": [
+    [
+     "gentle",
+     "Moi aussi."
+    ],
+    [
+     "amused",
+     "Le film, c'est mort"
+    ]
+   ]
+  }
+ ]
+}

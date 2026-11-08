@@ -1,0 +1,147 @@
+{
+ "_meta": "프랑스어 회화 음성 — 목소리·감정·자리 채움. 일본어앱 data/tts/voices.json 과 같은 짜임. 참고 음성은 VoxCPM2(설명 instruct 는 영어).",
+ "base_text": "Ce soir, j'ai une réunion, alors j'ai tout préparé ce matin. Et quand ce sera fini, on pourra dîner ensemble, tu veux bien ?",
+ "voices": {
+  "am": {
+   "desc": "A French young man in his twenties, clear and gentle voice"
+  },
+  "af": {
+   "desc": "A French young woman in her twenties, clear and soft voice"
+  },
+  "camille": {
+   "desc": "A French woman in her early twenties, quick, witty and direct voice"
+  },
+  "lea": {
+   "desc": "A French woman in her early twenties, dreamy, soft and slightly breathy voice"
+  },
+  "hugo": {
+   "desc": "A French man in his mid twenties, relaxed, warm and joking voice"
+  },
+  "theo": {
+   "desc": "A French man in his mid twenties, frank, energetic and slightly deep voice"
+  },
+  "man_y": {
+   "desc": "A French man around twenty, natural and clear voice"
+  },
+  "man_m": {
+   "desc": "A French man in his forties, steady and calm voice"
+  },
+  "man_o": {
+   "desc": "A French man in his seventies, aged and gentle voice"
+  },
+  "woman_y": {
+   "desc": "A French woman around twenty, natural and clear voice"
+  },
+  "woman_m": {
+   "desc": "A French woman in her forties, composed and kind voice"
+  },
+  "woman_o": {
+   "desc": "A French woman in her seventies, aged and warm voice"
+  },
+  "kid": {
+   "desc": "A French child around eight years old, small and bright voice"
+  },
+  "announce": {
+   "desc": "A clear, even French female announcer voice, like a station or airport announcement"
+  },
+  "robot": {
+   "desc": "A flat synthetic machine voice, like a kiosk or payment terminal"
+  }
+ },
+ "emotions": {
+  "neutral": {
+   "instruct": "calm and natural, everyday tone, natural conversational pace, subtle",
+   "ref": "Ce soir j'ai une réunion, donc je prépare mes documents maintenant."
+  },
+  "polite": {
+   "instruct": "polite and professional, like a clerk or station staff, natural conversational pace, subtle",
+   "ref": "Bonjour madame. Votre commande est prête. Je vous souhaite une bonne journée."
+  },
+  "stiff": {
+   "instruct": "very nervous and stiff, formal and overly polite, natural conversational pace, subtle",
+   "ref": "Merci beaucoup de me recevoir. Je ferai de mon mieux. Je vous remercie de votre confiance."
+  },
+  "cheerful": {
+   "instruct": "cheerful, bright and friendly, natural conversational pace, subtle",
+   "ref": "Ah, tu es là ! Il fait super beau, ça va être une belle journée."
+  },
+  "amused": {
+   "instruct": "amused, laughing warmly, relaxed, natural conversational pace, subtle",
+   "ref": "Ha ha, c'est trop drôle ! Vas-y, continue comme ça."
+  },
+  "teasing": {
+   "instruct": "teasing, playful and mischievous, natural conversational pace, subtle",
+   "ref": "C'est quoi cette tête ? Allez, dis-moi tout. Je ne le répéterai à personne."
+  },
+  "excited": {
+   "instruct": "excited, bursting with energy, bright and loud, natural conversational pace, subtle",
+   "ref": "J'ai réussi, j'ai réussi ! Je n'en reviens pas. Merci, merci beaucoup !"
+  },
+  "surprised": {
+   "instruct": "surprised, caught off guard, voice jumps, natural conversational pace, subtle",
+   "ref": "Quoi ? Sérieux ? Attends, comment ça ?"
+  },
+  "shout": {
+   "instruct": "raised voice, comic disbelief, not screaming, natural conversational pace, subtle",
+   "ref": "Quoi ? Maintenant ? Mais je fais comment, moi ?"
+  },
+  "tsukkomi": {
+   "instruct": "a quick sharp comic retort, exasperated but fond, natural conversational pace, subtle",
+   "ref": "Mais non ! Pourquoi tu l'as mis là ? Oh là là, toi alors."
+  },
+  "annoyed": {
+   "instruct": "annoyed, irritated, sighing, natural conversational pace, subtle",
+   "ref": "Encore ça ? Bon, ça suffit, on arrête d'en parler."
+  },
+  "sad": {
+   "instruct": "sad, quiet, voice slightly trembling, natural conversational pace, subtle",
+   "ref": "Je suis juste un peu fatigué. Ce n'est rien."
+  },
+  "worried": {
+   "instruct": "worried and anxious, hesitant, natural conversational pace, subtle",
+   "ref": "Ça va ? Tu es sûr ? Tu devrais peut-être voir un médecin."
+  },
+  "flustered": {
+   "instruct": "flustered and embarrassed, stammering, unsure, natural conversational pace, subtle",
+   "ref": "Euh, attends, je ne sais pas trop quoi dire, en fait."
+  },
+  "shy": {
+   "instruct": "shy, soft, slightly trailing off, natural conversational pace, subtle",
+   "ref": "Ah... c'est que... moi aussi, j'aime bien. Alors... on y va ensemble."
+  },
+  "gentle": {
+   "instruct": "gentle, warm and tender, quiet, natural conversational pace, subtle",
+   "ref": "Ce n'est pas grave. Prends ton temps. Je suis là."
+  }
+ },
+ "fill": {
+  "{name}": {
+   "m": {
+    "text": "Alex",
+    "rd": "알렉스",
+    "ko": "알렉스"
+   },
+   "f": {
+    "text": "Emma",
+    "rd": "에마",
+    "ko": "에마"
+   }
+  },
+  "{country}": {
+   "text": "Canada",
+   "rd": "꺄나다",
+   "ko": "캐나다"
+  },
+  "{city}": {
+   "text": "Toronto",
+   "rd": "또롱또",
+   "ko": "토론토"
+  },
+  "{lang}": {
+   "text": "anglais",
+   "rd": "앙글레",
+   "ko": "영어"
+  }
+ },
+ "rate": 12.5
+}

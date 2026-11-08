@@ -1,0 +1,103 @@
+{
+ "ep": "r2_friends_c1",
+ "cast": {
+  "B": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Ce soir, je fais ma tarte aux pommes ! Tu veux venir ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, carrément ! J'arrive vers 20h.",
+     "Ouais, carrément ! J'arrive vers vingt heures."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Mdr, j'espère qu'il va pas encore brûler la tarte"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "annoyed",
+     "…C'est pour qui, ce message ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Pour toi ! Enfin… pour Camille Pardon pardon !!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Trop tard. Camille l'a vu aussi, elle est à côté de moi."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Elle rigole depuis 5 min",
+     "Elle rigole depuis cinq minutes"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Sérieux ?"
+    ],
+    [
+     "flustered",
+     "Bon, je veux me faire pardonner… je viens avec un gâteau."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Pas besoin. Elle l'a déjà mis en story."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Non… Tout le monde le voit ?!"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Ouais. Même ma mère. Elle veut la recette de la tarte brûlée mdr",
+     "Ouais. Même ma mère. Elle veut la recette de la tarte brûlée."
+    ]
+   ]
+  }
+ }
+}

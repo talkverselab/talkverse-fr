@@ -1,0 +1,657 @@
+{
+ "id": "r3_love_a2",
+ "region": "R3",
+ "island": "love",
+ "kind": "short",
+ "title": "작은 우산 (존댓말)",
+ "emoji": "☂️",
+ "scene": "레벨 1 「작은 우산」을 존댓말로 — 처음 보는 레아와 A 가 서로 vous 로 말한다. 같은 문장을 vous 로 갈아끼우고, 마지막에 말을 놓자고 한다",
+ "where": "버스 정류장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "polite",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "그래머2: 처음 보는 사람에게 존댓말 vous(한 사람이라 과거분사는 단수 vu/vue)·tu 로 넘어가기 — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "voilà",
+  "grave"
+ ],
+ "tags": [
+  "base:r1_love_a2"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Il pleut fort, hein. Vous venez sous mon parapluie ?",
+   "rd": "일 쁠뢰 포르, 앵. 부 브네 쑤 몽 빠라쁠뤼?",
+   "ko": "비 많이 오네요. 제 우산 같이 쓰실래요?",
+   "note": "tu viens → vous venez(처음 보는 사람에게 존댓말)",
+   "tags": [
+    "callback:r1_love_a2",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "pleut",
+     "pleuvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "hein",
+     "hein",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "venez",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pleut",
+     "pleuvoir",
+     ""
+    ],
+    [
+     "fort",
+     "fort",
+     ""
+    ],
+    [
+     "venez",
+     "venir",
+     ""
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Merci. Mais il est petit, votre parapluie.",
+   "rd": "메르씨. 메 일 레 쁘띠, 보트르 빠라쁠뤼.",
+   "ko": "고마워요. 근데 우산이 작네요.",
+   "note": "ton parapluie → votre parapluie",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "petit",
+     "petit",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "petit",
+     "petit",
+     ""
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Pas grave, je suis petite. Venez plus près, voilà.",
+   "rd": "빠 그라브, 쥬 쒸 쁘띠뜨. 브네 쁠뤼 쁘레, 부알라.",
+   "ko": "괜찮아요, 제가 작거든요. 더 가까이 오세요, 이렇게.",
+   "note": "il est petit(우산) → je suis petite · vous venez → venez(존댓말 명령)",
+   "tags": [
+    "expr:grave",
+    "expr:voilà",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "grave",
+     "grave",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "petite",
+     "petit",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "Venez",
+     "venir",
+     "VERB",
+     "Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "voilà",
+     "voilà",
+     "VERB",
+     "Mood=Ind|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ],
+    [
+     "petite",
+     "petit",
+     ""
+    ],
+    [
+     "Venez",
+     "venir",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "près",
+     "près",
+     ""
+    ],
+    [
+     "voilà",
+     "voilà",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Vous prenez ce bus aussi ? Je vous ai jamais vue.",
+   "rd": "부 쁘르네 쓰 뷔스 오씨? 쥬 부 제 자메 뷔.",
+   "ko": "이 버스 타세요? 한 번도 못 뵌 것 같은데요.",
+   "note": "je t'ai jamais vue → je vous ai jamais vue(존댓말 vous 도 한 사람이면 단수 vue)",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "prenez",
+     "prendre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "bus",
+     "bus",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vue",
+     "vue",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "prenez",
+     "prendre",
+     ""
+    ],
+    [
+     "bus",
+     "boire",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "vue",
+     "vue",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Non, ma maison est à côté. Enfin… euh…",
+   "rd": "농, 마 메종 에 따 꼬떼. 앙팽… 외…",
+   "ko": "아뇨, 저희 집 바로 옆이에요. 아니 그러니까… 어…",
+   "note": "레벨 1 과 같은 줄 — 존댓말이어도 je 문장은 그대로",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Non, ma maison est à côté."
+    ],
+    [
+     "flustered",
+     "Enfin… euh…"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "maison",
+     "maison",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "côté",
+     "côté",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "maison",
+     "maison",
+     ""
+    ],
+    [
+     "côté",
+     "côté",
+     ""
+    ],
+    [
+     "Enfin",
+     "enfin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "À côté ? Alors pourquoi vous attendez ici ?",
+   "rd": "아 꼬떼? 알로르 뿌르꾸아 부 자땅데 이씨?",
+   "ko": "옆이요? 그럼 여기서 왜 기다리세요?",
+   "note": "t'attends → vous attendez",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "côté",
+     "côté",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "attendez",
+     "attendre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "côté",
+     "côté",
+     ""
+    ],
+    [
+     "Alors",
+     "alors",
+     ""
+    ],
+    [
+     "pourquoi",
+     "pourquoi",
+     ""
+    ],
+    [
+     "attendez",
+     "attendre",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "…J'attendais quelqu'un. Vous. Vous aviez pas de parapluie.",
+   "rd": "…쟈땅데 껠꺙. 부. 부 자비에 빠 드 빠라쁠뤼.",
+   "ko": "…누굴 기다렸어요. 당신이요. 우산이 없으셨잖아요.",
+   "note": "vous attendez → j'attendais(반과거) · 레벨 1 t'avais → vous aviez",
+   "tags": [
+    "form:vous",
+    "form:imparfait"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "attendais",
+     "attendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "aviez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "attendais",
+     "attendre",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Je vais pas le prendre… On se dit « tu » ? Tu viens ?",
+   "rd": "쥬 베 빠 르 프랑드르… 옹 쓰 디 \"뛰\"? 뛰 비앵?",
+   "ko": "버스 안 탈래요… 우리 말 놓을까? 같이 갈래?",
+   "note": "vous prenez → je vais pas le prendre · vous venez ? → tu viens ? — vous 에서 tu 로 넘어가는 순간 · on se dit « tu » = 서로 tu 로 하자(말 놓기)",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vais",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "prendre",
+     "prendre",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "se",
+     "se",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "»",
+     "»",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "viens",
+     "vien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vais",
+     "aller",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "prendre",
+     "prendre",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "viens",
+     "venir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "ep": "r3_life_a1",
+ "cast": {
+  "B": "theo",
+  "C": "hugo",
+  "D": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Nos gâteaux sont plus dans le frigo. C'est vous ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Nous ? Non !"
+    ],
+    [
+     "worried",
+     "Nous avons rien mangé, je vous jure."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "annoyed",
+     "Sérieux ? Nous, on mange pas la nuit."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Ben, hier soir, nous sommes rentrés tard. Vous, non ?"
+    ]
+   ],
+   "f": {
+    "text": "Ben, hier soir, nous sommes rentrées tard. Vous, non ?",
+    "rd": "뱅, 이에르 수아르, 누 쏨 랑트레 따르. 부, 농?",
+    "ko": "그게, 어젯밤에 우리 늦게 들어왔어. 너희는 아니야?",
+    "segs": [
+     [
+      "worried",
+      "Ben, hier soir, nous sommes rentrées tard. Vous, non ?"
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Nous ? On rentre jamais tard. On a dormi, nous."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "À deux heures, je vous ai vus dans la cuisine."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Comment ça ? Nous dormions, nous !"
+    ],
+    [
+     "worried",
+     "On a fait quoi ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Vous dormiez, ouais… et vous mangiez vos gâteaux."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,154 @@
+{
+ "ep": "r3_friends_b1",
+ "cast": {
+  "B": "camille",
+  "C": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Bon, le gâteau est dans le four, les ballons sont là… Il manque quoi ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Les invités ? Y a personne, Camille."
+    ],
+    [
+     "worried",
+     "Il est dix-neuf heures trente."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "T'inquiète, les gens sont toujours en retard. Hugo arrive à vingt heures."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Ton téléphone sonne. C'est Théo ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Allô ? …Comment ça, vous êtes devant la porte et personne ouvre ? Vous êtes où ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Laisse-moi deviner. Mauvaise adresse."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "annoyed",
+     "Ils sont au douze. J'habite au vingt-deux. Bravo."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Ça sent quoi, là ?"
+    ],
+    [
+     "surprised",
+     "…Camille, le gâteau."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "Non non non. Pas le gâteau. Ouvre, ouvre !"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "amused",
+     "Il est tout noir. On dirait une pierre."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "annoyed",
+     "Franchement, j'hallucine."
+    ],
+    [
+     "flustered",
+     "Bon, on éteint la lumière, les gens arrivent, et on cache le gâteau."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Et on cache où ? Dans le four ? Il est encore chaud."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "surprised",
+     "Salut ! Pourquoi c'est tout noir, ici ? Et pourquoi ça sent le feu ?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "SURPRISE ! …Enfin, surprise pour nous aussi, t'es en avance de trente minutes.",
+     "Surprise ! Enfin, surprise pour nous aussi, t'es en avance de trente minutes."
+    ]
+   ]
+  },
+  "15": {
+   "segs": [
+    [
+     "amused",
+     "Bah, j'ai apporté un gâteau, au cas où. Je vous connais."
+    ]
+   ]
+  },
+  "16": {
+   "segs": [
+    [
+     "amused",
+     "Le chef a sauvé la fête."
+    ],
+    [
+     "teasing",
+     "Reste plus qu'à retrouver les invités."
+    ]
+   ]
+  }
+ }
+}

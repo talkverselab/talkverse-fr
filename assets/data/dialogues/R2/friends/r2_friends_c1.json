@@ -1,0 +1,925 @@
+{
+ "id": "r2_friends_c1",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "보낼 사람을 잘못 골랐다",
+ "emoji": "🥧",
+ "scene": "위고가 오늘 밤 사과 타르트를 굽는다며 초대한다. A 가 카미유에게 보내려던 농담을 위고에게 보내 버린다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "채팅 말투(ouais·carrément·mdr·sérieux)",
+ "expressions": [
+  "ouais",
+  "carrément",
+  "mdr",
+  "sérieux"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Ce soir, je fais ma tarte aux pommes ! Tu veux venir ? 🍎",
+   "rd": "쓰 수아르, 쥬 페 마 따르뜨 오 뽐! 뛰 브 브니르?",
+   "ko": "오늘 밤 내 사과 타르트 만든다! 올래? 🍎",
+   "note": "tarte aux pommes = 사과 타르트 · Tu veux venir ? = 올래?",
+   "tags": [],
+   "new": [
+    "tarte",
+    "pomme"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "19:02",
+   "morph_tags": [
+    [
+     "Ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fais",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "tarte",
+     "tarte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "pommes",
+     "pomme",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "veux",
+     "veux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "venir",
+     "venir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "🍎",
+     "🍎",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "tarte",
+     "tarte",
+     ""
+    ],
+    [
+     "pommes",
+     "pomme",
+     ""
+    ],
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "venir",
+     "venir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, carrément ! J'arrive vers 20h.",
+   "rd": "웨, 까레망! 쟈리브 베르 뱅 뙤르.",
+   "ko": "응, 당연하지! 8시쯤 갈게.",
+   "note": "carrément = 완전, 당연",
+   "tags": [
+    "expr:carrément"
+   ],
+   "new": [],
+   "ui": "bubble",
+   "at": "19:03",
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, carrément ! J'arrive vers 20h.",
+     "Ouais, carrément ! J'arrive vers vingt heures."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "carrément",
+     "carrémer",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "carrément",
+     "carrément",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Mdr, j'espère qu'il va pas encore brûler la tarte 😂",
+   "rd": "엠데에르, 제스뻬르 낄 바 빠 장꼬르 브륄레 라 따르뜨",
+   "ko": "ㅋㅋ 이번에도 타르트 태우는 건 아니겠지 😂",
+   "note": "mdr = ㅋㅋ · aller + 동사원형 = …할 거다",
+   "tags": [
+    "expr:mdr"
+   ],
+   "new": [
+    "brûler"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "19:05",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "espère",
+     "espérer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "brûler",
+     "brûler",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tarte",
+     "tarte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "espère",
+     "espérer",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "encore",
+     "encore",
+     ""
+    ],
+    [
+     "brûler",
+     "brûler",
+     ""
+    ],
+    [
+     "tarte",
+     "tarte",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "…C'est pour qui, ce message ? 🤨",
+   "rd": "…쎄 뿌르 끼, 쓰 메싸쥬?",
+   "ko": "…이 메시지 누구한테 보낸 거야?",
+   "note": "C'est pour qui ? = 누구 거야?",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "19:05",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "message",
+     "message",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "🤨",
+     "🤨",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "message",
+     "message",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Pour toi ! Enfin… pour Camille 😭 Pardon pardon !!",
+   "rd": "뿌르 뚜아! 앙팽… 뿌르 까미유. 빠르동 빠르동!!",
+   "ko": "너한테! 아니… 카미유한테 😭 미안 미안!!",
+   "note": "enfin = 아니 그러니까(정정)",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "19:06",
+   "morph_tags": [
+    [
+     "😭",
+     "😭",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "pardon",
+     "pardon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Enfin",
+     "enfin",
+     ""
+    ],
+    [
+     "pardon",
+     "pardon",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Trop tard. Camille l'a vu aussi, elle est à côté de moi.",
+   "rd": "트로 따르. 까미유 라 뷔 오씨, 엘 레 따 꼬떼 드 무아.",
+   "ko": "늦었어. 카미유도 봤어, 내 옆에 있거든.",
+   "note": "à côté de = … 옆에",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "19:06",
+   "morph_tags": [
+    [
+     "Camille",
+     "camille",
+     "PRON",
+     "Number=Sing|PronType=Dem"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vu",
+     "voir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "côté",
+     "côté",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "tard",
+     "tard",
+     ""
+    ],
+    [
+     "vu",
+     "voir",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "côté",
+     "côté",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Elle rigole depuis 5 min 🙄",
+   "rd": "엘 리골 드쀠 쌩 미뉘뜨",
+   "ko": "5분째 웃고 있어 🙄",
+   "note": "rigoler = 웃다(구어)",
+   "tags": [],
+   "new": [
+    "rigoler"
+   ],
+   "ui": "bubble",
+   "at": "19:07",
+   "segs": [
+    [
+     "annoyed",
+     "Elle rigole depuis 5 min",
+     "Elle rigole depuis cinq minutes"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "rigole",
+     "rigole",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "min",
+     "min",
+     "NOUN",
+     "Gender=Masc"
+    ]
+   ],
+   "lemmas": [
+    [
+     "rigole",
+     "rigole",
+     ""
+    ],
+    [
+     "min",
+     "min",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Sérieux ? Bon, je veux me faire pardonner… je viens avec un gâteau.",
+   "rd": "쎄리외? 봉, 쥬 브 므 페르 빠르도네… 쥬 비앵 아벡 깡 가또.",
+   "ko": "진짜? 알았어, 용서받고 싶으니까… 케이크 들고 갈게.",
+   "note": "sérieux ? = 진짜? · tu veux venir → je veux / je viens · se faire pardonner = 용서받다",
+   "tags": [
+    "expr:sérieux"
+   ],
+   "new": [],
+   "ui": "bubble",
+   "at": "19:08",
+   "segs": [
+    [
+     "surprised",
+     "Sérieux ?"
+    ],
+    [
+     "flustered",
+     "Bon, je veux me faire pardonner… je viens avec un gâteau."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Sérieux",
+     "sérieux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "faire",
+     "faire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "pardonner",
+     "pardonner",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "viens",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Sérieux",
+     "sérieux",
+     ""
+    ],
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "faire",
+     "faire",
+     ""
+    ],
+    [
+     "pardonner",
+     "pardonner",
+     ""
+    ],
+    [
+     "viens",
+     "venir",
+     ""
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Pas besoin. Elle l'a déjà mis en story.",
+   "rd": "빠 브주앵. 엘 라 데쟈 미 앙 스또리.",
+   "ko": "필요 없어. 벌써 스토리에 올렸어.",
+   "note": "mettre en story = 스토리에 올리다(mis)",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "19:10",
+   "morph_tags": [
+    [
+     "besoin",
+     "besoin",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mis",
+     "mettre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "story",
+     "story",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "besoin",
+     "besoin",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "mis",
+     "mettre",
+     ""
+    ],
+    [
+     "story",
+     "story",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Non… Tout le monde le voit ?!",
+   "rd": "농… 뚜 르 몽드 르 부아?!",
+   "ko": "안 돼… 다들 보는 거야?!",
+   "note": "l'a vu(봤다) → le voit(본다)",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "19:10",
+   "morph_tags": [
+    [
+     "Tout",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "monde",
+     "monde",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "voit",
+     "voit",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tout",
+     "tout",
+     ""
+    ],
+    [
+     "monde",
+     "monde",
+     ""
+    ],
+    [
+     "voit",
+     "voir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Ouais. Même ma mère. Elle veut la recette de la tarte brûlée mdr",
+   "rd": "웨. 멤 마 메르. 엘 브 라 르쎄뜨 드 라 따르뜨 브륄레.",
+   "ko": "응. 우리 엄마까지. 탄 타르트 레시피 달래 ㅋㅋ",
+   "note": "recette = 레시피 · tu veux → elle veut · brûler → la tarte brûlée(여성)",
+   "tags": [],
+   "new": [
+    "recette"
+   ],
+   "ui": "bubble",
+   "at": "19:12",
+   "stamp": "😂",
+   "segs": [
+    [
+     "amused",
+     "Ouais. Même ma mère. Elle veut la recette de la tarte brûlée mdr",
+     "Ouais. Même ma mère. Elle veut la recette de la tarte brûlée."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "mère",
+     "mère",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "veut",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "recette",
+     "recette",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tarte",
+     "tarte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "brûlée",
+     "brûler",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Même",
+     "même",
+     ""
+    ],
+    [
+     "mère",
+     "mère",
+     ""
+    ],
+    [
+     "veut",
+     "vouloir",
+     ""
+    ],
+    [
+     "recette",
+     "recette",
+     ""
+    ],
+    [
+     "tarte",
+     "tarte",
+     ""
+    ],
+    [
+     "brûlée",
+     "brûler",
+     ""
+    ],
+    [
+     "mdr",
+     "mdr",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

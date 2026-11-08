@@ -1,0 +1,76 @@
+{
+ "ep": "r1_love_a3",
+ "cast": {
+  "B": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Bon, première crêpe. Tu la retournes, d'accord ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Moi ? J'ai jamais fait ça. Tu vas rire."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Je vais pas rire. Allez, un, deux… trois !"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Elle est où ?"
+    ],
+    [
+     "flustered",
+     "…Oh non, elle est tombée."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Pas grave, la première, elle tombe toujours."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Attends, t'as de la farine… là."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "…Ici ? Tu peux m'aider ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Voilà. …La prochaine, on la retourne ensemble."
+    ]
+   ]
+  }
+ }
+}

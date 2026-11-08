@@ -1,0 +1,1350 @@
+{
+ "id": "r4_love_b1",
+ "region": "R4",
+ "island": "love",
+ "kind": "long",
+ "title": "디저트는 꽃",
+ "emoji": "💐",
+ "scene": "위고의 식당. A 가 레아와의 저녁을 완벽하게 준비하려는데 레아는 일찍 오고, 위고는 케이크를 태우고, 숨겨 둔 꽃은 들킨다",
+ "where": "식당 주방 앞",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Léa"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "life"
+ ],
+ "goal": "접속법(il faut que · j'aimerais que · à moins que)·대명사 결합(les lui · m'en · j'en)·가정(si j'avais…, j'aurais…)",
+ "expressions": [
+  "t'inquiète",
+  "pas de souci",
+  "pas du tout",
+  "c'est quoi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Il faut que tu me dises tout. Elle arrive à quelle heure ?",
+   "rd": "일 포 끄 뛰 므 디즈 뚜. 엘 라리브 아 껠 뢰르?",
+   "ko": "다 말해 줘야 해. 레아 몇 시에 와?",
+   "note": "il faut que + 접속법(dises)",
+   "tags": [
+    "form:subjonctif"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "dises",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quelle",
+     "quel",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Int"
+    ],
+    [
+     "heure",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "dises",
+     "dire",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ],
+    [
+     "heure",
+     "heure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "À huit heures. Et j'aimerais que tout soit parfait, d'accord ?",
+   "rd": "아 위 뙤르. 에 제므레 끄 뚜 쑤아 빠르페, 다꼬르?",
+   "ko": "8시에. 그리고 전부 완벽했으면 좋겠어, 알았지?",
+   "note": "j'aimerais que + 접속법(soit)",
+   "tags": [
+    "form:subjonctif",
+    "form:conditionnel"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "aimerais",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tout",
+     "tout",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "soit",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parfait",
+     "parfaire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "aimerais",
+     "aimer",
+     ""
+    ],
+    [
+     "que",
+     "que",
+     ""
+    ],
+    [
+     "parfait",
+     "parfait",
+     ""
+    ],
+    [
+     "accord",
+     "accord",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "T'inquiète. Le dessert, je m'en occupe. Elle aime le chocolat ?",
+   "rd": "땡끼에뜨. 르 데쎄르, 쥬 망 노뀌쁘. 엘 렘 르 쇼꼴라?",
+   "ko": "걱정 마. 디저트는 내가 맡을게. 레아 초콜릿 좋아해?",
+   "note": "s'en occuper = 그걸 맡다",
+   "tags": [
+    "expr:t'inquiète"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "dessert",
+     "dessert",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "occupe",
+     "occupe",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "aime",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "dessert",
+     "dessert",
+     ""
+    ],
+    [
+     "occupe",
+     "occupe",
+     ""
+    ],
+    [
+     "aime",
+     "aimer",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Elle l'adore. Mais n'en mets pas trop, elle n'aime pas quand c'est trop sucré.",
+   "rd": "엘 라도르. 메 낭 메 빠 트로, 엘 넴 빠 깡 쎄 트로 쒸끄레.",
+   "ko": "엄청 좋아해. 근데 너무 많이 넣지는 마, 너무 단 건 싫어해.",
+   "note": "n'en mets pas trop = 그걸 너무 많이 넣지 마(en)",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "adore",
+     "adore",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "mets",
+     "mets",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "aime",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sucré",
+     "sucrer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "adore",
+     "adore",
+     ""
+    ],
+    [
+     "n'",
+     "ne",
+     ""
+    ],
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "aime",
+     "aimer",
+     ""
+    ],
+    [
+     "sucré",
+     "sucrer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Pas de souci. Et les fleurs ? Tu les lui donnes quand ?",
+   "rd": "빠 드 쑤씨. 에 레 플뢰르? 뛰 레 뤼 돈 깡?",
+   "ko": "문제없어. 그리고 꽃은? 레아한테 언제 줄 거야?",
+   "note": "les lui = 그것들을 그녀에게",
+   "tags": [
+    "expr:pas de souci"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "souci",
+     "souci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "fleurs",
+     "fleur",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "lui",
+     "lui",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "donnes",
+     "donne",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "souci",
+     "souci",
+     ""
+    ],
+    [
+     "fleurs",
+     "fleur",
+     ""
+    ],
+    [
+     "donnes",
+     "donne",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Au dessert. À moins qu'elle les voie avant… elles sont dans ta cuisine.",
+   "rd": "오 데쎄르. 아 무앵 껠 레 부아 아방… 엘 쏭 당 따 뀌진.",
+   "ko": "디저트 때. 그 전에 보지만 않으면… 네 주방에 있거든.",
+   "note": "à moins que + 접속법(voie) = …하지 않는다면",
+   "tags": [
+    "form:subjonctif"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "dessert",
+     "dessert",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "voie",
+     "voie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ta",
+     "ton",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "cuisine",
+     "cuisine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dessert",
+     "dessert",
+     ""
+    ],
+    [
+     "moins",
+     "moins",
+     ""
+    ],
+    [
+     "voie",
+     "voie",
+     ""
+    ],
+    [
+     "cuisine",
+     "cuisine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Coucou ! Je suis arrivée en avance, j'espère que ça vous dérange pas ?",
+   "rd": "꾸꾸! 쥬 쒸 자리베 앙 나방쓰, 제스뻬르 끄 싸 부 데랑쥬 빠?",
+   "ko": "안녕! 나 일찍 왔는데, 괜찮지?",
+   "note": "elle arrive(1번) → je suis arrivée(여성 일치) · en avance = 일찍 · déranger = 방해하다",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Coucou",
+     "coucou",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "arrivée",
+     "arriver",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "avance",
+     "avance",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "espère",
+     "espérer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "dérange",
+     "déranger",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Coucou",
+     "coucou",
+     ""
+    ],
+    [
+     "arrivée",
+     "arriver",
+     ""
+    ],
+    [
+     "avance",
+     "avance",
+     ""
+    ],
+    [
+     "espère",
+     "espérer",
+     ""
+    ],
+    [
+     "dérange",
+     "déranger",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Pas du tout ! Asseyez-vous, je vous apporte… euh… de l'eau.",
+   "rd": "빠 뒤 뚜! 아쎄예 부, 쥬 부 자뽀르뜨… 외… 드 로.",
+   "ko": "전혀요! 앉으세요, 제가 가져다… 어… 물 드릴게요.",
+   "note": "레아에게는 손님이라 vous",
+   "tags": [
+    "expr:pas du tout"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "tout",
+     "tout",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "-vous",
+     "vous",
+     "PRON",
+     "Gender=Masc|Number=Plur|Person=3"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "apporte",
+     "apporter",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "eau",
+     "eau",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "apporte",
+     "apporter",
+     ""
+    ],
+    [
+     "eau",
+     "eau",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "fr": "Mmm, ça sent le chocolat. Et… c'est quoi, cette fumée ?",
+   "rd": "음, 싸 쌍 르 쇼꼴라. 에… 쎄 꾸아, 쎄뜨 퓌메?",
+   "ko": "음, 초콜릿 냄새. 그런데… 이 연기는 뭐야?",
+   "note": "fumée = 연기",
+   "tags": [],
+   "new": [
+    "fumée"
+   ],
+   "segs": [
+    [
+     "gentle",
+     "Mmm, ça sent le chocolat."
+    ],
+    [
+     "surprised",
+     "Et… c'est quoi, cette fumée ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "sent",
+     "sentir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "fumée",
+     "fumée",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sent",
+     "sentir",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ],
+    [
+     "quoi",
+     "quoi",
+     ""
+    ],
+    [
+     "fumée",
+     "fumée",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Le gâteau ! Si tu m'avais pas parlé des fleurs, je l'aurais pas oublié !",
+   "rd": "르 가또! 씨 뛰 마베 빠 빠를레 데 플뢰르, 쥬 로레 빠 우블리에!",
+   "ko": "케이크! 네가 꽃 얘기만 안 했어도 안 잊어버렸을 거야!",
+   "note": "si + 대과거, 조건법 과거 = …했다면 …했을 텐데",
+   "tags": [
+    "form:conditionnel passé"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tu",
+     "taire",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "avais",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parlé",
+     "parler",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "fleurs",
+     "fleur",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "aurais",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "oublié",
+     "oublier",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "gâteau",
+     "gâteau",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "parlé",
+     "parler",
+     ""
+    ],
+    [
+     "fleurs",
+     "fleur",
+     ""
+    ],
+    [
+     "oublié",
+     "oublier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Et c'est de ma faute si tu oublies tout ? Va le sortir, vite !",
+   "rd": "에 쎄 드 마 포뜨 씨 뛰 우블리 뚜? 바 르 쏘르띠르, 비뜨!",
+   "ko": "네가 다 까먹는 게 내 탓이야? 빨리 꺼내!",
+   "note": "je l'aurais pas oublié → tu oublies · c'est de ma faute = 내 탓이다",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "faute",
+     "faute",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "tu",
+     "tu",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "oublies",
+     "oublie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sortir",
+     "sortir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "faute",
+     "faute",
+     ""
+    ],
+    [
+     "oublies",
+     "oublie",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "Va",
+     "aller",
+     ""
+    ],
+    [
+     "sortir",
+     "sortir",
+     ""
+    ],
+    [
+     "vite",
+     "vite",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "Attendez… ces fleurs dans la cuisine, elles sont pour qui ?",
+   "rd": "아땅데… 쎄 플뢰르 당 라 뀌진, 엘 쏭 뿌르 끼?",
+   "ko": "잠깐만… 주방에 있는 저 꽃, 누구 거야?",
+   "note": "attendez = 잠깐만요(둘에게)",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "ces",
+     "ce",
+     "DET",
+     "Number=Plur|PronType=Dem"
+    ],
+    [
+     "fleurs",
+     "fleur",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "cuisine",
+     "cuisine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fleurs",
+     "fleur",
+     ""
+    ],
+    [
+     "cuisine",
+     "cuisine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "fr": "Euh… pour toi. Je voulais te les donner au dessert.",
+   "rd": "외… 뿌르 뚜아. 쥬 불레 뜨 레 도네 오 데쎄르.",
+   "ko": "어… 너 주려고. 디저트 때 주려고 했어.",
+   "note": "te les = 그것들을 너에게",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "voulais",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "te",
+     "te",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "PRON",
+     "Number=Plur|Person=3"
+    ],
+    [
+     "donner",
+     "donner",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "dessert",
+     "dessert",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Euh",
+     "euh",
+     ""
+    ],
+    [
+     "voulais",
+     "vouloir",
+     ""
+    ],
+    [
+     "donner",
+     "donner",
+     ""
+    ],
+    [
+     "dessert",
+     "dessert",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "fr": "Alors on a déjà le dessert. Et le gâteau… même brûlé, j'en veux.",
+   "rd": "알로르 옹 나 데쟈 르 데쎄르. 에 르 가또… 멤 브륄레, 쟝 브.",
+   "ko": "그럼 디저트는 벌써 받았네. 그리고 케이크는… 탔어도 먹을래.",
+   "note": "j'en veux = 그거 먹고 싶어(en)",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "dessert",
+     "dessert",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "brûlé",
+     "brûler",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "veux",
+     "veu",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Alors",
+     "alors",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "dessert",
+     "dessert",
+     ""
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     ""
+    ],
+    [
+     "même",
+     "même",
+     ""
+    ],
+    [
+     "brûlé",
+     "brûler",
+     ""
+    ],
+    [
+     "veux",
+     "vouloir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

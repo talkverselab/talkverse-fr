@@ -1,0 +1,60 @@
+{
+ "ep": "r0_friends_a2",
+ "cast": {
+  "B": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Oh, salut {name} ! Ça va ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Je vais bien ! Il est à toi, ce chien ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais ! Tu aimes les chiens ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "J'adore ! Il s'appelle comment ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Euh… il s'appelle… {name}."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Quoi ? Comme moi ?!"
+    ],
+    [
+     "amused",
+     "…Bon, il est beau, {name}."
+    ]
+   ]
+  }
+ }
+}

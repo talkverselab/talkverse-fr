@@ -1,0 +1,113 @@
+{
+ "ep": "r2_life_b1",
+ "cast": {
+  "B": "theo",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "surprised",
+     "Tu fais quoi ?"
+    ],
+    [
+     "worried",
+     "Ça sent le brûlé, là."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Des crêpes. Enfin, j'essaie. La première est un peu… noire."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Attends, laisse-moi faire. Je sais faire, moi."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Vas-y, mais doucement avec la poêle."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Regarde ça. Hop ! Elle tourne toute seule…"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Théo. Elle est où, la crêpe ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "…Au plafond. Bon, c'est pas grave, j'en fais une autre."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "Attends, l'alarme ! Ouvre la fenêtre, vite !"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "C'est bon, c'est bon !"
+    ],
+    [
+     "excited",
+     "Encore une fois… et hop !"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "sad",
+     "Théo… la fenêtre était ouverte."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "stiff",
+     "Bonjour. C'est à vous, la crêpe sur mon balcon ?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Du coup… on va manger dehors ?"
+    ]
+   ]
+  }
+ }
+}

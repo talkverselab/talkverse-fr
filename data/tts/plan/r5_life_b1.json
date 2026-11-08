@@ -1,0 +1,129 @@
+{
+ "ep": "r5_life_b1",
+ "cast": {
+  "B": "theo",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bonjour, asseyez-vous. C'est pour ouvrir un compte, c'est bien ça ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Oui. J'ai apporté mon passeport et mon contrat de travail."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Très bien. Il me faut aussi un justificatif de domicile de moins de trois mois."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Pas de souci, j'ai tout. Facture d'électricité, bail… tout est dans cette pochette."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Mais le bail est seulement à votre nom, monsieur. Vous êtes le colocataire ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Oui, on partage l'appartement. Je peux faire une attestation d'hébergement ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Oui. Avec une copie de votre pièce d'identité et votre signature, ici."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Et la carte bancaire, je la reçois quand ? J'en ai besoin pour payer le loyer."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Vous la recevrez sous dix jours, par courrier. Le code arrive séparément, pour des raisons de sécurité."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Zut, la pochette !"
+    ],
+    [
+     "shout",
+     "…Ne regardez pas cette lettre, elle est personnelle !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "stiff",
+     "Trop tard, j'ai regardé. C'est notre logo. Vous êtes à découvert depuis deux mois, monsieur."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Théo… c'est pour ça que tu veux que je paie le loyer en avance ?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "C'est temporaire ! J'attends un remboursement de la mutuelle, je te jure."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "Bon. J'ouvre votre compte ce soir."
+    ],
+    [
+     "teasing",
+     "Et vous, monsieur, on prend rendez-vous jeudi ?"
+    ]
+   ]
+  }
+ }
+}

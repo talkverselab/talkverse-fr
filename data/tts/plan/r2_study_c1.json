@@ -1,0 +1,104 @@
+{
+ "ep": "r2_study_c1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Léa stp, tu peux m'envoyer tes notes ? Pour l'exam de lundi"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, attends, je prends des photos."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Voilà Je t'envoie tout. C'est un peu le bazar, désolée."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Merci, t'es la meilleure J'ai tout le week-end pour réviser."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Le week-end ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Ben oui, l'exam, c'est lundi, neuf heures. Je lis tout dimanche."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "{name}… l'exam, c'est demain. Neuf heures."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "QUOI ?! C'est pas vrai… j'ai rien lu !"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Viens chez moi. On révise ensemble cette nuit. J'ai du café."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "excited",
+     "Grave. J'arrive, vingt minutes max !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shy",
+     "Au fait… page douze, c'est pas une note. C'est toi. Je dessine en cours"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shy",
+     "…Tu me dessines, moi ? Je peux la garder, cette page ?"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,667 @@
+{
+ "id": "r3_friends_a1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "short",
+ "title": "안 돌아가는 열쇠들",
+ "emoji": "🔑",
+ "scene": "레벨 1 「안 돌아가는 열쇠」를 복수로 — 열쇠를 잃어버린 카미유와 레아에게 A 와 테오가 열쇠를 갖다준다. 같은 문장을 vous·nous·복수로 바꿔 말한다",
+ "where": "아파트 계단",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Théo",
+  "D": "Léa",
+  "E": "Voisin"
+ },
+ "cast": {
+  "E": "man_o"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "ouais",
+  "bref",
+  "oh là là",
+  "la honte"
+ ],
+ "tags": [
+  "base:r1_friends_a1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Enfin ! Vous avez les clés ? Nous attendons depuis une heure.",
+   "rd": "앙팽! 부 자베 레 끌레? 누 자땅동 드쀠 윈 뇌르.",
+   "ko": "드디어! 너희 열쇠 가져왔어? 우리 한 시간째 기다렸어.",
+   "note": "t'as la clé → vous avez les clés · j'attends → nous attendons",
+   "tags": [
+    "callback:r1_friends_a1",
+    "form:vous",
+    "form:nous"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "excited",
+     "Enfin !"
+    ],
+    [
+     "annoyed",
+     "Vous avez les clés ? Nous attendons depuis une heure."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "clés",
+     "clé",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "attendons",
+     "attendre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "heure",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "clés",
+     "clé",
+     ""
+    ],
+    [
+     "attendons",
+     "attendre",
+     ""
+    ],
+    [
+     "heure",
+     "heure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, tenez. Mais vous avez perdu les vôtres où ?",
+   "rd": "웨, 뜨네. 메 부 자베 뻬르뒤 레 보트르 우?",
+   "ko": "응, 여기. 근데 너희 건 어디서 잃어버렸어?",
+   "note": "tiens → tenez · la tienne → les vôtres",
+   "tags": [
+    "expr:ouais",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "tenez",
+     "tenir",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "perdu",
+     "perdre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "vôtres",
+     "vôtre",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tenez",
+     "tenir",
+     ""
+    ],
+    [
+     "perdu",
+     "perdre",
+     ""
+    ],
+    [
+     "vôtres",
+     "vôtre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "D",
+   "fr": "Nous, on perd toujours nos clés… Bref, ouvrez vite !",
+   "rd": "누, 옹 뻬르 뚜쥬르 노 끌레… 브레프, 우브레 비뜨!",
+   "ko": "우린 열쇠 맨날 잃어버려… 아무튼 빨리 열어!",
+   "note": "vous avez perdu → on perd · 레벨 1 je perds mes clés → on perd nos clés · ouvre → ouvrez",
+   "tags": [
+    "expr:bref",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "perd",
+     "perdre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nos",
+     "notre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "clés",
+     "clé",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "ouvrez",
+     "ouvrir",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "perd",
+     "perdre",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ],
+    [
+     "clés",
+     "clé",
+     ""
+    ],
+    [
+     "Bref",
+     "bref",
+     ""
+    ],
+    [
+     "ouvrez",
+     "ouvrir",
+     ""
+    ],
+    [
+     "vite",
+     "vite",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "fr": "Attendez… elles veulent pas tourner. Vous êtes sûres ?",
+   "rd": "아땅데… 엘 뵐 빠 뚜르네. 부 제뜨 쒸르?",
+   "ko": "잠깐… 안 돌아가. 이거 맞아?",
+   "note": "nous attendons → attendez · elle veut → elles veulent · t'es sûre → vous êtes sûres(여자 둘)",
+   "tags": [
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "veulent",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tourner",
+     "tourner",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "êtes",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sûres",
+     "sûr",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veulent",
+     "vouloir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "tourner",
+     "tourner",
+     ""
+    ],
+    [
+     "sûres",
+     "sûr",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Donnez, je veux essayer, moi… Non, elles tournent pas.",
+   "rd": "도네, 쥬 뵈 제쎄예, 무아… 농, 엘 뚜른 빠.",
+   "ko": "줘 봐, 내가 해 볼게… 아니, 안 돌아가네.",
+   "note": "elles veulent → je veux(복수 → 단수 메아리) · tourner → elles tournent",
+   "tags": [
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Donnez, je veux essayer, moi…"
+    ],
+    [
+     "worried",
+     "Non, elles tournent pas."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "essayer",
+     "essayer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "tournent",
+     "tourner",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "essayer",
+     "essayer",
+     ""
+    ],
+    [
+     "tournent",
+     "tourner",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Camille, Léa… votre porte, elle est pas en haut ?",
+   "rd": "까미유, 레아… 보트르 뽀르뜨, 엘 레 빠 앙 오?",
+   "ko": "카미유, 레아… 너희 집 문, 위층 아니야?",
+   "note": "ta porte → votre porte",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "porte",
+     "porte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "haut",
+     "haut",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "porte",
+     "porte",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "haut",
+     "haut",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "fr": "…Si, nous, c'est en haut. Oh là là, la honte.",
+   "rd": "…씨, 누, 쎄 땅 오. 올랄라, 라 옹뜨.",
+   "ko": "…맞다, 우리 집 위층이지. 아 진짜, 창피해.",
+   "note": "c'est en haut → nous, c'est en haut(우리 집은)",
+   "tags": [
+    "expr:oh là là",
+    "expr:la honte"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "haut",
+     "haut",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "honte",
+     "honte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "haut",
+     "haut",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "honte",
+     "honte",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "E",
+   "fr": "Vous avez fini, là ? Nous, on dort !",
+   "rd": "부 자베 피니, 라? 누, 옹 도르!",
+   "ko": "이제 다 끝나셨어요? 우리 자고 있거든요!",
+   "note": "문 안에서 이웃이 — c'est fini → vous avez fini(모르는 사람들에게 존댓말 vous) · je dors, moi → nous, on dort",
+   "tags": [
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fini",
+     "finir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "dort",
+     "dort",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fini",
+     "finir",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "dort",
+     "dort",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

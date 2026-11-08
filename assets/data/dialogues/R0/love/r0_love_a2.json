@@ -1,0 +1,512 @@
+{
+ "id": "r0_love_a2",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "움직이지 마",
+ "emoji": "🎨",
+ "scene": "강변 계단. 미대생 레아가 A 를 몰래 그리다가 들킨다. 다 그린 그림을 보여 주는데",
+ "where": "강변 계단",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "명령(Bouge pas)·이유(Parce que…)·형용사 beau/belle",
+ "expressions": [
+  "attends",
+  "ah bon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Attends, bouge pas ! Je dessine, là.",
+   "rd": "아땅, 부쥬 빠! 쥬 데씬, 라.",
+   "ko": "잠깐, 움직이지 마! 지금 그리는 중이야.",
+   "note": "bouger = 움직이다 · dessiner = 그리다",
+   "tags": [
+    "expr:attends"
+   ],
+   "new": [
+    "bouger",
+    "dessiner"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "bouge",
+     "bouge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dessine",
+     "dessiner",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "bouge",
+     "bouge",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "dessine",
+     "dessiner",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Moi ? Pourquoi tu me dessines ?",
+   "rd": "무아? 뿌르꾸아 뛰 므 데씬?",
+   "ko": "나? 왜 나를 그려?",
+   "note": "je dessine → tu me dessines ? · Pourquoi = 왜",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "dessines",
+     "dessiner",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pourquoi",
+     "pourquoi",
+     ""
+    ],
+    [
+     "dessines",
+     "dessiner",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Parce que… je te regarde tout le temps.",
+   "rd": "빠르스 끄… 쥬 뜨 르가르드 뚜 르 땅.",
+   "ko": "왜냐면… 나 맨날 너 보거든.",
+   "note": "tout le temps = 늘, 맨날",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "regarde",
+     "regarder",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "temps",
+     "temps",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "regarde",
+     "regarder",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "temps",
+     "temps",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Ah bon ? C'est fini ? Je peux voir ?",
+   "rd": "아 봉? 쎄 피니? 쥬 뾔 부아르?",
+   "ko": "그래? 다 그렸어? 봐도 돼?",
+   "note": "c'est fini = 끝났다 · je peux = 해도 돼",
+   "tags": [
+    "expr:ah bon"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Ah",
+     "ah",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fini",
+     "finir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "peux",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "voir",
+     "voir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "fini",
+     "finir",
+     ""
+    ],
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "voir",
+     "voir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Tu es beau… euh, il est beau, le dessin !",
+   "rd": "뛰 에 보… 외, 일 레 보, 르 데쌩!",
+   "ko": "너 잘생겼… 아니, 그림이 잘 나왔다고!",
+   "note": "beau / belle = 잘생긴 / 예쁜 · dessin = 그림",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "shy",
+     "Tu es beau…"
+    ],
+    [
+     "flustered",
+     "euh, il est beau, le dessin !"
+    ]
+   ],
+   "fr_f": "Tu es belle… euh, il est beau, le dessin !",
+   "rd_f": "뛰 에 벨… 외, 일 레 보, 르 데쌩!",
+   "segs_f": [
+    [
+     "shy",
+     "Tu es belle…"
+    ],
+    [
+     "flustered",
+     "euh, il est beau, le dessin !"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "es",
+     "être",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "beau",
+     "beau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "beau",
+     "beau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "es",
+     "être",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "belle",
+     "bel",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "beau",
+     "beau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ]
+   ],
+   "lemmas": [
+    [
+     "beau",
+     "beau",
+     ""
+    ],
+    [
+     "euh",
+     "euh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Mais… c'est pas moi, ça. Je vois un chat !",
+   "rd": "메… 쎄 빠 무아, 싸. 쥬 부아 앙 샤!",
+   "ko": "근데… 이거 나 아닌데. 고양이가 보이는데!",
+   "note": "chat = 고양이 · je peux voir ? → je vois",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vois",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chat",
+     "chat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "vois",
+     "voir",
+     ""
+    ],
+    [
+     "chat",
+     "chat",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

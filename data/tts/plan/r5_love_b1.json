@@ -1,0 +1,124 @@
+{
+ "ep": "r5_love_b1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Excuse-moi, tu as de la monnaie ? La machine prend que les pièces."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "Tiens, j'ai deux euros. Tu fais quel programme ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Je sais jamais. Quarante degrés, c'est trop pour la laine ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Waouh, tu t'y connais. Tu viens souvent ici ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "amused",
+     "Tous les jeudis. Ma machine à laver est en panne depuis un mois."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Je sais."
+    ],
+    [
+     "shy",
+     "Enfin… je veux dire, moi aussi, je viens le jeudi."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Ah bon ? C'est bizarre, je t'ai jamais vue ici."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Normal, toi, tu me vois jamais. Je m'assois toujours derrière le sèche-linge. Avec un livre."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "…Derrière le sèche-linge ? Ça fait combien de temps ?"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shy",
+     "Quatre jeudis. Ce soir, j'ai même apporté du linge, pour avoir une excuse."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Une excuse… Alors la prochaine fois, viens sans linge. Juste toi."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Euh… tes chemises sont roses. C'est ma chaussette rouge, elle est tombée dedans."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Tant pis. Jeudi prochain, tu t'assois à côté de moi… et tes chaussettes restent chez toi."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,1628 @@
+{
+ "id": "r4_work_b1",
+ "region": "R4",
+ "island": "work",
+ "kind": "long",
+ "title": "소스가 짜요",
+ "emoji": "🍲",
+ "scene": "비스트로 주방 면접. 셰프가 맛보라고 준 소스를 솔직하게 평했더니 셰프가 직접 만든 소스. 그때 냉장고가 고장 나고, 거기서 일하던 위고가 뛰어든다",
+ "where": "비스트로 주방",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Cheffe"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "면접 vous → 채용 뒤 on se tutoie(tu) 전환 · 접속법(il faudrait que vous soyez · avant qu'on aille · je voudrais que vous goûtiez · bien que ça fasse) · y·en·me le·te la · 조건법 과거(j'aurais été · on aurait jeté)",
+ "expressions": [
+  "pas de problème",
+  "franchement",
+  "d'accord"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Asseyez-vous. Votre CV est intéressant. Vous avez travaillé où, avant ?",
+   "rd": "아쎄예 부. 보트르 쎄베 에 땡떼레쌍. 부 자베 트라바이에 우, 아방?",
+   "ko": "앉으세요. 이력서 흥미롭네요. 전에는 어디서 일하셨어요?",
+   "note": "CV = 이력서",
+   "tags": [],
+   "new": [
+    "CV"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "intéressant",
+     "intéressant",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "travaillé",
+     "travailler",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "intéressant",
+     "intéressant",
+     ""
+    ],
+    [
+     "travaillé",
+     "travailler",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Dans un petit bistrot à {city}. J'y suis resté deux ans.",
+   "rd": "당 장 쁘띠 비스트로 아 {city}. 쥐 쒸 레스떼 되 장.",
+   "ko": "{city}의 작은 비스트로에서요. 거기서 2년 있었어요.",
+   "note": "y = 거기에 · resté(e) = 학습자가 여자면 restée",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [
+    "bistrot"
+   ],
+   "emotion": "stiff",
+   "fr_f": "Dans un petit bistrot à {city}. J'y suis restée deux ans.",
+   "rd_f": "당 장 쁘띠 비스트로 아 {city}. 쥐 쒸 레스떼 되 장.",
+   "morph_tags": [
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "petit",
+     "petit",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bistrot",
+     "bistrot",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "resté",
+     "rester",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ans",
+     "an",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "petit",
+     "petit",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bistrot",
+     "bistrot",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "restée",
+     "rester",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "ans",
+     "an",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "petit",
+     "petit",
+     ""
+    ],
+    [
+     "bistrot",
+     "bistrot",
+     ""
+    ],
+    [
+     "resté",
+     "rester",
+     ""
+    ],
+    [
+     "ans",
+     "an",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Bien. Il faudrait que vous soyez disponible le soir et le week-end. Ça vous irait ?",
+   "rd": "비앵. 일 포드레 끄 부 쑤아예 디스뽀니블 르 수아르 에 르 위껜드. 싸 부 지레?",
+   "ko": "좋아요. 저녁과 주말에 일하실 수 있어야 해요. 괜찮으시겠어요?",
+   "note": "il faudrait que + 접속법(soyez) · irait = 조건법",
+   "tags": [
+    "form:subjonctif",
+    "form:conditionnel"
+   ],
+   "new": [
+    "disponible"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faudrait",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "disponible",
+     "disponible",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "week",
+     "week",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "-",
+     "-",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "end",
+     "end",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "irait",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "faudrait",
+     "falloir",
+     ""
+    ],
+    [
+     "disponible",
+     "disponible",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "week",
+     "week",
+     ""
+    ],
+    [
+     "end",
+     "end",
+     ""
+    ],
+    [
+     "irait",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Pas de problème. Je préfère qu'on me le dise dès le début.",
+   "rd": "빠 드 프로블렘. 쥬 프레페르 꽁 므 르 디즈 데 르 데뷔.",
+   "ko": "문제없어요. 처음부터 말씀해 주시는 게 좋아요.",
+   "note": "préférer que + 접속법(dise) · me le = 그걸 나에게",
+   "tags": [
+    "expr:pas de problème",
+    "form:subjonctif",
+    "form:pronoms"
+   ],
+   "new": [],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "problème",
+     "problème",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "préfère",
+     "préférer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "le",
+     "le",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "dise",
+     "dise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "début",
+     "début",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "problème",
+     "problème",
+     ""
+    ],
+    [
+     "préfère",
+     "préférer",
+     ""
+    ],
+    [
+     "dise",
+     "dise",
+     ""
+    ],
+    [
+     "début",
+     "début",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Parfait. Avant qu'on aille plus loin, je voudrais que vous goûtiez cette sauce.",
+   "rd": "빠르페. 아방 꽁 나이 쁠뤼 루앵, 쥬 부드레 끄 부 구띠예 쎄뜨 쏘쓰.",
+   "ko": "좋습니다. 더 진행하기 전에 이 소스를 맛봐 주셨으면 해요.",
+   "note": "avant que · je voudrais que + 접속법(aille·goûtiez)",
+   "tags": [
+    "form:subjonctif"
+   ],
+   "new": [
+    "goûter",
+    "sauce"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "Parfait",
+     "parfaire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "aille",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "voudrais",
+     "vouloir",
+     "VERB",
+     "Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "goûtiez",
+     "goûter",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "sauce",
+     "sauce",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Parfait",
+     "parfait",
+     ""
+    ],
+    [
+     "aille",
+     "aller",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "loin",
+     "loin",
+     ""
+    ],
+    [
+     "voudrais",
+     "vouloir",
+     ""
+    ],
+    [
+     "goûtiez",
+     "goûter",
+     ""
+    ],
+    [
+     "sauce",
+     "sauce",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "D'accord, je goûte… Franchement ? Elle manque d'acidité, et il y a trop de sel.",
+   "rd": "다꼬르, 쥬 구뜨… 프랑슈망? 엘 망끄 다씨디떼, 에 일 리 아 트로 드 쎌.",
+   "ko": "네, 맛볼게요… 솔직히요? 산미가 부족하고 소금이 너무 많아요.",
+   "note": "que vous goûtiez(접속법) → je goûte · manquer de = …이 부족하다 · acidité = 산미",
+   "tags": [
+    "expr:d'accord",
+    "expr:franchement"
+   ],
+   "new": [
+    "acidité",
+    "sel"
+   ],
+   "segs": [
+    [
+     "worried",
+     "D'accord, je goûte… Franchement ?"
+    ],
+    [
+     "stiff",
+     "Elle manque d'acidité, et il y a trop de sel."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "goûte",
+     "goûter",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "manque",
+     "manque",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "acidité",
+     "acidité",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sel",
+     "sel",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "goûte",
+     "goûter",
+     ""
+    ],
+    [
+     "Franchement",
+     "franchement",
+     ""
+    ],
+    [
+     "manque",
+     "manque",
+     ""
+    ],
+    [
+     "acidité",
+     "acidité",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "sel",
+     "sel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Trop de sel… C'est moi qui l'ai faite, cette sauce.",
+   "rd": "트로 드 쎌… 쎄 무아 끼 레 페뜨, 쎄뜨 쏘쓰.",
+   "ko": "소금이 많다… 그 소스, 제가 만든 거예요.",
+   "note": "l'ai faite = sauce(여성) 일치",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "sel",
+     "sel",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "faite",
+     "faire",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "sauce",
+     "sauce",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "sel",
+     "sel",
+     ""
+    ],
+    [
+     "faite",
+     "faire",
+     ""
+    ],
+    [
+     "sauce",
+     "sauce",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Ah… Si j'avais su, j'aurais été plus diplomate.",
+   "rd": "아… 씨 쟈베 쒸, 조레 에떼 쁠뤼 디쁠로마뜨.",
+   "ko": "아… 알았으면 좀 더 돌려 말했을 텐데요.",
+   "note": "si + 대과거, 조건법 과거 · diplomate = 말을 돌릴 줄 아는",
+   "tags": [
+    "form:conditionnel passé"
+   ],
+   "new": [
+    "diplomate"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "avais",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "su",
+     "savoir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "aurais",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "été",
+     "être",
+     "AUX",
+     "Tense=Past|VerbForm=Part"
+    ],
+    [
+     "diplomate",
+     "diplomate",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "su",
+     "savoir",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "diplomate",
+     "diplomate",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "fr": "Non, j'aime qu'on me dise la vérité. Bien que ça fasse mal.",
+   "rd": "농, 젬 꽁 므 디즈 라 베리떼. 비앵 끄 싸 파쓰 말.",
+   "ko": "아니요, 사실대로 말해 주는 게 좋아요. 아프긴 해도요.",
+   "note": "aimer que · bien que + 접속법(dise·fasse)",
+   "tags": [
+    "form:subjonctif"
+   ],
+   "new": [
+    "vérité"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "aime",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dise",
+     "dire",
+     "VERB",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "vérité",
+     "vérité",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "fasse",
+     "faire",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mal",
+     "mal",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "aime",
+     "aimer",
+     ""
+    ],
+    [
+     "dise",
+     "dire",
+     ""
+    ],
+    [
+     "vérité",
+     "vérité",
+     ""
+    ],
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Cheffe ! Le frigo est en panne et la salle est pleine ! Qu'est-ce qu'on fait ?",
+   "rd": "셰프! 르 프리고 에 땅 빤 에 라 쌀 레 쁠렌! 께쓰 꽁 페?",
+   "ko": "셰프! 냉장고 고장 났어요, 홀은 꽉 찼고요! 어떡해요?",
+   "note": "frigo = 냉장고 · en panne = 고장 난 · salle = 홀",
+   "tags": [],
+   "new": [
+    "frigo",
+    "panne"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "Cheffe",
+     "cheffe",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "frigo",
+     "frigo",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "panne",
+     "pann",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "salle",
+     "salle",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "pleine",
+     "pleine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Qu'",
+     "que",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "-ce",
+     "-ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "qu'",
+     "que",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Cheffe",
+     "cheffe",
+     ""
+    ],
+    [
+     "frigo",
+     "frigo",
+     ""
+    ],
+    [
+     "panne",
+     "panne",
+     ""
+    ],
+    [
+     "salle",
+     "salle",
+     ""
+    ],
+    [
+     "pleine",
+     "pleine",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Hugo ?! Bon… il y a de la glace ? Mets-en dans les bacs, vite !",
+   "rd": "위고?! 봉… 일 리 아 들 라 글라쓰? 메 장 당 레 박, 비뜨!",
+   "ko": "위고?! 자… 얼음 있어? 통에 얼음 넣어, 빨리!",
+   "note": "mets-en = 그걸(얼음) 넣어 — 친구 위고에게는 tu",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [
+    "glace",
+    "bac"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Hugo ?!"
+    ],
+    [
+     "shout",
+     "Bon… il y a de la glace ? Mets-en dans les bacs, vite !"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|NumType=Ord|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "glace",
+     "glace",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Mets",
+     "mets",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "bacs",
+     "bac",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "glace",
+     "glace",
+     ""
+    ],
+    [
+     "Mets",
+     "mettre",
+     ""
+    ],
+    [
+     "bacs",
+     "bac",
+     ""
+    ],
+    [
+     "vite",
+     "vite",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "Vous vous connaissez ? …Peu importe. Aidez-le, je vous regarde.",
+   "rd": "부 부 꼬네쎄? …뾔 앵뽀르뜨. 에데 르, 쥬 부 르가르드.",
+   "ko": "두 분 아는 사이예요? …상관없어요. 도와주세요, 지켜볼게요.",
+   "note": "peu importe = 상관없다",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Vous vous connaissez ?"
+    ],
+    [
+     "stiff",
+     "…Peu importe. Aidez-le, je vous regarde."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "connaissez",
+     "connaître",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "importe",
+     "importer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Aidez",
+     "aidez",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "-",
+     "-",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "regarde",
+     "regarder",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "connaissez",
+     "connaître",
+     ""
+    ],
+    [
+     "Peu",
+     "peu",
+     ""
+    ],
+    [
+     "importe",
+     "importer",
+     ""
+    ],
+    [
+     "Aidez",
+     "aidez",
+     ""
+    ],
+    [
+     "regarde",
+     "regarder",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "fr": "Tout est sauvé ! Sans toi, on aurait tout jeté.",
+   "rd": "뚜 떼 쏘베! 쌍 뚜아, 옹 노레 뚜 쥬떼.",
+   "ko": "다 살렸다! 너 아니었으면 다 버렸을 거야.",
+   "note": "한 시간 뒤 · sans toi, on aurait … = 조건법 과거",
+   "tags": [
+    "form:conditionnel passé"
+   ],
+   "new": [
+    "sauver",
+    "jeter"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Tout",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sauvé",
+     "sauver",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "aurait",
+     "avoir",
+     "AUX",
+     "Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "jeté",
+     "jeter",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tout",
+     "tout",
+     ""
+    ],
+    [
+     "sauvé",
+     "sauver",
+     ""
+    ],
+    [
+     "jeté",
+     "jeter",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "fr": "Bon. Vous travaillez avec nous dès lundi. Et ici, on se tutoie… si ça te va.",
+   "rd": "봉. 부 트라바이예 아벡 누 데 랑디. 에 이씨, 옹 쓰 뛰뚜아… 씨 싸 뜨 바.",
+   "ko": "좋아요. 월요일부터 같이 일해요. 그리고 여기선 다들 말 놔… 너만 괜찮으면.",
+   "note": "vous avez travaillé(1번) → vous travaillez · se tutoyer = 서로 tu 로 말하다 — vous 에서 tu 로 바뀌는 순간",
+   "tags": [],
+   "new": [
+    "tutoyer"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Bon. Vous travaillez avec nous dès lundi."
+    ],
+    [
+     "gentle",
+     "Et ici, on se tutoie… si ça te va."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "travaillez",
+     "travailler",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "lundi",
+     "lundi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "se",
+     "se",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "tutoie",
+     "tutoyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "…",
+     "…",
+     "VERB",
+     "Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "travaillez",
+     "travailler",
+     ""
+    ],
+    [
+     "lundi",
+     "lundi",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ],
+    [
+     "tutoie",
+     "tutoyer",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "fr": "Ça me va. Mais la sauce, je te la refais demain, cheffe.",
+   "rd": "싸 므 바. 메 라 쏘쓰, 쥬 뜨 라 르페 드맹, 셰프.",
+   "ko": "좋아요. 근데 그 소스, 내일 내가 다시 만들어 줄게, 셰프.",
+   "note": "te la = 그걸 너에게 · refaire = 다시 만들다",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "sauce",
+     "sauce",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "refais",
+     "refai",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "cheffe",
+     "cheffe",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "sauce",
+     "sauce",
+     ""
+    ],
+    [
+     "refais",
+     "refai",
+     ""
+    ],
+    [
+     "demain",
+     "demain",
+     ""
+    ],
+    [
+     "cheffe",
+     "cheffe",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

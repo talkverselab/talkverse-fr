@@ -1,0 +1,638 @@
+{
+ "id": "r1_love_a2",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "title": "작은 우산",
+ "emoji": "☂️",
+ "scene": "비 오는 버스 정류장. 레아가 먼저 우산을 씌워 주는데, 레아 집은 바로 옆이라 버스를 탈 일이 없다",
+ "where": "버스 정류장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "tu 현재·복합과거(je t'ai vu·je suis sortie, 성 일치)·on",
+ "expressions": [
+  "voilà",
+  "grave"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Il pleut fort, hein. Tu viens sous mon parapluie ?",
+   "rd": "일 쁠뢰 포르, 앵. 뛰 비앵 쑤 몽 빠라쁠뤼?",
+   "ko": "비 많이 오네. 내 우산 같이 쓸래?",
+   "note": "il pleut = 비가 온다 · parapluie = 우산",
+   "tags": [],
+   "new": [
+    "pleuvoir",
+    "parapluie"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "pleut",
+     "pleuvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "hein",
+     "hein",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "viens",
+     "vien",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pleut",
+     "pleuvoir",
+     ""
+    ],
+    [
+     "fort",
+     "fort",
+     ""
+    ],
+    [
+     "viens",
+     "venir",
+     ""
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Merci. Mais il est petit, ton parapluie.",
+   "rd": "메르씨. 메 일 레 쁘띠, 똥 빠라쁠뤼.",
+   "ko": "고마워. 근데 네 우산 작다.",
+   "note": "말할 것을 뒤로 빼는 구어 어순",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "petit",
+     "petit",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "parapluie",
+     "paraplui",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "petit",
+     "petit",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "parapluie",
+     "paraplui",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Pas grave, je suis petite. Viens plus près, voilà.",
+   "rd": "빠 그라브, 쥬 쒸 쁘띠뜨. 비앵 쁠뤼 쁘레, 부알라.",
+   "ko": "괜찮아, 나 작잖아. 더 가까이 와, 이렇게.",
+   "note": "il est petit(우산) → je suis petite(레아) — 형용사 성 일치 · tu viens → viens(명령)",
+   "tags": [
+    "expr:grave",
+    "expr:voilà"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "grave",
+     "grave",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "petite",
+     "petit",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "Viens",
+     "vien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "voilà",
+     "voilà",
+     "VERB",
+     "Mood=Ind|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ],
+    [
+     "petite",
+     "petit",
+     ""
+    ],
+    [
+     "Viens",
+     "venir",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "près",
+     "près",
+     ""
+    ],
+    [
+     "voilà",
+     "voilà",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Tu prends ce bus aussi ? Je t'ai jamais vue.",
+   "rd": "뛰 프랑 쓰 뷔스 오씨? 쥬 떼 자메 뷔.",
+   "ko": "너도 이 버스 타? 한 번도 못 봤는데.",
+   "note": "je t'ai jamais vue = 너를 한 번도 못 봤다(레아라 vue)",
+   "tags": [
+    "form:passé composé"
+   ],
+   "new": [
+    "bus"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "prends",
+     "prend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "bus",
+     "bus",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vue",
+     "vue",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "prends",
+     "prendre",
+     ""
+    ],
+    [
+     "bus",
+     "boire",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "vue",
+     "vue",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Non, ma maison est à côté. Enfin… euh…",
+   "rd": "농, 마 메종 에 따 꼬떼. 앙팽… 외…",
+   "ko": "아니, 우리 집 바로 옆이야. 아니 그러니까… 어…",
+   "note": "à côté = 옆에 · enfin = 아니 그러니까(말 고치기)",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Non, ma maison est à côté."
+    ],
+    [
+     "flustered",
+     "Enfin… euh…"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "maison",
+     "maison",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "côté",
+     "côté",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "maison",
+     "maison",
+     ""
+    ],
+    [
+     "côté",
+     "côté",
+     ""
+    ],
+    [
+     "Enfin",
+     "enfin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "À côté ? Alors pourquoi attendre ici ?",
+   "rd": "아 꼬떼? 알로르 뿌르꾸아 아땅드르 이씨?",
+   "ko": "옆이라고? 그럼 왜 여기서 기다려?",
+   "note": "pourquoi attendre ? = 왜 기다려?(동사원형 질문)",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "côté",
+     "côté",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "attendre",
+     "attendre",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "côté",
+     "côté",
+     ""
+    ],
+    [
+     "Alors",
+     "alors",
+     ""
+    ],
+    [
+     "pourquoi",
+     "pourquoi",
+     ""
+    ],
+    [
+     "attendre",
+     "attendre",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "…J'attendais quelqu'un. Toi. T'avais pas de parapluie.",
+   "rd": "…쟈땅데 껠꺙. 뚜아. 따베 빠 드 빠라쁠뤼.",
+   "ko": "…누구 기다렸어. 너. 우산 없었잖아.",
+   "note": "attendre → j'attendais(반과거, 기다리고 있었다) · t'avais = tu avais",
+   "tags": [
+    "form:imparfait"
+   ],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "attendais",
+     "attendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Toi",
+     "toi",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "avais",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "attendais",
+     "attendre",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "parapluie",
+     "parapluie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Le bus arrive… Je vais pas le prendre, alors.",
+   "rd": "르 뷔스 아리브… 쥬 베 빠 르 프랑드르, 알로르.",
+   "ko": "버스 온다… 그럼 안 탈래.",
+   "note": "tu prends ce bus ? → je vais pas le prendre",
+   "tags": [
+    "form:futur proche"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bus",
+     "bus",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vais",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "prendre",
+     "prendre",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bus",
+     "boire",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ],
+    [
+     "vais",
+     "aller",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "prendre",
+     "prendre",
+     ""
+    ],
+    [
+     "alors",
+     "alors",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

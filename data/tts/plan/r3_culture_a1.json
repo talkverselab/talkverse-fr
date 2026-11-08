@@ -1,0 +1,74 @@
+{
+ "ep": "r3_culture_a1",
+ "cast": {
+  "B": "camille",
+  "C": "lea",
+  "D": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Vous avez vu le nouveau film avec les robots ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Ouais, nous l'avons vu hier soir. Franchement, la musique est trop belle."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Et l'histoire ? Vous l'avez aimée ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Bof. Nous, on aime bien le début, mais après…"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Après quoi ? Allez-y, racontez !"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "À la fin, les robots, ce sont ses parents."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "…Quoi ?! Nous allons le voir ce soir, nous !"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Ah… Bah, vous allez aimer la musique, vous voyez."
+    ]
+   ]
+  }
+ }
+}

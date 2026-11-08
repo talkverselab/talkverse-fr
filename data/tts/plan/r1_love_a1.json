@@ -1,0 +1,91 @@
+{
+ "ep": "r1_love_a1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Pardon… tu lis quoi ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "Un livre sur Paris."
+    ],
+    [
+     "surprised",
+     "Pourquoi ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Parce que j'ai le même ! Tu vois ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "C'est pas vrai ! Tu l'aimes bien ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "amused",
+     "Bof… j'aime la couverture. Je l'ai pas lu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Alors pourquoi tu l'as acheté ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "…Parce que je t'ai vu l'acheter hier."
+    ]
+   ],
+   "f": {
+    "text": "…Parce que je t'ai vue l'acheter hier.",
+    "rd": "…빠르스 끄 쥬 떼 뷔 라슈떼 이에르.",
+    "ko": "…어제 네가 그거 사는 걸 봤거든.",
+    "segs": [
+     [
+      "shy",
+      "…Parce que je t'ai vue l'acheter hier."
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Hier ?"
+    ],
+    [
+     "gentle",
+     "Alors… on va le lire ensemble ?"
+    ]
+   ]
+  }
+ }
+}

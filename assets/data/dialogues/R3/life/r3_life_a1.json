@@ -1,0 +1,700 @@
+{
+ "id": "r3_life_a1",
+ "region": "R3",
+ "island": "life",
+ "kind": "short",
+ "title": "새벽 두 시의 범인들",
+ "emoji": "🍰",
+ "scene": "레벨 1 「새벽 두 시의 범인」을 복수로 — 테오와 위고가 케이크들이 사라졌다며 A 와 카미유를 의심한다. 같은 문장을 vous·nous·복수로",
+ "where": "셰어하우스 부엌",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Hugo",
+  "D": "Camille"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수 일치(rentrés·vus·mangés) — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "sérieux",
+  "ben",
+  "comment ça"
+ ],
+ "tags": [
+  "base:r1_life_a1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Nos gâteaux sont plus dans le frigo. C'est vous ?",
+   "rd": "노 가또 쏭 쁠뤼 당 르 프리고. 쎄 부?",
+   "ko": "우리 케이크들 냉장고에 없어. 너희지?",
+   "note": "mon gâteau est → nos gâteaux sont · c'est toi → c'est vous",
+   "tags": [
+    "callback:r1_life_a1",
+    "form:pluriel",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "Nos",
+     "notre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "gâteaux",
+     "gâteau",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "frigo",
+     "frigo",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ]
+   ],
+   "lemmas": [
+    [
+     "gâteaux",
+     "gâteau",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "frigo",
+     "frigo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Nous ? Non ! Nous avons rien mangé, je vous jure.",
+   "rd": "누? 농! 누 자봉 리앵 망제, 쥬 부 쥐르.",
+   "ko": "우리? 아니야! 아무것도 안 먹었어, 진짜야.",
+   "note": "j'ai → nous avons · je te jure → je vous jure",
+   "tags": [
+    "form:nous",
+    "form:vous"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Nous ? Non !"
+    ],
+    [
+     "worried",
+     "Nous avons rien mangé, je vous jure."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "avons",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rien",
+     "rien",
+     "PRON",
+     "Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "jure",
+     "jurer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "jure",
+     "jurer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Sérieux ? Nous, on mange pas la nuit.",
+   "rd": "쎄리외? 누, 옹 망쥬 빠 라 뉘.",
+   "ko": "진짜? 우린 밤엔 안 먹어.",
+   "note": "nous avons rien mangé → on mange pas · 레벨 1 je mange → on mange",
+   "tags": [
+    "expr:sérieux",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "Sérieux",
+     "sérieux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "mange",
+     "manger",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "nuit",
+     "nuit",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Sérieux",
+     "sérieux",
+     ""
+    ],
+    [
+     "mange",
+     "manger",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "nuit",
+     "nuit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "fr": "Ben, hier soir, nous sommes rentrés tard. Vous, non ?",
+   "rd": "뱅, 이에르 수아르, 누 쏨 랑트레 따르. 부, 농?",
+   "ko": "그게, 어젯밤에 우리 늦게 들어왔어. 너희는 아니야?",
+   "note": "je suis rentré → nous sommes rentrés — 학습자도 여자면 rentrées(소리는 같다)",
+   "tags": [
+    "expr:ben",
+    "form:nous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "fr_f": "Ben, hier soir, nous sommes rentrées tard. Vous, non ?",
+   "rd_f": "뱅, 이에르 수아르, 누 쏨 랑트레 따르. 부, 농?",
+   "morph_tags": [
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "sommes",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rentrés",
+     "rentrer",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "sommes",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rentrées",
+     "rentrer",
+     "VERB",
+     "Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ]
+   ],
+   "lemmas": [
+    [
+     "hier",
+     "hier",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "rentrés",
+     "rentrer",
+     ""
+    ],
+    [
+     "tard",
+     "tard",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Nous ? On rentre jamais tard. On a dormi, nous.",
+   "rd": "누? 옹 랑트르 자메 따르. 옹 나 도르미, 누.",
+   "ko": "우리? 우린 늦게 안 들어와. 계속 잤어.",
+   "note": "nous sommes rentrés → on rentre jamais · j'ai dormi → on a dormi",
+   "tags": [
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "morph_tags": [
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "rentre",
+     "rentrer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dormi",
+     "dormir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ]
+   ],
+   "lemmas": [
+    [
+     "rentre",
+     "rentrer",
+     ""
+    ],
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "tard",
+     "tard",
+     ""
+    ],
+    [
+     "dormi",
+     "dormir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "À deux heures, je vous ai vus dans la cuisine.",
+   "rd": "아 되 죄르, 쥬 부 제 뷔 당 라 뀌진.",
+   "ko": "새벽 두 시에 너희 부엌에서 봤는데.",
+   "note": "je t'ai vu → je vous ai vus",
+   "tags": [
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vus",
+     "voir",
+     "VERB",
+     "Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "cuisine",
+     "cuisine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "vus",
+     "voir",
+     ""
+    ],
+    [
+     "cuisine",
+     "cuisine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Comment ça ? Nous dormions, nous ! On a fait quoi ?",
+   "rd": "꼬망 싸? 누 도르미옹, 누! 옹 나 페 꾸아?",
+   "ko": "무슨 소리야? 우리 자고 있었는데! 우리가 뭘 했는데?",
+   "note": "on dort → nous dormions(반과거) · j'ai fait → on a fait",
+   "tags": [
+    "expr:comment ça",
+    "form:nous"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Comment ça ? Nous dormions, nous !"
+    ],
+    [
+     "worried",
+     "On a fait quoi ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "dormions",
+     "dormir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Comment",
+     "comment",
+     ""
+    ],
+    [
+     "dormions",
+     "dormir",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "quoi",
+     "quoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "fr": "Vous dormiez, ouais… et vous mangiez vos gâteaux.",
+   "rd": "부 도르미에, 웨… 에 부 망지에 보 가또.",
+   "ko": "자고 있었지, 응… 그러면서 너희 케이크 먹고 있었어.",
+   "note": "nous dormions → vous dormiez · on mange pas → vous mangiez(반과거) · 레벨 1 ton gâteau → vos gâteaux",
+   "tags": [
+    "form:vous",
+    "form:imparfait"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "dormiez",
+     "dormir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "ouais",
+     "ouai",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "mangiez",
+     "manger",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "gâteaux",
+     "gâteau",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dormiez",
+     "dormir",
+     ""
+    ],
+    [
+     "ouais",
+     "ouais",
+     ""
+    ],
+    [
+     "mangiez",
+     "manger",
+     ""
+    ],
+    [
+     "gâteaux",
+     "gâteau",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

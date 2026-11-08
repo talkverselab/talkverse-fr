@@ -1,0 +1,80 @@
+{
+ "ep": "r1_friends_a2",
+ "cast": {
+  "B": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Tu me coupes les cheveux ? Juste un peu."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Ouais, carrément. J'ai déjà coupé ceux de mon frère."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Et il a dit quoi, ton frère ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Rien. Il me parle plus depuis."
+    ],
+    [
+     "cheerful",
+     "Bon, assieds-toi !"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Attends… tu vas couper avec ça ?!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "T'inquiète, ça va aller…"
+    ],
+    [
+     "shout",
+     "Atchoum !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Hugo… tu me parles plus ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Bon… T'as déjà pensé à la casquette ?"
+    ]
+   ]
+  }
+ }
+}

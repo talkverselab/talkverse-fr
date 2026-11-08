@@ -1,0 +1,360 @@
+{
+ "id": "r4_work_b1",
+ "region": "R4",
+ "island": "work",
+ "kind": "long",
+ "title": "형식적인 면접",
+ "emoji": "☕",
+ "scene": "작은 레스토랑의 주말 홀 아르바이트 면접. 책임자가 vous 로 묻고, 주방 견습생 Hugo 가 모르는 사람처럼 커피를 내온다 — 면접은 처음부터 형식이었다.",
+ "where": "레스토랑 홀, 영업 전",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Responsable"
+ },
+ "register": "polite",
+ "twist": 14,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "면접 존댓말(je vous en prie · volontiers · s'il vous plaît)과 조건법 가정문(si + 반과거, 조건법 현재)으로 완곡하게 답하기, tu→vous 실수 알아듣기",
+ "expressions": [
+  "je vous en prie",
+  "volontiers",
+  "s'il vous plaît",
+  "pas mal",
+  "pardon"
+ ],
+ "draft": true,
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Asseyez-vous, je vous en prie. Vous avez trouvé facilement ?",
+   "rd": "아쎄예 부, 쥬 부 장 프리. 부 자베 트루베 파씰망?",
+   "ko": "앉으세요. 찾아오시는 데 어렵진 않으셨어요?",
+   "note": "je vous en prie = 어서·그러세요 (vous en → 부 장 연음) / Vous avez trouvé facilement ? = 쉽게 찾으셨어요?",
+   "tags": [
+    "expr:je vous en prie",
+    "liaison:vous avez"
+   ],
+   "new": [
+    "s'asseoir",
+    "facilement"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Oui, merci. Enfin, j'ai un peu tourné, mais je suis là.",
+   "rd": "위, 메르씨. 앙팽, 제 앙 뾔 뚜르네, 메 쥬 쒸 라.",
+   "ko": "네, 감사합니다. 사실 좀 헤맸는데, 어쨌든 왔네요.",
+   "note": "j'ai un peu tourné = 좀 헤맸어요 (tourner = 돌다)",
+   "tags": [
+    "expr:enfin"
+   ],
+   "new": [
+    "tourner"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Alors, dites-moi : pourquoi vous voulez travailler chez nous, et pas ailleurs ?",
+   "rd": "알로르, 디뜨 무아, 뿌르꾸아 부 불레 트라바이예 셰 누, 에 빠 자이외르?",
+   "ko": "그럼 말씀해 보세요. 왜 다른 데가 아니고 저희 가게에서 일하고 싶으세요?",
+   "note": "dites-moi = 말씀해 보세요 / ailleurs = 다른 곳 (pas ailleurs → 빠 자이외르 연음)",
+   "tags": [
+    "form:dites-moi",
+    "liaison:pas ailleurs"
+   ],
+   "new": [
+    "ailleurs"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Parce qu'on m'a dit que l'équipe était sympa et que la cuisine était très bonne.",
+   "rd": "빠르스 꽁 마 디 끄 레끼쁘 에떼 쌩빠 에 끄 라 뀌진 에떼 트레 본.",
+   "ko": "팀 분위기가 좋고 음식이 아주 맛있다고 들었거든요.",
+   "note": "on m'a dit que + 반과거 = ~라고 들었어요 (간접화법, 시제 일치) / sympa = 좋은·친절한",
+   "tags": [
+    "form:간접화법",
+    "form:반과거"
+   ],
+   "new": [
+    "équipe",
+    "sympa",
+    "cuisine"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Un café pour vous aussi ? C'est offert.",
+   "rd": "앙 까페 뿌르 부 조씨? 쎄 또페르.",
+   "ko": "커피 한 잔 드릴까요? 서비스입니다.",
+   "note": "C'est offert = 서비스예요·무료예요 (c'est offert → 쎄 또페르 연음) / Hugo 가 모르는 사람처럼 vous 를 쓴다",
+   "tags": [
+    "liaison:vous aussi",
+    "form:vous 연기"
+   ],
+   "new": [
+    "offert"
+   ],
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Volontiers, merci. …Vous êtes le chef ?",
+   "rd": "볼롱띠에, 메르씨. …부 제뜨 르 셰프?",
+   "ko": "좋죠, 감사합니다. …셰프님이세요?",
+   "note": "Volontiers = 기꺼이·좋죠 (정중한 수락)",
+   "tags": [
+    "expr:volontiers"
+   ],
+   "new": [
+    "volontiers",
+    "chef"
+   ],
+   "segs": [
+    [
+     "stiff",
+     "Volontiers, merci."
+    ],
+    [
+     "surprised",
+     "…Vous êtes le chef ?"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Pas encore. Mais si vous me le demandiez, je vous ferais le plat du jour.",
+   "rd": "빠 앙꼬르. 메 씨 부 므 르 드망디에, 쥬 부 프레 르 쁠라 뒤 쥬르.",
+   "ko": "아직은요. 그래도 부탁하시면 오늘의 요리 정도는 만들어 드릴 수 있죠.",
+   "note": "Pas encore = 아직은 아니에요 / si + 반과거(demandiez), 조건법(ferais) = ~하신다면 ~할 텐데 / plat du jour = 오늘의 요리",
+   "tags": [
+    "form:si 반과거 + 조건법"
+   ],
+   "new": [
+    "plat"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "fr": "Hugo, en cuisine, s'il vous plaît. Donc, si un client se plaignait du service, vous feriez quoi ?",
+   "rd": "위고, 앙 뀌진, 씰 부 쁠레. 동끄, 씨 앙 끌리앙 쓰 쁠레녜 뒤 쎄르비쓰, 부 프리에 꾸아?",
+   "ko": "위고, 주방으로 가 주세요. 그러니까, 손님이 서비스가 느리다고 불평하신다면 어떻게 하시겠어요?",
+   "note": "se plaindre de = ~에 대해 불평하다 (plaignait 반과거) / service = 서비스·응대 / vous feriez quoi ? = 어떻게 하시겠어요? (조건법)",
+   "tags": [
+    "expr:s'il vous plaît",
+    "form:si 반과거 + 조건법"
+   ],
+   "new": [
+    "se plaindre",
+    "service"
+   ],
+   "segs": [
+    [
+     "annoyed",
+     "Hugo, en cuisine, s'il vous plaît."
+    ],
+    [
+     "polite",
+     "Donc, si un client se plaignait du service, vous feriez quoi ?"
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Je m'excuserais, et ensuite je lui proposerais un café en attendant.",
+   "rd": "쥬 멕스뀌즈레, 에 앙쒸뜨 쥬 뤼 프로뽀즈레 앙 까페 앙 나땅당.",
+   "ko": "우선 사과드리고, 그다음에 기다리시는 동안 커피 한 잔을 권하겠습니다.",
+   "note": "m'excuserais · proposerais = 조건법 (완곡한 답) / ensuite = 그다음에 / lui = 그 손님에게 / en attendant = 기다리는 동안 (앙 나땅당)",
+   "tags": [
+    "form:조건법",
+    "form:lui",
+    "liaison:en attendant"
+   ],
+   "new": [
+    "s'excuser",
+    "ensuite",
+    "proposer",
+    "en attendant"
+   ],
+   "emotion": "stiff"
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "fr": "Pas mal. Et si c'était la cuisine qui avait brûlé le plat ?",
+   "rd": "빠 말. 에 씨 쎄떼 라 뀌진 끼 아베 브륄레 르 쁠라?",
+   "ko": "괜찮네요. 그럼 주방이 음식을 태웠다면요?",
+   "note": "Pas mal = 괜찮네요 / la cuisine = 주방(사람들) / c'était … qui = ~한 게 바로 … (강조 구문) / avait brûlé = 대과거",
+   "tags": [
+    "expr:pas mal",
+    "form:c'est … qui"
+   ],
+   "new": [
+    "brûler"
+   ],
+   "emotion": "teasing"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Je dirais au client que c'est une nouvelle recette… et j'en parlerais en cuisine après.",
+   "rd": "쥬 디레 오 끌리앙 끄 쎄 뛴 누벨 르쎄뜨… 에 쟝 빠를르레 앙 뀌진 아프레.",
+   "ko": "손님께는 새 레시피라고 말씀드리고… 주방에는 나중에 따로 얘기하겠습니다.",
+   "note": "recette = 레시피 / j'en parlerais = 그 얘기를 하겠다 (en = 그 일에 대해) / 완곡한 표현의 예",
+   "tags": [
+    "form:조건법",
+    "form:en"
+   ],
+   "new": [
+    "recette",
+    "nouveau"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Je dirais au client que c'est une nouvelle recette…"
+    ],
+    [
+     "stiff",
+     "et j'en parlerais en cuisine après."
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "(sourire) Vous savez, Hugo m'a dit exactement la même phrase la semaine dernière.",
+   "rd": "(쑤리르) 부 싸베, 위고 마 디 에그작뜨망 라 멤 프라즈 라 쓰멘 데르니에르.",
+   "ko": "(미소) 그거 아세요? 위고가 지난주에 정확히 같은 말을 했어요.",
+   "note": "Vous savez = 그거 아세요 (말 꺼내기) / la même phrase = 같은 문장 / la semaine dernière = 지난주",
+   "tags": [
+    "form:vous savez"
+   ],
+   "new": [
+    "exactement",
+    "phrase",
+    "dernier"
+   ],
+   "emotion": "amused"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "fr": "Ah… quelle coïncidence.",
+   "rd": "아… 껠 꼬앵씨당쓰.",
+   "ko": "아… 우연이네요.",
+   "note": "Quelle coïncidence = 이런 우연이 (quel + 명사 감탄)",
+   "tags": [
+    "form:quel 감탄"
+   ],
+   "new": [
+    "coïncidence"
+   ],
+   "emotion": "flustered"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "fr": "Vous vous connaissez, n'est-ce pas ? Il parle de vous depuis dix jours. Tout ça, c'était pour la forme.",
+   "rd": "부 부 꼬네쎄, 네쓰 빠? 일 빠를 드 부 드쀠 디 쥬르. 뚜 싸, 쎄떼 뿌르 라 포름.",
+   "ko": "두 분 아는 사이죠? 열흘 전부터 당신 얘기만 하던데요. 이건 다 형식이었어요.",
+   "note": "반전: 책임자가 다 알고 있었다 / n'est-ce pas ? = 그렇죠? / depuis dix jours = 열흘 전부터 (dix 의 x 묵음) / pour la forme = 형식상",
+   "tags": [
+    "twist",
+    "form:n'est-ce pas",
+    "expr:pour la forme"
+   ],
+   "new": [
+    "se connaître",
+    "forme"
+   ],
+   "segs": [
+    [
+     "teasing",
+     "Vous vous connaissez, n'est-ce pas ? Il parle de vous depuis dix jours."
+    ],
+    [
+     "amused",
+     "Tout ça, c'était pour la forme."
+    ]
+   ]
+  },
+  {
+   "num": 15,
+   "speaker": "B",
+   "fr": "Je t'avais dit qu'elle devinerait ! …Pardon. Je retourne en cuisine.",
+   "rd": "쥬 따베 디 껠 드비느레! …빠르동. 쥬 르뚜른 앙 뀌진.",
+   "ko": "눈치채실 거라고 내가 말했잖아! …죄송합니다. 주방으로 돌아갑니다.",
+   "note": "상사 앞에서 {name} 에게 tu 가 튀어나왔다 — 둘이 아는 사이라는 증거 / Je t'avais dit que + 조건법 = ~할 거라고 말했잖아 / deviner = 눈치채다",
+   "tags": [
+    "expr:pardon",
+    "form:tu→vous",
+    "form:대과거 + 조건법"
+   ],
+   "new": [
+    "retourner"
+   ],
+   "segs": [
+    [
+     "tsukkomi",
+     "Je t'avais dit qu'elle devinerait !"
+    ],
+    [
+     "flustered",
+     "…Pardon. Je retourne en cuisine."
+    ]
+   ]
+  },
+  {
+   "num": 16,
+   "speaker": "C",
+   "fr": "Vous commencez samedi. Et Hugo, le plat du jour, maintenant, sinon vous êtes viré.",
+   "rd": "부 꼬망쎄 쌈디. 에 위고, 르 쁠라 뒤 쥬르, 맹뜨낭, 씨농 부 제뜨 비레.",
+   "ko": "토요일부터 나오세요. 그리고 위고, 오늘의 요리, 지금 당장. 안 그러면 해고예요.",
+   "note": "Vous commencez samedi = 토요일부터 시작하세요 (합격 통보) / sinon = 안 그러면 / viré = 해고된 (농담)",
+   "tags": [
+    "form:sinon"
+   ],
+   "new": [
+    "commencer",
+    "sinon",
+    "virer"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Vous commencez samedi."
+    ],
+    [
+     "shout",
+     "Et Hugo, le plat du jour, maintenant, sinon vous êtes viré."
+    ]
+   ]
+  }
+ ],
+ "cast": {
+  "C": "woman_m"
+ }
+}

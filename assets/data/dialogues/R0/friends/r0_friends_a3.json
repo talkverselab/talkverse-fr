@@ -1,0 +1,386 @@
+{
+ "id": "r0_friends_a3",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "역 앞이야",
+ "emoji": "🚉",
+ "scene": "위고와 「리옹역(Gare de Lyon) 앞」에서 만나기로 했다. 둘 다 역 앞인데 서로가 안 보인다",
+ "where": "전화",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "위치 말하기(Tu es où ? / Je suis devant…)",
+ "expressions": [
+  "attends",
+  "ben"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Allô, {name} ? Je peux pas te trouver !",
+   "rd": "알로, {name}? 쥬 뾔 빠 뜨 트루베!",
+   "ko": "여보세요, {name}? 너 못 찾겠어!",
+   "note": "Allô = 여보세요 · je peux pas = …못 하겠어(ne 생략) · trouver = 찾다",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "peux",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "trouver",
+     "trouver",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "trouver",
+     "trouver",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Je suis devant la gare.",
+   "rd": "쥬 쒸 드방 라 가르.",
+   "ko": "나 역 앞이야.",
+   "note": "devant = … 앞 · gare = 기차역",
+   "tags": [],
+   "new": [
+    "gare",
+    "devant"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "gare",
+     "gare",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "gare",
+     "gare",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Moi aussi ! Mais je te vois pas.",
+   "rd": "무아 오씨! 메 쥬 뜨 부아 빠.",
+   "ko": "나도! 근데 너 안 보여.",
+   "note": "je te vois pas = 너 안 보여(ne 생략)",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "vois",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "vois",
+     "voir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Je fais coucou ! Tout le monde peut me voir !",
+   "rd": "쥬 페 꾸꾸! 뚜 르 몽드 뾔 므 부아르!",
+   "ko": "나 손 흔들고 있어! 다들 나 보일 텐데!",
+   "note": "faire coucou = 손 흔들다 · je peux → tout le monde peut · je vois → voir",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fais",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "coucou",
+     "coucou",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Tout",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "monde",
+     "monde",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "peut",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "voir",
+     "voir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "coucou",
+     "coucou",
+     ""
+    ],
+    [
+     "Tout",
+     "tout",
+     ""
+    ],
+    [
+     "monde",
+     "monde",
+     ""
+    ],
+    [
+     "peut",
+     "pouvoir",
+     ""
+    ],
+    [
+     "voir",
+     "voir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Attends… tu es gare de Lyon, à Paris ?",
+   "rd": "아땅… 뛰 에 가르 드 리옹, 아 빠리?",
+   "ko": "잠깐… 너 파리의 리옹역에 있는 거 맞지?",
+   "note": "gare de Lyon = 파리에 있는 역 이름(구어로 à la 를 빼고 말한다)",
+   "tags": [
+    "expr:attends"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "es",
+     "être",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "gare",
+     "gare",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "gare",
+     "gare",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Gare de Lyon ? Ben non, je suis à Lyon.",
+   "rd": "가르 드 리옹? 뱅 농, 쥬 쒸 아 리옹.",
+   "ko": "리옹역? 아니, 나 리옹에 있는데.",
+   "note": "ben = 뭐, 그야 · 역 이름을 도시로 알아들었다",
+   "tags": [
+    "expr:ben"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Gare de Lyon ?"
+    ],
+    [
+     "flustered",
+     "Ben non, je suis à Lyon."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Ben",
+     "ben",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": []
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

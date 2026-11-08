@@ -1,0 +1,117 @@
+{
+ "ep": "r5_travel_b1",
+ "cast": {
+  "B": "theo",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Billets, s'il vous plaît."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Les voici."
+    ],
+    [
+     "flustered",
+     "Enfin… attendez, ils sont où ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Théo, t'as oublié ? Tu les as mis dans ton sac à dos ce matin."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Ah oui ! Je les mets toujours là."
+    ],
+    [
+     "flustered",
+     "…Ah non, ça, c'est mon vieux ticket de métro."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "stiff",
+     "Sans billet valable, vous payez une amende de cinquante euros chacun."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Chacun ? Mais on a payé, monsieur, je vous jure !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Je vous crois. Mais le règlement, c'est le règlement."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "Bon. On a perdu cent euros,"
+    ],
+    [
+     "amused",
+     "mais on est arrivés à Lyon."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Et pour rentrer dimanche ? Plus de train, il y a une grève."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "J'ai trouvé un covoiturage. Le conducteur a l'air sympa, regarde sa photo."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "…Théo. Tu vas pas me croire. C'est le contrôleur."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Bonjour ! Départ à dix heures. Et cette fois, n'oubliez pas vos billets"
+    ]
+   ]
+  }
+ }
+}

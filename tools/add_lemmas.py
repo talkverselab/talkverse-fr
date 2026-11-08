@@ -44,7 +44,7 @@ for fpath in files:
     eps = d.get('episodes') or [d]
     for ep in eps:
         for t in ep.get('turns', []):
-            text = t.get('tl') or t.get('es') or ''
+            text = t.get('fr') or t.get('tl') or t.get('es') or ''
             doc = nlp(VAR.sub(' ', text))
             out = []; seen = set()
             for tok in doc:

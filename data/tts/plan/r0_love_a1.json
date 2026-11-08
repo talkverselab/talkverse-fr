@@ -1,0 +1,60 @@
+{
+ "ep": "r0_love_a1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Pardon… tu attends le bus ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "annoyed",
+     "Oui. Il pleut, c'est nul."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Moi, j'aime bien la pluie."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Ah bon ? Pourquoi tu aimes la pluie ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Parce que… comme ça, je peux parler avec toi."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Ah, le bus…"
+    ],
+    [
+     "gentle",
+     "Bon, il peut partir."
+    ]
+   ]
+  }
+ }
+}

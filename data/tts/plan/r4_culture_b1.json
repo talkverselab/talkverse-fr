@@ -1,0 +1,144 @@
+{
+ "ep": "r4_culture_b1",
+ "cast": {
+  "B": "camille",
+  "C": "man_o"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Te voilà enfin ! Je suis contente que tu sois venu, même en retard."
+    ]
+   ],
+   "f": {
+    "text": "Te voilà enfin ! Je suis contente que tu sois venue, même en retard.",
+    "rd": "뜨 부알라 앙팽! 쥬 쒸 꽁땅뜨 끄 뛰 쑤아 브뉘, 멤 앙 르따르.",
+    "ko": "드디어 왔네! 늦었어도 와 줘서 좋다.",
+    "segs": [
+     [
+      "cheerful",
+      "Te voilà enfin ! Je suis contente que tu sois venue, même en retard."
+     ]
+    ]
+   }
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Pardon, le métro… Je viens d'arriver. J'ai raté le début ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "amused",
+     "Le début ? Le film est fini. Mais on va en discuter, tu restes ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "stiff",
+     "Je reste, bien sûr. En fait… je l'ai déjà vu. Deux fois."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Deux fois ?"
+    ],
+    [
+     "gentle",
+     "Je suis content qu'un jeune l'aime autant que moi."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Ça m'étonnerait qu'il l'ait vu. Mais vas-y, raconte-nous ta scène préférée."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Euh… celle où ils se retrouvent à la gare. C'est là que tout change."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "excited",
+     "Exactement ! La gare où il la voit pour la dernière fois…"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "teasing",
+     "Hmm. Pas mal. Et les acteurs, tu les as trouvés comment ?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "excited",
+     "Géniaux. Surtout la voix de l'acteur principal, elle m'a donné des frissons."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Sa voix ?"
+    ],
+    [
+     "tsukkomi",
+     "{name}… c'est un film muet."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Il aurait fallu que vous le voyiez une troisième fois, peut-être."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "J'avoue. Je l'ai pas vu…"
+    ],
+    [
+     "amused",
+     "mais franchement, il avait une tête à avoir une belle voix."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Allez, assieds-toi. Tu l'as vu deux fois, tu vas le voir une troisième. Tu me diras s'il chante."
+    ]
+   ]
+  }
+ }
+}

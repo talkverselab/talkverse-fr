@@ -1,0 +1,429 @@
+{
+ "id": "r0_life_a1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "내 크레프",
+ "emoji": "🥞",
+ "scene": "셰어하우스 부엌. 룸메이트 테오가 크레프를 굽는다. A 가 설탕을 찾는 사이 크레프가 사라진다",
+ "where": "집 부엌",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "좋아하는 것·부탁(s'il te plaît)·물건 위치(il est où ?)",
+ "expressions": [
+  "ça marche",
+  "tiens",
+  "voilà",
+  "pardon",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "{name}, tu es là ? Je fais des crêpes !",
+   "rd": "{name}, 뛰 에 라? 쥬 페 데 크렙!",
+   "ko": "{name}, 집에 있어? 나 크레프 만든다!",
+   "note": "faire = 만들다 · crêpe = 크레프",
+   "tags": [],
+   "new": [
+    "crêpe"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fais",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "crêpes",
+     "crêpe",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "crêpes",
+     "crêpe",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Oh, trop bon ! Avec du sucre, s'il te plaît.",
+   "rd": "오, 트로 봉! 아벡 뒤 쒸끄르, 씰 뜨 쁠레.",
+   "ko": "오, 완전 맛있겠다! 설탕 넣어서, 부탁해.",
+   "note": "trop bon = 너무 맛있어 · sucre = 설탕 · s'il te plaît = 부탁해(tu)",
+   "tags": [
+    "expr:trop"
+   ],
+   "new": [
+    "sucre"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "sucre",
+     "sucre",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "plaît",
+     "plaît",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "sucre",
+     "sucre",
+     ""
+    ],
+    [
+     "plaît",
+     "plaire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Ça marche. Tiens, voilà ta crêpe.",
+   "rd": "싸 마르슈. 띠앵, 부알라 따 크렙.",
+   "ko": "알았어. 자, 네 크레프.",
+   "note": "ça marche = 알았어 · tiens = 자(건넬 때)",
+   "tags": [
+    "expr:ça marche",
+    "expr:tiens",
+    "expr:voilà"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "marche",
+     "march",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Tiens",
+     "tien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "voilà",
+     "voilà",
+     "VERB",
+     "Tense=Pres|VerbForm=Part"
+    ],
+    [
+     "ta",
+     "ton",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "crêpe",
+     "crêpe",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "marche",
+     "marche",
+     ""
+    ],
+    [
+     "Tiens",
+     "tien",
+     ""
+    ],
+    [
+     "voilà",
+     "voilà",
+     ""
+    ],
+    [
+     "crêpe",
+     "crêpe",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Merci ! Et le sucre, il est où ?",
+   "rd": "메르씨! 에 르 쒸끄르, 일 레 우?",
+   "ko": "고마워! 그런데 설탕 어디 있어?",
+   "note": "il est où ? = 어디 있어?",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sucre",
+     "sucre",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sucre",
+     "sucre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "…Théo ! Tu manges ma crêpe ?!",
+   "rd": "…떼오! 뛰 망쥬 마 크렙?!",
+   "ko": "…테오! 너 내 크레프 먹어?!",
+   "note": "설탕 찾는 사이 테오가 먹고 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "manges",
+     "mange",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ma",
+     "mon",
+     "PRON",
+     "Number=Plur|Person=3"
+    ],
+    [
+     "crêpe",
+     "crêpe",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "manges",
+     "mange",
+     ""
+    ],
+    [
+     "crêpe",
+     "crêpe",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Pardon… elle est trop bonne. J'en refais une ?",
+   "rd": "빠르동… 엘 레 트로 본. 쟝 르페 윈?",
+   "ko": "미안… 너무 맛있어서. 하나 더 만들까?",
+   "note": "trop bon → elle est trop bonne (crêpe 가 여성) · j'en refais une = 하나 더 만든다",
+   "tags": [
+    "expr:pardon",
+    "expr:trop"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Pardon… elle est trop bonne."
+    ],
+    [
+     "amused",
+     "J'en refais une ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bonne",
+     "bon",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "refais",
+     "refaire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ]
+   ],
+   "lemmas": [
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "bonne",
+     "bon",
+     ""
+    ],
+    [
+     "refais",
+     "refaire",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

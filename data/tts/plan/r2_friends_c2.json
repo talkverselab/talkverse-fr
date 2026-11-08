@@ -1,0 +1,96 @@
+{
+ "ep": "r2_friends_c2",
+ "cast": {
+  "B": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Urgence ! J'ai un date ce soir"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Ouf, enfin ! Il est comment ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Grand, drôle, il fait du vélo partout. Un peu chelou, mais mignon."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Stylé. Montre une photo, stp !"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Attends… j'ai trois photos. Voilà"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "…Camille. C’est Théo. Mon coloc."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "QUOI ?! Celui qui chante sous la douche ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Ouais. Tous les matins. Et il chante faux."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Bon… il est quand même mignon. Je fais quoi ? J'y vais ?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "teasing",
+     "Vas-y ! Ça va aller. Et s'il chante, tu fermes les oreilles."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Il vient de m’écrire. Il dit que toi aussi, tu chantes sous la douche"
+    ]
+   ]
+  }
+ }
+}

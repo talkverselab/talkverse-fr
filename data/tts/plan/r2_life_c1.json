@@ -1,0 +1,88 @@
+{
+ "ep": "r2_life_c1",
+ "cast": {
+  "B": "theo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "T'es à la maison ? Je trouve plus ma clé"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Non, je suis au ciné. Le film finit à minuit."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shout",
+     "Minuit ?! Il fait trop froid, je vais mourir"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Attends, tu as regardé dans ta poche ? Genre, vraiment ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Bah évidemment ! Tu me prends pour qui ? Je regarde encore… rien."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "gentle",
+     "Ça va, ça va, j'arrive. Je quitte le film pour toi, hein"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "…"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Je l'ai trouvée. Dans ma poche."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Mdr. Trop tard, je suis déjà dans le métro."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "sad",
+     "Laisse tomber… c'est la clé de mon vélo. Pas de l'appart."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "ep": "r0_love_a2",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Attends, bouge pas ! Je dessine, là."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "surprised",
+     "Moi ? Pourquoi tu me dessines ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Parce que… je te regarde tout le temps."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Ah bon ? C'est fini ? Je peux voir ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shy",
+     "Tu es beau…"
+    ],
+    [
+     "flustered",
+     "euh, il est beau, le dessin !"
+    ]
+   ],
+   "f": {
+    "text": "Tu es belle… euh, il est beau, le dessin !",
+    "rd": "뛰 에 벨… 외, 일 레 보, 르 데쌩!",
+    "ko": "너 잘생겼… 아니, 그림이 잘 나왔다고!",
+    "segs": [
+     [
+      "shy",
+      "Tu es belle…"
+     ],
+     [
+      "flustered",
+      "euh, il est beau, le dessin !"
+     ]
+    ]
+   }
+  },
+  "6": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Mais… c'est pas moi, ça. Je vois un chat !"
+    ]
+   ]
+  }
+ }
+}

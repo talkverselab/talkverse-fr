@@ -1,0 +1,83 @@
+{
+ "ep": "r3_friends_a1",
+ "cast": {
+  "B": "camille",
+  "C": "theo",
+  "D": "lea",
+  "E": "man_o"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Enfin !"
+    ],
+    [
+     "annoyed",
+     "Vous avez les clés ? Nous attendons depuis une heure."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Ouais, tenez. Mais vous avez perdu les vôtres où ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Nous, on perd toujours nos clés… Bref, ouvrez vite !"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Attendez… elles veulent pas tourner. Vous êtes sûres ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Donnez, je veux essayer, moi…"
+    ],
+    [
+     "worried",
+     "Non, elles tournent pas."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Camille, Léa… votre porte, elle est pas en haut ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "…Si, nous, c'est en haut. Oh là là, la honte."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "Vous avez fini, là ? Nous, on dort !"
+    ]
+   ]
+  }
+ }
+}

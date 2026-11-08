@@ -1,0 +1,1141 @@
+{
+ "id": "r5_travel_b1",
+ "region": "R5",
+ "island": "travel",
+ "kind": "long",
+ "title": "그 검표원",
+ "emoji": "🚆",
+ "scene": "리옹행 기차. 테오가 표를 못 찾아 둘 다 벌금을 낸다. 돌아올 때 테오가 찾은 카풀 운전자가 하필 그 검표원이다",
+ "where": "기차·카풀 앱",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Contrôleur"
+ },
+ "cast": {
+  "C": "man_m"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "여행 어휘(billet·amende·grève·covoiturage)·vous 로 공무원 응대, 새 문법 없음",
+ "expressions": [
+  "s'il vous plaît",
+  "je vous jure",
+  "bon",
+  "attendez"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Billets, s'il vous plaît.",
+   "rd": "비예, 씰 부 쁠레.",
+   "ko": "표 보여 주세요.",
+   "note": "billet = 표",
+   "tags": [],
+   "new": [
+    "billet"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "plaît",
+     "plaire",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "plaît",
+     "plaire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Les voici. Enfin… attendez, ils sont où ?",
+   "rd": "레 부아씨. 앙팽… 아땅데, 일 쏭 우?",
+   "ko": "여기요. 아니… 잠깐만요, 어디 갔지?",
+   "note": "les voici = 여기 있어요",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Les voici."
+    ],
+    [
+     "flustered",
+     "Enfin… attendez, ils sont où ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "voici",
+     "voici",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "attendez",
+     "attendre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ils",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Plur|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "voici",
+     "voici",
+     ""
+    ],
+    [
+     "Enfin",
+     "enfin",
+     ""
+    ],
+    [
+     "attendez",
+     "attendre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Théo, t'as oublié ? Tu les as mis dans ton sac à dos ce matin.",
+   "rd": "떼오, 따 우블리에? 뛰 레 자 미 당 똥 싸까도 쓰 마땡.",
+   "ko": "테오, 까먹었어? 아침에 네 배낭에 넣었잖아.",
+   "note": "t'as oublié → 12번 n'oubliez pas · sac à dos = 배낭",
+   "tags": [],
+   "new": [
+    "sac à dos"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "oublié",
+     "oublier",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "as",
+     "as",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "mis",
+     "mettre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "sac",
+     "sac",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dos",
+     "dos",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "matin",
+     "matin",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "oublié",
+     "oublier",
+     ""
+    ],
+    [
+     "mis",
+     "mettre",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "sac",
+     "sac",
+     ""
+    ],
+    [
+     "dos",
+     "dos",
+     ""
+    ],
+    [
+     "matin",
+     "matin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Ah oui ! Je les mets toujours là. …Ah non, ça, c'est mon vieux ticket de métro.",
+   "rd": "아 위! 쥬 레 메 뚜쥬르 라. …아 농, 싸, 쎄 몽 비외 띠께 드 메뜨로.",
+   "ko": "아 맞다! 늘 거기 넣어 두지. …아니네, 이건 옛날 지하철 표야.",
+   "note": "tu les as mis → je les mets",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "excited",
+     "Ah oui ! Je les mets toujours là."
+    ],
+    [
+     "flustered",
+     "…Ah non, ça, c'est mon vieux ticket de métro."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Ah",
+     "ah",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "oui",
+     "oui",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "mets",
+     "mets",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Ah",
+     "ah",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "vieux",
+     "vieux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "ticket",
+     "ticket",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "métro",
+     "métro",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "vieux",
+     "vieux",
+     ""
+    ],
+    [
+     "ticket",
+     "ticket",
+     ""
+    ],
+    [
+     "métro",
+     "métro",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Sans billet valable, vous payez une amende de cinquante euros chacun.",
+   "rd": "쌍 비예 발라블, 부 뻬예 윈 나망드 드 쌩깡 뙤로 샤깡.",
+   "ko": "유효한 표가 없으면 한 분당 벌금 50유로 내셔야 합니다.",
+   "note": "vous payez → 6번 on a payé · amende = 벌금 · chacun = 각자",
+   "tags": [],
+   "new": [
+    "amende",
+    "valable"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "billet",
+     "billet",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "valable",
+     "valable",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "payez",
+     "payer",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "amende",
+     "amende",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "chacun",
+     "chacun",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "billet",
+     "billet",
+     ""
+    ],
+    [
+     "valable",
+     "valable",
+     ""
+    ],
+    [
+     "payez",
+     "payer",
+     ""
+    ],
+    [
+     "amende",
+     "amende",
+     ""
+    ],
+    [
+     "euros",
+     "euro",
+     ""
+    ],
+    [
+     "chacun",
+     "chacun",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Chacun ? Mais on a payé, monsieur, je vous jure !",
+   "rd": "샤깡? 메 옹 나 뻬예, 므씨외, 쥬 부 쥐르!",
+   "ko": "한 사람당이요? 저희 돈 냈어요, 진짜예요!",
+   "note": "je vous jure = 맹세해요, 진짜예요",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "payé",
+     "payer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "jure",
+     "jurer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "payé",
+     "payer",
+     ""
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     ""
+    ],
+    [
+     "jure",
+     "jurer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Je vous crois. Mais le règlement, c'est le règlement.",
+   "rd": "쥬 부 끄루아. 메 르 레글르망, 쎄 르 레글르망.",
+   "ko": "믿습니다. 하지만 규정은 규정이에요.",
+   "note": "règlement = 규정",
+   "tags": [],
+   "new": [
+    "règlement"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "crois",
+     "croire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "règlement",
+     "règlement",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "règlement",
+     "règlement",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "crois",
+     "croire",
+     ""
+    ],
+    [
+     "règlement",
+     "règlement",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Bon. On a perdu cent euros, mais on est arrivés à Lyon.",
+   "rd": "봉. 옹 나 뻬르뒤 쌍 뙤로, 메 옹 네 따리베 아 리옹.",
+   "ko": "뭐. 100유로 날렸지만 리옹엔 왔잖아.",
+   "note": "(지문: 나중에, 리옹 역) on est arrivés = 우리 도착했다(복수 일치)",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "sad",
+     "Bon. On a perdu cent euros,"
+    ],
+    [
+     "amused",
+     "mais on est arrivés à Lyon."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "perdu",
+     "perdre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "arrivés",
+     "arriver",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "perdu",
+     "perdre",
+     ""
+    ],
+    [
+     "euros",
+     "euro",
+     ""
+    ],
+    [
+     "arrivés",
+     "arriver",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Et pour rentrer dimanche ? Plus de train, il y a une grève.",
+   "rd": "에 뿌르 랑트레 디망슈? 쁠뤼 드 트랭, 일 리 아 윈 그레브.",
+   "ko": "일요일에 돌아갈 건? 기차 없어, 파업이래.",
+   "note": "grève = 파업 · plus de … = 더는 … 없다",
+   "tags": [],
+   "new": [
+    "grève"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "rentrer",
+     "rentrer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "dimanche",
+     "dimanche",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "train",
+     "train",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "grève",
+     "grève",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "rentrer",
+     "rentrer",
+     ""
+    ],
+    [
+     "dimanche",
+     "dimanche",
+     ""
+    ],
+    [
+     "Plus",
+     "plus",
+     ""
+    ],
+    [
+     "train",
+     "train",
+     ""
+    ],
+    [
+     "grève",
+     "grève",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "J'ai trouvé un covoiturage. Le conducteur a l'air sympa, regarde sa photo.",
+   "rd": "제 트루베 앙 꼬부아뛰라쥬. 르 꽁뒥뙤르 아 레르 쌩빠, 르가르드 싸 포또.",
+   "ko": "카풀 찾았어. 운전자 괜찮아 보여, 사진 봐.",
+   "note": "covoiturage = 카풀 · avoir l'air = …해 보이다",
+   "tags": [],
+   "new": [
+    "covoiturage",
+    "conducteur"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "trouvé",
+     "trouver",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "covoiturage",
+     "covoiturage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "conducteur",
+     "conducteur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "air",
+     "air",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "sympa",
+     "sympa",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "regarde",
+     "regarder",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sa",
+     "son",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "photo",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "trouvé",
+     "trouver",
+     ""
+    ],
+    [
+     "covoiturage",
+     "covoiturage",
+     ""
+    ],
+    [
+     "conducteur",
+     "conducteur",
+     ""
+    ],
+    [
+     "air",
+     "air",
+     ""
+    ],
+    [
+     "sympa",
+     "sympa",
+     ""
+    ],
+    [
+     "regarde",
+     "regarder",
+     ""
+    ],
+    [
+     "photo",
+     "photo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "…Théo. Tu vas pas me croire. C'est le contrôleur.",
+   "rd": "…떼오. 뛰 바 빠 므 크루아르. 쎄 르 꽁트롤뢰르.",
+   "ko": "…테오. 못 믿을걸. 그 검표원이야.",
+   "note": "je vous crois(7번) → me croire · contrôleur = 검표원",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "vas",
+     "aller",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "croire",
+     "croire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "contrôleur",
+     "contrôleur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "croire",
+     "croire",
+     ""
+    ],
+    [
+     "contrôleur",
+     "contrôleur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "Bonjour ! Départ à dix heures. Et cette fois, n'oubliez pas vos billets 😉",
+   "rd": "봉쥬르! 데빠르 아 디 죄르. 에 쎄뜨 푸아, 누블리예 빠 보 비예.",
+   "ko": "안녕하세요! 10시 출발입니다. 그리고 이번엔 표 잊지 마세요 😉",
+   "note": "카풀 앱 메시지 — oubliez = 잊다(vous 명령)",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Départ",
+     "départ",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "fois",
+     "fois",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "oubliez",
+     "oublier",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "billets",
+     "billet",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "😉",
+     "😉",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Départ",
+     "départ",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "fois",
+     "fois",
+     ""
+    ],
+    [
+     "n'",
+     "ne",
+     ""
+    ],
+    [
+     "oubliez",
+     "oublier",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "billets",
+     "billet",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

@@ -1,0 +1,130 @@
+{
+ "ep": "r5_work_b1",
+ "cast": {
+  "B": "theo",
+  "C": "woman_m",
+  "D": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bonjour à tous. On commence ? L'ordre du jour : le devis et les délais de livraison."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Bonjour. Je vous entends mal, votre micro grésille un peu."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Pardon, je suis en télétravail aujourd'hui. Et maintenant, c'est mieux ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Parfait. Vous pouvez partager votre écran ? Je voudrais voir le tableau des prix."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Bien sûr. Voilà : livraison en trois semaines, installation comprise."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "stiff",
+     "Trois semaines, c'est long. Nos concurrents proposent dix jours."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "On peut réduire le délai, mais le tarif augmente de dix pour cent."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Dix pour cent… Je dois en parler à ma direction."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "{name} ! T'as encore mangé mon yaourt ? Il y avait mon nom dessus !"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Théo, je suis en réunion ! Tu es dans le champ de la caméra !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "flustered",
+     "Oh pardon… Bonjour, madame."
+    ],
+    [
+     "amused",
+     "Il est bien, votre tableau. Mais trois semaines, c'est trop."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Il a raison. Votre colocataire négocie mieux que vous."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "sad",
+     "Bon…"
+    ],
+    [
+     "stiff",
+     "Dix jours, sans augmentation. Je vous envoie le nouveau devis ce soir."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Et pour le yaourt, je t'envoie mon devis aussi. Deux euros, livraison comprise."
+    ]
+   ]
+  }
+ }
+}

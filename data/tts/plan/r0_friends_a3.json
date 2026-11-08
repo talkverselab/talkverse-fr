@@ -1,0 +1,60 @@
+{
+ "ep": "r0_friends_a3",
+ "cast": {
+  "B": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Allô, {name} ? Je peux pas te trouver !"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Je suis devant la gare."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "Moi aussi ! Mais je te vois pas."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Je fais coucou ! Tout le monde peut me voir !"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Attends… tu es gare de Lyon, à Paris ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Gare de Lyon ?"
+    ],
+    [
+     "flustered",
+     "Ben non, je suis à Lyon."
+    ]
+   ]
+  }
+ }
+}

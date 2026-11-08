@@ -1,0 +1,60 @@
+{
+ "ep": "r0_life_a1",
+ "cast": {
+  "B": "theo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "{name}, tu es là ? Je fais des crêpes !"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Oh, trop bon ! Avec du sucre, s'il te plaît."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ça marche. Tiens, voilà ta crêpe."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Merci ! Et le sucre, il est où ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "tsukkomi",
+     "…Théo ! Tu manges ma crêpe ?!"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Pardon… elle est trop bonne."
+    ],
+    [
+     "amused",
+     "J'en refais une ?"
+    ]
+   ]
+  }
+ }
+}

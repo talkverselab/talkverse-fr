@@ -1,0 +1,76 @@
+{
+ "ep": "r1_love_a2",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "shy",
+     "Il pleut fort, hein. Tu viens sous mon parapluie ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Merci. Mais il est petit, ton parapluie."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "shy",
+     "Pas grave, je suis petite. Viens plus près, voilà."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Tu prends ce bus aussi ? Je t'ai jamais vue."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Non, ma maison est à côté."
+    ],
+    [
+     "flustered",
+     "Enfin… euh…"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "À côté ? Alors pourquoi attendre ici ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shy",
+     "…J'attendais quelqu'un. Toi. T'avais pas de parapluie."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Le bus arrive… Je vais pas le prendre, alors."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "ep": "r1_friends_a1",
+ "cast": {
+  "B": "camille",
+  "C": "man_o"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Enfin !"
+    ],
+    [
+     "annoyed",
+     "T'as la clé ? J'attends depuis une heure."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "teasing",
+     "Ouais, tiens. Mais t'as perdu la tienne où ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "flustered",
+     "Je perds toujours mes clés… Bref, ouvre vite !"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Attends… elle veut pas tourner. T'es sûre ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "annoyed",
+     "Donne, je veux essayer…"
+    ],
+    [
+     "worried",
+     "Non, elle tourne pas."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Camille… ta porte, elle est pas en haut ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "…Si, c'est en haut. Oh là là, la honte."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "annoyed",
+     "C'est fini, là ? Je dors, moi !"
+    ]
+   ]
+  }
+ }
+}

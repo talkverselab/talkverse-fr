@@ -1,0 +1,1473 @@
+{
+ "id": "r5_love_b1",
+ "region": "R5",
+ "island": "love",
+ "kind": "long",
+ "title": "목요일 빨래방",
+ "emoji": "🧺",
+ "scene": "밤의 빨래방. 레아가 먼저 동전을 빌리며 말을 건다. 사실 레아는 A 를 보려고 4주째 목요일마다 건조기 뒤에 앉아 있었다",
+ "where": "빨래방",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "study_abroad"
+ ],
+ "domain": [
+  "love",
+  "life"
+ ],
+ "goal": "빨래·생활 어휘(monnaie·pièce·programme·degré·laine·essorage·rétrécir·sèche-linge·linge·chaussette·chemise), 새 문법 없음",
+ "expressions": [
+  "tiens",
+  "tant pis",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Excuse-moi, tu as de la monnaie ? La machine prend que les pièces.",
+   "rd": "엑쓰뀌즈 무아, 뛰 아 들 라 모네? 라 마신 프랑 끄 레 삐에쓰.",
+   "ko": "저기, 동전 있어? 기계가 동전만 받아서.",
+   "note": "monnaie = 잔돈 · pièce = 동전",
+   "tags": [],
+   "new": [
+    "monnaie",
+    "machine",
+    "pièce"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "Excuse",
+     "excus",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "as",
+     "as",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "monnaie",
+     "monnaie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "machine",
+     "machine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "prend",
+     "prendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "pièces",
+     "pièce",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "-moi",
+     "-moi",
+     ""
+    ],
+    [
+     "as",
+     "as",
+     ""
+    ],
+    [
+     "monnaie",
+     "monnaie",
+     ""
+    ],
+    [
+     "machine",
+     "machine",
+     ""
+    ],
+    [
+     "prend",
+     "prendre",
+     ""
+    ],
+    [
+     "pièces",
+     "pièce",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Tiens, j'ai deux euros. Tu fais quel programme ?",
+   "rd": "띠앵, 졔 되 죄로. 뛰 페 껠 프로그람?",
+   "ko": "자, 2유로 있어. 무슨 코스로 돌려?",
+   "note": "programme = (세탁) 코스",
+   "tags": [
+    "expr:tiens"
+   ],
+   "new": [
+    "programme"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Tiens",
+     "tien",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "fais",
+     "fai",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "quel",
+     "quel",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Int"
+    ],
+    [
+     "programme",
+     "programme",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tiens",
+     "tien",
+     ""
+    ],
+    [
+     "euros",
+     "euro",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "programme",
+     "programme",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Je sais jamais. Quarante degrés, c'est trop pour la laine ?",
+   "rd": "쥬 쎄 쟈메. 까랑뜨 드그레, 쎄 트로 뿌르 라 렌?",
+   "ko": "항상 모르겠어. 울에 40도는 너무 높아?",
+   "note": "degré = 도 · laine = 울",
+   "tags": [
+    "expr:trop"
+   ],
+   "new": [
+    "degré",
+    "laine"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "sais",
+     "savoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "degrés",
+     "degré",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "laine",
+     "laine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sais",
+     "savoir",
+     ""
+    ],
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "degrés",
+     "degré",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "laine",
+     "laine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir.",
+   "rd": "뿌르 라 렌, 트랑뜨 막씨멈. 에 쌍 제쏘라쥬, 씨농 똥 뿔 바 레트레씨르.",
+   "ko": "울은 30도까지. 탈수도 빼, 안 그러면 스웨터 줄어들어.",
+   "note": "essorage = 탈수 · rétrécir = 줄어들다",
+   "tags": [],
+   "new": [
+    "essorage",
+    "pull",
+    "rétrécir"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "laine",
+     "laine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "maximum",
+     "maximum",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "essorage",
+     "essorage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "pull",
+     "pull",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rétrécir",
+     "rétrécir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "laine",
+     "laine",
+     ""
+    ],
+    [
+     "maximum",
+     "maximum",
+     ""
+    ],
+    [
+     "essorage",
+     "essorage",
+     ""
+    ],
+    [
+     "sinon",
+     "sinon",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "pull",
+     "pull",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "rétrécir",
+     "rétrécir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Waouh, tu t'y connais. Tu viens souvent ici ?",
+   "rd": "와우, 뛰 띠 꼬네. 뛰 비앵 쑤방 이씨?",
+   "ko": "와, 잘 아네. 여기 자주 와?",
+   "note": "s'y connaître = 잘 알다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "connais",
+     "connai",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "viens",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "connais",
+     "connaître",
+     ""
+    ],
+    [
+     "viens",
+     "venir",
+     ""
+    ],
+    [
+     "souvent",
+     "souvent",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Tous les jeudis. Ma machine à laver est en panne depuis un mois.",
+   "rd": "뚜 레 쥬디. 마 마신 아 라베 에 땅 빤 드쀠 장 무아.",
+   "ko": "목요일마다. 우리 집 세탁기가 한 달째 고장이라.",
+   "note": "machine à laver = 세탁기",
+   "tags": [],
+   "new": [
+    "machine à laver"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Tous",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "jeudis",
+     "jeudi",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "machine",
+     "machine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "laver",
+     "laver",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "panne",
+     "pann",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tous",
+     "tout",
+     ""
+    ],
+    [
+     "jeudis",
+     "jeudi",
+     ""
+    ],
+    [
+     "machine",
+     "machine",
+     ""
+    ],
+    [
+     "laver",
+     "laver",
+     ""
+    ],
+    [
+     "panne",
+     "panne",
+     ""
+    ],
+    [
+     "mois",
+     "mois",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Je sais. Enfin… je veux dire, moi aussi, je viens le jeudi.",
+   "rd": "쥬 쎄. 앙팽… 쥬 브 디르, 무아 오씨, 쥬 비앵 르 쥬디.",
+   "ko": "알아. 아니… 그러니까 나도 목요일에 온다고.",
+   "note": "je veux dire = 내 말은 · le jeudi = 목요일마다",
+   "tags": [],
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Je sais."
+    ],
+    [
+     "shy",
+     "Enfin… je veux dire, moi aussi, je viens le jeudi."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "sais",
+     "savoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dire",
+     "dire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "viens",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "jeudi",
+     "jeudi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sais",
+     "savoir",
+     ""
+    ],
+    [
+     "Enfin",
+     "enfin",
+     ""
+    ],
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "viens",
+     "venir",
+     ""
+    ],
+    [
+     "jeudi",
+     "jeudi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Ah bon ? C'est bizarre, je t'ai jamais vue ici.",
+   "rd": "아 봉? 쎄 비자르, 쥬 떼 쟈메 뷔 이씨.",
+   "ko": "그래? 이상하다, 여기서 너 본 적 없는데.",
+   "note": "vue = 레아(여성)에 일치",
+   "tags": [],
+   "new": [
+    "bizarre"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Ah",
+     "ah",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bizarre",
+     "bizarre",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vue",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "bizarre",
+     "bizarre",
+     ""
+    ],
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "vue",
+     "voir",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Normal, toi, tu me vois jamais. Je m'assois toujours derrière le sèche-linge. Avec un livre.",
+   "rd": "노르말, 뚜아, 뛰 므 부아 쟈메. 쥬 마쑤아 뚜쥬르 데리에르 르 쎄슈 랭쥬. 아벡 깡 리브르.",
+   "ko": "당연하지, 넌 날 못 보거든. 난 늘 건조기 뒤에 앉아. 책 들고.",
+   "note": "je t'ai jamais vue → tu me vois jamais · sèche-linge = 건조기",
+   "tags": [],
+   "new": [
+    "sèche-linge"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "vois",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "assois",
+     "asseoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sèche",
+     "sèche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "-",
+     "-",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "linge",
+     "linge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "livre",
+     "livre",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vois",
+     "voir",
+     ""
+    ],
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "assois",
+     "asseoir",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ],
+    [
+     "sèche",
+     "sèche",
+     ""
+    ],
+    [
+     "linge",
+     "linge",
+     ""
+    ],
+    [
+     "livre",
+     "livre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "…Derrière le sèche-linge ? Ça fait combien de temps ?",
+   "rd": "…데리에르 르 쎄슈 랭쥬? 싸 페 꽁비앵 드 땅?",
+   "ko": "…건조기 뒤에? 그게 얼마나 됐는데?",
+   "note": "ça fait combien de temps = 얼마나 됐어",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "…",
+     "…",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sèche",
+     "sèche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "-",
+     "-",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "linge",
+     "linge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "temps",
+     "temps",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sèche",
+     "sèche",
+     ""
+    ],
+    [
+     "linge",
+     "linge",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "combien",
+     "combien",
+     ""
+    ],
+    [
+     "temps",
+     "temps",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Quatre jeudis. Ce soir, j'ai même apporté du linge, pour avoir une excuse.",
+   "rd": "까트르 쥬디. 쓰 수아르, 졔 멤 아뽀르떼 뒤 랭쥬, 뿌르 아부아르 윈 엑쓰뀌즈.",
+   "ko": "목요일 네 번. 오늘은 핑계 만들려고 빨래까지 가져왔어.",
+   "note": "linge = 빨래 · excuse = 핑계",
+   "tags": [],
+   "new": [
+    "linge",
+    "excuse"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "jeudis",
+     "jeudi",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "apporté",
+     "apporter",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "linge",
+     "linge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "avoir",
+     "avoir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "excuse",
+     "excuse",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "jeudis",
+     "jeudi",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "même",
+     "même",
+     ""
+    ],
+    [
+     "apporté",
+     "apporter",
+     ""
+    ],
+    [
+     "linge",
+     "linge",
+     ""
+    ],
+    [
+     "excuse",
+     "excuse",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Une excuse… Alors la prochaine fois, viens sans linge. Juste toi.",
+   "rd": "윈 엑쓰뀌즈… 알로르 라 프로쉔 푸아, 비앵 쌍 랭쥬. 쥐스뜨 뚜아.",
+   "ko": "핑계라… 그럼 다음엔 빨래 없이 와. 너만.",
+   "note": "심쿵 한 줄",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "excuse",
+     "excus",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "prochaine",
+     "prochain",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "fois",
+     "fois",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "viens",
+     "vien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "linge",
+     "linge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "excuse",
+     "excuse",
+     ""
+    ],
+    [
+     "Alors",
+     "alors",
+     ""
+    ],
+    [
+     "prochaine",
+     "prochain",
+     ""
+    ],
+    [
+     "fois",
+     "fois",
+     ""
+    ],
+    [
+     "viens",
+     "venir",
+     ""
+    ],
+    [
+     "linge",
+     "linge",
+     ""
+    ],
+    [
+     "Juste",
+     "juste",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "fr": "Euh… tes chemises sont roses. C'est ma chaussette rouge, elle est tombée dedans.",
+   "rd": "외… 떼 슈미즈 쏭 로즈. 쎄 마 쇼쎄뜨 루쥬, 엘 레 똥베 드당.",
+   "ko": "어… 네 셔츠 분홍색 됐어. 내 빨간 양말이 거기 들어갔나 봐.",
+   "note": "chemise = 셔츠 · chaussette = 양말 · dedans = 안에",
+   "tags": [],
+   "new": [
+    "chemise",
+    "rose",
+    "chaussette"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tes",
+     "te",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "chemises",
+     "chemise",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "roses",
+     "roser",
+     "VERB",
+     "Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "chaussette",
+     "chaussette",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "rouge",
+     "rouge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tombée",
+     "tomber",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Euh",
+     "euh",
+     ""
+    ],
+    [
+     "tes",
+     "te",
+     ""
+    ],
+    [
+     "chemises",
+     "chemise",
+     ""
+    ],
+    [
+     "roses",
+     "roser",
+     ""
+    ],
+    [
+     "rouge",
+     "rouge",
+     ""
+    ],
+    [
+     "tombée",
+     "tomber",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "fr": "Tant pis. Jeudi prochain, tu t'assois à côté de moi… et tes chaussettes restent chez toi.",
+   "rd": "땅 삐. 쥬디 프로섕, 뛰 따쑤아 아 꼬떼 드 무아… 에 떼 쇼쎄뜨 레스뜨 셰 뚜아.",
+   "ko": "할 수 없지. 다음 목요일엔 내 옆에 앉아… 양말은 집에 두고.",
+   "note": "tant pis = 어쩔 수 없지",
+   "tags": [
+    "expr:tant pis"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Jeudi",
+     "jeudi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "prochain",
+     "prochain",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "assois",
+     "assoi",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "côté",
+     "côté",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "tes",
+     "te",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "chaussettes",
+     "chaussette",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "restent",
+     "rester",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tant",
+     "tant",
+     ""
+    ],
+    [
+     "pis",
+     "pis",
+     ""
+    ],
+    [
+     "Jeudi",
+     "jeudi",
+     ""
+    ],
+    [
+     "prochain",
+     "prochain",
+     ""
+    ],
+    [
+     "assois",
+     "assoi",
+     ""
+    ],
+    [
+     "côté",
+     "côté",
+     ""
+    ],
+    [
+     "tes",
+     "te",
+     ""
+    ],
+    [
+     "chaussettes",
+     "chaussette",
+     ""
+    ],
+    [
+     "restent",
+     "rester",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

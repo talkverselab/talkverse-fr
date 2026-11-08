@@ -1,0 +1,1544 @@
+{
+ "id": "r5_life_b1",
+ "region": "R5",
+ "island": "life",
+ "kind": "long",
+ "title": "빨간 편지",
+ "emoji": "🏦",
+ "scene": "은행 계좌 개설. 테오가 거주 증명 서류를 다 챙겨 왔다며 따라왔는데, 서류철에서 은행의 독촉장이 떨어진다",
+ "where": "은행 창구",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Conseillère"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "work_france"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "생활 행정 어휘(compte·justificatif de domicile·facture·bail·attestation d'hébergement·pièce d'identité·carte bancaire·courrier·découvert·mutuelle·remboursement), 새 문법 없음",
+ "expressions": [
+  "pas de souci",
+  "zut",
+  "je te jure"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Bonjour, asseyez-vous. C'est pour ouvrir un compte, c'est bien ça ?",
+   "rd": "봉쥬르, 아쎄예 부. 쎄 뿌르 우브리르 앙 꽁뜨, 쎄 비앵 싸?",
+   "ko": "안녕하세요, 앉으세요. 계좌 개설하러 오신 거죠?",
+   "note": "ouvrir un compte = 계좌를 열다",
+   "tags": [],
+   "new": [
+    "compte"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ouvrir",
+     "ouvrir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "compte",
+     "compte",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ouvrir",
+     "ouvrir",
+     ""
+    ],
+    [
+     "compte",
+     "compte",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Oui. J'ai apporté mon passeport et mon contrat de travail.",
+   "rd": "위. 쟈뽀르떼 몽 빠쓰뽀르 에 몽 꽁트라 드 트라바이.",
+   "ko": "네. 여권이랑 근로 계약서 가져왔어요.",
+   "note": "contrat de travail = 근로 계약서",
+   "tags": [],
+   "new": [
+    "passeport",
+    "contrat"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "apporté",
+     "apporter",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "passeport",
+     "passeport",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "contrat",
+     "contrat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "travail",
+     "travail",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "apporté",
+     "apporter",
+     ""
+    ],
+    [
+     "passeport",
+     "passeport",
+     ""
+    ],
+    [
+     "contrat",
+     "contrat",
+     ""
+    ],
+    [
+     "travail",
+     "travail",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Très bien. Il me faut aussi un justificatif de domicile de moins de trois mois.",
+   "rd": "트레 비앵. 일 므 포 오씨 앙 쥐스띠피까띠프 드 도미씰 드 무앵 드 트루아 무아.",
+   "ko": "좋습니다. 3개월 이내 거주 증명 서류도 필요해요.",
+   "note": "justificatif de domicile = 거주 증명(공과금 고지서 등)",
+   "tags": [],
+   "new": [
+    "justificatif",
+    "domicile"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "justificatif",
+     "justificatif",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "domicile",
+     "domicile",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Très",
+     "très",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "justificatif",
+     "justificatif",
+     ""
+    ],
+    [
+     "domicile",
+     "domicile",
+     ""
+    ],
+    [
+     "moins",
+     "moins",
+     ""
+    ],
+    [
+     "mois",
+     "mois",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Pas de souci, j'ai tout. Facture d'électricité, bail… tout est dans cette pochette.",
+   "rd": "빠 드 쑤씨, 졔 뚜. 팍뛰르 델렉트리씨떼, 바이… 뚜 떼 당 쎄뜨 뽀셰뜨.",
+   "ko": "걱정 마세요, 다 있어요. 전기 요금 고지서, 임대차 계약서… 이 서류철에 다 있어요.",
+   "note": "facture = 청구서 · bail = 임대차 계약 · pochette = 서류철",
+   "tags": [
+    "expr:pas de souci"
+   ],
+   "new": [
+    "facture",
+    "électricité",
+    "bail",
+    "pochette"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "souci",
+     "souci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Facture",
+     "facture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "électricité",
+     "électricité",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "bail",
+     "bail",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "pochette",
+     "pochette",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "souci",
+     "souci",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "Facture",
+     "facture",
+     ""
+    ],
+    [
+     "électricité",
+     "électricité",
+     ""
+    ],
+    [
+     "bail",
+     "bail",
+     ""
+    ],
+    [
+     "pochette",
+     "pochette",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Mais le bail est seulement à votre nom, monsieur. Vous êtes le colocataire ?",
+   "rd": "메 르 바이 에 쐴르망 아 보트르 농, 므씨외. 부 제뜨 르 꼴로까떼르?",
+   "ko": "그런데 계약서가 선생님 이름으로만 돼 있네요. 룸메이트세요?",
+   "note": "à votre nom = 당신 이름으로 · colocataire = 룸메이트",
+   "tags": [],
+   "new": [
+    "colocataire"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bail",
+     "bail",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "nom",
+     "nom",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "êtes",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "colocataire",
+     "colocataire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bail",
+     "bail",
+     ""
+    ],
+    [
+     "seulement",
+     "seulement",
+     ""
+    ],
+    [
+     "nom",
+     "nom",
+     ""
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     ""
+    ],
+    [
+     "colocataire",
+     "colocataire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Oui, on partage l'appartement. Je peux faire une attestation d'hébergement ?",
+   "rd": "위, 옹 빠르따쥬 라빠르뜨망. 쥬 뾔 페르 위 나떼스따씨옹 데베르쥬망?",
+   "ko": "네, 같이 살아요. 제가 거주 확인서를 써 드리면 될까요?",
+   "note": "attestation d'hébergement = 같이 산다는 확인서",
+   "tags": [],
+   "new": [
+    "partager",
+    "attestation",
+    "hébergement"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "partage",
+     "partager",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "appartement",
+     "appartement",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "peux",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "faire",
+     "faire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "attestation",
+     "attestation",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "partage",
+     "partager",
+     ""
+    ],
+    [
+     "appartement",
+     "appartement",
+     ""
+    ],
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "faire",
+     "faire",
+     ""
+    ],
+    [
+     "attestation",
+     "attestation",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Oui. Avec une copie de votre pièce d'identité et votre signature, ici.",
+   "rd": "위. 아벡 윈 꼬삐 드 보트르 삐에쓰 디당띠떼 에 보트르 씨냐뛰르, 이씨.",
+   "ko": "네. 신분증 사본이랑 여기 서명해 주시면 돼요.",
+   "note": "pièce d'identité = 신분증",
+   "tags": [],
+   "new": [
+    "copie",
+    "pièce d'identité",
+    "signature"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "copie",
+     "copie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "pièce",
+     "pièce",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "identité",
+     "identité",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "signature",
+     "signature",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "copie",
+     "copie",
+     ""
+    ],
+    [
+     "pièce",
+     "pièce",
+     ""
+    ],
+    [
+     "identité",
+     "identité",
+     ""
+    ],
+    [
+     "signature",
+     "signature",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Et la carte bancaire, je la reçois quand ? J'en ai besoin pour payer le loyer.",
+   "rd": "에 라 까르뜨 방께르, 쥬 라 르쑤아 깡? 쟝 네 브주앵 뿌르 뻬예 르 루아예.",
+   "ko": "카드는 언제 받아요? 월세 내려면 필요해서요.",
+   "note": "je la reçois → 9번 vous la recevrez · carte bancaire = 은행 카드 · loyer = 월세",
+   "tags": [],
+   "new": [
+    "bancaire",
+    "loyer"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "carte",
+     "carte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "bancaire",
+     "bancaire",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "besoin",
+     "besoin",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "payer",
+     "payer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "loyer",
+     "loyer",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "carte",
+     "carte",
+     ""
+    ],
+    [
+     "bancaire",
+     "bancaire",
+     ""
+    ],
+    [
+     "reçois",
+     "recevoir",
+     ""
+    ],
+    [
+     "besoin",
+     "besoin",
+     ""
+    ],
+    [
+     "payer",
+     "payer",
+     ""
+    ],
+    [
+     "loyer",
+     "loyer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "fr": "Vous la recevrez sous dix jours, par courrier. Le code arrive séparément, pour des raisons de sécurité.",
+   "rd": "부 라 르쓰브레 쑤 디 쥬르, 빠르 꾸리에. 르 꼬드 아리브 쎄빠레망, 뿌르 데 레종 드 쎄뀌리떼.",
+   "ko": "열흘 안에 우편으로 받으실 거예요. 비밀번호는 보안상 따로 갑니다.",
+   "note": "je reçois → vous recevrez(단순미래) · courrier = 우편 · séparément = 따로",
+   "tags": [],
+   "new": [
+    "courrier",
+    "séparément",
+    "sécurité"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "recevrez",
+     "recevoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin"
+    ],
+    [
+     "jours",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "courrier",
+     "courrier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "code",
+     "code",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "raisons",
+     "raison",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "sécurité",
+     "sécurité",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "recevrez",
+     "recevoir",
+     ""
+    ],
+    [
+     "jours",
+     "jour",
+     ""
+    ],
+    [
+     "courrier",
+     "courrier",
+     ""
+    ],
+    [
+     "code",
+     "code",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ],
+    [
+     "séparément",
+     "séparément",
+     ""
+    ],
+    [
+     "raisons",
+     "raison",
+     ""
+    ],
+    [
+     "sécurité",
+     "sécurité",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Zut, la pochette ! …Ne regardez pas cette lettre, elle est personnelle !",
+   "rd": "쥐뜨, 라 뽀셰뜨! …느 르가르데 빠 쎄뜨 레트르, 엘 레 뻬르쏘넬!",
+   "ko": "아 이런, 서류철! …그 편지는 보지 마세요, 개인적인 거예요!",
+   "note": "서류가 바닥에 쏟아진다",
+   "tags": [
+    "expr:zut"
+   ],
+   "new": [
+    "personnel"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Zut, la pochette !"
+    ],
+    [
+     "shout",
+     "…Ne regardez pas cette lettre, elle est personnelle !"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "pochette",
+     "pochette",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "regardez",
+     "regarder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "lettre",
+     "lettre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "personnelle",
+     "personnel",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pochette",
+     "pochette",
+     ""
+    ],
+    [
+     "Ne",
+     "ne",
+     ""
+    ],
+    [
+     "regardez",
+     "regarder",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "lettre",
+     "lettre",
+     ""
+    ],
+    [
+     "personnelle",
+     "personnel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "fr": "Trop tard, j'ai regardé. C'est notre logo. Vous êtes à découvert depuis deux mois, monsieur.",
+   "rd": "트로 따르, 제 르가르데. 쎄 노트르 로고. 부 제뜨 아 데꾸베르 드쀠 되 무아, 므씨외.",
+   "ko": "늦었어요, 봤어요. 저희 은행 로고네요. 두 달째 마이너스 통장이시네요.",
+   "note": "ne regardez pas → j'ai regardé · être à découvert = 잔고가 마이너스다",
+   "tags": [],
+   "new": [
+    "découvert"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "regardé",
+     "regarder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "notre",
+     "notre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "logo",
+     "logo",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "êtes",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "découvert",
+     "découvrir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "tard",
+     "tard",
+     ""
+    ],
+    [
+     "regardé",
+     "regarder",
+     ""
+    ],
+    [
+     "logo",
+     "logo",
+     ""
+    ],
+    [
+     "découvert",
+     "découvrir",
+     ""
+    ],
+    [
+     "mois",
+     "mois",
+     ""
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Théo… c'est pour ça que tu veux que je paie le loyer en avance ?",
+   "rd": "떼오… 쎄 뿌르 싸 끄 뛰 브 끄 쥬 뻬 르 루아예 앙 나방쓰?",
+   "ko": "테오… 그래서 나더러 월세를 미리 내라고 한 거야?",
+   "note": "vouloir que + 접속법(paie) · 8번 payer → je paie · en avance = 미리",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "que",
+     "que",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "tu",
+     "tu",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "veux",
+     "veux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "paie",
+     "payer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "loyer",
+     "loyer",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "avance",
+     "avance",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "paie",
+     "payer",
+     ""
+    ],
+    [
+     "loyer",
+     "loyer",
+     ""
+    ],
+    [
+     "avance",
+     "avance",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "fr": "C'est temporaire ! J'attends un remboursement de la mutuelle, je te jure.",
+   "rd": "쎄 땅뽀레르! 쟈땅 앙 랑부르쓰망 들 라 뮈뛰엘, 쥬 뜨 쥐르.",
+   "ko": "잠깐 그런 거야! 보험 환급 기다리는 중이라니까, 진짜야.",
+   "note": "remboursement = 환급 · mutuelle = 민간 건강보험",
+   "tags": [
+    "expr:je te jure"
+   ],
+   "new": [
+    "temporaire",
+    "remboursement",
+    "mutuelle"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "temporaire",
+     "temporaire",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "attends",
+     "attendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "remboursement",
+     "remboursement",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "mutuelle",
+     "mutuelle",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "jure",
+     "jurer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "temporaire",
+     "temporaire",
+     ""
+    ],
+    [
+     "attends",
+     "attendre",
+     ""
+    ],
+    [
+     "remboursement",
+     "remboursement",
+     ""
+    ],
+    [
+     "mutuelle",
+     "mutuelle",
+     ""
+    ],
+    [
+     "jure",
+     "jurer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "fr": "Bon. J'ouvre votre compte ce soir. Et vous, monsieur, on prend rendez-vous jeudi ?",
+   "rd": "봉. 쥬브르 보트르 꽁뜨 쓰 수아르. 에 부, 므씨외, 옹 프랑 랑데부 쥬디?",
+   "ko": "자. 계좌는 오늘 저녁에 열어 드릴게요. 그리고 선생님은, 목요일에 상담 잡을까요?",
+   "note": "ouvrir un compte(1번) → j'ouvre · prendre rendez-vous = 약속(상담)을 잡다",
+   "tags": [],
+   "new": [
+    "rendez-vous"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Bon. J'ouvre votre compte ce soir."
+    ],
+    [
+     "teasing",
+     "Et vous, monsieur, on prend rendez-vous jeudi ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ouvre",
+     "ouvrir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "compte",
+     "compte",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "prend",
+     "prendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rendez-vous",
+     "rendez-vous",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "jeudi",
+     "jeudi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "ouvre",
+     "ouvrir",
+     ""
+    ],
+    [
+     "compte",
+     "compte",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     ""
+    ],
+    [
+     "prend",
+     "prendre",
+     ""
+    ],
+    [
+     "rendez-vous",
+     "rendez-vous",
+     ""
+    ],
+    [
+     "jeudi",
+     "jeudi",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-08"
+ }
+}

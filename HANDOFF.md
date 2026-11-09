@@ -1,4 +1,4 @@
-# HANDOFF — talkverse-fr (프랑스어 앱) · 2026-11-08 세션 종료(허브 지시)
+# HANDOFF — talkverse-fr (프랑스어 앱) · 2026-11-09 세션 종료
 
 ## 상태 표
 
@@ -7,8 +7,8 @@
 | 캐릭터 시안 | **통과 2026-11-03** — `data/review/art/chars_fr_v1.jpg`, 인물표 `data/review/uxui/CHARACTERS.md` |
 | UX/UI 시안 | **통과 2026-11-03**(사용자 "좋아 폰트만 좀 바꾸자" → 더 가볍게) — 글 `data/review/uxui/sian_fr_01.md`(이 세션 작성), 그림 `sian_fr_01.jpg` |
 | 아이패드 빌드 | 커밋 `21b3e3f`(master, 푸시됨). 스크린샷 10장 넘침 0(iPad Air 11, `integration_test/dialogue_pane_test.dart`) |
-| Android | CI 빌드 12(249c5eb, 2026-11-08 알파벳과 발음) → Zealot 「프랑스어유니버스」 https://apps.talkverse.uk/DnBeJ/379 · PC 백업 `D:\OneDrive\app project\talkverse-fr\` |
-| iOS | TestFlight 업로드 성공 빌드 **2611081728**(2026-11-08, 249c5eb, `tools/ios_release.sh`). ⚠ IPA 에 Sign in with Apple 권한 아직 없음 → 사용자가 개발자 포털 App ID `com.talkverse.frenchUniverse` 에 capability 를 켠 뒤 다시 빌드 |
+| Android | CI 빌드 14(e372b73, 2026-11-09 가격 확정·통합 앱 연결점) → Zealot 「프랑스어유니버스」 https://apps.talkverse.uk/DnBeJ/418 · PC 백업 `D:\OneDrive\app project\talkverse-fr\` |
+| iOS | TestFlight 업로드 성공 빌드 **2611091216**(2026-11-09, e372b73, `tools/ios_release.sh`). ⚠ IPA 에 Sign in with Apple 권한 아직 없음 → 사용자가 개발자 포털 App ID `com.talkverse.frenchUniverse` 에 capability 를 켠 뒤 다시 빌드 |
 | 로그인·결제 | Talkverse ID(client_id `fr`, `talkverse.fr://auth`) + 평생 이용권(iOS `com.talkverse.frenchUniverse.lifetime` / Android `lang_fr`) 연동됨. **잠근 기능 없음** — 무엇을 유료로 할지 사용자 결정 대기(그 전 심사 제출 시 3.1.1 반려 위험) |
 | 단어 그림 리스트 | **푸시 완료** `talkverselab/talkversehanja` c94fcc1 — `talkverse_art/words/fr.csv`(2,500, Y 574) + `fr_food.csv`(50). 그림은 talkverse.uk 세션이 그린다 |
 | 콘텐츠 | 회화·단어·예문 새로 만들기 **금지**(사용자 지시 2026-11-02). 회화 = 옛 L1 5편×8턴 초안, 주제별 단어·표현 파일은 비움(원서 유래 제거, 이력까지 정리 2026-11-02) |
@@ -37,6 +37,11 @@
 - 어휘 기준은 세션 임시안: R1 491위 · R2 1,000위 · R3·R4 2,500위 안 위주 + 장면 단어 소수(절벽 44위로는 회화 불가) — 사용자 확인 대기.
 - 음성: `tools/tts/`(MOSS, language French, 작업 폴더 `~/tts_work/fr`, 파이썬은 mlx-whisper 있는 venv), 감정은 회화 `emotion`·`segs` → `plan_from_dialogue.py`. 4편 104줄 약 333초 R2 업로드, **D1 안 넣음**(`pack.py --no-db`). 받아쓰기 기준 미달 1조각 `r3_friends_b1` 턴4 남자판(세 번 재생성, 사용자 귀로 확인). 참고 음성 잡음·음색 검사와 조각 잡음·속도 측정은 아직 안 넣음.
 - 리뷰 페이지 `data/review/REVIEW_fr.html`(`tools/review_fr.sh`) → uk 게시. 이 작업 전체 미커밋.
+
+## 2026-11-09 가격·스토어·통합 앱(uk 전달, 사용자 지시)
+- 가격 확정(uk 커밋 46d31ff 확인·푸시): 상품 `lang_fr_1m·3m·1y·life`·`all_1y·all_life`, 결제 시트 정가 취소선·자동 갱신·해지·약관 링크(`lib/widgets/legal_links.dart`). 옛 평생 ID 는 복원 때 `lang_fr_life`.
+- 스토어 차별화(지침 4.3): `docs/STORE_PRODUCTS.md`(설명 첫 줄·전용 도구 4·실측 숫자·심사 메모 영문 문단·스크린샷 순서·출시 전 채울 것), `docs/store/review_notes.md` 새 상품 ID. 출시는 Talkverse 통합 앱 하나.
+- 통합 앱 연결(EMBED_GUIDE 8단계, e372b73): `lib/embed.dart`(embedInit·embedApp·switchLanguage), `lib/core/embed_env.dart`(embedded·assetPath `packages/french_universe/`·dataDir `fr/`), `lib/core/prefs.dart`(설정 키 `fr_` 접두, 단독 앱 옛 키 1회 이전), 계정 client_id 통합 앱이면 `talkverse`·로그아웃은 tv_* 만, 결제 `Purchase.ownStream`·`onPurchaseUpdates`, 설정 맨 위 「다른 언어 배우기」. 패키지 `french_universe`, 콜백 `talkverse.fr://auth`. drift 2.34.4·drift_flutter 0.3.1·sqlite3_flutter_libs 0.6.0+eol. DB 이름 `french_universe` 는 그대로(언어마다 다름). 통합 앱 자체는 uk 담당.
 
 ## 2026-11-08 마지막 상태(세션 종료 — 다음 세션은 여기부터)
 - **알파벳과 발음 메뉴**(공통 프롬프터 §5-3): 홈 「기초」 첫 줄. `lib/screens/alphabet_chart_screen.dart`·`lib/widgets/fr_sound_sheet.dart`·`lib/services/fr_phonetics.dart`(알파벳 26·모음 13·비모음 6·자음 11·연음 8), 조음 그림 `assets/images/ipa/places_of_articulation.png` = **임시(출처 표기 없음, 출시 전 Grok 그림으로 교체 — 사용자 지시)**. 위젯 테스트 `test/alphabet_chart_test.dart`. 시뮬레이터 실화면은 아직(아래).

@@ -267,8 +267,8 @@ class _AccountSection extends StatelessWidget {
             ],
             _SettingItem(
                 icon: Icons.workspace_premium_outlined,
-                title: ta('평생 이용권'),
-                subtitle: Entitlement.premium ? ta('보유 중 — 감사합니다') : ta('한 번 결제로 앞으로의 유료 과정까지'),
+                title: tr('이용권'),
+                subtitle: Entitlement.premium ? ta('보유 중 — 감사합니다') : tr('1개월 · 3개월 · 1년 · 평생'),
                 onTap: () => Entitlement.showPaywall(context)),
             _SettingItem(
                 icon: Icons.restore,
@@ -277,7 +277,7 @@ class _AccountSection extends StatelessWidget {
                   'pending' => ta('확인 중…'),
                   'restored' => ta('복원했습니다'),
                   'nothing' => ta('복원할 구매가 없습니다'),
-                  _ => ta('이전에 산 평생 이용권을 이 기기에서 다시 엽니다'),
+                  _ => tr('이전에 산 이용권을 이 기기에서 다시 엽니다'),
                 },
                 onTap: Purchase.restore),
           ]),

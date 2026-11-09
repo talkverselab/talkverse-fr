@@ -50,6 +50,7 @@ def check(path):
         for k in ('rd', 'rd_f'):
             if k in t and not RD_OK.match(EMOJI.sub('', t[k])): e.append(f"턴{i} {k} 글자: {''.join(sorted(set(re.sub(RD_OK.pattern[2:-2], '', EMOJI.sub('', t[k])))))}")
         if ('fr_f' in t) != ('rd_f' in t): e.append(f'턴{i} fr_f·rd_f 짝')
+        if not t.get('emotion') and not t.get('segs'): e.append(f'턴{i} 감정 열 없음(emotion 또는 segs — 음성용, 줄마다)')
         for em in ([t['emotion']] if 'emotion' in t else []) + [x[0] for x in t.get('segs', [])]:
             if em not in EMOS: e.append(f'턴{i} 감정 {em}')
         if kind == 'chat' and t.get('ui') != 'bubble': e.append(f'턴{i} 채팅 ui')

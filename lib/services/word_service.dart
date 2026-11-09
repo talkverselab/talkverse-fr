@@ -1,5 +1,6 @@
 import 'package:csv/csv.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import '../core/embed_env.dart';
 
 /// 레마 단어장 — 자국 작품 자막 레마 순위 2,500(`assets/data/vocab/lemmas_fr.csv`, talkversehanja `talkverse_art/words/fr.csv` 와 같은 파일).
 /// 문장 레마 칩(일본어앱 `WordService.byLemmas`)이 쓴다. 열: rank,word,reading,ko,en,pos,level,picturable.
@@ -22,7 +23,7 @@ class WordService {
 
   Future<void> _load() async {
     try {
-      final raw = await rootBundle.loadString('assets/data/vocab/lemmas_fr.csv');
+      final raw = await rootBundle.loadString(assetPath('assets/data/vocab/lemmas_fr.csv'));
       final rows = const CsvToListConverter(eol: '\n', shouldParseNumbers: false).convert(raw);
       for (var i = 1; i < rows.length; i++) {
         final r = rows[i];

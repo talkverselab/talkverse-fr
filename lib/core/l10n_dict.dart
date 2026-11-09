@@ -4,6 +4,8 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kDictEn = {
+  '다른 언어 배우기': 'Learn another language',
+  'Talkverse 언어 목록으로': 'Talkverse language list',
   // 이용권·결제(2026-11-09 가격 확정)
   '1개월': '1 month',
   '1개월 · 3개월 · 1년 · 평생': '1 month · 3 months · 1 year · lifetime',
@@ -205,6 +207,8 @@ const Map<String, String> kDictEn = {
 };
 
 const Map<String, String> kDictJa = {
+  '다른 언어 배우기': 'ほかの言語を学ぶ',
+  'Talkverse 언어 목록으로': 'Talkverse の言語一覧へ',
   // 이용권·결제(2026-11-09 가격 확정)
   '1개월': '1か月',
   '1개월 · 3개월 · 1년 · 평생': '1か月・3か月・1年・永久',
@@ -395,6 +399,8 @@ const Map<String, String> kDictJa = {
 };
 
 const Map<String, String> kDictZh = {
+  '다른 언어 배우기': '学习其他语言',
+  'Talkverse 언어 목록으로': '前往 Talkverse 语言列表',
   // 이용권·결제(2026-11-09 가격 확정)
   '1개월': '1个月',
   '1개월 · 3개월 · 1년 · 평생': '1个月 · 3个月 · 1年 · 终身',

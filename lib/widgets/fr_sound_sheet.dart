@@ -7,6 +7,7 @@ import '../core/platform.dart';
 import '../core/theme.dart';
 import '../services/fr_phonetics.dart';
 import '../services/tts_service.dart';
+import '../core/embed_env.dart';
 
 /// 글자 탭 → 발음 상세 시트(일본어앱 kana_sound_sheet 와 같은 틀).
 /// 열리면 1초 뒤 자동 재생, IPA·소리 내는 법·조음 위치 그림·모음 위치(프랑스어 vs 한국어)·한국어 화자 비교·다시 듣기.
@@ -116,7 +117,7 @@ class _SheetState extends State<_Sheet> {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(8),
                   child: Container(color: Colors.white, padding: const EdgeInsets.all(8),
-                      child: Image.asset('assets/images/ipa/places_of_articulation.png', fit: BoxFit.contain, height: 320)),
+                      child: Image.asset(assetPath('assets/images/ipa/places_of_articulation.png'), fit: BoxFit.contain, height: 320)),
                 ), // 임시 그림 — 출시 전 Grok 그림으로 교체(사용자 지시 2026-11-08, 출처 표기 없음)
               ],
             ],

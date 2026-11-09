@@ -8,6 +8,7 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_web_auth_2/flutter_web_auth_2.dart';
 import 'package:http/http.dart' as http;
 import 'package:sign_in_with_apple/sign_in_with_apple.dart';
+import '../core/embed_env.dart';
 
 /// Talkverse ID — 언어앱·talkverse.uk 와 같은 공용 계정(auth.talkverse.uk, 2026-11-02).
 /// 로그인은 선택: 안 해도 앱 전체가 동작한다. 로그인하면 이용권(lang = 'fr')을 서버에서 받는다.
@@ -16,7 +17,7 @@ import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 class Account {
   Account._();
   static const base = 'https://auth.talkverse.uk';
-  static const clientId = 'fr';
+  static String get clientId => embedded ? 'talkverse' : 'fr'; // 통합 앱은 공용 클라이언트(EMBED_GUIDE §4)
   static const scheme = 'talkverse.fr';
   static const _redirect = '$scheme://auth';
 
@@ -171,7 +172,9 @@ class Account {
     _access = null;
     user.value = null;
     entitlements.value = const [];
-    await _store.deleteAll();
+    for (final k in const ['tv_refresh', 'tv_user', 'tv_ent']) {
+      await _store.delete(key: k); // 우리 키만 — 통합 앱의 다른 저장값은 건드리지 않는다
+    }
   }
 
   static String get _device => 'fr ${kIsWeb ? 'web' : Platform.operatingSystem}';

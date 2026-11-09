@@ -13,6 +13,7 @@ import '../widgets/spanish_decor.dart';
 import 'sentence_flashcard_screen.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
+import '../core/embed_env.dart';
 
 /// 에피소드/다이얼로그 메타 (Learn 탭·회화 허브·홈 공용).
 class EpisodeMeta {
@@ -58,7 +59,7 @@ class EpisodeCatalog {
     if (_loaded) return;
     for (final level in levels) {
       try {
-        final raw = await rootBundle.loadString('assets/data/dialogues/$level.json');
+        final raw = await rootBundle.loadString(assetPath('assets/data/dialogues/$level.json'));
         final data = json.decode(raw) as Map<String, dynamic>;
         final units = (data['episodes'] as List?) ?? (data['dialogues'] as List?) ?? [];
         _byLevel[level] = [

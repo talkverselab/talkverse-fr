@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../core/pane.dart';
+import '../embed.dart' show switchLanguage;
 import '../services/ko_reading.dart';
 import 'about_screen.dart';
 import 'login_screen.dart';
@@ -94,6 +95,8 @@ class ProfileScreen extends StatelessWidget {
           const _AccountSection(),
           const SizedBox(height: 16),
           _SectionTitle(tr('설정')),
+          if (switchLanguage != null) // 통합 앱(Talkverse) 안에서만 — EMBED_GUIDE §6
+            Padding(padding: const EdgeInsets.only(top: 8), child: _SettingsGroup(items: [_SettingItem(icon: Icons.translate, title: tr('다른 언어 배우기'), subtitle: tr('Talkverse 언어 목록으로'), onTap: switchLanguage!)])),
           const SizedBox(height: 8),
           _SettingsGroup(items: [
             _SettingItem(

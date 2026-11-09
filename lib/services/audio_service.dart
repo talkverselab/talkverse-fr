@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import '../core/platform.dart';
+import '../core/embed_env.dart';
 
 class AudioService {
   AudioService._();
@@ -25,7 +26,7 @@ class AudioService {
       ));
     }
     try {
-      final raw = await rootBundle.loadString('assets/data/audio_manifest.json');
+      final raw = await rootBundle.loadString(assetPath('assets/data/audio_manifest.json'));
       final data = json.decode(raw) as Map<String, dynamic>;
       final words = (data['words'] as Map<String, dynamic>?) ?? {};
       _wordMap = words.map((k, v) => MapEntry(k, v.toString()));
@@ -46,6 +47,7 @@ class AudioService {
     final assetPath = path.startsWith('assets/') ? path.substring('assets/'.length) : path;
     try {
       await _player.stop();
+      _player.audioCache = AudioCache(prefix: embedded ? 'packages/french_universe/assets/' : 'assets/');
       await _player.play(AssetSource(assetPath));
       return true;
     } catch (e) {

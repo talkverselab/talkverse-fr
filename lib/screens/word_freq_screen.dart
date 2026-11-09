@@ -10,6 +10,7 @@ import '../core/theme.dart';
 import '../services/tts_service.dart';
 import '../services/word_service.dart' as ws;
 import '../widgets/word_art_thumb.dart';
+import '../core/embed_env.dart';
 
 /// 절벽 단어 — 레마 빈도 1~2,000위를 절벽구간(R1~R5)별 **20어 단원**으로, 단어는 **네모 타일**로 보여 준다(사용자 지시 2026-11-07, 일본어앱과 같은 구조).
 /// 위 버튼 「절벽구간 단어만 / 회화 단어 포함」 — 포함이면 회화에 나오지만 2,000위 밖인 단어(assets/data/freq/conv_words_fr.json)가
@@ -69,7 +70,7 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
     ]..sort((a, b) => a.rank.compareTo(b.rank));
     final conv = <_Tile>[];
     try {
-      final j = json.decode(await rootBundle.loadString('assets/data/freq/conv_words_fr.json')) as Map<String, dynamic>;
+      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/freq/conv_words_fr.json'))) as Map<String, dynamic>;
       var n = 0;
       for (final w in (j['words'] as List).cast<Map<String, dynamic>>()) {
         conv.add(_Tile(++n, w['word'] as String, (w['ko'] as String?) ?? '', 'C'));

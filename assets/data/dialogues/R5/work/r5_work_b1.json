@@ -5,7 +5,7 @@
  "kind": "long",
  "title": "요거트 견적서",
  "emoji": "💻",
- "scene": "재택근무 중 고객사와 화상 회의. 납기 협상이 막힌 순간 룸메이트 테오가 요거트를 따지러 카메라 앞에 등장하고, 협상까지 해 버린다",
+ "scene": "재택근무 중 고객사와 화상 회의. 납기 협상 중에 룸메이트 테오가 요거트를 따지러 카메라 앞에 나타난다",
  "where": "셰어하우스 방·화상 회의",
  "speakers": {
   "A": "{name}",
@@ -31,7 +31,6 @@
  "expressions": [
   "bien sûr",
   "voilà",
-  "trop",
   "pardon"
  ],
  "turns": [
@@ -983,12 +982,12 @@
   {
    "num": 11,
    "speaker": "B",
-   "fr": "Oh pardon… Bonjour, madame. Il est bien, votre tableau. Mais trois semaines, c'est trop.",
-   "rd": "오 빠르동… 봉쥬르, 마담. 일 레 비앵, 보트르 따블로. 메 트루아 쓰멘, 쎄 트로.",
-   "ko": "아 죄송해요… 안녕하세요. 표 좋네요. 근데 3주는 너무 길어요.",
-   "note": "테오가 협상에 끼어든다",
+   "fr": "Oh pardon… Bonjour, madame. Je vous laisse travailler.",
+   "rd": "오 빠르동… 봉주르, 마담. 주 부 레쓰 트라바이에.",
+   "ko": "아 죄송해요… 안녕하세요. 일 보세요.",
+   "note": "",
    "tags": [
-    "expr:trop"
+    "expr:pardon"
    ],
    "new": [],
    "segs": [
@@ -997,8 +996,30 @@
      "Oh pardon… Bonjour, madame."
     ],
     [
-     "amused",
-     "Il est bien, votre tableau. Mais trois semaines, c'est trop."
+     "shy",
+     "Je vous laisse travailler."
+    ]
+   ],
+   "lemmas": [
+    [
+     "pardon",
+     "pardon",
+     ""
+    ],
+    [
+     "madame",
+     "monsieur",
+     ""
+    ],
+    [
+     "laisse",
+     "laisse",
+     ""
+    ],
+    [
+     "travailler",
+     "travailler",
+     ""
     ]
    ],
    "morph_tags": [
@@ -1021,10 +1042,83 @@
      "Gender=Fem|Number=Sing"
     ],
     [
-     "Il",
-     "il",
+     "Je",
+     "je",
      "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "laisse",
+     "laisse",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "travailler",
+     "travailler",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "C'est pas grave, ça arrive. Chez moi, c'est le chat qui marche sur le clavier.",
+   "rd": "쎄 빠 그라브, 싸 아리브. 셰 무아, 쎄 르 샤 끼 마르슈 쒸르 르 끌라비에.",
+   "ko": "괜찮아요, 그럴 수 있죠. 저희 집은 고양이가 키보드 위를 걸어 다녀요.",
+   "note": "c'est pas grave = 괜찮아요",
+   "tags": [],
+   "new": [
+    "grave",
+    "chat",
+    "clavier"
+   ],
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ],
+    [
+     "chat",
+     "chat",
+     ""
+    ],
+    [
+     "marche",
+     "marche",
+     ""
+    ],
+    [
+     "clavier",
+     "clavier",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
     ],
     [
      "est",
@@ -1033,22 +1127,28 @@
      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "votre",
-     "votre",
-     "DET",
-     "Number=Sing|Poss=Yes"
+     "grave",
+     "grave",
+     "ADJ",
+     "Number=Sing"
     ],
     [
-     "tableau",
-     "tableau",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
     ],
     [
-     "semaines",
-     "semaine",
-     "NOUN",
-     "Gender=Fem|Number=Plur"
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
     ],
     [
      "c'",
@@ -1061,27 +1161,80 @@
      "être",
      "AUX",
      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chat",
+     "chat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "marche",
+     "marche",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "clavier",
+     "clavier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "D",
+   "fr": "Bon, revenons au devis. Deux semaines, sans augmentation. Je vous envoie le nouveau devis ce soir.",
+   "rd": "봉, 르브농 오 드비. 되 스맨, 쌍 조그망따씨옹. 주 부 장부아 르 누보 드비 쓰 수아르.",
+   "ko": "자, 견적 얘기로 돌아가죠. 2주, 인상 없이. 새 견적서는 오늘 저녁에 보내 드리겠습니다.",
+   "note": "",
+   "tags": [],
+   "new": [
+    "augmentation"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Bon, revenons au devis."
+    ],
+    [
+     "stiff",
+     "Deux semaines, sans augmentation. Je vous envoie le nouveau devis ce soir."
     ]
    ],
    "lemmas": [
     [
-     "pardon",
-     "pardon",
+     "Bon",
+     "bon",
      ""
     ],
     [
-     "madame",
-     "monsieur",
+     "revenons",
+     "revenon",
      ""
     ],
     [
-     "bien",
-     "bien",
-     ""
-    ],
-    [
-     "tableau",
-     "tableau",
+     "devis",
+     "devis",
      ""
     ],
     [
@@ -1090,108 +1243,24 @@
      ""
     ],
     [
-     "trop",
-     "trop",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 12,
-   "speaker": "C",
-   "fr": "Il a raison. Votre colocataire négocie mieux que vous.",
-   "rd": "일 라 레종. 보트르 꼴로까떼르 네고씨 미외 끄 부.",
-   "ko": "저분 말이 맞아요. 룸메이트분이 두 분보다 협상을 잘하시네요.",
-   "note": "avoir raison = 말이 맞다",
-   "tags": [],
-   "new": [],
-   "emotion": "amused",
-   "morph_tags": [
-    [
-     "Il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "a",
-     "avoir",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "raison",
-     "raison",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "Votre",
-     "votre",
-     "DET",
-     "Number=Sing|Poss=Yes"
-    ],
-    [
-     "colocataire",
-     "colocataire",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "négocie",
-     "négocier",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "vous",
-     "vous",
-     "PRON",
-     "Number=Plur|Person=2"
-    ]
-   ],
-   "lemmas": [
-    [
-     "raison",
-     "raison",
+     "augmentation",
+     "augmentation",
      ""
     ],
     [
-     "colocataire",
-     "colocataire",
+     "envoie",
+     "envoyer",
      ""
     ],
     [
-     "négocie",
-     "négocier",
+     "nouveau",
+     "nouveau",
      ""
     ],
     [
-     "mieux",
-     "mieux",
+     "soir",
+     "soir",
      ""
-    ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "D",
-   "fr": "Bon… Dix jours, sans augmentation. Je vous envoie le nouveau devis ce soir.",
-   "rd": "봉… 디 쥬르, 쌍 조그망따씨옹. 쥬 부 장부아 르 누보 드비 쓰 수아르.",
-   "ko": "음… 열흘, 인상 없이 하죠. 새 견적서는 오늘 저녁에 보내 드리겠습니다.",
-   "note": "augmentation = 인상",
-   "tags": [],
-   "new": [
-    "augmentation"
-   ],
-   "segs": [
-    [
-     "sad",
-     "Bon…"
-    ],
-    [
-     "stiff",
-     "Dix jours, sans augmentation. Je vous envoie le nouveau devis ce soir."
     ]
    ],
    "morph_tags": [
@@ -1202,10 +1271,22 @@
      "Gender=Masc|Number=Sing"
     ],
     [
-     "jours",
-     "jour",
+     "revenons",
+     "revenon",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "devis",
+     "devis",
      "NOUN",
      "Gender=Masc|Number=Plur"
+    ],
+    [
+     "semaines",
+     "semaine",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
     ],
     [
      "augmentation",
@@ -1261,56 +1342,82 @@
      "NOUN",
      "Gender=Masc|Number=Sing"
     ]
-   ],
-   "lemmas": [
-    [
-     "Bon",
-     "bon",
-     ""
-    ],
-    [
-     "jours",
-     "jour",
-     ""
-    ],
-    [
-     "augmentation",
-     "augmentation",
-     ""
-    ],
-    [
-     "envoie",
-     "envoyer",
-     ""
-    ],
-    [
-     "nouveau",
-     "nouveau",
-     ""
-    ],
-    [
-     "devis",
-     "devis",
-     ""
-    ],
-    [
-     "soir",
-     "soir",
-     ""
-    ]
    ]
   },
   {
    "num": 14,
-   "speaker": "B",
-   "fr": "Et pour le yaourt, je t'envoie mon devis aussi. Deux euros, livraison comprise.",
-   "rd": "에 뿌르 르 야우르뜨, 쥬 땅부아 몽 드비 오씨. 되 죄로, 리브레종 꽁프리즈.",
-   "ko": "그리고 요거트는, 나도 견적서 보낼게. 2유로, 배달 포함.",
-   "note": "회의 어휘로 받아치는 킥",
+   "speaker": "C",
+   "fr": "Deux semaines, ça me va. Et bon courage pour le yaourt !",
+   "rd": "되 스맨, 싸 므 바. 에 봉 꾸라쥬 뿌르 르 야우르뜨!",
+   "ko": "2주면 좋아요. 그리고 요거트 건은 힘내세요!",
+   "note": "",
    "tags": [],
    "new": [],
-   "emotion": "teasing",
+   "emotion": "amused",
+   "lemmas": [
+    [
+     "semaines",
+     "semaine",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "courage",
+     "courage",
+     ""
+    ],
+    [
+     "yaourt",
+     "yaourt",
+     ""
+    ]
+   ],
    "morph_tags": [
+    [
+     "semaines",
+     "semaine",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "courage",
+     "courage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
     [
      "le",
      "le",
@@ -1322,91 +1429,6 @@
      "yaourt",
      "NOUN",
      "Gender=Masc|Number=Sing"
-    ],
-    [
-     "je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "t'",
-     "te",
-     "PRON",
-     "Number=Sing|Person=1|Reflex=Yes"
-    ],
-    [
-     "envoie",
-     "envoyer",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "mon",
-     "mon",
-     "DET",
-     "Number=Sing|Poss=Yes"
-    ],
-    [
-     "devis",
-     "devis",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "euros",
-     "euro",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
-    ],
-    [
-     "livraison",
-     "livraison",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "comprise",
-     "comprise",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "yaourt",
-     "yaourt",
-     ""
-    ],
-    [
-     "envoie",
-     "envoyer",
-     ""
-    ],
-    [
-     "devis",
-     "devis",
-     ""
-    ],
-    [
-     "aussi",
-     "aussi",
-     ""
-    ],
-    [
-     "euros",
-     "euro",
-     ""
-    ],
-    [
-     "livraison",
-     "livraison",
-     ""
-    ],
-    [
-     "comprise",
-     "comprise",
-     ""
     ]
    ]
   }

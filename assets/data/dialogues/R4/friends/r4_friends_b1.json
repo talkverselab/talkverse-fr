@@ -5,7 +5,7 @@
  "kind": "long",
  "title": "내 램프를 사다",
  "emoji": "🛋️",
- "scene": "토요일 벼룩시장. 카미유가 꿈꾸던 램프를 찾아 A 가 대신 흥정한다. 상인이 램프를 어디서 샀는지 말하는 순간, 그게 A 의 램프였다는 게 드러난다",
+ "scene": "토요일 벼룩시장. 카미유가 꿈꾸던 램프를 찾아 A 가 대신 흥정해 30유로로 깎는다 — 그런데 램프 밑 가격표는 25유로였다",
  "where": "벼룩시장",
  "speakers": {
   "A": "{name}",
@@ -16,7 +16,7 @@
   "C": "man_o"
  },
  "register": "mixed",
- "twist": 10,
+ "twist": 11,
  "twist_type": "reveal",
  "flags": [],
  "purpose": [
@@ -31,7 +31,6 @@
   "franchement",
   "trop",
   "attends",
-  "ouais",
   "t'inquiète"
  ],
  "turns": [
@@ -1061,16 +1060,57 @@
   {
    "num": 10,
    "speaker": "C",
-   "fr": "D'accord, trente. Moi, je l'ai payée dix, rue des Lilas. Un grand blond à vélo.",
-   "rd": "다꼬르, 트랑뜨. 무아, 쥬 레 뻬예 디쓰, 뤼 데 릴라. 앙 그랑 블롱 아 벨로.",
-   "ko": "좋아요, 30. 저는 릴라 거리에서 10유로 주고 샀어요. 자전거 탄 키 큰 금발 청년한테서.",
-   "note": "l'ai payée = lampe(여성)에 과거분사 일치 · 8번 payer → payée",
+   "fr": "Bon… D'accord, trente. C'est bien parce que c'est vous.",
+   "rd": "봉… 다꼬르, 트랑뜨. 쎄 비앵 빠르스 끄 쎄 부.",
+   "ko": "음… 좋아요, 30. 손님이니까 해 드리는 거예요.",
+   "note": "c'est bien parce que c'est vous = 당신이니까 특별히",
    "tags": [],
-   "new": [
-    "blond"
+   "new": [],
+   "segs": [
+    [
+     "sad",
+     "Bon…"
+    ],
+    [
+     "polite",
+     "D'accord, trente. C'est bien parce que c'est vous."
+    ]
    ],
-   "emotion": "amused",
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "trente",
+     "trente",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ],
    "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
     [
      "accord",
      "accord",
@@ -1084,344 +1124,184 @@
      "Gender=Fem|Number=Sing"
     ],
     [
-     "je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "l'",
-     "le",
+     "C'",
+     "ce",
      "PRON",
      "Number=Sing|Person=3"
     ],
     [
-     "ai",
-     "avoir",
+     "est",
+     "être",
      "AUX",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "payée",
-     "payer",
-     "VERB",
-     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
     ],
     [
-     "rue",
-     "rue",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "Un",
-     "un",
-     "DET",
-     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "grand",
-     "grand",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "blond",
-     "blond",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "vélo",
-     "vélo",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "accord",
-     "accord",
-     ""
-    ],
-    [
-     "trente",
-     "trente",
-     ""
-    ],
-    [
-     "payée",
-     "payer",
-     ""
-    ],
-    [
-     "rue",
-     "rue",
-     ""
-    ],
-    [
-     "grand",
-     "grand",
-     ""
-    ],
-    [
-     "blond",
-     "blond",
-     ""
-    ],
-    [
-     "vélo",
-     "vélo",
-     ""
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
     ]
    ]
   },
   {
    "num": 11,
-   "speaker": "A",
-   "fr": "Rue des Lilas… c'est chez moi. Théo a vendu ma lampe ?!",
-   "rd": "뤼 데 릴라… 쎄 셰 무아. 떼오 아 방뒤 마 랑쁘?!",
-   "ko": "릴라 거리… 우리 집이잖아. 테오가 내 램프를 팔았다고?!",
-   "note": "룸메이트 테오의 짓",
-   "tags": [],
+   "speaker": "B",
+   "fr": "Merci ! …Attends. Il y a une étiquette dessous. Vingt-cinq euros.",
+   "rd": "메르씨! …아땅. 일 리 아 윈 에띠께뜨 드쑤. 뱅뜨쌩끄 외로.",
+   "ko": "고맙습니다! …잠깐. 밑에 가격표가 있어. 25유로.",
+   "note": "",
+   "tags": [
+    "expr:attends"
+   ],
    "new": [
-    "vendre"
+    "étiquette",
+    "dessous"
    ],
    "segs": [
     [
-     "worried",
-     "Rue des Lilas… c'est chez moi."
+     "excited",
+     "Merci !"
     ],
     [
-     "shout",
-     "Théo a vendu ma lampe ?!"
+     "surprised",
+     "…Attends. Il y a une étiquette dessous. Vingt-cinq euros."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "étiquette",
+     "étiquette",
+     ""
+    ],
+    [
+     "dessous",
+     "dessous",
+     ""
+    ],
+    [
+     "euros",
+     "euro",
+     ""
     ]
    ],
    "morph_tags": [
     [
-     "Rue",
-     "rue",
+     "Merci",
+     "merci",
      "NOUN",
      "Gender=Masc|Number=Sing"
     ],
     [
      "…",
      "…",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "Attends",
+     "attend",
      "NOUN",
      "Gender=Masc|Number=Plur"
     ],
     [
-     "c'",
-     "ce",
+     "Il",
+     "il",
      "PRON",
      "Number=Sing|Person=3"
     ],
     [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "moi",
-     "moi",
+     "y",
+     "y",
      "PRON",
-     "Number=Sing|Person=1|PronType=Prs"
+     "Person=3"
     ],
     [
      "a",
      "avoir",
-     "AUX",
+     "VERB",
      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "vendu",
-     "vendre",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "ma",
-     "mon",
+     "une",
+     "un",
      "DET",
-     "Gender=Fem|Number=Sing|Poss=Yes"
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
     ],
     [
-     "lampe",
-     "lampe",
+     "étiquette",
+     "étiquette",
      "NOUN",
      "Gender=Fem|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Rue",
-     "rue",
-     ""
     ],
     [
-     "vendu",
-     "vendre",
-     ""
+     "dessous",
+     "dessous",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
     ],
     [
-     "lampe",
-     "lampe",
-     ""
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
     ]
    ]
   },
   {
    "num": 12,
-   "speaker": "B",
-   "fr": "Attends, c'est ta lampe qu'il a vendue ? Celle dont tu m'as dit qu'elle était moche ?",
-   "rd": "아땅, 쎄 따 랑쁘 낄 라 방뒤? 쎌 동 뛰 마 디 껠 레떼 모슈?",
-   "ko": "잠깐, 테오가 판 게 네 램프야? 네가 못생겼다고 했던 그거?",
-   "note": "qu'il a vendue = 앞의 lampe(여성)에 과거분사 일치(11번 a vendu ma lampe 와 대비) · 6번 je dirais → tu m'as dit · moche = 못생긴",
+   "speaker": "A",
+   "fr": "Vingt-cinq ?! Si j'avais vu l'étiquette, j'aurais commencé à vingt !",
+   "rd": "뱅뜨쌩끄?! 씨 자베 뷔 레띠께뜨, 조레 꼬망쎄 아 뱅!",
+   "ko": "25?! 가격표 봤으면 20부터 불렀지!",
+   "note": "si + 대과거 → 조건법 과거",
    "tags": [
-    "expr:attends",
-    "form:relatif"
+    "form:conditionnel passé"
    ],
-   "new": [
-    "moche"
-   ],
-   "emotion": "surprised",
-   "morph_tags": [
+   "new": [],
+   "segs": [
     [
-     "c'",
-     "ce",
-     "PRON",
-     "Number=Sing|Person=3"
+     "surprised",
+     "Vingt-cinq ?!"
     ],
     [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "ta",
-     "ton",
-     "PRON",
-     "Number=Sing|Person=1|Reflex=Yes"
-    ],
-    [
-     "lampe",
-     "lampe",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "qu'",
-     "que",
-     "PRON",
-     "PronType=Rel"
-    ],
-    [
-     "il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "a",
-     "avoir",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "vendue",
-     "vendre",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "Celle",
-     "celui",
-     "PRON",
-     "Gender=Fem|Number=Sing|PronType=Dem"
-    ],
-    [
-     "dont",
-     "dont",
-     "PRON",
-     "PronType=Rel"
-    ],
-    [
-     "m'",
-     "me",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "as",
-     "avoir",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "dit",
-     "dire",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "elle",
-     "lui",
-     "PRON",
-     "Gender=Fem|Number=Sing|Person=3"
-    ],
-    [
-     "était",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
-    ],
-    [
-     "moche",
-     "moche",
-     "VERB",
-     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+     "tsukkomi",
+     "Si j'avais vu l'étiquette, j'aurais commencé à vingt !"
     ]
    ],
    "lemmas": [
     [
-     "lampe",
-     "lampe",
+     "vu",
+     "voir",
      ""
     ],
     [
-     "vendue",
-     "vendre",
+     "étiquette",
+     "étiquette",
      ""
     ],
     [
-     "dit",
-     "dire",
-     ""
-    ],
-    [
-     "moche",
-     "moche",
+     "commencé",
+     "commencer",
      ""
     ]
-   ]
-  },
-  {
-   "num": 13,
-   "speaker": "A",
-   "fr": "Ouais… Si j'avais su, je l'aurais jamais laissée dans le couloir.",
-   "rd": "웨… 씨 쟈베 쒸, 쥬 로레 쟈메 레쎄 당 르 꿀루아르.",
-   "ko": "응… 알았으면 복도에 절대 안 내놨지.",
-   "note": "si + 대과거, 조건법 과거 = …했더라면 …했을 텐데",
-   "tags": [
-    "expr:ouais",
-    "form:conditionnel passé"
    ],
-   "new": [
-    "couloir"
-   ],
-   "emotion": "sad",
    "morph_tags": [
     [
      "j'",
@@ -1433,89 +1313,201 @@
      "avais",
      "avoir",
      "VERB",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+     "Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin"
     ],
     [
-     "su",
-     "savoir",
+     "vu",
+     "voir",
      "VERB",
      "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
     ],
     [
-     "je",
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "étiquette",
+     "étiquette",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "j'",
      "je",
      "PRON",
      "Number=Sing|Person=1"
     ],
     [
-     "l'",
-     "le",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
      "aurais",
      "avoir",
-     "AUX",
-     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "laissée",
-     "laisser",
      "VERB",
-     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+     "Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin"
     ],
     [
-     "le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+     "commencé",
+     "commencer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "fr": "Ah… c'est l'ancien prix. Bon, vingt-cinq. Vous négociez bien, vous.",
+   "rd": "아… 쎄 랑씨앵 프리. 봉, 뱅뜨쌩끄. 부 네고씨에 비앵, 부.",
+   "ko": "아… 그건 옛날 가격인데. 뭐, 25. 흥정 잘하시네요.",
+   "note": "",
+   "tags": [],
+   "new": [
+    "ancien"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Ah… c'est l'ancien prix."
     ],
     [
-     "couloir",
-     "couloir",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
+     "amused",
+     "Bon, vingt-cinq. Vous négociez bien, vous."
     ]
    ],
    "lemmas": [
     [
-     "su",
-     "savoir",
+     "ancien",
+     "ancien",
      ""
     ],
     [
-     "jamais",
-     "jamais",
+     "prix",
+     "prix",
      ""
     ],
     [
-     "laissée",
-     "laisser",
+     "Bon",
+     "bon",
      ""
     ],
     [
-     "couloir",
-     "couloir",
+     "négociez",
+     "négocier",
      ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "ancien",
+     "ancien",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "prix",
+     "prix",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "négociez",
+     "négocier",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
     ]
    ]
   },
   {
    "num": 14,
    "speaker": "B",
-   "fr": "T'inquiète. Je te la prête quand tu veux… le dimanche, par exemple.",
-   "rd": "땡끼에뜨. 쥬 뜨 라 프레뜨 깡 뛰 브… 르 디망슈, 빠르 에그장쁠.",
-   "ko": "걱정 마. 언제든 빌려줄게… 일요일에만, 예를 들면.",
-   "note": "te la = 그걸 너에게 · prêter = 빌려주다",
+   "fr": "T'inquiète, je te paie un café avec les cinq euros. Et la lampe, je te la prête.",
+   "rd": "땡끼에뜨, 주 뜨 뻬 앙 까페 아베끄 레 쌩 외로. 에 라 랑쁘, 주 뜨 라 프레뜨.",
+   "ko": "걱정 마, 5유로로 커피 살게. 그리고 램프는 빌려줄게.",
+   "note": "te la = 너에게 그것을",
    "tags": [
     "expr:t'inquiète",
     "form:pronoms"
    ],
-   "new": [
-    "prêter"
-   ],
+   "new": [],
    "emotion": "teasing",
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "paie",
+     "payer",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ],
+    [
+     "euros",
+     "euro",
+     ""
+    ],
+    [
+     "lampe",
+     "lampe",
+     ""
+    ],
+    [
+     "prête",
+     "prête",
+     ""
+    ]
+   ],
    "morph_tags": [
     [
      "inquiète",
@@ -1524,7 +1516,61 @@
      "Gender=Fem|Number=Sing"
     ],
     [
-     "Je",
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "paie",
+     "payer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "lampe",
+     "lampe",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
      "je",
      "PRON",
      "Number=Sing|Person=1"
@@ -1546,68 +1592,6 @@
      "prête",
      "NOUN",
      "Gender=Fem|Number=Sing"
-    ],
-    [
-     "tu",
-     "tu",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "veux",
-     "veu",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "dimanche",
-     "dimanche",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "exemple",
-     "exemple",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "T'",
-     "te",
-     ""
-    ],
-    [
-     "inquiète",
-     "inquiet",
-     ""
-    ],
-    [
-     "prête",
-     "prête",
-     ""
-    ],
-    [
-     "veux",
-     "vouloir",
-     ""
-    ],
-    [
-     "dimanche",
-     "dimanche",
-     ""
-    ],
-    [
-     "exemple",
-     "exemple",
-     ""
     ]
    ]
   }

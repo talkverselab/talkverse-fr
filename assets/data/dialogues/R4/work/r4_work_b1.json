@@ -5,7 +5,7 @@
  "kind": "long",
  "title": "소스가 짜요",
  "emoji": "🍲",
- "scene": "비스트로 주방 면접. 셰프가 맛보라고 준 소스를 솔직하게 평했더니 셰프가 직접 만든 소스. 그때 냉장고가 고장 나고, 거기서 일하던 위고가 뛰어든다",
+ "scene": "비스트로 주방 면접. 셰프가 맛보라고 준 소스를 솔직하게 평했더니 셰프가 직접 만든 소스 — 그런데 소금을 더 넣은 건 거기서 일하는 친구 위고였다",
  "where": "비스트로 주방",
  "speakers": {
   "A": "{name}",
@@ -17,7 +17,7 @@
  },
  "register": "mixed",
  "twist": 10,
- "twist_type": "chaos",
+ "twist_type": "reveal",
  "flags": [],
  "purpose": [
   "work_france"
@@ -25,7 +25,7 @@
  "domain": [
   "work"
  ],
- "goal": "면접 vous → 채용 뒤 on se tutoie(tu) 전환 · 접속법(il faudrait que vous soyez · avant qu'on aille · je voudrais que vous goûtiez · bien que ça fasse) · y·en·me le·te la · 조건법 과거(j'aurais été · on aurait jeté)",
+ "goal": "면접 vous → 채용 뒤 on se tutoie(tu) 전환 · 접속법(il faudrait que vous soyez · avant qu'on aille · je voudrais que vous goûtiez · bien que ça fasse) · y·en·me le·te la · 조건법 과거(j'aurais été · on l'aurait servie)",
  "expressions": [
   "pas de problème",
   "franchement",
@@ -971,106 +971,22 @@
   {
    "num": 10,
    "speaker": "B",
-   "fr": "Cheffe ! Le frigo est en panne et la salle est pleine ! Qu'est-ce qu'on fait ?",
-   "rd": "셰프! 르 프리고 에 땅 빤 에 라 쌀 레 쁠렌! 께쓰 꽁 페?",
-   "ko": "셰프! 냉장고 고장 났어요, 홀은 꽉 찼고요! 어떡해요?",
-   "note": "frigo = 냉장고 · en panne = 고장 난 · salle = 홀",
+   "fr": "Cheffe, j'ai goûté la sauce tout à l'heure… et j'ai rajouté du sel. Pardon.",
+   "rd": "셰프, 제 구떼 라 쏘스 뚜 따 뢰르… 에 제 라주떼 뒤 쎌. 빠르동.",
+   "ko": "셰프, 아까 소스 맛봤는데요… 제가 소금 더 넣었어요. 죄송해요.",
+   "note": "tout à l'heure = 아까 · rajouter = 더 넣다",
    "tags": [],
    "new": [
-    "frigo",
-    "panne"
+    "rajouter"
    ],
-   "emotion": "shout",
-   "morph_tags": [
+   "segs": [
     [
-     "Cheffe",
-     "cheffe",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
+     "cheerful",
+     "Cheffe, j'ai goûté la sauce tout à l'heure…"
     ],
     [
-     "Le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "frigo",
-     "frigo",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "panne",
-     "pann",
-     "ADJ",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "salle",
-     "salle",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "pleine",
-     "pleine",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "Qu'",
-     "que",
-     "PRON",
-     "PronType=Int"
-    ],
-    [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "-ce",
-     "-ce",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "qu'",
-     "que",
-     "PRON",
-     "PronType=Rel"
-    ],
-    [
-     "on",
-     "on",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "fait",
-     "faire",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+     "flustered",
+     "et j'ai rajouté du sel. Pardon."
     ]
    ],
    "lemmas": [
@@ -1080,157 +996,221 @@
      ""
     ],
     [
-     "frigo",
-     "frigo",
+     "goûté",
+     "goûter",
      ""
     ],
     [
-     "panne",
-     "panne",
+     "sauce",
+     "sauce",
      ""
     ],
     [
-     "salle",
-     "salle",
+     "tout",
+     "tout",
      ""
     ],
     [
-     "pleine",
-     "pleine",
+     "heure",
+     "heure",
      ""
     ],
     [
-     "fait",
-     "faire",
+     "rajouté",
+     "rajouter",
      ""
+    ],
+    [
+     "sel",
+     "sel",
+     ""
+    ],
+    [
+     "Pardon",
+     "pardon",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Cheffe",
+     "cheffe",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "goûté",
+     "goûter",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "sauce",
+     "sauce",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "heure",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rajouté",
+     "rajouter",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "sel",
+     "sel",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
     ]
    ]
   },
   {
    "num": 11,
    "speaker": "A",
-   "fr": "Hugo ?! Bon… il y a de la glace ? Mets-en dans les bacs, vite !",
-   "rd": "위고?! 봉… 일 리 아 들 라 글라쓰? 메 장 당 레 박, 비뜨!",
-   "ko": "위고?! 자… 얼음 있어? 통에 얼음 넣어, 빨리!",
-   "note": "mets-en = 그걸(얼음) 넣어 — 친구 위고에게는 tu",
-   "tags": [
-    "form:pronoms"
-   ],
-   "new": [
-    "glace",
-    "bac"
-   ],
+   "fr": "Hugo ?! Alors c'était toi, le sel ?",
+   "rd": "위고?! 알로르 쎄떼 뚜아, 르 쎌?",
+   "ko": "위고?! 그럼 그 소금 너였어?",
+   "note": "c'était toi, le sel = 강조 구문",
+   "tags": [],
+   "new": [],
    "segs": [
     [
      "surprised",
      "Hugo ?!"
     ],
     [
-     "shout",
-     "Bon… il y a de la glace ? Mets-en dans les bacs, vite !"
-    ]
-   ],
-   "morph_tags": [
-    [
-     "Bon",
-     "bon",
-     "ADJ",
-     "Gender=Masc|NumType=Ord|Number=Sing"
-    ],
-    [
-     "il",
-     "il",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "y",
-     "y",
-     "PRON",
-     "Person=3"
-    ],
-    [
-     "a",
-     "avoir",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "glace",
-     "glace",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "Mets",
-     "mets",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
-    ],
-    [
-     "les",
-     "le",
-     "DET",
-     "Definite=Def|Number=Plur|PronType=Art"
-    ],
-    [
-     "bacs",
-     "bac",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
+     "amused",
+     "Alors c'était toi, le sel ?"
     ]
    ],
    "lemmas": [
     [
-     "Bon",
-     "bon",
+     "Alors",
+     "alors",
      ""
     ],
     [
-     "glace",
-     "glace",
+     "sel",
+     "sel",
      ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
     ],
     [
-     "Mets",
-     "mettre",
-     ""
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
     ],
     [
-     "bacs",
-     "bac",
-     ""
+     "toi",
+     "toi",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
     ],
     [
-     "vite",
-     "vite",
-     ""
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sel",
+     "sel",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
     ]
    ]
   },
   {
    "num": 12,
    "speaker": "C",
-   "fr": "Vous vous connaissez ? …Peu importe. Aidez-le, je vous regarde.",
-   "rd": "부 부 꼬네쎄? …뾔 앵뽀르뜨. 에데 르, 쥬 부 르가르드.",
-   "ko": "두 분 아는 사이예요? …상관없어요. 도와주세요, 지켜볼게요.",
-   "note": "peu importe = 상관없다",
+   "fr": "Vous vous connaissez ? …Bon. Au moins, vous avez un bon palais.",
+   "rd": "부 부 꼬네쎄? …봉. 오 무앵, 부 자베 앙 봉 빨레.",
+   "ko": "두 분 아는 사이예요? …뭐. 적어도 입맛은 정확하시네요.",
+   "note": "palais = 입천장 → 미각",
    "tags": [],
-   "new": [],
+   "new": [
+    "palais"
+   ],
    "segs": [
     [
      "surprised",
      "Vous vous connaissez ?"
     ],
     [
-     "stiff",
-     "…Peu importe. Aidez-le, je vous regarde."
+     "amused",
+     "…Bon. Au moins, vous avez un bon palais."
+    ]
+   ],
+   "lemmas": [
+    [
+     "connaissez",
+     "connaître",
+     ""
+    ],
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "moins",
+     "moins",
+     ""
+    ],
+    [
+     "palais",
+     "palais",
+     ""
     ]
    ],
    "morph_tags": [
@@ -1253,28 +1233,10 @@
      "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "importe",
-     "importer",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "Aidez",
-     "aidez",
-     "NOUN",
+     "Bon",
+     "bon",
+     "ADJ",
      "Gender=Masc|Number=Sing"
-    ],
-    [
-     "-",
-     "-",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
     ],
     [
      "vous",
@@ -1283,77 +1245,66 @@
      "Number=Plur|Person=2"
     ],
     [
-     "regarde",
-     "regarder",
+     "avez",
+     "avoir",
      "VERB",
      "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
-    ]
-   ],
-   "lemmas": [
-    [
-     "connaissez",
-     "connaître",
-     ""
     ],
     [
-     "Peu",
-     "peu",
-     ""
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
     ],
     [
-     "importe",
-     "importer",
-     ""
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
     ],
     [
-     "Aidez",
-     "aidez",
-     ""
-    ],
-    [
-     "regarde",
-     "regarder",
-     ""
+     "palais",
+     "palais",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
     ]
    ]
   },
   {
    "num": 13,
    "speaker": "B",
-   "fr": "Tout est sauvé ! Sans toi, on aurait tout jeté.",
-   "rd": "뚜 떼 쏘베! 쌍 뚜아, 옹 노레 뚜 쥬떼.",
-   "ko": "다 살렸다! 너 아니었으면 다 버렸을 거야.",
-   "note": "한 시간 뒤 · sans toi, on aurait … = 조건법 과거",
+   "fr": "Sans toi, on l'aurait servie comme ça ce soir !",
+   "rd": "쌍 뚜아, 옹 로레 쎄르비 꼼 싸 쓰 수아르!",
+   "ko": "너 아니었으면 오늘 저녁에 그대로 나갈 뻔했어!",
+   "note": "l'aurait servie = 조건법 과거, servie 는 la(소스)에 일치",
    "tags": [
-    "form:conditionnel passé"
+    "form:conditionnel passé",
+    "form:pronoms"
    ],
-   "new": [
-    "sauver",
-    "jeter"
-   ],
+   "new": [],
    "emotion": "excited",
+   "lemmas": [
+    [
+     "servie",
+     "servir",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ]
+   ],
    "morph_tags": [
     [
-     "Tout",
-     "tout",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "sauvé",
-     "sauver",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
-    ],
-    [
      "on",
      "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "l'",
+     "le",
      "PRON",
      "Number=Sing|Person=3"
     ],
@@ -1364,27 +1315,28 @@
      "Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "jeté",
-     "jeter",
+     "servie",
+     "servir",
      "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Tout",
-     "tout",
-     ""
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
     ],
     [
-     "sauvé",
-     "sauver",
-     ""
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
     ],
     [
-     "jeté",
-     "jeter",
-     ""
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
     ]
    ]
   },

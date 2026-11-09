@@ -40,6 +40,7 @@
 
 ## Grok 사용법(허브 공지 2026-11-09, `~/logs/rc/RELAY_grok_20261109.md`)
 - 한자 세션은 더 이상 대행하지 않는다 — 회화 Grok 재작성·조음 그림은 이 세션이 직접. 자기 크롬을 켜고 M4 에서 `ssh macmini4 /usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <내 크롬 포트>`, 요청 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사. uk 의 Grok 방은 건드리지 말 것.
+- **Grok 모델은 「전문가」(사용자 지시 11-09)**: 크롬을 켜면 먼저 M4 에서 `/usr/bin/python3 ~/talkverse-uk/tools/grok_mode.py <내 포트>`(확인만은 `--check`), 아니면 입력창 옆 모델 단추 → 전문가.
 - **프롬프트 최소화(사용자 지시 11-09)**: 규칙은 문서(파일)에 한 번만 쓰고, 방 첫 메시지에서 「앞으로 파일 이름 한 줄만 보낸다」고 약속한 뒤 채팅은 한 줄만. 그림이 처음과 달라지면 처음 통과한 그림을 기준으로(이미 만든 건 그대로).
 - 회화는 일상 장면 안에서 반전·러브·플러팅(원칙 §9) — 11-09 비현실 5편 고침, `docs/DIALOGUE_RULES.md` 끝. chaos 42%.
 - 회화는 줄마다 감정 열(`emotion`/`segs`) 필수 — 지금 초안 33편 313턴 전부 있음(49턴은 segs), 검사기가 빠짐을 잡는다.

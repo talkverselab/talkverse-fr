@@ -38,6 +38,9 @@
 - 음성: `tools/tts/`(MOSS, language French, 작업 폴더 `~/tts_work/fr`, 파이썬은 mlx-whisper 있는 venv), 감정은 회화 `emotion`·`segs` → `plan_from_dialogue.py`. 4편 104줄 약 333초 R2 업로드, **D1 안 넣음**(`pack.py --no-db`). 받아쓰기 기준 미달 1조각 `r3_friends_b1` 턴4 남자판(세 번 재생성, 사용자 귀로 확인). 참고 음성 잡음·음색 검사와 조각 잡음·속도 측정은 아직 안 넣음.
 - 리뷰 페이지 `data/review/REVIEW_fr.html`(`tools/review_fr.sh`) → uk 게시. 이 작업 전체 미커밋.
 
+## Grok 사용법(허브 공지 2026-11-09, `~/logs/rc/RELAY_grok_20261109.md`)
+- 한자 세션은 더 이상 대행하지 않는다 — 회화 Grok 재작성·조음 그림은 이 세션이 직접. 자기 크롬을 켜고 M4 에서 `ssh macmini4 /usr/bin/python3 ~/talkverse-uk/tools/grok_cookie_sync.py 9231 <내 크롬 포트>`, 요청 도구는 M6 `~/Hanja/tools/grok_req.py`·`grok_cdp.py` 를 복사. uk 의 Grok 방은 건드리지 말 것.
+
 ## 2026-11-09 가격·스토어·통합 앱(uk 전달, 사용자 지시)
 - 가격 확정(uk 커밋 46d31ff 확인·푸시): 상품 `lang_fr_1m·3m·1y·life`·`all_1y·all_life`, 결제 시트 정가 취소선·자동 갱신·해지·약관 링크(`lib/widgets/legal_links.dart`). 옛 평생 ID 는 복원 때 `lang_fr_life`.
 - 스토어 차별화(지침 4.3): `docs/STORE_PRODUCTS.md`(설명 첫 줄·전용 도구 4·실측 숫자·심사 메모 영문 문단·스크린샷 순서·출시 전 채울 것), `docs/store/review_notes.md` 새 상품 ID. 출시는 Talkverse 통합 앱 하나.

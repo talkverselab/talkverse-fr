@@ -1,14 +1,13 @@
 lemma,reading,count,example
-attend,,7,"Attends… tu es gare de Lyon, à Paris ?"
+attend,,9,"Attends… tu es gare de Lyon, à Paris ?"
 crêpe,,5,"{name}, tu es là ? Je fais des crêpes !"
 parapluie,,5,"Il pleut fort, hein. Tu viens sous mon parapluie ?"
 robot,,4,T'as vu le nouveau film avec le robot ?
 bel,,4,"Ouais, hier soir. Franchement, la musique est trop belle."
-as,,3,Enfin ! T'as la clé ? J'attends depuis une heure.
-colocataire,,3,…Camille. C’est Théo. Mon coloc.
+as,,4,Enfin ! T'as la clé ? J'attends depuis une heure.
+laisse,,3,Laisse tomber… c'est la clé de mon vélo. Pas de l'appart.
 week,,3,"Merci, t'es la meilleure ❤️ J'ai tout le week-end pour réviser."
 end,,3,"Merci, t'es la meilleure ❤️ J'ai tout le week-end pour réviser."
-devis,,3,Bonjour à tous. On commence ? L'ordre du jour : le devis et les délais de livraison.
 aime,,2,Ouais ! Tu aimes les chiens ?
 racont,,2,"Après quoi ? Vas-y, raconte !"
 assied,,2,"Rien. Il me parle plus depuis. Bon, assieds-toi !"
@@ -18,14 +17,16 @@ farine,,2,"Attends, t'as de la farine… là."
 prochaine,,2,"Voilà. …La prochaine, on la retourne ensemble."
 stp,,2,"Stylé. Montre une photo, stp !"
 c’,,2,…Camille. C’est Théo. Mon coloc.
-laisse,,2,Laisse tomber… c'est la clé de mon vélo. Pas de l'appart.
+colocataire,,2,…Camille. C’est Théo. Mon coloc.
 squatter,,2,"Mdr non, c'est le chat de ma voisine. Il squatte chez moi."
 reste,,2,"Le début ? Le film est fini. Mais on va en discuter, tu restes ?"
-cheffe,,2,Cheffe ! Le frigo est en panne et la salle est pleine ! Qu'est-ce qu'on fait ?
+aie,,2,"Regarde, c'est la lampe dont je t'ai parlé ! Il faut que je l'aie."
+étiquette,,2,Merci ! …Attends. Il y a une étiquette dessous. Vingt-cinq euros.
+cheffe,,2,"Cheffe, j'ai goûté la sauce tout à l'heure… et j'ai rajouté du sel. Pardon."
 bail,,2,"Pas de souci, j'ai tout. Facture d'électricité, bail… tout est dans cette pochette."
 pochette,,2,"Pas de souci, j'ai tout. Facture d'électricité, bail… tout est dans cette pochette."
 laine,,2,"Je sais jamais. Quarante degrés, c'est trop pour la laine ?"
-sèche,,2,"Normal, toi, tu me vois jamais. Je m'assois toujours derrière le sèche-linge. Avec un livre."
+devis,,2,Bonjour à tous. On commence ? L'ordre du jour : le devis et les délais de livraison.
 délai,,2,Bonjour à tous. On commence ? L'ordre du jour : le devis et les délais de livraison.
 yaourt,,2,{name} ! T'as encore mangé mon yaourt ? Il y avait mon nom dessus !
 mange,,1,…Théo ! Tu manges ma crêpe ?!
@@ -61,14 +62,13 @@ hmm,,1,"Hmm. Pas mal. Et les acteurs, tu les as trouvés comment ?"
 frisson,,1,"Géniaux. Surtout la voix de l'acteur principal, elle m'a donné des frissons."
 muet,,1,Sa voix ? {name}… c'est un film muet.
 voyiez,,1,"Il aurait fallu que vous le voyiez une troisième fois, peut-être."
-aie,,1,"Regarde, c'est la lampe dont je t'ai parlé ! Il faut que je l'aie."
 cassé,,1,"Bien qu'elle soit un peu vieille ? Elle a l'air cassée, ta lampe."
 ta,,1,"Bien qu'elle soit un peu vieille ? Elle a l'air cassée, ta lampe."
 achète,,1,"Bon. Avant que tu l'achètes, laisse-moi négocier. J'ai l'habitude."
 vend,,1,Celle-là ? Je la vends quarante euros. Elle vient d'un appartement du quartier.
 fait,,1,"Quarante ? Si elle marchait, je dirais pas non. Vous me la faites à vingt ?"
 sache,,1,"Camille ! Il faut pas qu'il le sache ! …Bon, trente, c'est mon dernier prix."
-prête,,1,"T'inquiète. Je te la prête quand tu veux… le dimanche, par exemple."
+prête,,1,"T'inquiète, je te paie un café avec les cinq euros. Et la lampe, je te la prête."
 occupe,,1,"T'inquiète. Le dessert, je m'en occupe. Elle aime le chocolat ?"
 adore,,1,"Elle l'adore. Mais n'en mets pas trop, elle n'aime pas quand c'est trop sucré."
 sucrer,,1,"Elle l'adore. Mais n'en mets pas trop, elle n'aime pas quand c'est trop sucré."
@@ -79,8 +79,7 @@ dise,,1,Pas de problème. Je préfère qu'on me le dise dès le début.
 manque,,1,"D'accord, je goûte… Franchement ? Elle manque d'acidité, et il y a trop de sel."
 acidité,,1,"D'accord, je goûte… Franchement ? Elle manque d'acidité, et il y a trop de sel."
 diplomate,,1,"Ah… Si j'avais su, j'aurais été plus diplomate."
-pleine,,1,Cheffe ! Le frigo est en panne et la salle est pleine ! Qu'est-ce qu'on fait ?
-aidez,,1,"Vous vous connaissez ? …Peu importe. Aidez-le, je vous regarde."
+rajouter,,1,"Cheffe, j'ai goûté la sauce tout à l'heure… et j'ai rajouté du sel. Pardon."
 tutoyer,,1,"Bon. Vous travaillez avec nous dès lundi. Et ici, on se tutoie… si ça te va."
 refai,,1,"Ça me va. Mais la sauce, je te la refais demain, cheffe."
 justificatif,,1,Très bien. Il me faut aussi un justificatif de domicile de moins de trois mois.
@@ -97,20 +96,24 @@ mutuelle,,1,"C'est temporaire ! J'attends un remboursement de la mutuelle, je te
 essorage,,1,"Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir."
 pull,,1,"Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir."
 rétrécir,,1,"Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir."
+casqu,,1,"Normal, tu as toujours ton casque sur les oreilles. Moi, je lis près du sèche-linge."
+sèche,,1,"Normal, tu as toujours ton casque sur les oreilles. Moi, je lis près du sèche-linge."
+ennuyer,,1,Pardon… je mets de la musique pour pas m'ennuyer. Ça fait longtemps que tu viens ?
+plier,,1,"Un mois. Chaque jeudi, je pliais mon linge et je voulais te parler. Ce soir, j'ai osé."
+séchage,,1,Je suis content que tu aies osé. On prend un café pendant le séchage ?
 roser,,1,"Euh… tes chemises sont roses. C'est ma chaussette rouge, elle est tombée dedans."
 assoi,,1,"Tant pis. Jeudi prochain, tu t'assois à côté de moi… et tes chaussettes restent chez toi."
 chaussette,,1,"Tant pis. Jeudi prochain, tu t'assois à côté de moi… et tes chaussettes restent chez toi."
 ticket,,1,"Ah oui ! Je les mets toujours là. …Ah non, ça, c'est mon vieux ticket de métro."
 valable,,1,"Sans billet valable, vous payez une amende de cinquante euros chacun."
 amende,,1,"Sans billet valable, vous payez une amende de cinquante euros chacun."
-covoiturage,,1,"J'ai trouvé un covoiturage. Le conducteur a l'air sympa, regarde sa photo."
-conducteur,,1,"J'ai trouvé un covoiturage. Le conducteur a l'air sympa, regarde sa photo."
-contrôleur,,1,…Théo. Tu vas pas me croire. C'est le contrôleur.
+réclamation,,1,Faites une réclamation en ligne avec vos billets. On vous remboursera sûrement.
 grésill,,1,"Bonjour. Je vous entends mal, votre micro grésille un peu."
 télétravail,,1,"Pardon, je suis en télétravail aujourd'hui. Et maintenant, c'est mieux ?"
 écran,,1,Parfait. Vous pouvez partager votre écran ? Je voudrais voir le tableau des prix.
 installation,,1,"Bien sûr. Voilà : livraison en trois semaines, installation comprise."
 concurrent,,1,"Trois semaines, c'est long. Nos concurrents proposent dix jours."
 tarif,,1,"On peut réduire le délai, mais le tarif augmente de dix pour cent."
-augmentation,,1,"Bon… Dix jours, sans augmentation. Je vous envoie le nouveau devis ce soir."
-comprise,,1,"Et pour le yaourt, je t'envoie mon devis aussi. Deux euros, livraison comprise."
+clavier,,1,"C'est pas grave, ça arrive. Chez moi, c'est le chat qui marche sur le clavier."
+revenon,,1,"Bon, revenons au devis. Deux semaines, sans augmentation. Je vous envoie le nouveau devis ce soir."
+augmentation,,1,"Bon, revenons au devis. Deux semaines, sans augmentation. Je vous envoie le nouveau devis ce soir."

@@ -32,7 +32,8 @@
 "dialogues/R5/life/r5_life_b1.json": "d588b9dfd45e",
 "dialogues/R5/love/r5_love_b1.json": "698fc5ddfcd3",
 "dialogues/R5/travel/r5_travel_b1.json": "4febcb834050",
-"dialogues/R5/work/r5_work_b1.json": "b45c802b4a98"
+"dialogues/R5/work/r5_work_b1.json": "b45c802b4a98",
+"grammar/sense_course.json": "e77136644fa2"
 },
-"rev": 1
+"rev": 2
 }

@@ -7,6 +7,7 @@ import '../main.dart';
 import '../widgets/spanish_decor.dart';
 import 'about_screen.dart';
 import 'alphabet_chart_screen.dart';
+import 'sense_course_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
 import 'dialogue_screen.dart';
@@ -396,6 +397,10 @@ class _MenuGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final groups = <(String, List<_MenuItem>)>[
+      (tr('정규과정'), [
+        _MenuItem(label: tr('언어감각 익히기'), sub: tr('L1 관사부터 L10까지 · 대화 통째로 외우기'), badge: '感', color: AppColors.ai,
+          builder: (_) => const SenseCourseScreen()),
+      ]),
       (tr('기초'), [
         _MenuItem(label: tr('알파벳과 발음'), sub: tr('Alphabet · 비모음 · 연음'), badge: 'Aa', color: AppColors.francais,
           builder: (_) => const AlphabetChartScreen()),

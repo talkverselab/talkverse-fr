@@ -1,0 +1,1031 @@
+{
+ "title": "언어감각 익히기",
+ "subtitle": "정규과정 · 영상 → 대화 통째로 외우기 → 참고",
+ "levels": [
+  {
+   "id": "L1",
+   "title": "관사와 성 익히기",
+   "lessons": [
+    {
+     "id": "L1-talk",
+     "title": "관사와 성 익히기 (un·une·le·la·les)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "카미유",
+       "fr": "Tu veux {un|1} café ?",
+       "rd": "뛰 뵈 앙 까페?",
+       "ko": "커피 {한 잔|1} 마실래?"
+      },
+      {
+       "who": "나",
+       "fr": "Non, {une|1} limonade, s’il te plaît.",
+       "rd": "농, 윈 리모나드, 실 뜨 쁠레.",
+       "ko": "아니, 레모네이드 {하나|1} 줘."
+      },
+      {
+       "who": "카미유",
+       "fr": "{La|2} limonade ici est super bonne.",
+       "rd": "라 리모나드 이씨 에 쒸뻬르 본.",
+       "ko": "여기 {그|2} 레모네이드 진짜 맛있어."
+      },
+      {
+       "who": "나",
+       "fr": "Et {le|2} gâteau ? Il est bon aussi ?",
+       "rd": "에 르 갸또? 일 레 봉 오씨?",
+       "ko": "{그|2} 케이크는? 그것도 맛있어?"
+      },
+      {
+       "who": "카미유",
+       "fr": "{Le|2} gâteau au chocolat, oui. {La|2} tarte, non.",
+       "rd": "르 갸또 오 쇼꼴라, 위. 라 따르뜨, 농.",
+       "ko": "{그|2} 초콜릿 케이크는 응. {그|2} 타르트는 아니."
+      },
+      {
+       "who": "나",
+       "fr": "Alors {un|1} gâteau et {deux|3} cuillères.",
+       "rd": "알로르 앙 갸또 에 되 뀌이에르.",
+       "ko": "그럼 케이크 {하나|1}랑 숟가락 {두 개|3}."
+      },
+      {
+       "who": "카미유",
+       "fr": "{Deux|3} cuillères ? Pour qui ?",
+       "rd": "되 뀌이에르? 뿌르 끼?",
+       "ko": "숟가락 {두 개|3}? 누구 거?"
+      },
+      {
+       "who": "나",
+       "fr": "Pour toi et moi.",
+       "rd": "뿌르 뚜아 에 무아.",
+       "ko": "너랑 나."
+      },
+      {
+       "who": "카미유",
+       "fr": "Ah… {les|4} cuillères, c’est moi qui choisis.",
+       "rd": "아… 레 뀌이에르, 쎄 무아 끼 슈아지.",
+       "ko": "아… {그|4} 숟가락{들|4}은 내가 고를래."
+      },
+      {
+       "who": "나",
+       "fr": "D’accord. Et {l’|2}addition, c’est moi.",
+       "rd": "다꼬르. 에 라디씨옹, 쎄 무아.",
+       "ko": "좋아. {그|2} 계산은 내가."
+      }
+     ],
+     "footnotes": [
+      "un·une — 「하나」. 남성 명사엔 un, 여성 명사엔 une (un café, une limonade).",
+      "le·la·l’ — 「그」. 정해진 것, 둘 다 아는 것. 모음 앞에선 l’ (l’addition).",
+      "les — 「그 ~들」. 남녀 상관없이 하나 (les cuillères). 끝의 -s 는 소리 안 나요.",
+      "명사마다 성이 있어요. 단어는 관사와 같이 외우세요 — 「une limonade」, 「le gâteau」."
+     ]
+    },
+    {
+     "id": "L1-ref",
+     "title": "관사 한눈에",
+     "kind": "ref",
+     "points": [
+      {
+       "head": "un / une  하나",
+       "tip": "처음 말하는 것, 하나. 남성 un, 여성 une.",
+       "sentences": [
+        {
+         "fr": "J’ai un frère.",
+         "rd": "줴 앙 프레르.",
+         "ko": "남동생(형)이 하나 있어."
+        },
+        {
+         "fr": "C’est une bonne idée.",
+         "rd": "쎄 윈 본 이데.",
+         "ko": "좋은 생각이야."
+        }
+       ]
+      },
+      {
+       "head": "le / la / l’ / les  그",
+       "tip": "정해진 것, 또는 「~라는 것 전체」(J’aime le café = 커피를 좋아해).",
+       "sentences": [
+        {
+         "fr": "Le métro est là.",
+         "rd": "르 메트로 에 라.",
+         "ko": "지하철이 저기 있어."
+        },
+        {
+         "fr": "J’aime la musique.",
+         "rd": "쥄 라 뮈지끄.",
+         "ko": "음악을 좋아해."
+        },
+        {
+         "fr": "Les enfants dorment.",
+         "rd": "레 장팡 도름.",
+         "ko": "애들이 자."
+        }
+       ]
+      },
+      {
+       "head": "du / de la / des  조금, 몇",
+       "tip": "셀 수 없는 것의 「조금」(du pain, de la soupe), 여러 개의 「몇」(des amis). 부정 뒤에선 de 로 (pas de pain).",
+       "sentences": [
+        {
+         "fr": "Je mange du pain.",
+         "rd": "쥬 망쥬 뒤 뺑.",
+         "ko": "빵을 먹어."
+        },
+        {
+         "fr": "Tu veux de la soupe ?",
+         "rd": "뛰 뵈 들라 쑤쁘?",
+         "ko": "수프 좀 줄까?"
+        },
+        {
+         "fr": "Il n’y a pas de lait.",
+         "rd": "일 니 아 빠 드 레.",
+         "ko": "우유가 없어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "title": "서술어 익히기 (être·avoir)",
+   "lessons": [
+    {
+     "id": "L2-talk",
+     "title": "서술어 익히기 (être·avoir·il y a)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "레아",
+       "fr": "Salut ! Tu {es|1} d’où ?",
+       "rd": "쌀뤼! 뛰 에 두?",
+       "ko": "안녕! 너 어디 출신{이야|1}?"
+      },
+      {
+       "who": "나",
+       "fr": "Je {suis|1} de Séoul. Et toi ?",
+       "rd": "쥬 쒸 드 쎄울. 에 뚜아?",
+       "ko": "난 서울 출신{이야|1}. 너는?"
+      },
+      {
+       "who": "레아",
+       "fr": "Moi, je {suis|1} de Lyon. J’{ai|2} vingt-deux ans.",
+       "rd": "무아, 쥬 쒸 드 리옹. 줴 뱅뜨되 장.",
+       "ko": "난 리옹 출신{이야|1}. 스물두 살{이야|2}."
+      },
+      {
+       "who": "나",
+       "fr": "Moi aussi, j’{ai|2} vingt-deux ans !",
+       "rd": "무아 오씨, 줴 뱅뜨되 장!",
+       "ko": "나도 스물두 살{이야|2}!"
+      },
+      {
+       "who": "레아",
+       "fr": "C’{est|1} drôle. Tu {as|2} faim ?",
+       "rd": "쎄 드롤. 뛰 아 팽?",
+       "ko": "신기{하다|1}. 배{고파|2}?"
+      },
+      {
+       "who": "나",
+       "fr": "Oui, j’{ai|2} très faim.",
+       "rd": "위, 줴 트레 팽.",
+       "ko": "응, 엄청 배{고파|2}."
+      },
+      {
+       "who": "레아",
+       "fr": "Il y {a|2} des crêpes là-bas.",
+       "rd": "일리 아 데 크렙 라바.",
+       "ko": "저기 크레프{가 있어|2}."
+      },
+      {
+       "who": "나",
+       "fr": "Elles {sont|1} chaudes ?",
+       "rd": "엘 쏭 쇼드?",
+       "ko": "따뜻{해|1}?"
+      },
+      {
+       "who": "레아",
+       "fr": "Oui, et elles {sont|1} gratuites ce soir.",
+       "rd": "위, 에 엘 쏭 그라뛰뜨 쓰 쑤아르.",
+       "ko": "응, 그리고 오늘 밤엔 공짜{야|1}."
+      },
+      {
+       "who": "나",
+       "fr": "Alors c’{est|1} la meilleure soirée !",
+       "rd": "알로르 쎄 라 메이외르 쑤아레!",
+       "ko": "그럼 최고의 밤{이네|1}!"
+      }
+     ],
+     "footnotes": [
+      "être — 「~이다 / ~에 있다」: je suis, tu es, il·elle·on est, ils·elles sont.",
+      "avoir — 「가지다」: j’ai, tu as, il·elle·on a. 나이·배고픔·추위도 avoir 로 말해요 (J’ai 22 ans = 스물두 살이야, J’ai faim = 배고파).",
+      "il y a — 「~이 있다」. 무엇이 있는지 말할 때 (Il y a des crêpes).",
+      "c’est — 「그건 ~야」. 가장 많이 쓰는 덩어리 (C’est drôle, C’est moi)."
+     ]
+    },
+    {
+     "id": "L2-ref",
+     "title": "être·avoir 한눈에",
+     "kind": "ref",
+     "points": [
+      {
+       "head": "être  ~이다",
+       "tip": "신분·출신·상태. 형용사는 주어 성·수에 맞춰요 (il est content / elle est contente).",
+       "sentences": [
+        {
+         "fr": "Nous sommes amis.",
+         "rd": "누 쏨 자미.",
+         "ko": "우린 친구야."
+        },
+        {
+         "fr": "Vous êtes fatigué ?",
+         "rd": "부 제뜨 파띠게?",
+         "ko": "피곤하세요?"
+        },
+        {
+         "fr": "Ils sont en retard.",
+         "rd": "일 쏭 땅 르따르.",
+         "ko": "그들은 늦었어."
+        }
+       ]
+      },
+      {
+       "head": "avoir  가지다",
+       "tip": "한국어로 「~하다·~이다」인데 프랑스어는 avoir: avoir faim(배고프다)·soif(목마르다)·froid(춥다)·peur(무섭다)·raison(맞다).",
+       "sentences": [
+        {
+         "fr": "J’ai froid.",
+         "rd": "줴 프루아.",
+         "ko": "추워."
+        },
+        {
+         "fr": "Tu as raison.",
+         "rd": "뛰 아 레종.",
+         "ko": "네 말이 맞아."
+        },
+        {
+         "fr": "Elle a peur du chien.",
+         "rd": "엘 라 뾔르 뒤 시앙.",
+         "ko": "그녀는 개를 무서워해."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "title": "동사 끝 익히기 (현재형)",
+   "lessons": [
+    {
+     "id": "L3-talk",
+     "title": "동사 끝 익히기 (-er 동사 현재형)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "테오",
+       "fr": "Tu {manges|1} avec nous ce soir ?",
+       "rd": "뛰 망쥬 아베끄 누 쓰 쑤아르?",
+       "ko": "오늘 저녁 우리랑 {먹어|1}?"
+      },
+      {
+       "who": "나",
+       "fr": "Oui ! Qu’est-ce que vous {mangez|1} ?",
+       "rd": "위! 께스끄 부 망제?",
+       "ko": "응! 너희 뭐 {먹어|1}?"
+      },
+      {
+       "who": "테오",
+       "fr": "On {mange|1} des pâtes. Hugo {cuisine|2}.",
+       "rd": "옹 망쥬 데 빠뜨. 위고 뀌진.",
+       "ko": "파스타 {먹어|1}. 위고가 요리{해|2}."
+      },
+      {
+       "who": "나",
+       "fr": "Hugo {cuisine|2} bien ?",
+       "rd": "위고 뀌진 비앙?",
+       "ko": "위고 요리 잘{해|2}?"
+      },
+      {
+       "who": "테오",
+       "fr": "Très bien. Moi, je {regarde|3} seulement.",
+       "rd": "트레 비앙. 무아, 쥬 흐갸르드 쐴르망.",
+       "ko": "아주 잘해. 나는 그냥 {보기만 해|3}."
+      },
+      {
+       "who": "나",
+       "fr": "Moi aussi, je {regarde|3} et je {goûte|4}.",
+       "rd": "무아 오씨, 쥬 흐갸르드 에 쥬 구뜨.",
+       "ko": "나도 {보고|3} {맛만 볼래|4}."
+      },
+      {
+       "who": "테오",
+       "fr": "Non, toi, tu {aides|5} Hugo.",
+       "rd": "농, 뚜아, 뛰 에드 위고.",
+       "ko": "아니, 넌 위고 {도와|5}."
+      },
+      {
+       "who": "나",
+       "fr": "D’accord. J’{aide|5} Hugo… et je {goûte|4}.",
+       "rd": "다꼬르. 줴드 위고… 에 쥬 구뜨.",
+       "ko": "알았어. 위고 {도울게|5}… 그리고 {맛볼게|4}."
+      },
+      {
+       "who": "위고",
+       "fr": "Vous {parlez|6} de moi ?",
+       "rd": "부 빠를레 드 무아?",
+       "ko": "너희 내 얘기 {해|6}?"
+      },
+      {
+       "who": "테오",
+       "fr": "On {parle|6} de tes pâtes. On {adore|7} !",
+       "rd": "옹 빠를 드 떼 빠뜨. 옹 나도르!",
+       "ko": "네 파스타 얘기{해|6}. 완전 {좋아|7}!"
+      }
+     ],
+     "footnotes": [
+      "-er 동사: je mange, tu manges, il·elle·on mange — 셋 다 소리는 [망쥬]. 끝의 -e·-es 는 소리가 안 나요.",
+      "nous mangeons [망종], vous mangez [망제], ils mangent [망쥬] — -ent 도 소리 안 나요.",
+      "on — 「우리」라는 뜻으로 아주 많이 써요. 동사는 il 과 같은 꼴 (on mange, on parle).",
+      "모음 앞의 je 는 j’ 로 (j’aide), on 뒤 모음은 이어서 읽어요 (on adore [옹나도르])."
+     ]
+    },
+    {
+     "id": "L3-ref",
+     "title": "현재형 동사 끝 한눈에",
+     "kind": "ref",
+     "points": [
+      {
+       "head": "-er 동사 (parler 말하다)",
+       "tip": "je parle · tu parles · il parle · nous parlons · vous parlez · ils parlent. 소리로는 [빠를] [빠를롱] [빠를레] 세 가지뿐.",
+       "sentences": [
+        {
+         "fr": "Je parle un peu français.",
+         "rd": "쥬 빠를 앙 뾔 프랑쎄.",
+         "ko": "프랑스어 조금 해요."
+        },
+        {
+         "fr": "Vous parlez anglais ?",
+         "rd": "부 빠를레 앙글레?",
+         "ko": "영어 하세요?"
+        },
+        {
+         "fr": "Ils parlent trop vite.",
+         "rd": "일 빠를 트로 비뜨.",
+         "ko": "그 사람들 말이 너무 빨라."
+        }
+       ]
+      },
+      {
+       "head": "꼭 외울 불규칙 넷",
+       "tip": "aller(가다) je vais · faire(하다) je fais · pouvoir(할 수 있다) je peux · vouloir(원하다) je veux.",
+       "sentences": [
+        {
+         "fr": "Je vais au travail.",
+         "rd": "쥬 베 오 트라바이.",
+         "ko": "일하러 가."
+        },
+        {
+         "fr": "Tu fais quoi ?",
+         "rd": "뛰 페 꾸아?",
+         "ko": "뭐 해?"
+        },
+        {
+         "fr": "On peut entrer ?",
+         "rd": "옹 뾔 땅트레?",
+         "ko": "들어가도 돼?"
+        },
+        {
+         "fr": "Je veux dormir.",
+         "rd": "쥬 뵈 도르미르.",
+         "ko": "자고 싶어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "title": "부정 익히기 (ne … pas)",
+   "lessons": [
+    {
+     "id": "L4-talk",
+     "title": "부정 익히기 (ne … pas·rien·jamais·personne)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "fr": "Tu {ne|1} dors {pas|1} ?",
+       "rd": "뛰 느 도르 빠?",
+       "ko": "{안|1} 자?"
+      },
+      {
+       "who": "카미유",
+       "fr": "Non, je {ne|1} dors {pas|1}. Je {n’|1}ai {pas|1} sommeil.",
+       "rd": "농, 쥬 느 도르 빠. 쥬 네 빠 쏘메이.",
+       "ko": "응, {안|1} 자. 잠이 {안|1} 와."
+      },
+      {
+       "who": "나",
+       "fr": "Tu ne manges {rien|2} ?",
+       "rd": "뛰 느 망쥬 리앙?",
+       "ko": "{아무것도|2} 안 먹어?"
+      },
+      {
+       "who": "카미유",
+       "fr": "Je ne mange {rien|2} le matin.",
+       "rd": "쥬 느 망쥬 리앙 르 마땡.",
+       "ko": "아침엔 {아무것도|2} 안 먹어."
+      },
+      {
+       "who": "나",
+       "fr": "{Jamais|3} ?",
+       "rd": "자메?",
+       "ko": "{한 번도|3}?"
+      },
+      {
+       "who": "카미유",
+       "fr": "{Jamais|3}. Je ne bois {jamais|3} de café non plus.",
+       "rd": "자메. 쥬 느 부아 자메 드 까페 농 쁠뤼.",
+       "ko": "{절대|3}. 커피도 {절대|3} 안 마셔."
+      },
+      {
+       "who": "나",
+       "fr": "Alors pourquoi tu es là, au café ?",
+       "rd": "알로르 뿌르꾸아 뛰 에 라, 오 까페?",
+       "ko": "그럼 왜 카페에 와 있어?"
+      },
+      {
+       "who": "카미유",
+       "fr": "Je sais {pas|1}…",
+       "rd": "쥬 쎄 빠…",
+       "ko": "{몰라|1}…"
+      },
+      {
+       "who": "나",
+       "fr": "Tu sais {pas|1} ?",
+       "rd": "뛰 쎄 빠?",
+       "ko": "{몰라|1}?"
+      },
+      {
+       "who": "카미유",
+       "fr": "Bon… je suis là pour toi. Mais tu le dis à {personne|4} !",
+       "rd": "봉… 쥬 쒸 라 뿌르 뚜아. 메 뛰 르 디 아 뻬르쏜!",
+       "ko": "음… 너 때문에 왔어. 근데 {아무한테도|4} 말하지 마!"
+      }
+     ],
+     "footnotes": [
+      "ne … pas — 동사를 앞뒤로 감싸요 (je ne dors pas). 모음 앞 ne 는 n’ (je n’ai pas).",
+      "말할 때는 ne 를 자주 빼요 — Je sais pas, Tu sais pas ? 글이나 격식 있는 자리에선 ne 를 살려요.",
+      "pas 대신 rien(아무것도) · jamais(절대, 한 번도) · personne(아무도) 를 넣으면 뜻이 바뀌어요.",
+      "부정 뒤에선 un·une·du·de la 가 de 로 (je bois du café → je ne bois pas de café)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "title": "묻기 익히기 (의문문)",
+   "lessons": [
+    {
+     "id": "L5-talk",
+     "title": "묻기 익히기 (억양·est-ce que·의문사)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "위고",
+       "fr": "Tu pars demain ?",
+       "rd": "뛰 빠르 드맹?",
+       "ko": "내일 떠나?"
+      },
+      {
+       "who": "나",
+       "fr": "Oui. {Est-ce que|1} tu viens à la gare ?",
+       "rd": "위. 에스끄 뛰 비앙 알라 갸르?",
+       "ko": "응. 역에 {올 거야|1}?"
+      },
+      {
+       "who": "위고",
+       "fr": "Bien sûr. Tu pars {quand|2} ?",
+       "rd": "비앙 쒸르. 뛰 빠르 깡?",
+       "ko": "물론. {언제|2} 떠나?"
+      },
+      {
+       "who": "나",
+       "fr": "À huit heures.",
+       "rd": "아 위 뙤르.",
+       "ko": "여덟 시에."
+      },
+      {
+       "who": "위고",
+       "fr": "Tu vas {où|3}, déjà ?",
+       "rd": "뛰 바 우, 데자?",
+       "ko": "너 {어디|3} 간다고 했지?"
+      },
+      {
+       "who": "나",
+       "fr": "À Marseille, chez ma tante.",
+       "rd": "아 마르쎄이, 셰 마 땅뜨.",
+       "ko": "마르세유, 이모 댁에."
+      },
+      {
+       "who": "위고",
+       "fr": "Et tu reviens {quand|2} ?",
+       "rd": "에 뛰 흐비앙 깡?",
+       "ko": "그리고 {언제|2} 돌아와?"
+      },
+      {
+       "who": "나",
+       "fr": "Dimanche. {Pourquoi|4} ?",
+       "rd": "디망슈. 뿌르꾸아?",
+       "ko": "일요일. {왜|4}?"
+      },
+      {
+       "who": "위고",
+       "fr": "Parce que… {voulez-vous|5}… euh, tu veux dîner avec moi dimanche ?",
+       "rd": "빠르스끄… 불레부… 으, 뛰 뵈 디네 아베끄 무아 디망슈?",
+       "ko": "그게… {하시겠어요|5}… 아니, 일요일에 나랑 저녁 먹을래?"
+      },
+      {
+       "who": "나",
+       "fr": "{Comment|6} ? Tu es tout rouge ! Oui, avec plaisir.",
+       "rd": "꼬망? 뛰 에 뚜 후쥬! 위, 아베끄 쁠레지르.",
+       "ko": "{뭐라고|6}? 너 얼굴 빨개! 응, 좋아."
+      }
+     ],
+     "footnotes": [
+      "가장 쉬운 물음 — 끝만 올리기: Tu pars demain ?",
+      "est-ce que — 문장 앞에 붙이면 물음 (Est-ce que tu viens ?). 순서는 그대로.",
+      "의문사 quand(언제) · où(어디) · pourquoi(왜) · comment(어떻게, 뭐라고?) — 말할 땐 끝에 둬도 돼요 (Tu pars quand ?).",
+      "주어와 동사를 뒤집는 꼴(Voulez-vous ?)은 격식체. 친구끼리는 잘 안 써서 위고가 당황했어요."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "title": "tu 와 vous 익히기 (높임)",
+   "lessons": [
+    {
+     "id": "L6-talk",
+     "title": "tu 와 vous 익히기 — 프랑스어의 높임",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "나",
+       "fr": "Bonjour madame. {Vous êtes|1} la nouvelle voisine ?",
+       "rd": "봉주르 마담. 부 제뜨 라 누벨 부아진?",
+       "ko": "안녕하세요. 새로 오신 이웃{이세요|1}?"
+      },
+      {
+       "who": "이웃",
+       "fr": "Oui ! Et {vous|1}, {vous habitez|1} ici depuis longtemps ?",
+       "rd": "위! 에 부, 부 자비떼 이씨 드쀠 롱땅?",
+       "ko": "네! 그쪽은 여기 오래 {사셨어요|1}?"
+      },
+      {
+       "who": "나",
+       "fr": "Deux ans. {Vous voulez|1} un café ?",
+       "rd": "되 장. 부 불레 앙 까페?",
+       "ko": "2년이요. 커피 {드실래요|1}?"
+      },
+      {
+       "who": "이웃",
+       "fr": "Avec plaisir. Mais on peut se dire « {tu|2} » ?",
+       "rd": "아베끄 쁠레지르. 메 옹 뾔 쓰 디르 « 뛰 »?",
+       "ko": "좋아요. 그런데 우리 {말 놓을까요|2}?"
+      },
+      {
+       "who": "나",
+       "fr": "Bien sûr ! Alors, {tu veux|2} du sucre ?",
+       "rd": "비앙 쒸르! 알로르, 뛰 뵈 뒤 쒸크르?",
+       "ko": "그럼요! 그럼, 설탕 {넣을래|2}?"
+      },
+      {
+       "who": "이웃",
+       "fr": "Non merci. {Tu travailles|2} où ?",
+       "rd": "농 메르씨. 뛰 트라바이 우?",
+       "ko": "아니 괜찮아. 어디서 {일해|2}?"
+      },
+      {
+       "who": "나",
+       "fr": "Dans un bureau, à côté. Et {toi|2} ?",
+       "rd": "당 쟝 뷔로, 아 꼬떼. 에 뚜아?",
+       "ko": "근처 사무실. {너|2}는?"
+      },
+      {
+       "who": "이웃",
+       "fr": "Je suis la nouvelle directrice de {ton|2} bureau.",
+       "rd": "쥬 쒸 라 누벨 디렉트리스 드 똥 뷔로.",
+       "ko": "내가 {네|2} 사무실 새 부장이야."
+      },
+      {
+       "who": "나",
+       "fr": "Ah… pardon, madame. {Vous voulez|1} encore du café ?",
+       "rd": "아… 빠르동, 마담. 부 불레 앙꼬르 뒤 까페?",
+       "ko": "아… 죄송합니다. 커피 더 {드시겠어요|1}?"
+      },
+      {
+       "who": "이웃",
+       "fr": "Trop tard, on se dit « {tu|2} » maintenant !",
+       "rd": "트로 따르, 옹 쓰 디 « 뛰 » 맹뜨낭!",
+       "ko": "늦었어, 이제 우리 {반말|2}이야!"
+      }
+     ],
+     "footnotes": [
+      "프랑스어 높임은 어미가 아니라 「너」를 바꿔요: 친한 사이 tu, 처음 보는 사람·윗사람 vous.",
+      "vous 와 짝인 동사 끝은 -ez (vous voulez, vous habitez). 「너의」도 ton → votre 로 바뀌어요.",
+      "말을 놓자는 말: On peut se dire tu ? / On se tutoie ? — 보통 윗사람이 먼저 제안해요.",
+      "vous 는 「너희」(여럿)도 돼요. 한 사람인지 여럿인지는 장면으로 알아요."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "title": "대명사 익히기 (le·lui·y·en)",
+   "lessons": [
+    {
+     "id": "L7-talk",
+     "title": "대명사 익히기 (le·la·lui·y·en)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "레아",
+       "fr": "Tu connais Théo ?",
+       "rd": "뛰 꼬네 떼오?",
+       "ko": "테오 알아?"
+      },
+      {
+       "who": "나",
+       "fr": "Oui, je {le|1} connais.",
+       "rd": "위, 쥬 르 꼬네.",
+       "ko": "응, {걔|1} 알아."
+      },
+      {
+       "who": "레아",
+       "fr": "Tu {lui|2} parles souvent ?",
+       "rd": "뛰 뤼 빠를 쑤방?",
+       "ko": "{걔한테|2} 자주 말 걸어?"
+      },
+      {
+       "who": "나",
+       "fr": "Je {lui|2} parle tous les jours. On habite ensemble.",
+       "rd": "쥬 뤼 빠를 뚜 레 주르. 옹 나비뜨 앙쌍블.",
+       "ko": "매일 {걔한테|2} 말해. 같이 살거든."
+      },
+      {
+       "who": "레아",
+       "fr": "Ah bon ? Et la soirée de samedi, tu {y|3} vas ?",
+       "rd": "아 봉? 에 라 쑤아레 드 쌈디, 뛰 이 바?",
+       "ko": "그래? 그럼 토요일 파티, {거기|3} 가?"
+      },
+      {
+       "who": "나",
+       "fr": "Oui, j’{y|3} vais avec lui.",
+       "rd": "위, 쥐 베 아베끄 뤼.",
+       "ko": "응, 걔랑 {거기|3} 가."
+      },
+      {
+       "who": "레아",
+       "fr": "Il y a des gâteaux ?",
+       "rd": "일리 아 데 갸또?",
+       "ko": "케이크 있어?"
+      },
+      {
+       "who": "나",
+       "fr": "Oui, Théo {en|4} fait trois.",
+       "rd": "위, 떼오 앙 페 트루아.",
+       "ko": "응, 테오가 {그걸|4} 세 개 만들어."
+      },
+      {
+       "who": "레아",
+       "fr": "Trois ! J’{en|4} veux un. Et… tu peux {me|5} présenter Théo ?",
+       "rd": "트루아! 장 뵈 앙. 에… 뛰 뾔 므 프레장떼 떼오?",
+       "ko": "세 개나! 나 {그거|4} 하나 먹고 싶다. 그리고… 테오 {나한테|5} 소개해 줄래?"
+      },
+      {
+       "who": "나",
+       "fr": "Ah, c’est pour {lui|2}, pas pour les gâteaux !",
+       "rd": "아, 쎄 뿌르 뤼, 빠 뿌르 레 갸또!",
+       "ko": "아, 케이크가 아니라 {걔|2} 때문이구나!"
+      }
+     ],
+     "footnotes": [
+      "대명사는 동사 앞에 와요: je le connais(그를 알아), tu lui parles(그에게 말해).",
+      "le·la·les = 그를·그녀를·그것들을 / lui·leur = 그(녀)에게·그들에게 / me·te = 나를(에게)·너를(에게).",
+      "y — 「거기」(à + 장소를 대신): tu y vas ? · on y va(가자)는 덩어리로 외워요.",
+      "en — 「그것(몇 개)」(de + 명사, 수량을 대신): j’en veux un = 그거 하나 원해."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "title": "지난 일 말하기 (복합과거)",
+   "lessons": [
+    {
+     "id": "L8-talk",
+     "title": "지난 일 말하기 (avoir·être + 과거분사)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "위고",
+       "fr": "Tu {as passé|1} un bon week-end ?",
+       "rd": "뛰 아 빠쎄 앙 봉 위껜드?",
+       "ko": "주말 잘 {보냈어|1}?"
+      },
+      {
+       "who": "나",
+       "fr": "Oui ! J’{ai visité|1} Paris.",
+       "rd": "위! 줴 비지떼 빠리.",
+       "ko": "응! 파리 {구경했어|1}."
+      },
+      {
+       "who": "위고",
+       "fr": "Tu {as vu|1} la tour Eiffel ?",
+       "rd": "뛰 아 뷔 라 뚜르 에펠?",
+       "ko": "에펠탑 {봤어|1}?"
+      },
+      {
+       "who": "나",
+       "fr": "Non. Mais ma sœur {est montée|2} en haut !",
+       "rd": "농. 메 마 쐬르 에 몽떼 앙 오!",
+       "ko": "아니. 근데 여동생은 꼭대기까지 {올라갔어|2}!"
+      },
+      {
+       "who": "위고",
+       "fr": "Et vous {avez mangé|1} où ?",
+       "rd": "에 부 자베 망제 우?",
+       "ko": "그리고 어디서 {먹었어|1}?"
+      },
+      {
+       "who": "나",
+       "fr": "On {a mangé|1} dans un petit restaurant.",
+       "rd": "옹 나 망제 당 쟝 쁘띠 레스또랑.",
+       "ko": "작은 식당에서 {먹었어|1}."
+      },
+      {
+       "who": "위고",
+       "fr": "Vous {êtes rentrés|2} quand ?",
+       "rd": "부 제뜨 랑트레 깡?",
+       "ko": "언제 {돌아왔어|2}?"
+      },
+      {
+       "who": "나",
+       "fr": "Ce matin. Ma sœur {est partie|2} tôt, moi tard.",
+       "rd": "쓰 마땡. 마 쐬르 에 빠르띠 또, 무아 따르.",
+       "ko": "오늘 아침. 동생은 일찍 {떠났고|2}, 난 늦게."
+      },
+      {
+       "who": "위고",
+       "fr": "Et tu m’{as rapporté|1} quelque chose ?",
+       "rd": "에 뛰 마 라뽀르떼 껠끄 쇼즈?",
+       "ko": "그럼 나한테 뭐 {사 왔어|1}?"
+      },
+      {
+       "who": "나",
+       "fr": "J’{ai oublié|1}… mais j’{ai pris|1} une photo pour toi !",
+       "rd": "줴 우블리에… 메 줴 프리 윈 포또 뿌르 뚜아!",
+       "ko": "{깜빡했어|1}… 그래도 너 주려고 사진 {찍었어|1}!"
+      }
+     ],
+     "footnotes": [
+      "대부분 avoir + 과거분사: j’ai visité, tu as vu, on a mangé. -er 동사의 과거분사는 -é [에].",
+      "오고 가기·머물기 동사(aller, venir, partir, rentrer, monter, rester…)는 être + 과거분사.",
+      "être 와 쓸 때는 주어에 맞춰 끝이 바뀌어요: elle est partie(-e 여성), vous êtes rentrés(-s 복수). 소리는 거의 같아요.",
+      "불규칙 과거분사는 덩어리로: vu(보다) · pris(잡다·찍다) · fait(하다) · été(이다)."
+     ]
+    },
+    {
+     "id": "L8-ref",
+     "title": "복합과거 한눈에",
+     "kind": "ref",
+     "points": [
+      {
+       "head": "avoir + 과거분사",
+       "tip": "거의 모든 동사. 「~했다」.",
+       "sentences": [
+        {
+         "fr": "J’ai fini mon travail.",
+         "rd": "줴 피니 몽 트라바이.",
+         "ko": "일 다 끝냈어."
+        },
+        {
+         "fr": "Tu as compris ?",
+         "rd": "뛰 아 꽁프리?",
+         "ko": "이해했어?"
+        },
+        {
+         "fr": "On a fait la fête.",
+         "rd": "옹 나 페 라 페뜨.",
+         "ko": "우리 파티했어."
+        }
+       ]
+      },
+      {
+       "head": "être + 과거분사",
+       "tip": "이동·상태 변화 동사와 대명동사(se lever…). 주어 성·수에 맞춰 -e/-s.",
+       "sentences": [
+        {
+         "fr": "Elle est arrivée en retard.",
+         "rd": "엘 레 따리베 앙 르따르.",
+         "ko": "그녀는 늦게 도착했어."
+        },
+        {
+         "fr": "Nous sommes restés à la maison.",
+         "rd": "누 쏨 레스떼 알라 메종.",
+         "ko": "우리는 집에 있었어."
+        },
+        {
+         "fr": "Il est né en mai.",
+         "rd": "일 레 네 앙 메.",
+         "ko": "그는 5월에 태어났어."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "title": "앞일과 조건 말하기",
+   "lessons": [
+    {
+     "id": "L9-talk",
+     "title": "앞일과 조건 말하기 (aller + 동사원형·si·je voudrais)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "카미유",
+       "fr": "Qu’est-ce que tu {vas faire|1} ce soir ?",
+       "rd": "께스끄 뛰 바 페르 쓰 쑤아르?",
+       "ko": "오늘 밤 뭐 {할 거야|1}?"
+      },
+      {
+       "who": "나",
+       "fr": "Je {vais regarder|1} un film. Et toi ?",
+       "rd": "쥬 베 흐갸르데 앙 필름. 에 뚜아?",
+       "ko": "영화 {볼 거야|1}. 너는?"
+      },
+      {
+       "who": "카미유",
+       "fr": "{Si|2} il fait beau, je {vais courir|1}.",
+       "rd": "씨 일 페 보, 쥬 베 꾸리르.",
+       "ko": "날씨가 {좋으면|2} 달리기{할 거야|1}."
+      },
+      {
+       "who": "나",
+       "fr": "Et {s’|2}il pleut ?",
+       "rd": "에 씰 쁠뢰?",
+       "ko": "비가 {오면|2}?"
+      },
+      {
+       "who": "카미유",
+       "fr": "{S’|2}il pleut, je {voudrais|3} rester chez moi.",
+       "rd": "씰 쁠뢰, 쥬 부드레 레스떼 셰 무아.",
+       "ko": "비 {오면|2} 집에 있{고 싶어|3}."
+      },
+      {
+       "who": "나",
+       "fr": "Moi, je {voudrais|3} voir un film avec quelqu’un…",
+       "rd": "무아, 쥬 부드레 부아르 앙 필름 아베끄 껠꺙…",
+       "ko": "난 누구랑 같이 영화 보{고 싶은데|3}…"
+      },
+      {
+       "who": "카미유",
+       "fr": "{Si|2} tu choisis un bon film, je {vais venir|1}.",
+       "rd": "씨 뛰 슈아지 앙 봉 필름, 쥬 베 브니르.",
+       "ko": "네가 좋은 영화 {고르면|2} {갈게|1}."
+      },
+      {
+       "who": "나",
+       "fr": "Tu {aimerais|3} quoi ? Une comédie ?",
+       "rd": "뛰 에므레 꾸아? 윈 꼬메디?",
+       "ko": "뭐 {보고 싶어|3}? 코미디?"
+      },
+      {
+       "who": "카미유",
+       "fr": "J’{aimerais|3} bien… un film qui fait peur.",
+       "rd": "줴므레 비앙… 앙 필름 끼 페 뾔르.",
+       "ko": "무서운 영화{면 좋겠어|3}."
+      },
+      {
+       "who": "나",
+       "fr": "Un film qui fait peur ? Alors je {vais tenir|1} ta main.",
+       "rd": "앙 필름 끼 페 뾔르? 알로르 쥬 베 뜨니르 따 맹.",
+       "ko": "무서운 영화? 그럼 네 손 {잡고 있을게|1}."
+      }
+     ],
+     "footnotes": [
+      "aller + 동사원형 = 「~할 거야」. je vais, tu vas, il va + regarder·faire·venir.",
+      "si + 현재형 = 「~하면」. si il → s’il (s’il pleut = 비가 오면).",
+      "je voudrais · j’aimerais = 「~하고 싶어요」 부드럽게. 가게에서 Je voudrais un café 처럼 덩어리로 써요."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "title": "관점 바꾸기 (반과거·복합과거)",
+   "lessons": [
+    {
+     "id": "L10-talk",
+     "title": "관점 바꾸기 — 배경(반과거)과 사건(복합과거)",
+     "kind": "memorize",
+     "video": "",
+     "note": "일부러 규칙을 설명하지 않았어요. 대화를 통째로 외우면 저절로 입에 붙어요.",
+     "sentences": [
+      {
+       "who": "테오",
+       "fr": "Hier, il {pleuvait|1} et j’{ai perdu|2} mon vélo.",
+       "rd": "이에르, 일 쁠뢰베 에 줴 뻬르뒤 몽 벨로.",
+       "ko": "어제 비가 {오고 있었는데|1} 자전거를 {잃어버렸어|2}."
+      },
+      {
+       "who": "나",
+       "fr": "Quoi ? Tu {étais|1} où ?",
+       "rd": "꾸아? 뛰 에떼 우?",
+       "ko": "뭐? 어디 {있었는데|1}?"
+      },
+      {
+       "who": "테오",
+       "fr": "J’{étais|1} au café. Le vélo {était|1} devant.",
+       "rd": "줴떼 오 까페. 르 벨로 에떼 드방.",
+       "ko": "카페에 {있었어|1}. 자전거는 앞에 {있었고|1}."
+      },
+      {
+       "who": "나",
+       "fr": "Et puis ?",
+       "rd": "에 쀠?",
+       "ko": "그래서?"
+      },
+      {
+       "who": "테오",
+       "fr": "Je {suis sorti|2}, et il n’{était|1} plus là.",
+       "rd": "쥬 쒸 쏘르띠, 에 일 네떼 쁠뤼 라.",
+       "ko": "{나왔는데|2}, 없{더라|1}."
+      },
+      {
+       "who": "나",
+       "fr": "Tu {as appelé|2} la police ?",
+       "rd": "뛰 아 아쁠레 라 뽈리스?",
+       "ko": "경찰 {불렀어|2}?"
+      },
+      {
+       "who": "테오",
+       "fr": "Non. Une fille {est arrivée|2} avec mon vélo. Elle {riait|1}.",
+       "rd": "농. 윈 피 에 따리베 아베끄 몽 벨로. 엘 리에.",
+       "ko": "아니. 어떤 여자가 내 자전거를 끌고 {왔어|2}. {웃고 있더라|1}."
+      },
+      {
+       "who": "나",
+       "fr": "Elle {a pris|2} ton vélo ?",
+       "rd": "엘 아 프리 똥 벨로?",
+       "ko": "그 여자가 네 자전거를 {가져갔던 거야|2}?"
+      },
+      {
+       "who": "테오",
+       "fr": "Non, il {roulait|1} tout seul dans la rue ! Elle l’{a attrapé|2}.",
+       "rd": "농, 일 룰레 뚜 쐴 당 라 뤼! 엘 라 아트라뻬.",
+       "ko": "아니, 혼자 길에서 {굴러가고 있었대|1}! 그 여자가 {잡았고|2}."
+      },
+      {
+       "who": "테오",
+       "fr": "Elle {s’appelait|1} Léa… et on {a pris|2} un café ensemble.",
+       "rd": "엘 싸쁠레 레아… 에 옹 나 프리 앙 까페 앙쌍블.",
+       "ko": "이름이 레아{였어|1}… 그리고 같이 커피 {마셨어|2}."
+      }
+     ],
+     "footnotes": [
+      "반과거(-ais·-ait, 소리는 [에]) = 배경·상태·진행: il pleuvait(비가 오고 있었다), j’étais(있었다).",
+      "복합과거 = 그때 일어난 일: j’ai perdu(잃어버렸다), elle est arrivée(도착했다).",
+      "이야기는 반과거로 무대를 깔고, 복합과거로 사건을 놓아요. 한국어 「~고 있었는데 / ~했어」와 비슷해요."
+     ]
+    }
+   ]
+  }
+ ]
+}

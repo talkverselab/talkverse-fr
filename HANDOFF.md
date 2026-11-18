@@ -1,5 +1,13 @@
 # HANDOFF — talkverse-fr (프랑스어 앱) · 2026-11-09 세션 종료
 
+## 2026-11-18 일본어앱 수준 맞추기(일본어앱 전달 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`, 사용자 지시 「통합앱으로 iOS 심사」)
+- **원고 서버 받기(§1) 끝** 988bfef: `lib/services/script_sync.dart`(root `…/art/script/fr`), `embedInit` 에서 그림 받기 앞에 `refresh()`(15초), 회화 로더를 옛 `L1.json` → **R0~R5 편 파일**(`DialogueService`, 학습자 여성판 `fr_f`·`rd_f`, 장면 「A」→ 이름). 서버 원고 **rev 2**(33편 + `grammar/sense_course.json`). 올리기 `python3 tools/script_publish.py --publish` → `assets/data/script_rev.json` 커밋. 턴 잠금 `data/review/turn_lock_fr.json`(33편 313턴).
+- 언어감각 익히기 10급 98d5f12(홈 「정규과정」, `video_player` 추가, 영상은 비어 「영상 준비 중」) · 절벽 단어 퀴즈 복습 691ed03(앱바 퀴즈 아이콘, 표기=악센트·겹자음).
+- **회화 65편 목표(사용자 선택)** — 새 32편은 Claude 초안 `data/review/drafts_20261118/`(번들 밖). **uk 회화 원칙(11-18): 대사는 Grok 이 새로 쓰고 그대로 붙여 넣기, Claude 는 초안·형식만.** Grok 대기열 9번 — uk 의 「fr 시작」을 받으면 PC 9250(사용자가 크롬을 띄워야 함). 붙인 뒤 `assets/data/dialogues/` 로 옮기고 pubspec 폴더 추가 → `--publish`. 이미 나간 Claude 문장 33편·언어감각 대화를 다시 쓸지는 사용자 결정 대기(uk 기록).
+- 장면 컷 10장: Grok(PC 9250) 대기. 단어 그림은 공용 DB(`/art/fr/manifest`).
+- 빌드: Android **17**(로컬, Zealot https://apps.talkverse.uk/DnBeJ/506, PC 백업). ⚠ CI `Release APK` 는 Flutter 가 Gradle 9.3.1 을 요구해 실패(일본어앱도 같음) — 공용 키트 결정 전까지 로컬 빌드. iOS TestFlight 2611181430(원고 받기만) → **2611181449**(언어감각·퀴즈 포함, c474a78).
+- 통합 앱 보고(uk): 패키지 `french_universe`, 새 의존성 `video_player`(crypto 는 원래 있음), 새 에셋 `assets/data/script_rev.json`·`assets/data/dialogues/R*/…` 폴더, 서버 원고 rev 2.
+
 ## 2026-11-10 정리 후 종료(사용자 지시 "m6 꽉찼네 … 세션 닫아줘", 허브 RELAY_cleanup_close_20261110)
 - 지움(다시 만들 수 있는 것, 약 1.1GB): `flutter clean`(build/ 267M·.dart_tool/ 837M), android/.gradle, ios/Pods, __pycache__, .wrangler 캐시.
 - **DB 업로드 지시(uk 전달 11/10 "지금까지 만든 모든 자산 db 에 올려줘") 미완료** — M6 디스크가 꽉 차 D1 표 확인 단계에서 멈춤. 현황: 옛 4편 음성 104줄은 R2 에만 있고 D1 `audio_lines` 에는 없음(옛 초안이라 넣을지 사용자 확인 필요). 새 33편 회화는 앱 번들에만 있음 — `talkverse-db` 에 회화 본문 표가 있는지 확인 후 올릴 것. 장면 컷은 아직 없음, 단어 그림은 uk 담당.

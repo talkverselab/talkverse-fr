@@ -1,16 +1,18 @@
 import 'dart:convert';
 
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart' show AssetManifest, rootBundle;
 
 import 'learner_prefs.dart';
+import 'script_sync.dart';
 import '../core/prefs.dart';
 import '../core/embed_env.dart';
 
 /// 회화 리더(일본어앱 시안 02 「만화책 읽기형」)용 회화 모델 — 2026-11-02, 일본어앱 `dialogue_service.dart` 를 옮김.
 ///
-/// 지금 데이터는 옛 `assets/data/dialogues/L1.json`(초안 5편 × 8턴) 하나뿐이라 그것을 그대로 읽어 이 모양으로 바꾼다.
-/// 회화 콘텐츠는 바꾸지 않는다(사용자 지시 2026-11-02 "회화는 아직 하지마") — 새 구조(R0~R4·주제별 편 파일)는 회화 작성이 풀리면.
-/// 칸: tl = 프랑스어(옛 파일의 칸 이름은 스페인어 템플릿 그대로 `es`), gloss = 없음, rd = 한글 독음, ko = 한국어, note = 단어 힌트(`x = 뜻`).
+/// 2026-11-18: 옛 `L1.json` 대신 새 회화 `assets/data/dialogues/R<0~5>/<주제>/<편id>.json` 을 읽는다(일본어앱 빌드 113·114 와 같은 방식).
+/// 각 파일은 서버에 더 새 판이 있으면 그것([ScriptSync] — 원고를 새 빌드 없이 고침).
+/// 칸: tl = 프랑스어(`fr`, 학습자가 여성이면 `fr_f` 가 있는 턴은 그것), rd = 한글 독음(`rd_f`), ko = 한국어, note = 단어 힌트(`x = 뜻`).
 /// 문장 내용어 한 개: 표면형(문장 속)·기본형(사전형)·읽기(프랑스어는 비움).
 class Lemma {
   final String surface, base, reading;
@@ -19,10 +21,12 @@ class Lemma {
 
 class DialogueTurn {
   final int num;
-  final String speaker; // A·B
-  final String tl;
+  final String speaker; // A(학습자)·B·C·D
+  final String tlM; // 기본(남성 학습자)판
+  final String? tlF; // 학습자 여성판 — 바뀌는 턴만(DIALOGUE_RULES A9)
   final String gloss;
-  final String rd;
+  final String rdM;
+  final String? rdF;
   final String ko;
   final String note;
   final List<String> tags;
@@ -31,15 +35,37 @@ class DialogueTurn {
   const DialogueTurn({
     required this.num,
     required this.speaker,
-    required this.tl,
+    required String tl,
+    this.tlF,
     required this.gloss,
-    required this.rd,
+    required String rd,
+    this.rdF,
     required this.ko,
     required this.note,
     required this.tags,
     this.art,
     this.lemmas = const [],
-  });
+  })  : tlM = tl,
+        rdM = rd;
+
+  /// 화면·TTS 본문 — 학습자 성별판.
+  String get tl => LearnerPrefs.isFemale && (tlF?.isNotEmpty ?? false) ? tlF! : tlM;
+  String get rd => LearnerPrefs.isFemale && (rdF?.isNotEmpty ?? false) ? rdF! : rdM;
+
+  factory DialogueTurn.fromJson(Map<String, dynamic> j) => DialogueTurn(
+        num: j['num'] as int? ?? 0,
+        speaker: j['speaker'] as String? ?? 'A',
+        tl: j['fr'] as String? ?? j['es'] as String? ?? '',
+        tlF: j['fr_f'] as String?,
+        gloss: j['gloss'] as String? ?? '',
+        rd: j['rd'] as String? ?? '',
+        rdF: j['rd_f'] as String?,
+        ko: j['ko'] as String? ?? '',
+        note: j['note'] as String? ?? '',
+        tags: (j['tags'] as List?)?.cast<String>() ?? const [],
+        art: j['art'] as String?,
+        lemmas: [for (final l in (j['lemmas'] as List? ?? const [])) if (l is List && l.length >= 2) Lemma('${l[0]}', '${l[1]}', l.length > 2 ? '${l[2]}' : '')],
+      );
 
   factory DialogueTurn.fromL1(Map<String, dynamic> j) => DialogueTurn(
         num: j['num'] as int? ?? 0,
@@ -87,6 +113,42 @@ class Dialogue {
     this.art,
   });
 
+  /// 고정 인물 성별(인물표 `data/review/uxui/CHARACTERS.md`). 그 밖의 조연은 이름 끝으로 짐작.
+  static const _knownGender = {'Léa': 'female', 'Camille': 'female', 'Hugo': 'male', 'Théo': 'male'};
+  static String _guessGender(String name) {
+    final n = name.replaceAll(RegExp(r'[{}]'), '');
+    if (_knownGender.containsKey(n)) return _knownGender[n]!;
+    return n.endsWith('e') ? 'female' : 'male'; // Cheffe·Cliente·Conseillère / Voisin·Vendeur·Manager
+  }
+
+  factory Dialogue.fromJson(Map<String, dynamic> j) {
+    final sp = ((j['speakers'] as Map?) ?? const {}).map((k, v) => MapEntry(k.toString(), v.toString()));
+    return Dialogue(
+      id: j['id'] as String,
+      region: j['region'] as String? ?? 'R1',
+      island: j['island'] as String? ?? '',
+      title: j['title'] as String? ?? '',
+      emoji: j['emoji'] as String? ?? '💬',
+      scene: j['scene'] as String? ?? '',
+      speakers: sp,
+      genders: {for (final e in sp.entries) if (e.key != 'A') e.key: _guessGender(e.value)},
+      expressions: (j['expressions'] as List?)?.cast<String>() ?? const [],
+      turns: ((j['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromJson(t as Map<String, dynamic>)).toList(),
+      art: j['art'] as String?,
+    );
+  }
+
+  /// 화면에 보일 장면 설명 — 원고의 「A」(학습자)를 이름(없으면 「나」)으로(일본어앱 빌드 111).
+  String get sceneShown => scene.replaceAllMapped(RegExp(r'(?<![A-Za-z])A(?![A-Za-z]) ?(?=[가-힣])'), (_) => speakerName('A'));
+
+  /// 편 순서 키: a → b → c, 번호 순.
+  String get orderKey {
+    final m = RegExp(r'_([abcs])(\d+)$').firstMatch(id);
+    if (m == null) return id;
+    const o = {'s': 0, 'a': 1, 'b': 2, 'c': 3};
+    return '${o[m.group(1)]}${m.group(2)!.padLeft(2, '0')}';
+  }
+
   /// 화자 표시 이름. `{name}` 자리는 학습자 이름(없으면 「나」).
   String speakerName(String sp) {
     final raw = speakers[sp] ?? sp;
@@ -94,8 +156,8 @@ class Dialogue {
     return raw.replaceAll(RegExp(r'[{}]'), '');
   }
 
-  /// 목소리 성별 — 지금 회화는 화자 이름·성별이 정해진 이야기(A Minjun 남 · B Camille 여)라 데이터의 성별을 따른다.
-  String voiceGender(String sp) => genders[sp] ?? LearnerPrefs.voiceGender(sp);
+  /// 목소리 성별 — A 는 학습자 성별, 나머지는 인물 성별.
+  String voiceGender(String sp) => sp == 'A' ? LearnerPrefs.gender.value : (genders[sp] ?? LearnerPrefs.voiceGender(sp));
 }
 
 class DialogueService {
@@ -123,7 +185,9 @@ class DialogueService {
     'work': '💼',
     'study': '🎓',
   };
-  static const levelKo = {'L1': '이야기', 'R0': '왕초보', 'R1': '초보', 'R2': '중급', 'R3': '고급', 'R4': '최상급'};
+  /// 회화 레벨 0~5 = 문법 단계(단어 구간 R1~R5 와 다른 번호 — docs/APP_STRATEGY_FR.md A1).
+  static const levels = ['R0', 'R1', 'R2', 'R3', 'R4', 'R5'];
+  static const levelKo = {'R0': '레벨 0 · 짧은 회화', 'R1': '레벨 1', 'R2': '레벨 2', 'R3': '레벨 3', 'R4': '레벨 4', 'R5': '레벨 5'};
   static const _prefLast = 'dialogue_last';
 
   final List<Dialogue> _all = [];
@@ -134,41 +198,59 @@ class DialogueService {
     (await Prefs.getInstance()).setString(_prefLast, id);
   }
 
-  /// 넓은 화면에서 탭이 동시에 떠 두 번 불려도 한 번만 읽는다(`_loaded` 플래그는 경쟁으로 목록이 두 번 찬다).
+  /// 넓은 화면에서 탭이 동시에 떠 두 번 불려도 한 번만 읽는다.
   Future<void>? _loading;
   Future<void> ensureLoaded() => _loading ??= _load();
 
+  /// 원고가 서버 판으로 바뀌어 다시 읽힐 때마다 오른다.
+  final ValueNotifier<int> revision = ValueNotifier(0);
+
   Future<void> _load() async {
     _lastOpened = (await Prefs.getInstance()).getString(_prefLast);
+    await _readAll();
+    // 서버에 더 새 원고가 있으면 뒤에서 받아 다시 읽는다(없거나 실패하면 그대로)
+    ScriptSync.instance.refresh().then((changed) async {
+      if (!changed) return;
+      await _readAll();
+      revision.value++;
+    });
+  }
+
+  /// 앱 안 편 + 서버에서 받은 새 편. 각 파일은 덮어쓴 판이 있으면 그것.
+  Future<void> _readAll() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    final pat = RegExp(r'^assets/data/dialogues/R[0-5]/[^/]+/[^/]+\.json$');
+    Iterable<String> bundled = const [];
     try {
-      final j = json.decode(await rootBundle.loadString(assetPath('assets/data/dialogues/L1.json'))) as Map<String, dynamic>;
-      final chars = (j['characters'] as Map<String, dynamic>? ?? const {});
-      final names = chars.map((k, v) => MapEntry(k, ((v as Map)['name'] ?? k).toString()));
-      final genders = chars.map((k, v) => MapEntry(k, ((v as Map)['gender'] ?? 'female').toString()));
-      final level = j['level'] as String? ?? 'L1';
-      for (final e in (j['episodes'] as List? ?? const [])) {
-        final m = e as Map<String, dynamic>;
-        final turns = ((m['turns'] as List?) ?? const []).map((t) => DialogueTurn.fromL1(t as Map<String, dynamic>)).toList();
-        if (turns.isEmpty) continue;
-        _all.add(Dialogue(
-          id: '${level}_${m['id']}',
-          region: level,
-          island: 'love', // 옛 L1 = 매칭 앱에서 시작하는 연애 이야기(원칙: 기존 연애 서사는 love 주제)
-          title: m['title'] as String? ?? m['id'] as String,
-          emoji: m['emoji'] as String? ?? '💬',
-          scene: m['scenario'] as String? ?? '',
-          speakers: names,
-          genders: genders,
-          expressions: const [],
-          turns: turns,
-        ));
-      }
+      final manifest = await AssetManifest.loadFromAssetBundle(rootBundle);
+      bundled = manifest.listAssets().map(stripAssetPrefix).where(pat.hasMatch);
     } catch (_) {}
+    final rels = <String>{
+      for (final p in bundled) p.substring('assets/data/'.length),
+      ...sync.added.where((p) => pat.hasMatch('assets/data/$p')),
+    }..removeAll(sync.removed);
+    final next = <Dialogue>[];
+    for (final rel in rels) {
+      try {
+        final d = Dialogue.fromJson(json.decode(await sync.load(rel)) as Map<String, dynamic>);
+        if (d.turns.isNotEmpty) next.add(d);
+      } catch (_) {}
+    }
+    next.sort((a, b) {
+      final r = levels.indexOf(a.region).compareTo(levels.indexOf(b.region));
+      if (r != 0) return r;
+      final i = islands.indexOf(a.island).compareTo(islands.indexOf(b.island));
+      return i != 0 ? i : a.orderKey.compareTo(b.orderKey);
+    });
+    _all
+      ..clear()
+      ..addAll(next);
   }
 
   Dialogue? byId(String id) => _all.where((d) => d.id == id).firstOrNull;
   List<Dialogue> get all => List.unmodifiable(_all);
-  List<String> get regions => _all.map((d) => d.region).toSet().toList();
+  List<String> get regions => levels.where((l) => _all.any((d) => d.region == l)).toList();
 
   List<Dialogue> list({String? region, String? island}) =>
       _all.where((d) => (region == null || d.region == region) && (island == null || d.island == island)).toList();

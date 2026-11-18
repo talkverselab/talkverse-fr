@@ -1,0 +1,1097 @@
+{
+ "id": "r2_life_d1",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "title": "누가 환자야",
+ "emoji": "🤒",
+ "scene": "아파서 누워 있는 A 대신 룸메이트 테오가 약국에 간다. 증상을 「나는」으로 말하는 바람에 약사가 테오를 환자로 안다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "증상 말하기(j'ai mal à la tête·j'ai de la fièvre)·dire·croire 인칭 변화",
+ "expressions": [
+  "mince",
+  "stp",
+  "ouais",
+  "mdr",
+  "bref"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Théo… je suis malade. J'ai mal à la tête et j'ai de la fièvre 🤒",
+   "rd": "떼오… 쥬 쒸 말라드. 제 말 아 라 떼뜨 에 제 드 라 피에브르.",
+   "ko": "테오… 나 아파. 머리 아프고 열나 🤒",
+   "note": "malade = 아픈 · avoir mal à la tête = 머리가 아프다 · fièvre = 열",
+   "tags": [],
+   "new": [
+    "malade",
+    "fièvre"
+   ],
+   "emotion": "sad",
+   "at": "09:12",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "malade",
+     "malade",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mal",
+     "mal",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tête",
+     "tête",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fièvre",
+     "fièvre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "malade",
+     "malade",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "tête",
+     "tête",
+     ""
+    ],
+    [
+     "fièvre",
+     "fièvre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Oh mince. Je passe à la pharmacie, j'ai cours à onze heures.",
+   "rd": "오 맹쓰. 쥬 빠쓰 아 라 파르마씨, 제 꾸르 아 옹 죄르.",
+   "ko": "아 저런. 약국 들렀다 갈게, 11시에 수업이거든.",
+   "note": "mince = 저런 · passer à = …에 들르다 · pharmacie = 약국",
+   "tags": [
+    "expr:mince"
+   ],
+   "new": [
+    "pharmacie"
+   ],
+   "emotion": "worried",
+   "at": "09:14",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "mince",
+     "mince",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "passe",
+     "passer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "pharmacie",
+     "pharmacie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cours",
+     "courir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mince",
+     "mince",
+     ""
+    ],
+    [
+     "passe",
+     "passer",
+     ""
+    ],
+    [
+     "pharmacie",
+     "pharmacie",
+     ""
+    ],
+    [
+     "cours",
+     "courir",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "T'es un ange. Prends du paracétamol, stp.",
+   "rd": "떼 앙 낭쥬. 프랑 뒤 빠라쎄따몰, 에쓰떼뻬.",
+   "ko": "넌 천사야. 해열제 좀 사다 줘.",
+   "note": "ange = 천사 · paracétamol = 해열진통제",
+   "tags": [
+    "expr:stp"
+   ],
+   "new": [
+    "ange"
+   ],
+   "emotion": "gentle",
+   "at": "09:15",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "es",
+     "e",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "ange",
+     "ange",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Prends",
+     "prend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "paracétamol",
+     "paracétamol",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ange",
+     "ange",
+     ""
+    ],
+    [
+     "Prends",
+     "prendre",
+     ""
+    ],
+    [
+     "paracétamol",
+     "paracétamol",
+     ""
+    ],
+    [
+     "stp",
+     "stp",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Ok. La pharmacienne demande si t'as de la toux.",
+   "rd": "오께. 라 파르마씨엔 드망드 씨 따 드 라 뚜.",
+   "ko": "오케이. 약사가 너 기침도 하냐고 물어.",
+   "note": "pharmacienne = 약사(여) · si = …인지 · toux = 기침",
+   "tags": [],
+   "new": [
+    "toux"
+   ],
+   "emotion": "neutral",
+   "at": "09:31",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "pharmacienne",
+     "pharmacien",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "demande",
+     "demande",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "as",
+     "as",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "toux",
+     "toux",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pharmacienne",
+     "pharmacien",
+     ""
+    ],
+    [
+     "demande",
+     "demande",
+     ""
+    ],
+    [
+     "as",
+     "as",
+     ""
+    ],
+    [
+     "toux",
+     "toux",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Un peu, ouais. Surtout la nuit.",
+   "rd": "앙 뾔, 웨. 쒸르뚜 라 뉘.",
+   "ko": "조금, 응. 특히 밤에.",
+   "note": "surtout = 특히",
+   "tags": [
+    "expr:ouais"
+   ],
+   "new": [],
+   "emotion": "sad",
+   "at": "09:32",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "ouais",
+     "ouai",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "nuit",
+     "nuit",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peu",
+     "peu",
+     ""
+    ],
+    [
+     "ouais",
+     "ouais",
+     ""
+    ],
+    [
+     "Surtout",
+     "surtout",
+     ""
+    ],
+    [
+     "nuit",
+     "nuit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Ok, je lui ai tout dit : « j'ai de la fièvre, je tousse… »",
+   "rd": "오께, 쥬 뤼 에 뚜 디. 제 드 라 피에브르, 쥬 뚜쓰…",
+   "ko": "알았어, 다 말했어. 「열이 나고, 기침을 하고…」",
+   "note": "dire → je lui ai dit · tousser = 기침하다(je tousse) · A 의 증상을 「나는」으로 그대로 옮겼다",
+   "tags": [],
+   "new": [
+    "tousser"
+   ],
+   "emotion": "cheerful",
+   "at": "09:35",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Ok",
+     "ok",
+     "PRON",
+     "Gender=Masc|Number=Plur|PronType=Dem"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tout",
+     "tout",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fièvre",
+     "fièvre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "tousse",
+     "tousser",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "fièvre",
+     "fièvre",
+     ""
+    ],
+    [
+     "tousse",
+     "tousser",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "…Elle croit que c'est moi, le malade 😷",
+   "rd": "…엘 크루아 끄 쎄 무아, 르 말라드.",
+   "ko": "…약사가 나를 환자로 알아 😷",
+   "note": "croire = …라고 생각하다 · je suis malade(1턴) → le malade(환자)",
+   "tags": [],
+   "new": [
+    "croire"
+   ],
+   "emotion": "flustered",
+   "at": "09:36",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "croit",
+     "croire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "malade",
+     "malade",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "croit",
+     "croire",
+     ""
+    ],
+    [
+     "malade",
+     "malade",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Elle m'a donné un masque. Elle me dit de rentrer chez moi.",
+   "rd": "엘 마 도네 앙 마스끄. 엘 므 디 드 랑트레 셰 무아.",
+   "ko": "마스크 줬어. 집에 가래.",
+   "note": "donner → elle m'a donné · je lui ai dit → elle me dit · rentrer = 집에 돌아가다",
+   "tags": [],
+   "new": [
+    "masque",
+    "rentrer"
+   ],
+   "emotion": "flustered",
+   "at": "09:37",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "donné",
+     "donner",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "masque",
+     "masque",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rentrer",
+     "rentrer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "donné",
+     "donner",
+     ""
+    ],
+    [
+     "masque",
+     "masque",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "rentrer",
+     "rentrer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Mdr. Dis-lui que c'est pour ton coloc !",
+   "rd": "엠데에르. 디 뤼 끄 쎄 뿌르 똥 꼴록!",
+   "ko": "ㅋㅋ 룸메 거라고 말해!",
+   "note": "coloc = 룸메이트(colocataire) · dis-lui = 그 사람한테 말해",
+   "tags": [
+    "expr:mdr"
+   ],
+   "new": [
+    "coloc"
+   ],
+   "emotion": "amused",
+   "at": "09:38",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "que",
+     "que",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "coloc",
+     "coloc",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "coloc",
+     "coloc",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "J'ai essayé. Maintenant, elle croit que je mens aussi.",
+   "rd": "제 에쎄예. 맹뜨낭, 엘 크루아 끄 쥬 망 오씨.",
+   "ko": "해 봤지. 이젠 내가 거짓말까지 하는 줄 알아.",
+   "note": "essayer = 해 보다 · mentir = 거짓말하다(je mens)",
+   "tags": [],
+   "new": [
+    "essayer",
+    "mentir"
+   ],
+   "emotion": "annoyed",
+   "at": "09:40",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "essayé",
+     "essayer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "croit",
+     "croire",
+     "VERB",
+     "Tense=Pres|VerbForm=Part"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "mens",
+     "mentir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "essayé",
+     "essayer",
+     ""
+    ],
+    [
+     "Maintenant",
+     "maintenant",
+     ""
+    ],
+    [
+     "croit",
+     "croire",
+     ""
+    ],
+    [
+     "mens",
+     "mentir",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Bref. J'arrive avec le paracétamol, de la soupe et mon masque 🙃",
+   "rd": "브레프. 쟈리브 아벡 르 빠라쎄따몰, 드 라 쑤쁘 에 몽 마스끄.",
+   "ko": "아무튼. 해열제랑 수프랑 내 마스크 들고 간다 🙃",
+   "note": "bref = 아무튼 · soupe = 수프",
+   "tags": [
+    "expr:bref"
+   ],
+   "new": [
+    "soupe"
+   ],
+   "emotion": "amused",
+   "at": "09:41",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "paracétamol",
+     "paracétamol",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "soupe",
+     "soupe",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "masque",
+     "masque",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "🙃",
+     "🙃",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bref",
+     "bref",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ],
+    [
+     "paracétamol",
+     "paracétamol",
+     ""
+    ],
+    [
+     "soupe",
+     "soupe",
+     ""
+    ],
+    [
+     "masque",
+     "masque",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Théo… t'es le meilleur coloc du monde. Avec ou sans masque.",
+   "rd": "떼오… 떼 르 메이외르 꼴록 뒤 몽드. 아벡 우 쌍 마스끄.",
+   "ko": "테오… 넌 세상 최고의 룸메야. 마스크를 쓰든 안 쓰든.",
+   "note": "le meilleur … du monde = 세상에서 제일 좋은 · avec ou sans = …가 있든 없든",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "at": "09:42",
+   "ui": "bubble",
+   "stamp": "🫶",
+   "morph_tags": [
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "meilleur",
+     "meilleur",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "coloc",
+     "colocataire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "monde",
+     "monde",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "masque",
+     "masque",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "meilleur",
+     "meilleur",
+     ""
+    ],
+    [
+     "coloc",
+     "colocataire",
+     ""
+    ],
+    [
+     "monde",
+     "monde",
+     ""
+    ],
+    [
+     "masque",
+     "masque",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

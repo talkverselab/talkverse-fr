@@ -1,0 +1,1533 @@
+{
+ "id": "r5_life_d1",
+ "region": "R5",
+ "island": "life",
+ "kind": "long",
+ "title": "마음이 아파요",
+ "emoji": "💊",
+ "scene": "감기 걸린 A 가 위고와 약국에 간다. 「마음이 아프다」고 말하려다 「mal au cœur(속이 메스꺼워요)」라고 해 버리고, 위고가 진짜 이유를 일러바친다",
+ "where": "동네 약국",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Pharmacienne"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life",
+  "friends"
+ ],
+ "goal": "약국·건강 어휘(ordonnance·rhume·gorge·tousser·toux·fièvre·température·sirop·comprimé·effet secondaire·somnolence·nausée·vomir·estomac·médicament·mouchoir), 새 문법 없음",
+ "expressions": [
+  "d'accord",
+  "voilà"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Bonjour, je vous écoute. Vous avez une ordonnance ?",
+   "rd": "봉쥬르, 쥬 부 제꾸뜨. 부 자베 윈 노르도낭쓰?",
+   "ko": "안녕하세요, 말씀하세요. 처방전 있으세요?",
+   "note": "je vous écoute = 말씀하세요 · ordonnance = 처방전",
+   "tags": [],
+   "new": [
+    "ordonnance"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "écoute",
+     "écoute",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "ordonnance",
+     "ordonnance",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "écoute",
+     "écoute",
+     ""
+    ],
+    [
+     "ordonnance",
+     "ordonnance",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Non. J'ai un gros rhume. J'ai mal à la gorge et je tousse toute la nuit.",
+   "rd": "농. 졔 앙 그로 륌. 졔 말 알 라 고르쥬 에 쥬 뚜쓰 뚜뜨 라 뉘.",
+   "ko": "아뇨. 감기가 심해요. 목이 아프고 밤새 기침해요.",
+   "note": "rhume = 감기 · gorge = 목 · tousser = 기침하다",
+   "tags": [],
+   "new": [
+    "rhume",
+    "gorge",
+    "tousser"
+   ],
+   "emotion": "sad",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "gros",
+     "gros",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "rhume",
+     "rhum",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mal",
+     "mal",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "gorge",
+     "gorge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "tousse",
+     "tousser",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "toute",
+     "tout",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "nuit",
+     "nuit",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "gros",
+     "gros",
+     ""
+    ],
+    [
+     "rhume",
+     "rhum",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "gorge",
+     "gorge",
+     ""
+    ],
+    [
+     "tousse",
+     "tousser",
+     ""
+    ],
+    [
+     "toute",
+     "tout",
+     ""
+    ],
+    [
+     "nuit",
+     "nuit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Vous avez de la fièvre ? Vous avez pris votre température ?",
+   "rd": "부 자베 들 라 피에브르? 부 자베 프리 보트르 땅뻬라뛰르?",
+   "ko": "열 있으세요? 체온 재 보셨어요?",
+   "note": "fièvre = 열 · prendre sa température = 체온을 재다",
+   "tags": [],
+   "new": [
+    "fièvre",
+    "température"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fièvre",
+     "fièvre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "pris",
+     "prendre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "température",
+     "température",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fièvre",
+     "fièvre",
+     ""
+    ],
+    [
+     "pris",
+     "prendre",
+     ""
+    ],
+    [
+     "température",
+     "température",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Trente-huit ce matin. Je lui ai fait ma soupe au poireau, mais ça a pas suffi.",
+   "rd": "트랑뜨위뜨 쓰 마땡. 쥬 뤼 에 페 마 쑤쁘 오 뿌아로, 메 싸 아 빠 쒸피.",
+   "ko": "오늘 아침에 38도였어요. 제가 리크 수프 끓여 줬는데 소용없었어요.",
+   "note": "poireau = 리크(대파 비슷한 채소) · suffire = 충분하다",
+   "tags": [],
+   "new": [
+    "poireau",
+    "suffire",
+    "soupe"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Trente-huit",
+     "trente-huit",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "matin",
+     "matin",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "soupe",
+     "soupe",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "poireau",
+     "poireau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trente-huit",
+     "trente-huit",
+     ""
+    ],
+    [
+     "matin",
+     "matin",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "soupe",
+     "soupe",
+     ""
+    ],
+    [
+     "poireau",
+     "poireau",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "suffi",
+     "suffire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Je vous donne un sirop pour la toux et du paracétamol. Deux comprimés toutes les six heures.",
+   "rd": "쥬 부 돈 앙 씨로 뿌르 라 뚜 에 뒤 빠라쎄따몰. 되 꽁프리메 뚜뜨 레 씨 죄르.",
+   "ko": "기침 시럽하고 파라세타몰 드릴게요. 6시간마다 두 알씩이요.",
+   "note": "sirop = 시럽 · toux = 기침(2번 tousser) · comprimé = 알약",
+   "tags": [],
+   "new": [
+    "sirop",
+    "toux",
+    "paracétamol",
+    "comprimé"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "donne",
+     "donne",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sirop",
+     "sirop",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "toux",
+     "toux",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "du",
+     "de",
+     "DET",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "paracétamol",
+     "paracétamol",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "comprimés",
+     "comprimé",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "toutes",
+     "tout",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "donne",
+     "donne",
+     ""
+    ],
+    [
+     "sirop",
+     "sirop",
+     ""
+    ],
+    [
+     "toux",
+     "toux",
+     ""
+    ],
+    [
+     "paracétamol",
+     "paracétamol",
+     ""
+    ],
+    [
+     "comprimés",
+     "comprimé",
+     ""
+    ],
+    [
+     "toutes",
+     "tout",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Il y a des effets secondaires ? Je dois conduire demain.",
+   "rd": "일 리 아 데 제페 쓰공데르? 쥬 두아 꽁뒤르 드맹.",
+   "ko": "부작용 있어요? 내일 운전해야 해서요.",
+   "note": "effet secondaire = 부작용",
+   "tags": [],
+   "new": [
+    "effet secondaire"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "effets",
+     "effet",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "secondaires",
+     "secondaire",
+     "ADJ",
+     "Number=Plur"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dois",
+     "devoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "conduire",
+     "conduire",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "effets",
+     "effet",
+     ""
+    ],
+    [
+     "secondaires",
+     "secondaire",
+     ""
+    ],
+    [
+     "dois",
+     "devoir",
+     ""
+    ],
+    [
+     "conduire",
+     "conduire",
+     ""
+    ],
+    [
+     "demain",
+     "demain",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Le sirop peut provoquer une somnolence. Prenez-le plutôt le soir, avant de vous coucher.",
+   "rd": "르 씨로 뾔 프로보께 윈 쏨놀랑쓰. 프르네 르 쁠뤼또 르 수아르, 아방 드 부 꾸셰.",
+   "ko": "시럽은 졸음이 올 수 있어요. 되도록 저녁에 주무시기 전에 드세요.",
+   "note": "provoquer = 일으키다 · somnolence = 졸음 · se coucher = 자러 가다",
+   "tags": [],
+   "new": [
+    "provoquer",
+    "somnolence",
+    "coucher"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sirop",
+     "sirop",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "peut",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "provoquer",
+     "provoquer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "somnolence",
+     "somnolence",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Prenez",
+     "prendre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "-",
+     "-",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "coucher",
+     "coucher",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sirop",
+     "sirop",
+     ""
+    ],
+    [
+     "peut",
+     "pouvoir",
+     ""
+    ],
+    [
+     "provoquer",
+     "provoquer",
+     ""
+    ],
+    [
+     "somnolence",
+     "somnolence",
+     ""
+    ],
+    [
+     "Prenez",
+     "prendre",
+     ""
+    ],
+    [
+     "plutôt",
+     "plutôt",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "coucher",
+     "coucher",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "D'accord. Et… j'ai aussi très mal au cœur depuis deux jours.",
+   "rd": "다꼬르. 에… 졔 오씨 트레 말 오 꾀르 드쀠 되 쥬르.",
+   "ko": "알겠어요. 그리고… 이틀째 마음이 너무 아파요.",
+   "note": "avoir mal au cœur = 속이 메스껍다(마음이 아픈 게 아님!) — A 는 「마음이 아프다」로 말하려 했다",
+   "tags": [
+    "expr:d'accord"
+   ],
+   "new": [
+    "cœur"
+   ],
+   "emotion": "sad",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cœur",
+     "cœur",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "jours",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "très",
+     "très",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "cœur",
+     "cœur",
+     ""
+    ],
+    [
+     "jours",
+     "jour",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "fr": "Mal au cœur ? Vous avez des nausées ? Vous avez vomi ?",
+   "rd": "말 오 꾀르? 부 자베 데 노제? 부 자베 보미?",
+   "ko": "속이 메스꺼우세요? 구역질 나세요? 토하셨어요?",
+   "note": "nausée = 메스꺼움 · vomir = 토하다",
+   "tags": [],
+   "new": [
+    "nausée",
+    "vomir"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "cœur",
+     "cœur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "nausées",
+     "nausée",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vomi",
+     "vomir",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Mal",
+     "mal",
+     ""
+    ],
+    [
+     "cœur",
+     "cœur",
+     ""
+    ],
+    [
+     "nausées",
+     "nausée",
+     ""
+    ],
+    [
+     "vomi",
+     "vomir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Non, non ! Pas l'estomac. Le cœur, ici. Ça me fait mal quand je pense à quelqu'un.",
+   "rd": "농, 농! 빠 레스또마. 르 꾀르, 이씨. 싸 므 페 말 깡 쥬 빵쓰 아 껠꺙.",
+   "ko": "아뇨, 아뇨! 위 말고요. 심장, 여기요. 누구 생각하면 아파요.",
+   "note": "estomac = 위 · ça me fait mal = 아프다",
+   "tags": [],
+   "new": [
+    "estomac"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "estomac",
+     "estomac",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "pense",
+     "penser",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quelqu'",
+     "quelque",
+     "DET",
+     "Definite=Ind|Number=Sing|PronType=Art"
+    ],
+    [
+     "un",
+     "un",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "estomac",
+     "estomac",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "pense",
+     "penser",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "On répond plus à ses messages depuis mardi. C'est ça, son « mal au cœur ».",
+   "rd": "옹 레뽕 쁠뤼 아 쎄 메싸쥬 드쀠 마르디. 쎄 싸, 쏭 말 오 꾀르.",
+   "ko": "화요일부터 메시지에 답장이 안 오거든요. 그게 이 친구 「마음 아픔」이에요.",
+   "note": "on répond plus = 아무도 답을 안 한다(ne 생략)",
+   "tags": [],
+   "new": [
+    "répondre"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "répond",
+     "répondre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ses",
+     "son",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "messages",
+     "message",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "mardi",
+     "mardi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "son",
+     "son",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "mal",
+     "mal",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "cœur",
+     "cœur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "répond",
+     "répondre",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "messages",
+     "message",
+     ""
+    ],
+    [
+     "mardi",
+     "mardi",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "cœur",
+     "cœur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "On dit « j'ai le cœur brisé », pas « mal au cœur ». Pour ça, je n'ai rien.",
+   "rd": "옹 디 졔 르 꾀르 브리제, 빠 말 오 꾀르. 뿌르 싸, 쥬 네 리앵.",
+   "ko": "그럴 땐 「mal au cœur」가 아니라 「j'ai le cœur brisé」라고 해요. 그건 약이 없네요.",
+   "note": "cœur brisé = 상처받은 마음(직역: 부서진 심장)",
+   "tags": [],
+   "new": [
+    "brisé"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "brisé",
+     "briser",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "cœur",
+     "cœur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rien",
+     "rien",
+     "PRON",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "brisé",
+     "briser",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "cœur",
+     "cœur",
+     ""
+    ],
+    [
+     "n'",
+     "ne",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "fr": "Le cœur brisé… Bon. Je prends le sirop. Et vous avez des mouchoirs ?",
+   "rd": "르 꾀르 브리제… 봉. 쥬 프랑 르 씨로. 에 부 자베 데 무슈아르?",
+   "ko": "상처받은 마음… 그렇네요. 시럽 주시고요. 휴지 있어요?",
+   "note": "mouchoir = 휴지·손수건",
+   "tags": [],
+   "new": [
+    "mouchoir"
+   ],
+   "emotion": "sad",
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "brisé",
+     "briser",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "…",
+     "…",
+     "VERB",
+     "Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "prends",
+     "prend",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sirop",
+     "sirop",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "mouchoirs",
+     "mouchoir",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "brisé",
+     "briser",
+     ""
+    ],
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "prends",
+     "prendre",
+     ""
+    ],
+    [
+     "sirop",
+     "sirop",
+     ""
+    ],
+    [
+     "mouchoirs",
+     "mouchoir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "fr": "Voilà. Le sirop le soir, et pour le cœur… éteignez votre téléphone.",
+   "rd": "부알라. 르 씨로 르 수아르, 에 뿌르 르 꾀르… 에떼녜 보트르 뗄레폰.",
+   "ko": "여기요. 시럽은 저녁에, 그리고 마음은… 휴대폰을 꺼 두세요.",
+   "note": "éteindre = 끄다(éteignez = 명령형 vous)",
+   "tags": [
+    "expr:voilà"
+   ],
+   "new": [
+    "éteindre"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sirop",
+     "sirop",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "éteignez",
+     "éteindre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "téléphone",
+     "téléphone",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sirop",
+     "sirop",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "éteignez",
+     "éteindre",
+     ""
+    ],
+    [
+     "téléphone",
+     "téléphone",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

@@ -1,0 +1,595 @@
+{
+ "id": "r0_work_d1",
+ "region": "R0",
+ "island": "work",
+ "kind": "short",
+ "title": "그 버튼 말고",
+ "emoji": "☕",
+ "scene": "카미유가 일하는 카페에서 아르바이트 첫날. 카미유가 커피 머신 쓰는 법을 알려 준다",
+ "where": "카페",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "설명 따라 하기(tu mets… / je mets…)·같은 동사 tu ↔ je",
+ "expressions": [
+  "d'accord",
+  "oh là là",
+  "t'inquiète"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Bon, {name}, premier jour ! Tu fais un café ?",
+   "rd": "봉, {name}, 프르미에 쥬르! 뛰 페 앙 까페?",
+   "ko": "자, {name}, 첫날이다! 커피 한 잔 내려 볼래?",
+   "note": "premier jour = 첫날 · faire un café = 커피를 내리다",
+   "tags": [],
+   "new": [
+    "premier"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "premier",
+     "premier",
+     "ADJ",
+     "Gender=Masc|NumType=Ord|Number=Sing"
+    ],
+    [
+     "jour",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "fais",
+     "fai",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "premier",
+     "premier",
+     ""
+    ],
+    [
+     "jour",
+     "jour",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "D'accord ! Je fais comment ?",
+   "rd": "다꼬르! 쥬 페 꼬망?",
+   "ko": "알았어! 어떻게 해?",
+   "note": "tu fais → je fais · comment = 어떻게",
+   "tags": [
+    "expr:d'accord"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fais",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "comment",
+     "comment",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Tu mets la tasse ici. Et tu appuies là.",
+   "rd": "뛰 메 라 따쓰 이씨. 에 뛰 아쀠 라.",
+   "ko": "컵을 여기 놓고. 여기를 눌러.",
+   "note": "mettre = 놓다 · tasse = 컵 · appuyer = 누르다",
+   "tags": [],
+   "new": [
+    "tasse",
+    "appuyer"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mets",
+     "mets",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "tasse",
+     "tasse",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "appuies",
+     "appuie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "tasse",
+     "tasse",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ],
+    [
+     "appuies",
+     "appuie",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Je mets la tasse… et j'appuie… ici ?",
+   "rd": "쥬 메 라 따쓰… 에 쟈쀠… 이씨?",
+   "ko": "컵 놓고… 누르고… 여기?",
+   "note": "tu mets → je mets · tu appuies → j'appuie",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "mets",
+     "mettre",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tasse",
+     "tasse",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "appuie",
+     "appuyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "…",
+     "…",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "tasse",
+     "tasse",
+     ""
+    ],
+    [
+     "appuie",
+     "appuyer",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Non, pas ce bouton ! C'est le lait !",
+   "rd": "농, 빠 쓰 부똥! 쎄 르 레!",
+   "ko": "아니, 그 버튼 말고! 그건 우유야!",
+   "note": "bouton = 버튼 · lait = 우유",
+   "tags": [],
+   "new": [
+    "bouton",
+    "lait"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "bouton",
+     "bouton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "lait",
+     "lait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "bouton",
+     "bouton",
+     ""
+    ],
+    [
+     "lait",
+     "lait",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Oh là là… y a du lait partout !",
+   "rd": "올랄라… 야 뒤 레 빠르뚜!",
+   "ko": "맙소사… 사방이 우유야!",
+   "note": "partout = 사방에 · y a = 있다(il y a)",
+   "tags": [
+    "expr:oh là là"
+   ],
+   "new": [
+    "partout"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "du",
+     "de",
+     "DET",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "lait",
+     "lait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "lait",
+     "lait",
+     ""
+    ],
+    [
+     "partout",
+     "partout",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "T'inquiète, tout le monde fait ça.",
+   "rd": "땡끼에뜨, 뚜 르 몽드 페 싸.",
+   "ko": "걱정 마, 다들 그래.",
+   "note": "t'inquiète = 걱정 마 · tout le monde fait = 다들 한다(je fais·tu fais → il fait)",
+   "tags": [
+    "expr:t'inquiète"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "tout",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "monde",
+     "monde",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "monde",
+     "monde",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Toi, tu nettoies. Moi, je fais le café.",
+   "rd": "뚜아, 뛰 네뚜아. 무아, 쥬 페 르 까페.",
+   "ko": "넌 닦아. 커피는 내가 할게.",
+   "note": "nettoyer = 닦다 · tu fais → je fais",
+   "tags": [],
+   "new": [
+    "nettoyer"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "tu",
+     "tu",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "nettoies",
+     "nettoie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fais",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "nettoies",
+     "nettoie",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

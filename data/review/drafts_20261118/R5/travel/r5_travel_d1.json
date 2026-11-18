@@ -1,0 +1,1411 @@
+{
+ "id": "r5_travel_d1",
+ "region": "R5",
+ "island": "travel",
+ "kind": "long",
+ "title": "수동 기어",
+ "emoji": "🚗",
+ "scene": "공항 렌터카 카운터. 테오가 제일 싼 수동 차를 고르고 「할아버지 차로 배웠다」며 큰소리치다가 주차장 출구에서 시동을 세 번 꺼뜨린다",
+ "where": "공항 렌터카 카운터·주차장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Agente"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "friends"
+ ],
+ "goal": "렌터카·운전 어휘(permis de conduire·caution·carte bancaire·assurance·franchise·réservoir·kilométrage illimité·essence·gazole·boîte manuelle/automatique·démarrer·caler·embrayage·pédale), 새 문법 없음",
+ "expressions": [
+  "pas de problème",
+  "laisse tomber"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Bonjour. Vous avez votre permis de conduire et une carte bancaire pour la caution ?",
+   "rd": "봉쥬르. 부 자베 보트르 뻬르미 드 꽁뒤르 에 윈 까르뜨 방꺄르 뿌르 라 꼬씨옹?",
+   "ko": "안녕하세요. 운전면허증하고 보증금 낼 카드 있으세요?",
+   "note": "permis de conduire = 운전면허 · carte bancaire = 은행 카드 · caution = 보증금",
+   "tags": [],
+   "new": [
+    "permis",
+    "conduire",
+    "carte bancaire",
+    "caution"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "permis",
+     "permettre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "conduire",
+     "conduire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "carte",
+     "carte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "bancaire",
+     "bancaire",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "caution",
+     "caution",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "permis",
+     "permettre",
+     ""
+    ],
+    [
+     "conduire",
+     "conduire",
+     ""
+    ],
+    [
+     "carte",
+     "carte",
+     ""
+    ],
+    [
+     "bancaire",
+     "bancaire",
+     ""
+    ],
+    [
+     "caution",
+     "caution",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Oui, tenez. On a réservé la petite voiture, la moins chère.",
+   "rd": "위, 뜨네. 옹 나 레제르베 라 쁘띠뜨 부아뛰르, 라 무앵 셰르.",
+   "ko": "네, 여기요. 제일 싼 작은 차로 예약했어요.",
+   "note": "tenez = 여기 있어요(vous) · la moins chère = 가장 싼",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "tenez",
+     "tenir",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "réservé",
+     "réserver",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "petite",
+     "petit",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "voiture",
+     "voiture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chère",
+     "cher",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tenez",
+     "tenir",
+     ""
+    ],
+    [
+     "réservé",
+     "réserver",
+     ""
+    ],
+    [
+     "petite",
+     "petit",
+     ""
+    ],
+    [
+     "voiture",
+     "voiture",
+     ""
+    ],
+    [
+     "moins",
+     "moins",
+     ""
+    ],
+    [
+     "chère",
+     "cher",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Très bien. L'assurance de base est comprise, avec une franchise de mille euros.",
+   "rd": "트레 비앵. 라쒸랑쓰 드 바즈 에 꽁프리즈, 아베끄 윈 프랑쉬즈 드 밀 뢰로.",
+   "ko": "좋습니다. 기본 보험은 포함이고, 자기부담금은 천 유로예요.",
+   "note": "assurance = 보험 · de base = 기본 · franchise = 자기부담금",
+   "tags": [],
+   "new": [
+    "assurance",
+    "base",
+    "franchise"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "L'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "assurance",
+     "assurance",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "base",
+     "base",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "comprise",
+     "comprendre",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "franchise",
+     "franchise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Très",
+     "très",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "assurance",
+     "assurance",
+     ""
+    ],
+    [
+     "base",
+     "base",
+     ""
+    ],
+    [
+     "comprise",
+     "comprendre",
+     ""
+    ],
+    [
+     "franchise",
+     "franchise",
+     ""
+    ],
+    [
+     "euros",
+     "euro",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Mille euros ? Et pour la supprimer, ça coûte combien ?",
+   "rd": "밀 뢰로? 에 뿌르 라 쒸프리메, 싸 꾸뜨 꽁비앵?",
+   "ko": "천 유로요? 그거 없애려면 얼마예요?",
+   "note": "la = la franchise",
+   "tags": [],
+   "new": [
+    "coûter"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "supprimer",
+     "supprimer",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "coûte",
+     "coûter",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "euros",
+     "euro",
+     ""
+    ],
+    [
+     "supprimer",
+     "supprimer",
+     ""
+    ],
+    [
+     "coûte",
+     "coûter",
+     ""
+    ],
+    [
+     "combien",
+     "combien",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Quinze euros par jour. Le réservoir est plein, vous le rendez plein. Kilométrage illimité.",
+   "rd": "깽 죄로 빠르 쥬르. 르 레제르부아르 에 쁠랭, 부 르 랑데 쁠랭. 낄로메트라쥬 일리미떼.",
+   "ko": "하루 15유로요. 기름은 가득 차 있고, 반납도 가득 채워서 해 주세요. 주행거리는 무제한이에요.",
+   "note": "réservoir = 연료 탱크 · plein = 가득 찬 · kilométrage illimité = 주행거리 무제한",
+   "tags": [],
+   "new": [
+    "réservoir",
+    "plein",
+    "kilométrage",
+    "illimité"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "jour",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "réservoir",
+     "réservoir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "plein",
+     "plein",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "rendez",
+     "rendez",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "plein",
+     "plein",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Kilométrage",
+     "kilométrage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "illimité",
+     "illimité",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "euros",
+     "euro",
+     ""
+    ],
+    [
+     "jour",
+     "jour",
+     ""
+    ],
+    [
+     "réservoir",
+     "réservoir",
+     ""
+    ],
+    [
+     "plein",
+     "plein",
+     ""
+    ],
+    [
+     "rendez",
+     "rendez",
+     ""
+    ],
+    [
+     "Kilométrage",
+     "kilométrage",
+     ""
+    ],
+    [
+     "illimité",
+     "illimité",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Parfait. C'est de l'essence ou du gazole ?",
+   "rd": "빠르페. 쎄 들 레쌍쓰 우 뒤 가졸?",
+   "ko": "좋아요. 휘발유예요, 경유예요?",
+   "note": "essence = 휘발유 · gazole = 경유",
+   "tags": [],
+   "new": [
+    "essence",
+    "gazole"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Parfait",
+     "parfaire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "essence",
+     "essence",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "gazole",
+     "gazole",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Parfait",
+     "parfait",
+     ""
+    ],
+    [
+     "essence",
+     "essence",
+     ""
+    ],
+    [
+     "gazole",
+     "gazole",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "De l'essence. Et c'est une boîte manuelle. Ça ne vous pose pas de problème ?",
+   "rd": "들 레쌍쓰. 에 쎄 뛴 부아뜨 마뉘엘. 싸 느 부 뽀즈 빠 드 프로블렘?",
+   "ko": "휘발유요. 그리고 수동 기어예요. 괜찮으시죠?",
+   "note": "boîte manuelle = 수동 변속기 ↔ boîte automatique",
+   "tags": [
+    "expr:pas de problème"
+   ],
+   "new": [
+    "boîte",
+    "manuel"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "essence",
+     "essence",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "boîte",
+     "boîte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "manuelle",
+     "manuel",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "pose",
+     "pose",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "de",
+     "de",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "problème",
+     "problème",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "essence",
+     "essence",
+     ""
+    ],
+    [
+     "boîte",
+     "boîte",
+     ""
+    ],
+    [
+     "manuelle",
+     "manuel",
+     ""
+    ],
+    [
+     "ne",
+     "ne",
+     ""
+    ],
+    [
+     "pose",
+     "pose",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "problème",
+     "problème",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Aucun problème. J'ai appris à conduire sur la voiture de mon grand-père.",
+   "rd": "오꺙 프로블렘. 졔 아프리 아 꽁뒤르 쒸르 라 부아뛰르 드 몽 그랑뻬르.",
+   "ko": "전혀 문제없어요. 할아버지 차로 운전 배웠거든요.",
+   "note": "1번 permis de conduire → apprendre à conduire",
+   "tags": [],
+   "new": [
+    "grand-père"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Aucun",
+     "aucun",
+     "DET",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "problème",
+     "problème",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "appris",
+     "apprendre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "conduire",
+     "conduire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "voiture",
+     "voiture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "grand-père",
+     "grand-père",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "problème",
+     "problème",
+     ""
+    ],
+    [
+     "appris",
+     "apprendre",
+     ""
+    ],
+    [
+     "conduire",
+     "conduire",
+     ""
+    ],
+    [
+     "voiture",
+     "voiture",
+     ""
+    ],
+    [
+     "grand-père",
+     "grand-père",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Théo… ton grand-père, il avait pas une voiture automatique ?",
+   "rd": "떼오… 똥 그랑뻬르, 일 라베 빠 윈 부아뛰르 오또마띠끄?",
+   "ko": "테오… 너희 할아버지 차 자동 아니었어?",
+   "note": "",
+   "tags": [],
+   "new": [
+    "automatique"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "ton",
+     "ton",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "grand-père",
+     "grand-pèr",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "avait",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "voiture",
+     "voiture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "automatique",
+     "automatique",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "grand-père",
+     "grand-père",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "voiture",
+     "voiture",
+     ""
+    ],
+    [
+     "automatique",
+     "automatique",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Bon, je démarre… Elle a calé. Encore. Pourquoi elle cale ?",
+   "rd": "봉, 쥬 데마르… 엘 라 깔레. 앙꼬르. 뿌르꾸아 엘 깔?",
+   "ko": "자, 시동 건다… 꺼졌다. 또. 왜 자꾸 꺼져?",
+   "note": "démarrer = 시동 걸다·출발하다 · caler = (시동이) 꺼지다",
+   "tags": [],
+   "new": [
+    "démarrer",
+    "caler"
+   ],
+   "segs": [
+    [
+     "cheerful",
+     "Bon, je démarre…"
+    ],
+    [
+     "annoyed",
+     "Elle a calé. Encore. Pourquoi elle cale ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "calé",
+     "calé",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "cale",
+     "cal",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "démarre",
+     "démarr",
+     ""
+    ],
+    [
+     "calé",
+     "calé",
+     ""
+    ],
+    [
+     "Encore",
+     "encore",
+     ""
+    ],
+    [
+     "Pourquoi",
+     "pourquoi",
+     ""
+    ],
+    [
+     "cale",
+     "cal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Il faut appuyer sur l'embrayage, Théo ! La pédale de gauche !",
+   "rd": "일 포 아쀠이예 쒸르 랑브레이아쥬, 떼오! 라 뻬달 드 고슈!",
+   "ko": "클러치 밟아야지, 테오! 왼쪽 페달!",
+   "note": "appuyer sur = 누르다·밟다 · embrayage = 클러치",
+   "tags": [],
+   "new": [
+    "appuyer",
+    "embrayage",
+    "pédale",
+    "gauche"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "appuyer",
+     "appuyer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "embrayage",
+     "embrayage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "pédale",
+     "pédale",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "gauche",
+     "gauche",
+     "NOUN",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "appuyer",
+     "appuyer",
+     ""
+    ],
+    [
+     "embrayage",
+     "embrayage",
+     ""
+    ],
+    [
+     "pédale",
+     "pédale",
+     ""
+    ],
+    [
+     "gauche",
+     "gauche",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "Monsieur, vous bloquez la sortie du parking. Il y a déjà trois voitures derrière vous.",
+   "rd": "므씨외, 부 블로께 라 쏘르띠 뒤 빠르낑. 일 리 아 데쟈 트루아 부아뛰르 데리에르 부.",
+   "ko": "손님, 주차장 출구를 막고 계세요. 뒤에 벌써 차가 세 대예요.",
+   "note": "bloquer = 막다 · sortie = 출구",
+   "tags": [],
+   "new": [
+    "bloquer",
+    "sortie",
+    "parking",
+    "derrière"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "Monsieur",
+     "monsieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "bloquez",
+     "bloquer",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "sortie",
+     "sortie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "parking",
+     "parking",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "voitures",
+     "voiture",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Monsieur",
+     "monsieur",
+     ""
+    ],
+    [
+     "bloquez",
+     "bloquer",
+     ""
+    ],
+    [
+     "sortie",
+     "sortie",
+     ""
+    ],
+    [
+     "parking",
+     "parking",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "voitures",
+     "voiture",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "fr": "Euh… La voiture automatique, elle coûte combien de plus ?",
+   "rd": "외… 라 부아뛰르 오또마띠끄, 엘 꾸뜨 꽁비앵 드 쁠뤼쓰?",
+   "ko": "어… 자동 차는 얼마 더 내야 해요?",
+   "note": "de plus = 더(추가로) · 4번 ça coûte → elle coûte",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "voiture",
+     "voiture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "automatique",
+     "automatique",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "coûte",
+     "coûter",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Euh",
+     "euh",
+     ""
+    ],
+    [
+     "voiture",
+     "voiture",
+     ""
+    ],
+    [
+     "automatique",
+     "automatique",
+     ""
+    ],
+    [
+     "coûte",
+     "coûter",
+     ""
+    ],
+    [
+     "combien",
+     "combien",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "fr": "Laisse tomber, donne-moi les clés. C'est moi qui conduis jusqu'à l'hôtel.",
+   "rd": "레쓰 똥베, 돈 무아 레 끌레. 쎄 무아 끼 꽁뒤 쥐스까 로뗄.",
+   "ko": "됐어, 열쇠 줘. 호텔까지 내가 운전할게.",
+   "note": "conduire → je conduis · laisse tomber = 됐어, 그만둬",
+   "tags": [
+    "expr:laisse tomber"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "tomber",
+     "tomber",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "donne",
+     "donne",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "-moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "clés",
+     "clé",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "hôtel",
+     "hôtel",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tomber",
+     "tomber",
+     ""
+    ],
+    [
+     "donne",
+     "donne",
+     ""
+    ],
+    [
+     "clés",
+     "clé",
+     ""
+    ],
+    [
+     "hôtel",
+     "hôtel",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

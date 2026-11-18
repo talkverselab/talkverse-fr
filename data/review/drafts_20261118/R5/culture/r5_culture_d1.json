@@ -1,0 +1,1598 @@
+{
+ "id": "r5_culture_d1",
+ "region": "R5",
+ "island": "culture",
+ "kind": "long",
+ "title": "화면 캡처는 안 돼요",
+ "emoji": "🎫",
+ "scene": "매진된 콘서트 입구. 카미유가 리셀로 구한 표를 보여 주려는 순간 휴대폰이 꺼지고, A 가 받은 표는 화면 캡처라 무효다. 오프닝 공연까지 10분",
+ "where": "공연장 입구",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Agent de sécurité"
+ },
+ "cast": {
+  "C": "man_m"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "공연 어휘(file d'attente·complet·fosse·debout·scène·revente·billet·première partie·chanteuse·rappel·capture d'écran·valable·chargeur·batterie·accueil), 새 문법 없음",
+ "expressions": [
+  "t'inquiète",
+  "tiens",
+  "voilà",
+  "attends",
+  "c'est pas vrai"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "On a bien fait de venir tôt. La file d'attente fait déjà le tour du bâtiment.",
+   "rd": "옹 나 비앵 페 드 브니르 또. 라 필 다땅뜨 페 데쟈 르 뚜르 뒤 바띠망.",
+   "ko": "일찍 오길 잘했다. 줄이 벌써 건물을 한 바퀴 돌았어.",
+   "note": "file d'attente = 대기 줄 · faire le tour = 한 바퀴 돌다 · bâtiment = 건물",
+   "tags": [],
+   "new": [
+    "file d'attente",
+    "bâtiment",
+    "tour"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "venir",
+     "venir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "file",
+     "file",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "attente",
+     "attente",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "tour",
+     "tour",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bâtiment",
+     "bâtiment",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "venir",
+     "venir",
+     ""
+    ],
+    [
+     "tôt",
+     "tôt",
+     ""
+    ],
+    [
+     "file",
+     "file",
+     ""
+    ],
+    [
+     "attente",
+     "attente",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "tour",
+     "tour",
+     ""
+    ],
+    [
+     "bâtiment",
+     "bâtiment",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "C'est complet depuis des semaines, normal. On a des places dans la fosse ?",
+   "rd": "쎄 꽁쁠레 드쀠 데 쓰멘, 노르말. 옹 나 데 쁠라쓰 당 라 포쓰?",
+   "ko": "몇 주 전부터 매진이었으니 당연하지. 우리 무대 앞 스탠딩이야?",
+   "note": "complet = 매진 · fosse = 무대 앞 스탠딩 구역",
+   "tags": [],
+   "new": [
+    "complet",
+    "fosse"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "complet",
+     "complet",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "semaines",
+     "semaine",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "normal",
+     "normal",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "places",
+     "place",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fosse",
+     "fosse",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "complet",
+     "complet",
+     ""
+    ],
+    [
+     "semaines",
+     "semaine",
+     ""
+    ],
+    [
+     "normal",
+     "normal",
+     ""
+    ],
+    [
+     "places",
+     "place",
+     ""
+    ],
+    [
+     "fosse",
+     "fosse",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Oui, debout, juste devant la scène. Je les ai eues sur le site de revente.",
+   "rd": "위, 드부, 쥐스뜨 드방 라 쎈. 쥬 레 쥐 쒸르 르 씨뜨 드 르방뜨.",
+   "ko": "응, 무대 바로 앞 스탠딩. 리셀 사이트에서 구했어.",
+   "note": "debout = 서서 · revente = 재판매 · les ai eues = places(여성 복수) 일치",
+   "tags": [],
+   "new": [
+    "debout",
+    "scène",
+    "revente",
+    "site"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "scène",
+     "scène",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "les",
+     "le",
+     "PRON",
+     "Number=Plur|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "eues",
+     "avoir",
+     "ADJ",
+     "Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "site",
+     "site",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "revente",
+     "revente",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "debout",
+     "debout",
+     ""
+    ],
+    [
+     "juste",
+     "juste",
+     ""
+    ],
+    [
+     "scène",
+     "scène",
+     ""
+    ],
+    [
+     "site",
+     "site",
+     ""
+    ],
+    [
+     "revente",
+     "revente",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "La revente ? Elles sont pas fausses, au moins ?",
+   "rd": "라 르방뜨? 엘 쏭 빠 포쓰, 오 무앵?",
+   "ko": "리셀? 적어도 가짜는 아니지?",
+   "note": "faux/fausse = 가짜의",
+   "tags": [],
+   "new": [
+    "faux"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "revente",
+     "revente",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fausses",
+     "faux",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "revente",
+     "revente",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "fausses",
+     "faux",
+     ""
+    ],
+    [
+     "moins",
+     "moins",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "T'inquiète, c'est le site officiel. Tiens, je t'envoie ton billet… Voilà.",
+   "rd": "땡끼에뜨, 쎄 르 씨뜨 오피씨엘. 띠앵, 쥬 땅부아 똥 비예… 부알라.",
+   "ko": "걱정 마, 공식 사이트야. 자, 네 표 보낼게… 됐다.",
+   "note": "officiel = 공식의 · billet = 표",
+   "tags": [
+    "expr:t'inquiète",
+    "expr:tiens",
+    "expr:voilà"
+   ],
+   "new": [
+    "officiel",
+    "billet"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "site",
+     "site",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "officiel",
+     "officiel",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Tiens",
+     "tien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "envoie",
+     "envoyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ton",
+     "ton",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "billet",
+     "billet",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "site",
+     "site",
+     ""
+    ],
+    [
+     "officiel",
+     "officiel",
+     ""
+    ],
+    [
+     "Tiens",
+     "tien",
+     ""
+    ],
+    [
+     "envoie",
+     "envoyer",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "billet",
+     "billet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Merci. La première partie commence à quelle heure ?",
+   "rd": "메르씨. 라 프르미에르 빠르띠 꼬망쓰 아 껠 뢰르?",
+   "ko": "고마워. 오프닝 공연은 몇 시에 시작해?",
+   "note": "première partie = 오프닝 공연",
+   "tags": [],
+   "new": [
+    "première partie"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "première",
+     "premier",
+     "ADJ",
+     "Gender=Fem|NumType=Ord|Number=Sing"
+    ],
+    [
+     "partie",
+     "partie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "commence",
+     "commence",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "quelle",
+     "quel",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Int"
+    ],
+    [
+     "heure",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "première",
+     "premier",
+     ""
+    ],
+    [
+     "partie",
+     "partie",
+     ""
+    ],
+    [
+     "commence",
+     "commence",
+     ""
+    ],
+    [
+     "heure",
+     "heure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Vingt heures. La chanteuse arrive vers vingt et une heures, et elle fait toujours deux rappels.",
+   "rd": "뱅 뙤르. 라 샹뙤즈 아리브 베르 뱅떼 윈 뇌르, 에 엘 페 뚜쥬르 되 라뺄.",
+   "ko": "8시. 가수는 9시쯤 나오고, 앙코르를 늘 두 번 해.",
+   "note": "chanteuse = 여가수(남 chanteur) · rappel = 앙코르",
+   "tags": [],
+   "new": [
+    "chanteuse",
+    "rappel"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chanteuse",
+     "chanteur",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rappels",
+     "rappel",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "chanteuse",
+     "chanteur",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ],
+    [
+     "rappels",
+     "rappel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "fr": "Bonsoir. Vos billets, s'il vous plaît. Et ouvrez vos sacs.",
+   "rd": "봉수아르. 보 비예, 씰 부 쁠레. 에 우브레 보 싹.",
+   "ko": "안녕하세요. 표 보여 주세요. 가방도 열어 주시고요.",
+   "note": "5번 ton billet → vos billets",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "Vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "billets",
+     "billet",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "plaît",
+     "plaire",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ouvrez",
+     "ouvrir",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "sacs",
+     "sac",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "billets",
+     "billet",
+     ""
+    ],
+    [
+     "plaît",
+     "plaire",
+     ""
+    ],
+    [
+     "ouvrez",
+     "ouvrir",
+     ""
+    ],
+    [
+     "sacs",
+     "sac",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Tenez. Attends, mon écran est noir. Mon téléphone vient de s'éteindre !",
+   "rd": "뜨네. 아땅, 모 네끄랑 에 누아르. 몽 뗄레폰 비앵 드 쎄뗑드르!",
+   "ko": "여기요. 잠깐, 화면이 까매. 휴대폰이 방금 꺼졌어!",
+   "note": "s'éteindre = 꺼지다",
+   "tags": [
+    "expr:attends"
+   ],
+   "new": [
+    "écran",
+    "éteindre"
+   ],
+   "segs": [
+    [
+     "polite",
+     "Tenez."
+    ],
+    [
+     "shout",
+     "Attends, mon écran est noir. Mon téléphone vient de s'éteindre !"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "écran",
+     "écran",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "noir",
+     "noir",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "téléphone",
+     "téléphone",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vient",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "s'",
+     "se",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "éteindre",
+     "éteindre",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "écran",
+     "écran",
+     ""
+    ],
+    [
+     "noir",
+     "noir",
+     ""
+    ],
+    [
+     "téléphone",
+     "téléphone",
+     ""
+    ],
+    [
+     "vient",
+     "venir",
+     ""
+    ],
+    [
+     "éteindre",
+     "éteindre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Pas de panique, j'ai le mien. Monsieur, voilà mon billet.",
+   "rd": "빠 드 빠니끄, 졔 르 미앵. 므씨외, 부알라 몽 비예.",
+   "ko": "당황하지 마, 내 거 있어. 아저씨, 제 표요.",
+   "note": "panique = 공황 · le mien = 내 것",
+   "tags": [
+    "expr:voilà"
+   ],
+   "new": [
+    "panique"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "panique",
+     "panique",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mien",
+     "mien",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Monsieur",
+     "monsieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "voilà",
+     "voilà",
+     "VERB",
+     "Tense=Pres|VerbForm=Part"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "billet",
+     "billet",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "panique",
+     "panique",
+     ""
+    ],
+    [
+     "mien",
+     "mien",
+     ""
+    ],
+    [
+     "Monsieur",
+     "monsieur",
+     ""
+    ],
+    [
+     "voilà",
+     "voilà",
+     ""
+    ],
+    [
+     "billet",
+     "billet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "fr": "Ça, c'est une capture d'écran. Le code change toutes les trente secondes. Il n'est pas valable.",
+   "rd": "싸, 쎄 뛴 깝뛰르 데끄랑. 르 꼬드 샹쥬 뚜뜨 레 트랑뜨 쓰공드. 일 네 빠 발라블.",
+   "ko": "이건 화면 캡처예요. 코드가 30초마다 바뀌어요. 유효하지 않아요.",
+   "note": "capture d'écran = 스크린숏 · valable = 유효한",
+   "tags": [],
+   "new": [
+    "capture d'écran",
+    "code",
+    "valable"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "capture",
+     "capture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "écran",
+     "écran",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "code",
+     "code",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "change",
+     "change",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "toutes",
+     "tout",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "secondes",
+     "seconde",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "valable",
+     "valable",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "capture",
+     "capture",
+     ""
+    ],
+    [
+     "écran",
+     "écran",
+     ""
+    ],
+    [
+     "code",
+     "code",
+     ""
+    ],
+    [
+     "change",
+     "change",
+     ""
+    ],
+    [
+     "toutes",
+     "tout",
+     ""
+    ],
+    [
+     "secondes",
+     "seconde",
+     ""
+    ],
+    [
+     "n'",
+     "ne",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "valable",
+     "valable",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "fr": "C'est pas vrai… Quelqu'un a un chargeur ? Il me faut cinq minutes de batterie !",
+   "rd": "쎄 빠 브레… 껠꺙 아 앙 샤르죄르? 일 므 포 쌩 미뉘뜨 드 바뜨리!",
+   "ko": "말도 안 돼… 누구 충전기 있어요? 배터리 5분만 있으면 돼요!",
+   "note": "chargeur = 충전기 · batterie = 배터리",
+   "tags": [
+    "expr:c'est pas vrai"
+   ],
+   "new": [
+    "chargeur",
+    "batterie"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vrai",
+     "vrai",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "un",
+     "un",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chargeur",
+     "chargeur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "minutes",
+     "minute",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "batterie",
+     "batterie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "vrai",
+     "vrai",
+     ""
+    ],
+    [
+     "chargeur",
+     "chargeur",
+     ""
+    ],
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ],
+    [
+     "batterie",
+     "batterie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "fr": "Il y a une borne de recharge à l'accueil. Mais la première partie commence dans dix minutes.",
+   "rd": "일 리 아 윈 보른 드 르샤르쥬 아 라꾀이. 메 라 프르미에르 빠르띠 꼬망쓰 당 디 미뉘뜨.",
+   "ko": "안내 데스크에 충전기가 있어요. 근데 오프닝 공연이 10분 뒤에 시작해요.",
+   "note": "borne de recharge = 충전 스탠드 · accueil = 안내 데스크",
+   "tags": [],
+   "new": [
+    "borne",
+    "recharge",
+    "accueil"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "borne",
+     "borne",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "recharge",
+     "recharge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "accueil",
+     "accueil",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "première",
+     "premier",
+     "ADJ",
+     "Gender=Fem|NumType=Ord|Number=Sing"
+    ],
+    [
+     "partie",
+     "partie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "commence",
+     "commence",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "minutes",
+     "minute",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "borne",
+     "borne",
+     ""
+    ],
+    [
+     "recharge",
+     "recharge",
+     ""
+    ],
+    [
+     "accueil",
+     "accueil",
+     ""
+    ],
+    [
+     "première",
+     "premier",
+     ""
+    ],
+    [
+     "partie",
+     "partie",
+     ""
+    ],
+    [
+     "commence",
+     "commence",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "fr": "Cours ! Je garde notre place dans la fosse… enfin, si on me laisse entrer.",
+   "rd": "꾸르! 쥬 가르드 노트르 쁠라쓰 당 라 포쓰… 앙팽, 씨 옹 므 레쓰 앙트레.",
+   "ko": "뛰어! 스탠딩 자리는 내가 맡을게… 아, 날 들여보내 준다면.",
+   "note": "cours = courir 명령형 · 2번 des places → notre place",
+   "tags": [],
+   "new": [
+    "courir"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "garde",
+     "garde",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "notre",
+     "notre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "place",
+     "place",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fosse",
+     "fosse",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "laisse",
+     "laisse",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "entrer",
+     "entrer",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "garde",
+     "garde",
+     ""
+    ],
+    [
+     "place",
+     "place",
+     ""
+    ],
+    [
+     "fosse",
+     "fosse",
+     ""
+    ],
+    [
+     "enfin",
+     "enfin",
+     ""
+    ],
+    [
+     "laisse",
+     "laisse",
+     ""
+    ],
+    [
+     "entrer",
+     "entrer",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

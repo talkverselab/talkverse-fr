@@ -1,0 +1,1381 @@
+{
+ "id": "r4_love_d1",
+ "region": "R4",
+ "island": "love",
+ "kind": "long",
+ "title": "접속법 예문",
+ "emoji": "✏️",
+ "scene": "카페 언어 교환. 레아가 접속법 예문을 들어 주는데, 예문이 점점 「토요일에 와 줬으면 좋겠어」로 바뀐다 — 레아는 월요일부터 그 문장들을 준비해 왔다",
+ "where": "카페 테라스, 언어 교환",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "study_abroad"
+ ],
+ "domain": [
+  "love",
+  "study"
+ ],
+ "goal": "접속법 익힘(il faut que je l'utilise · je veux que tu viennes · j'aimerais que tu sois · il faudrait que tu m'invites avant que je perde · je voulais que ce soit) · 조건법 j'aimerais·il faudrait · 대과거 j'avais préparé",
+ "expressions": [
+  "grave",
+  "vas-y",
+  "tu vois",
+  "attends",
+  "d'accord"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Alors, aujourd'hui, c'est le subjonctif. Tu le trouves toujours difficile ?",
+   "rd": "알로르, 오쥬르뒤, 쎄 르 쒸브종띠프. 뛰 르 트루브 뚜쥬르 디피씰?",
+   "ko": "자, 오늘은 접속법이야. 아직도 어려워?",
+   "note": "subjonctif = 접속법 · le = 그것(접속법)",
+   "tags": [],
+   "new": [
+    "subjonctif",
+    "difficile"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "subjonctif",
+     "subjonctif",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "trouves",
+     "trouve",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "difficile",
+     "difficile",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Alors",
+     "alors",
+     ""
+    ],
+    [
+     "aujourd'hui",
+     "aujourd'hui",
+     ""
+    ],
+    [
+     "subjonctif",
+     "subjonctif",
+     ""
+    ],
+    [
+     "trouves",
+     "trouve",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ],
+    [
+     "difficile",
+     "difficile",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Grave. Je sais jamais quand il faut que je l'utilise.",
+   "rd": "그라브. 쥬 쎄 쟈메 깡 띨 포 끄 쥬 뤼띨리즈.",
+   "ko": "완전. 언제 써야 하는지 도무지 모르겠어.",
+   "note": "grave = 완전(구어 강조) · il faut que + 접속법(utilise — 형태는 직설법과 같음)",
+   "tags": [
+    "expr:grave",
+    "form:subjonctif"
+   ],
+   "new": [
+    "utiliser"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "sais",
+     "savoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "utilise",
+     "utilise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sais",
+     "savoir",
+     ""
+    ],
+    [
+     "jamais",
+     "jamais",
+     ""
+    ],
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "utilise",
+     "utilise",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "C'est simple. Après « vouloir que », « aimer que »… Je te donne des exemples ?",
+   "rd": "쎄 쌩쁠. 아프레 부아르 끄, 에메 끄… 쥬 뜨 돈 데 제그장쁠?",
+   "ko": "간단해. 「vouloir que」, 「aimer que」 뒤에… 예문 줄까?",
+   "note": "",
+   "tags": [],
+   "new": [
+    "exemple"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "simple",
+     "simple",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "vouloir",
+     "vouloir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "aimer",
+     "aimer",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "donne",
+     "donne",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "exemples",
+     "exemple",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "simple",
+     "simple",
+     ""
+    ],
+    [
+     "vouloir",
+     "vouloir",
+     ""
+    ],
+    [
+     "aimer",
+     "aimer",
+     ""
+    ],
+    [
+     "donne",
+     "donne",
+     ""
+    ],
+    [
+     "exemples",
+     "exemple",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Vas-y. Mais des phrases faciles, s'il te plaît.",
+   "rd": "바지. 메 데 프라즈 파씰, 씰 뜨 쁠레.",
+   "ko": "해 줘. 근데 쉬운 문장으로 부탁해.",
+   "note": "",
+   "tags": [
+    "expr:vas-y"
+   ],
+   "new": [
+    "phrase",
+    "facile"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "phrases",
+     "phrase",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "faciles",
+     "facile",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "plaît",
+     "plaît",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "phrases",
+     "phrase",
+     ""
+    ],
+    [
+     "faciles",
+     "facile",
+     ""
+    ],
+    [
+     "plaît",
+     "plaire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "« Je veux que tu viennes. » Venir devient « viennes ». Tu vois ?",
+   "rd": "쥬 뵈 끄 뛰 비엔. 브니르 드비앵 비엔. 뛰 부아?",
+   "ko": "「네가 왔으면 좋겠어.」 venir 가 viennes 가 돼. 알겠지?",
+   "note": "venir → que tu viennes(접속법)",
+   "tags": [
+    "expr:tu vois",
+    "form:subjonctif"
+   ],
+   "new": [
+    "devenir"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "«",
+     "«",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tu",
+     "tu",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "viennes",
+     "vienne",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "»",
+     "»",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Venir",
+     "venir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "devient",
+     "devenir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "«",
+     "«",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "viennes",
+     "vienne",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "vois",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "viennes",
+     "vienne",
+     ""
+    ],
+    [
+     "Venir",
+     "venir",
+     ""
+    ],
+    [
+     "devient",
+     "devenir",
+     ""
+    ],
+    [
+     "vois",
+     "voir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "D'accord. « Je veux que tu viennes »… où ?",
+   "rd": "다꼬르. 쥬 뵈 끄 뛰 비엔… 우?",
+   "ko": "알았어. 「네가 왔으면 좋겠어」… 어디로?",
+   "note": "",
+   "tags": [
+    "expr:d'accord",
+    "form:subjonctif"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "«",
+     "«",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tu",
+     "tu",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "viennes",
+     "vienne",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "viennes",
+     "vienne",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Euh… c'est juste un exemple. Un autre : « J'aimerais que tu sois là samedi. »",
+   "rd": "외… 쎄 쥐스뜨 아 네그장쁠. 아 노트르, 졔므레 끄 뛰 쑤아 라 쌈디.",
+   "ko": "어… 그냥 예문이야. 하나 더. 「토요일에 네가 있어 주면 좋겠어.」",
+   "note": "j'aimerais que(조건법) + 접속법(sois = être)",
+   "tags": [
+    "form:subjonctif",
+    "form:conditionnel"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Euh… c'est juste un exemple."
+    ],
+    [
+     "shy",
+     "Un autre : « J'aimerais que tu sois là samedi. »"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "exemple",
+     "exemple",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "autre",
+     "autre",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "«",
+     "«",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "aimerais",
+     "aimer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sois",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin"
+    ],
+    [
+     "samedi",
+     "samedi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Euh",
+     "euh",
+     ""
+    ],
+    [
+     "juste",
+     "juste",
+     ""
+    ],
+    [
+     "exemple",
+     "exemple",
+     ""
+    ],
+    [
+     "autre",
+     "autre",
+     ""
+    ],
+    [
+     "aimerais",
+     "aimer",
+     ""
+    ],
+    [
+     "que",
+     "que",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "samedi",
+     "samedi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Samedi ? C'est bizarre comme exemple. Pourquoi samedi ?",
+   "rd": "쌈디? 쎄 비자르 꼼 에그장쁠. 뿌르꾸아 쌈디?",
+   "ko": "토요일? 예문이 좀 이상하다. 왜 토요일이야?",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Samedi",
+     "samedi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bizarre",
+     "bizarre",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "exemple",
+     "exemple",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "samedi",
+     "samedi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Samedi",
+     "samedi",
+     ""
+    ],
+    [
+     "bizarre",
+     "bizarre",
+     ""
+    ],
+    [
+     "exemple",
+     "exemple",
+     ""
+    ],
+    [
+     "Pourquoi",
+     "pourquoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Parce que… « Il faudrait que tu m'invites avant que je perde courage. »",
+   "rd": "빠르스 끄… 일 포드레 끄 뛰 맹비뜨 아방 끄 쥬 뻬르드 꾸라쥬.",
+   "ko": "왜냐면… 「내가 용기 잃기 전에 네가 날 초대해야 할 텐데.」",
+   "note": "il faudrait que + 접속법(invites) · avant que + 접속법(perde = perdre) · 2번 il faut que → il faudrait que",
+   "tags": [
+    "form:subjonctif",
+    "form:conditionnel"
+   ],
+   "new": [
+    "inviter",
+    "courage",
+    "perdre"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faudrait",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "tu",
+     "tu",
+     "PRON",
+     "Number=Sing"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "invites",
+     "invite",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "perde",
+     "perdre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "courage",
+     "courage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "faudrait",
+     "falloir",
+     ""
+    ],
+    [
+     "invites",
+     "invite",
+     ""
+    ],
+    [
+     "perde",
+     "perdre",
+     ""
+    ],
+    [
+     "courage",
+     "courage",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Attends… c'est plus des exemples, ça. Tu me demandes de sortir avec toi ?",
+   "rd": "아땅… 쎄 쁠뤼 데 제그장쁠, 싸. 뛰 므 드망드 드 쏘르띠르 아베끄 뚜아?",
+   "ko": "잠깐… 이거 이제 예문이 아니잖아. 나한테 데이트하자는 거야?",
+   "note": "c'est plus = 이제 …아니다(ne 생략) · sortir avec = 데이트하다·사귀다",
+   "tags": [
+    "expr:attends"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Attends… c'est plus des exemples, ça."
+    ],
+    [
+     "shy",
+     "Tu me demandes de sortir avec toi ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "exemples",
+     "exemple",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "demandes",
+     "demander",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sortir",
+     "sortir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "exemples",
+     "exemple",
+     ""
+    ],
+    [
+     "demandes",
+     "demander",
+     ""
+    ],
+    [
+     "sortir",
+     "sortir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Non ! Enfin… si. J'avais préparé mes phrases depuis lundi. Je voulais que ce soit naturel.",
+   "rd": "농! 앙팽… 씨. 쟈베 프레빠레 메 프라즈 드쀠 랑디. 쥬 불레 끄 쓰 쑤아 나뛰렐.",
+   "ko": "아니! 그게… 맞아. 월요일부터 문장 준비했어. 자연스러웠으면 했는데.",
+   "note": "j'avais préparé = 대과거 · je voulais que + 접속법(soit) · 5번 je veux → je voulais · si = (부정 질문에) 아니, 맞아",
+   "tags": [
+    "form:subjonctif",
+    "form:imparfait"
+   ],
+   "new": [
+    "préparer",
+    "naturel"
+   ],
+   "segs": [
+    [
+     "flustered",
+     "Non ! Enfin… si."
+    ],
+    [
+     "shy",
+     "J'avais préparé mes phrases depuis lundi. Je voulais que ce soit naturel."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "avais",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "préparé",
+     "préparer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "mes",
+     "mon",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "phrases",
+     "phrase",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "lundi",
+     "lundi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "voulais",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "ce",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "soit",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "naturel",
+     "naturel",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Enfin",
+     "enfin",
+     ""
+    ],
+    [
+     "préparé",
+     "préparer",
+     ""
+    ],
+    [
+     "phrases",
+     "phrase",
+     ""
+    ],
+    [
+     "lundi",
+     "lundi",
+     ""
+    ],
+    [
+     "voulais",
+     "vouloir",
+     ""
+    ],
+    [
+     "naturel",
+     "naturel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "C'était très naturel… jusqu'à « avant que je perde courage ».",
+   "rd": "쎄떼 트레 나뛰렐… 쥐스까 아방 끄 쥬 뻬르드 꾸라쥬.",
+   "ko": "아주 자연스러웠어… 「용기 잃기 전에」까지는.",
+   "note": "",
+   "tags": [
+    "form:subjonctif"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "naturel",
+     "naturel",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "perde",
+     "perdre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "courage",
+     "courage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "très",
+     "très",
+     ""
+    ],
+    [
+     "naturel",
+     "naturel",
+     ""
+    ],
+    [
+     "perde",
+     "perdre",
+     ""
+    ],
+    [
+     "courage",
+     "courage",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "fr": "Arrête… Alors ? Tu le corriges, mon exemple, ou tu le rends vrai ?",
+   "rd": "아레뜨… 알로르? 뛰 르 꼬리쥬, 모 네그장쁠, 우 뛰 르 랑 브레?",
+   "ko": "그만해… 그래서? 내 예문 고쳐 줄 거야, 아니면 진짜로 만들어 줄 거야?",
+   "note": "rendre + 형용사 = …하게 만들다",
+   "tags": [],
+   "new": [
+    "corriger",
+    "rendre"
+   ],
+   "segs": [
+    [
+     "shy",
+     "Arrête…"
+    ],
+    [
+     "teasing",
+     "Alors ? Tu le corriges, mon exemple, ou tu le rends vrai ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Arrête",
+     "arrête",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "exemple",
+     "exemple",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "rends",
+     "rend",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Arrête",
+     "arrête",
+     ""
+    ],
+    [
+     "Alors",
+     "alors",
+     ""
+    ],
+    [
+     "exemple",
+     "exemple",
+     ""
+    ],
+    [
+     "rends",
+     "rend",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "fr": "Je le rends vrai. Je veux que tu viennes samedi… et c'est pas un exemple.",
+   "rd": "쥬 르 랑 브레. 쥬 뵈 끄 뛰 비엔 쌈디… 에 쎄 빠 아 네그장쁠.",
+   "ko": "진짜로 만들게. 토요일에 와 줬으면 좋겠어… 이건 예문 아니야.",
+   "note": "5번 레아의 예문을 그대로 돌려줌 · tu le rends → je le rends",
+   "tags": [
+    "form:subjonctif"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "rends",
+     "rend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "viennes",
+     "vienne",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "samedi",
+     "samedi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "…",
+     "…",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "exemple",
+     "exemple",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "rends",
+     "rend",
+     ""
+    ],
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "viennes",
+     "vienne",
+     ""
+    ],
+    [
+     "samedi",
+     "samedi",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "exemple",
+     "exemple",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

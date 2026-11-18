@@ -1,0 +1,602 @@
+{
+ "id": "r3_travel_d1",
+ "region": "R3",
+ "island": "travel",
+ "kind": "short",
+ "title": "13번 승강장 (우리는)",
+ "emoji": "🚆",
+ "scene": "레벨 1 「13번 승강장」을 복수로 — 테오·카미유·A 셋이 리옹행 기차에 뛰어 오르고, 이번엔 검표원이 존댓말 vous 로 말한다. 같은 문장을 nous·vous·복수로",
+ "where": "기차역 승강장·기차 안",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Camille",
+  "D": "Contrôleuse"
+ },
+ "cast": {
+  "D": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "그래머2: vous(너희·존댓말)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0 (partir: part→partez·partons, courir: on court→courons·nous courons, 검표원 vous)",
+ "expressions": [
+  "attends",
+  "c'est bon",
+  "nickel",
+  "voilà"
+ ],
+ "tags": [
+  "base:r1_travel_d1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Vite ! Notre train part dans cinq minutes. Vous venez ?",
+   "rd": "비뜨! 노트르 트랭 빠르 당 쌩끄 미뉘뜨. 부 브네?",
+   "ko": "빨리! 우리 기차 5분 뒤에 출발해. 너희 와?",
+   "note": "레벨 1 과 같은 줄 + vous venez ?(너희 와?)",
+   "tags": [
+    "callback:r1_travel_d1",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "Vite",
+     "vite",
+     ""
+    ],
+    [
+     "train",
+     "train",
+     ""
+    ],
+    [
+     "part",
+     "partir",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ],
+    [
+     "venez",
+     "venir",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Notre",
+     "notre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "train",
+     "train",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "part",
+     "partir",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "minutes",
+     "minute",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "venez",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Attends… c'est bon, nous avons acheté les billets hier.",
+   "rd": "아땅… 쎄 봉, 누 자봉 아슈떼 레 비예 이에르.",
+   "ko": "잠깐… 됐어, 표는 우리가 어제 샀어.",
+   "note": "j'ai acheté → nous avons acheté",
+   "tags": [
+    "expr:attends",
+    "expr:c'est bon",
+    "form:nous"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "flustered",
+     "Attends…"
+    ],
+    [
+     "cheerful",
+     "c'est bon, nous avons acheté les billets hier."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attendre",
+     ""
+    ],
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "acheté",
+     "acheter",
+     ""
+    ],
+    [
+     "billets",
+     "billet",
+     ""
+    ],
+    [
+     "hier",
+     "hier",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Attends",
+     "attendre",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "avons",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "acheté",
+     "acheter",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "billets",
+     "billet",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Nickel ! C'est quai treize, je crois. Courons !",
+   "rd": "니껠! 쎄 께 트레즈, 쥬 크루아. 꾸롱!",
+   "ko": "좋아! 13번 승강장 같아. 뛰자!",
+   "note": "on court → courons(nous 명령, ~하자)",
+   "tags": [
+    "expr:nickel",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Nickel",
+     "nickel",
+     ""
+    ],
+    [
+     "quai",
+     "quai",
+     ""
+    ],
+    [
+     "crois",
+     "croire",
+     ""
+    ],
+    [
+     "Courons",
+     "courir",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Nickel",
+     "nickel",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quai",
+     "quai",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "treize",
+     "treize",
+     "PRON",
+     "NumType=Card"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "crois",
+     "croire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Courons",
+     "courir",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Nous courons, nous courons… Partez pas sans nous !",
+   "rd": "누 꾸롱, 누 꾸롱… 빠르떼 빠 쌍 누!",
+   "ko": "우리 뛰고 있어, 뛰고 있다고… 우리 두고 가지 마!",
+   "note": "je cours → nous courons · pars pas → partez pas(너희에게 명령) · sans moi → sans nous",
+   "tags": [
+    "form:nous",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "courons",
+     "courir",
+     ""
+    ],
+    [
+     "Partez",
+     "partir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "courons",
+     "courir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "courons",
+     "courir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Partez",
+     "partir",
+     "VERB",
+     "Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "D",
+   "fr": "Bonjour. Vos billets, s'il vous plaît.",
+   "rd": "봉쥬르. 보 비예, 씰 부 쁠레.",
+   "ko": "안녕하세요. 표 보여 주세요.",
+   "note": "les billets, merci → vos billets, s'il vous plaît(존댓말 vous)",
+   "tags": [
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "polite",
+   "lemmas": [
+    [
+     "billets",
+     "billet",
+     ""
+    ],
+    [
+     "plaît",
+     "plaire",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "billets",
+     "billet",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "plaît",
+     "plaire",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Voilà, trois billets pour Lyon.",
+   "rd": "부알라, 트루아 비예 뿌르 리옹.",
+   "ko": "여기요, 리옹행 표 세 장이요.",
+   "note": "deux billets → trois billets",
+   "tags": [
+    "expr:voilà",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "billets",
+     "billet",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "billets",
+     "billet",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "fr": "Lyon ? Ce train va à Lille. Vous êtes perdus ?",
+   "rd": "리옹? 쓰 트랭 바 아 릴. 부 제뜨 뻬르뒤?",
+   "ko": "리옹이요? 이 기차는 릴 가는데요. 길 잃으셨어요?",
+   "note": "vous êtes perdus = 길을 잃으셨다(여럿이라 perdus, 남녀 섞이면 남성 복수)",
+   "tags": [
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "train",
+     "train",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "perdus",
+     "perdre",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "train",
+     "train",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "êtes",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "perdus",
+     "perdre",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Quai trois, Théo… Bon, nous partons à Lille, alors.",
+   "rd": "께 트루아, 떼오… 봉, 누 빠르똥 아 릴, 알로르.",
+   "ko": "3번 승강장이었잖아, 테오… 뭐, 그럼 우리 릴 가는 거지.",
+   "note": "on part → nous partons",
+   "tags": [
+    "form:nous"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "annoyed",
+     "Quai trois, Théo…"
+    ],
+    [
+     "amused",
+     "Bon, nous partons à Lille, alors."
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "partons",
+     "partir",
+     ""
+    ],
+    [
+     "alors",
+     "alors",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "partons",
+     "partir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

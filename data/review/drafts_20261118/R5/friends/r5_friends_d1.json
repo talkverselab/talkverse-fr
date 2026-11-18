@@ -1,0 +1,1549 @@
+{
+ "id": "r5_friends_d1",
+ "region": "R5",
+ "island": "friends",
+ "kind": "long",
+ "title": "작년의 수제 케이크",
+ "emoji": "🎂",
+ "scene": "카미유 깜짝 생일 케이크를 주문하러 위고와 제과점에 간다. 점원이 「작년처럼 가게 이름 없는 상자로 드릴까요?」라고 묻는다 — 위고의 전설의 「수제」 케이크는 여기서 산 것이었다",
+ "where": "동네 제과점",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Vendeuse"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "제과점·주문 어휘(commander·fraisier·framboisier·ganache·allergique·noisette·génoise·crème·bougie·chiffre·fait maison·acompte·boutique), 새 문법 없음",
+ "expressions": [
+  "bien sûr",
+  "bah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Bonjour ! Qu'est-ce qui vous ferait plaisir ?",
+   "rd": "봉쥬르! 께스 끼 부 프레 쁠레지르?",
+   "ko": "안녕하세요! 뭘 드릴까요?",
+   "note": "qu'est-ce qui vous ferait plaisir = 무엇을 원하세요(가게 인사)",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Qu'",
+     "que",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "-ce",
+     "-ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "ferait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "plaisir",
+     "plaisir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ferait",
+     "faire",
+     ""
+    ],
+    [
+     "plaisir",
+     "plaisir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Bonjour. On voudrait commander un gâteau d'anniversaire pour samedi. Pour douze personnes.",
+   "rd": "봉쥬르. 옹 부드레 꼬망데 앙 가또 다니베르쎄르 뿌르 쌈디. 뿌르 두즈 뻬르쏜.",
+   "ko": "안녕하세요. 토요일 생일 케이크 주문하려고요. 12인분이요.",
+   "note": "commander = 주문하다",
+   "tags": [],
+   "new": [
+    "commander",
+    "gâteau"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "voudrait",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "commander",
+     "commander",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "anniversaire",
+     "anniversaire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "samedi",
+     "samedi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "personnes",
+     "personne",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "voudrait",
+     "vouloir",
+     ""
+    ],
+    [
+     "commander",
+     "commander",
+     ""
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     ""
+    ],
+    [
+     "anniversaire",
+     "anniversaire",
+     ""
+    ],
+    [
+     "samedi",
+     "samedi",
+     ""
+    ],
+    [
+     "personnes",
+     "personne",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Très bien. On a le fraisier, le framboisier, ou la ganache au chocolat.",
+   "rd": "트레 비앵. 옹 나 르 프레지에, 르 프랑부아지에, 우 라 가나슈 오 쇼꼴라.",
+   "ko": "좋아요. 딸기 케이크, 라즈베리 케이크, 아니면 초콜릿 가나슈가 있어요.",
+   "note": "fraisier = 딸기 케이크 · framboisier = 라즈베리 케이크 · ganache = 가나슈",
+   "tags": [],
+   "new": [
+    "fraisier",
+    "framboisier",
+    "ganache"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "fraisier",
+     "fraisier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "framboisier",
+     "framboisier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "ganache",
+     "ganache",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Très",
+     "très",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "fraisier",
+     "fraisier",
+     ""
+    ],
+    [
+     "framboisier",
+     "framboisier",
+     ""
+    ],
+    [
+     "ganache",
+     "ganache",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Camille adore les fraises. Mais elle est allergique aux noisettes, il y en a dedans ?",
+   "rd": "까미유 아도르 레 프레즈. 메 엘 레 딸레르쥐끄 오 누아제뜨, 일 리 앙 나 드당?",
+   "ko": "카미유가 딸기 엄청 좋아해요. 근데 헤이즐넛 알레르기가 있는데, 그거 들어가요?",
+   "note": "fraise = 딸기(→ fraisier) · allergique à = …에 알레르기가 있는 · noisette = 헤이즐넛",
+   "tags": [],
+   "new": [
+    "fraise",
+    "allergique",
+    "noisette"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "adore",
+     "adorer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "fraises",
+     "fraise",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "allergique",
+     "allergique",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "noisettes",
+     "noisette",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dedans",
+     "dedans",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "adore",
+     "adorer",
+     ""
+    ],
+    [
+     "fraises",
+     "fraise",
+     ""
+    ],
+    [
+     "allergique",
+     "allergique",
+     ""
+    ],
+    [
+     "noisettes",
+     "noisette",
+     ""
+    ],
+    [
+     "dedans",
+     "dedans",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Non, aucune noisette. Juste une crème mousseline et une génoise à la vanille.",
+   "rd": "농, 오뀐 누아제뜨. 쥐스뜨 윈 크렘 무쓸린 에 윈 제누아즈 알 라 바니유.",
+   "ko": "아뇨, 헤이즐넛은 전혀요. 무슬린 크림하고 바닐라 스펀지 시트만요.",
+   "note": "génoise = 스펀지 시트 · vanille = 바닐라",
+   "tags": [],
+   "new": [
+    "crème",
+    "génoise",
+    "vanille"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "aucune",
+     "aucun",
+     "DET",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "noisette",
+     "noisette",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "crème",
+     "crème",
+     "ADJ",
+     "NumType=Ord|Number=Sing"
+    ],
+    [
+     "mousseline",
+     "mousseline",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "génoise",
+     "génoise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "vanille",
+     "vanille",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "noisette",
+     "noisette",
+     ""
+    ],
+    [
+     "Juste",
+     "juste",
+     ""
+    ],
+    [
+     "crème",
+     "crème",
+     ""
+    ],
+    [
+     "mousseline",
+     "mousseline",
+     ""
+    ],
+    [
+     "génoise",
+     "génoise",
+     ""
+    ],
+    [
+     "vanille",
+     "vanille",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Parfait, le fraisier. Vous pouvez écrire « Joyeux anniversaire Camille » en chocolat dessus ?",
+   "rd": "빠르페, 르 프레지에. 부 뿌베 에크리르 주아이외 자니베르쎄르 까미유 앙 쇼꼴라 드쒸?",
+   "ko": "좋아요, 딸기 케이크로. 위에 초콜릿으로 「생일 축하해 카미유」라고 써 주실 수 있어요?",
+   "note": "dessus = 위에 ↔ dedans = 안에",
+   "tags": [],
+   "new": [
+    "dessus",
+    "joyeux"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Parfait",
+     "parfaire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "fraisier",
+     "fraisier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "pouvez",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "écrire",
+     "écrir",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Joyeux",
+     "joyeux",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "anniversaire",
+     "anniversaire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dessus",
+     "dessu",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Parfait",
+     "parfait",
+     ""
+    ],
+    [
+     "fraisier",
+     "fraisier",
+     ""
+    ],
+    [
+     "pouvez",
+     "pouvoir",
+     ""
+    ],
+    [
+     "écrire",
+     "écrire",
+     ""
+    ],
+    [
+     "Joyeux",
+     "joyeux",
+     ""
+    ],
+    [
+     "anniversaire",
+     "anniversaire",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ],
+    [
+     "dessus",
+     "dessus",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Bien sûr. Et je vous mets des bougies ? Combien ?",
+   "rd": "비앵 쒸르. 에 쥬 부 메 데 부지? 꽁비앵?",
+   "ko": "물론이죠. 초도 넣어 드릴까요? 몇 개요?",
+   "note": "bougie = 초",
+   "tags": [
+    "expr:bien sûr"
+   ],
+   "new": [
+    "bougie"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "mets",
+     "mets",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "bougies",
+     "bougie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "bougies",
+     "bougie",
+     ""
+    ],
+    [
+     "Combien",
+     "combien",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Vingt-six. Non, attendez… vingt-sept ? Hugo, elle a quel âge, déjà ?",
+   "rd": "뱅뜨씨쓰. 농, 아땅데… 뱅뜨쎄뜨? 위고, 엘 라 껠 라쥬, 데쟈?",
+   "ko": "스물여섯 개요. 아니, 잠깐만요… 스물일곱? 위고, 걔 몇 살이었지?",
+   "note": "déjà = (질문 끝에) …였더라",
+   "tags": [],
+   "new": [
+    "âge"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "attendez",
+     "attendre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "vingt-sept",
+     "vingt-sept",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quel",
+     "quel",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Int"
+    ],
+    [
+     "âge",
+     "âge",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "attendez",
+     "attendre",
+     ""
+    ],
+    [
+     "vingt-sept",
+     "vingt-sept",
+     ""
+    ],
+    [
+     "âge",
+     "âge",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Mettez juste deux bougies-chiffres : un deux et un sept. Comme ça, pas d'erreur.",
+   "rd": "메떼 쥐스뜨 되 부지 쉬프르, 앙 되 에 앙 쎄뜨. 꼼 싸, 빠 데뢰르.",
+   "ko": "숫자 초 두 개만 주세요. 2하고 7이요. 그럼 틀릴 일 없죠.",
+   "note": "bougie-chiffre = 숫자 초 · erreur = 실수",
+   "tags": [],
+   "new": [
+    "chiffre",
+    "erreur"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "bougies",
+     "bougie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "chiffres",
+     "chiffre",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sept.",
+     "sept.",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "d'",
+     "de",
+     "DET",
+     "Definite=Ind|Number=Sing|PronType=Art"
+    ],
+    [
+     "erreur",
+     "erreur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "juste",
+     "juste",
+     ""
+    ],
+    [
+     "bougies",
+     "bougie",
+     ""
+    ],
+    [
+     "chiffres",
+     "chiffre",
+     ""
+    ],
+    [
+     "sept.",
+     "sept.",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "erreur",
+     "erreur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "fr": "Très bien. Et comme l'an dernier, je le mets dans une boîte sans le nom de la pâtisserie ?",
+   "rd": "트레 비앵. 에 꼼 랑 데르니에, 쥬 르 메 당 쥔 부아뜨 쌍 르 농 들 라 빠띠쓰리?",
+   "ko": "알겠습니다. 그리고 작년처럼 가게 이름 없는 상자에 넣어 드릴까요?",
+   "note": "l'an dernier = 작년 · pâtisserie = 제과점",
+   "tags": [],
+   "new": [
+    "pâtisserie",
+    "dernier"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "an",
+     "an",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dernier",
+     "dernier",
+     "ADJ",
+     "Gender=Masc|NumType=Ord|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mets",
+     "mets",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "boîte",
+     "boîte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "nom",
+     "nom",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "pâtisserie",
+     "pâtisserie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Très",
+     "très",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "an",
+     "an",
+     ""
+    ],
+    [
+     "dernier",
+     "dernier",
+     ""
+    ],
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "boîte",
+     "boîte",
+     ""
+    ],
+    [
+     "nom",
+     "nom",
+     ""
+    ],
+    [
+     "pâtisserie",
+     "pâtisserie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "L'an dernier ? Hugo… ton fraisier « fait maison » de l'année dernière, il venait d'ici ?",
+   "rd": "랑 데르니에? 위고… 똥 프레지에 페 메종 들 라네 데르니에르, 일 브네 디씨?",
+   "ko": "작년? 위고… 작년에 네가 「직접 만든」 딸기 케이크, 여기서 산 거였어?",
+   "note": "fait maison = 집에서 만든, 수제 · l'an dernier = l'année dernière",
+   "tags": [],
+   "new": [
+    "fait maison"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "L'an dernier ?"
+    ],
+    [
+     "tsukkomi",
+     "Hugo… ton fraisier « fait maison » de l'année dernière, il venait d'ici ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "L'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "an",
+     "an",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dernier",
+     "dernier",
+     "ADJ",
+     "Gender=Masc|NumType=Ord|Number=Sing"
+    ],
+    [
+     "ton",
+     "ton",
+     "PRON",
+     "Number=Sing|PronType=Dem"
+    ],
+    [
+     "fraisier",
+     "fraisier",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "maison",
+     "maison",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "»",
+     "»",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "année",
+     "année",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "dernière",
+     "dernier",
+     "ADJ",
+     "Gender=Fem|NumType=Ord|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "venait",
+     "venir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "an",
+     "an",
+     ""
+    ],
+    [
+     "dernier",
+     "dernier",
+     ""
+    ],
+    [
+     "fraisier",
+     "fraisier",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "maison",
+     "maison",
+     ""
+    ],
+    [
+     "année",
+     "année",
+     ""
+    ],
+    [
+     "venait",
+     "venir",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "fr": "Bah… j'avais pas eu le temps. Et tout le monde a dit que c'était mon meilleur gâteau.",
+   "rd": "바… 쟈베 빠 쥐 르 땅. 에 뚜 르 몽드 아 디 끄 쎄떼 몽 메이외르 가또.",
+   "ko": "아니 그게… 시간이 없었어. 그리고 다들 내 케이크 중에 최고라고 했잖아.",
+   "note": "meilleur = 가장 좋은",
+   "tags": [
+    "expr:bah"
+   ],
+   "new": [
+    "meilleur"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "avais",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "eu",
+     "avoir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "temps",
+     "temps",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tout",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "monde",
+     "monde",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "meilleur",
+     "meilleur",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "temps",
+     "temps",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "monde",
+     "monde",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "meilleur",
+     "meilleur",
+     ""
+    ],
+    [
+     "gâteau",
+     "gâteau",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "fr": "C'est le meilleur de la boutique, monsieur. Ça fera quarante-cinq euros, avec un acompte de dix.",
+   "rd": "쎄 르 메이외르 들 라 부띠끄, 므씨외. 싸 프라 까랑뜨쌩 꾀로, 아베끄 앙 나꽁뜨 드 디쓰.",
+   "ko": "우리 가게 최고 메뉴죠, 손님. 45유로이고, 선금은 10유로예요.",
+   "note": "boutique = 가게 · acompte = 선금 · ça fera = 합계 …입니다",
+   "tags": [],
+   "new": [
+    "boutique",
+    "acompte"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "meilleur",
+     "meilleur",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "boutique",
+     "boutique",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "fera",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin"
+    ],
+    [
+     "euros",
+     "euro",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "acompte",
+     "acompte",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "meilleur",
+     "meilleur",
+     ""
+    ],
+    [
+     "boutique",
+     "boutique",
+     ""
+    ],
+    [
+     "monsieur",
+     "monsieur",
+     ""
+    ],
+    [
+     "fera",
+     "faire",
+     ""
+    ],
+    [
+     "euros",
+     "euro",
+     ""
+    ],
+    [
+     "acompte",
+     "acompte",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "fr": "Je paie l'acompte. Mais cette fois, la boîte, on la garde avec le nom.",
+   "rd": "쥬 뻬 라꽁뜨. 메 쎄뜨 푸아, 라 부아뜨, 옹 라 가르드 아베끄 르 농.",
+   "ko": "선금은 제가 낼게요. 근데 이번엔 상자에 가게 이름 그대로 둘 거예요.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "paie",
+     "payer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "acompte",
+     "acompte",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "fois",
+     "fois",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "boîte",
+     "boîte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "garde",
+     "garde",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "nom",
+     "nom",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "paie",
+     "payer",
+     ""
+    ],
+    [
+     "acompte",
+     "acompte",
+     ""
+    ],
+    [
+     "fois",
+     "fois",
+     ""
+    ],
+    [
+     "boîte",
+     "boîte",
+     ""
+    ],
+    [
+     "garde",
+     "garde",
+     ""
+    ],
+    [
+     "nom",
+     "nom",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

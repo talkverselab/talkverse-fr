@@ -1,0 +1,535 @@
+{
+ "id": "r0_life_d1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "쇼콜라틴",
+ "emoji": "🥐",
+ "scene": "위고가 아르바이트하는 동네 빵집. A 가 빵 오 쇼콜라를 달라고 하자 위고가 빵 이름부터 고친다",
+ "where": "빵집",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "주문하기(je veux…, s'il te plaît)·dire 인칭 변화(on dit·je dis)",
+ "expressions": [
+  "mince",
+  "ben",
+  "c'est quoi",
+  "s'il te plaît"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Salut {name} ! Tu veux quoi ce matin ?",
+   "rd": "쌀뤼 {name}! 뛰 브 꾸아 쓰 마땡?",
+   "ko": "안녕 {name}! 오늘 아침엔 뭐 줄까?",
+   "note": "Tu veux quoi ? = 뭐 원해?(구어 어순) · matin = 아침",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "veux",
+     "veux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "matin",
+     "matin",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "matin",
+     "matin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Je veux un pain au chocolat, s'il te plaît.",
+   "rd": "쥬 브 앙 빵 오 쇼꼴라, 씰 뜨 쁠레.",
+   "ko": "빵 오 쇼콜라 하나 줘.",
+   "note": "tu veux → je veux · pain au chocolat = 초콜릿 든 페이스트리",
+   "tags": [
+    "expr:s'il te plaît"
+   ],
+   "new": [
+    "pain",
+    "chocolat"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pain",
+     "pain",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "plaît",
+     "plaît",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "pain",
+     "pain",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ],
+    [
+     "plaît",
+     "plaire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Un pain au chocolat ? Chez moi, on dit chocolatine !",
+   "rd": "앙 빵 오 쇼꼴라? 셰 무아, 옹 디 쇼꼴라띤!",
+   "ko": "빵 오 쇼콜라? 우리 고향에선 쇼콜라틴이라고 해!",
+   "note": "chez moi = 우리 고향에선 · on dit = …라고 한다 · 프랑스 남서부에선 같은 빵을 chocolatine 이라 부른다",
+   "tags": [],
+   "new": [
+    "chocolatine"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pain",
+     "pain",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "chocolatine",
+     "chocolatine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pain",
+     "pain",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "chocolatine",
+     "chocolatine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Bon, je dis chocolatine. Une chocolatine, s'il te plaît.",
+   "rd": "봉, 쥬 디 쇼꼴라띤. 윈 쇼꼴라띤, 씰 뜨 쁠레.",
+   "ko": "알았어, 쇼콜라틴. 쇼콜라틴 하나 줘.",
+   "note": "on dit → je dis",
+   "tags": [
+    "expr:s'il te plaît"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "chocolatine",
+     "chocolatine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chocolatine",
+     "chocolatine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "plaît",
+     "plaît",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "chocolatine",
+     "chocolatine",
+     ""
+    ],
+    [
+     "plaît",
+     "plaire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Ah, mince… y a plus de chocolatines.",
+   "rd": "아, 맹쓰… 야 쁠뤼 드 쇼꼴라띤.",
+   "ko": "아, 이런… 쇼콜라틴 다 떨어졌어.",
+   "note": "mince = 이런 · y a plus de … = …가 더는 없다(il n'y a plus de)",
+   "tags": [
+    "expr:mince"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "mince",
+     "mince",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "chocolatines",
+     "chocolatine",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mince",
+     "mince",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "chocolatines",
+     "chocolatine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Et ça, là, c'est quoi ?",
+   "rd": "에 싸, 라, 쎄 꾸아?",
+   "ko": "그럼 거기 있는 그건 뭔데?",
+   "note": "c'est quoi ? = 뭐야? · 진열대를 가리킨다",
+   "tags": [
+    "expr:c'est quoi"
+   ],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "quoi",
+     "quoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Ça ? Ben… des pains au chocolat.",
+   "rd": "싸? 뱅… 데 빵 조 쇼꼴라.",
+   "ko": "이거? 음… 빵 오 쇼콜라.",
+   "note": "un pain → des pains(복수, 뒤 au 와 이어져 「빵 조」) · 같은 빵을 두 이름으로 부른 것",
+   "tags": [
+    "expr:ben"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Ça ?"
+    ],
+    [
+     "flustered",
+     "Ben… des pains au chocolat."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Ben",
+     "ben",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "…",
+     "…",
+     "DET",
+     "Number=Plur"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "pains",
+     "pain",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pains",
+     "pain",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Hugo ! Alors je dis quoi, moi ?!",
+   "rd": "위고! 알로르 쥬 디 꾸아, 무아?!",
+   "ko": "위고! 그럼 난 뭐라고 해야 되는데?!",
+   "note": "je dis → je dis quoi ? = 뭐라고 해?",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Alors",
+     "alors",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

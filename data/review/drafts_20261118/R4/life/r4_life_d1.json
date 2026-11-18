@@ -1,0 +1,1732 @@
+{
+ "id": "r4_life_d1",
+ "region": "R4",
+ "island": "life",
+ "kind": "long",
+ "title": "옆집에 맡긴 소포",
+ "emoji": "📦",
+ "scene": "옆집 할머니가 맡아 준 택배를 찾으러 간다. 테오 생일 선물인데 이웃이 자기 것인 줄 알고 뜯어 입어 보고, 지나가던 테오에게 보여 주기까지 했다",
+ "where": "아파트 복도, 옆집 문 앞",
+ "speakers": {
+  "A": "{name}",
+  "C": "Voisine"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "polite",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "대명사 결합(je vous l'ai gardé · vous me le donnez · je le lui ai montré · il vous en faut un) · 반과거 vs 복합과거(a sonné pendant que vous étiez · j'attendais … je pensais) · 접속법(je suis désolée que vous l'appreniez · pourvu qu'il ne soit pas)",
+ "expressions": [
+  "excusez-moi",
+  "c'est gentil",
+  "oh là là",
+  "volontiers",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Bonjour, madame. Excusez-moi de vous déranger. Le livreur a laissé un colis chez vous ?",
+   "rd": "봉쥬르, 마담. 엑쓰뀌제 무아 드 부 데랑제. 르 리브뢰르 아 레쎄 앙 꼴리 셰 부?",
+   "ko": "안녕하세요. 실례합니다. 택배 기사님이 댁에 소포 맡기셨나요?",
+   "note": "livreur = 배달원 · colis = 소포 · déranger = 방해하다",
+   "tags": [
+    "expr:excusez-moi"
+   ],
+   "new": [
+    "livreur",
+    "colis",
+    "déranger"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "madame",
+     "monsieur",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "-moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2|Reflex=Yes"
+    ],
+    [
+     "déranger",
+     "déranger",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "livreur",
+     "livreur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "laissé",
+     "laisser",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "colis",
+     "colis",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "madame",
+     "monsieur",
+     ""
+    ],
+    [
+     "Excusez",
+     "excuser",
+     ""
+    ],
+    [
+     "déranger",
+     "déranger",
+     ""
+    ],
+    [
+     "livreur",
+     "livreur",
+     ""
+    ],
+    [
+     "laissé",
+     "laisser",
+     ""
+    ],
+    [
+     "colis",
+     "colis",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "fr": "Ah oui ! Je vous l'ai gardé. Le livreur a sonné pendant que vous étiez au travail.",
+   "rd": "아 위! 쥬 부 레 가르데. 르 리브뢰르 아 쏘네 빵당 끄 부 제띠에 오 트라바이.",
+   "ko": "아, 네! 보관해 뒀어요. 출근하셨을 때 기사님이 벨을 눌렀어요.",
+   "note": "vous l' = 당신을 위해 그것을 · a sonné(복합과거, 한 번 일어난 일) ↔ étiez(반과거, 배경)",
+   "tags": [
+    "form:pronoms",
+    "form:imparfait"
+   ],
+   "new": [
+    "sonner"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Ah",
+     "ah",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "oui",
+     "oui",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "gardé",
+     "garder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "livreur",
+     "livreur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sonné",
+     "sonner",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "étiez",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "travail",
+     "travail",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "gardé",
+     "garder",
+     ""
+    ],
+    [
+     "livreur",
+     "livreur",
+     ""
+    ],
+    [
+     "sonné",
+     "sonner",
+     ""
+    ],
+    [
+     "travail",
+     "travail",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Merci beaucoup, c'est gentil. Vous me le donnez ? C'est un cadeau pour mon colocataire.",
+   "rd": "메르씨 보꾸, 쎄 장띠. 부 므 르 도네? 쎄 땅 까도 뿌르 몽 꼴로까따께르.",
+   "ko": "정말 고맙습니다. 주시겠어요? 룸메이트 선물이에요.",
+   "note": "me le = 나에게 그것을 · colocataire = 룸메이트(coloc)",
+   "tags": [
+    "expr:c'est gentil",
+    "form:pronoms"
+   ],
+   "new": [
+    "colocataire"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "gentil",
+     "gentil",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "le",
+     "le",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "donnez",
+     "donnez",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "cadeau",
+     "cadeau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "colocataire",
+     "colocataire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "beaucoup",
+     "beaucoup",
+     ""
+    ],
+    [
+     "gentil",
+     "gentil",
+     ""
+    ],
+    [
+     "donnez",
+     "donnez",
+     ""
+    ],
+    [
+     "cadeau",
+     "cadeau",
+     ""
+    ],
+    [
+     "colocataire",
+     "colocataire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "fr": "Un cadeau ? Oh là là… Je suis désolée que vous l'appreniez comme ça, mais je l'ai ouvert.",
+   "rd": "앙 까도? 오 라 라… 쥬 쒸 데졸레 끄 부 라프르니에 꼼 싸, 메 쥬 레 우베르.",
+   "ko": "선물이요? 어머나… 이렇게 알려 드려서 미안한데, 제가 그걸 뜯었어요.",
+   "note": "être désolé(e) que + 접속법(appreniez = apprendre) · ouvert = ouvrir 의 과거분사",
+   "tags": [
+    "expr:oh là là",
+    "form:subjonctif"
+   ],
+   "new": [
+    "ouvrir"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Un cadeau ? Oh là là…"
+    ],
+    [
+     "worried",
+     "Je suis désolée que vous l'appreniez comme ça, mais je l'ai ouvert."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "cadeau",
+     "cadeau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "désolée",
+     "désoler",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "appreniez",
+     "apprendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ouvert",
+     "ouvert",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "cadeau",
+     "cadeau",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "désolée",
+     "désoler",
+     ""
+    ],
+    [
+     "appreniez",
+     "apprendre",
+     ""
+    ],
+    [
+     "ouvert",
+     "ouvert",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Vous l'avez ouvert ? Mais… pourquoi ?",
+   "rd": "부 라베 우베르? 메… 뿌르꾸아?",
+   "ko": "뜯으셨다고요? 왜요…?",
+   "note": "4번 je l'ai ouvert → vous l'avez ouvert",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ouvert",
+     "ouvert",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ouvert",
+     "ouvert",
+     ""
+    ],
+    [
+     "pourquoi",
+     "pourquoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "fr": "J'attendais un colis de ma fille. Le carton était pareil, je pensais que c'était le mien.",
+   "rd": "쟈땅데 앙 꼴리 드 마 피유. 르 까르똥 에떼 빠레이, 쥬 빵쎄 끄 쎄떼 르 미앵.",
+   "ko": "딸이 보낸 소포를 기다리고 있었거든요. 상자가 똑같아서 제 건 줄 알았어요.",
+   "note": "attendais·était·pensais = 반과거(그때의 상황·생각) · le mien = 내 것",
+   "tags": [
+    "form:imparfait"
+   ],
+   "new": [
+    "carton",
+    "pareil"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "attendais",
+     "attendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "colis",
+     "colis",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "fille",
+     "fille",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "carton",
+     "carton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "pareil",
+     "pareil",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "pensais",
+     "penser",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mien",
+     "mien",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "attendais",
+     "attendre",
+     ""
+    ],
+    [
+     "colis",
+     "colis",
+     ""
+    ],
+    [
+     "fille",
+     "fille",
+     ""
+    ],
+    [
+     "carton",
+     "carton",
+     ""
+    ],
+    [
+     "pareil",
+     "pareil",
+     ""
+    ],
+    [
+     "pensais",
+     "penser",
+     ""
+    ],
+    [
+     "mien",
+     "mien",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Ce n'est pas grave. Il y a quoi, dedans ? Je l'ai commandé il y a un mois.",
+   "rd": "쓰 네 빠 그라브. 일 리 아 꾸아, 드당? 쥬 레 꼬망데 일 리 아 앙 무아.",
+   "ko": "괜찮아요. 안에 뭐가 들어 있어요? 한 달 전에 주문해서요.",
+   "note": "dedans = 안에 · commander = 주문하다",
+   "tags": [],
+   "new": [
+    "commander",
+    "dedans"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Ce",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "grave",
+     "grave",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "commandé",
+     "commander",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "n'",
+     "ne",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ],
+    [
+     "commandé",
+     "commander",
+     ""
+    ],
+    [
+     "mois",
+     "mois",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "fr": "Un pull vert. Il est très beau. D'ailleurs, je l'ai essayé… il me va bien.",
+   "rd": "앙 뿔 베르. 일 레 트레 보. 다이외르, 쥬 레 에쎄이예… 일 므 바 비앵.",
+   "ko": "초록 스웨터요. 아주 예뻐요. 그런데 제가 입어 봤는데… 저한테 잘 맞더라고요.",
+   "note": "essayer = (옷을) 입어 보다 · il me va bien = 나한테 잘 어울린다",
+   "tags": [],
+   "new": [
+    "pull",
+    "essayer"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pull",
+     "pull",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "beau",
+     "beau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "essayé",
+     "essayer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pull",
+     "pull",
+     ""
+    ],
+    [
+     "très",
+     "très",
+     ""
+    ],
+    [
+     "beau",
+     "beau",
+     ""
+    ],
+    [
+     "ailleurs",
+     "ailleurs",
+     ""
+    ],
+    [
+     "essayé",
+     "essayer",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Vous l'avez essayé aussi ? Pourvu qu'il ne soit pas trop grand pour Théo, alors.",
+   "rd": "부 라베 에쎄이예 오씨? 뿌르뷔 낄 느 쑤아 빠 트로 그랑 뿌르 떼오, 알로르.",
+   "ko": "입어 보기까지 하셨어요? 그럼 테오한테 너무 크지만 않으면 좋겠네요.",
+   "note": "pourvu que + 접속법(soit) = …이기만 하면 좋겠다 · 8번 je l'ai essayé → vous l'avez essayé",
+   "tags": [
+    "expr:trop",
+    "form:subjonctif"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "essayé",
+     "essayer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "soit",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "grand",
+     "grand",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "essayé",
+     "essayer",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "Pourvu",
+     "pourvoir",
+     ""
+    ],
+    [
+     "ne",
+     "ne",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "grand",
+     "grand",
+     ""
+    ],
+    [
+     "alors",
+     "alors",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "fr": "Théo ? Le grand jeune homme au vélo ? Il est passé tout à l'heure. Je le lui ai montré.",
+   "rd": "떼오? 르 그랑 젠 놈 오 벨로? 일 레 빠쎄 뚜 따 뢰르. 쥬 르 뤼 에 몽트레.",
+   "ko": "테오요? 자전거 타는 키 큰 청년? 아까 왔길래 그 사람한테 보여 줬어요.",
+   "note": "le lui = 그에게 그것을(대명사 결합)",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [
+    "vélo",
+    "montrer"
+   ],
+   "segs": [
+    [
+     "surprised",
+     "Théo ? Le grand jeune homme au vélo ?"
+    ],
+    [
+     "cheerful",
+     "Il est passé tout à l'heure. Je le lui ai montré."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "grand",
+     "grand",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "jeune",
+     "jeune",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "homme",
+     "homme",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vélo",
+     "vélo",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "passé",
+     "passer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "heure",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "lui",
+     "lui",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "montré",
+     "montrer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "grand",
+     "grand",
+     ""
+    ],
+    [
+     "jeune",
+     "jeune",
+     ""
+    ],
+    [
+     "homme",
+     "homme",
+     ""
+    ],
+    [
+     "vélo",
+     "vélo",
+     ""
+    ],
+    [
+     "passé",
+     "passer",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "heure",
+     "heure",
+     ""
+    ],
+    [
+     "montré",
+     "montrer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Vous le lui avez montré ? C'était une surprise ! Son anniversaire, c'est demain.",
+   "rd": "부 르 뤼 아베 몽트레? 쎄떼 윈 쒸르프리즈! 쏘 나니베르쎄르, 쎄 드맹.",
+   "ko": "그 사람한테 보여 주셨다고요? 깜짝 선물이었는데요! 생일이 내일이에요.",
+   "note": "10번 je le lui ai montré → vous le lui avez montré",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [
+    "surprise",
+    "anniversaire"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "lui",
+     "lui",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "montré",
+     "montrer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "surprise",
+     "surprise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Son",
+     "son",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "anniversaire",
+     "anniversaire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "montré",
+     "montrer",
+     ""
+    ],
+    [
+     "surprise",
+     "surprise",
+     ""
+    ],
+    [
+     "anniversaire",
+     "anniversaire",
+     ""
+    ],
+    [
+     "demain",
+     "demain",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "Il avait l'air très content. Il a même dit : « Il est trop beau, je le garde. »",
+   "rd": "일 라베 레르 트레 꽁땅. 일 라 멤 디, 일 레 트로 보, 쥬 르 가르드.",
+   "ko": "아주 기뻐 보였어요. 「너무 예쁘다, 제가 가질게요」라고까지 했어요.",
+   "note": "avait l'air = 반과거(그때 모습) ↔ a dit = 복합과거 · 2번 je vous l'ai gardé → je le garde",
+   "tags": [
+    "expr:trop",
+    "form:imparfait"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "avait",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "air",
+     "air",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "beau",
+     "beau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "le",
+     "le",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "garde",
+     "garde",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "air",
+     "air",
+     ""
+    ],
+    [
+     "très",
+     "très",
+     ""
+    ],
+    [
+     "content",
+     "content",
+     ""
+    ],
+    [
+     "même",
+     "même",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "beau",
+     "beau",
+     ""
+    ],
+    [
+     "garde",
+     "garde",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "fr": "Bon. Au moins, il en est content. Et vous, il vous en faut un pareil ?",
+   "rd": "봉. 오 무앵, 일 랑 네 꽁땅. 에 부, 일 부 장 포 앙 빠레이?",
+   "ko": "뭐, 적어도 마음엔 들어 하네요. 그럼 할머니도 같은 거 하나 필요하세요?",
+   "note": "en être content = 그것에 만족하다 · il vous en faut un = 당신에게 (그것) 하나가 필요하다",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pareil",
+     "pareil",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "moins",
+     "moins",
+     ""
+    ],
+    [
+     "content",
+     "content",
+     ""
+    ],
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "pareil",
+     "pareil",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "fr": "Volontiers ! En vert aussi. Et cette fois, je vous promets de ne pas l'ouvrir.",
+   "rd": "볼롱띠에! 앙 베르 오씨. 에 쎄뜨 푸아, 쥬 부 프로메 드 느 빠 루브리르.",
+   "ko": "좋죠! 그것도 초록으로요. 이번엔 안 뜯겠다고 약속할게요.",
+   "note": "4번 je l'ai ouvert → ne pas l'ouvrir(부정사 앞 ne pas)",
+   "tags": [
+    "expr:volontiers"
+   ],
+   "new": [
+    "promettre"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "vert",
+     "vert",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "fois",
+     "fois",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "promets",
+     "promet",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ouvrir",
+     "ouvrir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vert",
+     "vert",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "fois",
+     "fois",
+     ""
+    ],
+    [
+     "promets",
+     "promet",
+     ""
+    ],
+    [
+     "ne",
+     "ne",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "ouvrir",
+     "ouvrir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

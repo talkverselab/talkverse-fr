@@ -1,0 +1,496 @@
+{
+ "id": "r0_study_d1",
+ "region": "R0",
+ "island": "study",
+ "kind": "short",
+ "title": "12번 강의실",
+ "emoji": "🎒",
+ "scene": "대학 강의실. 처음 보는 레아가 옆자리에 앉는데, 레아는 강의실을 잘못 찾아왔다",
+ "where": "대학 강의실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "자리 묻기(c'est libre ?)·수업 묻기(tu as cours de quoi ?)·avoir 인칭 변화",
+ "expressions": [
+  "ouais",
+  "vas-y",
+  "attends",
+  "bof"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Salut ! C'est libre, ici ?",
+   "rd": "쌀뤼! 쎄 리브르, 이씨?",
+   "ko": "안녕! 여기 비었어?",
+   "note": "libre = 비어 있는",
+   "tags": [],
+   "new": [
+    "libre"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "libre",
+     "libre",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "libre",
+     "libre",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, c'est libre. Vas-y.",
+   "rd": "웨, 쎄 리브르. 바지.",
+   "ko": "응, 비었어. 앉아.",
+   "note": "vas-y = 그래, 해(권할 때)",
+   "tags": [
+    "expr:ouais",
+    "expr:vas-y"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "libre",
+     "libre",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "libre",
+     "libre",
+     ""
+    ],
+    [
+     "Vas",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Merci ! Tu as cours de quoi, là ?",
+   "rd": "메르씨! 뛰 아 꾸르 드 꾸아, 라?",
+   "ko": "고마워! 지금 무슨 수업이야?",
+   "note": "avoir cours = 수업이 있다",
+   "tags": [],
+   "new": [
+    "cours"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "cours",
+     "cours",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ]
+   ],
+   "lemmas": [
+    [
+     "as",
+     "as",
+     ""
+    ],
+    [
+     "cours",
+     "cours",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "J'ai histoire de l'art. Et toi ?",
+   "rd": "제 이스뚜아르 드 라르. 에 뚜아?",
+   "ko": "미술사. 너는?",
+   "note": "tu as → j'ai · histoire de l'art = 미술사",
+   "tags": [],
+   "new": [
+    "histoire",
+    "art"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "histoire",
+     "histoire",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "art",
+     "art",
+     "NOUN",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "histoire",
+     "histoire",
+     ""
+    ],
+    [
+     "art",
+     "art",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Moi, j'ai… attends, c'est la salle douze, ici ?",
+   "rd": "무아, 제… 아땅, 쎄 라 쌀 두즈, 이씨?",
+   "ko": "나는… 잠깐, 여기 12번 강의실 맞지?",
+   "note": "salle = 강의실 · douze = 12",
+   "tags": [
+    "expr:attends"
+   ],
+   "new": [
+    "salle"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "…",
+     "…",
+     "DET",
+     "Number=Plur"
+    ],
+    [
+     "attends",
+     "attend",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "salle",
+     "salle",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "attends",
+     "attend",
+     ""
+    ],
+    [
+     "salle",
+     "salle",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Non, c'est la salle deux.",
+   "rd": "농, 쎄 라 쌀 되.",
+   "ko": "아니, 2번 강의실이야.",
+   "note": "deux = 2",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "salle",
+     "salle",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "salle",
+     "salle",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Tu restes ou tu pars ?",
+   "rd": "뛰 레스뜨 우 뛰 빠르?",
+   "ko": "있을 거야, 갈 거야?",
+   "note": "rester = 남다 · partir = 떠나다(tu pars)",
+   "tags": [],
+   "new": [
+    "rester",
+    "partir"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "restes",
+     "rester",
+     "VERB",
+     "Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pars",
+     "par",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "restes",
+     "rester",
+     ""
+    ],
+    [
+     "pars",
+     "partir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Bof, l'art, c'est cool aussi… Je reste.",
+   "rd": "보프, 라르, 쎄 꿀 오씨… 쥬 레스뜨.",
+   "ko": "뭐, 미술도 괜찮지… 나 있을래.",
+   "note": "bof = 글쎄, 뭐 · tu restes → je reste · 수업보다 옆자리",
+   "tags": [
+    "expr:bof"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "amused",
+     "Bof, l'art, c'est cool aussi…"
+    ],
+    [
+     "shy",
+     "Je reste."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "cool",
+     "cool",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "reste",
+     "reste",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

@@ -1,0 +1,1070 @@
+{
+ "id": "r2_culture_d1",
+ "region": "R2",
+ "island": "culture",
+ "kind": "chat",
+ "title": "줄 서지 마",
+ "emoji": "🖼️",
+ "scene": "무료 관람 일요일, 카미유와 미술관 앞에서 만나기로 했다. 줄이 두 시간인데 카미유는 이미 안에 있다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "goal": "약속 잡기(ça te dit ?·on se retrouve…)·entrer·dire 인칭 변화",
+ "expressions": [
+  "ça te dit",
+  "carrément",
+  "ouais",
+  "sérieux",
+  "attends"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Dimanche, le musée est gratuit. Ça te dit ?",
+   "rd": "디망슈, 르 뮈제 에 그라뛰. 싸 뜨 디?",
+   "ko": "일요일에 미술관 무료래. 갈래?",
+   "note": "musée = 미술관, 박물관 · gratuit = 무료 · ça te dit ? = 어때?, 할래?",
+   "tags": [
+    "expr:ça te dit"
+   ],
+   "new": [
+    "musée",
+    "gratuit"
+   ],
+   "emotion": "cheerful",
+   "at": "13:05",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Dimanche",
+     "dimanche",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "musée",
+     "muser",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "gratuit",
+     "gratuit",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Dimanche",
+     "dimanche",
+     ""
+    ],
+    [
+     "musée",
+     "musée",
+     ""
+    ],
+    [
+     "gratuit",
+     "gratuit",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Carrément ! On se retrouve devant l'entrée, à deux heures ?",
+   "rd": "까레망! 옹 쓰 르트루브 드방 랑트레, 아 되 죄르?",
+   "ko": "완전 좋아! 2시에 입구 앞에서 볼까?",
+   "note": "carrément = 완전, 당연 · se retrouver = 만나다(on se retrouve) · entrée = 입구",
+   "tags": [
+    "expr:carrément"
+   ],
+   "new": [
+    "entrée"
+   ],
+   "emotion": "excited",
+   "at": "13:07",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Carrément",
+     "carrément",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "se",
+     "se",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "retrouve",
+     "retrouver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "entrée",
+     "entrée",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Carrément",
+     "carrément",
+     ""
+    ],
+    [
+     "retrouve",
+     "retrouver",
+     ""
+    ],
+    [
+     "entrée",
+     "entrée",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Je suis là. Mais y a une queue de malade 😱",
+   "rd": "쥬 쒸 라. 메 야 윈 꾀 드 말라드.",
+   "ko": "도착했어. 근데 줄이 장난 아니야 😱",
+   "note": "queue = 줄 · de malade = 엄청난(구어) · 일요일 오후",
+   "tags": [],
+   "new": [
+    "queue"
+   ],
+   "emotion": "surprised",
+   "at": "13:58",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "queue",
+     "queue",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "malade",
+     "malade",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "😱",
+     "😱",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "queue",
+     "queue",
+     ""
+    ],
+    [
+     "malade",
+     "malade",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Ouais, je vois. Deux heures d'attente, minimum.",
+   "rd": "웨, 쥬 부아. 되 죄르 다땅뜨, 미니멈.",
+   "ko": "응, 보여. 최소 두 시간은 기다려야 해.",
+   "note": "attente = 기다림 · minimum = 최소",
+   "tags": [
+    "expr:ouais"
+   ],
+   "new": [
+    "attente"
+   ],
+   "emotion": "annoyed",
+   "at": "13:59",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vois",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "attente",
+     "attente",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "minimum",
+     "minimum",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vois",
+     "voir",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "attente",
+     "attente",
+     ""
+    ],
+    [
+     "minimum",
+     "minimum",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "T'es où, toi ? Je te vois pas.",
+   "rd": "떼 우, 뚜아? 쥬 뜨 부아 빠.",
+   "ko": "넌 어디야? 안 보이는데.",
+   "note": "je vois → je te vois pas(ne 생략)",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "at": "14:00",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "vois",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vois",
+     "voir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "À l'intérieur 😇 Devant le grand tableau bleu.",
+   "rd": "아 랭떼리외르. 드방 르 그랑 따블로 블뢰.",
+   "ko": "안에 😇 큰 파란 그림 앞.",
+   "note": "à l'intérieur = 안에 · tableau = 그림",
+   "tags": [],
+   "new": [
+    "intérieur",
+    "tableau"
+   ],
+   "emotion": "teasing",
+   "at": "14:01",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "intérieur",
+     "intérieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "grand",
+     "grand",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tableau",
+     "tableau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bleu",
+     "bleu",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "intérieur",
+     "intérieur",
+     ""
+    ],
+    [
+     "grand",
+     "grand",
+     ""
+    ],
+    [
+     "tableau",
+     "tableau",
+     ""
+    ],
+    [
+     "bleu",
+     "bleu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "QUOI ? Comment t'es entrée ?!",
+   "rd": "꾸아? 꼬망 떼 장트레?!",
+   "ko": "뭐? 어떻게 들어갔어?!",
+   "note": "entrer → t'es entrée(카미유가 여자라 -e)",
+   "tags": [],
+   "new": [
+    "entrer"
+   ],
+   "emotion": "shout",
+   "at": "14:01",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "QUOI",
+     "quoi",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "es",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "entrée",
+     "entrée",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "QUOI",
+     "quoi",
+     ""
+    ],
+    [
+     "Comment",
+     "comment",
+     ""
+    ],
+    [
+     "entrée",
+     "entrée",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Le gardien, c'est mon ex. Il m'a fait entrer par la sortie.",
+   "rd": "르 가르디앵, 쎄 모 넥쓰. 일 마 페 앙트레 빠르 라 쏘르띠.",
+   "ko": "경비원이 내 전남친이야. 출구로 들여보내 줬어.",
+   "note": "gardien = 경비원 · ex = 전 애인 · faire entrer = 들여보내다",
+   "tags": [],
+   "new": [
+    "gardien",
+    "ex"
+   ],
+   "emotion": "amused",
+   "at": "14:03",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "gardien",
+     "gardien",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "ex",
+     "e",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "AUX",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "entrer",
+     "entrer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "sortie",
+     "sortie",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "gardien",
+     "gardien",
+     ""
+    ],
+    [
+     "ex",
+     "ex",
+     ""
+    ],
+    [
+     "entrer",
+     "entrer",
+     ""
+    ],
+    [
+     "sortie",
+     "sortie",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Sérieux ? Et moi, je fais quoi ? Je reste dans la queue ?",
+   "rd": "쎄리외? 에 무아, 쥬 페 꾸아? 쥬 레스뜨 당 라 꾀?",
+   "ko": "진짜? 그럼 난 뭐 해? 줄 서 있어?",
+   "note": "sérieux ? = 진짜?",
+   "tags": [
+    "expr:sérieux"
+   ],
+   "new": [],
+   "emotion": "annoyed",
+   "at": "14:04",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Sérieux",
+     "sérieux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fais",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "queue",
+     "queue",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Sérieux",
+     "sérieux",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "reste",
+     "reste",
+     ""
+    ],
+    [
+     "queue",
+     "queue",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Attends, je lui demande… Il dit oui. Mais il veut savoir qui t'es 👀",
+   "rd": "아땅, 쥬 뤼 드망드… 일 디 위. 메 일 브 싸부아르 끼 떼.",
+   "ko": "잠깐, 물어볼게… 된대. 근데 너 누구냐고 물어 👀",
+   "note": "je lui demande = 그 사람한테 물어볼게 · qui t'es = 네가 누군지",
+   "tags": [
+    "expr:attends"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "at": "14:06",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "demande",
+     "demande",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "oui",
+     "oui",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "veut",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "savoir",
+     "savoir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "demande",
+     "demande",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "veut",
+     "vouloir",
+     ""
+    ],
+    [
+     "savoir",
+     "savoir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Dis-lui que je suis ton ami.",
+   "rd": "디 뤼 끄 쥬 쒸 또 나미.",
+   "ko": "친구라고 말해.",
+   "note": "il dit → dis-lui · ami/amie 는 소리가 같다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "fr_f": "Dis-lui que je suis ton amie.",
+   "rd_f": "디 뤼 끄 쥬 쒸 또 나미.",
+   "at": "14:06",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "que",
+     "que",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ton",
+     "ton",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ami",
+     "ami",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "que",
+     "que",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ton",
+     "ton",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "amie",
+     "ami",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "ami",
+     "ami",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "fr": "Je lui ai dit « mon rendez-vous ». Viens vite 😏",
+   "rd": "쥬 뤼 에 디 몽 랑데부. 비앵 비뜨.",
+   "ko": "「내 데이트 상대」라고 했어. 빨리 와 😏",
+   "note": "dis-lui → je lui ai dit · rendez-vous = 데이트(상대) · 친구 대신 데이트라고",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "at": "14:08",
+   "ui": "bubble",
+   "stamp": "🫣",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "rendez-vous",
+     "rendez-vous",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Viens",
+     "vien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "rendez-vous",
+     "rendez-vous",
+     ""
+    ],
+    [
+     "Viens",
+     "venir",
+     ""
+    ],
+    [
+     "vite",
+     "vite",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

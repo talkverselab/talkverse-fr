@@ -1,0 +1,659 @@
+{
+ "id": "r1_work_d1",
+ "region": "R1",
+ "island": "work",
+ "kind": "short",
+ "title": "첫 출근, 첫 카푸치노",
+ "emoji": "☕",
+ "scene": "카미유가 일하는 카페, A 의 첫 출근날. 커피는 매일 만든다던 A 가 우유 스팀 버튼을 세게 눌러 우유가 사방에 튄다 — 그 카푸치노를 손님이 기다리고 있었다",
+ "where": "카페 카운터 안",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Client"
+ },
+ "cast": {
+  "C": "man_m"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "faire(faire·je fais·t'as fait)·mettre(tu mets·je mets) 현재·복합과거, 부분관사 du café",
+ "expressions": [
+  "bien sûr",
+  "attends",
+  "oh là là",
+  "mince"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Premier jour ! Tu sais faire un café ?",
+   "rd": "프르미에 주르! 뛰 쎄 페르 앵 까페?",
+   "ko": "첫날이네! 커피 만들 줄 알아?",
+   "note": "faire un café = 커피를 만들다",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Premier",
+     "premier",
+     ""
+    ],
+    [
+     "jour",
+     "jour",
+     ""
+    ],
+    [
+     "sais",
+     "savoir",
+     ""
+    ],
+    [
+     "faire",
+     "faire",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Premier",
+     "premier",
+     "ADJ",
+     "Gender=Masc|NumType=Ord|Number=Sing"
+    ],
+    [
+     "jour",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sais",
+     "savoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "faire",
+     "faire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Bien sûr. Je fais du café tous les matins.",
+   "rd": "비앵 쒸르. 쥬 페 뒤 까페 뚜 레 마땡.",
+   "ko": "당연하지. 나 매일 아침 커피 만들어.",
+   "note": "faire → je fais · du café = 커피(부분관사) · tous les matins = 매일 아침",
+   "tags": [
+    "expr:bien sûr"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "fais",
+     "faire",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ],
+    [
+     "tous",
+     "tout",
+     ""
+    ],
+    [
+     "matins",
+     "matin",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fais",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "tous",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "matins",
+     "matin",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Ici, c'est la machine. Tu mets le lait là.",
+   "rd": "이씨, 쎄 라 마신. 뛰 메 르 레 라.",
+   "ko": "여기가 기계야. 우유는 여기 넣어.",
+   "note": "machine = (커피) 기계 · lait = 우유 · mettre → tu mets",
+   "tags": [],
+   "new": [
+    "machine",
+    "lait"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "Ici",
+     "ici",
+     ""
+    ],
+    [
+     "machine",
+     "machine",
+     ""
+    ],
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "lait",
+     "lait",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "machine",
+     "machine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mets",
+     "mettre",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "lait",
+     "lait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Je mets le lait… et j'appuie où ?",
+   "rd": "쥬 메 르 레… 에 쟈쀠 우?",
+   "ko": "우유 넣고… 어디 눌러?",
+   "note": "tu mets → je mets · appuyer = 누르다",
+   "tags": [],
+   "new": [
+    "appuyer"
+   ],
+   "emotion": "worried",
+   "lemmas": [
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "lait",
+     "lait",
+     ""
+    ],
+    [
+     "appuie",
+     "appuyer",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "mets",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "lait",
+     "lait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "appuie",
+     "appuyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Sur le bouton rouge. Attends, pas trop fort !",
+   "rd": "쒸르 르 부똥 루쥬. 아땅, 빠 트로 포르!",
+   "ko": "빨간 버튼. 잠깐, 너무 세게 말고!",
+   "note": "bouton = 버튼 · pas trop fort = 너무 세게 말고",
+   "tags": [
+    "expr:attends"
+   ],
+   "new": [
+    "bouton"
+   ],
+   "segs": [
+    [
+     "gentle",
+     "Sur le bouton rouge."
+    ],
+    [
+     "shout",
+     "Attends, pas trop fort !"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bouton",
+     "bouton",
+     ""
+    ],
+    [
+     "rouge",
+     "rouge",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "fort",
+     "fort",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bouton",
+     "bouton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "rouge",
+     "rouge",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Oh là là ! Le lait, il est partout !",
+   "rd": "올랄라! 르 레, 일 레 빠르뚜!",
+   "ko": "으악! 우유가 사방에 다 튀었어!",
+   "note": "partout = 곳곳에, 사방에",
+   "tags": [
+    "expr:oh là là"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "lait",
+     "lait",
+     ""
+    ],
+    [
+     "partout",
+     "partout",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "lait",
+     "lait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Mince… T'as fait un café ou une douche ?",
+   "rd": "맹스… 따 페 앵 까페 우 윈 두슈?",
+   "ko": "이런… 커피를 만든 거야, 샤워를 시킨 거야?",
+   "note": "je fais → t'as fait(복합과거) · douche = 샤워 · mince = 이런, 아차",
+   "tags": [
+    "expr:mince",
+    "form:passé composé"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "lemmas": [
+    [
+     "Mince",
+     "mince",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ],
+    [
+     "douche",
+     "douche",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Mince",
+     "mince",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "douche",
+     "douche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "fr": "Euh… c'est mon cappuccino, ça ?",
+   "rd": "외… 쎄 몽 까뿌치노, 싸?",
+   "ko": "저기… 그게 제 카푸치노인가요?",
+   "note": "손님 — 대명사 없이 말해 반말·존댓말이 드러나지 않는다",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "lemmas": [
+    [
+     "Euh",
+     "euh",
+     ""
+    ],
+    [
+     "cappuccino",
+     "cappuccino",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "cappuccino",
+     "cappuccino",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

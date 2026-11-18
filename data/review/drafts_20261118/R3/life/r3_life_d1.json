@@ -1,0 +1,650 @@
+{
+ "id": "r3_life_d1",
+ "region": "R3",
+ "island": "life",
+ "kind": "short",
+ "title": "양말 두 짝",
+ "emoji": "🧦",
+ "scene": "레벨 1 「양말 한 짝」을 복수로 — 테오와 위고가 자기들 빨래를 A·카미유의 흰 셔츠들과 같이 돌렸다. 같은 문장을 vous·nous·복수로",
+ "where": "셰어하우스 세탁실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Hugo",
+  "D": "Camille"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "그래머2: vous(너희·존댓말)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0 (laver: tu laves→vous lavez·nous lavons, 형용사 복수 일치 blanches·roses·rouges)",
+ "expressions": [
+  "d'accord",
+  "voilà",
+  "c'est tout",
+  "tant pis"
+ ],
+ "tags": [
+  "base:r1_life_d1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Vous lavez vos vêtements ? Nous mettons les nôtres aussi.",
+   "rd": "부 라베 보 베뜨망? 누 메똥 레 노트르 오씨.",
+   "ko": "너희 빨래해? 우리 것도 같이 넣을게.",
+   "note": "tu laves tes → vous lavez vos · je mets les miens → nous mettons les nôtres",
+   "tags": [
+    "callback:r1_life_d1",
+    "form:vous",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "lavez",
+     "laver",
+     ""
+    ],
+    [
+     "vêtements",
+     "vêtement",
+     ""
+    ],
+    [
+     "mettons",
+     "mettre",
+     ""
+    ],
+    [
+     "nôtres",
+     "nôtre",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "lavez",
+     "laver",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "vêtements",
+     "vêtement",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "mettons",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "nôtres",
+     "nôtre",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "D'accord. Mais attention, nos chemises sont blanches.",
+   "rd": "다꼬르. 메 아땅씨옹, 노 슈미즈 쏭 블랑슈.",
+   "ko": "그래. 근데 조심해, 우리 셔츠 흰색이야.",
+   "note": "ma chemise est blanche → nos chemises sont blanches(소리는 같다)",
+   "tags": [
+    "expr:d'accord",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "attention",
+     "attention",
+     ""
+    ],
+    [
+     "chemises",
+     "chemise",
+     ""
+    ],
+    [
+     "blanches",
+     "blanc",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "attention",
+     "attention",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "nos",
+     "notre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "chemises",
+     "chemise",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "blanches",
+     "blanc",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Vous inquiétez pas, nous lavons toujours comme ça.",
+   "rd": "부 쟁끼에떼 빠, 누 라봉 뚜쥬르 꼼 싸.",
+   "ko": "걱정 마, 우리 항상 이렇게 빨아.",
+   "note": "t'inquiète → vous inquiétez pas(원래 ne vous inquiétez pas) · je lave → nous lavons",
+   "tags": [
+    "form:vous",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "inquiétez",
+     "inquiéter",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "lavons",
+     "laver",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "inquiétez",
+     "inquiéter",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "lavons",
+     "laver",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "fr": "Ça y est ? Ouvrez, nous voulons voir.",
+   "rd": "싸 이 에? 우브레, 누 불롱 부아르.",
+   "ko": "다 됐어? 열어 봐, 우리 보고 싶어.",
+   "note": "ouvre → ouvrez · je veux → nous voulons",
+   "tags": [
+    "form:vous",
+    "form:nous"
+   ],
+   "new": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Ouvrez",
+     "ouvrir",
+     ""
+    ],
+    [
+     "voulons",
+     "vouloir",
+     ""
+    ],
+    [
+     "voir",
+     "voir",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Ouvrez",
+     "ouvrir",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "voulons",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "voir",
+     "voir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Voilà… euh. Elles étaient blanches, vos chemises ?",
+   "rd": "부알라… 외. 엘 제떼 블랑슈, 보 슈미즈?",
+   "ko": "자… 어. 너희 셔츠, 원래 흰색이었지?",
+   "note": "elle était → elles étaient · ta chemise → vos chemises",
+   "tags": [
+    "expr:voilà",
+    "form:pluriel",
+    "form:vous"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Voilà…"
+    ],
+    [
+     "worried",
+     "euh. Elles étaient blanches, vos chemises ?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "euh",
+     "euh",
+     ""
+    ],
+    [
+     "blanches",
+     "blanc",
+     ""
+    ],
+    [
+     "chemises",
+     "chemise",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "étaient",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "blanches",
+     "blanc",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "chemises",
+     "chemise",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Elles sont roses ! Vous avez mis quoi ?",
+   "rd": "엘 쏭 로즈! 부 자베 미 꾸아?",
+   "ko": "분홍색이잖아! 너희 뭘 넣은 거야?",
+   "note": "elle est rose → elles sont roses · t'as mis → vous avez mis",
+   "tags": [
+    "form:vous",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "roses",
+     "rose",
+     ""
+    ],
+    [
+     "mis",
+     "mettre",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Elles",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Plur|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "roses",
+     "rose",
+     "VERB",
+     "Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mis",
+     "mettre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Rien ! Juste… deux chaussettes rouges. C'est tout.",
+   "rd": "리앵! 쥐스뜨… 되 쇼쎄뜨 루쥬. 쎄 뚜.",
+   "ko": "아무것도! 그냥… 빨간 양말 두 짝. 그게 다야.",
+   "note": "une chaussette rouge → deux chaussettes rouges · c'est tout = 그게 다야",
+   "tags": [
+    "expr:c'est tout",
+    "form:pluriel"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Juste",
+     "juste",
+     ""
+    ],
+    [
+     "chaussettes",
+     "chaussette",
+     ""
+    ],
+    [
+     "rouges",
+     "rouge",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "chaussettes",
+     "chaussette",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "rouges",
+     "rouge",
+     "ADJ",
+     "Number=Plur"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "fr": "Tant pis. Demain, nous lavons les vôtres… en rouge.",
+   "rd": "땅 삐. 드맹, 누 라봉 레 보트르… 앙 루쥬.",
+   "ko": "할 수 없지. 내일은 우리가 너희 거 빨게… 빨간색으로.",
+   "note": "je lave les tiens → nous lavons les vôtres",
+   "tags": [
+    "expr:tant pis",
+    "form:nous",
+    "form:vous"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Tant",
+     "tant",
+     ""
+    ],
+    [
+     "pis",
+     "pis",
+     ""
+    ],
+    [
+     "Demain",
+     "demain",
+     ""
+    ],
+    [
+     "lavons",
+     "laver",
+     ""
+    ],
+    [
+     "vôtres",
+     "vôtre",
+     ""
+    ],
+    [
+     "rouge",
+     "rouge",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "lavons",
+     "laver",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "vôtres",
+     "vôtre",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "…",
+     "…",
+     "VERB",
+     "Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rouge",
+     "rouge",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

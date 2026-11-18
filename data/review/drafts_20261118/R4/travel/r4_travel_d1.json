@@ -1,0 +1,1611 @@
+{
+ "id": "r4_travel_d1",
+ "region": "R4",
+ "island": "travel",
+ "kind": "long",
+ "title": "침대는 하나",
+ "emoji": "🛏️",
+ "scene": "니스의 작은 호텔, 밤늦은 체크인. 테오가 「더블룸」을 침대 두 개로 알고 예약했다 — 그런데 예약은 어젯밤부터였다",
+ "where": "호텔 프런트",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Réceptionniste"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "friends"
+ ],
+ "goal": "반과거 vs 복합과거(je croyais … quand j'ai réservé · commençait · j'étais sûr qu'on arrivait) · 접속법(il faut que vous sachiez · il aurait fallu que tu lises · bien qu'elle soit) · en·y(j'en ai réservé une · on y monte · il m'en reste une) · 대명사 결합 me l' · 조건법 정중(vous auriez · on la prendrait)",
+ "expressions": [
+  "pas de souci",
+  "attends",
+  "excusez-moi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Bonsoir, bienvenue ! Vous avez une réservation ?",
+   "rd": "봉수아르, 비앵브뉘! 부 자베 윈 레제르바씨옹?",
+   "ko": "안녕하세요, 어서 오세요! 예약하셨어요?",
+   "note": "réservation = 예약",
+   "tags": [],
+   "new": [
+    "réservation"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "bienvenue",
+     "bienvenu",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "réservation",
+     "réservation",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bienvenue",
+     "bienvenu",
+     ""
+    ],
+    [
+     "réservation",
+     "réservation",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Oui, au nom de Théo. J'en ai réservé une pour deux nuits.",
+   "rd": "위, 오 농 드 떼오. 쟝 네 레제르베 윈 뿌르 되 뉘.",
+   "ko": "네, 테오 이름으로요. 2박으로 방 하나 예약했어요.",
+   "note": "en … une = 방 하나(une chambre)를 받는 en · réservation → j'ai réservé",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "nom",
+     "nom",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "réservé",
+     "réserver",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "nuits",
+     "nuit",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "nom",
+     "nom",
+     ""
+    ],
+    [
+     "réservé",
+     "réserver",
+     ""
+    ],
+    [
+     "nuits",
+     "nuit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Voilà. Une chambre double au troisième. Il faut que vous sachiez que l'ascenseur est en panne.",
+   "rd": "부알라. 윈 샹브르 두블 오 트루아지엠. 일 포 끄 부 싸쉬에 끄 라쌍쐬르 에 땅 빤.",
+   "ko": "여기 있습니다. 3층 더블룸이에요. 엘리베이터가 고장인 건 알고 계셔야 해요.",
+   "note": "il faut que + 접속법(sachiez = savoir) · en panne = 고장 난",
+   "tags": [
+    "form:subjonctif"
+   ],
+   "new": [
+    "ascenseur",
+    "panne"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chambre",
+     "chambre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "double",
+     "double",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "troisième",
+     "troisième",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "sachiez",
+     "savoir",
+     "VERB",
+     "Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "ascenseur",
+     "ascenseur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "panne",
+     "pann",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chambre",
+     "chambre",
+     ""
+    ],
+    [
+     "double",
+     "double",
+     ""
+    ],
+    [
+     "troisième",
+     "troisième",
+     ""
+    ],
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "sachiez",
+     "savoir",
+     ""
+    ],
+    [
+     "ascenseur",
+     "ascenseur",
+     ""
+    ],
+    [
+     "panne",
+     "panne",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Pas de souci, on y monte à pied. Elle a deux lits, la chambre ?",
+   "rd": "빠 드 쑤씨, 옹 니 몽뜨 아 삐에. 엘 라 되 리, 라 샹브르?",
+   "ko": "괜찮아요, 걸어서 올라가죠. 방에 침대 두 개 있죠?",
+   "note": "y = 거기(3층)로 · monter à pied = 걸어 올라가다",
+   "tags": [
+    "expr:pas de souci",
+    "form:pronoms"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "souci",
+     "souci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "monte",
+     "monte",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "pied",
+     "pied",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "lits",
+     "lit",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chambre",
+     "chambre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "souci",
+     "souci",
+     ""
+    ],
+    [
+     "monte",
+     "monte",
+     ""
+    ],
+    [
+     "pied",
+     "pied",
+     ""
+    ],
+    [
+     "lits",
+     "lit",
+     ""
+    ],
+    [
+     "chambre",
+     "chambre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Deux lits ? Non. Une chambre double, c'est un grand lit pour deux.",
+   "rd": "되 리? 농. 윈 샹브르 두블, 쎄 땅 그랑 리 뿌르 되.",
+   "ko": "침대 두 개요? 아뇨. 더블룸은 2인용 큰 침대 하나예요.",
+   "note": "chambre double = 더블 침대 방 ↔ chambre à deux lits = 트윈",
+   "tags": [],
+   "new": [
+    "double"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "lits",
+     "lit",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chambre",
+     "chambre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "double",
+     "double",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "grand",
+     "grand",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "lit",
+     "lit",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "deux",
+     "deux",
+     "PRON",
+     "NumType=Card"
+    ]
+   ],
+   "lemmas": [
+    [
+     "lits",
+     "lit",
+     ""
+    ],
+    [
+     "chambre",
+     "chambre",
+     ""
+    ],
+    [
+     "double",
+     "double",
+     ""
+    ],
+    [
+     "grand",
+     "grand",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Attends… je croyais que double, ça voulait dire deux lits. Quand j'ai réservé, c'était pas clair.",
+   "rd": "아땅… 쥬 크루아예 끄 두블, 싸 불레 디르 되 리. 깡 졔 레제르베, 쎄떼 빠 끌레르.",
+   "ko": "잠깐… 더블이 침대 두 개라는 뜻인 줄 알았어. 예약할 때 확실하지 않았거든.",
+   "note": "croyais·voulait·c'était = 반과거(그때의 생각·상태) ↔ j'ai réservé = 복합과거(한 번 한 일)",
+   "tags": [
+    "expr:attends",
+    "form:imparfait"
+   ],
+   "new": [
+    "croire"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "croyais",
+     "croire",
+     "VERB",
+     "Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "double",
+     "double",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "voulait",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "dire",
+     "dire",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "lits",
+     "lit",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "réservé",
+     "réserver",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "clair",
+     "clair",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "croyais",
+     "croire",
+     ""
+    ],
+    [
+     "double",
+     "double",
+     ""
+    ],
+    [
+     "voulait",
+     "vouloir",
+     ""
+    ],
+    [
+     "dire",
+     "dire",
+     ""
+    ],
+    [
+     "lits",
+     "lit",
+     ""
+    ],
+    [
+     "réservé",
+     "réserver",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "clair",
+     "clair",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Tu croyais, ou tu as pas lu ? Il aurait fallu que tu lises jusqu'au bout.",
+   "rd": "뛰 크루아예, 우 뛰 아 빠 뤼? 일 로레 팔뤼 끄 뛰 리즈 쥐스꼬 부.",
+   "ko": "그렇게 알았던 거야, 안 읽은 거야? 끝까지 읽었어야지.",
+   "note": "il aurait fallu que + 접속법(lises = lire) = …했어야 했다 · tu as pas lu = 구어(tu n'as pas lu) · 6번 je croyais → tu croyais",
+   "tags": [
+    "form:subjonctif",
+    "form:conditionnel passé"
+   ],
+   "new": [
+    "bout"
+   ],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "croyais",
+     "croire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "as",
+     "as",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "aurait",
+     "avoir",
+     "AUX",
+     "Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fallu",
+     "falloir",
+     "VERB",
+     "Tense=Past|VerbForm=Part"
+    ],
+    [
+     "tu",
+     "taire",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "lises",
+     "lise",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "bout",
+     "bout",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "croyais",
+     "croire",
+     ""
+    ],
+    [
+     "as",
+     "as",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "fallu",
+     "falloir",
+     ""
+    ],
+    [
+     "lises",
+     "lise",
+     ""
+    ],
+    [
+     "bout",
+     "bout",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Excusez-moi, vous auriez une chambre avec deux lits ? On la prendrait tout de suite.",
+   "rd": "엑쓰뀌제 무아, 부 조리예 윈 샹브르 아베끄 되 리? 옹 라 프랑드레 뚜 뜨 쒸뜨.",
+   "ko": "실례지만, 침대 두 개짜리 방 있을까요? 있으면 바로 잡을게요.",
+   "note": "auriez·prendrait = 조건법(정중한 부탁·가정)",
+   "tags": [
+    "expr:excusez-moi",
+    "form:conditionnel"
+   ],
+   "new": [],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "auriez",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chambre",
+     "chambre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "lits",
+     "lit",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "la",
+     "le",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "prendrait",
+     "prendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "suite",
+     "suite",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chambre",
+     "chambre",
+     ""
+    ],
+    [
+     "lits",
+     "lit",
+     ""
+    ],
+    [
+     "prendrait",
+     "prendre",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "suite",
+     "suite",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "fr": "Je regarde… Il m'en reste une, au-dessus du bar. Mais je vous préviens, c'est bruyant.",
+   "rd": "쥬 르가르드… 일 망 레스뜨 윈, 오 드쒸 뒤 바르. 메 쥬 부 프레비앵, 쎄 브뤼양.",
+   "ko": "볼게요… 하나 남아 있어요, 바 위층이요. 미리 말씀드리는데, 시끄러워요.",
+   "note": "il m'en reste une = (방이) 하나 남아 있다 · prévenir = 미리 알리다 · bruyant = 시끄러운",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [
+    "prévenir",
+    "bruyant",
+    "au-dessus"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "regarde",
+     "regarder",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "bar",
+     "bar",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "préviens",
+     "prévien",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bruyant",
+     "bruyant",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "regarde",
+     "regarder",
+     ""
+    ],
+    [
+     "reste",
+     "reste",
+     ""
+    ],
+    [
+     "au-dessus",
+     "au-dessus",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ],
+    [
+     "préviens",
+     "prévien",
+     ""
+    ],
+    [
+     "bruyant",
+     "bruyant",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "fr": "Attendez… votre réservation commençait hier soir. Comme vous n'êtes pas venus, il ne vous reste qu'une nuit.",
+   "rd": "아땅데… 보트르 레제르바씨옹 꼬망쎄 이에르 수아르. 꼼 부 네뜨 빠 브뉘, 일 느 부 레스뜨 뀐 뉘.",
+   "ko": "잠깐만요… 예약이 어젯밤부터였네요. 안 오셨으니까 하룻밤만 남았어요.",
+   "note": "commençait = 반과거 · ne … que = …만 · 9번 il m'en reste ↔ il ne vous reste qu'une",
+   "tags": [
+    "form:imparfait"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Attendez…"
+    ],
+    [
+     "stiff",
+     "votre réservation commençait hier soir. Comme vous n'êtes pas venus, il ne vous reste qu'une nuit."
+    ]
+   ],
+   "morph_tags": [
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "réservation",
+     "réservation",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "commençait",
+     "commencer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "êtes",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "venus",
+     "venir",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "nuit",
+     "nuit",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "réservation",
+     "réservation",
+     ""
+    ],
+    [
+     "commençait",
+     "commencer",
+     ""
+    ],
+    [
+     "hier",
+     "hier",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "n'",
+     "ne",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "venus",
+     "venir",
+     ""
+    ],
+    [
+     "reste",
+     "reste",
+     ""
+    ],
+    [
+     "nuit",
+     "nuit",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Hier ?! J'étais sûr qu'on arrivait le douze. On est le douze, non ?",
+   "rd": "이에르?! 졔떼 쒸르 꽁 나리베 르 두즈. 옹 네 르 두즈, 농?",
+   "ko": "어제요?! 12일에 도착하는 줄 알았는데. 오늘 12일 아니야?",
+   "note": "j'étais sûr que + 반과거(arrivait) = …라고 확신했다",
+   "tags": [
+    "form:imparfait"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "surprised",
+     "Hier ?!"
+    ],
+    [
+     "worried",
+     "J'étais sûr qu'on arrivait le douze. On est le douze, non ?"
+    ]
+   ],
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "étais",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "arrivait",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "douze",
+     "douze",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "douze",
+     "douze",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Hier",
+     "hier",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "arrivait",
+     "arriver",
+     ""
+    ],
+    [
+     "douze",
+     "douze",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "On est le treize, Théo. Tu me l'as dit toi-même dans le train ce matin.",
+   "rd": "옹 네 르 트레즈, 떼오. 뛰 므 라 디 뚜아멤 당 르 트랭 쓰 마땡.",
+   "ko": "오늘 13일이야, 테오. 오늘 아침 기차에서 네가 직접 말했잖아.",
+   "note": "me l' = 나에게 그것을(대명사 결합) · toi-même = 너 자신이",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "-",
+     "-",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "train",
+     "train",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "matin",
+     "matin",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "même",
+     "même",
+     ""
+    ],
+    [
+     "train",
+     "train",
+     ""
+    ],
+    [
+     "matin",
+     "matin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "fr": "Bon. Je vous laisse la chambre du bar au même prix, bien qu'elle soit plus grande.",
+   "rd": "봉. 쥬 부 레쓰 라 샹브르 뒤 바르 오 멤 프리, 비앵 껠 쑤아 쁠뤼 그랑드.",
+   "ko": "좋아요. 바 위층 방을 같은 가격에 드릴게요, 더 크긴 하지만요.",
+   "note": "bien que + 접속법(soit) = …인데도 · 3번 sachiez 와 같은 접속법",
+   "tags": [
+    "form:subjonctif"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "laisse",
+     "laisse",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chambre",
+     "chambre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "bar",
+     "bar",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "même",
+     "même",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "prix",
+     "prix",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "soit",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "grande",
+     "grand",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "laisse",
+     "laisse",
+     ""
+    ],
+    [
+     "chambre",
+     "chambre",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ],
+    [
+     "même",
+     "même",
+     ""
+    ],
+    [
+     "prix",
+     "prix",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "grande",
+     "grand",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "fr": "Merci beaucoup. Théo, les boissons au bar ce soir, c'est toi qui les paies.",
+   "rd": "메르씨 보꾸. 떼오, 레 부아쏭 오 바르 쓰 수아르, 쎄 뚜아 끼 레 뻬.",
+   "ko": "정말 감사합니다. 테오, 오늘 밤 바에서 마실 건 네가 사.",
+   "note": "les = les boissons · c'est toi qui … = 바로 네가 …",
+   "tags": [
+    "form:pronoms"
+   ],
+   "new": [
+    "boisson"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Théo",
+     "théo",
+     "PRON",
+     "NumType=Card"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "boissons",
+     "boisson",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "bar",
+     "bar",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "toi",
+     "toi",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "paies",
+     "paie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "beaucoup",
+     "beaucoup",
+     ""
+    ],
+    [
+     "boissons",
+     "boisson",
+     ""
+    ],
+    [
+     "bar",
+     "bar",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "paies",
+     "paie",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

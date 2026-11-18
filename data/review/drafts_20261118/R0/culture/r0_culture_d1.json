@@ -1,0 +1,566 @@
+{
+ "id": "r0_culture_d1",
+ "region": "R0",
+ "island": "culture",
+ "kind": "short",
+ "title": "다 말해 줄게",
+ "emoji": "🎬",
+ "scene": "카미유와 영화관. 자막 없는 프랑스 영화라 걱정하는 A 에게 카미유가 다 설명해 주겠다고 한다",
+ "where": "영화관",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "goal": "comprendre·dire 인칭 변화(tu comprends·je comprends / je te dis·tu me dis)",
+ "expressions": [
+  "allez",
+  "ouais",
+  "tiens",
+  "bien sûr",
+  "t'inquiète",
+  "ben"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Allez, le film commence ! T'as le pop-corn ?",
+   "rd": "알레, 르 필름 꼬망쓰! 따 르 뽑꼬른?",
+   "ko": "자, 영화 시작한다! 팝콘 있어?",
+   "note": "allez = 자(재촉) · commencer = 시작하다 · t'as = tu as(구어)",
+   "tags": [
+    "expr:allez"
+   ],
+   "new": [
+    "commencer"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "film",
+     "film",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "commence",
+     "commence",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "as",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pop",
+     "pop",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "film",
+     "film",
+     ""
+    ],
+    [
+     "commence",
+     "commence",
+     ""
+    ],
+    [
+     "as",
+     "as",
+     ""
+    ],
+    [
+     "pop",
+     "pop",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, tiens. Le film, il est en français ?",
+   "rd": "웨, 띠앵. 르 필름, 일 레 땅 프랑쎄?",
+   "ko": "응, 여기. 영화 프랑스어야?",
+   "note": "tiens = 자(건넬 때)",
+   "tags": [
+    "expr:ouais",
+    "expr:tiens"
+   ],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "tiens",
+     "tien",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "film",
+     "film",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "français",
+     "français",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tiens",
+     "tien",
+     ""
+    ],
+    [
+     "film",
+     "film",
+     ""
+    ],
+    [
+     "français",
+     "français",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Bien sûr ! Tu comprends le français, non ?",
+   "rd": "비앵 쒸르! 뛰 꽁프랑 르 프랑쎄, 농?",
+   "ko": "당연하지! 너 프랑스어 알아듣잖아?",
+   "note": "comprendre = 알아듣다",
+   "tags": [
+    "expr:bien sûr"
+   ],
+   "new": [
+    "comprendre"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "comprends",
+     "comprend",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "français",
+     "français",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "comprends",
+     "comprend",
+     ""
+    ],
+    [
+     "français",
+     "français",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Un peu… je comprends les mots faciles.",
+   "rd": "앙 뾔… 쥬 꽁프랑 레 모 파씰.",
+   "ko": "조금… 쉬운 단어는 알아들어.",
+   "note": "tu comprends → je comprends · mot = 단어",
+   "tags": [],
+   "new": [
+    "mot"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "comprends",
+     "comprend",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "mots",
+     "mot",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "faciles",
+     "facile",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peu",
+     "peu",
+     ""
+    ],
+    [
+     "comprends",
+     "comprend",
+     ""
+    ],
+    [
+     "mots",
+     "mot",
+     ""
+    ],
+    [
+     "faciles",
+     "facile",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "T'inquiète, c'est facile. Je te dis tout.",
+   "rd": "땡끼에뜨, 쎄 파씰. 쥬 뜨 디 뚜.",
+   "ko": "걱정 마, 쉬워. 내가 다 말해 줄게.",
+   "note": "t'inquiète = 걱정 마 · mots faciles → c'est facile · je te dis = 너한테 말한다",
+   "tags": [
+    "expr:t'inquiète"
+   ],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "facile",
+     "facile",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tout",
+     "tout",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "facile",
+     "facile",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Lui, là… à la fin, il meurt.",
+   "rd": "뤼, 라… 아 라 팽, 일 뫼르.",
+   "ko": "저 사람… 마지막에 죽어.",
+   "note": "fin = 끝 · mourir = 죽다(il meurt) · 영화 시작 5분 만에",
+   "tags": [],
+   "new": [
+    "fin",
+    "mourir"
+   ],
+   "emotion": "neutral",
+   "morph_tags": [
+    [
+     "Lui",
+     "luire",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fin",
+     "fin",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "meurt",
+     "mourir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "fin",
+     "fin",
+     ""
+    ],
+    [
+     "meurt",
+     "mourir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Camille ! Tu me dis la fin ?!",
+   "rd": "까미유! 뛰 므 디 라 팽?!",
+   "ko": "카미유! 결말을 말하면 어떡해?!",
+   "note": "je te dis → tu me dis",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fin",
+     "fin",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fin",
+     "fin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Ben… j'ai dit « tout », non ?",
+   "rd": "뱅… 제 디 뚜, 농?",
+   "ko": "뭐… 「다」 말해 준다고 했잖아?",
+   "note": "je dis → j'ai dit(복합과거)",
+   "tags": [
+    "expr:ben"
+   ],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "«",
+     "«",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

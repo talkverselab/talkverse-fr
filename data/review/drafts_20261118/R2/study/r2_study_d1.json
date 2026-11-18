@@ -1,0 +1,960 @@
+{
+ "id": "r2_study_d1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "title": "잘못 보낸 파일",
+ "emoji": "📎",
+ "scene": "발표 전날 밤, 발표 짝 레아에게 슬라이드 파일을 보냈는데 휴가 사진 폴더를 보내 버렸다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "복합과거(t'as fini·j'ai regardé)·역할 나누기(je lis… toi, tu montres…)·관계대명사 qui",
+ "expressions": [
+  "ça marche",
+  "voilà",
+  "stp",
+  "trop",
+  "en fait"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "{name}, l'exposé, c'est demain à dix heures. T'as fini les diapos ?",
+   "rd": "{name}, 렉스뽀제, 쎄 드맹 아 디 죄르. 따 피니 레 디아뽀?",
+   "ko": "{name}, 발표 내일 10시야. 슬라이드 다 했어?",
+   "note": "exposé = (수업) 발표 · diapo = 슬라이드 · finir → t'as fini",
+   "tags": [],
+   "new": [
+    "exposé",
+    "diapo",
+    "finir"
+   ],
+   "emotion": "worried",
+   "at": "22:30",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "exposé",
+     "exposé",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fini",
+     "finir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "diapos",
+     "diapo",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "exposé",
+     "exposé",
+     ""
+    ],
+    [
+     "demain",
+     "demain",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "fini",
+     "finir",
+     ""
+    ],
+    [
+     "diapos",
+     "diapo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Presque ! Il me reste deux diapos. Et toi, ton texte ?",
+   "rd": "프레스끄! 일 므 레스뜨 되 디아뽀. 에 뚜아, 똥 떽스뜨?",
+   "ko": "거의! 두 장 남았어. 넌, 대본은?",
+   "note": "presque = 거의 · il me reste = 나한테 … 남았다",
+   "tags": [],
+   "new": [
+    "presque",
+    "texte"
+   ],
+   "emotion": "cheerful",
+   "at": "22:32",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "diapos",
+     "diapo",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "texte",
+     "text",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Presque",
+     "presque",
+     ""
+    ],
+    [
+     "reste",
+     "reste",
+     ""
+    ],
+    [
+     "diapos",
+     "diapo",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "texte",
+     "texte",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Fini. Demain, je lis le texte et toi, tu montres les images. Ça marche ?",
+   "rd": "피니. 드맹, 쥬 리 르 떽스뜨 에 뚜아, 뛰 몽트르 레 지마쥬. 싸 마르슈?",
+   "ko": "다 했어. 내일 내가 대본 읽고 넌 사진 보여 주는 거야. 알았지?",
+   "note": "t'as fini → fini · montrer = 보여 주다 · ça marche ? = 괜찮지?",
+   "tags": [
+    "expr:ça marche"
+   ],
+   "new": [
+    "montrer",
+    "image"
+   ],
+   "emotion": "gentle",
+   "at": "22:33",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lis",
+     "lire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "texte",
+     "texte",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "montres",
+     "montre",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "images",
+     "image",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|PronType=Dem"
+    ],
+    [
+     "marche",
+     "marche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Demain",
+     "demain",
+     ""
+    ],
+    [
+     "lis",
+     "lire",
+     ""
+    ],
+    [
+     "texte",
+     "texte",
+     ""
+    ],
+    [
+     "montres",
+     "montre",
+     ""
+    ],
+    [
+     "images",
+     "image",
+     ""
+    ],
+    [
+     "marche",
+     "marche",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Ça marche. Je t'envoie le fichier dans cinq minutes.",
+   "rd": "싸 마르슈. 쥬 땅부아 르 피쉬에 당 쌩 미뉘뜨.",
+   "ko": "알았어. 5분 안에 파일 보낼게.",
+   "note": "fichier = 파일 · envoyer = 보내다",
+   "tags": [
+    "expr:ça marche"
+   ],
+   "new": [
+    "fichier"
+   ],
+   "emotion": "cheerful",
+   "at": "22:34",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "marche",
+     "march",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "envoie",
+     "envoyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "fichier",
+     "fichier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "minutes",
+     "minute",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "marche",
+     "marche",
+     ""
+    ],
+    [
+     "envoie",
+     "envoyer",
+     ""
+    ],
+    [
+     "fichier",
+     "fichier",
+     ""
+    ],
+    [
+     "minutes",
+     "minute",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Voilà ! 📎",
+   "rd": "부알라!",
+   "ko": "여기! 📎",
+   "note": "voilà = 여기 있어",
+   "tags": [
+    "expr:voilà"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "at": "22:41",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "📎",
+     "📎",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": []
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Euh… {name}… c'est des photos de vacances 😳",
+   "rd": "외… {name}… 쎄 데 포또 드 바깡쓰.",
+   "ko": "어… {name}… 이거 휴가 사진인데 😳",
+   "note": "vacances = 휴가",
+   "tags": [],
+   "new": [
+    "vacances"
+   ],
+   "emotion": "surprised",
+   "at": "22:43",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "photos",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "vacances",
+     "vacance",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Euh",
+     "euh",
+     ""
+    ],
+    [
+     "photos",
+     "photo",
+     ""
+    ],
+    [
+     "vacances",
+     "vacances",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Toi à la plage. Toi avec un chapeau. Toi qui dors sur un canapé.",
+   "rd": "뚜아 아 라 쁠라쥬. 뚜아 아벡 깡 샤뽀. 뚜아 끼 도르 쒸르 앙 까나뻬.",
+   "ko": "해변에 있는 너. 모자 쓴 너. 소파에서 자는 너.",
+   "note": "qui dors = 자고 있는(qui 뒤 동사는 toi 에 맞춰 dors) · plage = 해변 · chapeau = 모자",
+   "tags": [],
+   "new": [
+    "plage",
+    "chapeau",
+    "dormir"
+   ],
+   "emotion": "amused",
+   "at": "22:43",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Toi",
+     "toi",
+     "PRON",
+     "Number=Sing|Person=2|PronType=Prs"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "plage",
+     "plage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Toi",
+     "toi",
+     "PRON",
+     "Number=Sing|Person=2|PronType=Prs"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chapeau",
+     "chapeau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Toi",
+     "toi",
+     "PRON",
+     "Number=Sing|Person=2|PronType=Prs"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "canapé",
+     "canapé",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "plage",
+     "plage",
+     ""
+    ],
+    [
+     "chapeau",
+     "chapeau",
+     ""
+    ],
+    [
+     "dors",
+     "dormir",
+     ""
+    ],
+    [
+     "canapé",
+     "canapé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "NON. Mauvais fichier !! Supprime tout stp 😭",
+   "rd": "농. 모베 피쉬에!! 쒸프림 뚜 에쓰떼뻬.",
+   "ko": "안 돼. 파일 잘못 보냈어!! 다 지워 줘 제발 😭",
+   "note": "mauvais = 잘못된 · supprimer = 지우다",
+   "tags": [
+    "expr:stp"
+   ],
+   "new": [
+    "supprimer"
+   ],
+   "emotion": "flustered",
+   "at": "22:44",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "NON",
+     "non",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "fichier",
+     "fichier",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Supprime",
+     "supprime",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "😭",
+     "😭",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fichier",
+     "fichier",
+     ""
+    ],
+    [
+     "Supprime",
+     "supprime",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "stp",
+     "stp",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Trop tard, j'ai tout regardé. Le chapeau te va bien, en fait.",
+   "rd": "트로 따르, 제 뚜 르가르데. 르 샤뽀 뜨 바 비앵, 앙 페뜨.",
+   "ko": "늦었어, 다 봤어. 근데 모자 잘 어울린다.",
+   "note": "trop tard = 너무 늦었다 · aller bien à = 잘 어울리다 · en fait = 사실은",
+   "tags": [
+    "expr:trop",
+    "expr:en fait"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "teasing",
+     "Trop tard, j'ai tout regardé."
+    ],
+    [
+     "shy",
+     "Le chapeau te va bien, en fait."
+    ]
+   ],
+   "at": "22:46",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tout",
+     "tout",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "regardé",
+     "regarder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chapeau",
+     "chapeau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "fait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "tard",
+     "tard",
+     ""
+    ],
+    [
+     "regardé",
+     "regarder",
+     ""
+    ],
+    [
+     "chapeau",
+     "chapeau",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "…Merci ? Bon, voilà le bon fichier, cette fois.",
+   "rd": "…메르씨? 봉, 부알라 르 봉 피쉬에, 쎄뜨 푸아.",
+   "ko": "…고마워? 아무튼 이번엔 진짜 파일이야.",
+   "note": "mauvais fichier ↔ bon fichier · cette fois = 이번엔",
+   "tags": [
+    "expr:voilà"
+   ],
+   "new": [],
+   "emotion": "flustered",
+   "at": "22:47",
+   "ui": "bubble",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "voilà",
+     "voilà",
+     "VERB",
+     "Tense=Pres|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "fichier",
+     "fichier",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "fois",
+     "fois",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "voilà",
+     "voilà",
+     ""
+    ],
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "fichier",
+     "fichier",
+     ""
+    ],
+    [
+     "fois",
+     "fois",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Parfait, merci. Mais je garde la photo du chapeau 😏",
+   "rd": "빠르페, 메르씨. 메 쥬 가르드 라 포또 뒤 샤뽀.",
+   "ko": "완벽해, 고마워. 근데 모자 사진은 내가 간직할래 😏",
+   "note": "garder = 간직하다 · photos → la photo du chapeau",
+   "tags": [],
+   "new": [
+    "garder"
+   ],
+   "emotion": "teasing",
+   "at": "22:49",
+   "ui": "bubble",
+   "stamp": "🎩",
+   "morph_tags": [
+    [
+     "merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "garde",
+     "garde",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "photo",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "chapeau",
+     "chapeau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "garde",
+     "garde",
+     ""
+    ],
+    [
+     "photo",
+     "photo",
+     ""
+    ],
+    [
+     "chapeau",
+     "chapeau",
+     ""
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

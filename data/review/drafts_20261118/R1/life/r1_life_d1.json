@@ -1,0 +1,663 @@
+{
+ "id": "r1_life_d1",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "양말 한 짝",
+ "emoji": "🧦",
+ "scene": "셰어하우스 세탁기. 테오가 자기 빨래를 A 의 흰 셔츠와 같이 돌렸는데, 빨간 양말 한 짝 때문에 셔츠가 분홍색이 됐다",
+ "where": "셰어하우스 세탁실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "laver·mettre 현재(tu laves·je lave·je mets)·복합과거 t'as mis·형용사 성 일치(blanc→blanche, rouge·rose)",
+ "expressions": [
+  "d'accord",
+  "t'inquiète",
+  "voilà",
+  "tant pis"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Tu laves tes vêtements ? Je mets les miens aussi.",
+   "rd": "뛰 라브 떼 베뜨망? 쥬 메 레 미앵 오씨.",
+   "ko": "빨래해? 내 것도 같이 넣을게.",
+   "note": "laver = 빨다, 씻다 · vêtements = 옷 · les miens = 내 것들",
+   "tags": [],
+   "new": [
+    "laver",
+    "vêtement"
+   ],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "laves",
+     "laver",
+     ""
+    ],
+    [
+     "tes",
+     "te",
+     ""
+    ],
+    [
+     "vêtements",
+     "vêtement",
+     ""
+    ],
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "miens",
+     "mien",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "laves",
+     "laver",
+     "ADJ",
+     "Number=Plur"
+    ],
+    [
+     "tes",
+     "te",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "vêtements",
+     "vêtement",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "mets",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "miens",
+     "mien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "D'accord. Mais attention, ma chemise est blanche.",
+   "rd": "다꼬르. 메 아땅씨옹, 마 슈미즈 에 블랑슈.",
+   "ko": "그래. 근데 조심해, 내 셔츠 흰색이야.",
+   "note": "chemise = 셔츠 · blanc → blanche(chemise 가 여성이라)",
+   "tags": [
+    "expr:d'accord"
+   ],
+   "new": [
+    "chemise"
+   ],
+   "emotion": "gentle",
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "attention",
+     "attention",
+     ""
+    ],
+    [
+     "chemise",
+     "chemise",
+     ""
+    ],
+    [
+     "blanche",
+     "blanc",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "attention",
+     "attention",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "chemise",
+     "chemise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "blanche",
+     "blanc",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "T'inquiète, je lave toujours mes vêtements comme ça.",
+   "rd": "땡끼에뜨, 쥬 라브 뚜쥬르 메 베뜨망 꼼 싸.",
+   "ko": "걱정 마, 나 옷 항상 이렇게 빨아.",
+   "note": "tu laves → je lave · t'inquiète = 걱정 마",
+   "tags": [
+    "expr:t'inquiète"
+   ],
+   "new": [],
+   "emotion": "cheerful",
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "lave",
+     "laver",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ],
+    [
+     "vêtements",
+     "vêtement",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lave",
+     "laver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mes",
+     "mon",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "vêtements",
+     "vêtement",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Ça y est ? Ouvre, je veux voir.",
+   "rd": "싸 이 에? 우브르, 쥬 뵈 부아르.",
+   "ko": "다 됐어? 열어 봐, 보고 싶어.",
+   "note": "ça y est = 다 됐다(덩어리)",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "lemmas": [
+    [
+     "Ouvre",
+     "ouvrir",
+     ""
+    ],
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "voir",
+     "voir",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Ouvre",
+     "ouvrir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "voir",
+     "voir",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Voilà… euh. Elle était blanche, ta chemise ?",
+   "rd": "부알라… 외. 엘 레떼 블랑슈, 따 슈미즈?",
+   "ko": "자… 어. 네 셔츠, 원래 흰색이었지?",
+   "note": "c'était 처럼 était = ~였다(덩어리) · ma chemise → ta chemise",
+   "tags": [
+    "expr:voilà"
+   ],
+   "new": [],
+   "segs": [
+    [
+     "cheerful",
+     "Voilà…"
+    ],
+    [
+     "worried",
+     "euh. Elle était blanche, ta chemise ?"
+    ]
+   ],
+   "lemmas": [
+    [
+     "euh",
+     "euh",
+     ""
+    ],
+    [
+     "blanche",
+     "blanc",
+     ""
+    ],
+    [
+     "chemise",
+     "chemise",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "…",
+     "…",
+     "VERB",
+     "Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "blanche",
+     "blanc",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "ta",
+     "ton",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chemise",
+     "chemise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Elle est rose ! Théo, t'as mis quoi ?",
+   "rd": "엘 레 로즈! 떼오, 따 미 꾸아?",
+   "ko": "분홍색이잖아! 테오, 뭘 넣은 거야?",
+   "note": "je mets → t'as mis(복합과거) · rose = 분홍색",
+   "tags": [
+    "form:passé composé"
+   ],
+   "new": [],
+   "emotion": "shout",
+   "lemmas": [
+    [
+     "rose",
+     "rose",
+     ""
+    ],
+    [
+     "mis",
+     "mettre",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rose",
+     "rose",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mis",
+     "mettre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Rien ! Juste… une chaussette rouge. Une seule.",
+   "rd": "리앵! 쥐스뜨… 윈 쇼쎄뜨 루쥬. 윈 쐴.",
+   "ko": "아무것도! 그냥… 빨간 양말 하나. 딱 한 짝.",
+   "note": "chaussette = 양말 · une seule = 딱 하나",
+   "tags": [],
+   "new": [
+    "chaussette"
+   ],
+   "emotion": "flustered",
+   "lemmas": [
+    [
+     "Juste",
+     "juste",
+     ""
+    ],
+    [
+     "chaussette",
+     "chaussette",
+     ""
+    ],
+    [
+     "rouge",
+     "rouge",
+     ""
+    ],
+    [
+     "seule",
+     "seul",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chaussette",
+     "chaussette",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "rouge",
+     "rouge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "seule",
+     "seul",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Tant pis. Demain, je lave les tiens… en rouge.",
+   "rd": "땅 삐. 드맹, 쥬 라브 레 띠앵… 앙 루쥬.",
+   "ko": "할 수 없지. 내일은 내가 네 거 빨게… 빨간색으로.",
+   "note": "les miens → les tiens(네 것들) · je lave · tant pis = 할 수 없지",
+   "tags": [
+    "expr:tant pis"
+   ],
+   "new": [],
+   "emotion": "teasing",
+   "lemmas": [
+    [
+     "Tant",
+     "tant",
+     ""
+    ],
+    [
+     "pis",
+     "pis",
+     ""
+    ],
+    [
+     "Demain",
+     "demain",
+     ""
+    ],
+    [
+     "lave",
+     "laver",
+     ""
+    ],
+    [
+     "tiens",
+     "tien",
+     ""
+    ],
+    [
+     "rouge",
+     "rouge",
+     ""
+    ]
+   ],
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lave",
+     "laver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "tiens",
+     "tien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "…",
+     "…",
+     "VERB",
+     "Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "rouge",
+     "rouge",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ]
+  }
+ ],
+ "draft": true,
+ "review": {
+  "stage": "claude_draft",
+  "model": "opus",
+  "date": "2026-11-18"
+ }
+}

@@ -6,3 +6,9 @@ uk 전달 회화 원칙(11-18 「클로드 초안 - 그록 다이얼로그 작�
 
 R0 5 · R1 4 · R2 6 · R3 4(R1 새 편의 vous·복수 짝) · R4 7 · R5 6. 검사기 오류 0, morph_tags·lemmas 붙음.
 Grok 답을 붙인 뒤 `assets/data/dialogues/R*/<주제>/` 로 옮기고 `python3 tools/script_publish.py --publish`(rev 2) — 새 빌드 없이 앱에 나간다.
+
+## Grok 대사 붙여 넣은 뒤 점검 (uk 알림 2026-11-19)
+- 메모(note) 칸: Grok 작업 표시(「새로 씀/작성」「필수」)와 구성 표시(punchline·setup·callback·멘트 #N 등)는 표시만 지운다. 학습자에게 뜻이 되는 풀이는 남긴다. 대사 줄은 고치지 않는다.
+- 칸 수 확인: 메모 칸이 빠져 뒤 칸 값(emotion=neutral 등)이 메모로 밀려 들어간 줄을 가져오기 때 잡는다.
+- 3분 상한에 답이 실제로 끊긴 편은 새 방에서 다시 받는다.
+- 지운 줄 수와 서버 원고 rev 를 uk 에 한 줄로 보고.

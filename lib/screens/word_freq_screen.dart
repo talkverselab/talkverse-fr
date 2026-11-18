@@ -10,6 +10,7 @@ import '../core/theme.dart';
 import '../services/tts_service.dart';
 import '../services/word_service.dart' as ws;
 import '../widgets/word_art_thumb.dart';
+import 'word_quiz_screen.dart';
 import '../core/embed_env.dart';
 
 /// 절벽 단어 — 레마 빈도 1~2,000위를 절벽구간(R1~R5)별 **20어 단원**으로, 단어는 **네모 타일**로 보여 준다(사용자 지시 2026-11-07, 일본어앱과 같은 구조).
@@ -98,6 +99,18 @@ class _WordFreqScreenState extends State<WordFreqScreen> {
     return Scaffold(
       backgroundColor: AppColors.washi,
       appBar: AppBar(
+        actions: [
+          if (!_loading)
+            IconButton(
+              key: const ValueKey('word-quiz'),
+              tooltip: tr('퀴즈 복습'),
+              icon: const Icon(Icons.quiz_outlined),
+              onPressed: () {
+                final pool = _filter == 'ALL' ? _words : _words.where((w) => w.region == _filter).toList();
+                Navigator.of(context).push(MaterialPageRoute(builder: (_) => WordQuizScreen(words: [for (final w in pool) if (w.ko.isNotEmpty) GQWord(w.word, '', w.ko)])));
+              },
+            ),
+        ],
         title: Column(
           mainAxisSize: MainAxisSize.min,
           children: [

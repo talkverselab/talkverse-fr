@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../core/cliff.dart';
-import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
 import '../services/tts_service.dart';
@@ -30,10 +29,7 @@ Future<void> showWordSheet(BuildContext context, WordEntry w) => showModalBottom
             Text(w.ko, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w600, color: AppColors.sumi)),
             const SizedBox(height: 4),
             Text('${w.en} · ${w.pos}', style: const TextStyle(fontSize: 13, color: AppColors.muted)),
-            const SizedBox(height: 12),
-            Container(height: 1, color: AppColors.line),
-            const SizedBox(height: 10),
-            Text(tr('성·수 · 관사 · 동사 활용은 준비 중'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
+            // 「성·수 · 관사 · 동사 활용은 준비 중」 줄은 그 데이터가 생길 때까지 뺀다(2026-11-22 심사)
           ]),
         ),
       ),

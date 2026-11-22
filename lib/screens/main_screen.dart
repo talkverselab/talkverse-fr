@@ -440,7 +440,11 @@ class _MenuGrid extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        for (final (title, items) in groups) ...[
+        // 데이터가 빈 메뉴(soon)는 데이터가 생길 때까지 안 보인다(2026-11-22 심사 — 「준비 중」 자리표시는 미완성으로 보인다)
+        for (final (title, items) in [
+          for (final (t, its) in groups)
+            if (its.any((i) => !i.soon)) (t, its.where((i) => !i.soon).toList()),
+        ]) ...[
           Padding(
             padding: const EdgeInsets.fromLTRB(2, 6, 2, 8),
             child: Text(title, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w600, color: AppColors.muted)),
@@ -457,8 +461,8 @@ class _MenuGrid extends StatelessWidget {
             itemCount: items.length,
             itemBuilder: (context, i) => _MenuTile(item: items[i]),
           ),
-          if (title == tr('문법·소리'))
-            // 준비중 메뉴는 타일 대신 한 줄(시안 01 §2)
+          if (_showComingSoon && title == tr('문법·소리'))
+            // 준비중 메뉴는 타일 대신 한 줄(시안 01 §2) — 심사 빌드에서는 끔(2026-11-22), 성·수 화면이 생기면 켠다
             Padding(
               padding: const EdgeInsets.only(top: 8),
               child: Wrap(crossAxisAlignment: WrapCrossAlignment.center, spacing: 6, children: [
@@ -476,6 +480,9 @@ class _MenuGrid extends StatelessWidget {
     );
   }
 }
+
+/// 「곧 열려요 · 성·수」 줄 — 내용이 생길 때까지 끔(2026-11-22 통합 앱 심사).
+const _showComingSoon = false;
 
 class _MenuItem {
   final String label;

@@ -126,7 +126,7 @@
 - **회화를 다시 쓸 때(공통 원칙 §9)**: 카오스 30%↑ · 심쿵 많이(연애·플러팅 편마다 한 줄, 여성 주도 더 많이) · 편마다 `twist_type`(chaos·slip·reveal·emotion·ignore) · 새 편은 왕초보·초급 위주 · 장면 그림 = A·B 쌍 1컷, 말풍선·글자 없음, 인물 기준 그림 첨부.
 - 아이콘은 talkverse.uk 세션 담당 — 직접 고치지 않는다.
 
-## 토크버스 커리큘럼 (2026-11-22, uk 지시 · 기준 ~/talkverse/CURRICULUM_SPEC.md)
-- 2339099 — 홈 맨 위 카드 `CurriculumHomeCard`(main_screen.dart) → `lib/screens/curriculum_screen.dart`. 계산·저장은 `lib/services/curriculum.dart`(Prefs 접두로 키 `fr_curriculum_v1`).
-- 흐름: 회화 레벨(R0~R5) 고르기 → 3·5·10편 고르기(추천 = 주제 돌아가며) → 편마다 1 듣기·읽기(DialogueScreen) · 2 따라 말하기(줄 반복, 녹음 없으면 TTS) · 3 확인 문제(뜻 4지 · 빈칸 낱말, 최대 10) → 줄 복습 1·3·7일 → 코스 시험(편당 3↑, 30↓) 80% 통과, 미만이면 틀린 편 연습 표시 지움 → 레벨 다 통과하면 다음 레벨 열기 단추. 하루 목표 가볍게/보통/집중(새 편 1/2/3 + 복습 전부).
-- 일본어앱 기준 구현이 오면 화면·문구를 맞출 것. AI 다이얼로그 작성(§9)은 uk 가 일본어앱 공유를 다시 보낸 뒤(그 전엔 만들지 않음, 만들면 숨김).
+## 토크버스 커리큘럼 (2026-11-22, uk 지시 · 기준 ~/talkverse/CURRICULUM_SPEC.md §10·§11)
+- 첫 구현 2339099 → 일본어 기준 구현(ja ceb91c3)으로 교체. `lib/services/curriculum_service.dart`·`lib/screens/curriculum_screen.dart`(홈 카드 `CurriculumHomeCard` 포함)는 ja 파일을 그대로 옮기고 `t.ja→t.tl`·`SealStamp→TileBadge` 만 바꿈. 저장 `fr_curriculum_v1`(today:{day,new,review}). 문구는 ja l10n 커리큘럼 줄.
+- 일본어 쪽이 바뀌면 다시 복사해 같은 치환만 하면 된다.
+- AI 회화 작성: `lib/screens/custom_script_screen.dart`·`lib/services/custom_script_service.dart`(ja 이식, 서버 `https://talkverse.uk/api/script/fr`, 레벨 R0~R5, 추천 상황 중 일본 특유 것은 바꿈). `kCustomScriptLive=false` — 홈 회화 묶음 메뉴가 이 스위치로만 보임. 켜는 것은 작성기(uk 공용) + 사용자 결정 뒤.

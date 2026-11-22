@@ -1,7 +1,6 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
 
 import '../core/theme.dart';
 import '../services/ko_reading.dart';
@@ -10,7 +9,7 @@ import '../widgets/spanish_decor.dart';
 import 'grammar_test_screen.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
-import '../core/embed_env.dart';
+import '../services/script_sync.dart';
 
 /// 문법 강의 자산 — `assets/data/grammar/lessonN.json`
 /// `{lesson, title, subtitle, stages:[{stage,title}],
@@ -26,23 +25,42 @@ class GrammarLesson {
   int get exampleCount =>
       patterns.fold(0, (n, p) => n + ((p['examples'] as List?)?.length ?? 0));
 
+  /// 스텝 = 원고 목록(`assets/data/script_rev.json` 기준표, 서버 목록을 받았으면 그것)에 있는 `grammar/lessonN.json` 전부.
+  /// 개수·순서·제목을 코드에 박지 않는다 — 서버에서 파일을 더하면 생기고 빼면 사라진다(앱 다시 내지 않음).
+  /// 패턴이 빈 스텝은 칸째 숨긴다(「준비 중」 없음). 사용자 지시 2026-11-23 「스텝 15까지 하자 내용이 없으면 자동으로 안 나타나게」
+  /// ·「DB 가 업데이트되면 앱을 빌드 안 하고 스텝이 늘어날 수도 줄어들 수도」.
+  static final stepFile = RegExp(r'^grammar/lesson(\d+)\.json$');
+
+  static GrammarLesson? parse(int i, String raw) {
+    final d = json.decode(raw) as Map<String, dynamic>;
+    final patterns = [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)];
+    if (patterns.isEmpty) return null;
+    return GrammarLesson(
+      (d['lesson'] as num?)?.toInt() ?? i,
+      d['title'] as String? ?? trf('문법 {0}', [i]),
+      d['subtitle'] as String? ?? '',
+      [for (final s in (d['stages'] as List? ?? const [])) Map<String, dynamic>.from(s as Map)],
+      patterns,
+    );
+  }
+
   static Future<List<GrammarLesson>> loadAll() async {
+    final sync = ScriptSync.instance;
+    await sync.init();
+    final steps = [
+      for (final f in sync.files)
+        if (stepFile.firstMatch(f) case final m?) (int.parse(m.group(1)!), f),
+    ]..sort((a, b) => a.$1.compareTo(b.$1));
     final out = <GrammarLesson>[];
-    for (var i = 1; i <= 20; i++) {
+    for (final (i, rel) in steps) {
       try {
-        final raw = await rootBundle.loadString(assetPath('assets/data/grammar/lesson$i.json'));
-        final d = json.decode(raw) as Map<String, dynamic>;
-        out.add(GrammarLesson(
-          (d['lesson'] as num?)?.toInt() ?? i,
-          d['title'] as String? ?? trf('문법 {0}', [i]),
-          d['subtitle'] as String? ?? '',
-          [for (final s in (d['stages'] as List? ?? const [])) Map<String, dynamic>.from(s as Map)],
-          [for (final p in (d['patterns'] as List? ?? const [])) Map<String, dynamic>.from(p as Map)],
-        ));
+        final l = parse(i, await sync.load(rel));
+        if (l != null) out.add(l);
       } catch (_) {
-        break;
+        // 읽지 못한 스텝은 건너뛴다
       }
     }
+    out.sort((a, b) => a.number.compareTo(b.number));
     return out;
   }
 }

@@ -130,3 +130,9 @@
 - 첫 구현 2339099 → 일본어 기준 구현(ja ceb91c3)으로 교체. `lib/services/curriculum_service.dart`·`lib/screens/curriculum_screen.dart`(홈 카드 `CurriculumHomeCard` 포함)는 ja 파일을 그대로 옮기고 `t.ja→t.tl`·`SealStamp→TileBadge` 만 바꿈. 저장 `fr_curriculum_v1`(today:{day,new,review}). 문구는 ja l10n 커리큘럼 줄.
 - 일본어 쪽이 바뀌면 다시 복사해 같은 치환만 하면 된다.
 - AI 회화 작성: `lib/screens/custom_script_screen.dart`·`lib/services/custom_script_service.dart`(ja 이식, 서버 `https://talkverse.uk/api/script/fr`, 레벨 R0~R5, 추천 상황 중 일본 특유 것은 바꿈). `kCustomScriptLive=false` — 홈 회화 묶음 메뉴가 이 스위치로만 보임. 켜는 것은 작성기(uk 공용) + 사용자 결정 뒤.
+
+## 문법 스텝 = 서버 목록 그대로 (2026-11-23, 사용자 지시 uk·토크버스문법 전달)
+- 문법 메뉴 스텝 = 원고 목록(`script_rev.json`, 서버 `index.json` 을 받았으면 그것)의 `grammar/lesson<N>.json` 전부 — 개수·순서·제목을 코드에 두지 않는다. 서버에 파일을 더하면 생기고 빼면 사라짐, 패턴이 빈 스텝은 칸째 숨김(「준비 중」 없음). `GrammarLesson.loadAll` · `ScriptSync.files`.
+- 언어감각도 급 목록은 원고에서, 회차 없는 급은 숨김(`SenseCourse.levels`), 상한 없음.
+- 새 스텝 올리기: `assets/data/grammar/lessonN.json` 만들고 `python3 tools/script_publish.py --publish` → `script_rev.json` 커밋. 문장은 Claude 로, 12+·형식 검사 뒤.
+- 현재 내용 있는 스텝: 문법 1(lesson1) · 언어감각 10급. 서버 rev 5.

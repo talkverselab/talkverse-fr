@@ -32,9 +32,16 @@ class SenseCourse {
     await p.setStringList(_kDoneKey, s.toList());
   }
 
+  /// 보이는 급 — 급 목록·제목·순서는 원고(서버 덮어쓰기 가능)에서 읽고 회차가 없는 급은 숨긴다. 개수 상한 없음
+  /// (사용자 지시 2026-11-23 「스텝 … 내용이 없으면 자동으로 안 나타나게」·「스텝이 늘어날 수도 줄어들 수도」).
+  static List<Map<String, dynamic>> levels(Map<String, dynamic> d) => [
+        for (final lv in ((d['levels'] as List?) ?? const []).whereType<Map>().map((m) => Map<String, dynamic>.from(m)))
+          if (((lv['lessons'] as List?) ?? const []).isNotEmpty) lv,
+      ];
+
   /// 모든 회차를 순서대로 (레벨, 회차) 쌍으로.
   static List<(Map<String, dynamic>, Map<String, dynamic>)> flat(Map<String, dynamic> d) => [
-        for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>())
+        for (final lv in levels(d))
           for (final ls in (lv['lessons'] as List).cast<Map<String, dynamic>>()) (lv, ls),
       ];
 }
@@ -94,7 +101,7 @@ class _SenseCourseScreenState extends State<SenseCourseScreen> {
           style: const TextStyle(fontSize: 12, color: AppColors.muted)),
     ];
     var i = 0;
-    for (final lv in (d['levels'] as List).cast<Map<String, dynamic>>()) {
+    for (final lv in SenseCourse.levels(d)) {
       children.add(Padding(
         padding: const EdgeInsets.fromLTRB(2, 18, 2, 8),
         child: Text('${lv['id']}  ${lv['title']}',

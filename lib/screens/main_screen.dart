@@ -11,6 +11,7 @@ import 'sense_course_screen.dart';
 import 'chunk_search_screen.dart';
 import 'conversation_screen.dart';
 import 'curriculum_screen.dart';
+import 'custom_script_screen.dart';
 import 'dialogue_screen.dart';
 import 'episode_screen.dart';
 import 'grammar_lesson_screen.dart';
@@ -23,8 +24,6 @@ import 'verb_screen.dart';
 import 'word_flashcard_screen.dart';
 import 'word_freq_screen.dart';
 import '../core/l10n.dart';
-import '../services/curriculum.dart';
-import '../services/dialogue_service.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -420,6 +419,10 @@ class _MenuGrid extends StatelessWidget {
       (tr('회화'), [
         _MenuItem(label: tr('회화'), sub: 'Conversation', badge: 'Ch', color: AppColors.beni,
           builder: (_) => const DialogueHomeScreen()),
+        // AI 회화 작성(일본어앱 맞춤 회화) — 작성기가 켜지고 사용자가 정할 때까지 숨김(kCustomScriptLive=false, 2026-11-22)
+        if (kCustomScriptLive)
+          _MenuItem(label: tr('맞춤 회화 만들기'), sub: tr('주제·상황·레벨 → 나만의 1편 · 첫 편 무료'), badge: '✨', color: AppColors.kinDeep,
+            builder: (_) => const CustomScriptScreen()),
         _MenuItem(label: tr('문장 말하기'), sub: tr('한글 보고 프랑스어로 · 10초/5초/2초'), badge: '🎙', color: AppColors.rojo,
           builder: (_) => const SpeakingPracticeScreen()),
         _MenuItem(label: tr('문장 카드'), sub: 'Phrases', badge: 'S', color: AppColors.tinta,
@@ -576,86 +579,3 @@ class _ComingSoon extends StatelessWidget {
   }
 }
 
-/// 홈 「토크버스 커리큘럼」 카드 — 오늘: 복습 N · 새 편 N + 진행 막대, 다 하면 「오늘 분량 끝」·연속 일수.
-class CurriculumHomeCard extends StatefulWidget {
-  const CurriculumHomeCard({super.key});
-  @override
-  State<CurriculumHomeCard> createState() => _CurriculumHomeCardState();
-}
-
-class _CurriculumHomeCardState extends State<CurriculumHomeCard> {
-  CurriculumState? _s;
-
-  @override
-  void initState() {
-    super.initState();
-    _load();
-  }
-
-  Future<void> _load() async {
-    final s = await CurriculumStore.load();
-    s.rollDay(dayKey(DateTime.now()));
-    if (mounted) setState(() => _s = s);
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final s = _s;
-    final today = dayKey(DateTime.now());
-    final due = s?.dueReviews(today).length ?? 0;
-    final newLeft = s == null ? 0 : (s.newGoal - s.todayNew).clamp(0, 99);
-    final total = s == null ? 1 : s.newGoal + due + s.todayReview;
-    final done = s == null ? 0 : s.todayNew.clamp(0, s.newGoal) + s.todayReview;
-    final finished = s?.dailyDone(today) ?? false;
-    final String line;
-    if (s == null || s.level == null) {
-      line = tr('레벨을 고르고 회화로 코스를 시작해요');
-    } else if (finished) {
-      line = '${tr('오늘 분량 끝')} · ${trf('연속 {0}일', [s.streakShown(today)])}';
-    } else {
-      line = trf('오늘: 복습 {0} · 새 편 {1}', [due, newLeft]);
-    }
-    return InkWell(
-      borderRadius: BorderRadius.circular(14),
-      onTap: () async {
-        await openPane(context, (_) => const CurriculumScreen());
-        _load();
-      },
-      child: Container(
-        padding: const EdgeInsets.all(14),
-        decoration: BoxDecoration(
-          color: AppColors.cal,
-          borderRadius: BorderRadius.circular(14),
-          border: Border.all(color: AppColors.beni.withValues(alpha: 0.4)),
-        ),
-        child: Row(children: [
-          const TileBadge(text: 'TV', size: 44, color: AppColors.beni),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-              Text(tr('토크버스 커리큘럼'), style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.tinta)),
-              const SizedBox(height: 2),
-              Text(
-                s?.level == null ? line : '${tr(DialogueService.levelKo[s!.level] ?? s.level!)} · $line',
-                style: const TextStyle(fontSize: 12, color: AppColors.tintaLight),
-              ),
-              if (s?.level != null) ...[
-                const SizedBox(height: 8),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(3),
-                  child: LinearProgressIndicator(
-                    value: total == 0 ? 1 : (done / total).clamp(0, 1).toDouble(),
-                    minHeight: 5,
-                    backgroundColor: AppColors.calDeep,
-                    color: finished ? AppColors.matcha : AppColors.beni,
-                  ),
-                ),
-              ],
-            ]),
-          ),
-          const Icon(Icons.chevron_right, color: AppColors.muted),
-        ]),
-      ),
-    );
-  }
-}

@@ -1,0 +1,1045 @@
+{
+ "id": "r5_study_d1",
+ "region": "R5",
+ "island": "study",
+ "kind": "long",
+ "title": "석 달째 연체",
+ "emoji": "📚",
+ "scene": "대학 도서관. 논문에 꼭 필요한 책이 석 달째 연체 중이다. 자리를 맡아 준 레아에게 표지를 보여 주자 — 그 책은 레아 가방 안에 있었다",
+ "where": "대학 도서관 대출 데스크",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa",
+  "C": "Bibliothécaire"
+ },
+ "cast": {
+  "C": "man_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study",
+  "friends"
+ ],
+ "goal": "도서관 어휘(carte d'étudiant·emprunter·rendre·mémoire·rayon·cote·en retard·amende·centime·réserver·couverture·introuvable), 새 문법 없음",
+ "expressions": [
+  "attends",
+  "pardon",
+  "s'il vous plaît"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Bonjour, votre carte d'étudiant s'il vous plaît.",
+   "rd": "봉주르, 보트르 카르트 데튀디앙 실 부 쁠레.",
+   "ko": "안녕하세요, 학생증 주세요.",
+   "note": "carte d'étudiant = 학생증 · s'il vous plaît = 부탁합니다",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "votre",
+     "votre",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "carte",
+     "carte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "étudiant",
+     "étudiant",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "plaît",
+     "plaire",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "carte",
+     "carte",
+     ""
+    ],
+    [
+     "étudiant",
+     "étudiant",
+     ""
+    ],
+    [
+     "plaît",
+     "plaire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Voilà. Je voudrais emprunter un livre pour mon mémoire.",
+   "rd": "부알라. 쥬 부드레 앙프런테 앵 리브르 푸르 몽 메무아르.",
+   "ko": "여기요. 논문용 책 빌리고 싶어요.",
+   "note": "emprunter = 빌리다 · mémoire = 논문",
+   "tags": [],
+   "new": [
+    "emprunter",
+    "mémoire"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "voudrais",
+     "vouloir",
+     "VERB",
+     "Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "emprunter",
+     "emprunter",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "livre",
+     "livre",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "mémoire",
+     "mémoire",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "voudrais",
+     "vouloir",
+     ""
+    ],
+    [
+     "emprunter",
+     "emprunter",
+     ""
+    ],
+    [
+     "livre",
+     "livre",
+     ""
+    ],
+    [
+     "mémoire",
+     "mémoire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "La cote est au rayon histoire. Mais il est en retard.",
+   "rd": "라 코트 에 오 레용 이스투아르. 메 일 에 앙 르타르.",
+   "ko": "청구기호는 역사 서가에 있어요. 근데 연체 중이에요.",
+   "note": "cote = 청구기호 · rayon = 서가 · en retard = 연체된",
+   "tags": [],
+   "new": [
+    "cote",
+    "rayon"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "cote",
+     "cote",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rayon",
+     "rayon",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "histoire",
+     "histoire",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "retard",
+     "retard",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "cote",
+     "cote",
+     ""
+    ],
+    [
+     "rayon",
+     "rayon",
+     ""
+    ],
+    [
+     "histoire",
+     "histoire",
+     ""
+    ],
+    [
+     "retard",
+     "retard",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "En retard ? Depuis combien ?",
+   "rd": "앙 르타르 ? 드퓌 꽁비앵 ?",
+   "ko": "연체요? 얼마나 됐어요?",
+   "note": "depuis = 이후로",
+   "tags": [],
+   "new": [
+    "depuis"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "retard",
+     "retard",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "retard",
+     "retard",
+     ""
+    ],
+    [
+     "combien",
+     "combien",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Trois mois. L'amende est de cinquante centimes par jour.",
+   "rd": "트루아 무아. 라망드 에 드 생깡트 상팀 파르 주르.",
+   "ko": "석 달요. 벌금은 하루 50상팀이에요.",
+   "note": "amende = 벌금 · centime = 상팀",
+   "tags": [],
+   "new": [
+    "amende",
+    "centime"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "L'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "amende",
+     "amende",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "centimes",
+     "centime",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "jour",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mois",
+     "mois",
+     ""
+    ],
+    [
+     "amende",
+     "amende",
+     ""
+    ],
+    [
+     "centimes",
+     "centime",
+     ""
+    ],
+    [
+     "jour",
+     "jour",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Pardon, c'est introuvable alors ? Je peux réserver ?",
+   "rd": "파르동, 쎄 앵트루바블 알로르 ? 쥬 푀 레제르베 ?",
+   "ko": "죄송해요, 그럼 찾을 수 없나요? 예약할 수 있어요?",
+   "note": "pardon = 죄송해요 · introuvable = 찾을 수 없는 · réserver = 예약하다",
+   "tags": [],
+   "new": [
+    "pardon",
+    "introuvable",
+    "réserver"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "introuvable",
+     "introuvable",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "peux",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "réserver",
+     "réserver",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "introuvable",
+     "introuvable",
+     ""
+    ],
+    [
+     "alors",
+     "alors",
+     ""
+    ],
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "réserver",
+     "réserver",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Attends, je t'ai gardé une place. Montre la couverture.",
+   "rd": "아땅, 쥬 테 가르데 윈 플라스. 몽트르 라 쿠베르튀르.",
+   "ko": "잠깐, 자리 맡아뒀어. 표지 보여줘.",
+   "note": "attends = 잠깐 · couverture = 표지",
+   "tags": [],
+   "new": [
+    "attends",
+    "couverture"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "gardé",
+     "garder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "place",
+     "place",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Montre",
+     "montre",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "couverture",
+     "couverture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "gardé",
+     "garder",
+     ""
+    ],
+    [
+     "place",
+     "place",
+     ""
+    ],
+    [
+     "Montre",
+     "montre",
+     ""
+    ],
+    [
+     "couverture",
+     "couverture",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "C'est celui-là. Trop important pour le mémoire.",
+   "rd": "쎄 슬뤼라. 트로 임포르탕 푸르 르 메무아르.",
+   "ko": "이거요. 논문에 너무 중요해.",
+   "note": "important = 중요한",
+   "tags": [],
+   "new": [
+    "important"
+   ],
+   "emotion": "sad",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "celui",
+     "celui",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "important",
+     "important",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mémoire",
+     "mémoire",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "celui",
+     "celui",
+     ""
+    ],
+    [
+     "-là",
+     "-là",
+     ""
+    ],
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "important",
+     "important",
+     ""
+    ],
+    [
+     "mémoire",
+     "mémoire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Ah... je crois que je l'ai.",
+   "rd": "아... 쥬 크루아 크 쥬 레.",
+   "ko": "아... 내가 가지고 있는 것 같아.",
+   "note": "crois = 믿다",
+   "tags": [],
+   "new": [
+    "crois"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Ah",
+     "ah",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "crois",
+     "croire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "crois",
+     "croire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Oui, il est dans mon sac depuis des mois. J'ai oublié de rendre.",
+   "rd": "위, 일 에 당 몽 삭 드퓌 데 무아. 제 우블리에 드 랑드르.",
+   "ko": "응, 몇 달째 내 가방에 있어. 반납하는 걸 깜빡했어.",
+   "note": "rendre = 반납하다 · sac = 가방",
+   "tags": [],
+   "new": [
+    "rendre",
+    "sac"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "sac",
+     "sac",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "oublié",
+     "oublier",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "rendre",
+     "rendre",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sac",
+     "sac",
+     ""
+    ],
+    [
+     "mois",
+     "mois",
+     ""
+    ],
+    [
+     "oublié",
+     "oublier",
+     ""
+    ],
+    [
+     "rendre",
+     "rendre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Léa ! C'est toi qui l'as en retard ?",
+   "rd": "레아 ! 쎄 투아 키 라 앙 르타르 ?",
+   "ko": "레아! 연체한 게 너야?",
+   "note": "en retard = 연체된",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "retard",
+     "retard",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "retard",
+     "retard",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "fr": "Désolée... je le rends tout de suite.",
+   "rd": "데졸레... 쥬 르 랑 투 드 쉬트.",
+   "ko": "미안... 바로 반납할게.",
+   "note": "tout de suite = 바로",
+   "tags": [],
+   "new": [],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "rends",
+     "rend",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "suite",
+     "suite",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "rends",
+     "rend",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "suite",
+     "suite",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "fr": "Bien. L'amende sera calculée au moment de rendre.",
+   "rd": "비앵. 라망드 스라 칼퀼레 오 모망 드 랑드르.",
+   "ko": "좋아요. 반납할 때 벌금 계산됩니다.",
+   "note": "calculée = 계산된",
+   "tags": [],
+   "new": [
+    "calculée"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "L'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "amende",
+     "amende",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "sera",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin"
+    ],
+    [
+     "calculée",
+     "calculer",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "moment",
+     "moment",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "rendre",
+     "rendre",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "amende",
+     "amende",
+     ""
+    ],
+    [
+     "calculée",
+     "calculer",
+     ""
+    ],
+    [
+     "moment",
+     "moment",
+     ""
+    ],
+    [
+     "rendre",
+     "rendre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "fr": "Attends, je sors le livre. Voilà.",
+   "rd": "아땅, 쥬 소르 르 리브르. 부알라.",
+   "ko": "잠깐, 책 꺼낼게. 여기.",
+   "note": "attends = 잠깐 · voilà = 여기",
+   "tags": [],
+   "new": [
+    "attends",
+    "voilà"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "sors",
+     "sortir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "livre",
+     "livre",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "sors",
+     "sortir",
+     ""
+    ],
+    [
+     "livre",
+     "livre",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "id": "r3_life_d1",
+ "region": "R3",
+ "island": "life",
+ "kind": "short",
+ "title": "양말 두 짝",
+ "emoji": "🧦",
+ "scene": "레벨 1 「양말 한 짝」을 복수로 — 테오와 위고가 자기들 빨래를 A·카미유의 흰 셔츠들과 같이 돌렸다. 같은 문장을 vous·nous·복수로",
+ "where": "셰어하우스 세탁실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Hugo",
+  "D": "Camille"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "그래머2: vous(너희·존댓말)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0 (laver: tu laves→vous lavez·nous lavons, 형용사 복수 일치 blanches·roses·rouges)",
+ "expressions": [
+  "d'accord",
+  "voilà",
+  "c'est tout",
+  "tant pis"
+ ],
+ "tags": [
+  "base:r1_life_d1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "shout"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

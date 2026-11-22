@@ -1,0 +1,832 @@
+{
+ "id": "r2_study_d1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "title": "잘못 보낸 파일",
+ "emoji": "📎",
+ "scene": "발표 전날 밤, 발표 짝 레아에게 슬라이드 파일을 보냈는데 휴가 사진 폴더를 보내 버렸다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "복합과거(t'as fini·j'ai regardé)·역할 나누기(je lis… toi, tu montres…)·관계대명사 qui",
+ "expressions": [
+  "ça marche",
+  "voilà",
+  "stp",
+  "trop",
+  "en fait"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "T'as fini les slides pour demain ?",
+   "rd": "따 피니 레 슬라이즈 뿌르 드맹 ?",
+   "ko": "내일 슬라이드 다 끝냈어?",
+   "note": "t'as fini = 너 끝냈어 · slides = 슬라이드",
+   "tags": [],
+   "new": [
+    "slides"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "22:30",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fini",
+     "finir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "slides",
+     "slide",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fini",
+     "finir",
+     ""
+    ],
+    [
+     "slides",
+     "slide",
+     ""
+    ],
+    [
+     "demain",
+     "demain",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, ça marche. Je t'envoie le fichier.",
+   "rd": "왜, 싸 마르슈. 쥬 탕브와 르 피시에.",
+   "ko": "응, 좋아. 파일 보낼게.",
+   "note": "ça marche = 좋아 · je t'envoie = 내가 너한테 보내",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "22:32",
+   "morph_tags": [
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "marche",
+     "marche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "envoie",
+     "envoyer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "fichier",
+     "fichier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "marche",
+     "marche",
+     ""
+    ],
+    [
+     "envoie",
+     "envoyer",
+     ""
+    ],
+    [
+     "fichier",
+     "fichier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Super. Je lis le texte, toi tu montres les images.",
+   "rd": "쉬페르. 쥬 리 르 텍스뜨, 뜨와 뛰 몽트르 레 이마쥬.",
+   "ko": "좋아. 나는 텍스트 읽고, 너는 이미지 보여줘.",
+   "note": "je lis = 나는 읽어 · toi tu montres = 너는 보여줘",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "22:33",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "lis",
+     "lire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "texte",
+     "texte",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "toi",
+     "toi",
+     "NOUN",
+     "Number=Sing"
+    ],
+    [
+     "montres",
+     "montre",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "images",
+     "image",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "lis",
+     "lire",
+     ""
+    ],
+    [
+     "texte",
+     "texte",
+     ""
+    ],
+    [
+     "montres",
+     "montre",
+     ""
+    ],
+    [
+     "images",
+     "image",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Voilà, c'est envoyé.",
+   "rd": "브왈라, 쎄 앙브와예.",
+   "ko": "자, 보냈어.",
+   "note": "voilà = 자 · c'est envoyé = 보냈어",
+   "tags": [],
+   "new": [
+    "voilà"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "22:34",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "envoyé",
+     "envoyer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "envoyé",
+     "envoyer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "En fait, j'ai regardé, tout est bon.",
+   "rd": "앙 페, 쥬 르가르데, 뚜 에 봉.",
+   "ko": "사실, 내가 봤는데, 다 좋아.",
+   "note": "en fait = 사실 · j'ai regardé = 내가 봤어",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "22:41",
+   "morph_tags": [
+    [
+     "fait",
+     "fait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "regardé",
+     "regarder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "regardé",
+     "regarder",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "bon",
+     "bon",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Attends, c'est un dossier de photos qui sont de vacances ?",
+   "rd": "아땅, 쎄 앵 도시에 드 포토 끼 송 드 바캉스 ?",
+   "ko": "잠깐, 휴가 사진인 폴더야?",
+   "note": "qui sont = ~인 · photos de vacances = 휴가 사진",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "22:43",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "dossier",
+     "dossier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "photos",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "sont",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vacances",
+     "vacance",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dossier",
+     "dossier",
+     ""
+    ],
+    [
+     "photos",
+     "photo",
+     ""
+    ],
+    [
+     "vacances",
+     "vacances",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Trop marrant ! J'ai regardé deux secondes.",
+   "rd": "트로 마랑 ! 쥬 르가르데 되 세공드.",
+   "ko": "너무 웃겨! 내가 2초 봤어.",
+   "note": "trop = 너무 · j'ai regardé = 내가 봤어",
+   "tags": [],
+   "new": [
+    "trop"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "22:43",
+   "morph_tags": [
+    [
+     "marrant",
+     "marrant",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "regardé",
+     "regarder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "secondes",
+     "seconde",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "marrant",
+     "marrant",
+     ""
+    ],
+    [
+     "regardé",
+     "regarder",
+     ""
+    ],
+    [
+     "secondes",
+     "seconde",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Oh non, j'ai envoyé le mauvais dossier !",
+   "rd": "오 농, 쥬 앙브와예 르 모베 도시에 !",
+   "ko": "아 안 돼, 잘못된 폴더 보냈어!",
+   "note": "j'ai envoyé = 내가 보냈어 · mauvais = 잘못된",
+   "tags": [],
+   "new": [
+    "mauvais"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "22:44",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "envoyé",
+     "envoyer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mauvais",
+     "mauvais",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dossier",
+     "dossier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "envoyé",
+     "envoyer",
+     ""
+    ],
+    [
+     "mauvais",
+     "mauvais",
+     ""
+    ],
+    [
+     "dossier",
+     "dossier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Mais j'adore, t'es trop bien sur ces photos.",
+   "rd": "메 자돌, 떼 트로 비앵 쉬르 세 포토.",
+   "ko": "근데 좋아, 이 사진들 속 너 너무 잘생겼어.",
+   "note": "j'adore = 나는 좋아해 · t'es trop bien = 너 너무 좋아",
+   "tags": [],
+   "new": [
+    "j'adore"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "22:46",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "adore",
+     "adorer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ces",
+     "ce",
+     "DET",
+     "Number=Plur|PronType=Dem"
+    ],
+    [
+     "photos",
+     "photo",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "adore",
+     "adorer",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "photos",
+     "photo",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Désolé, voilà le bon fichier stp.",
+   "rd": "데졸레, 브왈라 르 봉 피시에 에쓰떼뻬.",
+   "ko": "미안, 자 올바른 파일이야 부탁해.",
+   "note": "voilà = 자 · stp = 부탁해",
+   "tags": [],
+   "new": [
+    "voilà",
+    "stp"
+   ],
+   "fr_f": "Désolée, voilà le bon fichier stp.",
+   "rd_f": "데졸레, 브왈라 르 봉 피시에 에쓰떼뻬",
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "22:47",
+   "morph_tags": [
+    [
+     "voilà",
+     "voilà",
+     "VERB",
+     "Tense=Pres|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "fichier",
+     "fichier",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "voilà",
+     "voilà",
+     "VERB",
+     "Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "fichier",
+     "fichier",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "voilà",
+     "voilà",
+     ""
+    ],
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "fichier",
+     "fichier",
+     ""
+    ],
+    [
+     "stp",
+     "stp",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Ça marche. Mais garde-les pour moi.",
+   "rd": "싸 마르슈. 메 가르드 레 뿌르 므와.",
+   "ko": "좋아. 근데 그거 나를 위해 남겨둬.",
+   "note": "ça marche = 좋아 · garde-les = 그것들을 보관해",
+   "tags": [],
+   "new": [
+    "garde-les"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "22:49",
+   "stamp": "🎩",
+   "morph_tags": [
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "marche",
+     "march",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "garde-les",
+     "garde-le",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "marche",
+     "marche",
+     ""
+    ],
+    [
+     "garde-les",
+     "garde-le",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

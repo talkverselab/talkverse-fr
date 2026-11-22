@@ -1,0 +1,522 @@
+{
+ "id": "r3_work_d1",
+ "region": "R3",
+ "island": "work",
+ "kind": "short",
+ "title": "첫 출근, 카푸치노 두 잔",
+ "emoji": "☕",
+ "scene": "레벨 1 「첫 출근, 첫 카푸치노」를 복수로 — A 와 위고가 같이 첫 출근해 카미유에게 배운다. 손님도 둘. 같은 문장을 vous·nous·복수로",
+ "where": "카페 카운터 안",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Hugo",
+  "D": "Cliente"
+ },
+ "cast": {
+  "D": "woman_m"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "그래머2: vous(너희·존댓말)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0 (faire: je fais→nous faisons·vous avez fait, mettre: tu mets→vous mettez·nous mettons)",
+ "expressions": [
+  "bien sûr",
+  "attends",
+  "oh là là",
+  "mince"
+ ],
+ "tags": [
+  "base:r1_work_d1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Vous faites vos premiers cappuccinos aujourd'hui.",
+   "rd": "부 페트 보 프르미에 카푸치노 오주르뒤.",
+   "ko": "너희 오늘 첫 카푸치노들 만들어.",
+   "note": "vous faites = 너희가 만들어 · vos premiers = 너희 첫",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "faites",
+     "fait",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "premiers",
+     "premier",
+     "ADJ",
+     "Gender=Masc|NumType=Ord|Number=Plur"
+    ],
+    [
+     "cappuccinos",
+     "cappuccino",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "faites",
+     "fait",
+     ""
+    ],
+    [
+     "premiers",
+     "premier",
+     ""
+    ],
+    [
+     "cappuccinos",
+     "cappuccino",
+     ""
+    ],
+    [
+     "aujourd'hui",
+     "aujourd'hui",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Oui, nous mettons le lait maintenant.",
+   "rd": "위, 누 메통 르 레 메트낭.",
+   "ko": "응, 우리가 지금 우유 넣어.",
+   "note": "nous mettons = 우리가 넣어",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "mettons",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "lait",
+     "lait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mettons",
+     "mettre",
+     ""
+    ],
+    [
+     "lait",
+     "lait",
+     ""
+    ],
+    [
+     "maintenant",
+     "maintenant",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Bien sûr. Vous mettez la mousse après.",
+   "rd": "비앵 쉬르. 부 메테 라 무스 아프레.",
+   "ko": "물론. 너희 거품은 나중에 넣어.",
+   "note": "bien sûr = 물론 · vous mettez = 너희가 넣어",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "mettez",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "mousse",
+     "mousse",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "mettez",
+     "mettre",
+     ""
+    ],
+    [
+     "mousse",
+     "mousse",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "fr": "Attends, nous faisons deux en même temps ?",
+   "rd": "아땅, 누 페종 되 앙 멤 탕 ?",
+   "ko": "잠깐, 우리가 두 개 동시에 만들어?",
+   "note": "attends = 잠깐 · nous faisons = 우리가 만들어",
+   "tags": [],
+   "new": [
+    "attends"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "faisons",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "même",
+     "même",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "temps",
+     "temps",
+     "NOUN",
+     "Gender=Masc"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "faisons",
+     "faire",
+     ""
+    ],
+    [
+     "même",
+     "même",
+     ""
+    ],
+    [
+     "temps",
+     "temps",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Oui, vous avez fait le premier. Continuez.",
+   "rd": "위, 부 자베 페 르 프르미에. 콩티뉘에.",
+   "ko": "응, 너희 첫 번째 만들었어. 계속해.",
+   "note": "vous avez fait = 너희가 만들었어",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "avez",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "premier",
+     "premier",
+     "ADJ",
+     "Gender=Masc|NumType=Ord|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "premier",
+     "premier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Mince, nous mettons trop de lait !",
+   "rd": "맹쓰, 누 메통 트로 드 레 !",
+   "ko": "이런, 우리가 우유 너무 넣어!",
+   "note": "mince = 이런 · nous mettons = 우리가 넣어",
+   "tags": [],
+   "new": [
+    "mince"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Mince",
+     "mince",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "mettons",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "lait",
+     "lait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Mince",
+     "mince",
+     ""
+    ],
+    [
+     "mettons",
+     "mettre",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "lait",
+     "lait",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Oh là là, vous faites n'importe quoi.",
+   "rd": "오 라 라, 부 페트 냉포르트 끄와.",
+   "ko": "어머나, 너희 아무거나 해.",
+   "note": "oh là là = 어머나 · vous faites = 너희가 해",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "faites",
+     "fait",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "importe",
+     "importer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "faites",
+     "fait",
+     ""
+    ],
+    [
+     "n'",
+     "ne",
+     ""
+    ],
+    [
+     "importe",
+     "importer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "fr": "Mes deux cappuccinos sont prêts ?",
+   "rd": "메 되 카푸치노 송 프레 ?",
+   "ko": "내 카푸치노 두 잔 준비됐어?",
+   "note": "mes deux = 내 두 개 · sont prêts = 준비됐다 (복수)",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "cappuccinos",
+     "cappuccino",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "prêts",
+     "prêt",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "cappuccinos",
+     "cappuccino",
+     ""
+    ],
+    [
+     "prêts",
+     "prêt",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

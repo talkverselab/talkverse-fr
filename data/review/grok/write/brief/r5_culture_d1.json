@@ -1,0 +1,110 @@
+{
+ "id": "r5_culture_d1",
+ "region": "R5",
+ "island": "culture",
+ "kind": "long",
+ "title": "화면 캡처는 안 돼요",
+ "emoji": "🎫",
+ "scene": "매진된 콘서트 입구. 카미유가 리셀로 구한 표를 보여 주려는 순간 휴대폰이 꺼지고, A 가 받은 표는 화면 캡처라 무효다. 오프닝 공연까지 10분",
+ "where": "공연장 입구",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Agent de sécurité"
+ },
+ "cast": {
+  "C": "man_m"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "공연 어휘(file d'attente·complet·fosse·debout·scène·revente·billet·première partie·chanteuse·rappel·capture d'écran·valable·chargeur·batterie·accueil), 새 문법 없음",
+ "expressions": [
+  "t'inquiète",
+  "tiens",
+  "voilà",
+  "attends",
+  "c'est pas vrai"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 9,
+   "speaker": "B"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "emotion": "shout"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

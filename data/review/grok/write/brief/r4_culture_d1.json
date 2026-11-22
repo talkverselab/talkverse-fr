@@ -1,0 +1,108 @@
+{
+ "id": "r4_culture_d1",
+ "region": "R4",
+ "island": "culture",
+ "kind": "long",
+ "title": "빈 의자의 의미",
+ "emoji": "🪑",
+ "scene": "현대 미술관. 카미유가 빈 의자와 젖은 재킷 「작품」을 열심히 해석하는데, 그건 쉬는 시간에 자리를 비운 경비원의 의자였다",
+ "where": "현대 미술관 전시실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Gardien"
+ },
+ "cast": {
+  "C": "man_o"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "의견·가능성 뒤 접속법(je pense pas que ce soit · veut qu'on se pose · il est possible qu'il l'ait mouillée) · 조건법 je dirais · si + 대과거 → 조건법 과거 · dont·où(la salle dont tout le monde parle · celle où) · y·en(y voyait · il y en a) · 반과거 vs 복합과거(il pleuvait quand on est arrivés)",
+ "expressions": [
+  "franchement",
+  "je sais pas",
+  "oh là là",
+  "la honte"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 10,
+   "speaker": "C"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "emotion": "sad"
+  },
+  {
+   "num": 13,
+   "speaker": "B"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

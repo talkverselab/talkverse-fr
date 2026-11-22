@@ -1,0 +1,106 @@
+{
+ "id": "r4_travel_d1",
+ "region": "R4",
+ "island": "travel",
+ "kind": "long",
+ "title": "침대는 하나",
+ "emoji": "🛏️",
+ "scene": "니스의 작은 호텔, 밤늦은 체크인. 테오가 「더블룸」을 침대 두 개로 알고 예약했다 — 그런데 예약은 어젯밤부터였다",
+ "where": "호텔 프런트",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Réceptionniste"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "friends"
+ ],
+ "goal": "반과거 vs 복합과거(je croyais … quand j'ai réservé · commençait · j'étais sûr qu'on arrivait) · 접속법(il faut que vous sachiez · il aurait fallu que tu lises · bien qu'elle soit) · en·y(j'en ai réservé une · on y monte · il m'en reste une) · 대명사 결합 me l' · 조건법 정중(vous auriez · on la prendrait)",
+ "expressions": [
+  "pas de souci",
+  "attends",
+  "excusez-moi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "polite"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 10,
+   "speaker": "C"
+  },
+  {
+   "num": 11,
+   "speaker": "B"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "emotion": "gentle"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

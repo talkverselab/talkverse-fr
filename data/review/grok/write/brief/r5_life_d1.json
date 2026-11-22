@@ -1,0 +1,107 @@
+{
+ "id": "r5_life_d1",
+ "region": "R5",
+ "island": "life",
+ "kind": "long",
+ "title": "마음이 아파요",
+ "emoji": "💊",
+ "scene": "감기 걸린 A 가 위고와 약국에 간다. 「마음이 아프다」고 말하려다 「mal au cœur(속이 메스꺼워요)」라고 해 버리고, 위고가 진짜 이유를 일러바친다",
+ "where": "동네 약국",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Pharmacienne"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 8,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life",
+  "friends"
+ ],
+ "goal": "약국·건강 어휘(ordonnance·rhume·gorge·tousser·toux·fièvre·température·sirop·comprimé·effet secondaire·somnolence·nausée·vomir·estomac·médicament·mouchoir), 새 문법 없음",
+ "expressions": [
+  "d'accord",
+  "voilà"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "sad"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "sad"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "emotion": "worried"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "emotion": "teasing"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "emotion": "amused"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "emotion": "sad"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "emotion": "gentle"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

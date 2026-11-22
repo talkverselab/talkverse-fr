@@ -1,0 +1,106 @@
+{
+ "id": "r4_life_d1",
+ "region": "R4",
+ "island": "life",
+ "kind": "long",
+ "title": "옆집에 맡긴 소포",
+ "emoji": "📦",
+ "scene": "옆집 할머니가 맡아 준 택배를 찾으러 간다. 테오 생일 선물인데 이웃이 자기 것인 줄 알고 뜯어 입어 보고, 지나가던 테오에게 보여 주기까지 했다",
+ "where": "아파트 복도, 옆집 문 앞",
+ "speakers": {
+  "A": "{name}",
+  "C": "Voisine"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "polite",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "대명사 결합(je vous l'ai gardé · vous me le donnez · je le lui ai montré · il vous en faut un) · 반과거 vs 복합과거(a sonné pendant que vous étiez · j'attendais … je pensais) · 접속법(je suis désolée que vous l'appreniez · pourvu qu'il ne soit pas)",
+ "expressions": [
+  "excusez-moi",
+  "c'est gentil",
+  "oh là là",
+  "volontiers",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "C"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "emotion": "shy"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 10,
+   "speaker": "C"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "emotion": "shout"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "emotion": "cheerful"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

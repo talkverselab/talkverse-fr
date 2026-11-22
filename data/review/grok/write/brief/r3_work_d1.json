@@ -1,0 +1,81 @@
+{
+ "id": "r3_work_d1",
+ "region": "R3",
+ "island": "work",
+ "kind": "short",
+ "title": "첫 출근, 카푸치노 두 잔",
+ "emoji": "☕",
+ "scene": "레벨 1 「첫 출근, 첫 카푸치노」를 복수로 — A 와 위고가 같이 첫 출근해 카미유에게 배운다. 손님도 둘. 같은 문장을 vous·nous·복수로",
+ "where": "카페 카운터 안",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Hugo",
+  "D": "Cliente"
+ },
+ "cast": {
+  "D": "woman_m"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "그래머2: vous(너희·존댓말)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0 (faire: je fais→nous faisons·vous avez fait, mettre: tu mets→vous mettez·nous mettons)",
+ "expressions": [
+  "bien sûr",
+  "attends",
+  "oh là là",
+  "mince"
+ ],
+ "tags": [
+  "base:r1_work_d1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "emotion": "stiff"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

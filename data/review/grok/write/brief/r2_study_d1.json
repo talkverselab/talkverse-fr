@@ -1,0 +1,102 @@
+{
+ "id": "r2_study_d1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "title": "잘못 보낸 파일",
+ "emoji": "📎",
+ "scene": "발표 전날 밤, 발표 짝 레아에게 슬라이드 파일을 보냈는데 휴가 사진 폴더를 보내 버렸다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "복합과거(t'as fini·j'ai regardé)·역할 나누기(je lis… toi, tu montres…)·관계대명사 qui",
+ "expressions": [
+  "ça marche",
+  "voilà",
+  "stp",
+  "trop",
+  "en fait"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "22:30"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "22:32"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "gentle",
+   "at": "22:33"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "22:34"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "22:41"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "surprised",
+   "at": "22:43"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "amused",
+   "at": "22:43"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "flustered",
+   "at": "22:44"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "at": "22:46"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "flustered",
+   "at": "22:47"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "emotion": "teasing",
+   "at": "22:49"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

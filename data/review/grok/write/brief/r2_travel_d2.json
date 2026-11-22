@@ -1,0 +1,108 @@
+{
+ "id": "r2_travel_d2",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "title": "빨간 캐리어",
+ "emoji": "🧳",
+ "scene": "밤늦게 공항 도착. 마중 나온 카미유와 문자하는데 A 의 캐리어가 안 나온다. 출구에서 카미유가 그 캐리어를 본다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "물건 묘사(rouge, avec…)·관계대명사 qui·소유대명사 la mienne",
+ "expressions": [
+  "attends",
+  "stp",
+  "c'est bon",
+  "ouais"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "emotion": "annoyed",
+   "at": "23:10"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "23:11"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "sad",
+   "at": "23:12"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "emotion": "gentle",
+   "at": "23:13"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "worried",
+   "at": "23:14"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "surprised",
+   "at": "23:16"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "surprised",
+   "at": "23:16"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "shout",
+   "at": "23:17"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "excited",
+   "at": "23:17"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "emotion": "excited",
+   "at": "23:24"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "emotion": "gentle",
+   "at": "23:25"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "emotion": "teasing",
+   "at": "23:26"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

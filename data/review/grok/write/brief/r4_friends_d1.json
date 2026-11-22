@@ -1,0 +1,104 @@
+{
+ "id": "r4_friends_d1",
+ "region": "R4",
+ "island": "friends",
+ "kind": "long",
+ "title": "삼촌의 큰 트럭",
+ "emoji": "🚚",
+ "scene": "카미유 이사 날. 위고가 삼촌의 「큰 트럭」을 빌려 왔는데 아주 작은 차다. 소파는 계단에 끼고, 비가 오고, 트럭 열쇠는 차 안에 잠겼다",
+ "where": "카미유네 아파트 계단과 길가",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Hugo"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "접속법(il faut qu'on ait tout descendu · avant qu'il pleuve · il faut qu'il nous apporte) · en(il en reste combien · j'en ai descendu · m'en parlait) · 대명사 결합(il me l'a prêté · je te le passe) · 반과거 vs 복합과거·대과거(il disait … je l'ai cru · il était en morceaux, je l'avais monté) · si + 대과거 → 조건법 과거",
+ "expressions": [
+  "t'inquiète",
+  "attends",
+  "tiens",
+  "sérieux",
+  "d'accord"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 9,
+   "speaker": "A"
+  },
+  {
+   "num": 10,
+   "speaker": "B"
+  },
+  {
+   "num": 11,
+   "speaker": "C"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

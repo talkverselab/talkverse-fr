@@ -1,0 +1,584 @@
+{
+ "id": "r3_study_d1",
+ "region": "R3",
+ "island": "study",
+ "kind": "short",
+ "title": "시험 전날의 노트들",
+ "emoji": "✏️",
+ "scene": "레벨 1 「시험 전날의 노트」를 복수로 — A 와 테오가 레아·카미유의 노트를 빌리려는데, 두 사람이 그린 건 A 와 테오였다. 같은 문장을 vous·nous·복수로",
+ "where": "대학 도서관",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa",
+  "C": "Théo",
+  "D": "Camille"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "love"
+ ],
+ "domain": [
+  "study",
+  "love"
+ ],
+ "goal": "그래머2: vous(너희·존댓말)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0 (travailler: je travaille→nous travaillons·vous travaillez, regarder: je regarde→nous regardons·regardez)",
+ "expressions": [
+  "grave",
+  "ben"
+ ],
+ "tags": [
+  "base:r1_study_d1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Vous travaillez bien vos notes pour demain ?",
+   "rd": "부 트라바예 비앵 보 노트 뿌르 드맹 ?",
+   "ko": "너희 내일 노트 잘 공부해?",
+   "note": "vous travaillez = 너희가 공부해 · vos notes = 너희 노트들",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "travaillez",
+     "travailler",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "notes",
+     "note",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "travaillez",
+     "travailler",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "notes",
+     "note",
+     ""
+    ],
+    [
+     "demain",
+     "demain",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Ben, nous regardons encore. C'est grave.",
+   "rd": "뱅, 누 르가르동 앙코르. 쎄 그라브.",
+   "ko": "글쎄, 우리가 아직 봐. 심각해.",
+   "note": "ben = 글쎄 · nous regardons = 우리가 봐 · grave = 심각해",
+   "tags": [],
+   "new": [
+    "ben",
+    "grave"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "regardons",
+     "regarder",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "grave",
+     "grave",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "regardons",
+     "regarder",
+     ""
+    ],
+    [
+     "encore",
+     "encore",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "On peut emprunter vos notes ? Nous travaillons mal.",
+   "rd": "옹 퓌 앙프렁테 보 노트 ? 누 트라바용 말.",
+   "ko": "너희 노트 빌릴 수 있어? 우리가 공부 못해.",
+   "note": "vos notes = 너희 노트들 · nous travaillons = 우리가 공부해",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "peut",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "emprunter",
+     "emprunter",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "vos",
+     "votre",
+     "DET",
+     "Number=Plur|Poss=Yes"
+    ],
+    [
+     "notes",
+     "note",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "travaillons",
+     "travailler",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mal",
+     "mal",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peut",
+     "pouvoir",
+     ""
+    ],
+    [
+     "emprunter",
+     "emprunter",
+     ""
+    ],
+    [
+     "notes",
+     "note",
+     ""
+    ],
+    [
+     "travaillons",
+     "travailler",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "fr": "D'accord, mais regardez pas les dessins.",
+   "rd": "다코르, 메 르가르데 파 레 데생.",
+   "ko": "좋아, 근데 그림들은 보지 마.",
+   "note": "regardez pas = 보지 마 (너희)",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "regardez",
+     "regarder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "dessins",
+     "dessin",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "regardez",
+     "regarder",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "dessins",
+     "dessin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Pourquoi ? Nous regardons juste les notes.",
+   "rd": "푸르콰 ? 누 르가르동 쥐스트 레 노트.",
+   "ko": "왜? 우리가 노트만 봐.",
+   "note": "nous regardons = 우리가 봐",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "regardons",
+     "regarder",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "notes",
+     "note",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pourquoi",
+     "pourquoi",
+     ""
+    ],
+    [
+     "regardons",
+     "regarder",
+     ""
+    ],
+    [
+     "juste",
+     "juste",
+     ""
+    ],
+    [
+     "notes",
+     "note",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Non ! Vous travaillez pas avec ça !",
+   "rd": "농 ! 부 트라바예 파 아벡 싸 !",
+   "ko": "안 돼! 너희 그걸로 공부하지 마!",
+   "note": "vous travaillez = 너희가 공부해",
+   "tags": [],
+   "new": [],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "travaillez",
+     "travailler",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "travaillez",
+     "travailler",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Attends, ce sont des dessins de nous ?",
+   "rd": "아땅, 쓰 송 데 데생 드 누 ?",
+   "ko": "잠깐, 이것들은 우리 그림이야?",
+   "note": "de nous = 우리의",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ce",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "dessins",
+     "dessin",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "dessins",
+     "dessin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Oui... je vous dessine souvent. Vous êtes mignons.",
+   "rd": "위... 쥬 부 데신 수방. 부 제트 미뇽.",
+   "ko": "응... 내가 너희 자주 그려. 너희 귀여워.",
+   "note": "je vous dessine = 내가 너희 그려 · vous êtes mignons = 너희 귀여워",
+   "tags": [],
+   "new": [],
+   "fr_f": "Oui... je vous dessine souvent. Vous êtes mignonnes.",
+   "rd_f": "위... 쥬 부 데신 수방. 부 제트 미논.",
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "dessine",
+     "dessiner",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "êtes",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mignons",
+     "mignon",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "dessine",
+     "dessiner",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "êtes",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mignonnes",
+     "mignonner",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dessine",
+     "dessiner",
+     ""
+    ],
+    [
+     "souvent",
+     "souvent",
+     ""
+    ],
+    [
+     "mignons",
+     "mignon",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

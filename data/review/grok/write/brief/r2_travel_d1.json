@@ -1,0 +1,109 @@
+{
+ "id": "r2_travel_d1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "title": "예약은 18일",
+ "emoji": "🏨",
+ "scene": "혼자 니스 여행. 호텔 프런트에서 예약이 안 나온다며 테오에게 문자한다. 예약 날짜가 한 달 뒤였다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "복합과거(t'as trouvé·t'as réservé)·날짜·il reste rien",
+ "expressions": [
+  "trop",
+  "stylé",
+  "attends",
+  "quoi",
+  "mdr",
+  "t'inquiète",
+  "je te jure"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "emotion": "excited",
+   "at": "18:40"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "cheerful",
+   "at": "18:42"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "18:45"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "worried",
+   "at": "18:52"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "18:53"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "18:54"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "sad",
+   "at": "18:58"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "amused",
+   "at": "18:59"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "emotion": "annoyed",
+   "at": "19:01"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "emotion": "gentle",
+   "at": "19:03"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "emotion": "cheerful",
+   "at": "19:04"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "gentle",
+   "at": "19:05"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

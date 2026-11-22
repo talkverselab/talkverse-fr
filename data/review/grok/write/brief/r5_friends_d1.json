@@ -1,0 +1,106 @@
+{
+ "id": "r5_friends_d1",
+ "region": "R5",
+ "island": "friends",
+ "kind": "long",
+ "title": "작년의 수제 케이크",
+ "emoji": "🎂",
+ "scene": "카미유 깜짝 생일 케이크를 주문하러 위고와 제과점에 간다. 점원이 「작년처럼 가게 이름 없는 상자로 드릴까요?」라고 묻는다 — 위고의 전설의 「수제」 케이크는 여기서 산 것이었다",
+ "where": "동네 제과점",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Vendeuse"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "제과점·주문 어휘(commander·fraisier·framboisier·ganache·allergique·noisette·génoise·crème·bougie·chiffre·fait maison·acompte·boutique), 새 문법 없음",
+ "expressions": [
+  "bien sûr",
+  "bah"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "polite"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "polite"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "amused"
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 11,
+   "speaker": "A"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "emotion": "amused"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

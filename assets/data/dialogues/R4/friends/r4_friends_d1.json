@@ -1,0 +1,1281 @@
+{
+ "id": "r4_friends_d1",
+ "region": "R4",
+ "island": "friends",
+ "kind": "long",
+ "title": "삼촌의 큰 트럭",
+ "emoji": "🚚",
+ "scene": "카미유 이사 날. 위고가 삼촌의 「큰 트럭」을 빌려 왔는데 아주 작은 차다. 소파는 계단에 끼고, 비가 오고, 트럭 열쇠는 차 안에 잠겼다",
+ "where": "카미유네 아파트 계단과 길가",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Hugo"
+ },
+ "register": "casual",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "접속법(il faut qu'on ait tout descendu · avant qu'il pleuve · il faut qu'il nous apporte) · en(il en reste combien · j'en ai descendu · m'en parlait) · 대명사 결합(il me l'a prêté · je te le passe) · 반과거 vs 복합과거·대과거(il disait … je l'ai cru · il était en morceaux, je l'avais monté) · si + 대과거 → 조건법 과거",
+ "expressions": [
+  "t'inquiète",
+  "attends",
+  "tiens",
+  "sérieux",
+  "d'accord"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Salut {name}, t'es là pour m'aider à déménager ?",
+   "rd": "쌀뤼 {name}, 떼 라 뿌르 매데 아 데메나제 ?",
+   "ko": "안녕 {name}, 이사 도와주러 온 거야?",
+   "note": "déménager = 이사하다 · m'aider = 나를 도와",
+   "tags": [],
+   "new": [
+    "déménager",
+    "m'aider"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "aider",
+     "aider",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "déménager",
+     "déménager",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "aider",
+     "aider",
+     ""
+    ],
+    [
+     "déménager",
+     "déménager",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, Hugo m'en parlait d'un gros camion.",
+   "rd": "우애, 위고 망 파를레 덩 그로 까미옹.",
+   "ko": "응, 위고가 큰 트럭 얘기했어.",
+   "note": "m'en parlait = 그것에 대해 말했어 · gros = 큰",
+   "tags": [],
+   "new": [
+    "gros"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "parlait",
+     "parler",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "gros",
+     "gros",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "camion",
+     "camion",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "parlait",
+     "parler",
+     ""
+    ],
+    [
+     "gros",
+     "gros",
+     ""
+    ],
+    [
+     "camion",
+     "camion",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Ouais, mon oncle me l'a prêté. Il disait qu'il était énorme, je l'ai cru !",
+   "rd": "우애, 몽 옹클 므 라 쁘레떼. 일 디제 낄 에떼 에노름, 쥬 레 끄뤼 !",
+   "ko": "응, 삼촌이 빌려줬어. 엄청 크다고 해서 믿었지!",
+   "note": "me l'a prêté = 그것을 나에게 빌려줬다 · il disait = 그가 말했어 · je l'ai cru = 내가 믿었어",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "oncle",
+     "oncle",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "prêté",
+     "prêter",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "disait",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "énorme",
+     "énorme",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cru",
+     "croire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "oncle",
+     "oncle",
+     ""
+    ],
+    [
+     "prêté",
+     "prêter",
+     ""
+    ],
+    [
+     "disait",
+     "dire",
+     ""
+    ],
+    [
+     "énorme",
+     "énorme",
+     ""
+    ],
+    [
+     "cru",
+     "croire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Super ! Il faut qu'on ait tout descendu avant qu'il pleuve.",
+   "rd": "쉬페 ! 일 포 꽁 애 뚜 데상뒤 아방 낄 플뢰브.",
+   "ko": "최고! 비 오기 전에 다 내려야 해.",
+   "note": "il faut qu'on ait tout descendu = 우리가 다 내려야 한다 · avant qu'il pleuve = 비가 오기 전에",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ait",
+     "avoir",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tout",
+     "tout",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "descendu",
+     "descendre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "pleuve",
+     "pleuvoir",
+     "VERB",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "descendu",
+     "descendre",
+     ""
+    ],
+    [
+     "pleuve",
+     "pleuvoir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Attends, c'est ça le camion ? Il est minuscule !",
+   "rd": "아땅, 쎄 싸 르 까미옹 ? 일 에 미뉘스퀼 !",
+   "ko": "잠깐, 이게 그 트럭이야? 너무 작아!",
+   "note": "attends = 잠깐 · minuscule = 아주 작은",
+   "tags": [],
+   "new": [
+    "attends",
+    "minuscule"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "camion",
+     "camion",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "minuscule",
+     "minuscule",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "camion",
+     "camion",
+     ""
+    ],
+    [
+     "minuscule",
+     "minuscule",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "fr": "T'inquiète, on va gérer. Tiens, je te le passe.",
+   "rd": "땡끼에뜨, 옹 바 제레. 티앙, 쥬 뜨 르 빠스.",
+   "ko": "걱정 마, 우리가 할게. 자, 이거 너한테 줄게.",
+   "note": "t'inquiète = 걱정 마 · tiens = 자 · je te le passe = 내가 그것을 너에게 넘겨",
+   "tags": [],
+   "new": [
+    "t'inquiète",
+    "tiens"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "gérer",
+     "gérer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "Tiens",
+     "tien",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "le",
+     "le",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "passe",
+     "passer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "gérer",
+     "gérer",
+     ""
+    ],
+    [
+     "Tiens",
+     "tien",
+     ""
+    ],
+    [
+     "passe",
+     "passer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Sérieux, le canapé est coincé dans l'escalier.",
+   "rd": "세리외, 르 까나페 에 코앵세 당 레스깔리에.",
+   "ko": "진짜야, 소파가 계단에 끼었어.",
+   "note": "sérieux = 진짜 · coincé = 끼인",
+   "tags": [],
+   "new": [
+    "sérieux",
+    "coincé"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "canapé",
+     "canapé",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "coincé",
+     "coincer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "escalier",
+     "escalier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "canapé",
+     "canapé",
+     ""
+    ],
+    [
+     "coincé",
+     "coincer",
+     ""
+    ],
+    [
+     "escalier",
+     "escalier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "fr": "D'accord, il faut qu'il nous apporte un plus gros... non, les clés sont enfermées dedans !",
+   "rd": "다코르, 일 포 낄 누 자뽀르뜨 앙 쁠뤼 그로... 농, 레 클레 송 앙페르메 드당 !",
+   "ko": "알겠어, 그가 더 큰 걸 가져와야 해... 아니, 열쇠가 안에 잠겼어!",
+   "note": "d'accord = 알겠어 · il faut qu'il nous apporte = 그가 우리에게 가져와야 한다",
+   "tags": [],
+   "new": [
+    "d'accord"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "nous",
+     "nous",
+     "PRON",
+     "Number=Plur|Person=1"
+    ],
+    [
+     "apporte",
+     "apporter",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "gros",
+     "gros",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "clés",
+     "clé",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "enfermées",
+     "enfermer",
+     "VERB",
+     "Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "apporte",
+     "apporter",
+     ""
+    ],
+    [
+     "plus",
+     "plus",
+     ""
+    ],
+    [
+     "gros",
+     "gros",
+     ""
+    ],
+    [
+     "clés",
+     "clé",
+     ""
+    ],
+    [
+     "enfermées",
+     "enfermer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Il en reste combien ? J'en ai descendu dix déjà.",
+   "rd": "일 앙 레스트 꽁비앵 ? 쟝 애 데상뒤 디 데자.",
+   "ko": "얼마나 남았어? 나 이미 열 개 내렸어.",
+   "note": "il en reste combien = 그것이 얼마나 남아? · j'en ai descendu = 내가 그것을 내렸어 · dix = 열",
+   "tags": [],
+   "new": [
+    "dix"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "descendu",
+     "descendre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "reste",
+     "reste",
+     ""
+    ],
+    [
+     "combien",
+     "combien",
+     ""
+    ],
+    [
+     "descendu",
+     "descendre",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Oh là là, il pleut, le canapé coincé et les clés dans le camion ! C'est le chaos !",
+   "rd": "오 라 라, 일 플뢰, 르 까나페 코앵세 에 레 클레 당 르 까미옹 ! 쎄 르 까오 !",
+   "ko": "아 이런, 비 오고 소파 끼고 열쇠는 트럭 안에! 완전 난장판!",
+   "note": "chaos = 혼란 · pleut = 비가 온다",
+   "tags": [],
+   "new": [
+    "chaos",
+    "pleut"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "pleut",
+     "pleuvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "canapé",
+     "canapé",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "coincé",
+     "coincer",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "clés",
+     "clé",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "camion",
+     "camion",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "chaos",
+     "chaos",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "pleut",
+     "pleuvoir",
+     ""
+    ],
+    [
+     "canapé",
+     "canapé",
+     ""
+    ],
+    [
+     "coincé",
+     "coincer",
+     ""
+    ],
+    [
+     "clés",
+     "clé",
+     ""
+    ],
+    [
+     "camion",
+     "camion",
+     ""
+    ],
+    [
+     "chaos",
+     "chaos",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "fr": "Si j'avais vérifié la taille, on n'aurait pas eu ça.",
+   "rd": "시 자베 베리피에 라 따이, 옹 노레 파 위 싸.",
+   "ko": "내가 크기를 확인했더라면, 이런 일 없었을 텐데.",
+   "note": "si j'avais vérifié = 만약 내가 확인했더라면 · on n'aurait pas eu = 우리가 가지지 않았을 것이다",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "avais",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vérifié",
+     "vérifier",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "taille",
+     "taille",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "aurait",
+     "avoir",
+     "AUX",
+     "Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "eu",
+     "avoir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vérifié",
+     "vérifier",
+     ""
+    ],
+    [
+     "taille",
+     "taille",
+     ""
+    ],
+    [
+     "n'",
+     "ne",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Tu rigoles ? Il était en morceaux, je l'avais monté hier !",
+   "rd": "뛰 리골 ? 일 에떼 앙 모르쏘, 쥬 라베 몽떼 이에 !",
+   "ko": "농담이지? 조각나 있었는데, 내가 어제 조립했어!",
+   "note": "en morceaux = 조각으로 · je l'avais monté = 내가 그것을 조립했었어",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "rigoles",
+     "rigole",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "morceaux",
+     "morceau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "avais",
+     "avai",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "monté",
+     "monter",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "rigoles",
+     "rigole",
+     ""
+    ],
+    [
+     "morceaux",
+     "morceau",
+     ""
+    ],
+    [
+     "avais",
+     "avai",
+     ""
+    ],
+    [
+     "monté",
+     "monter",
+     ""
+    ],
+    [
+     "hier",
+     "hier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "fr": "Bon, on va appeler mon oncle, d'accord ?",
+   "rd": "봉, 옹 바 아쁠레 몽 옹클, 다코르 ?",
+   "ko": "좋아, 삼촌한테 전화하자, 알겠지?",
+   "note": "appeler = 전화하다 · d'accord = 알겠어",
+   "tags": [],
+   "new": [
+    "appeler",
+    "d'accord"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "Bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "appeler",
+     "appeler",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "oncle",
+     "oncle",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bon",
+     "bon",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "appeler",
+     "appeler",
+     ""
+    ],
+    [
+     "oncle",
+     "oncle",
+     ""
+    ],
+    [
+     "accord",
+     "accord",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "fr": "Ouais, la prochaine fois tu mesures avant !",
+   "rd": "우애, 라 프로쉐인 프와 뛰 므쥐르 아방 !",
+   "ko": "응, 다음엔 미리 크기 재고 와!",
+   "note": "prochaine = 다음 · mesures = 재다",
+   "tags": [],
+   "new": [
+    "prochaine",
+    "mesures"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "prochaine",
+     "prochain",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "fois",
+     "fois",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "mesures",
+     "mesure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "prochaine",
+     "prochain",
+     ""
+    ],
+    [
+     "fois",
+     "fois",
+     ""
+    ],
+    [
+     "mesures",
+     "mesure",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

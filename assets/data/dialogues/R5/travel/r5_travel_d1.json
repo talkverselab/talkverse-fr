@@ -1,0 +1,846 @@
+{
+ "id": "r5_travel_d1",
+ "region": "R5",
+ "island": "travel",
+ "kind": "long",
+ "title": "수동 기어",
+ "emoji": "🚗",
+ "scene": "공항 렌터카 카운터. 테오가 제일 싼 수동 차를 고르고 「할아버지 차로 배웠다」며 큰소리치다가 주차장 출구에서 시동을 세 번 꺼뜨린다",
+ "where": "공항 렌터카 카운터·주차장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Agente"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "friends"
+ ],
+ "goal": "렌터카·운전 어휘(permis de conduire·caution·carte bancaire·assurance·franchise·réservoir·kilométrage illimité·essence·gazole·boîte manuelle/automatique·démarrer·caler·embrayage·pédale), 새 문법 없음",
+ "expressions": [
+  "pas de problème",
+  "laisse tomber"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Bonjour, une voiture ?",
+   "rd": "봉주흐, 윈 부아튀흐?",
+   "ko": "안녕하세요, 차 필요하세요?",
+   "note": "voiture = 자동차",
+   "tags": [],
+   "new": [
+    "voiture"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "voiture",
+     "voiture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "voiture",
+     "voiture",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Ouais, la moins chère, boîte manuelle.",
+   "rd": "우에, 라 무왕 셰흐, 부와 마뉘엘.",
+   "ko": "응, 제일 싼 거, 수동 기어.",
+   "note": "boîte manuelle = 수동 변속기",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chère",
+     "cher",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "boîte",
+     "boîte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "manuelle",
+     "manuel",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "moins",
+     "moins",
+     ""
+    ],
+    [
+     "chère",
+     "cher",
+     ""
+    ],
+    [
+     "boîte",
+     "boîte",
+     ""
+    ],
+    [
+     "manuelle",
+     "manuel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "D'accord, celle-là, essence.",
+   "rd": "다꼬흐, 셀라, 에상스.",
+   "ko": "알겠어요, 그 차요, 휘발유.",
+   "note": "essence = 휘발유",
+   "tags": [],
+   "new": [
+    "essence"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "celle",
+     "celui",
+     "PRON",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "-là",
+     "-là",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "essence",
+     "essence",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "essence",
+     "essence",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Manuelle ? T'es sûr ?",
+   "rd": "마뉘엘? 테 쉬흐?",
+   "ko": "수동? 너 확실해?",
+   "note": "manuelle = 수동",
+   "tags": [],
+   "new": [
+    "manuelle"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Manuelle",
+     "manuelle",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Manuelle",
+     "manuelle",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Oui, caution de cinq cents, carte bancaire.",
+   "rd": "위, 꼬시옹 드 생 상, 까흐트 방께흐.",
+   "ko": "네, 보증금 오백, 신용카드.",
+   "note": "caution = 보증금 · carte bancaire = 신용카드",
+   "tags": [],
+   "new": [
+    "caution"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "caution",
+     "caution",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "cents",
+     "cent",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "carte",
+     "carte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "bancaire",
+     "bancaire",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "caution",
+     "caution",
+     ""
+    ],
+    [
+     "cents",
+     "cent",
+     ""
+    ],
+    [
+     "carte",
+     "carte",
+     ""
+    ],
+    [
+     "bancaire",
+     "bancaire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Pas de problème, j'ai mon permis. Appris sur la voiture de mon grand-père.",
+   "rd": "빠 드 쁘로블렘, 제 몽 뻬흐미. 아쁘히 쉬흐 라 부아튀흐 드 몽 그헝 페흐.",
+   "ko": "문제없어요, 면허 있어요. 할아버지 차로 배웠어요.",
+   "note": "pas de problème = 문제없어요 · permis de conduire = 운전면허",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "problème",
+     "problème",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "permis",
+     "permis",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Appris",
+     "apprendre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "voiture",
+     "voiture",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "grand-père",
+     "grand-père",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "problème",
+     "problème",
+     ""
+    ],
+    [
+     "permis",
+     "permis",
+     ""
+    ],
+    [
+     "Appris",
+     "apprendre",
+     ""
+    ],
+    [
+     "voiture",
+     "voiture",
+     ""
+    ],
+    [
+     "grand-père",
+     "grand-père",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "fr": "Assurance incluse, franchise de huit cents, kilométrage illimité. Réservoir plein.",
+   "rd": "아쉬헝스 엥클뤼즈, 프헝쉬즈 드 위 상, 킬로메뜨하쥬 일리미테. 헤제흐부와흐 플랭.",
+   "ko": "보험 포함, 면책금 팔백, 무제한 주행. 연료 가득.",
+   "note": "assurance = 보험 · franchise = 면책금 · kilométrage illimité = 무제한 주행거리 · réservoir = 연료통",
+   "tags": [],
+   "new": [
+    "assurance",
+    "franchise",
+    "réservoir"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "incluse",
+     "inclus",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "franchise",
+     "franchise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "cents",
+     "cent",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "kilométrage",
+     "kilométrage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "illimité",
+     "illimité",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Réservoir",
+     "réservoir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "plein",
+     "plein",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "incluse",
+     "inclus",
+     ""
+    ],
+    [
+     "franchise",
+     "franchise",
+     ""
+    ],
+    [
+     "cents",
+     "cent",
+     ""
+    ],
+    [
+     "kilométrage",
+     "kilométrage",
+     ""
+    ],
+    [
+     "illimité",
+     "illimité",
+     ""
+    ],
+    [
+     "Réservoir",
+     "réservoir",
+     ""
+    ],
+    [
+     "plein",
+     "plein",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Nickel ! On y va.",
+   "rd": "니켈! 옹 이 바.",
+   "ko": "완벽! 가자.",
+   "note": "nickel = 완벽해",
+   "tags": [],
+   "new": [
+    "nickel"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Nickel",
+     "nickel",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Nickel",
+     "nickel",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "T'es sûr de savoir démarrer ?",
+   "rd": "테 쉬흐 드 사부와흐 데마헤?",
+   "ko": "시동 거는 거 확실해?",
+   "note": "démarrer = 시동을 걸다",
+   "tags": [],
+   "new": [
+    "démarrer"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "savoir",
+     "savoir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "démarrer",
+     "démarrer",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "savoir",
+     "savoir",
+     ""
+    ],
+    [
+     "démarrer",
+     "démarrer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Ouais, facile. Embrayage, pédale…",
+   "rd": "우에, 파실. 앙브하야쥬, 페달…",
+   "ko": "응, 쉬워. 클러치, 페달…",
+   "note": "embrayage = 클러치 · pédale = 페달",
+   "tags": [],
+   "new": [
+    "embrayage",
+    "pédale"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "facile",
+     "facile",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "pédale",
+     "pédal",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "facile",
+     "facile",
+     ""
+    ],
+    [
+     "pédale",
+     "pédal",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Théo ! T'as calé encore !",
+   "rd": "테오! 따 깔레 앙꼬흐!",
+   "ko": "테오! 또 꺼졌어!",
+   "note": "caler = 시동이 꺼지다",
+   "tags": [],
+   "new": [
+    "caler"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "calé",
+     "caler",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "calé",
+     "caler",
+     ""
+    ],
+    [
+     "encore",
+     "encore",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "Monsieur, tenez l'embrayage.",
+   "rd": "므시외, 트네 랑브하야쥬.",
+   "ko": "선생님, 클러치를 잡으세요.",
+   "note": "embrayage = 클러치",
+   "tags": [],
+   "new": [
+    "embrayage"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "Monsieur",
+     "monsieur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tenez",
+     "tenir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "embrayage",
+     "embrayage",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Monsieur",
+     "monsieur",
+     ""
+    ],
+    [
+     "tenez",
+     "tenir",
+     ""
+    ],
+    [
+     "embrayage",
+     "embrayage",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "fr": "Désolé, j'ai oublié. Ça fait longtemps.",
+   "rd": "데졸레, 제 우블리에. 사 페 롱탕.",
+   "ko": "미안, 깜빡했어. 오래됐어.",
+   "note": "oublié = 잊었다",
+   "tags": [],
+   "new": [
+    "oublié"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "oublié",
+     "oublier",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "oublié",
+     "oublier",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "longtemps",
+     "longtemps",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "fr": "Laisse tomber, je conduis.",
+   "rd": "레스 통베, 쥬 콩뒤.",
+   "ko": "잊어버려, 내가 운전할게.",
+   "note": "laisse tomber = 잊어버려",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "tomber",
+     "tomber",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "conduis",
+     "conduire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tomber",
+     "tomber",
+     ""
+    ],
+    [
+     "conduis",
+     "conduire",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

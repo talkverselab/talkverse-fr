@@ -1,0 +1,1061 @@
+{
+ "id": "r2_life_d1",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "title": "누가 환자야",
+ "emoji": "🤒",
+ "scene": "아파서 누워 있는 A 대신 룸메이트 테오가 약국에 간다. 증상을 「나는」으로 말하는 바람에 약사가 테오를 환자로 안다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "증상 말하기(j'ai mal à la tête·j'ai de la fièvre)·dire·croire 인칭 변화",
+ "expressions": [
+  "mince",
+  "stp",
+  "ouais",
+  "mdr",
+  "bref"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "J'ai mal à la tête et de la fièvre. Tu peux y aller stp ?",
+   "rd": "쥬 말 아 라 떼뜨 에 드 라 피에브르. 뛰 퓌 이 알레 에쓰떼뻬?",
+   "ko": "머리 아프고 열 나. 약국 좀 가줄 수 있어?",
+   "note": "j'ai mal à la tête = 머리가 아파 · j'ai de la fièvre = 열이 있어 · stp = 부탁해",
+   "tags": [],
+   "new": [
+    "stp"
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "09:12",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mal",
+     "mal",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tête",
+     "tête",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "fièvre",
+     "fièvre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "peux",
+     "peux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "aller",
+     "aller",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "tête",
+     "tête",
+     ""
+    ],
+    [
+     "fièvre",
+     "fièvre",
+     ""
+    ],
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "aller",
+     "aller",
+     ""
+    ],
+    [
+     "stp",
+     "stp",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Ouais, bien sûr. T'as quoi d'autre ?",
+   "rd": "왜, 비앵 쉬르. 따 끄와 도트르?",
+   "ko": "응, 물론이지. 다른 증상 뭐야?",
+   "note": "ouais = 응 · t'as = 너 ~있어 · quoi d'autre = 다른 거 뭐",
+   "tags": [],
+   "new": [
+    "ouais",
+    "t'as"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "09:14",
+   "morph_tags": [
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "as",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "autre",
+     "autre",
+     "PRON",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "quoi",
+     "quoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "J'ai le nez qui coule aussi. Tu dis ça stp.",
+   "rd": "쥬 르 네 끼 꿀 오씨. 뛰 디 싸 에쓰떼뻬.",
+   "ko": "코도 흘려. 그거 말해줘 부탁해.",
+   "note": "le nez qui coule = 코가 흘리는 · tu dis ça = 너 그거 말해 · stp = 부탁해",
+   "tags": [],
+   "new": [
+    "stp"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "09:15",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "nez",
+     "nez",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "coule",
+     "coule",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "nez",
+     "nez",
+     ""
+    ],
+    [
+     "coule",
+     "coule",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "dis",
+     "dire",
+     ""
+    ],
+    [
+     "stp",
+     "stp",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Ok, je vais là-bas. Je dis que t'as mal à la tête.",
+   "rd": "오께, 쥬 베 라바. 쥬 디 끄 따 말 아 라 떼뜨.",
+   "ko": "알겠어, 거기로 갈게. 머리 아프다고 말할게.",
+   "note": "je dis que = 나는 ~라고 말해 · t'as mal à la tête = 너 머리 아파",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "ui": "bubble",
+   "at": "09:31",
+   "morph_tags": [
+    [
+     "Ok",
+     "ok",
+     "PRON",
+     "Gender=Masc|Number=Plur|PronType=Dem"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vais",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "-",
+     "-",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bas",
+     "bas",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mal",
+     "mal",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tête",
+     "tête",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vais",
+     "aller",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "bas",
+     "bas",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "tête",
+     "tête",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Merci, je crois que c'est juste un rhume.",
+   "rd": "메르시, 쥬 끄롸 끄 쎄 쥐스뜨 앵 윔.",
+   "ko": "고마워, 그냥 감기인 것 같아.",
+   "note": "je crois que = 나는 ~라고 믿어 · rhume = 감기",
+   "tags": [],
+   "new": [
+    "rhume"
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "09:32",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "crois",
+     "croire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "rhume",
+     "rhume",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "crois",
+     "croire",
+     ""
+    ],
+    [
+     "juste",
+     "juste",
+     ""
+    ],
+    [
+     "rhume",
+     "rhume",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Bref, c'est fait. J'ai tout ce qu'il faut.",
+   "rd": "브레프, 쎄 페. 쥬 뚜 쓰 낄 포.",
+   "ko": "어쨌든, 다 했어. 필요한 거 다 있어.",
+   "note": "bref = 어쨌든 · c'est fait = 끝났어 · ce qu'il faut = 필요한 것",
+   "tags": [],
+   "new": [
+    "bref"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "09:35",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tout",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "qu'",
+     "que",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bref",
+     "bref",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "faut",
+     "falloir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Mince ! Elle a cru que j'ai mal à la tête.",
+   "rd": "맹쓰 ! 엘 아 크뤼 끄 쥬 말 아 라 떼뜨.",
+   "ko": "이런! 그녀가 내가 머리 아픈 줄 믿었어.",
+   "note": "mince = 이런 · elle a cru que = 그녀가 ~라고 믿었다",
+   "tags": [],
+   "new": [
+    "mince"
+   ],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "09:36",
+   "morph_tags": [
+    [
+     "Mince",
+     "mince",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cru",
+     "croire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mal",
+     "mal",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tête",
+     "tête",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Mince",
+     "mince",
+     ""
+    ],
+    [
+     "cru",
+     "croire",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "tête",
+     "tête",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "J'ai dit \"j'ai mal à la tête\" et elle a cru ça pour moi.",
+   "rd": "쥬 디 \"쥬 말 아 라 떼뜨\" 에 엘 아 크뤼 싸 뿌르 므와.",
+   "ko": "\"머리 아파\"라고 말했더니 그녀가 나를 위한 거라고 믿었어.",
+   "note": "j'ai dit = 나는 말했다 · elle a cru ça pour moi = 그녀가 그걸 나를 위한 걸로 믿었다",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "ui": "bubble",
+   "at": "09:37",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mal",
+     "mal",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "tête",
+     "tête",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cru",
+     "croire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "mal",
+     "mal",
+     ""
+    ],
+    [
+     "tête",
+     "tête",
+     ""
+    ],
+    [
+     "cru",
+     "croire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "mdr ! Sérieux ? Tu as dit j'ai ?",
+   "rd": "엠데에르 ! 세리외 ? 뛰 아 디 쥬 ?",
+   "ko": "ㅋㅋ ! 진짜? 내가 라고 말했어?",
+   "note": "mdr = 웃김 · tu as dit = 너는 말했다",
+   "tags": [],
+   "new": [
+    "mdr"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "09:38",
+   "morph_tags": [
+    [
+     "Sérieux",
+     "sérieux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "Tu",
+     "tu",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "as",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mdr",
+     "mdr",
+     ""
+    ],
+    [
+     "Sérieux",
+     "sérieux",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Ouais, et elle m'a regardé bizarre.",
+   "rd": "왜, 에 엘 마 르가르데 비자르.",
+   "ko": "응, 그리고 그녀가 나를 이상하게 봤어.",
+   "note": "ouais = 응 · elle m'a regardé = 그녀가 나를 봤다",
+   "tags": [],
+   "new": [
+    "ouais"
+   ],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "09:40",
+   "morph_tags": [
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "regardé",
+     "regarder",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "bizarre",
+     "bizarre",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "regardé",
+     "regarder",
+     ""
+    ],
+    [
+     "bizarre",
+     "bizarre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Bref, elle a ri et m'a donné les médocs.",
+   "rd": "브레프, 엘 아 리 에 마 도네 레 메독.",
+   "ko": "어쨌든, 그녀가 웃고 약을 줬어.",
+   "note": "bref = 어쨌든 · elle a ri = 그녀가 웃었다 · m'a donné = 나에게 줬다",
+   "tags": [],
+   "new": [
+    "bref"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "09:41",
+   "morph_tags": [
+    [
+     "elle",
+     "lui",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ri",
+     "rire",
+     "VERB",
+     "Tense=Past|VerbForm=Part"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "donné",
+     "donner",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "médocs",
+     "médoc",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bref",
+     "bref",
+     ""
+    ],
+    [
+     "ri",
+     "rire",
+     ""
+    ],
+    [
+     "donné",
+     "donner",
+     ""
+    ],
+    [
+     "médocs",
+     "médoc",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Merci Théo, t'es le meilleur.",
+   "rd": "메르시 떼오, 떼 르 메이외르.",
+   "ko": "고마워 테오, 네가 최고야.",
+   "note": "t'es le meilleur = 너는 최고야",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "09:42",
+   "stamp": "🫶",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "meilleur",
+     "meilleur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "meilleur",
+     "meilleur",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

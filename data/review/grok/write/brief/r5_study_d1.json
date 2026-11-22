@@ -1,0 +1,106 @@
+{
+ "id": "r5_study_d1",
+ "region": "R5",
+ "island": "study",
+ "kind": "long",
+ "title": "석 달째 연체",
+ "emoji": "📚",
+ "scene": "대학 도서관. 논문에 꼭 필요한 책이 석 달째 연체 중이다. 자리를 맡아 준 레아에게 표지를 보여 주자 — 그 책은 레아 가방 안에 있었다",
+ "where": "대학 도서관 대출 데스크",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa",
+  "C": "Bibliothécaire"
+ },
+ "cast": {
+  "C": "man_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study",
+  "friends"
+ ],
+ "goal": "도서관 어휘(carte d'étudiant·emprunter·rendre·mémoire·rayon·cote·en retard·amende·centime·réserver·couverture·introuvable), 새 문법 없음",
+ "expressions": [
+  "attends",
+  "pardon",
+  "s'il vous plaît"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "sad"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 10,
+   "speaker": "B"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 14,
+   "speaker": "B"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

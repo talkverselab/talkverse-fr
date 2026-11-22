@@ -1,0 +1,106 @@
+{
+ "id": "r4_work_d1",
+ "region": "R4",
+ "island": "work",
+ "kind": "long",
+ "title": "500부",
+ "emoji": "🖨️",
+ "scene": "회의 직전 사무실. 보고서 50부를 뽑으려다 500부를 걸어 버리고, 플러그를 뽑았다 꽂자 이사님이 걸어 둔 사직서가 함께 나온다",
+ "where": "사무실 복사실",
+ "speakers": {
+  "A": "{name}",
+  "C": "Collègue",
+  "D": "Directeur"
+ },
+ "cast": {
+  "C": "woman_m",
+  "D": "man_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "접속법(il faut que le rapport soit · à moins qu'on la débranche · il voulait pas qu'on la voie) · en(il en faut combien · elle en a sorti) · 대명사 결합(vous me les apportez · je voulais vous le dire) · 조건법 tu pourrais · si + 대과거 → 조건법 과거 · 반과거 il y avait une feuille",
+ "expressions": [
+  "pas de problème",
+  "attends",
+  "mince",
+  "vas-y",
+  "je sais pas",
+  "voilà"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "D",
+   "emotion": "stiff"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "polite"
+  },
+  {
+   "num": 3,
+   "speaker": "D",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "gentle"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "surprised"
+  },
+  {
+   "num": 8,
+   "speaker": "A"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "emotion": "shout"
+  },
+  {
+   "num": 10,
+   "speaker": "A"
+  },
+  {
+   "num": 11,
+   "speaker": "C"
+  },
+  {
+   "num": 12,
+   "speaker": "D"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 14,
+   "speaker": "D"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

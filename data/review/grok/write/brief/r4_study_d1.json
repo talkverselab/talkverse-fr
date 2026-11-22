@@ -1,0 +1,103 @@
+{
+ "id": "r4_study_d1",
+ "region": "R4",
+ "island": "study",
+ "kind": "long",
+ "title": "단톡방의 교수님",
+ "emoji": "📽️",
+ "scene": "발표 전날 밤, 레아와 슬라이드를 맞추는데 A 가 파일을 반 단톡방에 올려 버렸다 — 교수님 험담 메시지까지 같이, 그리고 교수님도 그 방에 있다",
+ "where": "학교 도서관 앞 벤치",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study",
+  "friends"
+ ],
+ "goal": "대명사 결합(tu me l'envoies · je te l'ai envoyé · si tu me l'avais envoyé) · 접속법(il faut qu'on finisse · je voudrais que tout soit · j'ai peur qu'il mette · il faudrait que tu t'excuses) · dont·où(le tableau dont tu m'as parlé · celui où tu disais) · si + 대과거 → 조건법 과거",
+ "expressions": [
+  "attends",
+  "ben",
+  "d'accord",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "stiff"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "surprised"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "emotion": "shout"
+  },
+  {
+   "num": 11,
+   "speaker": "A"
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "emotion": "worried"
+  },
+  {
+   "num": 13,
+   "speaker": "A"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

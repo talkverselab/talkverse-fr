@@ -1,0 +1,896 @@
+{
+ "id": "r2_work_d1",
+ "region": "R2",
+ "island": "work",
+ "kind": "chat",
+ "title": "토요일 대타",
+ "emoji": "🍳",
+ "scene": "같은 식당에서 일하는 위고가 토요일 저녁 근무를 바꿔 달라고 문자한다. 이유는 데이트가 아니라 다른 식당 면접",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "부탁하기(tu peux me remplacer ?)·partir 인칭 변화(tu pars·je pars)·si 조건",
+ "expressions": [
+  "vas-y",
+  "je sais pas",
+  "stp",
+  "sérieux",
+  "ben",
+  "en fait"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Salut, tu peux me remplacer samedi soir stp ?",
+   "rd": "살뤼, 뛰 퓌 므 랑플라세 사메디 스와르 에쓰떼뻬 ?",
+   "ko": "안녕, 토요일 저녁 나 대신해줄 수 있어 부탁해?",
+   "note": "tu peux me remplacer = 너 나 대신해줄 수 있어 · stp = 부탁해",
+   "tags": [],
+   "new": [
+    "stp"
+   ],
+   "emotion": "polite",
+   "ui": "bubble",
+   "at": "15:02",
+   "morph_tags": [
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "peux",
+     "peux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "remplacer",
+     "remplacer",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "samedi",
+     "samedi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "remplacer",
+     "remplacer",
+     ""
+    ],
+    [
+     "samedi",
+     "samedi",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ],
+    [
+     "stp",
+     "stp",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ben, je sais pas. Pourquoi ?",
+   "rd": "뱅, 쥬 세 파. 푸르콰 ?",
+   "ko": "글쎄, 모르겠어. 왜?",
+   "note": "ben = 글쎄 · je sais pas = 나는 모르겠어",
+   "tags": [],
+   "new": [
+    "ben"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "15:03",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "sais",
+     "savoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sais",
+     "savoir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "Pourquoi",
+     "pourquoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "J'ai un truc. Tu pars à quelle heure d'habitude ?",
+   "rd": "쥬 앵 트뤼. 뛰 파르 아 켈 외르 다비튀드 ?",
+   "ko": "나 일이 있어. 너는 보통 몇 시에 떠나?",
+   "note": "tu pars = 너는 떠나 · j'ai un truc = 나 일이 있어",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "ui": "bubble",
+   "at": "15:03",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "truc",
+     "truc",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "pars",
+     "par",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "quelle",
+     "quel",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Int"
+    ],
+    [
+     "heure",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "habitude",
+     "habitude",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "truc",
+     "truc",
+     ""
+    ],
+    [
+     "pars",
+     "partir",
+     ""
+    ],
+    [
+     "heure",
+     "heure",
+     ""
+    ],
+    [
+     "habitude",
+     "habitude",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Je pars vers vingt heures. C'est pour une date ?",
+   "rd": "쥬 파르 베르 뱅 퇴르. 쎄 뿌르 윈 다트 ?",
+   "ko": "나는 8시쯤 떠나. 데이트 때문이야?",
+   "note": "je pars = 나는 떠나 · une date = 데이트",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "15:05",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "pars",
+     "partir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "heures",
+     "heure",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "date",
+     "date",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pars",
+     "partir",
+     ""
+    ],
+    [
+     "heures",
+     "heure",
+     ""
+    ],
+    [
+     "date",
+     "date",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Sérieux, tu me caches un truc ?",
+   "rd": "세리외, 뛰 므 카슈 앵 트뤼 ?",
+   "ko": "진짜, 너 나한테 뭔가 숨기는 거야?",
+   "note": "sérieux = 진짜",
+   "tags": [],
+   "new": [
+    "sérieux"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "15:05",
+   "morph_tags": [
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "caches",
+     "cacher",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "truc",
+     "truc",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "caches",
+     "cacher",
+     ""
+    ],
+    [
+     "truc",
+     "truc",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "En fait non. C'est un entretien dans un autre resto.",
+   "rd": "앙 페 농. 쎄 앵 앙트레티앵 당 앵 노트르 레스토.",
+   "ko": "사실 아니야. 다른 식당에서 면접이야.",
+   "note": "en fait = 사실 · un entretien = 면접",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "15:07",
+   "morph_tags": [
+    [
+     "fait",
+     "fait",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "entretien",
+     "entretien",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "autre",
+     "autre",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "resto",
+     "restaurant",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "entretien",
+     "entretien",
+     ""
+    ],
+    [
+     "autre",
+     "autre",
+     ""
+    ],
+    [
+     "resto",
+     "restaurant",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Ah ouais ? Si je te remplace, tu me dois un truc.",
+   "rd": "아 왜 ? 시 쥬 트 랑플라스, 뛰 므 드와 앵 트뤼.",
+   "ko": "아 그래? 내가 대신해주면, 너 나한테 빚지는 거야.",
+   "note": "si = 만약 · je te remplace = 내가 너 대신해",
+   "tags": [],
+   "new": [
+    "si"
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "15:08",
+   "morph_tags": [
+    [
+     "Ah",
+     "ah",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ouais",
+     "ouai",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "remplace",
+     "remplacer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "dois",
+     "devoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "truc",
+     "truc",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ouais",
+     "ouais",
+     ""
+    ],
+    [
+     "remplace",
+     "remplacer",
+     ""
+    ],
+    [
+     "dois",
+     "devoir",
+     ""
+    ],
+    [
+     "truc",
+     "truc",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Vas-y, je te jure. C'est important.",
+   "rd": "바지, 쥬 트 쥐르. 쎄 앵포르탕.",
+   "ko": "해봐, 진짜야. 중요해.",
+   "note": "vas-y = 해봐 · je te jure = 내가 맹세해",
+   "tags": [],
+   "new": [
+    "vas-y"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "15:10",
+   "morph_tags": [
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "jure",
+     "jur",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "important",
+     "important",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "jure",
+     "jur",
+     ""
+    ],
+    [
+     "important",
+     "important",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Si tu peux, je pars tranquille.",
+   "rd": "시 뛰 퓌, 쥬 파르 트랑킬.",
+   "ko": "네가 할 수 있으면, 나는 편하게 떠나.",
+   "note": "si tu peux = 만약 네가 할 수 있으면 · je pars = 나는 떠나",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "15:10",
+   "morph_tags": [
+    [
+     "tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "peux",
+     "peu",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "pars",
+     "par",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "tranquille",
+     "tranquille",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peux",
+     "pouvoir",
+     ""
+    ],
+    [
+     "pars",
+     "partir",
+     ""
+    ],
+    [
+     "tranquille",
+     "tranquille",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "Ok, ça marche. Je te remplace.",
+   "rd": "오께, 싸 마르슈. 쥬 트 랑플라스.",
+   "ko": "알겠어, 좋아. 내가 대신해줄게.",
+   "note": "ça marche = 좋아",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "15:14",
+   "morph_tags": [
+    [
+     "Ok",
+     "ok",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "marche",
+     "marche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "remplace",
+     "remplacer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "marche",
+     "marche",
+     ""
+    ],
+    [
+     "remplace",
+     "remplacer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Merci trop. Tu pars à ma place alors.",
+   "rd": "메르시 트로. 뛰 파르 아 마 플라스 알로르.",
+   "ko": "너무 고마워. 그러면 네가 내 대신 떠나.",
+   "note": "tu pars = 너는 떠나 · à ma place = 내 대신",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "15:15",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pars",
+     "par",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "place",
+     "place",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "pars",
+     "partir",
+     ""
+    ],
+    [
+     "place",
+     "place",
+     ""
+    ],
+    [
+     "alors",
+     "alors",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Ben ouais. Bonne chance pour l'entretien !",
+   "rd": "뱅 왜. 본 샹스 뿌르 랑트레티앵 !",
+   "ko": "글쎄 응. 면접 잘해!",
+   "note": "ben = 글쎄 · bonne chance = 행운을 빌어",
+   "tags": [],
+   "new": [
+    "ben"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "15:16",
+   "stamp": "🤝",
+   "morph_tags": [
+    [
+     "ouais",
+     "ouai",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "Bonne",
+     "bon",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "chance",
+     "chance",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "entretien",
+     "entretien",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ouais",
+     "ouais",
+     ""
+    ],
+    [
+     "Bonne",
+     "bon",
+     ""
+    ],
+    [
+     "chance",
+     "chance",
+     ""
+    ],
+    [
+     "entretien",
+     "entretien",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

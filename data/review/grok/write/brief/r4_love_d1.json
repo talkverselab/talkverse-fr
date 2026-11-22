@@ -1,0 +1,105 @@
+{
+ "id": "r4_love_d1",
+ "region": "R4",
+ "island": "love",
+ "kind": "long",
+ "title": "접속법 예문",
+ "emoji": "✏️",
+ "scene": "카페 언어 교환. 레아가 접속법 예문을 들어 주는데, 예문이 점점 「토요일에 와 줬으면 좋겠어」로 바뀐다 — 레아는 월요일부터 그 문장들을 준비해 왔다",
+ "where": "카페 테라스, 언어 교환",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "study_abroad"
+ ],
+ "domain": [
+  "love",
+  "study"
+ ],
+ "goal": "접속법 익힘(il faut que je l'utilise · je veux que tu viennes · j'aimerais que tu sois · il faudrait que tu m'invites avant que je perde · je voulais que ce soit) · 조건법 j'aimerais·il faudrait · 대과거 j'avais préparé",
+ "expressions": [
+  "grave",
+  "vas-y",
+  "tu vois",
+  "attends",
+  "d'accord"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "B"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 10,
+   "speaker": "A"
+  },
+  {
+   "num": 11,
+   "speaker": "B"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 13,
+   "speaker": "B"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "emotion": "gentle"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

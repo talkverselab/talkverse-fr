@@ -1,0 +1,949 @@
+{
+ "id": "r5_work_d1",
+ "region": "R5",
+ "island": "work",
+ "kind": "long",
+ "title": "첫 출근 출입증",
+ "emoji": "🪪",
+ "scene": "첫 출근 날. 인사 담당자에게 출입증과 계약 조건을 듣고 옆자리 동료와 구내식당에 가는데, 출입증이 안 열려 문 사이에 갇히고 경보까지 울린다",
+ "where": "회사 로비·구내식당 앞",
+ "speakers": {
+  "A": "{name}",
+  "C": "RH",
+  "D": "Collègue"
+ },
+ "cast": {
+  "C": "woman_m",
+  "D": "man_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "입사·사무실 어휘(badge·cantine·contrat·période d'essai·congés·horaires·flexible·ticket-restaurant·collègue·mot de passe·intranet·ordinateur·alarme·stagiaire), 새 문법 없음",
+ "expressions": [
+  "franchement",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "fr": "Bienvenue ! Ton badge et ton contrat.",
+   "rd": "비앙브뉘! 통 바쥬 에 통 콩뜨하.",
+   "ko": "환영해요! 출입증이랑 계약서요.",
+   "note": "badge = 출입증 · contrat = 계약서",
+   "tags": [],
+   "new": [
+    "badge",
+    "contrat"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "badge",
+     "badg",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "ton",
+     "ton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "contrat",
+     "contrat",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "badge",
+     "badg",
+     ""
+    ],
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "contrat",
+     "contrat",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Merci beaucoup. C'est pour aujourd'hui ?",
+   "rd": "메흐시 보꾸. 세 푸흐 오주흐뒤?",
+   "ko": "정말 고마워요. 오늘부터요?",
+   "note": "merci = 고마워요",
+   "tags": [],
+   "new": [
+    "merci"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "beaucoup",
+     "beaucoup",
+     ""
+    ],
+    [
+     "aujourd'hui",
+     "aujourd'hui",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "fr": "Oui. Période d'essai de deux mois, horaires flexibles.",
+   "rd": "위. 페리오드 데세 드 두 무아, 오헤흐 플렉시블.",
+   "ko": "네. 수습 기간 두 달, 유연 근무.",
+   "note": "période d'essai = 수습 기간 · horaires flexibles = 유연 근무시간",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Période",
+     "période",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "essai",
+     "essai",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "horaires",
+     "horaire",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "flexibles",
+     "flexible",
+     "ADJ",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Période",
+     "période",
+     ""
+    ],
+    [
+     "essai",
+     "essai",
+     ""
+    ],
+    [
+     "mois",
+     "mois",
+     ""
+    ],
+    [
+     "horaires",
+     "horaire",
+     ""
+    ],
+    [
+     "flexibles",
+     "flexible",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Trop bien ! Et les congés ?",
+   "rd": "뜨호 비앵! 에 레 콩제?",
+   "ko": "완전 좋다! 휴가는요?",
+   "note": "trop bien = 완전 좋다 · congés = 휴가",
+   "tags": [],
+   "new": [
+    "congés"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "congés",
+     "congé",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "congés",
+     "congé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "fr": "Vingt-cinq jours. Ticket-restaurant aussi. Mot de passe pour l'intranet.",
+   "rd": "뱅생 주흐. 티케 헤스또항 오시. 모 드 빠스 푸흐 랭뜨하네.",
+   "ko": "스물다섯 날. 식권도요. 인트라넷 비밀번호.",
+   "note": "ticket-restaurant = 식권 · mot de passe = 비밀번호 · intranet = 인트라넷",
+   "tags": [],
+   "new": [
+    "ticket-restaurant",
+    "intranet"
+   ],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "jours",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "-",
+     "-",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "restaurant",
+     "restaurer",
+     "VERB",
+     "Tense=Pres|VerbForm=Part"
+    ],
+    [
+     "passe",
+     "passer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "intranet",
+     "intranet",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "jours",
+     "jour",
+     ""
+    ],
+    [
+     "restaurant",
+     "restaurer",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "passe",
+     "passer",
+     ""
+    ],
+    [
+     "intranet",
+     "intranet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "D",
+   "fr": "Salut, je suis ton collègue. On va à la cantine ?",
+   "rd": "살뤼, 쥬 쉬 통 꼴레그. 옹 바 아 라 깡띤?",
+   "ko": "안녕, 나 네 동료야. 구내식당 갈까?",
+   "note": "collègue = 동료 · cantine = 구내식당",
+   "tags": [],
+   "new": [
+    "collègue",
+    "cantine"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "collègue",
+     "collègu",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "cantine",
+     "cantine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "ton",
+     "ton",
+     ""
+    ],
+    [
+     "collègue",
+     "collègue",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "cantine",
+     "cantine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Ouais, mais mon badge marche pas encore ?",
+   "rd": "우에, 메 몽 바쥬 마흐슈 빠 앙꼬흐?",
+   "ko": "응, 근데 내 출입증 아직 안 돼?",
+   "note": "badge = 출입증",
+   "tags": [],
+   "new": [
+    "badge"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "mon",
+     "mon",
+     "DET",
+     "Number=Sing|Poss=Yes"
+    ],
+    [
+     "badge",
+     "badge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "marche",
+     "marche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "badge",
+     "badge",
+     ""
+    ],
+    [
+     "marche",
+     "marche",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "encore",
+     "encore",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "fr": "Franchement, t'inquiète. Ça marche toujours.",
+   "rd": "프헝슈망, 탱키에뜨. 사 마흐슈 뚜주흐.",
+   "ko": "솔직히, 걱정 마. 항상 돼.",
+   "note": "franchement = 솔직히",
+   "tags": [],
+   "new": [
+    "franchement"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|PronType=Dem"
+    ],
+    [
+     "marche",
+     "marche",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Franchement",
+     "franchement",
+     ""
+    ],
+    [
+     "t'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "marche",
+     "marche",
+     ""
+    ],
+    [
+     "toujours",
+     "toujours",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "T'es sûr ? J'ai peur de l'alarme.",
+   "rd": "테 쉬흐? 제 페흐 드 랄라흠.",
+   "ko": "확실해? 경보 울릴까 봐 무서워.",
+   "note": "alarme = 경보",
+   "tags": [],
+   "new": [
+    "alarme"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "sûr",
+     "sûr",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "peur",
+     "peur",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "alarme",
+     "alarme",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "peur",
+     "peur",
+     ""
+    ],
+    [
+     "alarme",
+     "alarme",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "D",
+   "fr": "Vas-y, passe. Oh non, t'es coincé !",
+   "rd": "바지, 빠스. 오 농, 테 꾸왕세!",
+   "ko": "가, 지나가. 오 안 돼, 끼었어!",
+   "note": "coincé = 끼다",
+   "tags": [],
+   "new": [
+    "coincé"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "passe",
+     "passer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "coincé",
+     "coincé",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "passe",
+     "passer",
+     ""
+    ],
+    [
+     "coincé",
+     "coincé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "fr": "L'alarme sonne ! Attendez, je coupe.",
+   "rd": "랄라흠 손! 아땅데, 쥬 꿉.",
+   "ko": "경보 울려요! 잠깐, 제가 끌게요.",
+   "note": "alarme = 경보",
+   "tags": [],
+   "new": [
+    "alarme"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "L'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "alarme",
+     "alarme",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "sonne",
+     "sonn",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "coupe",
+     "coupe",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "alarme",
+     "alarme",
+     ""
+    ],
+    [
+     "sonne",
+     "sonn",
+     ""
+    ],
+    [
+     "Attendez",
+     "attendre",
+     ""
+    ],
+    [
+     "coupe",
+     "coupe",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Sérieux ? Premier jour et déjà coincé entre les portes.",
+   "rd": "세히외? 쁘헤미에 주흐 에 데자 꾸왕세 앙뜨흐 레 뽀흐트.",
+   "ko": "진짜? 첫날인데 벌써 문 사이에 갇혔어.",
+   "note": "coincé = 갇히다",
+   "tags": [],
+   "new": [
+    "coincé"
+   ],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "Sérieux",
+     "sérieux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "Premier",
+     "premier",
+     "ADJ",
+     "Gender=Masc|NumType=Ord|Number=Sing"
+    ],
+    [
+     "jour",
+     "jour",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "coincé",
+     "coincer",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "portes",
+     "porte",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Sérieux",
+     "sérieux",
+     ""
+    ],
+    [
+     "Premier",
+     "premier",
+     ""
+    ],
+    [
+     "jour",
+     "jour",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "coincé",
+     "coincer",
+     ""
+    ],
+    [
+     "portes",
+     "porte",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "C",
+   "fr": "Désolée, le badge des stagiaires… j'ai oublié.",
+   "rd": "데졸레, 르 바쥬 데 스타지에흐… 제 우블리에.",
+   "ko": "미안해요, 인턴 출입증… 제가 깜빡했어요.",
+   "note": "stagiaire = 인턴 · badge = 출입증",
+   "tags": [],
+   "new": [
+    "stagiaire",
+    "badge"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "badge",
+     "badge",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "stagiaires",
+     "stagiaire",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "oublié",
+     "oublier",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "badge",
+     "badge",
+     ""
+    ],
+    [
+     "stagiaires",
+     "stagiaire",
+     ""
+    ],
+    [
+     "oublié",
+     "oublier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "D",
+   "fr": "Trop drôle. Allez, on va à la cantine maintenant.",
+   "rd": "뜨호 드홀. 알레, 옹 바 아 라 깡띤 맹트낭.",
+   "ko": "완전 웃기다. 자, 이제 구내식당 가자.",
+   "note": "trop = 완전 · cantine = 구내식당",
+   "tags": [],
+   "new": [
+    "trop",
+    "cantine"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Allez",
+     "aller",
+     "VERB",
+     "Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "cantine",
+     "cantine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "drôle",
+     "drôle",
+     ""
+    ],
+    [
+     "Allez",
+     "aller",
+     ""
+    ],
+    [
+     "cantine",
+     "cantine",
+     ""
+    ],
+    [
+     "maintenant",
+     "maintenant",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

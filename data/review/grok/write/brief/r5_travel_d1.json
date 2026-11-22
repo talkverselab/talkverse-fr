@@ -1,0 +1,106 @@
+{
+ "id": "r5_travel_d1",
+ "region": "R5",
+ "island": "travel",
+ "kind": "long",
+ "title": "수동 기어",
+ "emoji": "🚗",
+ "scene": "공항 렌터카 카운터. 테오가 제일 싼 수동 차를 고르고 「할아버지 차로 배웠다」며 큰소리치다가 주차장 출구에서 시동을 세 번 꺼뜨린다",
+ "where": "공항 렌터카 카운터·주차장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Agente"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel",
+  "friends"
+ ],
+ "goal": "렌터카·운전 어휘(permis de conduire·caution·carte bancaire·assurance·franchise·réservoir·kilométrage illimité·essence·gazole·boîte manuelle/automatique·démarrer·caler·embrayage·pédale), 새 문법 없음",
+ "expressions": [
+  "pas de problème",
+  "laisse tomber"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "polite"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 10,
+   "speaker": "B"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "emotion": "shout"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

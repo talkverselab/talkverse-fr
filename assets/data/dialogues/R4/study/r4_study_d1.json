@@ -1,0 +1,1188 @@
+{
+ "id": "r4_study_d1",
+ "region": "R4",
+ "island": "study",
+ "kind": "long",
+ "title": "단톡방의 교수님",
+ "emoji": "📽️",
+ "scene": "발표 전날 밤, 레아와 슬라이드를 맞추는데 A 가 파일을 반 단톡방에 올려 버렸다 — 교수님 험담 메시지까지 같이, 그리고 교수님도 그 방에 있다",
+ "where": "학교 도서관 앞 벤치",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 9,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "study_abroad"
+ ],
+ "domain": [
+  "study",
+  "friends"
+ ],
+ "goal": "대명사 결합(tu me l'envoies · je te l'ai envoyé · si tu me l'avais envoyé) · 접속법(il faut qu'on finisse · je voudrais que tout soit · j'ai peur qu'il mette · il faudrait que tu t'excuses) · dont·où(le tableau dont tu m'as parlé · celui où tu disais) · si + 대과거 → 조건법 과거",
+ "expressions": [
+  "attends",
+  "ben",
+  "d'accord",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Attends, il faut qu'on finisse les slides ce soir.",
+   "rd": "아땅, 일 포 꽁 피니스 레 슬라이드 스 스와르.",
+   "ko": "잠깐, 오늘 밤 슬라이드 끝내야 해.",
+   "note": "attends = 잠깐 · il faut qu'on finisse = 우리가 끝내야 한다",
+   "tags": [],
+   "new": [
+    "attends"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faut",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "finisse",
+     "finir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "slides",
+     "slide",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "soir",
+     "soir",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "faut",
+     "falloir",
+     ""
+    ],
+    [
+     "finisse",
+     "finir",
+     ""
+    ],
+    [
+     "slides",
+     "slide",
+     ""
+    ],
+    [
+     "soir",
+     "soir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "D'accord, tu me l'envoies le fichier ?",
+   "rd": "다코르, 뛰 므 랑부아 르 피시에 ?",
+   "ko": "알겠어, 파일 나한테 보내줘?",
+   "note": "d'accord = 알겠어 · tu me l'envoies = 네가 그것을 나에게 보내",
+   "tags": [],
+   "new": [
+    "d'accord"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "envoies",
+     "envoie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "fichier",
+     "fichier",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "envoies",
+     "envoie",
+     ""
+    ],
+    [
+     "fichier",
+     "fichier",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Ouais, je te l'ai envoyé. Le tableau dont tu m'as parlé est dedans.",
+   "rd": "우애, 쥬 뜨 레 앙부아예. 르 타블로 동 뛰 마 파를레 에 드당.",
+   "ko": "응, 보냈어. 네가 말한 표가 들어 있어.",
+   "note": "je te l'ai envoyé = 내가 그것을 너에게 보냈어 · dont tu m'as parlé = 네가 나에게 말한",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "envoyé",
+     "envoyer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "tableau",
+     "tableau",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "dont",
+     "dont",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parlé",
+     "parler",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dedans",
+     "dedans",
+     "PRON",
+     "Gender=Fem|Number=Sing|Person=3|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "envoyé",
+     "envoyer",
+     ""
+    ],
+    [
+     "tableau",
+     "tableau",
+     ""
+    ],
+    [
+     "parlé",
+     "parler",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Trop bien ! Celui où tu disais que le prof est nul ?",
+   "rd": "트로 비앵 ! 슬뤼 우 뛰 디제 크 르 프로프 에 뉼 ?",
+   "ko": "너무 좋다! 네가 교수 별로라고 한 그거?",
+   "note": "trop = 너무 · celui où tu disais = 네가 말하던 그것",
+   "tags": [],
+   "new": [
+    "trop"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Celui",
+     "celui",
+     "PRON",
+     "Number=Sing"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "disais",
+     "disai",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "prof",
+     "prof",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "nul",
+     "nul",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "disais",
+     "disai",
+     ""
+    ],
+    [
+     "prof",
+     "prof",
+     ""
+    ],
+    [
+     "nul",
+     "nul",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Ben oui... j'ai peur qu'il mette une mauvaise note.",
+   "rd": "뱅 위... 제 푀르 낄 메트 윈 모베즈 노트.",
+   "ko": "응 맞아... 나쁜 점수 줄까 봐 무서워.",
+   "note": "ben = 응 · j'ai peur qu'il mette = 그가 줄까 봐 두려워",
+   "tags": [],
+   "new": [
+    "ben"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "oui",
+     "oui",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "peur",
+     "peur",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "mette",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "mauvaise",
+     "mauvais",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "note",
+     "note",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "peur",
+     "peur",
+     ""
+    ],
+    [
+     "mette",
+     "mettre",
+     ""
+    ],
+    [
+     "mauvaise",
+     "mauvais",
+     ""
+    ],
+    [
+     "note",
+     "note",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Je voudrais que tout soit parfait quand même.",
+   "rd": "쥬 부드레 크 뚜 스와 파르페 깡 멤.",
+   "ko": "그래도 다 완벽했으면 좋겠어.",
+   "note": "je voudrais que tout soit = 모든 것이 ~였으면 좋겠어",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "voudrais",
+     "vouloir",
+     "VERB",
+     "Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tout",
+     "tout",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "soit",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parfait",
+     "parfaire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "voudrais",
+     "vouloir",
+     ""
+    ],
+    [
+     "parfait",
+     "parfait",
+     ""
+    ],
+    [
+     "quand",
+     "quand",
+     ""
+    ],
+    [
+     "même",
+     "même",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Attends, je l'ai mis dans le groupe... le mauvais.",
+   "rd": "아땅, 쥬 레 미 당 르 그루프... 르 모베.",
+   "ko": "잠깐, 단톡방에 올렸어... 잘못된 데.",
+   "note": "attends = 잠깐",
+   "tags": [],
+   "new": [
+    "attends"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mis",
+     "mettre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "groupe",
+     "groupe",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mauvais",
+     "mauver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "mis",
+     "mettre",
+     ""
+    ],
+    [
+     "groupe",
+     "groupe",
+     ""
+    ],
+    [
+     "mauvais",
+     "mauvais",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Quoi ? Le groupe avec le prof ?",
+   "rd": "쿠아 ? 르 그루프 아벡 르 프로프 ?",
+   "ko": "뭐? 교수 있는 단톡방?",
+   "note": "quoi = 뭐",
+   "tags": [],
+   "new": [
+    "quoi"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "Le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "groupe",
+     "groupe",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "prof",
+     "prof",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "groupe",
+     "groupe",
+     ""
+    ],
+    [
+     "prof",
+     "prof",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Ouais... et les messages où on dit qu'il est chiant. Flustered total.",
+   "rd": "우애... 에 레 메사주 우 옹 디 낄 에 시앙. 완전 당황.",
+   "ko": "응... 그리고 그가 짜증난다고 한 메시지들까지. 완전 당황이야.",
+   "note": "",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "messages",
+     "message",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "chiant",
+     "chiant",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "total",
+     "total",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "messages",
+     "message",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "chiant",
+     "chiant",
+     ""
+    ],
+    [
+     "Flustered",
+     "flustered",
+     ""
+    ],
+    [
+     "total",
+     "total",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Non ! Si tu me l'avais envoyé en privé, on n'aurait pas ça !",
+   "rd": "농 ! 시 뛰 므 라베 앙부아예 앙 프리베, 옹 노레 파 싸 !",
+   "ko": "안 돼! 네가 나한테 개인적으로 보냈더라면 이런 일 없었을 텐데!",
+   "note": "si tu me l'avais envoyé = 만약 네가 그것을 나에게 보냈더라면 · on n'aurait pas = 우리가 가지지 않았을 것이다",
+   "tags": [],
+   "new": [],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "tu",
+     "tu",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Int"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "avais",
+     "avai",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "envoyé",
+     "envoyer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "privé",
+     "privé",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "aurait",
+     "avoir",
+     "AUX",
+     "Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "avais",
+     "avai",
+     ""
+    ],
+    [
+     "envoyé",
+     "envoyer",
+     ""
+    ],
+    [
+     "privé",
+     "privé",
+     ""
+    ],
+    [
+     "n'",
+     "ne",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Je sais... il faudrait que tu t'excuses pour moi.",
+   "rd": "쥬 세... 일 포드레 크 뛰 텍스퀴즈 뿌르 무아.",
+   "ko": "알아... 네가 나 대신 사과해야 할 텐데.",
+   "note": "il faudrait que tu t'excuses = 네가 사과해야 할 것이다",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "sais",
+     "savoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "faudrait",
+     "falloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "tu",
+     "taire",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "t'",
+     "te",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "excuses",
+     "excuse",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sais",
+     "savoir",
+     ""
+    ],
+    [
+     "faudrait",
+     "falloir",
+     ""
+    ],
+    [
+     "excuses",
+     "excuse",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "fr": "Trop tard. Il a déjà vu, j'en suis sûre.",
+   "rd": "트로 타르. 일 아 데자 뷔, 장 쉬 쉬르.",
+   "ko": "너무 늦었어. 이미 봤을 거야, 확실해.",
+   "note": "trop = 너무",
+   "tags": [],
+   "new": [
+    "trop"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vu",
+     "voir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sûre",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "tard",
+     "tard",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
+     ""
+    ],
+    [
+     "vu",
+     "voir",
+     ""
+    ],
+    [
+     "sûre",
+     "sûr",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "fr": "Ben, on dit que c'était une blague ?",
+   "rd": "뱅, 옹 디 크 세떼 윈 블라고 ?",
+   "ko": "그냥, 농담이었다고 할까?",
+   "note": "ben = 그냥 · blague = 농담",
+   "tags": [],
+   "new": [
+    "ben",
+    "blague"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "blague",
+     "blague",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "blague",
+     "blague",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "fr": "D'accord, mais la prochaine tu vérifies avant. Trop con.",
+   "rd": "다코르, 메 라 프로셴 뛰 베리피 아방. 트로 콩.",
+   "ko": "알겠어, 근데 다음엔 확인하고. 너무 바보 같아.",
+   "note": "d'accord = 알겠어 · trop = 너무",
+   "tags": [],
+   "new": [
+    "d'accord",
+    "trop"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "prochaine",
+     "prochaine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "vérifies",
+     "vérifie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "con",
+     "con",
+     "PRON",
+     "Number=Sing|Person=3"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "prochaine",
+     "prochaine",
+     ""
+    ],
+    [
+     "vérifies",
+     "vérifie",
+     ""
+    ],
+    [
+     "Trop",
+     "trop",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

@@ -1,0 +1,1314 @@
+{
+ "id": "r4_culture_d1",
+ "region": "R4",
+ "island": "culture",
+ "kind": "long",
+ "title": "빈 의자의 의미",
+ "emoji": "🪑",
+ "scene": "현대 미술관. 카미유가 빈 의자와 젖은 재킷 「작품」을 열심히 해석하는데, 그건 쉬는 시간에 자리를 비운 경비원의 의자였다",
+ "where": "현대 미술관 전시실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Gardien"
+ },
+ "cast": {
+  "C": "man_o"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "의견·가능성 뒤 접속법(je pense pas que ce soit · veut qu'on se pose · il est possible qu'il l'ait mouillée) · 조건법 je dirais · si + 대과거 → 조건법 과거 · dont·où(la salle dont tout le monde parle · celle où) · y·en(y voyait · il y en a) · 반과거 vs 복합과거(il pleuvait quand on est arrivés)",
+ "expressions": [
+  "franchement",
+  "je sais pas",
+  "oh là là",
+  "la honte"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Regarde cette chaise vide ! Je pense pas que ce soit juste une chaise.",
+   "rd": "르가르드 세트 셰즈 비드 ! 쥬 팡스 파 끄 쓰 스와 쥐스트 윈 셰즈.",
+   "ko": "이 빈 의자 봐! 나는 그게 그냥 의자라고 생각 안 해.",
+   "note": "je pense pas que ce soit = 나는 ~라고 생각 안 해 (접속법)",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Regarde",
+     "regarder",
+     "DET",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "chaise",
+     "chaise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "vide",
+     "vide",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "pense",
+     "penser",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ce",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "soit",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chaise",
+     "chaise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chaise",
+     "chaise",
+     ""
+    ],
+    [
+     "vide",
+     "vide",
+     ""
+    ],
+    [
+     "pense",
+     "penser",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "juste",
+     "juste",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Franchement, je sais pas. Il y en a plein des chaises.",
+   "rd": "프랑슈망, 쥬 세 파. 일 이 앙 아 플랭 데 셰즈.",
+   "ko": "솔직히, 모르겠어. 의자 엄청 많아.",
+   "note": "franchement = 솔직히 · je sais pas = 모르겠어 · il y en a = 있어",
+   "tags": [],
+   "new": [
+    "franchement"
+   ],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "sais",
+     "savoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "plein",
+     "plein",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "chaises",
+     "chaise",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Franchement",
+     "franchement",
+     ""
+    ],
+    [
+     "sais",
+     "savoir",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "plein",
+     "plein",
+     ""
+    ],
+    [
+     "chaises",
+     "chaise",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Non, c'est la salle dont tout le monde parle. Celle où on y voyait un sens.",
+   "rd": "농, 쎄 라 살 동 뚜 르 몽드 파를. 셀 우 옹 이 브와예 앵 상스.",
+   "ko": "아니, 모두가 말하는 그 방이야. 우리가 의미를 봤던 곳.",
+   "note": "dont = ~의 · où = ~인 곳 · y voyait = 거기서 봤다",
+   "tags": [],
+   "new": [
+    "dont",
+    "où"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "salle",
+     "salle",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "dont",
+     "dont",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "tout",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "monde",
+     "monde",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "parle",
+     "parl",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Celle",
+     "celui",
+     "PRON",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "voyait",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sens",
+     "sens",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "salle",
+     "salle",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "monde",
+     "monde",
+     ""
+    ],
+    [
+     "parle",
+     "parl",
+     ""
+    ],
+    [
+     "voyait",
+     "voir",
+     ""
+    ],
+    [
+     "sens",
+     "sens",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Tu veux qu'on se pose dessus pour comprendre ?",
+   "rd": "뛰 뵈 콩 쓰 포즈 드쉬 뿌르 콩프랑드르 ?",
+   "ko": "이해하려고 우리 그 위에 앉기를 원해?",
+   "note": "veux qu'on se pose = ~하기를 원해 (접속법)",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "veux",
+     "veux",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "se",
+     "se",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "pose",
+     "pose",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "comprendre",
+     "comprendre",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "pose",
+     "pose",
+     ""
+    ],
+    [
+     "comprendre",
+     "comprendre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Oui ! Et cette veste mouillée. Il est possible qu'il l'ait mouillée exprès.",
+   "rd": "위 ! 에 세트 베스트 무이예. 일 에 포시블 킬 레 무이예 엑스프레.",
+   "ko": "응! 그리고 이 젖은 재킷. 그가 일부러 적셨을 수도 있어.",
+   "note": "il est possible qu'il l'ait = ~했을 가능성이 있다 (접속법)",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Oui",
+     "oui",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "veste",
+     "veste",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "mouillée",
+     "mouiller",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "possible",
+     "possible",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ait",
+     "avoir",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mouillée",
+     "mouiller",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veste",
+     "veste",
+     ""
+    ],
+    [
+     "mouillée",
+     "mouiller",
+     ""
+    ],
+    [
+     "possible",
+     "possible",
+     ""
+    ],
+    [
+     "exprès",
+     "exprès",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Oh là là. Si l'artiste avait voulu ça, on aurait compris.",
+   "rd": "오 라 라. 시 라르티스트 아베 불뤼 싸, 옹 오레 콩프리.",
+   "ko": "어머나. 만약 예술가가 그걸 원했다면, 우리가 이해했을 텐데.",
+   "note": "oh là là = 어머나 · si ... avait ... on aurait = 만약 ~했다면 ~했을 텐데",
+   "tags": [],
+   "new": [],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "artiste",
+     "artiste",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "avait",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "voulu",
+     "vouloir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "aurait",
+     "avoir",
+     "AUX",
+     "Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "compris",
+     "comprendre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "artiste",
+     "artiste",
+     ""
+    ],
+    [
+     "voulu",
+     "vouloir",
+     ""
+    ],
+    [
+     "compris",
+     "comprendre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Je dirais que c'est une critique de la société. Il pleuvait quand on est arrivés.",
+   "rd": "쥬 디레 끄 쎄 윈 크리티크 드 라 소시에테. 일 플뢰베 캉 옹 에 타리베.",
+   "ko": "나는 그게 사회 비판이라고 말하겠어. 우리가 도착했을 때 비가 왔어.",
+   "note": "je dirais = 나는 말하겠어 (조건법) · il pleuvait quand = ~했을 때 비가 오고 있었다",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dirais",
+     "dire",
+     "VERB",
+     "Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "critique",
+     "critique",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "société",
+     "société",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "pleuvait",
+     "pleuvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "arrivés",
+     "arriver",
+     "VERB",
+     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dirais",
+     "dire",
+     ""
+    ],
+    [
+     "critique",
+     "critique",
+     ""
+    ],
+    [
+     "société",
+     "société",
+     ""
+    ],
+    [
+     "pleuvait",
+     "pleuvoir",
+     ""
+    ],
+    [
+     "arrivés",
+     "arriver",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Tu y voyais vraiment un message profond ?",
+   "rd": "뛰 이 브와예 브레망 앵 메사쥬 프로퐁 ?",
+   "ko": "너는 거기서 정말 깊은 메시지를 봤어?",
+   "note": "y voyais = 거기서 봤어 (반과거)",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "voyais",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "message",
+     "message",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "profond",
+     "profond",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "voyais",
+     "voir",
+     ""
+    ],
+    [
+     "vraiment",
+     "vraiment",
+     ""
+    ],
+    [
+     "message",
+     "message",
+     ""
+    ],
+    [
+     "profond",
+     "profond",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "Oui, franchement. La honte si c'est rien.",
+   "rd": "위, 프랑슈망. 라 옹트 시 쎄 리앵.",
+   "ko": "응, 솔직히. 아무것도 아니면 창피해.",
+   "note": "franchement = 솔직히 · la honte = 창피",
+   "tags": [],
+   "new": [
+    "franchement"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "honte",
+     "honte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rien",
+     "rien",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "franchement",
+     "franchement",
+     ""
+    ],
+    [
+     "honte",
+     "honte",
+     ""
+    ],
+    [
+     "rien",
+     "rien",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "C",
+   "fr": "Excusez-moi, c'est ma chaise. Je suis parti en pause.",
+   "rd": "엑스퀴제 므와, 쎄 마 셰즈. 쥬 쉬 파르티 앙 포즈.",
+   "ko": "실례합니다, 제 의자예요. 쉬는 시간에 나갔어요.",
+   "note": "ma chaise = 제 의자 · je suis parti = 나는 떠났다",
+   "tags": [],
+   "new": [],
+   "emotion": "neutral",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "chaise",
+     "chaise",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "parti",
+     "partir",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "pause",
+     "pause",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chaise",
+     "chaise",
+     ""
+    ],
+    [
+     "parti",
+     "partir",
+     ""
+    ],
+    [
+     "pause",
+     "pause",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Ah ! Donc la veste aussi ? Il y en a marre des œuvres.",
+   "rd": "아 ! 동크 라 베스트 오씨 ? 일 이 앙 아 마르 데 외브르.",
+   "ko": "아! 그럼 재킷도? 작품들 지긋지긋해.",
+   "note": "il y en a marre = 지긋지긋해",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "veste",
+     "veste",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "marre",
+     "marre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "œuvres",
+     "œuvre",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Donc",
+     "donc",
+     ""
+    ],
+    [
+     "veste",
+     "veste",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "marre",
+     "marre",
+     ""
+    ],
+    [
+     "œuvres",
+     "œuvre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "fr": "Oui, il pleuvait et je l'ai laissée. Désolé.",
+   "rd": "위, 일 플뢰베 에 쥬 레 레세. 데졸레.",
+   "ko": "응, 비 오고 있었고 내가 두고 갔어요. 미안해요.",
+   "note": "il pleuvait = 비가 오고 있었다 · je l'ai laissée = 내가 그걸 뒀다",
+   "tags": [],
+   "new": [],
+   "emotion": "sad",
+   "morph_tags": [
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "pleuvait",
+     "pleuvoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "laissée",
+     "laisser",
+     "VERB",
+     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "Désolé",
+     "désolé",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pleuvait",
+     "pleuvoir",
+     ""
+    ],
+    [
+     "laissée",
+     "laisser",
+     ""
+    ],
+    [
+     "Désolé",
+     "désolé",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "fr": "Oh là là, la honte. Je pensais que c'était de l'art.",
+   "rd": "오 라 라, 라 옹트. 쥬 팡세 끄 세테 드 라르.",
+   "ko": "어머나, 창피해. 나는 예술인 줄 알았어.",
+   "note": "oh là là = 어머나 · la honte = 창피",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "honte",
+     "honte",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "pensais",
+     "penser",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "art",
+     "art",
+     "NOUN",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "honte",
+     "honte",
+     ""
+    ],
+    [
+     "pensais",
+     "penser",
+     ""
+    ],
+    [
+     "art",
+     "art",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "fr": "C'est rien. Vous pouvez vous asseoir si vous voulez.",
+   "rd": "쎄 리앵. 부 푸베 부 자스와르 시 부 불레.",
+   "ko": "괜찮아요. 원하시면 앉으셔도 돼요.",
+   "note": "vous pouvez = 당신이 할 수 있다",
+   "tags": [],
+   "new": [],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rien",
+     "rien",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "pouvez",
+     "pouvoir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "asseoir",
+     "asseoir",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "vous",
+     "vous",
+     "PRON",
+     "Number=Plur|Person=2"
+    ],
+    [
+     "voulez",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "rien",
+     "rien",
+     ""
+    ],
+    [
+     "pouvez",
+     "pouvoir",
+     ""
+    ],
+    [
+     "asseoir",
+     "asseoir",
+     ""
+    ],
+    [
+     "voulez",
+     "vouloir",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

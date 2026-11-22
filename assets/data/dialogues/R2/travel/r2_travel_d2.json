@@ -1,0 +1,813 @@
+{
+ "id": "r2_travel_d2",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "title": "빨간 캐리어",
+ "emoji": "🧳",
+ "scene": "밤늦게 공항 도착. 마중 나온 카미유와 문자하는데 A 의 캐리어가 안 나온다. 출구에서 카미유가 그 캐리어를 본다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "물건 묘사(rouge, avec…)·관계대명사 qui·소유대명사 la mienne",
+ "expressions": [
+  "attends",
+  "stp",
+  "c'est bon",
+  "ouais"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Je suis là mais ma valise sort pas.",
+   "rd": "쥬 쉬 라 메 마 발리즈 소르 파.",
+   "ko": "나 여기 있는데 내 캐리어가 안 나와.",
+   "note": "ma valise = 내 캐리어 · sort pas = 안 나와",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "23:10",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "valise",
+     "valis",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "sort",
+     "sort",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "valise",
+     "valise",
+     ""
+    ],
+    [
+     "sort",
+     "sort",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "T'es où exactement ? Je te cherche.",
+   "rd": "떼 우 엑작트망 ? 쥬 트 셰르슈.",
+   "ko": "정확히 어디야? 내가 너 찾고 있어.",
+   "note": "t'es où = 너 어디야",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "23:11",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "exactement",
+     "exactemer",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cherche",
+     "cherche",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "exactement",
+     "exactement",
+     ""
+    ],
+    [
+     "cherche",
+     "cherche",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Au tapis. Ça fait longtemps, rien.",
+   "rd": "오 타피. 싸 페 롱탕, 리앵.",
+   "ko": "컨베이어에. 오래됐는데, 아무것도 없어.",
+   "note": "au tapis = 컨베이어에 · rien = 아무것도",
+   "tags": [],
+   "new": [
+    "rien"
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "23:12",
+   "morph_tags": [
+    [
+     "tapis",
+     "tapis",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fait",
+     "faire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rien",
+     "rien",
+     "PRON",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tapis",
+     "tapis",
+     ""
+    ],
+    [
+     "fait",
+     "faire",
+     ""
+    ],
+    [
+     "longtemps",
+     "longtemps",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Décris-la stp. C'est quelle couleur ?",
+   "rd": "데크리 라 에쓰떼뻬. 쎄 켈 쿨뢰르 ?",
+   "ko": "묘사해줘 부탁해. 무슨 색이야?",
+   "note": "stp = 부탁해 · quelle couleur = 무슨 색",
+   "tags": [],
+   "new": [
+    "stp"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "23:13",
+   "morph_tags": [
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "stp",
+     "stp",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "quelle",
+     "quel",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Int"
+    ],
+    [
+     "couleur",
+     "couleur",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "stp",
+     "stp",
+     ""
+    ],
+    [
+     "couleur",
+     "couleur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Rouge, avec un sticker bleu qui est gros.",
+   "rd": "루쥬, 아벡 앵 스티케 블뢰 끼 에 그로.",
+   "ko": "빨간색, 큰 파란 스티커가 있어.",
+   "note": "rouge = 빨간 · avec = ~와 함께 · qui est = ~인",
+   "tags": [],
+   "new": [
+    "rouge",
+    "avec"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "23:14",
+   "morph_tags": [
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sticker",
+     "sticker",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bleu",
+     "bleu",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "gros",
+     "gros",
+     "ADJ",
+     "Gender=Masc"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sticker",
+     "sticker",
+     ""
+    ],
+    [
+     "bleu",
+     "bleu",
+     ""
+    ],
+    [
+     "gros",
+     "gros",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Attends, je vois une rouge là-bas.",
+   "rd": "아땅, 쥬 브와 윈 루쥬 라바.",
+   "ko": "잠깐, 저기 빨간 거 하나 보여.",
+   "note": "attends = 잠깐",
+   "tags": [],
+   "new": [
+    "attends"
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "23:16",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vois",
+     "voir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "une",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "rouge",
+     "rouge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "-",
+     "-",
+     "ADJ",
+     "Gender=Masc"
+    ],
+    [
+     "bas",
+     "bas",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "vois",
+     "voir",
+     ""
+    ],
+    [
+     "rouge",
+     "rouge",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "bas",
+     "bas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "C'est celle qui a le sticker bleu ?",
+   "rd": "쎄 셀 끼 아 르 스티케 블뢰 ?",
+   "ko": "파란 스티커 있는 그거야?",
+   "note": "qui a = ~을 가진 · celle = 그것",
+   "tags": [],
+   "new": [
+    "celle"
+   ],
+   "emotion": "surprised",
+   "ui": "bubble",
+   "at": "23:16",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "celle",
+     "celui",
+     "PRON",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "qui",
+     "qui",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "sticker",
+     "sticker",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bleu",
+     "bleu",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sticker",
+     "sticker",
+     ""
+    ],
+    [
+     "bleu",
+     "bleu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Oui ! C'est la mienne !",
+   "rd": "위 ! 쎄 라 미엔 !",
+   "ko": "응! 그게 내 거야!",
+   "note": "la mienne = 내 것",
+   "tags": [],
+   "new": [],
+   "emotion": "shout",
+   "ui": "bubble",
+   "at": "23:17",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "mienne",
+     "mienne",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mienne",
+     "mienne",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "fr": "C'est bon, je l'ai ! J'arrive.",
+   "rd": "쎄 봉, 쥬 레 ! 자리브.",
+   "ko": "됐어, 내가 가졌어! 갈게.",
+   "note": "c'est bon = 됐어 · je l'ai = 내가 그걸 가졌어",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "23:17",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bon",
+     "bon",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "l'",
+     "le",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bon",
+     "bon",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Je sors avec ta valise rouge.",
+   "rd": "쥬 소르 아벡 타 발리즈 루쥬.",
+   "ko": "네 빨간 캐리어 들고 나갈게.",
+   "note": "avec = ~와 함께",
+   "tags": [],
+   "new": [
+    "avec"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "23:24",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ta",
+     "ton",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "valise",
+     "valis",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "rouge",
+     "rouge",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "sors",
+     "sortir",
+     ""
+    ],
+    [
+     "valise",
+     "valise",
+     ""
+    ],
+    [
+     "rouge",
+     "rouge",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "fr": "Merci Camille, t'es la meilleure.",
+   "rd": "메르시 카미유, 떼 라 메이유르.",
+   "ko": "고마워 카미유, 네가 최고야.",
+   "note": "t'es la meilleure = 너는 최고야",
+   "tags": [],
+   "new": [],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "23:25",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "es",
+     "être",
+     "PRON",
+     "Person=3|Reflex=Yes"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "meilleure",
+     "meilleur",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "meilleure",
+     "meilleur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "B",
+   "fr": "Ouais, maintenant je te ramène chez moi ?",
+   "rd": "왜, 메트낭 쥬 트 라멘 셰 므와 ?",
+   "ko": "응, 이제 내가 너 우리 집으로 데려다줄까?",
+   "note": "ouais = 응 · je te ramène = 내가 너 데려다줘",
+   "tags": [],
+   "new": [
+    "ouais"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "23:26",
+   "stamp": "👀",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "ramène",
+     "ramène",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "moi",
+     "moi",
+     "PRON",
+     "Number=Sing|Person=1|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "maintenant",
+     "maintenant",
+     ""
+    ],
+    [
+     "ramène",
+     "ramène",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

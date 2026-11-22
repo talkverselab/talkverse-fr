@@ -1,0 +1,877 @@
+{
+ "id": "r2_travel_d1",
+ "region": "R2",
+ "island": "travel",
+ "kind": "chat",
+ "title": "예약은 18일",
+ "emoji": "🏨",
+ "scene": "혼자 니스 여행. 호텔 프런트에서 예약이 안 나온다며 테오에게 문자한다. 예약 날짜가 한 달 뒤였다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "복합과거(t'as trouvé·t'as réservé)·날짜·il reste rien",
+ "expressions": [
+  "trop",
+  "stylé",
+  "attends",
+  "quoi",
+  "mdr",
+  "t'inquiète",
+  "je te jure"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Je suis à Nice ! L'hôtel est trop stylé.",
+   "rd": "쥬 쉬 아 니스 ! 로텔 에 트로 스틸레.",
+   "ko": "나 니스에 있어! 호텔이 너무 멋져.",
+   "note": "trop = 너무 · stylé = 멋있는",
+   "tags": [],
+   "new": [
+    "trop",
+    "stylé"
+   ],
+   "emotion": "excited",
+   "ui": "bubble",
+   "at": "18:40",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Nice",
+     "nice",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "L'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "hôtel",
+     "hôtel",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "stylé",
+     "styler",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Nice",
+     "nice",
+     ""
+    ],
+    [
+     "hôtel",
+     "hôtel",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "stylé",
+     "styler",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Trop bien ! T'as trouvé facilement ?",
+   "rd": "트로 비앵 ! 따 트루베 파실망 ?",
+   "ko": "너무 좋다! 쉽게 찾았어?",
+   "note": "t'as trouvé = 너 찾았어",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "18:42",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "trouvé",
+     "trouver",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Trop",
+     "trop",
+     ""
+    ],
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "trouvé",
+     "trouver",
+     ""
+    ],
+    [
+     "facilement",
+     "facilement",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Ouais, super facile. Je vais checker.",
+   "rd": "왜, 쉬페르 파실. 쥬 베 체케.",
+   "ko": "응, 엄청 쉬웠어. 체크인 할 거야.",
+   "note": "ouais = 응",
+   "tags": [],
+   "new": [
+    "ouais"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "18:45",
+   "morph_tags": [
+    [
+     "super",
+     "super",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
+     "facile",
+     "facile",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "vais",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "checker",
+     "checker",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "super",
+     "super",
+     ""
+    ],
+    [
+     "facile",
+     "facile",
+     ""
+    ],
+    [
+     "vais",
+     "aller",
+     ""
+    ],
+    [
+     "checker",
+     "checker",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Attends, ils trouvent pas ma réservation.",
+   "rd": "아땅, 일 트루브 파 마 레제르바시옹.",
+   "ko": "잠깐, 그들이 내 예약을 못 찾아.",
+   "note": "attends = 잠깐 · ils trouvent pas = 그들이 못 찾아",
+   "tags": [],
+   "new": [
+    "attends"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "18:52",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ils",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Plur|Person=3"
+    ],
+    [
+     "trouvent",
+     "trouver",
+     "VERB",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ma",
+     "mon",
+     "DET",
+     "Gender=Fem|Number=Sing|Poss=Yes"
+    ],
+    [
+     "réservation",
+     "réservation",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "trouvent",
+     "trouver",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "réservation",
+     "réservation",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Quoi ? T'as réservé pour aujourd'hui ?",
+   "rd": "끄와 ? 따 레제르베 뿌르 오주르뒤 ?",
+   "ko": "뭐? 오늘로 예약했어?",
+   "note": "quoi = 뭐 · t'as réservé = 너 예약했어",
+   "tags": [],
+   "new": [
+    "quoi"
+   ],
+   "emotion": "worried",
+   "ui": "bubble",
+   "at": "18:53",
+   "morph_tags": [
+    [
+     "Quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ],
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "réservé",
+     "réserver",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "réservé",
+     "réserver",
+     ""
+    ],
+    [
+     "aujourd'hui",
+     "aujourd'hui",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Ouais, je crois. Attends, je regarde.",
+   "rd": "왜, 쥬 끄롸. 아땅, 쥬 르가르드.",
+   "ko": "응, 그런 것 같아. 잠깐, 내가 볼게.",
+   "note": "attends = 잠깐",
+   "tags": [],
+   "new": [
+    "attends"
+   ],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "18:54",
+   "morph_tags": [
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "crois",
+     "croire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "regarde",
+     "regarder",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "crois",
+     "croire",
+     ""
+    ],
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "regarde",
+     "regarder",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Oh non... c'est pour le dix-huit le mois prochain. Il reste rien.",
+   "rd": "오 농... 쎄 뿌르 르 디쥐트 르 므와 프로샹. 일 레스트 리앵.",
+   "ko": "아 안 돼... 다음 달 18일이야. 남은 거 없어.",
+   "note": "le dix-huit = 18일 · il reste rien = 남은 거 없어",
+   "tags": [],
+   "new": [],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "18:58",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "dix-huit",
+     "dix-huit",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "prochain",
+     "prochain",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "rien",
+     "rien",
+     "PRON",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dix-huit",
+     "dix-huit",
+     ""
+    ],
+    [
+     "mois",
+     "mois",
+     ""
+    ],
+    [
+     "prochain",
+     "prochain",
+     ""
+    ],
+    [
+     "reste",
+     "reste",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "mdr ! T'as réservé pour dans un mois !",
+   "rd": "엠데에르 ! 따 레제르베 뿌르 당 앵 므와 !",
+   "ko": "ㅋㅋ! 한 달 뒤로 예약했어!",
+   "note": "mdr = 웃김 · t'as réservé = 너 예약했어",
+   "tags": [],
+   "new": [
+    "mdr"
+   ],
+   "emotion": "amused",
+   "ui": "bubble",
+   "at": "18:59",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "réservé",
+     "réserver",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mois",
+     "mois",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mdr",
+     "mdr",
+     ""
+    ],
+    [
+     "réservé",
+     "réserver",
+     ""
+    ],
+    [
+     "mois",
+     "mois",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "fr": "Je te jure, j'ai cru que c'était aujourd'hui.",
+   "rd": "쥬 트 쥐르, 쥬 크뤼 끄 세테 오주르뒤.",
+   "ko": "진짜야, 오늘인 줄 알았어.",
+   "note": "je te jure = 내가 너한테 맹세해 · j'ai cru = 내가 믿었어",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "19:01",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "jure",
+     "jure",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cru",
+     "croire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "jure",
+     "jure",
+     ""
+    ],
+    [
+     "cru",
+     "croire",
+     ""
+    ],
+    [
+     "aujourd'hui",
+     "aujourd'hui",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "T'inquiète, on trouve un autre hôtel.",
+   "rd": "탱키에트, 옹 트루브 앵 노트르 오텔.",
+   "ko": "걱정 마, 다른 호텔 찾자.",
+   "note": "t'inquiète = 걱정 마",
+   "tags": [],
+   "new": [
+    "t'inquiète"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "19:03",
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "trouve",
+     "trouver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "autre",
+     "autre",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "hôtel",
+     "hôtel",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "trouve",
+     "trouver",
+     ""
+    ],
+    [
+     "autre",
+     "autre",
+     ""
+    ],
+    [
+     "hôtel",
+     "hôtel",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Y a des chambres libres pas loin.",
+   "rd": "이 아 데 샹브르 리브르 파 루앙.",
+   "ko": "멀지 않은 곳에 빈 방 있어.",
+   "note": "y a = 있어 · pas loin = 멀지 않아",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "ui": "bubble",
+   "at": "19:04",
+   "morph_tags": [
+    [
+     "Y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "a",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "des",
+     "un",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "chambres",
+     "chambre",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "libres",
+     "libre",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chambres",
+     "chambre",
+     ""
+    ],
+    [
+     "libres",
+     "libre",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "loin",
+     "loin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "fr": "Merci Théo, t'es trop gentil.",
+   "rd": "메르시 떼오, 떼 트로 장틸.",
+   "ko": "고마워 테오, 너 너무 착해.",
+   "note": "trop = 너무 · gentil = 착한",
+   "tags": [],
+   "new": [
+    "trop",
+    "gentil"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "19:05",
+   "stamp": "🥹",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "gentil",
+     "gentil",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "gentil",
+     "gentil",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

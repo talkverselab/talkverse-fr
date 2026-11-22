@@ -1,0 +1,106 @@
+{
+ "id": "r2_work_d1",
+ "region": "R2",
+ "island": "work",
+ "kind": "chat",
+ "title": "토요일 대타",
+ "emoji": "🍳",
+ "scene": "같은 식당에서 일하는 위고가 토요일 저녁 근무를 바꿔 달라고 문자한다. 이유는 데이트가 아니라 다른 식당 면접",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "부탁하기(tu peux me remplacer ?)·partir 인칭 변화(tu pars·je pars)·si 조건",
+ "expressions": [
+  "vas-y",
+  "je sais pas",
+  "stp",
+  "sérieux",
+  "ben",
+  "en fait"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "polite",
+   "at": "15:02"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "15:03"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "polite",
+   "at": "15:03"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "annoyed",
+   "at": "15:05"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "teasing",
+   "at": "15:05"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "15:07"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "at": "15:08"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "15:10"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "15:10"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "gentle",
+   "at": "15:14"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "at": "15:15"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "amused",
+   "at": "15:16"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

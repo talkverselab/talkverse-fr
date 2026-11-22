@@ -63,12 +63,14 @@ def main():
                         q['tries'] += 1
                         jobs.append({**L.job(ep, name, voice, emo, text, out=f"fr/retake/{k[:-4]}.t{q['tries']}.wav"), 'seed': 42 + 97 * q['tries']})
                     continue
-            if 'sim' not in q:
-                q['sim'], q['dur'] = score(f, text)
+            st = os.stat(f); key = f'{st.st_size}:{int(st.st_mtime)}:{text}'
+            if 'sim' not in q or q.get('key') != key:   # 이름만으로 점수를 기억하면 같은 이름으로 다시 만든 조각에 옛 합격이 남는다(ko c6433c4, 2026-11-23)
+                q['sim'], q['dur'] = score(f, text); q['key'] = key
             for c in sorted(glob.glob(f'{wav}/retake/{k[:-4]}.t*.wav')):          # 받아 온 재생성본 중 더 나은 것을 본 파일로
                 s, d = score(c, text)
                 if s > q['sim']:
                     shutil.copy(c, f); q['sim'], q['dur'] = s, d
+                    st = os.stat(f); q['key'] = f'{st.st_size}:{int(st.st_mtime)}:{text}'
                 os.remove(c)
             q['ok'] = q['sim'] >= PASS
             if not q['ok']:

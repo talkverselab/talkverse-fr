@@ -14,7 +14,7 @@ void main() {
 
   testWidgets('10문제를 풀고 끝 화면이 나온다', (t) async {
     SharedPreferences.setMockInitialValues({});
-    final words = [for (var i = 0; i < 12; i++) GQWord('mot$i', '', '뜻$i')]..add(const GQWord('café', '', '커피'));
+    final words = [for (var i = 0; i < 12; i++) GQWord('mot$i', '', '뜻$i'), const GQWord('café', '', '커피')];
     await t.pumpWidget(MaterialApp(home: WordQuizScreen(words: words, seed: 1)));
     await t.pumpAndSettle();
     for (var i = 0; i < kWordQuizSize; i++) {

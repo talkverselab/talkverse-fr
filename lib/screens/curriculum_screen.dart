@@ -332,7 +332,8 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
         ),
       ],
       const SizedBox(height: 10),
-      Row(children: [
+      // 300px 칸(아이패드 분할 왼쪽)에서 Row 는 넘친다 — Wrap(몽골어앱 c774c05 발견, uk 전달 2026-11-22)
+      Wrap(spacing: 0, runSpacing: 4, crossAxisAlignment: WrapCrossAlignment.center, children: [
         for (final n in const [3, 5, 10])
           Padding(
             padding: const EdgeInsets.only(right: 6),
@@ -347,7 +348,6 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
               }),
             ),
           ),
-        const Spacer(),
         TextButton.icon(
           onPressed: () => setState(() => _picked.addAll(recommend(list, passed, _picked, _pickCount))),
           icon: const Icon(Icons.auto_awesome, size: 16),

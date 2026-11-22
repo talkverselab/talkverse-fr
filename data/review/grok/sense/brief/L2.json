@@ -1,0 +1,53 @@
+{
+ "id": "L2",
+ "title": "서술어 익히기 (être·avoir)",
+ "lesson_title": "서술어 익히기 (être·avoir·il y a)",
+ "footnotes": [
+  "être — 「~이다 / ~에 있다」: je suis, tu es, il·elle·on est, ils·elles sont.",
+  "avoir — 「가지다」: j’ai, tu as, il·elle·on a. 나이·배고픔·추위도 avoir 로 말해요 (J’ai 22 ans = 스물두 살이야, J’ai faim = 배고파).",
+  "il y a — 「~이 있다」. 무엇이 있는지 말할 때 (Il y a des crêpes).",
+  "c’est — 「그건 ~야」. 가장 많이 쓰는 덩어리 (C’est drôle, C’est moi)."
+ ],
+ "lines": [
+  {
+   "num": 1,
+   "who": "레아"
+  },
+  {
+   "num": 2,
+   "who": "나"
+  },
+  {
+   "num": 3,
+   "who": "레아"
+  },
+  {
+   "num": 4,
+   "who": "나"
+  },
+  {
+   "num": 5,
+   "who": "레아"
+  },
+  {
+   "num": 6,
+   "who": "나"
+  },
+  {
+   "num": 7,
+   "who": "레아"
+  },
+  {
+   "num": 8,
+   "who": "나"
+  },
+  {
+   "num": 9,
+   "who": "레아"
+  },
+  {
+   "num": 10,
+   "who": "나"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "L4",
+ "title": "부정 익히기 (ne … pas)",
+ "lesson_title": "부정 익히기 (ne … pas·rien·jamais·personne)",
+ "footnotes": [
+  "ne … pas — 동사를 앞뒤로 감싸요 (je ne dors pas). 모음 앞 ne 는 n’ (je n’ai pas).",
+  "말할 때는 ne 를 자주 빼요 — Je sais pas, Tu sais pas ? 글이나 격식 있는 자리에선 ne 를 살려요.",
+  "pas 대신 rien(아무것도) · jamais(절대, 한 번도) · personne(아무도) 를 넣으면 뜻이 바뀌어요.",
+  "부정 뒤에선 un·une·du·de la 가 de 로 (je bois du café → je ne bois pas de café)."
+ ],
+ "lines": [
+  {
+   "num": 1,
+   "who": "나"
+  },
+  {
+   "num": 2,
+   "who": "카미유"
+  },
+  {
+   "num": 3,
+   "who": "나"
+  },
+  {
+   "num": 4,
+   "who": "카미유"
+  },
+  {
+   "num": 5,
+   "who": "나"
+  },
+  {
+   "num": 6,
+   "who": "카미유"
+  },
+  {
+   "num": 7,
+   "who": "나"
+  },
+  {
+   "num": 8,
+   "who": "카미유"
+  },
+  {
+   "num": 9,
+   "who": "나"
+  },
+  {
+   "num": 10,
+   "who": "카미유"
+  }
+ ]
+}

@@ -1,0 +1,53 @@
+{
+ "id": "L8",
+ "title": "지난 일 말하기 (복합과거)",
+ "lesson_title": "지난 일 말하기 (avoir·être + 과거분사)",
+ "footnotes": [
+  "대부분 avoir + 과거분사: j’ai visité, tu as vu, on a mangé. -er 동사의 과거분사는 -é [에].",
+  "오고 가기·머물기 동사(aller, venir, partir, rentrer, monter, rester…)는 être + 과거분사.",
+  "être 와 쓸 때는 주어에 맞춰 끝이 바뀌어요: elle est partie(-e 여성), vous êtes rentrés(-s 복수). 소리는 거의 같아요.",
+  "불규칙 과거분사는 덩어리로: vu(보다) · pris(잡다·찍다) · fait(하다) · été(이다)."
+ ],
+ "lines": [
+  {
+   "num": 1,
+   "who": "위고"
+  },
+  {
+   "num": 2,
+   "who": "나"
+  },
+  {
+   "num": 3,
+   "who": "위고"
+  },
+  {
+   "num": 4,
+   "who": "나"
+  },
+  {
+   "num": 5,
+   "who": "위고"
+  },
+  {
+   "num": 6,
+   "who": "나"
+  },
+  {
+   "num": 7,
+   "who": "위고"
+  },
+  {
+   "num": 8,
+   "who": "나"
+  },
+  {
+   "num": 9,
+   "who": "위고"
+  },
+  {
+   "num": 10,
+   "who": "나"
+  }
+ ]
+}

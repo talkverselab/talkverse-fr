@@ -1,0 +1,53 @@
+{
+ "id": "L5",
+ "title": "묻기 익히기 (의문문)",
+ "lesson_title": "묻기 익히기 (억양·est-ce que·의문사)",
+ "footnotes": [
+  "가장 쉬운 물음 — 끝만 올리기: Tu pars demain ?",
+  "est-ce que — 문장 앞에 붙이면 물음 (Est-ce que tu viens ?). 순서는 그대로.",
+  "의문사 quand(언제) · où(어디) · pourquoi(왜) · comment(어떻게, 뭐라고?) — 말할 땐 끝에 둬도 돼요 (Tu pars quand ?).",
+  "주어와 동사를 뒤집는 꼴(Voulez-vous ?)은 격식체. 친구끼리는 잘 안 써서 위고가 당황했어요."
+ ],
+ "lines": [
+  {
+   "num": 1,
+   "who": "위고"
+  },
+  {
+   "num": 2,
+   "who": "나"
+  },
+  {
+   "num": 3,
+   "who": "위고"
+  },
+  {
+   "num": 4,
+   "who": "나"
+  },
+  {
+   "num": 5,
+   "who": "위고"
+  },
+  {
+   "num": 6,
+   "who": "나"
+  },
+  {
+   "num": 7,
+   "who": "위고"
+  },
+  {
+   "num": 8,
+   "who": "나"
+  },
+  {
+   "num": 9,
+   "who": "위고"
+  },
+  {
+   "num": 10,
+   "who": "나"
+  }
+ ]
+}

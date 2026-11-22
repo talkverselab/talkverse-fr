@@ -1,0 +1,53 @@
+{
+ "id": "L6",
+ "title": "tu 와 vous 익히기 (높임)",
+ "lesson_title": "tu 와 vous 익히기 — 프랑스어의 높임",
+ "footnotes": [
+  "프랑스어 높임은 어미가 아니라 「너」를 바꿔요: 친한 사이 tu, 처음 보는 사람·윗사람 vous.",
+  "vous 와 짝인 동사 끝은 -ez (vous voulez, vous habitez). 「너의」도 ton → votre 로 바뀌어요.",
+  "말을 놓자는 말: On peut se dire tu ? / On se tutoie ? — 보통 윗사람이 먼저 제안해요.",
+  "vous 는 「너희」(여럿)도 돼요. 한 사람인지 여럿인지는 장면으로 알아요."
+ ],
+ "lines": [
+  {
+   "num": 1,
+   "who": "나"
+  },
+  {
+   "num": 2,
+   "who": "이웃"
+  },
+  {
+   "num": 3,
+   "who": "나"
+  },
+  {
+   "num": 4,
+   "who": "이웃"
+  },
+  {
+   "num": 5,
+   "who": "나"
+  },
+  {
+   "num": 6,
+   "who": "이웃"
+  },
+  {
+   "num": 7,
+   "who": "나"
+  },
+  {
+   "num": 8,
+   "who": "이웃"
+  },
+  {
+   "num": 9,
+   "who": "나"
+  },
+  {
+   "num": 10,
+   "who": "이웃"
+  }
+ ]
+}

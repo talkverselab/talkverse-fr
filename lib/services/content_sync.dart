@@ -25,6 +25,14 @@ class SyncProgress {
   double get ratio => total == 0 ? 0 : done / total;
 }
 
+/// 회화 턴 녹음 한 줄(`/art/fr/audio/manifest` items[{episode,turn,voice(m·f),key,ms,text,…}]).
+class AudioLine {
+  final String key; // ?v 포함
+  final int ms;
+  final String text; // 녹음한 대사(원고와 맞는지 볼 때)
+  const AudioLine(this.key, this.ms, this.text);
+}
+
 class ContentSync {
   ContentSync._();
   static final ContentSync instance = ContentSync._();
@@ -33,6 +41,9 @@ class ContentSync {
   static const sceneManifestUrl = 'https://auth.talkverse.uk/art/fr/scene/manifest';
   static const _prefVersion = 'art_version_v1';
   static const _prefScene = 'art_scene_manifest_v1';
+  /// 회화 녹음(2026-11-22, 일본어앱 꼴): 있으면 녹음, 없으면 기기 TTS. 목록이 비어도·실패해도 그림 받기는 그대로.
+  static const audioManifestUrl = 'https://auth.talkverse.uk/art/fr/audio/manifest';
+  static const _prefAudio = 'art_audio_manifest_v1';
   static const _concurrency = 6;
 
   final ValueNotifier<SyncProgress> progress = ValueNotifier(const SyncProgress('idle', 0, 0, false));
@@ -44,6 +55,7 @@ class ContentSync {
   bool _large = false;
   bool _cancel = false;
   Map<String, Map<int, String>> sceneIndex = {}; // 편id → {컷 → 키(?v 포함)} — ArtService 가 네트워크 전에 본다
+  Map<String, Map<int, Map<String, AudioLine>>> audioIndex = {}; // 편id → {턴 → {m|f → 녹음}}
   String get base => _base;
 
   /// 시작 때 한 번. 색인을 읽고 매니페스트를 받아 "받을 게 있는지"를 돌려준다(오프라인이면 false).
@@ -61,6 +73,8 @@ class ContentSync {
     // 저장된 장면 매니페스트가 있으면 먼저 색인으로(오프라인 대비)
     final cachedScene = prefs.getString(_prefScene);
     if (cachedScene != null) _applyScene(cachedScene);
+    final cachedAudio = prefs.getString(_prefAudio);
+    if (cachedAudio != null) _applyAudio(cachedAudio);
     progress.value = const SyncProgress('manifest', 0, 0, true);
     final ok = await _fetchManifests(prefs);
     if (!ok) {
@@ -89,6 +103,14 @@ class ContentSync {
       }
       _applyScene(s);
       await prefs.setString(_prefScene, s);
+      String? a; // 없거나 실패해도 그림 받기는 실패로 보지 않는다(녹음이 아직 없는 언어)
+      try {
+        a = await _get(audioManifestUrl);
+      } catch (_) {}
+      if (a != null) {
+        _applyAudio(a);
+        await prefs.setString(_prefAudio, a);
+      }
       final keys = _wanted.entries.map((e) => '${e.key}@${e.value}').toList()..sort();
       _wantedVersion = sha1.convert(utf8.encode(keys.join('\n'))).toString().substring(0, 16);
       return true;
@@ -115,6 +137,24 @@ class ContentSync {
       sceneIndex = idx;
     } catch (e) {
       debugPrint('ContentSync: 장면 매니페스트 해석 실패 $e');
+    }
+  }
+
+  void _applyAudio(String body) {
+    try {
+      final aj = json.decode(body) as Map<String, dynamic>;
+      final idx = <String, Map<int, Map<String, AudioLine>>>{};
+      for (final it in (aj['items'] as List? ?? const [])) {
+        final m = it as Map<String, dynamic>;
+        final ep = m['episode'] as String?, k = m['key'] as String?, turn = m['turn'], v = m['voice'] as String?;
+        if (ep == null || k == null || turn is! int || v == null) continue;
+        idx.putIfAbsent(ep, () => {}).putIfAbsent(turn, () => {})[v] =
+            AudioLine(k, (m['ms'] as num?)?.toInt() ?? 0, m['text'] as String? ?? '');
+        _put(k);
+      }
+      audioIndex = idx;
+    } catch (e) {
+      debugPrint('ContentSync: 음성 매니페스트 해석 실패 $e');
     }
   }
 

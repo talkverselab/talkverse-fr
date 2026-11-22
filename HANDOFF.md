@@ -1,5 +1,12 @@
 # HANDOFF — talkverse-fr (프랑스어 앱) · 2026-11-09 세션 종료
 
+## 2026-11-22 결과 — 회화 65편 전부 Grok 대사 · 서버 원고 rev 4 · 장면 컷 10장
+- 회화 **65편**(게시 33편 다시 씀 + 새 32편), 검사 오류 0, 턴 잠금 경고 0, 작업 표시 0줄. 형식 손댄 것: 독음 낱자 1곳(r4_friends_d1 턴12 리고ㄹ→리골). 검사기: 독음 `:;` 허용, 레벨 0 한 낱말 대답 허용.
+- 언어감각 10급 대화 100줄 Grok(빠른), footnotes·참고 그대로. 서버 원고 **rev 4**(a6f03e6 rev 3 → ebe06ac rev 4).
+- 장면 컷 **10장** R2 `scene/fr/` + D1 `art_scenes`(r0_friends_a1·a2·r0_life_a1 각 3컷, r0_love_a1 1컷). 원본 jpg `~/talkverse/fr-art/scene/fr/`(저장소 밖).
+- PC 크롬 9250 끔(11-22 크롬 규칙), 작업 `Grok-Chrome-fr-9250` 은 남겨 둠(다음에 켤 때).
+- 남은 것: Grok 독음이 fr 표기 기준(된소리 ㄲㄸㅃㅆ·r=ㄹ)과 군데군데 다름 — 손대지 않았음. 새 편 음성(새벽 01~07). 새 빌드는 하지 않음(원고는 서버로 감, pubspec 폴더는 다음 빌드에 반영). `missing_lemmas.csv` 220개 갱신됨.
+
 ## 2026-11-22 Grok 대사 작성 진행(uk 전달 「1. 프랑스어 허락」·「막힌거 각자 판단대로 일단 완료」)
 - PC 크롬: 사용자 허락(이 창에서 확인)으로 작업 스케줄러 **`Grok-Chrome-fr-9250`** 등록(다른 언어와 같은 꼴, 사용자 john, Interactive) → 쿠키 `grok_cookie_sync.py 9231 9250`(49개), 「빠른」 확인. **크롬 규칙(11-22)**: 끝나면 직접 끈다.
 - 도구: `docs/GROK_WRITE_fr.md`(규칙, 방 첫 메시지에만 첨부) · `tools/grok_brief.py`(대사 비운 뼈대) · `tools/grok_write_run.sh`(방당 10편, 「빠른」, 3분 상한) · `tools/grok_apply.py`(답 → 앱 JSON, 형식만: 칸 수·감정 확인, 작업 표시 지움, 낱말 칩) · 언어감각 `docs/GROK_SENSE_fr.md`·`tools/grok_sense.py`·`grok_sense_run.sh` · 장면 컷 `tools/grok_scene.py`(→ `~/talkverse/fr-art/scene/fr/`)·`tools/scene_upload.py`(R2 `scene/fr/`·D1 `art_scenes`). 답·뼈대·로그 `data/review/grok/write/`.

@@ -1,119 +1,221 @@
 lemma,reading,count,example
-attend,,9,"Attends… tu es gare de Lyon, à Paris ?"
-crêpe,,5,"{name}, tu es là ? Je fais des crêpes !"
-parapluie,,5,"Il pleut fort, hein. Tu viens sous mon parapluie ?"
-robot,,4,T'as vu le nouveau film avec le robot ?
-bel,,4,"Ouais, hier soir. Franchement, la musique est trop belle."
-as,,4,Enfin ! T'as la clé ? J'attends depuis une heure.
-laisse,,3,Laisse tomber… c'est la clé de mon vélo. Pas de l'appart.
-week,,3,"Merci, t'es la meilleure ❤️ J'ai tout le week-end pour réviser."
-end,,3,"Merci, t'es la meilleure ❤️ J'ai tout le week-end pour réviser."
-aime,,2,Ouais ! Tu aimes les chiens ?
-racont,,2,"Après quoi ? Vas-y, raconte !"
-assied,,2,"Rien. Il me parle plus depuis. Bon, assieds-toi !"
-casquette,,2,Bon… T'as déjà pensé à la casquette ?
-retourne,,2,"Bon, première crêpe. Tu la retournes, d'accord ?"
-farine,,2,"Attends, t'as de la farine… là."
-prochaine,,2,"Voilà. …La prochaine, on la retourne ensemble."
-stp,,2,"Stylé. Montre une photo, stp !"
-c’,,2,…Camille. C’est Théo. Mon coloc.
-colocataire,,2,…Camille. C’est Théo. Mon coloc.
-squatter,,2,"Mdr non, c'est le chat de ma voisine. Il squatte chez moi."
-reste,,2,"Le début ? Le film est fini. Mais on va en discuter, tu restes ?"
-aie,,2,"Regarde, c'est la lampe dont je t'ai parlé ! Il faut que je l'aie."
-étiquette,,2,Merci ! …Attends. Il y a une étiquette dessous. Vingt-cinq euros.
-cheffe,,2,"Cheffe, j'ai goûté la sauce tout à l'heure… et j'ai rajouté du sel. Pardon."
-bail,,2,"Pas de souci, j'ai tout. Facture d'électricité, bail… tout est dans cette pochette."
-pochette,,2,"Pas de souci, j'ai tout. Facture d'électricité, bail… tout est dans cette pochette."
-laine,,2,"Je sais jamais. Quarante degrés, c'est trop pour la laine ?"
-devis,,2,Bonjour à tous. On commence ? L'ordre du jour : le devis et les délais de livraison.
-délai,,2,Bonjour à tous. On commence ? L'ordre du jour : le devis et les délais de livraison.
-yaourt,,2,{name} ! T'as encore mangé mon yaourt ? Il y avait mon nom dessus !
-mange,,1,…Théo ! Tu manges ma crêpe ?!
-bouge,,1,"Attends, bouge pas ! Je dessine, là."
-tienne,,1,"Ouais, tiens. Mais t'as perdu la tienne où ?"
-sûre,,1,Attends… elle veut pas tourner. T'es sûre ?
-tourne,,1,"Donne, je veux essayer… Non, elle tourne pas."
-mangeai,,1,"Tu dormais, ouais… et tu mangeais ton gâteau."
-paraplui,,1,"Merci. Mais il est petit, ton parapluie."
-rigole,,1,Elle rigole depuis 5 min 🙄
-min,,1,Elle rigole depuis 5 min 🙄
-story,,1,Pas besoin. Elle l'a déjà mis en story.
-mdr,,1,Ouais. Même ma mère. Elle veut la recette de la tarte brûlée mdr
-chelou,,1,"Grand, drôle, il fait du vélo partout. Un peu chelou, mais mignon."
-m’,,1,"Il vient de m’écrire. Il dit que toi aussi, tu chantes sous la douche 🫠"
-ciné,,1,"Non, je suis au ciné. Le film finit à minuit."
-quitte,,1,"Ça va, ça va, j'arrive. Je quitte le film pour toi, hein 🙄"
-appart,,1,Laisse tomber… c'est la clé de mon vélo. Pas de l'appart.
-men,,1,Ptdr. Donc tu mens sur ton profil ? 🤨
-endormi,,1,NON PARDON !! Je me suis endormie sur mon téléphone 😭
-bazar,,1,"Voilà 📸 Je t'envoie tout. C'est un peu le bazar, désolée."
-désoler,,1,"Voilà 📸 Je t'envoie tout. C'est un peu le bazar, désolée."
-réviser,,1,"Merci, t'es la meilleure ❤️ J'ai tout le week-end pour réviser."
-révis,,1,Viens chez moi. On révise ensemble cette nuit. J'ai du café.
-max,,1,"Grave. J'arrive, vingt minutes max !"
-dort,,1,"Vous avez fini, là ? Nous, on dort !"
-aimez,,1,C'est pas vrai ! Vous les aimez bien ?
-première,,1,"Pas grave, les premières, elles tombent toujours."
-étonner,,1,"Ça m'étonnerait qu'il l'ait vu. Mais vas-y, raconte-nous ta scène préférée."
-ter,,1,"Ça m'étonnerait qu'il l'ait vu. Mais vas-y, raconte-nous ta scène préférée."
-change,,1,Euh… celle où ils se retrouvent à la gare. C'est là que tout change.
-hmm,,1,"Hmm. Pas mal. Et les acteurs, tu les as trouvés comment ?"
-frisson,,1,"Géniaux. Surtout la voix de l'acteur principal, elle m'a donné des frissons."
-muet,,1,Sa voix ? {name}… c'est un film muet.
-voyiez,,1,"Il aurait fallu que vous le voyiez une troisième fois, peut-être."
-cassé,,1,"Bien qu'elle soit un peu vieille ? Elle a l'air cassée, ta lampe."
-ta,,1,"Bien qu'elle soit un peu vieille ? Elle a l'air cassée, ta lampe."
-achète,,1,"Bon. Avant que tu l'achètes, laisse-moi négocier. J'ai l'habitude."
-vend,,1,Celle-là ? Je la vends quarante euros. Elle vient d'un appartement du quartier.
-fait,,1,"Quarante ? Si elle marchait, je dirais pas non. Vous me la faites à vingt ?"
-sache,,1,"Camille ! Il faut pas qu'il le sache ! …Bon, trente, c'est mon dernier prix."
-prête,,1,"T'inquiète, je te paie un café avec les cinq euros. Et la lampe, je te la prête."
-occupe,,1,"T'inquiète. Le dessert, je m'en occupe. Elle aime le chocolat ?"
-adore,,1,"Elle l'adore. Mais n'en mets pas trop, elle n'aime pas quand c'est trop sucré."
-sucrer,,1,"Elle l'adore. Mais n'en mets pas trop, elle n'aime pas quand c'est trop sucré."
-donne,,1,Pas de souci. Et les fleurs ? Tu les lui donnes quand ?
-oublie,,1,"Et c'est de ma faute si tu oublies tout ? Va le sortir, vite !"
-bistrot,,1,Dans un petit bistrot à {city}. J'y suis resté deux ans.
-dise,,1,Pas de problème. Je préfère qu'on me le dise dès le début.
-manque,,1,"D'accord, je goûte… Franchement ? Elle manque d'acidité, et il y a trop de sel."
-acidité,,1,"D'accord, je goûte… Franchement ? Elle manque d'acidité, et il y a trop de sel."
-diplomate,,1,"Ah… Si j'avais su, j'aurais été plus diplomate."
-rajouter,,1,"Cheffe, j'ai goûté la sauce tout à l'heure… et j'ai rajouté du sel. Pardon."
-tutoyer,,1,"Bon. Vous travaillez avec nous dès lundi. Et ici, on se tutoie… si ça te va."
-refai,,1,"Ça me va. Mais la sauce, je te la refais demain, cheffe."
-justificatif,,1,Très bien. Il me faut aussi un justificatif de domicile de moins de trois mois.
-domicile,,1,Très bien. Il me faut aussi un justificatif de domicile de moins de trois mois.
-électricité,,1,"Pas de souci, j'ai tout. Facture d'électricité, bail… tout est dans cette pochette."
-attestation,,1,"Oui, on partage l'appartement. Je peux faire une attestation d'hébergement ?"
-bancaire,,1,"Et la carte bancaire, je la reçois quand ? J'en ai besoin pour payer le loyer."
-séparément,,1,"Vous la recevrez sous dix jours, par courrier. Le code arrive séparément, pour des raisons de sécurité."
-logo,,1,"Trop tard, j'ai regardé. C'est notre logo. Vous êtes à découvert depuis deux mois, monsieur."
-temporaire,,1,"C'est temporaire ! J'attends un remboursement de la mutuelle, je te jure."
-remboursement,,1,"C'est temporaire ! J'attends un remboursement de la mutuelle, je te jure."
-mutuelle,,1,"C'est temporaire ! J'attends un remboursement de la mutuelle, je te jure."
--moi,,1,"Excuse-moi, tu as de la monnaie ? La machine prend que les pièces."
-essorage,,1,"Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir."
-pull,,1,"Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir."
-rétrécir,,1,"Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir."
-casqu,,1,"Normal, tu as toujours ton casque sur les oreilles. Moi, je lis près du sèche-linge."
-sèche,,1,"Normal, tu as toujours ton casque sur les oreilles. Moi, je lis près du sèche-linge."
-ennuyer,,1,Pardon… je mets de la musique pour pas m'ennuyer. Ça fait longtemps que tu viens ?
-plier,,1,"Un mois. Chaque jeudi, je pliais mon linge et je voulais te parler. Ce soir, j'ai osé."
-séchage,,1,Je suis content que tu aies osé. On prend un café pendant le séchage ?
-roser,,1,"Euh… tes chemises sont roses. C'est ma chaussette rouge, elle est tombée dedans."
-assoi,,1,"Tant pis. Jeudi prochain, tu t'assois à côté de moi… et tes chaussettes restent chez toi."
-chaussette,,1,"Tant pis. Jeudi prochain, tu t'assois à côté de moi… et tes chaussettes restent chez toi."
-ticket,,1,"Ah oui ! Je les mets toujours là. …Ah non, ça, c'est mon vieux ticket de métro."
-valable,,1,"Sans billet valable, vous payez une amende de cinquante euros chacun."
-amende,,1,"Sans billet valable, vous payez une amende de cinquante euros chacun."
-réclamation,,1,Faites une réclamation en ligne avec vos billets. On vous remboursera sûrement.
-grésill,,1,"Bonjour. Je vous entends mal, votre micro grésille un peu."
-télétravail,,1,"Pardon, je suis en télétravail aujourd'hui. Et maintenant, c'est mieux ?"
-écran,,1,Parfait. Vous pouvez partager votre écran ? Je voudrais voir le tableau des prix.
-installation,,1,"Bien sûr. Voilà : livraison en trois semaines, installation comprise."
-concurrent,,1,"Trois semaines, c'est long. Nos concurrents proposent dix jours."
-tarif,,1,"On peut réduire le délai, mais le tarif augmente de dix pour cent."
-clavier,,1,"C'est pas grave, ça arrive. Chez moi, c'est le chat qui marche sur le clavier."
-revenon,,1,"Bon, revenons au devis. Deux semaines, sans augmentation. Je vous envoie le nouveau devis ce soir."
-augmentation,,1,"Bon, revenons au devis. Deux semaines, sans augmentation. Je vous envoie le nouveau devis ce soir."
+attend,,23,Attends ! Bouge pas.
+c’,,8,"Merci… euh, mon programme, c’est quarante degrés ?"
+reste,,7,Je reste. Et toi ?
+stp,,7,"Vas-y, envoie une photo stp."
+l’,,7,"Ah ouais, t’as mis l’essorage trop fort."
+t’,,5,Euh… t’aurais de la monnaie ? J’ai plus de pièces.
+avai,,4,"Tu rigoles ? Il était en morceaux, je l'avais monté hier !"
+amende,,4,Trois mois. L'amende est de cinquante centimes par jour.
+as,,3,Merci ! Tu as cours de quoi ?
+robot,,3,T'as vu le film de robots ?
+chaussette,,3,"Oh, une chaussette rouge aussi..."
+regarde,,3,"Oh ! C'est le même, regarde !"
+parapluie,,3,"Voilà, prends mon parapluie."
+nickel,,3,"Voilà, quai treize ! Nickel !"
+cappuccino,,3,Mon cappuccino est prêt ?
+mdr,,3,Mdr trop con.
+rhume,,3,"Merci, je crois que c'est juste un rhume."
+fichier,,3,"Ouais, ça marche. Je t'envoie le fichier."
+jure,,3,"Je te jure, j'ai cru que c'était aujourd'hui."
+prochaine,,3,"D'accord, mais la prochaine tu vérifies avant. Trop con."
+capture,,3,Vos billets s'il vous plaît. Pas de capture d'écran.
+j’,,3,"Tiens, prends. J’en ai trop de toute façon."
+réclamation,,3,Bon… on paie et on fait une réclamation après ?
+délai,,3,Bien sûr. On parle du devis et du délai de livraison.
+yaourt,,3,{name} ! T’as encore mangé mon yaourt !
+comprend,,2,"Tu comprends tout, toi ?"
+crêp,,2,Tiens ! Ma crêpe.
+chocolatine,,2,Chocolatine ? C'est quoi ça ?
+-là,,2,Ça va. Tu mets celui-là.
+bel,,2,Ouais ! La musique est trop belle.
+lave,,2,Je lave tes affaires avec les miennes.
+mienne,,2,Je lave tes affaires avec les miennes.
+file,,2,La file est énorme...
+brûle,,2,Mdr Hugo brûle tout.
+disai,,2,Tu disais ça à Camille ?
+stylé,,2,"Grand et drôle, stylé."
+slide,,2,T'as fini les slides pour demain ?
+réservation,,2,"Attends, ils trouvent pas ma réservation."
+cherche,,2,T'es où exactement ? Je te cherche.
+sticker,,2,"Rouge, avec un sticker bleu qui est gros."
+entretien,,2,En fait non. C'est un entretien dans un autre resto.
+tutoyer,,2,On se tutoie alors ?
+emprunter,,2,On peut emprunter vos notes ? Nous travaillons mal.
+valider,,2,Attendez. Ces billets ne sont pas valides.
+fait,,2,Vous faites vos premiers cappuccinos aujourd'hui.
+occupe,,2,"T'inquiète, je m'en occupe."
+minuscule,,2,"Attends, c'est ça le camion ? Il est minuscule !"
+vienne,,2,"D'accord, alors je veux que tu viennes m'aider."
+vérifie,,2,"D'accord, mais la prochaine tu vérifies avant. Trop con."
+monte,,2,"Super, on y monte après ?"
+imprimer,,2,"Si tu l'avais vérifié, on n'aurait pas imprimé ça."
+écran,,2,Vos billets s'il vous plaît. Pas de capture d'écran.
+chargeur,,2,"T'inquiète, on demande un chargeur à l'accueil."
+accueil,,2,"T'inquiète, on demande un chargeur à l'accueil."
+bancaire,,2,"Très bien. Pour la carte bancaire, il faut un RIB aussi."
+découvert,,2,Zut ! C'est une lettre de découvert qui tombe...
+sirop,,2,D'accord. Du sirop ou des comprimés ?
+mouchoir,,2,"Ah, pas un médicament alors. Des mouchoirs ?"
+s’,,2,"Les billets, s’il vous plaît."
+devis,,2,Bien sûr. On parle du devis et du délai de livraison.
+cantine,,2,"Salut, je suis ton collègue. On va à la cantine ?"
+badge,,2,"Ouais, mais mon badge marche pas encore ?"
+alarme,,2,T'es sûr ? J'ai peur de l'alarme.
+sous-titre,,1,Je comprends pas sans sous-titres.
+aime,,1,Ouais. Tu aimes les chiens ?
+chocolatin,,1,Un pain au chocolat ? On dit chocolatine !
+change,,1,Tu changes le nom tout le temps !
+bouge,,1,Attends ! Bouge pas.
+descend,,1,Tu descends là-bas ?
+tienne,,1,Tiens. T'as perdu la tienne ?
+tourn,,1,"Attends, ça tourne pas."
+éternue,,1,Attends... tu éternues ?
+retourne,,1,"Allez, tu la retournes !"
+farine,,1,"Voilà, de la farine sur toi."
+travaille,,1,"Tu travailles grave, Léa ?"
+appuie,,1,"Non, appuie doucement."
+chelou,,1,"Ouais, chelou non ?"
+ouf,,1,"Merde, c'est ouf."
+ciné,,1,"Je suis au ciné, désolé."
+coule,,1,J'ai le nez qui coule aussi. Tu dis ça stp.
+médoc,,1,"Bref, elle a ri et m'a donné les médocs."
+ptdr,,1,Genre c'est le chat du voisin ptdr.
+endormi,,1,"Pardon, je me suis endormie."
+révis,,1,On révise ensemble ?
+garde-le,,1,Ça marche. Mais garde-les pour moi.
+nice,,1,Je suis à Nice ! L'hôtel est trop stylé.
+styler,,1,Je suis à Nice ! L'hôtel est trop stylé.
+checker,,1,"Ouais, super facile. Je vais checker."
+ramène,,1,"Ouais, maintenant je te ramène chez moi ?"
+restaurant,,1,En fait non. C'est un entretien dans un autre resto.
+jur,,1,"Vas-y, je te jure. C'est important."
+cheveux,,1,Nos cheveux ! Vous avez tout coupé !
+blanche,,1,Quoi ? Nos blanches sont roses maintenant !
+roser,,1,Quoi ? Nos blanches sont roses maintenant !
+mélanger,,1,"Tant pis, c'est tout mélangé."
+chauder,,1,"D'accord, mais elles sont chaudes."
+couron,,1,"Oui, courons ! Le train part."
+quai,,1,Voilà le quai treize. Nous courons vite.
+mousse,,1,Bien sûr. Vous mettez la mousse après.
+silencieux,,1,"J'avoue, franchement c'était silencieux."
+étonner,,1,Ça m'étonnerait que tu aies entendu ça.
+aie,,1,Ça m'étonnerait que tu aies entendu ça.
+parlant,,1,Il aurait fallu que ce soit parlant.
+assied,,1,"Allez, assieds-toi, ça me fait plaisir que tu sois là."
+parl,,1,"Non, c'est la salle dont tout le monde parle. Celle où on y voyait un sens."
+pose,,1,Tu veux qu'on se pose dessus pour comprendre ?
+mouiller,,1,Oui ! Et cette veste mouillée. Il est possible qu'il l'ait mouillée exprès.
+œuvre,,1,Ah ! Donc la veste aussi ? Il y en a marre des œuvres.
+négocie,,1,Trop belle. Tu veux que je te la négocie ?
+vingt-huit,,1,"Avant que vous partiez, je peux faire vingt-huit ?"
+rigole,,1,"Tu rigoles ? Il était en morceaux, je l'avais monté hier !"
+colis,,1,"Excusez-moi, je viens récupérer le colis s'il vous plaît."
+entrez,,1,"Ah, je vous l'ai gardé avec plaisir ! Entrez."
+livreur,,1,"Le livreur a sonné pendant que vous étiez sorti. J'attendais, je pensais que c'était le mien."
+étiez,,1,"Le livreur a sonné pendant que vous étiez sorti. J'attendais, je pensais que c'était le mien."
+attendai,,1,"Le livreur a sonné pendant que vous étiez sorti. J'attendais, je pensais que c'était le mien."
+désoler,,1,"Oui, je suis désolée que vous l'appreniez comme ça. Je l'ai essayé."
+inattendu,,1,"Oh là là, trop inattendu !"
+pourvoir,,1,Il a dit pourvu qu'il ne soit pas déçu... c'est le chaos !
+donnez,,1,Vous me le donnez maintenant ? Il le sait déjà !
+cache,,1,J'aimerais que tu caches les fleurs avant qu'elle arrive.
+cramer,,1,À moins que ce soit le gâteau qui crame ?
+devai,,1,Sérieux ? Tu devais juste les lui cacher !
+subjonctif,,1,"Vas-y, on s'entraîne au subjonctif ?"
+détendu,,1,J'aimerais que tu sois plus détendu.
+invite,,1,Il faudrait que tu m'invites avant que je perde la tête.
+parle,,1,Sérieux ? Tu parles de samedi ?
+draguer,,1,"Tu me dragues avec la grammaire, hein ?"
+grammaire,,1,"Tu me dragues avec la grammaire, hein ?"
+envoie,,1,"D'accord, tu me l'envoies le fichier ?"
+flustered,,1,Ouais... et les messages où on dit qu'il est chiant. Flustered total.
+privé,,1,"Non ! Si tu me l'avais envoyé en privé, on n'aurait pas ça !"
+lise,,1,"Théo, il aurait fallu que tu lises mieux."
+ascenseur,,1,Mais elle est au dernier étage et l'ascenseur ne marche plus. Chaos total !
+saler,,1,"Franchement, elle est un peu salée."
+embauche,,1,Intéressant. On se tutoie si je t'embauche ?
+servie,,1,Ah. On l'aurait servie telle quelle sinon.
+quell,,1,Ah. On l'aurait servie telle quelle sinon.
+embauché,,1,"Pas de problème. Tu es embauché, bienvenue."
+bienvenue,,1,"Pas de problème. Tu es embauché, bienvenue."
+imprim,,1,"Pas de problème. Vas-y, imprime."
+faut,,1,"Attends, il en faut combien exactement ? Cinquante ou..."
+débranche,,1,"Je sais pas, à moins qu'on la débranche..."
+démission,,1,C'est la lettre de démission du directeur... chaos !
+reparle,,1,"Bon, rangez tout. On en reparle après."
+attente,,1,Enfin ! La file d'attente est longue mais on y est.
+fosse,,1,"On sera en fosse, debout devant la scène."
+revente,,1,"T'inquiète, j'ai le billet de revente."
+chanteur,,1,"La chanteuse est trop forte, j'espère le rappel."
+rappel,,1,"La chanteuse est trop forte, j'espère le rappel."
+éteint,,1,C'est pas vrai ! Le mien est sur le tel éteint et le tien c'est une capture.
+demande,,1,"T'inquiète, on demande un chargeur à l'accueil."
+valable,,1,Les captures ne sont pas valables. Filez ou partez.
+allez,,1,"Allez à l'accueil, ils ont peut-être un chargeur."
+fraisier,,1,"Oui, un fraisier pour un anniversaire."
+ganache,,1,Bien sûr. Avec de la ganache ou de la crème ?
+framboisier,,1,"Plutôt framboisier, elle est allergique aux noisettes."
+allergique,,1,"Plutôt framboisier, elle est allergique aux noisettes."
+noisette,,1,"Plutôt framboisier, elle est allergique aux noisettes."
+génoise,,1,"Parfait, génoise légère avec crème. Des bougies chiffre ?"
+acompte,,1,"Oui, vous aviez même laissé un acompte ici."
+justificatif,,1,"Oui, avec mon justificatif de domicile."
+domicile,,1,"Oui, avec mon justificatif de domicile."
+bail,,1,"Je te jure, j'ai tout dans le dossier : bail, attestation d'hébergement..."
+attestation,,1,"Je te jure, j'ai tout dans le dossier : bail, attestation d'hébergement..."
+hébergement,,1,"Je te jure, j'ai tout dans le dossier : bail, attestation d'hébergement..."
+rib,,1,"Très bien. Pour la carte bancaire, il faut un RIB aussi."
+mutuelle,,1,"Et votre mutuelle, vous avez le numéro pour le remboursement ?"
+remboursement,,1,"Et votre mutuelle, vous avez le numéro pour le remboursement ?"
+ordonnance,,1,"Bonjour, vous avez une ordonnance ?"
+toux,,1,Vous toussez beaucoup ? De la toux sèche ?
+haute,,1,"Ouais, et un peu de fièvre. Température haute."
+comprimé,,1,D'accord. Du sirop ou des comprimés ?
+secondaire,,1,"Le sirop, mais sans effet secondaire de somnolence."
+somnolence,,1,"Le sirop, mais sans effet secondaire de somnolence."
+nausée,,1,"Voilà, celui-ci est bien. Pas de nausée."
+vomir,,1,Vous allez vomir ? C'est l'estomac ?
+estomac,,1,Vous allez vomir ? C'est l'estomac ?
+crush,,1,"Bah, il a le cœur brisé. Son crush l'a ghosté."
+-vou,,1,Tenez. Et reposez-vous bien pour le rhume.
+aurai,,1,Euh… t’aurais de la monnaie ? J’ai plus de pièces.
+laine,,1,"Ouais, pour la laine c’est mieux. Ça rétrécit sinon."
+rétrécir,,1,"Ouais, pour la laine c’est mieux. Ça rétrécit sinon."
+essorage,,1,"Ah ouais, t’as mis l’essorage trop fort."
+jette,,1,Tant pis… je les jette. T’as du linge à toi aussi ?
+sèche,,1,"Ouais, une chemise. Le sèche-linge est libre ?"
+ose,,1,Depuis un mois j’ose pas te parler. Mais là… t’es vraiment mignon.
+cote,,1,La cote est au rayon histoire. Mais il est en retard.
+centime,,1,Trois mois. L'amende est de cinquante centimes par jour.
+introuvable,,1,"Pardon, c'est introuvable alors ? Je peux réserver ?"
+rend,,1,Désolée... je le rends tout de suite.
+calculer,,1,Bien. L'amende sera calculée au moment de rendre.
+appli,,1,T’as pas le billet sur l’appli ?
+chai,,1,"Non, chais pas… je l’ai imprimé normalement."
+essence,,1,"D'accord, celle-là, essence."
+manuelle,,1,Manuelle ? T'es sûr ?
+caution,,1,"Oui, caution de cinq cents, carte bancaire."
+permis,,1,"Pas de problème, j'ai mon permis. Appris sur la voiture de mon grand-père."
+inclus,,1,"Assurance incluse, franchise de huit cents, kilométrage illimité. Réservoir plein."
+franchise,,1,"Assurance incluse, franchise de huit cents, kilométrage illimité. Réservoir plein."
+kilométrage,,1,"Assurance incluse, franchise de huit cents, kilométrage illimité. Réservoir plein."
+illimité,,1,"Assurance incluse, franchise de huit cents, kilométrage illimité. Réservoir plein."
+réservoir,,1,"Assurance incluse, franchise de huit cents, kilométrage illimité. Réservoir plein."
+pédal,,1,"Ouais, facile. Embrayage, pédale…"
+caler,,1,Théo ! T'as calé encore !
+embrayage,,1,"Monsieur, tenez l'embrayage."
+tarif,,1,Merci. Le tarif est un peu haut face au concurrent.
+concurrent,,1,Merci. Le tarif est un peu haut face au concurrent.
+augmentation,,1,On peut discuter une augmentation progressive.
+progressif,,1,On peut discuter une augmentation progressive.
+télétravail,,1,"En télétravail, on s’adapte vite. On peut raccourcir."
+raccourcir,,1,"En télétravail, on s’adapte vite. On peut raccourcir."
+confirmation,,1,Vous êtes sûrs ? On a besoin de confirmation.
+badg,,1,Bienvenue ! Ton badge et ton contrat.
+horaire,,1,"Oui. Période d'essai de deux mois, horaires flexibles."
+flexible,,1,"Oui. Période d'essai de deux mois, horaires flexibles."
+intranet,,1,Vingt-cinq jours. Ticket-restaurant aussi. Mot de passe pour l'intranet.
+coincé,,1,"Vas-y, passe. Oh non, t'es coincé !"
+sonn,,1,"L'alarme sonne ! Attendez, je coupe."
+stagiaire,,1,"Désolée, le badge des stagiaires… j'ai oublié."

@@ -1,0 +1,76 @@
+{
+ "id": "r1_travel_d1",
+ "region": "R1",
+ "island": "travel",
+ "kind": "short",
+ "title": "13번 승강장",
+ "emoji": "🚆",
+ "scene": "기차역. 테오와 A 가 리옹행 기차에 겨우 뛰어 올랐는데, 검표원이 표를 보더니 이 기차는 릴행이라고 한다 — 테오가 3번을 13번으로 읽었다",
+ "where": "기차역 승강장·기차 안",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Contrôleuse"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "partir 현재(part·pars·명령 Pars pas)·courir(je cours·on court)·복합과거 j'ai acheté — 검표원 말은 대명사 없이",
+ "expressions": [
+  "attends",
+  "c'est bon",
+  "nickel",
+  "voilà"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "worried"
+  },
+  {
+   "num": 2,
+   "speaker": "A"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "shout"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "A"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

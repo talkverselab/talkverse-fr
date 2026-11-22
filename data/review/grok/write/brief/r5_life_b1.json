@@ -1,0 +1,106 @@
+{
+ "id": "r5_life_b1",
+ "region": "R5",
+ "island": "life",
+ "kind": "long",
+ "title": "빨간 편지",
+ "emoji": "🏦",
+ "scene": "은행 계좌 개설. 테오가 거주 증명 서류를 다 챙겨 왔다며 따라왔는데, 서류철에서 은행의 독촉장이 떨어진다",
+ "where": "은행 창구",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Conseillère"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "work_france"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "생활 행정 어휘(compte·justificatif de domicile·facture·bail·attestation d'hébergement·pièce d'identité·carte bancaire·courrier·découvert·mutuelle·remboursement), 새 문법 없음",
+ "expressions": [
+  "pas de souci",
+  "zut",
+  "je te jure"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "polite"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "polite"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 10,
+   "speaker": "B"
+  },
+  {
+   "num": 11,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 14,
+   "speaker": "C"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

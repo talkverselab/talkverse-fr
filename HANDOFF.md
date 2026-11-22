@@ -1,5 +1,11 @@
 # HANDOFF — talkverse-fr (프랑스어 앱) · 2026-11-09 세션 종료
 
+## 2026-11-22 Grok 대사 작성 진행(uk 전달 「1. 프랑스어 허락」·「막힌거 각자 판단대로 일단 완료」)
+- PC 크롬: 사용자 허락(이 창에서 확인)으로 작업 스케줄러 **`Grok-Chrome-fr-9250`** 등록(다른 언어와 같은 꼴, 사용자 john, Interactive) → 쿠키 `grok_cookie_sync.py 9231 9250`(49개), 「빠른」 확인. **크롬 규칙(11-22)**: 끝나면 직접 끈다.
+- 도구: `docs/GROK_WRITE_fr.md`(규칙, 방 첫 메시지에만 첨부) · `tools/grok_brief.py`(대사 비운 뼈대) · `tools/grok_write_run.sh`(방당 10편, 「빠른」, 3분 상한) · `tools/grok_apply.py`(답 → 앱 JSON, 형식만: 칸 수·감정 확인, 작업 표시 지움, 낱말 칩) · 언어감각 `docs/GROK_SENSE_fr.md`·`tools/grok_sense.py`·`grok_sense_run.sh` · 장면 컷 `tools/grok_scene.py`(→ `~/talkverse/fr-art/scene/fr/`)·`tools/scene_upload.py`(R2 `scene/fr/`·D1 `art_scenes`). 답·뼈대·로그 `data/review/grok/write/`.
+- **세션이 고른 것(사용자 결정 대기였던 항목)**: ① 게시된 Claude 대사 33편 → Grok 으로 다시 씀(pl 답 「그록을 무조건 거치도록」, 편 id·턴 번호 그대로) ② 언어감각 10급 대화 → Grok 을 거침(footnotes·참고 강의는 그대로) ③ 장면 컷 10장 → 대사 확정 뒤 Grok 그림, 앞 레벨 편부터.
+- `grok_text.py`: 「전문가」→「빠른」 확인으로, 이어 쓰는 방에서 끝 판단(직전 답과 달라졌는지)을 고침 — 그전엔 답이 다 와도 3분 채우고 중지했다.
+
 ## 2026-11-18 일본어앱 수준 맞추기(일본어앱 전달 `~/talkverse/ja/docs/RELAY_2026-11-18_ja_parity.md`, 사용자 지시 「통합앱으로 iOS 심사」)
 - **원고 서버 받기(§1) 끝** 988bfef: `lib/services/script_sync.dart`(root `…/art/script/fr`), `embedInit` 에서 그림 받기 앞에 `refresh()`(15초), 회화 로더를 옛 `L1.json` → **R0~R5 편 파일**(`DialogueService`, 학습자 여성판 `fr_f`·`rd_f`, 장면 「A」→ 이름). 서버 원고 **rev 2**(33편 + `grammar/sense_course.json`). 올리기 `python3 tools/script_publish.py --publish` → `assets/data/script_rev.json` 커밋. 턴 잠금 `data/review/turn_lock_fr.json`(33편 313턴).
 - 언어감각 익히기 10급 98d5f12(홈 「정규과정」, `video_player` 추가, 영상은 비어 「영상 준비 중」) · 절벽 단어 퀴즈 복습 691ed03(앱바 퀴즈 아이콘, 표기=악센트·겹자음).

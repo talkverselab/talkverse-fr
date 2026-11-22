@@ -1,0 +1,73 @@
+{
+ "id": "r1_love_a2",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "title": "작은 우산",
+ "emoji": "☂️",
+ "scene": "비 오는 버스 정류장. 레아가 먼저 우산을 씌워 주는데, 레아 집은 바로 옆이라 버스를 탈 일이 없다",
+ "where": "버스 정류장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "tu 현재·복합과거(je t'ai vu·je suis sortie, 성 일치)·on",
+ "expressions": [
+  "voilà",
+  "grave"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "gentle"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

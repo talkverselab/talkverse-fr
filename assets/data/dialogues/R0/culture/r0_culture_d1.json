@@ -1,0 +1,423 @@
+{
+ "id": "r0_culture_d1",
+ "region": "R0",
+ "island": "culture",
+ "kind": "short",
+ "title": "다 말해 줄게",
+ "emoji": "🎬",
+ "scene": "카미유와 영화관. 자막 없는 프랑스 영화라 걱정하는 A 에게 카미유가 다 설명해 주겠다고 한다",
+ "where": "영화관",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "goal": "comprendre·dire 인칭 변화(tu comprends·je comprends / je te dis·tu me dis)",
+ "expressions": [
+  "allez",
+  "ouais",
+  "tiens",
+  "bien sûr",
+  "t'inquiète",
+  "ben"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Allez ! On y va ?",
+   "rd": "알레 ! 옹 이 바 ?",
+   "ko": "자! 가자?",
+   "note": "allez = 자 · on y va = 우리 가자",
+   "tags": [],
+   "new": [
+    "allez"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "y",
+     "y",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "va",
+     "aller",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Je comprends pas sans sous-titres.",
+   "rd": "쥬 꽁프랑 빠 상 수 띠트르.",
+   "ko": "자막 없으면 못 알아들어.",
+   "note": "je comprends = 나는 이해해 · pas = 안 · sous-titres = 자막",
+   "tags": [],
+   "new": [
+    "pas",
+    "sous-titres"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "comprends",
+     "comprendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "sous-titres",
+     "sous-titre",
+     "NOUN",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "comprends",
+     "comprendre",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ],
+    [
+     "sous-titres",
+     "sous-titre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "T'inquiète ! Je te dis tout.",
+   "rd": "탱키에트 ! 쥬 뜨 디 뚜.",
+   "ko": "걱정 마! 내가 다 말해 줄게.",
+   "note": "t'inquiète = 걱정 마 · je te dis = 내가 너한테 말해 · tout = 전부",
+   "tags": [],
+   "new": [
+    "t'inquiète",
+    "tout"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "te",
+     "te",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tout",
+     "tout",
+     "PRON",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Tu comprends tout, toi ?",
+   "rd": "뛰 꽁프랑 뚜, 투아 ?",
+   "ko": "너는 다 알아들어?",
+   "note": "tu comprends = 너는 이해해 · tout = 전부",
+   "tags": [],
+   "new": [
+    "tout"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "comprends",
+     "comprend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "comprends",
+     "comprend",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Ouais, bien sûr. Je t'explique.",
+   "rd": "웨, 비앙 쉬르. 쥬 텍스플리크.",
+   "ko": "응, 물론이지. 내가 설명해 줄게.",
+   "note": "ouais = 응 · bien sûr = 물론 · je t'explique = 내가 너한테 설명해",
+   "tags": [],
+   "new": [
+    "ouais"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "explique",
+     "expliquer",
+     "VERB",
+     "VerbForm=Inf"
+    ]
+   ],
+   "lemmas": [
+    [
+     "bien",
+     "bien",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "explique",
+     "expliquer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Tiens, là ! Euh... c'est qui lui ?",
+   "rd": "티앙, 라 ! 으... 세 키 뤼 ?",
+   "ko": "봐, 저기! 어... 저 사람 누구야?",
+   "note": "tiens = 봐 · c'est qui = 누구야",
+   "tags": [],
+   "new": [
+    "tiens"
+   ],
+   "emotion": "neutral",
+   "morph_tags": [
+    [
+     "Tiens",
+     "tien",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "qui",
+     "qui",
+     "DET",
+     "Definite=Ind|Number=Plur|PronType=Art"
+    ],
+    [
+     "lui",
+     "luire",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Prs"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Tiens",
+     "tien",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "Euh",
+     "euh",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Tu comprends rien !",
+   "rd": "뛰 꽁프랑 리앙 !",
+   "ko": "너 아무것도 못 알아듣잖아!",
+   "note": "tu comprends = 너는 이해해 · rien = 아무것도",
+   "tags": [],
+   "new": [
+    "rien"
+   ],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "comprends",
+     "comprend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "rien",
+     "rien",
+     "PRON",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "comprends",
+     "comprend",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Ben, tu me dis alors !",
+   "rd": "뱅, 뛰 므 디 알로르 !",
+   "ko": "그럼 네가 말해 봐!",
+   "note": "ben = 어 · tu me dis = 네가 나한테 말해 · alors = 그럼",
+   "tags": [],
+   "new": [
+    "ben",
+    "alors"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "tu",
+     "taire",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ]
+   ],
+   "lemmas": [
+    [
+     "alors",
+     "alors",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

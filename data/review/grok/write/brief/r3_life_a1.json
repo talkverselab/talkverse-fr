@@ -1,0 +1,77 @@
+{
+ "id": "r3_life_a1",
+ "region": "R3",
+ "island": "life",
+ "kind": "short",
+ "title": "새벽 두 시의 범인들",
+ "emoji": "🍰",
+ "scene": "레벨 1 「새벽 두 시의 범인」을 복수로 — 테오와 위고가 케이크들이 사라졌다며 A 와 카미유를 의심한다. 같은 문장을 vous·nous·복수로",
+ "where": "셰어하우스 부엌",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Hugo",
+  "D": "Camille"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends",
+  "study_abroad"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수 일치(rentrés·vus·mangés) — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "sérieux",
+  "ben",
+  "comment ça"
+ ],
+ "tags": [
+  "base:r1_life_a1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 2,
+   "speaker": "A"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "C"
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

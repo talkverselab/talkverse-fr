@@ -1,0 +1,92 @@
+{
+ "id": "r5_travel_b1",
+ "region": "R5",
+ "island": "travel",
+ "kind": "long",
+ "title": "그 검표원",
+ "emoji": "🚆",
+ "scene": "리옹행 기차. 테오가 표를 못 찾아 둘 다 벌금을 낸다 — 그런데 표는 처음부터 테오 휴대폰 앱에 있었다",
+ "where": "기차·카풀 앱",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Contrôleur"
+ },
+ "cast": {
+  "C": "man_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "여행 어휘(billet·amende·réclamation·rembourser)·vous 로 공무원 응대, 새 문법 없음",
+ "expressions": [
+  "s'il vous plaît",
+  "je vous jure",
+  "bon",
+  "attendez"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "B"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "B"
+  },
+  {
+   "num": 9,
+   "speaker": "A"
+  },
+  {
+   "num": 10,
+   "speaker": "B"
+  },
+  {
+   "num": 11,
+   "speaker": "A"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "emotion": "polite"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

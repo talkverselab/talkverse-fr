@@ -1,0 +1,73 @@
+{
+ "id": "r0_travel_d1",
+ "region": "R0",
+ "island": "travel",
+ "kind": "short",
+ "title": "반대 방향",
+ "emoji": "🚇",
+ "scene": "테오와 지하철을 탔다. 내릴 역까지 세 정거장이라는데, 다음 역 이름이 이상하다",
+ "where": "지하철",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "어디서 내려?(on descend où ?)·정거장 수·descendre 인칭 변화",
+ "expressions": [
+  "attends",
+  "oh là là",
+  "tu vois",
+  "ça va"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "B"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "shout"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

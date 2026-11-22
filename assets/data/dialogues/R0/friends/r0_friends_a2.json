@@ -31,34 +31,14 @@
   {
    "num": 1,
    "speaker": "B",
-   "fr": "Oh, salut {name} ! Ça va ?",
-   "rd": "오, 쌀뤼 {name}! 싸 바?",
-   "ko": "어, 안녕 {name}! 잘 지내?",
-   "note": "Ça va ? = 잘 지내?",
-   "tags": [
-    "expr:ça va"
-   ],
+   "fr": "Salut ! Ça va ?",
+   "rd": "살뤼! 싸 바?",
+   "ko": "안녕! 잘 지내?",
+   "note": "ça va = 잘 지내?",
+   "tags": [],
    "new": [],
    "emotion": "cheerful",
    "morph_tags": [
-    [
-     "Oh",
-     "oh",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "salut",
-     "salut",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "Ça",
-     "cela",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
     [
      "va",
      "aller",
@@ -77,45 +57,25 @@
   {
    "num": 2,
    "speaker": "A",
-   "fr": "Je vais bien ! Il est à toi, ce chien ?",
-   "rd": "쥬 베 비앵! 일 레 따 뚜아, 쓰 시앵?",
-   "ko": "잘 지내! 이 개, 네 개야?",
-   "note": "ça va → je vais bien (aller) · être à toi = 네 것이다 · chien = 개",
+   "fr": "Oh ! Un chien !",
+   "rd": "오! 앙 시앵!",
+   "ko": "오! 개다!",
+   "note": "un chien = 개",
    "tags": [],
-   "new": [
-    "chien"
-   ],
+   "new": [],
    "emotion": "surprised",
    "morph_tags": [
     [
-     "Je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
     ],
     [
-     "vais",
-     "aller",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "Il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "est",
-     "être",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "ce",
-     "ce",
+     "Un",
+     "un",
      "DET",
-     "Gender=Masc|Number=Sing|PronType=Dem"
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
     ],
     [
      "chien",
@@ -126,16 +86,6 @@
    ],
    "lemmas": [
     [
-     "vais",
-     "aller",
-     ""
-    ],
-    [
-     "bien",
-     "bien",
-     ""
-    ],
-    [
      "chien",
      "chien",
      ""
@@ -145,22 +95,16 @@
   {
    "num": 3,
    "speaker": "B",
-   "fr": "Ouais ! Tu aimes les chiens ?",
-   "rd": "웨! 뛰 엠 레 시앵?",
-   "ko": "응! 너 개 좋아해?",
-   "note": "aimer = 좋아하다 · chien → chiens(복수)",
-   "tags": [
-    "expr:ouais"
+   "fr": "Ouais. Tu aimes les chiens ?",
+   "rd": "우애. 뛰 엠 레 시앵?",
+   "ko": "응. 개 좋아해?",
+   "note": "ouais = 응 · Tu aimes…? = …좋아해?",
+   "tags": [],
+   "new": [
+    "ouais"
    ],
-   "new": [],
    "emotion": "cheerful",
    "morph_tags": [
-    [
-     "Ouais",
-     "ouai",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
-    ],
     [
      "aimes",
      "aime",
@@ -182,11 +126,6 @@
    ],
    "lemmas": [
     [
-     "Ouais",
-     "ouais",
-     ""
-    ],
-    [
      "aimes",
      "aime",
      ""
@@ -202,12 +141,12 @@
    "num": 4,
    "speaker": "A",
    "fr": "J'adore ! Il s'appelle comment ?",
-   "rd": "쟈도르! 일 싸뻴 꼬망?",
-   "ko": "엄청 좋아해! 이름이 뭐야?",
-   "note": "adorer = 아주 좋아하다 · Il s'appelle comment ? = 이름이 뭐야?",
+   "rd": "쟈도르! 일 사펠 코망?",
+   "ko": "너무 좋아! 이름이 뭐야?",
+   "note": "J'adore = 너무 좋아 · Il s'appelle comment ? = 이름이 뭐야?",
    "tags": [],
    "new": [
-    "adorer"
+    "J'adore"
    ],
    "emotion": "excited",
    "morph_tags": [
@@ -263,12 +202,14 @@
   {
    "num": 5,
    "speaker": "B",
-   "fr": "Euh… il s'appelle… {name}.",
-   "rd": "외… 일 싸뻴… {name}.",
-   "ko": "어… 이름이… {name}야.",
-   "note": "개 이름이 A 와 같다",
+   "fr": "Euh... Biscuit.",
+   "rd": "으... 비스퀴.",
+   "ko": "어... 비스퀴야.",
+   "note": "Biscuit = 비스킷",
    "tags": [],
-   "new": [],
+   "new": [
+    "Biscuit"
+   ],
    "emotion": "flustered",
    "morph_tags": [
     [
@@ -276,30 +217,6 @@
      "euh",
      "ADJ",
      "Gender=Masc|Number=Sing"
-    ],
-    [
-     "il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "s'",
-     "se",
-     "PRON",
-     "Person=3|Reflex=Yes"
-    ],
-    [
-     "appelle",
-     "appeler",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "X.",
-     "x.",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
     ]
    ],
    "lemmas": [
@@ -307,97 +224,36 @@
      "Euh",
      "euh",
      ""
-    ],
-    [
-     "appelle",
-     "appeler",
-     ""
     ]
    ]
   },
   {
    "num": 6,
    "speaker": "A",
-   "fr": "Quoi ? Comme moi ?! …Bon, il est beau, {name}.",
-   "rd": "꾸아? 꼼 무아?! …봉, 일 레 보, {name}.",
-   "ko": "뭐? 나랑 같아?! …뭐, 잘생겼네, {name}.",
-   "note": "comme moi = 나처럼 · beau = 잘생긴, 예쁜",
-   "tags": [
-    "expr:quoi"
+   "fr": "Quoi ? Biscuit !",
+   "rd": "콰? 비스퀴!",
+   "ko": "뭐? 비스퀴!",
+   "note": "quoi = 뭐",
+   "tags": [],
+   "new": [
+    "quoi"
    ],
-   "new": [],
-   "segs": [
-    [
-     "surprised",
-     "Quoi ? Comme moi ?!"
-    ],
-    [
-     "amused",
-     "…Bon, il est beau, {name}."
-    ]
-   ],
+   "emotion": "amused",
    "morph_tags": [
     [
      "Quoi",
      "quoi",
      "PRON",
      "PronType=Int"
-    ],
-    [
-     "moi",
-     "moi",
-     "PRON",
-     "Number=Sing|Person=1|PronType=Prs"
-    ],
-    [
-     "Bon",
-     "bon",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "beau",
-     "beau",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "X.",
-     "x.",
-     "ADJ",
-     "NumType=Ord"
     ]
    ],
-   "lemmas": [
-    [
-     "Bon",
-     "bon",
-     ""
-    ],
-    [
-     "beau",
-     "beau",
-     ""
-    ]
-   ]
+   "lemmas": []
   }
  ],
- "draft": true,
  "review": {
-  "stage": "claude_draft",
-  "model": "opus",
-  "date": "2026-11-08"
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
  }
 }

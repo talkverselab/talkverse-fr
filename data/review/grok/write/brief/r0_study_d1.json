@@ -1,0 +1,76 @@
+{
+ "id": "r0_study_d1",
+ "region": "R0",
+ "island": "study",
+ "kind": "short",
+ "title": "12번 강의실",
+ "emoji": "🎒",
+ "scene": "대학 강의실. 처음 보는 레아가 옆자리에 앉는데, 레아는 강의실을 잘못 찾아왔다",
+ "where": "대학 강의실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "자리 묻기(c'est libre ?)·수업 묻기(tu as cours de quoi ?)·avoir 인칭 변화",
+ "expressions": [
+  "ouais",
+  "vas-y",
+  "attends",
+  "bof"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 8,
+   "speaker": "B"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

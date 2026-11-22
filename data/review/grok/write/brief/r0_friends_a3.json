@@ -1,0 +1,62 @@
+{
+ "id": "r0_friends_a3",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "역 앞이야",
+ "emoji": "🚉",
+ "scene": "위고와 「리옹역(Gare de Lyon) 앞」에서 만나기로 했다. 둘 다 역 앞인데 서로가 안 보인다",
+ "where": "전화",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends",
+  "travel"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "위치 말하기(Tu es où ? / Je suis devant…)",
+ "expressions": [
+  "attends",
+  "ben"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "surprised"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "worried"
+  },
+  {
+   "num": 6,
+   "speaker": "A"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

@@ -1,0 +1,82 @@
+{
+ "id": "r3_friends_a1",
+ "region": "R3",
+ "island": "friends",
+ "kind": "short",
+ "title": "안 돌아가는 열쇠들",
+ "emoji": "🔑",
+ "scene": "레벨 1 「안 돌아가는 열쇠」를 복수로 — 열쇠를 잃어버린 카미유와 레아에게 A 와 테오가 열쇠를 갖다준다. 같은 문장을 vous·nous·복수로 바꿔 말한다",
+ "where": "아파트 계단",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Théo",
+  "D": "Léa",
+  "E": "Voisin"
+ },
+ "cast": {
+  "E": "man_o"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수 일치 — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "ouais",
+  "bref",
+  "oh là là",
+  "la honte"
+ ],
+ "tags": [
+  "base:r1_friends_a1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 3,
+   "speaker": "D",
+   "emotion": "flustered"
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "E",
+   "emotion": "annoyed"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

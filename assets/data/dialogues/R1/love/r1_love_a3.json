@@ -36,36 +36,16 @@
   {
    "num": 1,
    "speaker": "B",
-   "fr": "Bon, première crêpe. Tu la retournes, d'accord ?",
-   "rd": "봉, 프르미에르 크레쁘. 뛰 라 르뚜른, 다꼬르?",
-   "ko": "자, 첫 크레프. 네가 뒤집어, 알았지?",
-   "note": "crêpe = 크레프 · retourner = 뒤집다 · d'accord ? = 알았지?",
-   "tags": [
-    "expr:d'accord"
-   ],
+   "fr": "Allez, tu la retournes !",
+   "rd": "알레, 뛰 라 르투른!",
+   "ko": "자, 뒤집자!",
+   "note": "allez = 자 · tu la retournes = 너 그것을 뒤집니",
+   "tags": [],
    "new": [
-    "crêpe"
+    "allez"
    ],
    "emotion": "cheerful",
    "morph_tags": [
-    [
-     "Bon",
-     "bon",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "première",
-     "premier",
-     "ADJ",
-     "Gender=Fem|NumType=Ord|Number=Sing"
-    ],
-    [
-     "crêpe",
-     "crêpe",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
     [
      "la",
      "le",
@@ -76,39 +56,13 @@
      "retournes",
      "retourne",
      "NOUN",
-     "Gender=Fem|Number=Plur"
-    ],
-    [
-     "accord",
-     "accord",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
+     "Gender=Fem|Number=Sing"
     ]
    ],
    "lemmas": [
     [
-     "Bon",
-     "bon",
-     ""
-    ],
-    [
-     "première",
-     "premier",
-     ""
-    ],
-    [
-     "crêpe",
-     "crêpe",
-     ""
-    ],
-    [
      "retournes",
      "retourne",
-     ""
-    ],
-    [
-     "accord",
-     "accord",
      ""
     ]
    ]
@@ -116,18 +70,24 @@
   {
    "num": 2,
    "speaker": "A",
-   "fr": "Moi ? J'ai jamais fait ça. Tu vas rire.",
-   "rd": "무아? 제 자메 페 싸. 뛰 바 리르.",
-   "ko": "내가? 한 번도 안 해 봤어. 너 웃을 거야.",
-   "note": "tu vas rire = 웃을 거야",
-   "tags": [
-    "form:futur proche"
+   "fr": "Attends, j'ai peur.",
+   "rd": "아땅, 제이 뻬르.",
+   "ko": "잠깐, 무서워.",
+   "note": "attends = 잠깐 · j'ai peur = 무서워",
+   "tags": [],
+   "new": [
+    "attends"
    ],
-   "new": [],
    "emotion": "worried",
    "morph_tags": [
     [
-     "J'",
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "j'",
      "je",
      "PRON",
      "Number=Sing|Person=1"
@@ -135,20 +95,45 @@
     [
      "ai",
      "avoir",
-     "AUX",
+     "VERB",
      "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "fait",
-     "faire",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+     "peur",
+     "peur",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
     ],
     [
-     "ça",
-     "cela",
+     "peur",
+     "peur",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Tu vas rire, c'est facile.",
+   "rd": "뛰 바 리르, 세 파실.",
+   "ko": "웃을 거야, 쉬워.",
+   "note": "tu vas rire = 너 웃을 거야 · c'est facile = 쉽다",
+   "tags": [],
+   "new": [],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
      "PRON",
-     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+     "Gender=Masc|Number=Sing|Person=3"
     ],
     [
      "vas",
@@ -161,90 +146,35 @@
      "rir",
      "ADJ",
      "Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "jamais",
-     "jamais",
-     ""
     ],
     [
-     "fait",
-     "faire",
-     ""
-    ],
-    [
-     "rire",
-     "rire",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "fr": "Je vais pas rire. Allez, un, deux… trois !",
-   "rd": "쥬 베 빠 리르. 알레, 앙, 되… 트루아!",
-   "ko": "안 웃어. 자, 하나, 둘… 셋!",
-   "note": "allez = 자, 어서",
-   "tags": [
-    "expr:allez"
-   ],
-   "new": [],
-   "emotion": "teasing",
-   "morph_tags": [
-    [
-     "Je",
-     "je",
+     "c'",
+     "ce",
      "PRON",
-     "Number=Sing|Person=1"
+     "Number=Sing|Person=3"
     ],
     [
-     "vais",
-     "aller",
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "facile",
+     "facile",
      "VERB",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "rire",
-     "rir",
-     "ADJ",
-     "Number=Sing"
-    ],
-    [
-     "Allez",
-     "aller",
-     "VERB",
-     "Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "un",
-     "un",
-     "DET",
-     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "…",
-     "…",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
     ]
    ],
    "lemmas": [
     [
-     "vais",
-     "aller",
+     "rire",
+     "rire",
      ""
     ],
     [
-     "pas",
-     "pas",
-     ""
-    ],
-    [
-     "rire",
-     "rire",
+     "facile",
+     "facile",
      ""
     ]
    ]
@@ -252,74 +182,44 @@
   {
    "num": 4,
    "speaker": "A",
-   "fr": "Elle est où ? …Oh non, elle est tombée.",
-   "rd": "엘 레 우? …오 농, 엘 레 똥베.",
-   "ko": "어디 갔지? …아 안 돼, 떨어졌어.",
-   "note": "tomber = 떨어지다 — être 복합과거, crêpe(여성)라 tombée",
-   "tags": [
-    "form:passé composé être"
-   ],
+   "fr": "D'accord, je tente.",
+   "rd": "다코르, 쥬 땅트.",
+   "ko": "좋아, 해볼게.",
+   "note": "d'accord = 좋아 · je tente = 시도한다",
+   "tags": [],
    "new": [
-    "tomber"
+    "d'accord"
    ],
-   "segs": [
-    [
-     "surprised",
-     "Elle est où ?"
-    ],
-    [
-     "flustered",
-     "…Oh non, elle est tombée."
-    ]
-   ],
+   "emotion": "cheerful",
    "morph_tags": [
     [
-     "Elle",
-     "lui",
-     "PRON",
-     "Gender=Fem|Number=Sing|Person=3"
-    ],
-    [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "où",
-     "où",
-     "PRON",
-     "PronType=Rel"
-    ],
-    [
-     "Oh",
-     "oh",
+     "accord",
+     "accord",
      "NOUN",
-     "Gender=Masc|Number=Plur"
+     "Gender=Masc|Number=Sing"
     ],
     [
-     "elle",
-     "lui",
+     "je",
+     "je",
      "PRON",
-     "Gender=Fem|Number=Sing|Person=3"
+     "Number=Sing|Person=1"
     ],
     [
-     "est",
-     "être",
-     "AUX",
+     "tente",
+     "tente",
+     "VERB",
      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "tombée",
-     "tomber",
-     "ADJ",
-     "Number=Sing"
     ]
    ],
    "lemmas": [
     [
-     "tombée",
-     "tomber",
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "tente",
+     "tente",
      ""
     ]
    ]
@@ -327,33 +227,21 @@
   {
    "num": 5,
    "speaker": "B",
-   "fr": "Pas grave, la première, elle tombe toujours.",
-   "rd": "빠 그라브, 라 프르미에르, 엘 똥브 뚜쥬르.",
-   "ko": "괜찮아, 첫 장은 원래 떨어져.",
-   "note": "elle est tombée → elle tombe toujours(첫 장은 늘 망한다)",
-   "tags": [
-    "expr:grave"
+   "fr": "Oh, elle est par terre !",
+   "rd": "오, 엘 에 파르 떼르!",
+   "ko": "오, 바닥에 떨어졌어!",
+   "note": "oh = 오 · elle est = 그것은 · par terre = 바닥에",
+   "tags": [],
+   "new": [
+    "oh"
    ],
-   "new": [],
    "emotion": "amused",
    "morph_tags": [
     [
-     "grave",
-     "grave",
-     "ADJ",
-     "Number=Sing"
-    ],
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "première",
-     "premier",
-     "ADJ",
-     "Gender=Fem|NumType=Ord|Number=Sing"
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
     ],
     [
      "elle",
@@ -362,36 +250,22 @@
      "Gender=Fem|Number=Sing|Person=3"
     ],
     [
-     "tombe",
-     "tombe",
-     "VERB",
+     "est",
+     "être",
+     "AUX",
      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "terre",
+     "terre",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
     ]
    ],
    "lemmas": [
     [
-     "Pas",
-     "pas",
-     ""
-    ],
-    [
-     "grave",
-     "grave",
-     ""
-    ],
-    [
-     "première",
-     "premier",
-     ""
-    ],
-    [
-     "tombe",
-     "tombe",
-     ""
-    ],
-    [
-     "toujours",
-     "toujours",
+     "terre",
+     "terre",
      ""
     ]
    ]
@@ -399,30 +273,16 @@
   {
    "num": 6,
    "speaker": "B",
-   "fr": "Attends, t'as de la farine… là.",
-   "rd": "아땅, 따 들 라 파린… 라.",
-   "ko": "잠깐, 너 밀가루 묻었어… 여기.",
-   "note": "farine = 밀가루",
-   "tags": [
-    "expr:attends"
-   ],
+   "fr": "Voilà, de la farine sur toi.",
+   "rd": "부알라, 드 라 파린 쉬르 뜨와.",
+   "ko": "자, 밀가루가 네 얼굴에.",
+   "note": "voilà = 자 · de la farine = 밀가루 · sur toi = 너에게",
+   "tags": [],
    "new": [
-    "farine"
+    "voilà"
    ],
    "emotion": "gentle",
    "morph_tags": [
-    [
-     "t'",
-     "te",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "as",
-     "as",
-     "NOUN",
-     "Gender=Masc"
-    ],
     [
      "la",
      "le",
@@ -434,22 +294,18 @@
      "farine",
      "NOUN",
      "Gender=Fem|Number=Sing"
+    ],
+    [
+     "toi",
+     "toi",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
     ]
    ],
    "lemmas": [
     [
-     "as",
-     "as",
-     ""
-    ],
-    [
      "farine",
      "farine",
-     ""
-    ],
-    [
-     "là",
-     "là",
      ""
     ]
    ]
@@ -457,47 +313,44 @@
   {
    "num": 7,
    "speaker": "A",
-   "fr": "…Ici ? Tu peux m'aider ?",
-   "rd": "…이씨? 뛰 뾔 메데?",
-   "ko": "…여기? 좀 도와줄래?",
-   "note": "aider = 돕다",
+   "fr": "C'est grave mignon.",
+   "rd": "세 그라브 미뇽.",
+   "ko": "진짜 귀엽다.",
+   "note": "c'est grave = 진짜 · mignon = 귀여운",
    "tags": [],
-   "new": [],
+   "new": [
+    "mignon"
+   ],
    "emotion": "shy",
    "morph_tags": [
     [
-     "peux",
-     "peux",
-     "ADJ",
-     "Gender=Masc"
-    ],
-    [
-     "m'",
-     "me",
+     "C'",
+     "ce",
      "PRON",
-     "Number=Sing|Person=1|Reflex=Yes"
+     "Number=Sing|Person=3"
     ],
     [
-     "aider",
-     "aider",
-     "VERB",
-     "VerbForm=Inf"
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "grave",
+     "grave",
+     "ADJ",
+     "Number=Sing"
     ]
    ],
    "lemmas": [
     [
-     "Ici",
-     "ici",
+     "grave",
+     "grave",
      ""
     ],
     [
-     "peux",
-     "pouvoir",
-     ""
-    ],
-    [
-     "aider",
-     "aider",
+     "mignon",
+     "mignon",
      ""
     ]
    ]
@@ -505,82 +358,63 @@
   {
    "num": 8,
    "speaker": "B",
-   "fr": "Voilà. …La prochaine, on la retourne ensemble.",
-   "rd": "부알라. …라 쁘로셴, 옹 라 르뚜른 앙쌍블.",
-   "ko": "됐다. …다음 건 같이 뒤집자.",
-   "note": "la prochaine = 다음 것(크레프) · ensemble = 같이",
-   "tags": [
-    "expr:voilà"
-   ],
+   "fr": "On en fait une autre ?",
+   "rd": "옹 앙 페 윈 오트르?",
+   "ko": "하나 더 만들까?",
+   "note": "on en fait = 우리 그것을 만든다 · une autre = 다른 하나",
+   "tags": [],
    "new": [],
    "emotion": "shy",
    "morph_tags": [
     [
-     "…",
-     "…",
+     "On",
+     "on",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "en",
+     "en",
+     "PRON",
+     "Person=3"
+    ],
+    [
+     "fait",
+     "faire",
      "VERB",
-     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
     ],
     [
-     "La",
-     "le",
+     "une",
+     "un",
      "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
     ],
     [
-     "prochaine",
-     "prochaine",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "on",
-     "on",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "la",
-     "le",
-     "PRON",
-     "Gender=Fem|Number=Sing|Person=3"
-    ],
-    [
-     "retourne",
-     "retourne",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "ensemble",
-     "ensemble",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
+     "autre",
+     "autre",
+     "ADJ",
+     "Number=Sing"
     ]
    ],
    "lemmas": [
     [
-     "prochaine",
-     "prochaine",
+     "fait",
+     "faire",
      ""
     ],
     [
-     "retourne",
-     "retourne",
-     ""
-    ],
-    [
-     "ensemble",
-     "ensemble",
+     "autre",
+     "autre",
      ""
     ]
    ]
   }
  ],
- "draft": true,
  "review": {
-  "stage": "claude_draft",
-  "model": "opus",
-  "date": "2026-11-08"
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
  }
 }

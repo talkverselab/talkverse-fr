@@ -33,79 +33,55 @@
   {
    "num": 1,
    "speaker": "B",
-   "fr": "T'es à la maison ? Je trouve plus ma clé 😩",
-   "rd": "떼 아 라 메종? 쥬 트루브 쁠뤼 마 끌레.",
-   "ko": "집이야? 열쇠가 안 보여 😩",
-   "note": "t'es = tu es(구어) · je trouve plus = 못 찾겠다(ne 생략) · clé = 열쇠",
+   "fr": "J'ai oublié les clés.",
+   "rd": "제이 우블리에 레 클레.",
+   "ko": "열쇠 두고 나왔어.",
+   "note": "j'ai oublié = 나는 잊었다 · les clés = 열쇠들",
    "tags": [],
-   "new": [
-    "clé"
-   ],
+   "new": [],
    "emotion": "worried",
-   "at": "23:12",
    "ui": "bubble",
+   "at": "23:12",
    "morph_tags": [
     [
-     "T'",
-     "te",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "maison",
-     "maison",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "Je",
+     "J'",
      "je",
      "PRON",
      "Number=Sing|Person=1"
     ],
     [
-     "trouve",
-     "trouver",
-     "VERB",
+     "ai",
+     "avoir",
+     "AUX",
      "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "ma",
-     "mon",
-     "DET",
-     "Gender=Fem|Number=Sing|Poss=Yes"
+     "oublié",
+     "oublier",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
     ],
     [
-     "clé",
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "clés",
      "clé",
      "NOUN",
-     "Gender=Fem|Number=Sing"
+     "Gender=Masc|Number=Plur"
     ]
    ],
    "lemmas": [
     [
-     "maison",
-     "maison",
+     "oublié",
+     "oublier",
      ""
     ],
     [
-     "trouve",
-     "trouver",
-     ""
-    ],
-    [
-     "plus",
-     "plus",
-     ""
-    ],
-    [
-     "clé",
+     "clés",
      "clé",
      ""
     ]
@@ -114,20 +90,177 @@
   {
    "num": 2,
    "speaker": "A",
-   "fr": "Non, je suis au ciné. Le film finit à minuit.",
-   "rd": "농, 쥬 쒸 오 씨네. 르 필므 피니 아 미뉘.",
-   "ko": "아니, 영화관이야. 영화 자정에 끝나.",
-   "note": "ciné = 영화관(구어) · finir = 끝나다",
+   "fr": "Attends, t'es dehors ?",
+   "rd": "아땅, 테 드오르?",
+   "ko": "잠깐, 밖에 있어?",
+   "note": "attends = 잠깐 · t'es = 너는 · dehors = 밖에",
    "tags": [],
    "new": [
-    "ciné"
+    "attends",
+    "t'es",
+    "dehors"
    ],
    "emotion": "cheerful",
-   "at": "23:13",
    "ui": "bubble",
+   "at": "23:13",
    "morph_tags": [
     [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ]
+   ],
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Ouais, genre dehors.",
+   "rd": "우애, 장르 드오르.",
+   "ko": "응, 완전 밖에.",
+   "note": "ouais = 응 · genre = 완전 · dehors = 밖에",
+   "tags": [],
+   "new": [
+    "ouais",
+    "genre",
+    "dehors"
+   ],
+   "emotion": "shout",
+   "ui": "bubble",
+   "at": "23:13",
+   "morph_tags": [
+    [
+     "genre",
+     "genre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "lemmas": [
+    [
+     "genre",
+     "genre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Mdr trop con.",
+   "rd": "엠데에르 트로 콩.",
+   "ko": "ㅋㅋ 너무 바보.",
+   "note": "mdr = ㅋㅋ · trop = 너무 · con = 바보",
+   "tags": [],
+   "new": [
+    "mdr",
+    "trop",
+    "con"
+   ],
+   "emotion": "teasing",
+   "ui": "bubble",
+   "at": "23:15",
+   "morph_tags": [
+    [
+     "Mdr",
+     "mdr",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "con",
+     "con",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Mdr",
+     "mdr",
+     ""
+    ],
+    [
+     "trop",
+     "trop",
+     ""
+    ],
+    [
+     "con",
+     "con",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Laisse tomber, je suis bloqué.",
+   "rd": "레스 통베, 쥬 쉬 블로케.",
+   "ko": "됐어, 갇혔어.",
+   "note": "laisse tomber = 됐어 · je suis bloqué = 나는 막혔다",
+   "tags": [],
+   "new": [],
+   "emotion": "annoyed",
+   "ui": "bubble",
+   "at": "23:15",
+   "morph_tags": [
+    [
+     "tomber",
+     "tomber",
+     "VERB",
+     "VerbForm=Inf"
+    ],
+    [
      "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "suis",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bloqué",
+     "bloquer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "tomber",
+     "tomber",
+     ""
+    ],
+    [
+     "bloqué",
+     "bloquer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Je suis au ciné, désolé.",
+   "rd": "쥬 쉬 오 시네, 데솔레.",
+   "ko": "영화관에 있어, 미안.",
+   "note": "je suis = 나는 · au ciné = 영화관에 · désolé = 미안한",
+   "tags": [],
+   "new": [
+    "désolé"
+   ],
+   "emotion": "gentle",
+   "ui": "bubble",
+   "at": "23:16",
+   "morph_tags": [
+    [
+     "Je",
      "je",
      "PRON",
      "Number=Sing|Person=1"
@@ -145,399 +278,21 @@
      "Gender=Masc|Number=Sing"
     ],
     [
-     "Le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "film",
-     "film",
+     "désolé",
+     "désolé",
      "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "finit",
-     "finir",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "minuit",
-     "minuit",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "ciné",
-     "ciné",
-     ""
-    ],
-    [
-     "film",
-     "film",
-     ""
-    ],
-    [
-     "finit",
-     "finir",
-     ""
-    ],
-    [
-     "minuit",
-     "minuit",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "fr": "Minuit ?! Il fait trop froid, je vais mourir 🥶",
-   "rd": "미뉘?! 일 페 트로 프루아, 쥬 베 무리르.",
-   "ko": "자정?! 너무 추워, 나 죽을 것 같아 🥶",
-   "note": "il fait froid = 춥다 · je vais + 동사 = …할 거야",
-   "tags": [
-    "expr:trop"
-   ],
-   "new": [
-    "froid"
-   ],
-   "emotion": "shout",
-   "at": "23:13",
-   "ui": "bubble",
-   "morph_tags": [
-    [
-     "Minuit",
-     "minuit",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "Il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "fait",
-     "faire",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "froid",
-     "froid",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "vais",
-     "aller",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "mourir",
-     "mourir",
-     "VERB",
-     "VerbForm=Inf"
-    ],
-    [
-     "🥶",
-     "🥶",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Minuit",
-     "minuit",
-     ""
-    ],
-    [
-     "fait",
-     "faire",
-     ""
-    ],
-    [
-     "trop",
-     "trop",
-     ""
-    ],
-    [
-     "froid",
-     "froid",
-     ""
-    ],
-    [
-     "vais",
-     "aller",
-     ""
-    ],
-    [
-     "mourir",
-     "mourir",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 4,
-   "speaker": "A",
-   "fr": "Attends, tu as regardé dans ta poche ? Genre, vraiment ?",
-   "rd": "아땅, 뛰 아 르가르데 당 따 뽀슈? 쟝르, 브레망?",
-   "ko": "잠깐, 주머니 봤어? 그러니까, 제대로?",
-   "note": "poche = 주머니",
-   "tags": [
-    "expr:attends",
-    "expr:genre"
-   ],
-   "new": [
-    "poche"
-   ],
-   "emotion": "teasing",
-   "at": "23:15",
-   "ui": "bubble",
-   "morph_tags": [
-    [
-     "tu",
-     "taire",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "as",
-     "as",
-     "PRON",
-     "Person=3|Reflex=Yes"
-    ],
-    [
-     "regardé",
-     "regarder",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "ta",
-     "ton",
-     "DET",
-     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "poche",
-     "poche",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "regardé",
-     "regarder",
-     ""
-    ],
-    [
-     "poche",
-     "poche",
-     ""
-    ],
-    [
-     "vraiment",
-     "vraiment",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 5,
-   "speaker": "B",
-   "fr": "Bah évidemment ! Tu me prends pour qui ? Je regarde encore… rien.",
-   "rd": "바 에비다망! 뛰 므 프랑 뿌르 끼? 쥬 르가르드 앙꼬르… 리앵.",
-   "ko": "아 당연하지! 날 뭘로 보는 거야? 지금도 보고 있는데… 없어.",
-   "note": "tu as regardé → je regarde (복합과거 → 현재) · Tu me prends pour qui ? = 날 뭘로 봐?",
-   "tags": [],
-   "new": [],
-   "emotion": "annoyed",
-   "at": "23:15",
-   "ui": "bubble",
-   "morph_tags": [
-    [
-     "Tu",
-     "tu",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "me",
-     "me",
-     "PRON",
-     "Number=Sing|Person=1|Reflex=Yes"
-    ],
-    [
-     "prends",
-     "prend",
-     "ADJ",
      "Gender=Masc|Number=Plur"
-    ],
-    [
-     "qui",
-     "qui",
-     "PRON",
-     "PronType=Rel"
-    ],
-    [
-     "Je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "regarde",
-     "regarder",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "rien",
-     "rien",
-     "PRON",
-     "Number=Sing"
     ]
    ],
    "lemmas": [
     [
-     "évidemment",
-     "évidemment",
+     "ciné",
+     "ciné",
      ""
     ],
     [
-     "prends",
-     "prendre",
-     ""
-    ],
-    [
-     "regarde",
-     "regarder",
-     ""
-    ],
-    [
-     "encore",
-     "encore",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 6,
-   "speaker": "A",
-   "fr": "Ça va, ça va, j'arrive. Je quitte le film pour toi, hein 🙄",
-   "rd": "싸 바, 싸 바, 쟈리브. 쥬 끼뜨 르 필므 뿌르 뚜아, 앵.",
-   "ko": "알았어 알았어, 갈게. 너 때문에 영화 나간다, 응? 🙄",
-   "note": "ça va, ça va = 알았어 알았어 · je vais(3턴) → ça va · quitter = 나가다",
-   "tags": [
-    "expr:ça va"
-   ],
-   "new": [],
-   "emotion": "gentle",
-   "at": "23:16",
-   "ui": "bubble",
-   "morph_tags": [
-    [
-     "Ça",
-     "cela",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "va",
-     "aller",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "ça",
-     "cela",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
-    ],
-    [
-     "va",
-     "aller",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "j'",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "arrive",
-     "arriver",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "Je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "quitte",
-     "quitte",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "film",
-     "film",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "hein",
-     "hein",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "va",
-     "aller",
-     ""
-    ],
-    [
-     "arrive",
-     "arriver",
-     ""
-    ],
-    [
-     "quitte",
-     "quitte",
-     ""
-    ],
-    [
-     "film",
-     "film",
+     "désolé",
+     "désolé",
      ""
     ]
    ]
@@ -545,32 +300,32 @@
   {
    "num": 7,
    "speaker": "B",
-   "fr": "…",
-   "rd": "…",
-   "ko": "…",
-   "note": "침묵",
+   "fr": "Attends...",
+   "rd": "아땅...",
+   "ko": "잠깐...",
+   "note": "attends = 잠깐",
    "tags": [],
-   "new": [],
+   "new": [
+    "attends"
+   ],
    "emotion": "flustered",
-   "at": "23:19",
    "ui": "bubble",
+   "at": "23:19",
    "morph_tags": [],
    "lemmas": []
   },
   {
    "num": 8,
    "speaker": "B",
-   "fr": "Je l'ai trouvée. Dans ma poche.",
-   "rd": "쥬 레 트루베. 당 마 뽀슈.",
-   "ko": "찾았어. 주머니에 있었어.",
-   "note": "je trouve plus → je l'ai trouvée = 그걸(clé, 여성) 찾았다 — 성 일치",
-   "tags": [
-    "form:passé composé"
-   ],
+   "fr": "Je l'ai trouvée dans ma poche !",
+   "rd": "쥬 레 트루베 당 마 포슈!",
+   "ko": "주머니에서 찾았어!",
+   "note": "je l'ai trouvée = 나는 그것을 찾았다 · dans ma poche = 내 주머니에",
+   "tags": [],
    "new": [],
    "emotion": "flustered",
-   "at": "23:19",
    "ui": "bubble",
+   "at": "23:19",
    "morph_tags": [
     [
      "Je",
@@ -625,18 +380,57 @@
   {
    "num": 9,
    "speaker": "A",
-   "fr": "Mdr. Trop tard, je suis déjà dans le métro.",
-   "rd": "엠데에르. 트로 따르, 쥬 쒸 데쟈 당 르 메트로.",
-   "ko": "ㅋㅋ 늦었어, 벌써 지하철이야.",
-   "note": "trop tard = 너무 늦었다",
-   "tags": [
-    "expr:mdr"
+   "fr": "Sérieux mdr.",
+   "rd": "세리외 엠데에르.",
+   "ko": "진심 ㅋㅋ.",
+   "note": "sérieux = 진심 · mdr = ㅋㅋ",
+   "tags": [],
+   "new": [
+    "sérieux",
+    "mdr"
    ],
-   "new": [],
    "emotion": "tsukkomi",
-   "at": "23:21",
    "ui": "bubble",
+   "at": "23:21",
    "morph_tags": [
+    [
+     "Sérieux",
+     "sérieux",
+     "ADJ",
+     "Gender=Masc"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Sérieux",
+     "sérieux",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "fr": "Trop bête, je rentre.",
+   "rd": "트로 벳, 쥬 랑트르.",
+   "ko": "너무 바보야, 들어갈게.",
+   "note": "trop = 너무 · bête = 바보 · je rentre = 나는 돌아간다",
+   "tags": [],
+   "new": [
+    "trop",
+    "bête"
+   ],
+   "emotion": "sad",
+   "ui": "bubble",
+   "at": "23:22",
+   "stamp": "🚲",
+   "morph_tags": [
+    [
+     "bête",
+     "bête",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
     [
      "je",
      "je",
@@ -644,22 +438,10 @@
      "Number=Sing|Person=1"
     ],
     [
-     "suis",
-     "être",
-     "AUX",
+     "rentre",
+     "rentrer",
+     "VERB",
      "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "métro",
-     "métro",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
     ]
    ],
    "lemmas": [
@@ -669,137 +451,22 @@
      ""
     ],
     [
-     "tard",
-     "tard",
+     "bête",
+     "bête",
      ""
     ],
     [
-     "déjà",
-     "déjà",
-     ""
-    ],
-    [
-     "métro",
-     "métro",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "B",
-   "fr": "Laisse tomber… c'est la clé de mon vélo. Pas de l'appart.",
-   "rd": "레쓰 똥베… 쎄 라 끌레 드 몽 벨로. 빠 드 라빠르뜨.",
-   "ko": "잊어버려… 이거 자전거 열쇠야. 집 열쇠가 아니라.",
-   "note": "laisse tomber = 됐어, 잊어 · appart = 아파트(구어)",
-   "tags": [
-    "expr:laisse tomber"
-   ],
-   "new": [],
-   "emotion": "sad",
-   "at": "23:22",
-   "stamp": "🚲",
-   "ui": "bubble",
-   "morph_tags": [
-    [
-     "Laisse",
-     "laisse",
-     "VERB",
-     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "tomber",
-     "tomber",
-     "VERB",
-     "VerbForm=Inf"
-    ],
-    [
-     "c'",
-     "ce",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "clé",
-     "clé",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "mon",
-     "mon",
-     "DET",
-     "Number=Sing|Poss=Yes"
-    ],
-    [
-     "vélo",
-     "vélo",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "l'",
-     "le",
-     "DET",
-     "Definite=Def|Number=Sing|PronType=Art"
-    ],
-    [
-     "appart",
-     "appart",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Laisse",
-     "laisse",
-     ""
-    ],
-    [
-     "tomber",
-     "tomber",
-     ""
-    ],
-    [
-     "clé",
-     "clé",
-     ""
-    ],
-    [
-     "vélo",
-     "vélo",
-     ""
-    ],
-    [
-     "Pas",
-     "pas",
-     ""
-    ],
-    [
-     "appart",
-     "appart",
+     "rentre",
+     "rentrer",
      ""
     ]
    ]
   }
  ],
- "draft": true,
  "review": {
-  "stage": "claude_draft",
-  "model": "opus",
-  "date": "2026-11-08"
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
  }
 }

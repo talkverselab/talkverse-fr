@@ -1,0 +1,107 @@
+{
+ "id": "r4_love_b1",
+ "region": "R4",
+ "island": "love",
+ "kind": "long",
+ "title": "디저트는 꽃",
+ "emoji": "💐",
+ "scene": "위고의 식당. A 가 레아와의 저녁을 완벽하게 준비하려는데 레아는 일찍 오고, 위고는 케이크를 태우고, 숨겨 둔 꽃은 들킨다",
+ "where": "식당 주방 앞",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Léa"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "life"
+ ],
+ "goal": "접속법(il faut que · j'aimerais que · à moins que)·대명사 결합(les lui · m'en · j'en)·가정(si j'avais…, j'aurais…)",
+ "expressions": [
+  "t'inquiète",
+  "pas de souci",
+  "pas du tout",
+  "c'est quoi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "amused"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 9,
+   "speaker": "C"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "emotion": "shout"
+  },
+  {
+   "num": 11,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "emotion": "teasing"
+  },
+  {
+   "num": 13,
+   "speaker": "A",
+   "emotion": "shy"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "emotion": "gentle"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

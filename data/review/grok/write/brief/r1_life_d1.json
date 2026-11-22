@@ -1,0 +1,74 @@
+{
+ "id": "r1_life_d1",
+ "region": "R1",
+ "island": "life",
+ "kind": "short",
+ "title": "양말 한 짝",
+ "emoji": "🧦",
+ "scene": "셰어하우스 세탁기. 테오가 자기 빨래를 A 의 흰 셔츠와 같이 돌렸는데, 빨간 양말 한 짝 때문에 셔츠가 분홍색이 됐다",
+ "where": "셰어하우스 세탁실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "laver·mettre 현재(tu laves·je lave·je mets)·복합과거 t'as mis·형용사 성 일치(blanc→blanche, rouge·rose)",
+ "expressions": [
+  "d'accord",
+  "t'inquiète",
+  "voilà",
+  "tant pis"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "shout"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

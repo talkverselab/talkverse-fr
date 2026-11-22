@@ -1,0 +1,74 @@
+{
+ "id": "r1_love_a1",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "title": "같은 책",
+ "emoji": "📖",
+ "scene": "공원 벤치. 레아가 먼저 다가와 A 가 읽는 책을 묻는다 — 레아 손에도 같은 책이 있다",
+ "where": "공원",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "tu 현재·복합과거(j'ai lu / tu l'as acheté)·on",
+ "expressions": [
+  "c'est pas vrai",
+  "bof",
+  "pardon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 2,
+   "speaker": "A"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "amused"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "A"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

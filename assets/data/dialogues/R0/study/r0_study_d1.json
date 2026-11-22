@@ -1,0 +1,397 @@
+{
+ "id": "r0_study_d1",
+ "region": "R0",
+ "island": "study",
+ "kind": "short",
+ "title": "12번 강의실",
+ "emoji": "🎒",
+ "scene": "대학 강의실. 처음 보는 레아가 옆자리에 앉는데, 레아는 강의실을 잘못 찾아왔다",
+ "where": "대학 강의실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "자리 묻기(c'est libre ?)·수업 묻기(tu as cours de quoi ?)·avoir 인칭 변화",
+ "expressions": [
+  "ouais",
+  "vas-y",
+  "attends",
+  "bof"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "C'est libre, ici ?",
+   "rd": "세 리브르, 이시 ?",
+   "ko": "여기 자리 비었어?",
+   "note": "c'est libre = 비어 있어 · ici = 여기",
+   "tags": [],
+   "new": [
+    "ici"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "libre",
+     "libre",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "libre",
+     "libre",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Ouais, vas-y.",
+   "rd": "웨, 바지.",
+   "ko": "응, 앉아.",
+   "note": "ouais = 응 · vas-y = 가",
+   "tags": [],
+   "new": [
+    "ouais",
+    "vas-y"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [],
+   "lemmas": []
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Merci ! Tu as cours de quoi ?",
+   "rd": "메르시 ! 뛰 아 쿠르 드 콰 ?",
+   "ko": "고마워! 무슨 수업이야?",
+   "note": "tu as = 너는 가지고 있어 · cours de quoi = 무슨 수업",
+   "tags": [],
+   "new": [],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Merci",
+     "merci",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "cours",
+     "cours",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "quoi",
+     "quoi",
+     "PRON",
+     "PronType=Int"
+    ]
+   ],
+   "lemmas": [
+    [
+     "as",
+     "as",
+     ""
+    ],
+    [
+     "cours",
+     "cours",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "J'ai cours de français.",
+   "rd": "제이 쿠르 드 프랑세.",
+   "ko": "나 프랑스어 수업이야.",
+   "note": "j'ai = 나는 가지고 있어 · français = 프랑스어",
+   "tags": [],
+   "new": [
+    "j'ai",
+    "français"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cours",
+     "cours",
+     "NOUN",
+     "Gender=Masc"
+    ],
+    [
+     "français",
+     "français",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "cours",
+     "cours",
+     ""
+    ],
+    [
+     "français",
+     "français",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Attends... j'ai pas ça.",
+   "rd": "아땅... 제이 빠 사.",
+   "ko": "잠깐... 나 그거 아닌데.",
+   "note": "attends = 잠깐 · j'ai pas = 나는 안 가지고 있어",
+   "tags": [],
+   "new": [
+    "attends"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Bof, t'es dans la mauvaise salle !",
+   "rd": "보프, 떼 당 라 모베즈 살 !",
+   "ko": "글쎄, 너 잘못된 강의실이야!",
+   "note": "bof = 글쎄 · mauvaise salle = 잘못된 방",
+   "tags": [],
+   "new": [
+    "bof"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "mauvaise",
+     "mauvais",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "salle",
+     "salle",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mauvaise",
+     "mauvais",
+     ""
+    ],
+    [
+     "salle",
+     "salle",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Mais reste, c'est mieux ici.",
+   "rd": "메 레스트, 세 미유 이시.",
+   "ko": "근데 있어, 여기가 더 좋아.",
+   "note": "reste = 있어 · mieux = 더 좋아",
+   "tags": [],
+   "new": [
+    "reste",
+    "mieux"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "reste",
+     "reste",
+     ""
+    ],
+    [
+     "mieux",
+     "mieux",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Ouais... j'ai de la chance alors.",
+   "rd": "웨... 제이 드 라 샹스 알로르.",
+   "ko": "응... 그럼 나 운 좋네.",
+   "note": "ouais = 응 · j'ai de la chance = 나는 운이 좋아",
+   "tags": [],
+   "new": [
+    "ouais"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "chance",
+     "chance",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "chance",
+     "chance",
+     ""
+    ],
+    [
+     "alors",
+     "alors",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

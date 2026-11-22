@@ -1,0 +1,77 @@
+{
+ "id": "r1_love_a3",
+ "region": "R1",
+ "island": "love",
+ "kind": "short",
+ "title": "첫 크레프",
+ "emoji": "🥞",
+ "scene": "위고의 부엌. 위고가 크레프 뒤집기를 가르쳐 주는데 첫 장은 바닥으로 — 그리고 A 얼굴에 밀가루",
+ "where": "위고네 부엌",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "life"
+ ],
+ "goal": "tu 현재·aller+inf(tu vas rire)·대명사 la(tu la retournes)·on",
+ "expressions": [
+  "d'accord",
+  "allez",
+  "grave",
+  "attends",
+  "voilà"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "amused"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "shy"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

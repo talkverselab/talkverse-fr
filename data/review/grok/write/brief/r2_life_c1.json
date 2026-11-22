@@ -1,0 +1,95 @@
+{
+ "id": "r2_life_c1",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "title": "열쇠는 주머니에",
+ "emoji": "🔑",
+ "scene": "밤 11시, 룸메이트 테오가 열쇠를 두고 나왔다며 문자한다. A 는 영화관에 있다",
+ "where": "메신저(1:1)",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "chat",
+ "twist": 8,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "복합과거(j'ai oublié · je l'ai trouvée — 성 일치)·채팅 말투",
+ "expressions": [
+  "attends",
+  "genre",
+  "mdr",
+  "laisse tomber",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "23:12"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "23:13"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "shout",
+   "at": "23:13"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "teasing",
+   "at": "23:15"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "annoyed",
+   "at": "23:15"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "gentle",
+   "at": "23:16"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "flustered",
+   "at": "23:19"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "flustered",
+   "at": "23:19"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "emotion": "tsukkomi",
+   "at": "23:21"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "emotion": "sad",
+   "at": "23:22"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

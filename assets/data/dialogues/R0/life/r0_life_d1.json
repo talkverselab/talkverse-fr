@@ -1,0 +1,522 @@
+{
+ "id": "r0_life_d1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "쇼콜라틴",
+ "emoji": "🥐",
+ "scene": "위고가 아르바이트하는 동네 빵집. A 가 빵 오 쇼콜라를 달라고 하자 위고가 빵 이름부터 고친다",
+ "where": "빵집",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "주문하기(je veux…, s'il te plaît)·dire 인칭 변화(on dit·je dis)",
+ "expressions": [
+  "mince",
+  "ben",
+  "c'est quoi",
+  "s'il te plaît"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Salut ! Tu veux quoi ?",
+   "rd": "쌀뤼 ! 뛰 브 콰 ?",
+   "ko": "안녕! 뭐 원해?",
+   "note": "salut = 안녕 · tu veux quoi = 너 뭐 원해",
+   "tags": [],
+   "new": [
+    "salut"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "veux",
+     "veux",
+     "ADJ",
+     "Gender=Masc"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "Je veux un pain au chocolat, s'il te plaît.",
+   "rd": "쥬 브 앵 팽 오 쇼콜라, 실 뜨 쁠레.",
+   "ko": "빵 오 쇼콜라 하나 주세요.",
+   "note": "je veux = 나는 원해 · pain au chocolat = 초코빵 · s'il te plaît = 부탁해",
+   "tags": [],
+   "new": [],
+   "emotion": "polite",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "veux",
+     "vouloir",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pain",
+     "pain",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "plaît",
+     "plaît",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "veux",
+     "vouloir",
+     ""
+    ],
+    [
+     "pain",
+     "pain",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ],
+    [
+     "plaît",
+     "plaire",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Un pain au chocolat ? On dit chocolatine !",
+   "rd": "앵 팽 오 쇼콜라 ? 옹 디 쇼콜라틴 !",
+   "ko": "빵 오 쇼콜라? 쇼콜라틴이라고 해!",
+   "note": "on dit = 사람들이 말해 · chocolatine = 쇼콜라틴",
+   "tags": [],
+   "new": [
+    "chocolatine"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "pain",
+     "pain",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "dit",
+     "dire",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "chocolatine",
+     "chocolatin",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "pain",
+     "pain",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ],
+    [
+     "dit",
+     "dire",
+     ""
+    ],
+    [
+     "chocolatine",
+     "chocolatin",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Chocolatine ? C'est quoi ça ?",
+   "rd": "쇼콜라틴 ? 세 콰 사 ?",
+   "ko": "쇼콜라틴? 그게 뭐야?",
+   "note": "c'est quoi = 그게 뭐야 · ça = 그거",
+   "tags": [],
+   "new": [
+    "ça"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Chocolatine",
+     "chocolatine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Chocolatine",
+     "chocolatine",
+     ""
+    ],
+    [
+     "quoi",
+     "quoi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Ben, c'est le même ! Je dis chocolatine.",
+   "rd": "뱅, 세 르 멤 ! 쥬 디 쇼콜라틴.",
+   "ko": "어, 똑같은 거야! 나는 쇼콜라틴이라고 해.",
+   "note": "ben = 어 · c'est le même = 똑같아 · je dis = 나는 말해",
+   "tags": [],
+   "new": [
+    "ben"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "même",
+     "même",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "chocolatine",
+     "chocolatine",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "même",
+     "même",
+     ""
+    ],
+    [
+     "chocolatine",
+     "chocolatine",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Ah, mince ! Vraiment ?",
+   "rd": "아, 맹스 ! 브레망 ?",
+   "ko": "아, 이런! 정말?",
+   "note": "mince = 이런 · vraiment = 정말",
+   "tags": [],
+   "new": [
+    "mince",
+    "vraiment"
+   ],
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "mince",
+     "mince",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mince",
+     "mince",
+     ""
+    ],
+    [
+     "Vraiment",
+     "vraiment",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Euh, je dis pain au chocolat aussi... mince !",
+   "rd": "으, 쥬 디 팽 오 쇼콜라 오시... 맹스 !",
+   "ko": "어, 나도 빵 오 쇼콜라라고 해... 이런!",
+   "note": "euh = 어 · aussi = 도",
+   "tags": [],
+   "new": [
+    "euh",
+    "aussi"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Euh",
+     "euh",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "pain",
+     "pain",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "mince",
+     "mince",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Euh",
+     "euh",
+     ""
+    ],
+    [
+     "pain",
+     "pain",
+     ""
+    ],
+    [
+     "chocolat",
+     "chocolat",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "mince",
+     "mince",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "fr": "Tu changes le nom tout le temps !",
+   "rd": "뛰 샹쥬 르 농 뚜 르 땅 !",
+   "ko": "너 이름 맨날 바꾸네!",
+   "note": "tu changes = 너 바꿔 · le nom = 이름 · tout le temps = 맨날",
+   "tags": [],
+   "new": [],
+   "emotion": "tsukkomi",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "changes",
+     "change",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "nom",
+     "nom",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "tout",
+     "tout",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "temps",
+     "temps",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "changes",
+     "change",
+     ""
+    ],
+    [
+     "nom",
+     "nom",
+     ""
+    ],
+    [
+     "tout",
+     "tout",
+     ""
+    ],
+    [
+     "temps",
+     "temps",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

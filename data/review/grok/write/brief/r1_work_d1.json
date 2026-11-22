@@ -1,0 +1,77 @@
+{
+ "id": "r1_work_d1",
+ "region": "R1",
+ "island": "work",
+ "kind": "short",
+ "title": "첫 출근, 첫 카푸치노",
+ "emoji": "☕",
+ "scene": "카미유가 일하는 카페, A 의 첫 출근날. 커피는 매일 만든다던 A 가 우유 스팀 버튼을 세게 눌러 우유가 사방에 튄다 — 그 카푸치노를 손님이 기다리고 있었다",
+ "where": "카페 카운터 안",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Client"
+ },
+ "cast": {
+  "C": "man_m"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "faire(faire·je fais·t'as fait)·mettre(tu mets·je mets) 현재·복합과거, 부분관사 du café",
+ "expressions": [
+  "bien sûr",
+  "attends",
+  "oh là là",
+  "mince"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "emotion": "stiff"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

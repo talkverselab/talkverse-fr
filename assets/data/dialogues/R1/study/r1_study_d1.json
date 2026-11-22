@@ -1,0 +1,467 @@
+{
+ "id": "r1_study_d1",
+ "region": "R1",
+ "island": "study",
+ "kind": "short",
+ "title": "시험 전날의 노트",
+ "emoji": "✏️",
+ "scene": "시험 전날 도서관. 공부한다던 레아의 노트를 A 가 빌려 보려는데, 마지막 쪽에 그려진 건 A 의 얼굴이었다",
+ "where": "대학 도서관",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "love"
+ ],
+ "domain": [
+  "study",
+  "love"
+ ],
+ "goal": "travailler·dessiner·regarder 현재(tu/je)·복합과거(tu m'as dessiné(e) — 성별판)·형용사 일치(finies)",
+ "expressions": [
+  "grave",
+  "attends",
+  "ben"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "Tu travailles grave, Léa ?",
+   "rd": "뛰 트라바이유 그라브, 레아 ?",
+   "ko": "레아, 너 진짜 공부해?",
+   "note": "tu travailles = 너는 공부해 · grave = 진짜로",
+   "tags": [],
+   "new": [
+    "grave"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "travailles",
+     "travaille",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "grave",
+     "grave",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "travailles",
+     "travaille",
+     ""
+    ],
+    [
+     "grave",
+     "grave",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Ouais... attends, pas ça.",
+   "rd": "웨... 아땅, 빠 사.",
+   "ko": "응... 잠깐, 그건 안 돼.",
+   "note": "attends = 잠깐 · pas ça = 그건 안",
+   "tags": [],
+   "new": [
+    "attends"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "attends",
+     "attend",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ]
+   ],
+   "lemmas": [
+    [
+     "attends",
+     "attend",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Je regarde tes notes, d'accord ?",
+   "rd": "쥬 르가르드 테 노트, 다코르 ?",
+   "ko": "네 노트 볼게, 괜찮아?",
+   "note": "je regarde = 나는 봐 · tes notes = 네 노트",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "regarde",
+     "regarder",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "tes",
+     "te",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "notes",
+     "note",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "regarde",
+     "regarder",
+     ""
+    ],
+    [
+     "tes",
+     "te",
+     ""
+    ],
+    [
+     "notes",
+     "note",
+     ""
+    ],
+    [
+     "accord",
+     "accord",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Ben, les dernières pages sont finies.",
+   "rd": "뱅, 레 데르니에르 파주 송 피니.",
+   "ko": "어, 마지막 쪽들은 끝났어.",
+   "note": "ben = 어 · finies = 끝난 (여성 복수)",
+   "tags": [],
+   "new": [
+    "ben",
+    "finies"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "les",
+     "le",
+     "DET",
+     "Definite=Def|Number=Plur|PronType=Art"
+    ],
+    [
+     "dernières",
+     "dernier",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "pages",
+     "page",
+     "NOUN",
+     "Number=Plur"
+    ],
+    [
+     "sont",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "finies",
+     "finir",
+     "VERB",
+     "Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dernières",
+     "dernier",
+     ""
+    ],
+    [
+     "pages",
+     "page",
+     ""
+    ],
+    [
+     "finies",
+     "finir",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Je dessine aussi un peu.",
+   "rd": "쥬 데신 오시 앵 프.",
+   "ko": "나도 조금 그려.",
+   "note": "je dessine = 나는 그려 · aussi = 도",
+   "tags": [],
+   "new": [
+    "aussi"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "dessine",
+     "dessiner",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "un",
+     "un",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dessine",
+     "dessiner",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ],
+    [
+     "peu",
+     "peu",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Non ! Tu regardes pas !",
+   "rd": "농 ! 뛰 르가르드 빠 !",
+   "ko": "안 돼! 보지 마!",
+   "note": "tu regardes = 너는 봐 · pas = 안",
+   "tags": [],
+   "new": [
+    "pas"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "regardes",
+     "regarde",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "regardes",
+     "regarde",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Tu m'as dessiné ici !",
+   "rd": "뛰 마 데시네 이시 !",
+   "ko": "네가 나를 여기 그렸네!",
+   "note": "tu m'as dessiné = 너는 나를 그렸어",
+   "tags": [],
+   "new": [],
+   "fr_f": "Tu m'as dessinée ici !",
+   "rd_f": "뛰 마 데시네 이시 !",
+   "emotion": "surprised",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dessiné",
+     "dessiner",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ]
+   ],
+   "morph_tags_f": [
+    [
+     "Tu",
+     "tu",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1|Reflex=Yes"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "dessinée",
+     "dessiner",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "dessiné",
+     "dessiner",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "C'est... c'est juste toi.",
+   "rd": "세... 세 쥐스트 투아.",
+   "ko": "그건... 그냥 너야.",
+   "note": "c'est = 그것은 · juste = 그냥",
+   "tags": [],
+   "new": [
+    "c'est",
+    "juste"
+   ],
+   "emotion": "shy",
+   "morph_tags": [
+    [
+     "C'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "juste",
+     "juste",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

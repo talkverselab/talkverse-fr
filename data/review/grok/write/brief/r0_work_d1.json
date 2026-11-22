@@ -1,0 +1,73 @@
+{
+ "id": "r0_work_d1",
+ "region": "R0",
+ "island": "work",
+ "kind": "short",
+ "title": "그 버튼 말고",
+ "emoji": "☕",
+ "scene": "카미유가 일하는 카페에서 아르바이트 첫날. 카미유가 커피 머신 쓰는 법을 알려 준다",
+ "where": "카페",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "설명 따라 하기(tu mets… / je mets…)·같은 동사 tu ↔ je",
+ "expressions": [
+  "d'accord",
+  "oh là là",
+  "t'inquiète"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "shout"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

@@ -1,0 +1,77 @@
+{
+ "id": "r1_study_d1",
+ "region": "R1",
+ "island": "study",
+ "kind": "short",
+ "title": "시험 전날의 노트",
+ "emoji": "✏️",
+ "scene": "시험 전날 도서관. 공부한다던 레아의 노트를 A 가 빌려 보려는데, 마지막 쪽에 그려진 건 A 의 얼굴이었다",
+ "where": "대학 도서관",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "love"
+ ],
+ "domain": [
+  "study",
+  "love"
+ ],
+ "goal": "travailler·dessiner·regarder 현재(tu/je)·복합과거(tu m'as dessiné(e) — 성별판)·형용사 일치(finies)",
+ "expressions": [
+  "grave",
+  "attends",
+  "ben"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "shout"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "shy"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

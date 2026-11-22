@@ -1,0 +1,79 @@
+{
+ "id": "r1_culture_a1",
+ "region": "R1",
+ "island": "culture",
+ "kind": "short",
+ "title": "음악은 좋았어",
+ "emoji": "🎬",
+ "scene": "카페 쉬는 시간. 카미유가 새 로봇 영화 얘기를 꺼내자 A 가 신이 나서 결말까지 말해 버린다 — 카미유는 오늘 밤 보러 간다",
+ "where": "카페",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "영화·음악 감상 말하기(c'est bien·trop belle)·복합과거(t'as vu)·aller+inf",
+ "expressions": [
+  "ouais",
+  "franchement",
+  "trop",
+  "bof",
+  "vas-y",
+  "bah",
+  "tu vois"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "excited"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "shout"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "flustered"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

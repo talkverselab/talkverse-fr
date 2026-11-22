@@ -1,0 +1,106 @@
+{
+ "id": "r5_love_b1",
+ "region": "R5",
+ "island": "love",
+ "kind": "long",
+ "title": "목요일 빨래방",
+ "emoji": "🧺",
+ "scene": "밤의 빨래방. 레아가 먼저 동전을 빌리며 말을 건다. 레아는 한 달째 목요일마다 A 를 보며 말 걸 용기를 못 내고 있었다",
+ "where": "빨래방",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 11,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "study_abroad"
+ ],
+ "domain": [
+  "love",
+  "life"
+ ],
+ "goal": "빨래·생활 어휘(monnaie·pièce·programme·degré·laine·essorage·rétrécir·sèche-linge·linge·chaussette·chemise), 새 문법 없음",
+ "expressions": [
+  "tiens",
+  "tant pis",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "teasing"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 7,
+   "speaker": "B"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "gentle"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 14,
+   "speaker": "A",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

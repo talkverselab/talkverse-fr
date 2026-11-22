@@ -65,13 +65,14 @@ def main():
             time.sleep(4 + 2 * len(remote))
         model = c.ev("[...document.querySelectorAll('button')].map(b=>b.getAttribute('aria-label')||'').find(x=>/^모델/.test(x))||''")
         print(model)
-        if text is not None and '전문가' not in model:  # 사용자 지시: 전문가 모드로만(2026-11-09)
-            raise SystemExit('Grok 모델이 전문가가 아님: ' + model)
+        if text is not None and '빠른' not in model:  # 사용자 지시: 「빠른」 모드(2026-11-18, 그전 11-09 는 전문가)
+            raise SystemExit('Grok 모델이 빠른 모드가 아님: ' + model)
         if text is None:
             r = c.ev(REPLY) or ''
             open(out, 'w', encoding='utf-8').write(r + '\n'); print('저장', out, len(r), '자'); return
         n0 = c.ev("document.querySelectorAll('.message-bubble, [class*=message-bubble]').length") or 0
         lim0 = c.ev("(document.body.innerText.match(/한도에 도달|limit reached/g)||[]).length")
+        prev = c.ev(REPLY) or ''  # 이어 쓰는 방에서는 말풍선 수가 안 늘어 보일 때가 있다(2026-11-22) — 직전 답과 달라졌는지로 본다
         c.ev("(()=>{const e=%s;e.focus();return 1})()" % G.FIND)
         c.call('Input.insertText', text=text)
         time.sleep(1)
@@ -90,7 +91,7 @@ def main():
             n = c.ev("document.querySelectorAll('.message-bubble, [class*=message-bubble]').length") or 0
             cur = c.ev(REPLY) or ''
             busy = c.ev("/생각 중|Thinking|Generating|생성 중/.test(document.body.innerText.slice(-300))")
-            if n >= n0 + 2 and len(cur) > 60 and cur == last and not busy:
+            if (n >= n0 + 2 or (prev and cur != prev)) and len(cur) > 60 and cur == last and not busy:
                 same += 1
                 if same >= 2:
                     break

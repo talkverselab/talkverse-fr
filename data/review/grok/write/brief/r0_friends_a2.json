@@ -1,0 +1,62 @@
+{
+ "id": "r0_friends_a2",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "개 이름이 뭐야",
+ "emoji": "🐶",
+ "scene": "동네 공원에서 개를 산책시키는 카미유와 마주친다. 개 이름을 묻자 카미유가 머뭇거린다",
+ "where": "동네 공원",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "좋고 싫음(J'adore / Tu aimes…?)·이름 묻기(Il s'appelle comment ?)",
+ "expressions": [
+  "ça va",
+  "ouais",
+  "quoi"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "A"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

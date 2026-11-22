@@ -41,287 +41,30 @@
   {
    "num": 1,
    "speaker": "B",
-   "fr": "Te voilà enfin ! Je suis contente que tu sois venu, même en retard.",
-   "rd": "뜨 부알라 앙팽! 쥬 쒸 꽁땅뜨 끄 뛰 쑤아 브뉘, 멤 앙 르따르.",
-   "ko": "드디어 왔네! 늦었어도 와 줘서 좋다.",
-   "note": "être content(e) que + 접속법(sois) · venu(e) = 학습자가 여자면 venue",
-   "tags": [
-    "form:subjonctif"
-   ],
-   "new": [],
-   "emotion": "cheerful",
-   "fr_f": "Te voilà enfin ! Je suis contente que tu sois venue, même en retard.",
-   "rd_f": "뜨 부알라 앙팽! 쥬 쒸 꽁땅뜨 끄 뛰 쑤아 브뉘, 멤 앙 르따르.",
-   "morph_tags": [
-    [
-     "Te",
-     "te",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "voilà",
-     "voilà",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin"
-    ],
-    [
-     "Je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "suis",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "contente",
-     "content",
-     "ADJ",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "sois",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin"
-    ],
-    [
-     "venu",
-     "venir",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "retard",
-     "retard",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "morph_tags_f": [
-    [
-     "Te",
-     "te",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "voilà",
-     "voilà",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin"
-    ],
-    [
-     "Je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "suis",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "contente",
-     "content",
-     "ADJ",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "tu",
-     "taire",
-     "ADJ",
-     "Number=Sing"
-    ],
-    [
-     "sois",
-     "être",
-     "AUX",
-     "Mood=Sub|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "venue",
-     "venir",
-     "VERB",
-     "Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "retard",
-     "retard",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "voilà",
-     "voilà",
-     ""
-    ],
-    [
-     "enfin",
-     "enfin",
-     ""
-    ],
-    [
-     "contente",
-     "content",
-     ""
-    ],
-    [
-     "venu",
-     "venir",
-     ""
-    ],
-    [
-     "même",
-     "même",
-     ""
-    ],
-    [
-     "retard",
-     "retard",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 2,
-   "speaker": "A",
-   "fr": "Pardon, le métro… Je viens d'arriver. J'ai raté le début ?",
-   "rd": "빠르동, 르 메트로… 쥬 비앵 다리베. 졔 라떼 르 데뷔?",
-   "ko": "미안, 지하철이… 이제 막 왔어. 앞부분 놓쳤어?",
-   "note": "que tu sois venu(접속법 과거) → je viens d'arriver(막 …했다) · rater = 놓치다",
+   "fr": "Salut ! T'es en retard, le film est déjà fini.",
+   "rd": "살뤼 ! 테 앙 르타르, 르 필름 에 데자 피니.",
+   "ko": "안녕! 늦었네, 영화 이미 끝났어.",
+   "note": "en retard=늦은 · déjà=이미",
    "tags": [],
    "new": [
-    "rater"
+    "déjà"
    ],
-   "emotion": "flustered",
+   "emotion": "cheerful",
    "morph_tags": [
     [
-     "le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "métro",
-     "métro",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "Je",
-     "je",
+     "T'",
+     "te",
      "PRON",
-     "Number=Sing|Person=1"
+     "Number=Sing|Person=3"
     ],
     [
-     "viens",
-     "venir",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "arriver",
-     "arriver",
-     "VERB",
-     "VerbForm=Inf"
-    ],
-    [
-     "J'",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "ai",
-     "avoir",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "raté",
-     "rater",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "début",
-     "début",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "métro",
-     "métro",
-     ""
-    ],
-    [
-     "viens",
-     "venir",
-     ""
-    ],
-    [
-     "arriver",
-     "arriver",
-     ""
-    ],
-    [
-     "raté",
-     "rater",
-     ""
-    ],
-    [
-     "début",
-     "début",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 3,
-   "speaker": "B",
-   "fr": "Le début ? Le film est fini. Mais on va en discuter, tu restes ?",
-   "rd": "르 데뷔? 르 필름 에 피니. 메 옹 바 앙 디스뀌떼, 뛰 레스뜨?",
-   "ko": "앞부분? 영화 끝났어. 근데 이제 영화 얘기할 건데, 있을래?",
-   "note": "en discuter = 그것에 대해 이야기하다(en = de + 그것)",
-   "tags": [
-    "form:pronoms"
-   ],
-   "new": [
-    "discuter"
-   ],
-   "emotion": "amused",
-   "morph_tags": [
-    [
-     "Le",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "début",
-     "début",
+     "retard",
+     "retard",
      "NOUN",
      "Gender=Masc|Number=Sing"
     ],
     [
-     "Le",
+     "le",
      "le",
      "DET",
      "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
@@ -343,118 +86,45 @@
      "finir",
      "VERB",
      "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
-    ],
-    [
-     "on",
-     "on",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "va",
-     "aller",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "en",
-     "en",
-     "PRON",
-     "Person=3"
-    ],
-    [
-     "discuter",
-     "discuter",
-     "VERB",
-     "VerbForm=Inf"
-    ],
-    [
-     "tu",
-     "tu",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
-    ],
-    [
-     "restes",
-     "reste",
-     "ADJ",
-     "Gender=Fem|Number=Plur"
     ]
    ],
    "lemmas": [
     [
-     "début",
-     "début",
+     "retard",
+     "retard",
      ""
     ],
     [
      "film",
      "film",
+     ""
+    ],
+    [
+     "déjà",
+     "déjà",
      ""
     ],
     [
      "fini",
      "finir",
      ""
-    ],
-    [
-     "va",
-     "aller",
-     ""
-    ],
-    [
-     "discuter",
-     "discuter",
-     ""
-    ],
-    [
-     "restes",
-     "reste",
-     ""
     ]
    ]
   },
   {
-   "num": 4,
+   "num": 2,
    "speaker": "A",
-   "fr": "Je reste, bien sûr. En fait… je l'ai déjà vu. Deux fois.",
-   "rd": "쥬 레스뜨, 비앵 쒸르. 앙 페뜨… 쥬 레 데쟈 뷔. 되 푸아.",
-   "ko": "당연히 있지. 사실… 나 이거 벌써 봤어. 두 번.",
-   "note": "tu restes → je reste · 거짓말의 시작",
-   "tags": [
-    "expr:bien sûr",
-    "expr:en fait"
-   ],
+   "fr": "En fait, je l'ai vu deux fois.",
+   "rd": "앙 페, 쥬 레 뷔 되 푸아.",
+   "ko": "사실, 나 두 번 봤어.",
+   "note": "en fait=사실 · deux fois=두 번",
+   "tags": [],
    "new": [],
-   "emotion": "stiff",
+   "emotion": "flustered",
    "morph_tags": [
     [
-     "Je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "reste",
-     "reste",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "sûr",
-     "sûr",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
      "fait",
      "fait",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "…",
-     "…",
      "NOUN",
      "Gender=Masc|Number=Sing"
     ],
@@ -491,28 +161,8 @@
    ],
    "lemmas": [
     [
-     "reste",
-     "reste",
-     ""
-    ],
-    [
-     "bien",
-     "bien",
-     ""
-    ],
-    [
-     "sûr",
-     "sûr",
-     ""
-    ],
-    [
      "fait",
      "faire",
-     ""
-    ],
-    [
-     "déjà",
-     "déjà",
      ""
     ],
     [
@@ -523,6 +173,128 @@
     [
      "fois",
      "fois",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Tu es content que ce soit terminé ?",
+   "rd": "튀 에 콩탕 크 스 수아 테르미네 ?",
+   "ko": "끝난 게 기쁘니?",
+   "note": "content que=기뻐하는 · soit=이다(접속법)",
+   "tags": [],
+   "new": [
+    "soit"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "es",
+     "être",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "ce",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "soit",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "terminé",
+     "terminer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "content",
+     "content",
+     ""
+    ],
+    [
+     "terminé",
+     "terminer",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Bien sûr, j'adore cette histoire.",
+   "rd": "비앵 쉬르, 자돌 셋 이스투아르.",
+   "ko": "물론, 이 이야기 정말 좋아해.",
+   "note": "bien sûr=물론",
+   "tags": [],
+   "new": [],
+   "emotion": "stiff",
+   "morph_tags": [
+    [
+     "sûr",
+     "sûr",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "adore",
+     "adorer",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "cette",
+     "ce",
+     "DET",
+     "Gender=Fem|Number=Sing|PronType=Dem"
+    ],
+    [
+     "histoire",
+     "histoire",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Bien",
+     "bien",
+     ""
+    ],
+    [
+     "sûr",
+     "sûr",
+     ""
+    ],
+    [
+     "adore",
+     "adorer",
+     ""
+    ],
+    [
+     "histoire",
+     "histoire",
      ""
     ]
    ]
@@ -530,98 +302,43 @@
   {
    "num": 5,
    "speaker": "C",
-   "fr": "Deux fois ? Je suis content qu'un jeune l'aime autant que moi.",
-   "rd": "되 푸아? 쥬 쒸 꽁땅 깡 쥔 렘 오땅 끄 무아.",
-   "ko": "두 번이나요? 젊은 사람이 나만큼 이 영화를 좋아해서 기쁘네요.",
-   "note": "être content que + 접속법(aime) · 1번 contente(여) ↔ content(남) · autant que = …만큼",
-   "tags": [
-    "form:subjonctif"
+   "fr": "C'était pas mal, franchement.",
+   "rd": "세테 파 말, 프랑슈망.",
+   "ko": "꽤 괜찮았어, 솔직히.",
+   "note": "pas mal=괜찮음 · franchement=솔직히",
+   "tags": [],
+   "new": [
+    "franchement"
    ],
-   "new": [],
-   "segs": [
-    [
-     "surprised",
-     "Deux fois ?"
-    ],
-    [
-     "gentle",
-     "Je suis content qu'un jeune l'aime autant que moi."
-    ]
-   ],
+   "emotion": "amused",
    "morph_tags": [
     [
-     "fois",
-     "fois",
-     "NOUN",
-     "Gender=Fem|Number=Plur"
-    ],
-    [
-     "Je",
-     "je",
+     "C'",
+     "ce",
      "PRON",
-     "Number=Sing|Person=1"
+     "Number=Sing|Person=3"
     ],
     [
-     "suis",
+     "était",
      "être",
      "AUX",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "un",
-     "un",
-     "DET",
-     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "jeune",
-     "jeune",
-     "ADJ",
-     "Number=Sing"
-    ],
-    [
-     "l'",
-     "le",
-     "DET",
-     "Definite=Def|Number=Sing|PronType=Art"
-    ],
-    [
-     "aime",
-     "aime",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "moi",
-     "moi",
-     "PRON",
-     "Number=Sing|Person=1|PronType=Prs"
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
     ]
    ],
    "lemmas": [
     [
-     "fois",
-     "fois",
+     "pas",
+     "pas",
      ""
     ],
     [
-     "content",
-     "content",
+     "mal",
+     "mal",
      ""
     ],
     [
-     "jeune",
-     "jeune",
-     ""
-    ],
-    [
-     "aime",
-     "aime",
-     ""
-    ],
-    [
-     "autant",
-     "autant",
+     "franchement",
+     "franchement",
      ""
     ]
    ]
@@ -629,79 +346,21 @@
   {
    "num": 6,
    "speaker": "B",
-   "fr": "Ça m'étonnerait qu'il l'ait vu. Mais vas-y, raconte-nous ta scène préférée.",
-   "rd": "싸 메또느레 낄 레 뷔. 메 바지, 라꽁뜨 누 따 쎈 프레페레.",
-   "ko": "봤을 리가 없는데요. 그래도 해 봐, 제일 좋아하는 장면 얘기해 줘.",
-   "note": "ça m'étonnerait que + 접속법(ait vu) = …일 리 없다",
-   "tags": [
-    "expr:vas-y",
-    "form:subjonctif"
-   ],
+   "fr": "Vas-y, dis-nous ce que t'as aimé.",
+   "rd": "바-지, 디-누 스 크 타 제메.",
+   "ko": "어서, 뭐가 좋았는지 말해 봐.",
+   "note": "vas-y=어서",
+   "tags": [],
    "new": [
-    "étonner",
-    "scène"
+    "vas-y"
    ],
    "emotion": "teasing",
    "morph_tags": [
     [
-     "Ça",
-     "cela",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "m'",
-     "me",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "étonnerait",
-     "étonner",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
-    ],
-    [
-     "il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "l'",
-     "le",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "ait",
-     "avoir",
-     "AUX",
-     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "vu",
-     "voir",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "-",
-     "-",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
      "y",
      "y",
-     "NOUN",
-     "Number=Sing"
-    ],
-    [
-     "raconte",
-     "racont",
-     "ADJ",
-     "Gender=Fem|Number=Sing"
+     "PRON",
+     "Person=3"
     ],
     [
      "-nous",
@@ -710,58 +369,34 @@
      "Number=Plur|Person=1"
     ],
     [
-     "ta",
-     "ter",
+     "que",
+     "que",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "t'",
+     "te",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "as",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "aimé",
+     "aimer",
      "VERB",
-     "Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "scène",
-     "scène",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "préférée",
-     "préférer",
-     "ADJ",
-     "Gender=Fem|Number=Sing"
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
     ]
    ],
    "lemmas": [
     [
-     "étonnerait",
-     "étonner",
-     ""
-    ],
-    [
-     "vu",
-     "voir",
-     ""
-    ],
-    [
-     "vas",
-     "aller",
-     ""
-    ],
-    [
-     "raconte",
-     "racont",
-     ""
-    ],
-    [
-     "ta",
-     "ter",
-     ""
-    ],
-    [
-     "scène",
-     "scène",
-     ""
-    ],
-    [
-     "préférée",
-     "préférer",
+     "aimé",
+     "aimer",
      ""
     ]
    ]
@@ -769,21 +404,100 @@
   {
    "num": 7,
    "speaker": "A",
-   "fr": "Euh… celle où ils se retrouvent à la gare. C'est là que tout change.",
-   "rd": "외… 쎌 우 일 쓰 르트루브 아 라 가르. 쎄 라 끄 뚜 샹쥬.",
-   "ko": "어… 기차역에서 다시 만나는 장면. 거기서 모든 게 바뀌잖아.",
-   "note": "celle où = …하는 그것(장소·때의 où)",
-   "tags": [
-    "form:relatif"
+   "fr": "La gare où il arrive, c'était magnifique.",
+   "rd": "라 가르 우 일 아리브, 세테 마니피크.",
+   "ko": "그가 도착하는 역, 정말 멋졌어.",
+   "note": "où=어디(관계) · gare=역",
+   "tags": [],
+   "new": [
+    "où",
+    "gare"
    ],
-   "new": [],
    "emotion": "stiff",
    "morph_tags": [
     [
-     "Euh",
-     "euh",
+     "La",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "gare",
+     "gare",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ],
+    [
+     "il",
+     "il",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "arrive",
+     "arriver",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "était",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "magnifique",
+     "magnifique",
      "ADJ",
-     "Gender=Masc|Number=Sing"
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "gare",
+     "gare",
+     ""
+    ],
+    [
+     "arrive",
+     "arriver",
+     ""
+    ],
+    [
+     "magnifique",
+     "magnifique",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "fr": "Oui ! Et celle où ils se croisent !",
+   "rd": "위 ! 에 셀 우 일 스 크루아즈 !",
+   "ko": "응! 그리고 그들이 스치는 장면!",
+   "note": "celle où=그 장면",
+   "tags": [],
+   "new": [],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "Oui",
+     "oui",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
     ],
     [
      "celle",
@@ -810,174 +524,16 @@
      "Person=3|Reflex=Yes"
     ],
     [
-     "retrouvent",
-     "retrouver",
+     "croisent",
+     "croiser",
      "VERB",
      "Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "gare",
-     "gare",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "C'",
-     "ce",
-     "PRON",
-     "Number=Sing|Person=3"
-    ],
-    [
-     "est",
-     "être",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "tout",
-     "tout",
-     "DET",
-     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "change",
-     "change",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
     ]
    ],
    "lemmas": [
     [
-     "Euh",
-     "euh",
-     ""
-    ],
-    [
-     "retrouvent",
-     "retrouver",
-     ""
-    ],
-    [
-     "gare",
-     "gare",
-     ""
-    ],
-    [
-     "là",
-     "là",
-     ""
-    ],
-    [
-     "change",
-     "change",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 8,
-   "speaker": "C",
-   "fr": "Exactement ! La gare où il la voit pour la dernière fois…",
-   "rd": "에그작뜨망! 라 가르 우 일 라 부아 뿌르 라 데르니에르 푸아…",
-   "ko": "바로 그거예요! 주인공이 여자를 마지막으로 보는 그 역…",
-   "note": "운 좋게 맞혔다",
-   "tags": [
-    "form:relatif"
-   ],
-   "new": [],
-   "emotion": "excited",
-   "morph_tags": [
-    [
-     "Exactement",
-     "exactement",
-     "NOUN",
-     "Gender=Fem|Number=Plur"
-    ],
-    [
-     "La",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "gare",
-     "gare",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "où",
-     "où",
-     "PRON",
-     "PronType=Rel"
-    ],
-    [
-     "il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "voit",
-     "voit",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "dernière",
-     "dernier",
-     "ADJ",
-     "Gender=Fem|NumType=Ord|Number=Sing"
-    ],
-    [
-     "fois",
-     "fois",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Exactement",
-     "exactement",
-     ""
-    ],
-    [
-     "gare",
-     "gare",
-     ""
-    ],
-    [
-     "voit",
-     "voir",
-     ""
-    ],
-    [
-     "dernière",
-     "dernier",
-     ""
-    ],
-    [
-     "fois",
-     "fois",
+     "croisent",
+     "croiser",
      ""
     ]
    ]
@@ -985,247 +541,28 @@
   {
    "num": 9,
    "speaker": "B",
-   "fr": "Hmm. Pas mal. Et les acteurs, tu les as trouvés comment ?",
-   "rd": "음. 빠 말. 에 레 작뙤르, 뛰 레 자 트루베 꼬망?",
-   "ko": "흠. 나쁘지 않네. 배우들은 어땠어?",
-   "note": "les as trouvés = 그들을 어떻게 봤어(복수 일치)",
-   "tags": [
-    "expr:pas mal"
-   ],
+   "fr": "J'avoue, franchement c'était silencieux.",
+   "rd": "자부, 프랑슈망 세테 실랑시외.",
+   "ko": "인정해, 솔직히 무성 영화였어.",
+   "note": "j'avoue=인정 · franchement=솔직히",
+   "tags": [],
    "new": [
-    "acteur"
+    "j'avoue",
+    "franchement"
    ],
    "emotion": "teasing",
    "morph_tags": [
     [
-     "Hmm",
-     "hmm",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "mal",
-     "mal",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "les",
-     "le",
-     "DET",
-     "Definite=Def|Number=Plur|PronType=Art"
-    ],
-    [
-     "acteurs",
-     "acteur",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
-    ],
-    [
-     "les",
-     "le",
-     "DET",
-     "Definite=Def|Number=Plur|PronType=Art"
-    ],
-    [
-     "as",
-     "avoir",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "trouvés",
-     "trouver",
-     "VERB",
-     "Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Hmm",
-     "hmm",
-     ""
-    ],
-    [
-     "Pas",
-     "pas",
-     ""
-    ],
-    [
-     "mal",
-     "mal",
-     ""
-    ],
-    [
-     "acteurs",
-     "acteur",
-     ""
-    ],
-    [
-     "trouvés",
-     "trouver",
-     ""
-    ],
-    [
-     "comment",
-     "comment",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 10,
-   "speaker": "A",
-   "fr": "Géniaux. Surtout la voix de l'acteur principal, elle m'a donné des frissons.",
-   "rd": "제니오. 쒸르뚜 라 부아 들 락뙤르 프랭씨빨, 엘 마 도네 데 프리쏭.",
-   "ko": "최고였지. 특히 주연 배우 목소리, 소름 돋았어.",
-   "note": "frisson = 소름, 전율",
-   "tags": [],
-   "new": [
-    "principal",
-    "frisson"
-   ],
-   "emotion": "excited",
-   "morph_tags": [
-    [
-     "la",
-     "le",
-     "DET",
-     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "voix",
-     "voix",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "l'",
-     "le",
-     "DET",
-     "Definite=Def|Number=Sing|PronType=Art"
-    ],
-    [
-     "acteur",
-     "acteur",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "principal",
-     "principal",
-     "ADJ",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "elle",
-     "lui",
-     "PRON",
-     "Gender=Fem|Number=Sing|Person=3"
-    ],
-    [
-     "m'",
-     "me",
+     "J'",
+     "je",
      "PRON",
      "Number=Sing|Person=1"
     ],
     [
-     "a",
-     "avoir",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "donné",
-     "donner",
+     "avoue",
+     "avouer",
      "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "des",
-     "un",
-     "DET",
-     "Definite=Ind|Number=Plur|PronType=Art"
-    ],
-    [
-     "frissons",
-     "frisson",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
-    ]
-   ],
-   "lemmas": [
-    [
-     "Surtout",
-     "surtout",
-     ""
-    ],
-    [
-     "voix",
-     "voix",
-     ""
-    ],
-    [
-     "acteur",
-     "acteur",
-     ""
-    ],
-    [
-     "principal",
-     "principal",
-     ""
-    ],
-    [
-     "donné",
-     "donner",
-     ""
-    ],
-    [
-     "frissons",
-     "frisson",
-     ""
-    ]
-   ]
-  },
-  {
-   "num": 11,
-   "speaker": "B",
-   "fr": "Sa voix ? {name}… c'est un film muet.",
-   "rd": "싸 부아? {name}… 쎄 땅 필름 뮈에.",
-   "ko": "목소리? {name}… 무성 영화야.",
-   "note": "muet = 소리 없는, 무성의",
-   "tags": [],
-   "new": [
-    "muet"
-   ],
-   "segs": [
-    [
-     "surprised",
-     "Sa voix ?"
-    ],
-    [
-     "tsukkomi",
-     "{name}… c'est un film muet."
-    ]
-   ],
-   "morph_tags": [
-    [
-     "Sa",
-     "son",
-     "DET",
-     "Gender=Fem|Number=Sing|Poss=Yes"
-    ],
-    [
-     "voix",
-     "voix",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
-    ],
-    [
-     "…",
-     "…",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
     ],
     [
      "c'",
@@ -1234,44 +571,174 @@
      "Number=Sing|Person=3"
     ],
     [
-     "est",
+     "était",
      "être",
      "AUX",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
     ],
     [
-     "un",
-     "un",
-     "DET",
-     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
-    ],
-    [
-     "film",
-     "film",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "muet",
-     "muet",
+     "silencieux",
+     "silencieux",
      "ADJ",
-     "Number=Sing"
+     "Gender=Masc"
     ]
    ],
    "lemmas": [
     [
+     "avoue",
+     "avouer",
+     ""
+    ],
+    [
+     "franchement",
+     "franchement",
+     ""
+    ],
+    [
+     "silencieux",
+     "silencieux",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "fr": "J'ai adoré la voix du héros !",
+   "rd": "제 자도레 라 부아 뒤 에로 !",
+   "ko": "주인공 목소리 정말 좋았어!",
+   "note": "voix=목소리",
+   "tags": [],
+   "new": [
+    "voix"
+   ],
+   "emotion": "excited",
+   "morph_tags": [
+    [
+     "J'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "adoré",
+     "adorer",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "voix",
+     "voix",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "héros",
+     "héros",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "adoré",
+     "adorer",
+     ""
+    ],
+    [
      "voix",
      "voix",
      ""
     ],
     [
-     "film",
-     "film",
+     "héros",
+     "héros",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "fr": "Ça m'étonnerait que tu aies entendu ça.",
+   "rd": "사 메톤레 크 튀 에 앙탕뒤 사.",
+   "ko": "네가 그걸 들었을 리가 없는데.",
+   "note": "ça m'étonnerait que=놀랍다 · aies=가진(접속법)",
+   "tags": [],
+   "new": [
+    "aies"
+   ],
+   "emotion": "teasing",
+   "morph_tags": [
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "m'",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "étonnerait",
+     "étonner",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+    ],
+    [
+     "tu",
+     "tu",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "aies",
+     "aie",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "entendu",
+     "entendre",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "ça",
+     "ça",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "étonnerait",
+     "étonner",
      ""
     ],
     [
-     "muet",
-     "muet",
+     "aies",
+     "aie",
+     ""
+    ],
+    [
+     "entendu",
+     "entendre",
      ""
     ]
    ]
@@ -1279,14 +746,11 @@
   {
    "num": 12,
    "speaker": "C",
-   "fr": "Il aurait fallu que vous le voyiez une troisième fois, peut-être.",
-   "rd": "일 로레 팔뤼 끄 부 르 부아이예 윈 트루아지엠 푸아, 뾔떼트르.",
-   "ko": "세 번째로 보셨어야 했나 봐요.",
-   "note": "il aurait fallu que + 접속법(voyiez) = …했어야 했다",
-   "tags": [
-    "form:subjonctif",
-    "form:conditionnel passé"
-   ],
+   "fr": "Il aurait fallu que ce soit parlant.",
+   "rd": "일 오레 팔뤼 크 스 수아 파를랑.",
+   "ko": "유성 영화였어야 했는데.",
+   "note": "il aurait fallu que=필요했을 것이다",
+   "tags": [],
    "new": [],
    "emotion": "amused",
    "morph_tags": [
@@ -1306,43 +770,19 @@
      "fallu",
      "falloir",
      "VERB",
-     "Tense=Past|VerbForm=Part"
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
     ],
     [
-     "vous",
-     "vous",
+     "ce",
+     "ce",
      "PRON",
-     "Number=Plur|Person=2"
+     "Number=Sing|Person=3"
     ],
     [
-     "le",
-     "le",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "voyiez",
-     "voyiez",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "une",
-     "un",
-     "DET",
-     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "troisième",
-     "troisième",
-     "ADJ",
-     "NumType=Ord|Number=Sing"
-    ],
-    [
-     "fois",
-     "fois",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
+     "soit",
+     "être",
+     "AUX",
+     "Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ]
    ],
    "lemmas": [
@@ -1352,23 +792,8 @@
      ""
     ],
     [
-     "voyiez",
-     "voyiez",
-     ""
-    ],
-    [
-     "troisième",
-     "troisième",
-     ""
-    ],
-    [
-     "fois",
-     "fois",
-     ""
-    ],
-    [
-     "peut-être",
-     "peut-être",
+     "parlant",
+     "parlant",
      ""
     ]
    ]
@@ -1376,151 +801,67 @@
   {
    "num": 13,
    "speaker": "A",
-   "fr": "J'avoue. Je l'ai pas vu… mais franchement, il avait une tête à avoir une belle voix.",
-   "rd": "쟈부. 쥬 레 빠 뷔… 메 프랑슈망, 일 라베 윈 떼뜨 아 아부아르 윈 벨 부아.",
-   "ko": "인정. 안 봤어… 근데 솔직히, 목소리 좋게 생긴 얼굴이었잖아.",
-   "note": "avoir une tête à … = …하게 생기다",
-   "tags": [
-    "expr:j'avoue",
-    "expr:franchement"
+   "fr": "Euh... on va en discuter tranquillement ?",
+   "rd": "외... 옹 바 앙 디스퀴테 트랑킬망 ?",
+   "ko": "어... 우리 그거 차분히 얘기할까?",
+   "note": "en=그것에 대해 · discuter=토론하다",
+   "tags": [],
+   "new": [
+    "en",
+    "discuter"
    ],
-   "new": [],
-   "segs": [
-    [
-     "flustered",
-     "J'avoue. Je l'ai pas vu…"
-    ],
-    [
-     "amused",
-     "mais franchement, il avait une tête à avoir une belle voix."
-    ]
-   ],
+   "emotion": "flustered",
    "morph_tags": [
     [
-     "J'",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
+     "Euh",
+     "euh",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
     ],
     [
-     "avoue",
-     "avouer",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "Je",
-     "je",
-     "PRON",
-     "Number=Sing|Person=1"
-    ],
-    [
-     "l'",
-     "le",
+     "on",
+     "on",
      "PRON",
      "Number=Sing|Person=3"
     ],
     [
-     "ai",
-     "avoir",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "vu",
-     "voir",
+     "va",
+     "aller",
      "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "…",
-     "…",
-     "NOUN",
-     "Gender=Masc|Number=Sing"
-    ],
-    [
-     "il",
-     "il",
+     "en",
+     "en",
      "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
+     "Person=3"
     ],
     [
-     "avait",
-     "avoir",
-     "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
-    ],
-    [
-     "une",
-     "un",
-     "DET",
-     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "tête",
-     "tête",
-     "NOUN",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "avoir",
-     "avoir",
+     "discuter",
+     "discuter",
      "VERB",
      "VerbForm=Inf"
-    ],
-    [
-     "une",
-     "un",
-     "DET",
-     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "belle",
-     "bel",
-     "ADJ",
-     "Gender=Fem|Number=Sing"
-    ],
-    [
-     "voix",
-     "voix",
-     "NOUN",
-     "Gender=Masc|Number=Plur"
     ]
    ],
    "lemmas": [
     [
-     "avoue",
-     "avouer",
+     "Euh",
+     "euh",
      ""
     ],
     [
-     "pas",
-     "pas",
+     "va",
+     "aller",
      ""
     ],
     [
-     "vu",
-     "voir",
+     "discuter",
+     "discuter",
      ""
     ],
     [
-     "franchement",
-     "franchement",
-     ""
-    ],
-    [
-     "tête",
-     "tête",
-     ""
-    ],
-    [
-     "belle",
-     "bel",
-     ""
-    ],
-    [
-     "voix",
-     "voix",
+     "tranquillement",
+     "tranquillement",
      ""
     ]
    ]
@@ -1528,15 +869,14 @@
   {
    "num": 14,
    "speaker": "B",
-   "fr": "Allez, assieds-toi. Tu l'as vu deux fois, tu vas le voir une troisième. Tu me diras s'il chante.",
-   "rd": "알레, 아씨에 뚜아. 뛰 라 뷔 되 푸아, 뛰 바 르 부아르 윈 트루아지엠. 뛰 므 디라 씰 샹뜨.",
-   "ko": "자, 앉아. 두 번 봤다며, 세 번째로 보면 되지. 노래도 하는지 말해 줘.",
-   "note": "tu l'as vu(복합과거) → tu vas le voir(근접미래) · 12번 voyiez(접속법)와 같은 voir",
-   "tags": [
-    "expr:allez"
-   ],
+   "fr": "Allez, assieds-toi, ça me fait plaisir que tu sois là.",
+   "rd": "알레, 아시에-투아, 사 므 페 플레지르 크 튀 수아 라.",
+   "ko": "자, 앉아, 네가 있어서 기뻐.",
+   "note": "allez=자 · ça me fait plaisir que=기쁘다 · sois=이다(접속법)",
+   "tags": [],
    "new": [
-    "repasser"
+    "allez",
+    "sois"
    ],
    "emotion": "teasing",
    "morph_tags": [
@@ -1547,82 +887,46 @@
      "Gender=Fem|Number=Sing"
     ],
     [
-     "l'",
-     "le",
-     "DET",
-     "Definite=Def|Number=Sing|PronType=Art"
-    ],
-    [
-     "as",
-     "avoir",
-     "AUX",
-     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
-    ],
-    [
-     "vu",
-     "voir",
-     "VERB",
-     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
-    ],
-    [
-     "fois",
-     "fois",
+     "toi",
+     "toi",
      "NOUN",
-     "Gender=Fem|Number=Plur"
+     "Number=Sing"
     ],
     [
-     "vas",
-     "aller",
+     "ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3|PronType=Dem"
+    ],
+    [
+     "me",
+     "me",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "fait",
+     "faire",
      "VERB",
      "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "le",
-     "le",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "voir",
-     "voir",
-     "VERB",
-     "VerbForm=Inf"
-    ],
-    [
-     "une",
-     "un",
-     "DET",
-     "Definite=Ind|Gender=Fem|Number=Sing|PronType=Art"
-    ],
-    [
-     "troisième",
-     "troisième",
+     "plaisir",
+     "plaisir",
      "NOUN",
-     "Gender=Fem|Number=Sing"
+     "Gender=Masc|Number=Sing"
     ],
     [
-     "me",
-     "me",
-     "PRON",
-     "Number=Sing|Person=1|Reflex=Yes"
-    ],
-    [
-     "diras",
-     "dire",
+     "tu",
+     "taire",
      "VERB",
-     "Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin"
+     "Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
     ],
     [
-     "il",
-     "il",
-     "PRON",
-     "Gender=Masc|Number=Sing|Person=3"
-    ],
-    [
-     "chante",
-     "chant",
-     "ADJ",
-     "Gender=Fem|Number=Sing"
+     "sois",
+     "soi",
+     "NOUN",
+     "Number=Sing"
     ]
    ],
    "lemmas": [
@@ -1632,42 +936,32 @@
      ""
     ],
     [
-     "vu",
-     "voir",
+     "fait",
+     "faire",
      ""
     ],
     [
-     "fois",
-     "fois",
+     "plaisir",
+     "plaisir",
      ""
     ],
     [
-     "vas",
-     "aller",
+     "sois",
+     "soi",
      ""
     ],
     [
-     "troisième",
-     "troisième",
-     ""
-    ],
-    [
-     "diras",
-     "dire",
-     ""
-    ],
-    [
-     "chante",
-     "chant",
+     "là",
+     "là",
      ""
     ]
    ]
   }
  ],
- "draft": true,
  "review": {
-  "stage": "claude_draft",
-  "model": "opus",
-  "date": "2026-11-08"
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
  }
 }

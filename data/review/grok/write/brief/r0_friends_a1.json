@@ -1,0 +1,62 @@
+{
+ "id": "r0_friends_a1",
+ "region": "R0",
+ "island": "friends",
+ "kind": "short",
+ "title": "이름이 뭐였더라",
+ "emoji": "👋",
+ "scene": "친구 집 파티에서 카미유가 먼저 인사한다. 이름을 주고받자마자 A 가 하필 카미유 언니 이름으로 부른다",
+ "where": "파티",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "첫인사·이름·출신(Moi, c'est… / Tu es d'où ?)",
+ "expressions": [
+  "ça va",
+  "pardon",
+  "ouais"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "flustered"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

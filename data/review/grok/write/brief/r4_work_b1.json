@@ -1,0 +1,107 @@
+{
+ "id": "r4_work_b1",
+ "region": "R4",
+ "island": "work",
+ "kind": "long",
+ "title": "소스가 짜요",
+ "emoji": "🍲",
+ "scene": "비스트로 주방 면접. 셰프가 맛보라고 준 소스를 솔직하게 평했더니 셰프가 직접 만든 소스 — 그런데 소금을 더 넣은 건 거기서 일하는 친구 위고였다",
+ "where": "비스트로 주방",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Cheffe"
+ },
+ "cast": {
+  "C": "woman_m"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "면접 vous → 채용 뒤 on se tutoie(tu) 전환 · 접속법(il faudrait que vous soyez · avant qu'on aille · je voudrais que vous goûtiez · bien que ça fasse) · y·en·me le·te la · 조건법 과거(j'aurais été · on l'aurait servie)",
+ "expressions": [
+  "pas de problème",
+  "franchement",
+  "d'accord"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "stiff"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "polite"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 6,
+   "speaker": "A"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 9,
+   "speaker": "C",
+   "emotion": "amused"
+  },
+  {
+   "num": 10,
+   "speaker": "B"
+  },
+  {
+   "num": 11,
+   "speaker": "A"
+  },
+  {
+   "num": 12,
+   "speaker": "C"
+  },
+  {
+   "num": 13,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 14,
+   "speaker": "C"
+  },
+  {
+   "num": 15,
+   "speaker": "A",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

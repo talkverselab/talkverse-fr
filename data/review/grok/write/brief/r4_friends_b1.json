@@ -1,0 +1,104 @@
+{
+ "id": "r4_friends_b1",
+ "region": "R4",
+ "island": "friends",
+ "kind": "long",
+ "title": "내 램프를 사다",
+ "emoji": "🛋️",
+ "scene": "토요일 벼룩시장. 카미유가 꿈꾸던 램프를 찾아 A 가 대신 흥정해 30유로로 깎는다 — 그런데 램프 밑 가격표는 25유로였다",
+ "where": "벼룩시장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Vendeur"
+ },
+ "cast": {
+  "C": "man_o"
+ },
+ "register": "mixed",
+ "twist": 11,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "관계대명사 dont·où(la lampe dont je t'ai parlé · le coin où je lis)·접속법(il faut que · bien que · avant que · il faut pas que)·대명사 결합(me la · te la)·si 가정(반과거/대과거 → 조건법·조건법 과거)",
+ "expressions": [
+  "franchement",
+  "trop",
+  "attends",
+  "t'inquiète"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 9,
+   "speaker": "A"
+  },
+  {
+   "num": 10,
+   "speaker": "C"
+  },
+  {
+   "num": 11,
+   "speaker": "B"
+  },
+  {
+   "num": 12,
+   "speaker": "A"
+  },
+  {
+   "num": 13,
+   "speaker": "C"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

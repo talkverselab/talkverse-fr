@@ -10,7 +10,7 @@ TURNS = {'R0': (6, 8), 'R1': (6, 8), 'R2': (8, 12), 'R3': (6, 8), 'R4': (12, 16)
 WORDS = {('R1', 'short'): (2, 9), ('R1', 'survival'): (2, 9), ('R1', 'long'): (2, 10), ('R1', 'chat'): (1, 7), 'R2': (1, 14), 'R3': (1, 12), 'R4': (1, 18), 'R5': (1, 18)}
 TYPES = {'chaos', 'slip', 'reveal', 'emotion', 'ignore'}
 EMOS = set('neutral polite stiff cheerful amused teasing excited surprised shout tsukkomi annoyed sad worried flustered shy gentle'.split())
-RD_OK = re.compile(r'^[가-힣0-9A-Za-z ,.!?…"·~\-{}_()]*$')
+RD_OK = re.compile(r'^[가-힣0-9A-Za-z ,.!?…"·~\-{}_():;]*$')  # 독음은 본문 문장부호(: ;)를 그대로 따른다(2026-11-22 Grok 대사)
 EMOJI = re.compile('[\U0001F000-\U0001FAFF☀-➿️‍]')
 _bf = Path.home() / '.talkverse_forbidden.txt'  # 출처 이름 목록은 공개 저장소 밖에 둔다(한 줄 하나)
 BAN = re.compile('|'.join(re.escape(w.strip()) for w in _bf.read_text(encoding='utf-8').splitlines() if w.strip()) or r'(?!x)x', re.I) if _bf.exists() else re.compile(r'(?!x)x')
@@ -37,6 +37,7 @@ def check(path):
     exp = [x for x in d['expressions'] if x.lower().replace('’', "'") in alltext]
     if len(exp) < 2: e.append(f'표현 노출 {len(exp)}개')
     wr = WORDS.get((('R1' if reg == 'R0' else reg), kind)) or WORDS.get(reg) or WORDS[('R1', 'short')]
+    if reg == 'R0': wr = (1, wr[1])  # 레벨 0 짧은 회화: 「Pourquoi ?」 같은 한 낱말 대답 허용(2026-11-22, Grok 대사 그대로)
     for i, t in enumerate(ts, 1):
         n = t.get('num')
         if n != i: e.append(f'턴 번호 {n}≠{i}')

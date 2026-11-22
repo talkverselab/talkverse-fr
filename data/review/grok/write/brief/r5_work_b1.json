@@ -1,0 +1,107 @@
+{
+ "id": "r5_work_b1",
+ "region": "R5",
+ "island": "work",
+ "kind": "long",
+ "title": "요거트 견적서",
+ "emoji": "💻",
+ "scene": "재택근무 중 고객사와 화상 회의. 납기 협상 중에 룸메이트 테오가 요거트를 따지러 카메라 앞에 나타난다",
+ "where": "셰어하우스 방·화상 회의",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo",
+  "C": "Cliente",
+  "D": "Manager"
+ },
+ "cast": {
+  "C": "woman_m",
+  "D": "man_m"
+ },
+ "register": "mixed",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "회의·영업 어휘(ordre du jour·devis·délai·livraison·télétravail·partager l'écran·tableau·concurrent·tarif·augmentation·direction), 새 문법 없음",
+ "expressions": [
+  "bien sûr",
+  "voilà",
+  "pardon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "D",
+   "emotion": "polite"
+  },
+  {
+   "num": 2,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 4,
+   "speaker": "C",
+   "emotion": "polite"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "polite"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "emotion": "stiff"
+  },
+  {
+   "num": 7,
+   "speaker": "D",
+   "emotion": "polite"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "emotion": "worried"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "shout"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 11,
+   "speaker": "B"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "emotion": "amused"
+  },
+  {
+   "num": 13,
+   "speaker": "D"
+  },
+  {
+   "num": 14,
+   "speaker": "C",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

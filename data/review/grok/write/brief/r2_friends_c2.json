@@ -1,0 +1,101 @@
+{
+ "id": "r2_friends_c2",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "오늘 밤 데이트 상대",
+ "emoji": "📸",
+ "scene": "카미유가 오늘 밤 첫 데이트라며 들떠서 문자한다. 사진을 보니 A 의 룸메이트 테오다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "chat",
+ "twist": 6,
+ "twist_type": "reveal",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "사람 묘사(Il est comment ? / grand·drôle)·채팅 말투(ouf·stylé·chelou·stp)",
+ "expressions": [
+  "ouf",
+  "stylé",
+  "chelou",
+  "stp",
+  "vas-y"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited",
+   "at": "18:20"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "excited",
+   "at": "18:21"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "shy",
+   "at": "18:22"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "excited",
+   "at": "18:22"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "excited",
+   "at": "18:23"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "surprised",
+   "at": "18:25"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "shout",
+   "at": "18:25"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "amused",
+   "at": "18:26"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "18:27"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "teasing",
+   "at": "18:28"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "emotion": "teasing",
+   "at": "18:31"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

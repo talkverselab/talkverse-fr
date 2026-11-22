@@ -1,0 +1,81 @@
+{
+ "id": "r3_love_a3",
+ "region": "R3",
+ "island": "love",
+ "kind": "short",
+ "title": "첫 크레프들",
+ "emoji": "🥞",
+ "scene": "레벨 1 「첫 크레프」를 복수로 — 위고와 레아가 A 와 테오에게 크레프 뒤집기를 가르친다. 같은 문장을 vous·nous·복수로",
+ "where": "위고네 부엌",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo",
+  "C": "Léa",
+  "D": "Théo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love",
+  "life"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수(les retournez·elles sont) — 레벨 1 문장을 갈아끼움, 새 단어 0",
+ "expressions": [
+  "d'accord",
+  "allez",
+  "grave",
+  "voilà"
+ ],
+ "tags": [
+  "base:r1_love_a3"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "D"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "amused"
+  },
+  {
+   "num": 6,
+   "speaker": "C",
+   "emotion": "gentle"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "shy"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "shy"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

@@ -1,0 +1,64 @@
+{
+ "id": "r0_life_a1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "내 크레프",
+ "emoji": "🥞",
+ "scene": "셰어하우스 부엌. 룸메이트 테오가 크레프를 굽는다. A 가 설탕을 찾는 사이 크레프가 사라진다",
+ "where": "집 부엌",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "좋아하는 것·부탁(s'il te plaît)·물건 위치(il est où ?)",
+ "expressions": [
+  "ça marche",
+  "tiens",
+  "voilà",
+  "pardon",
+  "trop"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "excited"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 6,
+   "speaker": "B"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

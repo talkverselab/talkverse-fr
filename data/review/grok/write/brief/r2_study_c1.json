@@ -1,0 +1,111 @@
+{
+ "id": "r2_study_c1",
+ "region": "R2",
+ "island": "study",
+ "kind": "chat",
+ "title": "시험은 월요일",
+ "emoji": "📚",
+ "scene": "금요일 밤, 미술사 시험 노트를 빌리려고 레아에게 문자한다. 둘이 아는 시험 날짜가 다르다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "chaos",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "study_abroad",
+  "exam_other"
+ ],
+ "domain": [
+  "study"
+ ],
+ "goal": "부탁(tu peux m'envoyer…?)·요일·시간·복합과거 부정(j'ai rien lu)",
+ "expressions": [
+  "attends",
+  "ben",
+  "c'est pas vrai",
+  "au fait",
+  "stp",
+  "grave"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "emotion": "polite",
+   "at": "21:05"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "cheerful",
+   "at": "21:12"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "shy",
+   "at": "21:14"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "21:15"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "surprised",
+   "at": "21:15"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "cheerful",
+   "at": "21:16"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "21:16"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "shout",
+   "at": "21:17"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "gentle",
+   "at": "21:18"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "excited",
+   "at": "21:18"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "emotion": "shy",
+   "at": "21:19"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "shy",
+   "at": "21:21"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

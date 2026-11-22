@@ -1,0 +1,63 @@
+{
+ "id": "r0_love_a2",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "움직이지 마",
+ "emoji": "🎨",
+ "scene": "강변 계단. 미대생 레아가 A 를 몰래 그리다가 들킨다. 다 그린 그림을 보여 주는데",
+ "where": "강변 계단",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "slip",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "명령(Bouge pas)·이유(Parce que…)·형용사 beau/belle",
+ "expressions": [
+  "attends",
+  "ah bon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "excited"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

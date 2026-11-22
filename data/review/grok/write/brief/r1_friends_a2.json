@@ -1,0 +1,72 @@
+{
+ "id": "r1_friends_a2",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "조금만 잘라 줘",
+ "emoji": "✂️",
+ "scene": "위고네 거실. 미용실 대신 위고에게 머리를 맡겼는데, 가위를 든 위고가 재채기를 한다",
+ "where": "위고네 거실",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "tu 현재·복합과거(j'ai déjà coupé)·aller+inf(tu vas couper)·명령(assieds-toi)",
+ "expressions": [
+  "ouais",
+  "carrément",
+  "attends",
+  "t'inquiète"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 4,
+   "speaker": "B"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 6,
+   "speaker": "B"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "flustered"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

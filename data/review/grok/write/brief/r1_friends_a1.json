@@ -1,0 +1,79 @@
+{
+ "id": "r1_friends_a1",
+ "region": "R1",
+ "island": "friends",
+ "kind": "short",
+ "title": "안 돌아가는 열쇠",
+ "emoji": "🔑",
+ "scene": "밤, 아파트 계단. 열쇠를 잃어버린 카미유에게 A 가 여분 열쇠를 갖다주는데 문이 안 열린다 — 한 층 아래 남의 집 문이었다",
+ "where": "아파트 계단",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Voisin"
+ },
+ "cast": {
+  "C": "man_o"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends",
+  "life"
+ ],
+ "goal": "tu 현재·복합과거(t'as perdu)·aller+inf(je vais essayer)·구어 부정(tourne pas)",
+ "expressions": [
+  "tiens",
+  "bref",
+  "attends",
+  "t'es sûr",
+  "oh là là",
+  "la honte"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "teasing"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "emotion": "annoyed"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

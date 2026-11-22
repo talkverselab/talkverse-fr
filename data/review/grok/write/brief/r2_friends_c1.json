@@ -1,0 +1,96 @@
+{
+ "id": "r2_friends_c1",
+ "region": "R2",
+ "island": "friends",
+ "kind": "chat",
+ "title": "보낼 사람을 잘못 골랐다",
+ "emoji": "🥧",
+ "scene": "위고가 오늘 밤 사과 타르트를 굽는다며 초대한다. A 가 카미유에게 보내려던 농담을 위고에게 보내 버린다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "chat",
+ "twist": 9,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "making_friends"
+ ],
+ "domain": [
+  "friends"
+ ],
+ "goal": "채팅 말투(ouais·carrément·mdr·sérieux)",
+ "expressions": [
+  "ouais",
+  "carrément",
+  "mdr",
+  "sérieux"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited",
+   "at": "19:02"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "at": "19:03"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "amused",
+   "at": "19:05"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "emotion": "annoyed",
+   "at": "19:05"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "flustered",
+   "at": "19:06"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "teasing",
+   "at": "19:06"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "at": "19:07"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "at": "19:08"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "teasing",
+   "at": "19:10"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "flustered",
+   "at": "19:10"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "at": "19:12"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

@@ -1,0 +1,64 @@
+{
+ "id": "r0_love_a1",
+ "region": "R0",
+ "island": "love",
+ "kind": "short",
+ "title": "비 오는 정류장",
+ "emoji": "☔",
+ "scene": "비 오는 버스 정류장. 레아가 먼저 말을 건다. 버스가 오지만 A 는 타지 않는다",
+ "where": "버스 정류장",
+ "speakers": {
+  "A": "{name}",
+  "B": "Léa"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "emotion",
+ "flags": [
+  "romance"
+ ],
+ "purpose": [
+  "love",
+  "making_friends"
+ ],
+ "domain": [
+  "love"
+ ],
+ "goal": "좋고 싫음·이유(Pourquoi ? / Parce que…)",
+ "expressions": [
+  "pardon",
+  "ah bon"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "annoyed"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "shy"
+  },
+  {
+   "num": 6,
+   "speaker": "A"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

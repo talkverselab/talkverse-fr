@@ -1,0 +1,481 @@
+{
+ "id": "r0_work_d1",
+ "region": "R0",
+ "island": "work",
+ "kind": "short",
+ "title": "그 버튼 말고",
+ "emoji": "☕",
+ "scene": "카미유가 일하는 카페에서 아르바이트 첫날. 카미유가 커피 머신 쓰는 법을 알려 준다",
+ "where": "카페",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 5,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "work_france"
+ ],
+ "domain": [
+  "work"
+ ],
+ "goal": "설명 따라 하기(tu mets… / je mets…)·같은 동사 tu ↔ je",
+ "expressions": [
+  "d'accord",
+  "oh là là",
+  "t'inquiète"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "fr": "Tu mets le café ici.",
+   "rd": "뛰 메 르 카페 이시.",
+   "ko": "커피를 여기에 넣어.",
+   "note": "tu mets = 너는 넣어 · le café = 커피 · ici = 여기",
+   "tags": [],
+   "new": [
+    "ici"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mets",
+     "mets",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "café",
+     "café",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "café",
+     "café",
+     ""
+    ],
+    [
+     "ici",
+     "ici",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "fr": "D'accord, je mets ça ?",
+   "rd": "다코르, 쥬 메 사 ?",
+   "ko": "알겠어, 이거 넣어?",
+   "note": "d'accord = 알겠어 · je mets = 나는 넣어 · ça = 이거",
+   "tags": [],
+   "new": [
+    "d'accord",
+    "ça"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "accord",
+     "accord",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "mets",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "ça",
+     "ça",
+     "ADJ",
+     "Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "accord",
+     "accord",
+     ""
+    ],
+    [
+     "mets",
+     "mettre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "fr": "Ouais. T'inquiète, c'est facile.",
+   "rd": "웨. 탱키에트, 세 파실.",
+   "ko": "응. 걱정 마, 쉬워.",
+   "note": "t'inquiète = 걱정 마 · facile = 쉬운",
+   "tags": [],
+   "new": [
+    "t'inquiète",
+    "facile"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "T'",
+     "te",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     "ADJ",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "facile",
+     "facile",
+     "VERB",
+     "Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass"
+    ]
+   ],
+   "lemmas": [
+    [
+     "T'",
+     "te",
+     ""
+    ],
+    [
+     "inquiète",
+     "inquiet",
+     ""
+    ],
+    [
+     "facile",
+     "facile",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "fr": "Je mets l'eau aussi ?",
+   "rd": "쥬 메 로 오시 ?",
+   "ko": "물도 넣어?",
+   "note": "je mets = 나는 넣어 · l'eau = 물 · aussi = 도",
+   "tags": [],
+   "new": [
+    "l'eau",
+    "aussi"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "mets",
+     "mettre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "eau",
+     "eau",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "eau",
+     "eau",
+     ""
+    ],
+    [
+     "aussi",
+     "aussi",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "fr": "Non ! Pas ce bouton !",
+   "rd": "농 ! 빠 스 부통 !",
+   "ko": "아니! 그 버튼 말고!",
+   "note": "non = 아니 · pas = 안 · bouton = 버튼",
+   "tags": [],
+   "new": [
+    "non",
+    "pas",
+    "bouton"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "ce",
+     "ce",
+     "DET",
+     "Gender=Masc|Number=Sing|PronType=Dem"
+    ],
+    [
+     "bouton",
+     "bouton",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Pas",
+     "pas",
+     ""
+    ],
+    [
+     "bouton",
+     "bouton",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "fr": "Oh là là, j'ai mis le mauvais !",
+   "rd": "오 라 라, 제이 미 르 모베 !",
+   "ko": "이런, 나 잘못된 거 넣었어!",
+   "note": "oh là là = 이런 · j'ai mis = 나는 넣었어 · mauvais = 잘못된",
+   "tags": [],
+   "new": [
+    "mauvais"
+   ],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "j'",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "ai",
+     "avoir",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "mis",
+     "mettre",
+     "VERB",
+     "Gender=Masc|Tense=Past|VerbForm=Part"
+    ],
+    [
+     "le",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mauvais",
+     "mauvais",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "mis",
+     "mettre",
+     ""
+    ],
+    [
+     "mauvais",
+     "mauvais",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "fr": "Ça va. Tu mets celui-là.",
+   "rd": "사 바. 뛰 메 슬뤼라.",
+   "ko": "괜찮아. 너는 저거 넣어.",
+   "note": "ça va = 괜찮아 · tu mets = 너는 넣어 · celui-là = 저거",
+   "tags": [],
+   "new": [
+    "celui-là"
+   ],
+   "emotion": "gentle",
+   "morph_tags": [
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Gender=Masc|Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "mets",
+     "mets",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "celui",
+     "celui",
+     "ADJ",
+     "Gender=Masc"
+    ]
+   ],
+   "lemmas": [
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "mets",
+     "mettre",
+     ""
+    ],
+    [
+     "celui",
+     "celui",
+     ""
+    ],
+    [
+     "-là",
+     "-là",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Tu apprends vite !",
+   "rd": "뛰 아프랑 비트 !",
+   "ko": "너 빨리 배우네!",
+   "note": "tu apprends = 너는 배워 · vite = 빨리",
+   "tags": [],
+   "new": [
+    "vite"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Def|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "apprends",
+     "apprend",
+     "ADJ",
+     "Gender=Masc|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "apprends",
+     "apprendre",
+     ""
+    ],
+    [
+     "vite",
+     "vite",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

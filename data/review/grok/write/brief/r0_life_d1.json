@@ -1,0 +1,74 @@
+{
+ "id": "r0_life_d1",
+ "region": "R0",
+ "island": "life",
+ "kind": "short",
+ "title": "쇼콜라틴",
+ "emoji": "🥐",
+ "scene": "위고가 아르바이트하는 동네 빵집. A 가 빵 오 쇼콜라를 달라고 하자 위고가 빵 이름부터 고친다",
+ "where": "빵집",
+ "speakers": {
+  "A": "{name}",
+  "B": "Hugo"
+ },
+ "register": "casual",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "travel",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "주문하기(je veux…, s'il te plaît)·dire 인칭 변화(on dit·je dis)",
+ "expressions": [
+  "mince",
+  "ben",
+  "c'est quoi",
+  "s'il te plaît"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "polite"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "amused"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "flustered"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "surprised"
+  },
+  {
+   "num": 7,
+   "speaker": "B"
+  },
+  {
+   "num": 8,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

@@ -1,0 +1,108 @@
+{
+ "id": "r2_life_d1",
+ "region": "R2",
+ "island": "life",
+ "kind": "chat",
+ "title": "누가 환자야",
+ "emoji": "🤒",
+ "scene": "아파서 누워 있는 A 대신 룸메이트 테오가 약국에 간다. 증상을 「나는」으로 말하는 바람에 약사가 테오를 환자로 안다",
+ "where": "메신저",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "chat",
+ "twist": 7,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "study_abroad",
+  "making_friends"
+ ],
+ "domain": [
+  "life"
+ ],
+ "goal": "증상 말하기(j'ai mal à la tête·j'ai de la fièvre)·dire·croire 인칭 변화",
+ "expressions": [
+  "mince",
+  "stp",
+  "ouais",
+  "mdr",
+  "bref"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "emotion": "sad",
+   "at": "09:12"
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "emotion": "worried",
+   "at": "09:14"
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "emotion": "gentle",
+   "at": "09:15"
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "emotion": "neutral",
+   "at": "09:31"
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "emotion": "sad",
+   "at": "09:32"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "cheerful",
+   "at": "09:35"
+  },
+  {
+   "num": 7,
+   "speaker": "B",
+   "emotion": "flustered",
+   "at": "09:36"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "flustered",
+   "at": "09:37"
+  },
+  {
+   "num": 9,
+   "speaker": "A",
+   "emotion": "amused",
+   "at": "09:38"
+  },
+  {
+   "num": 10,
+   "speaker": "B",
+   "emotion": "annoyed",
+   "at": "09:40"
+  },
+  {
+   "num": 11,
+   "speaker": "B",
+   "emotion": "amused",
+   "at": "09:41"
+  },
+  {
+   "num": 12,
+   "speaker": "A",
+   "emotion": "gentle",
+   "at": "09:42"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

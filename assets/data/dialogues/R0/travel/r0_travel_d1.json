@@ -1,0 +1,441 @@
+{
+ "id": "r0_travel_d1",
+ "region": "R0",
+ "island": "travel",
+ "kind": "short",
+ "title": "반대 방향",
+ "emoji": "🚇",
+ "scene": "테오와 지하철을 탔다. 내릴 역까지 세 정거장이라는데, 다음 역 이름이 이상하다",
+ "where": "지하철",
+ "speakers": {
+  "A": "{name}",
+  "B": "Théo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "travel"
+ ],
+ "domain": [
+  "travel"
+ ],
+ "goal": "어디서 내려?(on descend où ?)·정거장 수·descendre 인칭 변화",
+ "expressions": [
+  "attends",
+  "oh là là",
+  "tu vois",
+  "ça va"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "A",
+   "fr": "On descend où ?",
+   "rd": "옹 데상 우 ?",
+   "ko": "어디서 내려?",
+   "note": "on descend = 우리 내려 · où = 어디",
+   "tags": [],
+   "new": [
+    "où"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "descend",
+     "descendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "où",
+     "où",
+     "PRON",
+     "PronType=Rel"
+    ]
+   ],
+   "lemmas": [
+    [
+     "descend",
+     "descendre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 2,
+   "speaker": "B",
+   "fr": "Dans trois stations.",
+   "rd": "당 트와 스타시옹.",
+   "ko": "세 정거장 후에.",
+   "note": "dans = ~후에 · trois stations = 세 정거장",
+   "tags": [],
+   "new": [
+    "dans"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "stations",
+     "station",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ]
+   ],
+   "lemmas": [
+    [
+     "stations",
+     "station",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 3,
+   "speaker": "A",
+   "fr": "Tu descends là-bas ?",
+   "rd": "뛰 데상 라바 ?",
+   "ko": "너는 거기서 내려?",
+   "note": "tu descends = 너는 내려 · là-bas = 저기",
+   "tags": [],
+   "new": [
+    "là-bas"
+   ],
+   "emotion": "cheerful",
+   "morph_tags": [
+    [
+     "Tu",
+     "tu",
+     "DET",
+     "Definite=Ind|Gender=Masc|Number=Sing|PronType=Art"
+    ],
+    [
+     "descends",
+     "descend",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "-",
+     "-",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ],
+    [
+     "bas",
+     "bas",
+     "ADJ",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "descends",
+     "descend",
+     ""
+    ],
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "bas",
+     "bas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 4,
+   "speaker": "B",
+   "fr": "Ouais, tu vois, c'est simple.",
+   "rd": "웨, 뛰 부아, 세 심플.",
+   "ko": "응, 봐, 간단해.",
+   "note": "tu vois = 너 봐 · simple = 간단해",
+   "tags": [],
+   "new": [
+    "simple"
+   ],
+   "emotion": "amused",
+   "morph_tags": [
+    [
+     "vois",
+     "voi",
+     "NOUN",
+     "Gender=Fem|Number=Plur"
+    ],
+    [
+     "c'",
+     "ce",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "simple",
+     "simple",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "vois",
+     "voir",
+     ""
+    ],
+    [
+     "simple",
+     "simple",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 5,
+   "speaker": "A",
+   "fr": "Attends, la station est bizarre.",
+   "rd": "아땅, 라 스타시옹 에 비자르.",
+   "ko": "잠깐, 역 이름이 이상해.",
+   "note": "attends = 잠깐 · bizarre = 이상한",
+   "tags": [],
+   "new": [
+    "attends",
+    "bizarre"
+   ],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Attends",
+     "attend",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "la",
+     "le",
+     "DET",
+     "Definite=Def|Gender=Fem|Number=Sing|PronType=Art"
+    ],
+    [
+     "station",
+     "station",
+     "NOUN",
+     "Gender=Fem|Number=Sing"
+    ],
+    [
+     "est",
+     "être",
+     "AUX",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "bizarre",
+     "bizarre",
+     "ADJ",
+     "Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "Attends",
+     "attend",
+     ""
+    ],
+    [
+     "station",
+     "station",
+     ""
+    ],
+    [
+     "bizarre",
+     "bizarre",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "fr": "Oh là là, on va dans l'autre sens !",
+   "rd": "오 라 라, 옹 바 당 로트르 상 !",
+   "ko": "이런, 우리 반대 방향으로 가고 있어!",
+   "note": "oh là là = 이런 · autre sens = 반대 방향",
+   "tags": [],
+   "new": [],
+   "emotion": "flustered",
+   "morph_tags": [
+    [
+     "Oh",
+     "oh",
+     "NOUN",
+     "Gender=Masc|Number=Plur"
+    ],
+    [
+     "on",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "l'",
+     "le",
+     "DET",
+     "Definite=Def|Number=Sing|PronType=Art"
+    ],
+    [
+     "autre",
+     "autre",
+     "ADJ",
+     "Number=Sing"
+    ],
+    [
+     "sens",
+     "sens",
+     "NOUN",
+     "Gender=Masc|Number=Sing"
+    ]
+   ],
+   "lemmas": [
+    [
+     "là",
+     "là",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "autre",
+     "autre",
+     ""
+    ],
+    [
+     "sens",
+     "sens",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "fr": "Je descends maintenant ? Ça va pas !",
+   "rd": "쥬 데상 메트낭 ? 사 바 빠 !",
+   "ko": "나 지금 내려? 안 돼!",
+   "note": "je descends = 나는 내려 · ça va pas = 안 좋아",
+   "tags": [],
+   "new": [],
+   "emotion": "worried",
+   "morph_tags": [
+    [
+     "Je",
+     "je",
+     "PRON",
+     "Number=Sing|Person=1"
+    ],
+    [
+     "descends",
+     "descendre",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin"
+    ],
+    [
+     "Ça",
+     "cela",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "va",
+     "aller",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "descends",
+     "descendre",
+     ""
+    ],
+    [
+     "maintenant",
+     "maintenant",
+     ""
+    ],
+    [
+     "va",
+     "aller",
+     ""
+    ],
+    [
+     "pas",
+     "pas",
+     ""
+    ]
+   ]
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "fr": "Non ! On reste !",
+   "rd": "농 ! 옹 레스트 !",
+   "ko": "아니! 우리 그대로 있어!",
+   "note": "non = 아니 · on reste = 우리 있어",
+   "tags": [],
+   "new": [
+    "non"
+   ],
+   "emotion": "shout",
+   "morph_tags": [
+    [
+     "On",
+     "on",
+     "PRON",
+     "Number=Sing|Person=3"
+    ],
+    [
+     "reste",
+     "reste",
+     "VERB",
+     "Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin"
+    ]
+   ],
+   "lemmas": [
+    [
+     "reste",
+     "reste",
+     ""
+    ]
+   ]
+  }
+ ],
+ "review": {
+  "stage": "grok_write",
+  "model": "grok-fast",
+  "date": "2026-11-22",
+  "outline_by": "claude"
+ }
+}

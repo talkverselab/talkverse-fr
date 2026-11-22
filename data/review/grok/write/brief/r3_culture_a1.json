@@ -1,0 +1,82 @@
+{
+ "id": "r3_culture_a1",
+ "region": "R3",
+ "island": "culture",
+ "kind": "short",
+ "title": "음악은 좋았어 (우리는)",
+ "emoji": "🎬",
+ "scene": "레벨 1 「음악은 좋았어」를 복수로 — A 와 위고가 신이 나서 카미유와 레아에게 결말을 말해 버린다. 둘은 오늘 밤 보러 간다",
+ "where": "카페",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Léa",
+  "D": "Hugo"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "그래머2: vous(너희)·nous·복수(les robots·ses parents)·과거분사 일치(l'avez aimée) — 새 단어 0",
+ "expressions": [
+  "ouais",
+  "franchement",
+  "trop",
+  "bof",
+  "bah"
+ ],
+ "tags": [
+  "base:r1_culture_a1"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "excited"
+  },
+  {
+   "num": 3,
+   "speaker": "C",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 4,
+   "speaker": "D",
+   "emotion": "teasing"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 6,
+   "speaker": "A",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 7,
+   "speaker": "C",
+   "emotion": "shout"
+  },
+  {
+   "num": 8,
+   "speaker": "D",
+   "emotion": "flustered"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

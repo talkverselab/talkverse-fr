@@ -1,0 +1,110 @@
+{
+ "id": "r4_culture_b1",
+ "region": "R4",
+ "island": "culture",
+ "kind": "long",
+ "title": "주인공 목소리",
+ "emoji": "🎞️",
+ "scene": "카미유 카페의 월례 시네클럽. 상영이 끝난 뒤에 도착한 A 가 영화를 두 번 봤다고 우기다가, 주인공 목소리를 칭찬한다 — 무성 영화였다",
+ "where": "카페 시네클럽",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille",
+  "C": "Spectateur"
+ },
+ "cast": {
+  "C": "man_o"
+ },
+ "register": "mixed",
+ "twist": 10,
+ "twist_type": "slip",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture",
+  "friends"
+ ],
+ "goal": "감정·판단 뒤 접속법(je suis content que tu sois · ça me fait plaisir que · ça m'étonnerait que) · 조건법 과거 il aurait fallu que · 관계대명사 où(celle où · la gare où) · en(on va en discuter)",
+ "expressions": [
+  "bien sûr",
+  "en fait",
+  "vas-y",
+  "pas mal",
+  "j'avoue",
+  "franchement",
+  "allez"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "cheerful"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "flustered"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "amused"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "stiff"
+  },
+  {
+   "num": 5,
+   "speaker": "C"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "teasing"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "stiff"
+  },
+  {
+   "num": 8,
+   "speaker": "C",
+   "emotion": "excited"
+  },
+  {
+   "num": 9,
+   "speaker": "B",
+   "emotion": "teasing"
+  },
+  {
+   "num": 10,
+   "speaker": "A",
+   "emotion": "excited"
+  },
+  {
+   "num": 11,
+   "speaker": "B"
+  },
+  {
+   "num": 12,
+   "speaker": "C",
+   "emotion": "amused"
+  },
+  {
+   "num": 13,
+   "speaker": "A"
+  },
+  {
+   "num": 14,
+   "speaker": "B",
+   "emotion": "teasing"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

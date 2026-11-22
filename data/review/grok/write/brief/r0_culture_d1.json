@@ -1,0 +1,77 @@
+{
+ "id": "r0_culture_d1",
+ "region": "R0",
+ "island": "culture",
+ "kind": "short",
+ "title": "다 말해 줄게",
+ "emoji": "🎬",
+ "scene": "카미유와 영화관. 자막 없는 프랑스 영화라 걱정하는 A 에게 카미유가 다 설명해 주겠다고 한다",
+ "where": "영화관",
+ "speakers": {
+  "A": "{name}",
+  "B": "Camille"
+ },
+ "register": "casual",
+ "twist": 6,
+ "twist_type": "chaos",
+ "flags": [],
+ "purpose": [
+  "media",
+  "making_friends"
+ ],
+ "domain": [
+  "culture"
+ ],
+ "goal": "comprendre·dire 인칭 변화(tu comprends·je comprends / je te dis·tu me dis)",
+ "expressions": [
+  "allez",
+  "ouais",
+  "tiens",
+  "bien sûr",
+  "t'inquiète",
+  "ben"
+ ],
+ "turns": [
+  {
+   "num": 1,
+   "speaker": "B",
+   "emotion": "excited"
+  },
+  {
+   "num": 2,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 3,
+   "speaker": "B",
+   "emotion": "teasing"
+  },
+  {
+   "num": 4,
+   "speaker": "A",
+   "emotion": "worried"
+  },
+  {
+   "num": 5,
+   "speaker": "B",
+   "emotion": "gentle"
+  },
+  {
+   "num": 6,
+   "speaker": "B",
+   "emotion": "neutral"
+  },
+  {
+   "num": 7,
+   "speaker": "A",
+   "emotion": "tsukkomi"
+  },
+  {
+   "num": 8,
+   "speaker": "B",
+   "emotion": "amused"
+  }
+ ],
+ "note_for_writer": "대사 칸은 비어 있다 — 장면·인물·반전·목표 문법·표현·감정 힌트를 보고 네가 처음부터 쓴다. 턴 수와 화자 순서는 그대로."
+}

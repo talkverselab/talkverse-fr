@@ -4,6 +4,12 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kDictEn = {
+  '토크버스 커리큘럼 2단계 이상': 'Talkverse Curriculum stage 2 and up',
+  '회화 2단계 이상 편 전부': 'All conversations from stage 2 up',
+  '문법 {0}스텝부터': 'Grammar from step {0}',
+  '언어감각 {0}급부터': 'Language Sense from level {0}',
+  '스토어에 연결하지 못했습니다. 잠시 뒤 다시 시도해 주세요.': 'Couldn\'t reach the store. Please try again in a moment.',
+  '다시 시도': 'Try again',
   '프랑스어': 'French',
   '로그인하면 내 다른 기기에서도': 'Sign in to use it on your other devices',
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payments are processed by the App Store. Prices follow the store price and may include tax. No hidden fees.',
@@ -328,6 +334,12 @@ const Map<String, String> kDictEn = {
 };
 
 const Map<String, String> kDictJa = {
+  '토크버스 커리큘럼 2단계 이상': 'トークバース・カリキュラム 2段階以上',
+  '회화 2단계 이상 편 전부': '会話の2段階以上すべて',
+  '문법 {0}스텝부터': '文法 ステップ{0}から',
+  '언어감각 {0}급부터': '言語感覚 {0}級から',
+  '스토어에 연결하지 못했습니다. 잠시 뒤 다시 시도해 주세요.': 'ストアに接続できませんでした。しばらくしてからもう一度お試しください。',
+  '다시 시도': '再試行',
   '프랑스어': 'フランス語',
   '로그인하면 내 다른 기기에서도': 'ログインすれば自分の他の端末でも',
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '決済は App Store で行われます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
@@ -616,6 +628,12 @@ const Map<String, String> kDictJa = {
 };
 
 const Map<String, String> kDictZh = {
+  '토크버스 커리큘럼 2단계 이상': 'Talkverse 课程第2阶段及以上',
+  '회화 2단계 이상 편 전부': '第2阶段及以上的全部会话',
+  '문법 {0}스텝부터': '语法第{0}步起',
+  '언어감각 {0}급부터': '语感第{0}级起',
+  '스토어에 연결하지 못했습니다. 잠시 뒤 다시 시도해 주세요.': '无法连接商店，请稍后再试。',
+  '다시 시도': '重试',
   '프랑스어': '法语',
   '로그인하면 내 다른 기기에서도': '登录后在我的其他设备上也能用',
   '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 App Store 处理。显示价格以商店价格为准，可能含税。没有隐藏费用。',

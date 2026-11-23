@@ -4,6 +4,8 @@ import '../core/l10n.dart';
 import '../core/pane.dart';
 import '../core/platform.dart';
 import '../core/theme.dart';
+import '../data/access.dart';
+import '../data/entitlement.dart';
 import '../services/curriculum_service.dart';
 import '../services/dialogue_audio.dart';
 import '../services/dialogue_service.dart';
@@ -35,13 +37,18 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       if (!mounted) return;
       setState(() {
         _loading = false;
-        _levelPick = _st.level == null;
+        _levelPick = _st.level == null || _svc.levelLocked(_st.level!); // 이용권이 끝난 단계면 다시 고르게
         _picking = _st.level != null && _st.course == null;
       });
     });
   }
 
   Future<void> _setLevel(String lv) async {
+    if (_svc.levelLocked(lv)) {
+      await Entitlement.showPaywall(context); // 잠긴 단계 — 결제 화면(PAYWALL_SPEC §3)
+      if (mounted) setState(() {});
+      return;
+    }
     _st.level = lv;
     _svc.applyStage();
     await _svc.save();
@@ -132,9 +139,12 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
       ),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
-          : ListView(
-              padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + bottomInset(context)),
-              children: _levelPick ? _levelPicker() : [_todayCard(), const SizedBox(height: 12), ..._courseBody()],
+          : ListenableBuilder(
+              listenable: Access.changes,
+              builder: (context, _) => ListView(
+                padding: EdgeInsets.fromLTRB(16, 8, 16, 24 + bottomInset(context)),
+                children: _levelPick || (_st.level != null && _svc.levelLocked(_st.level!)) ? _levelPicker() : [_todayCard(), const SizedBox(height: 12), ..._courseBody()],
+              ),
             ),
     );
   }
@@ -171,7 +181,10 @@ class _CurriculumScreenState extends State<CurriculumScreen> {
                 ),
               ]),
             ),
-            if (_st.level == null && lv == lowest) _pill(tr('추천'), AppColors.matcha),
+            if (_svc.levelLocked(lv))
+              const Icon(Icons.lock_outline, color: AppColors.muted)
+            else if (_st.level == null && lv == lowest)
+              _pill(tr('추천'), AppColors.matcha),
           ]),
         ),
     ];

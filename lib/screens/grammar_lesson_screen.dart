@@ -10,6 +10,8 @@ import 'grammar_test_screen.dart';
 import '../core/platform.dart';
 import '../core/l10n.dart';
 import '../services/script_sync.dart';
+import '../data/access.dart';
+import '../data/entitlement.dart';
 
 /// 문법 강의 자산 — `assets/data/grammar/lessonN.json`
 /// `{lesson, title, subtitle, stages:[{stage,title}],
@@ -99,7 +101,25 @@ class _GrammarHubScreenState extends State<GrammarHubScreen> {
               : ListView(
                   padding: const EdgeInsets.all(16),
                   children: [
-                    for (final l in lessons)
+                    for (final (i, l) in lessons.indexed)
+                      if (Access.grammarStepLocked(i))
+                        // 무료 스텝 밖 — 숨기지 않고 자물쇠, 누르면 결제 화면(PAYWALL_SPEC)
+                        Card(
+                          color: Colors.white,
+                          margin: const EdgeInsets.only(bottom: 10),
+                          child: ListTile(
+                            contentPadding: const EdgeInsets.fromLTRB(12, 8, 8, 8),
+                            leading: TileBadge(text: '${l.number}', size: 40),
+                            title: Text(l.title, style: const TextStyle(fontWeight: FontWeight.w800)),
+                            subtitle: Text(l.subtitle, style: const TextStyle(fontSize: 12, height: 1.4)),
+                            trailing: const Padding(padding: EdgeInsets.all(12), child: Icon(Icons.lock_outline, color: AppColors.tintaLight)),
+                            onTap: () async {
+                              await Entitlement.showPaywall(context);
+                              if (mounted) setState(() {});
+                            },
+                          ),
+                        )
+                      else
                       Card(
                         color: Colors.white,
                         margin: const EdgeInsets.only(bottom: 10),

@@ -4,6 +4,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 
 import '../core/prefs.dart';
+import '../data/access.dart';
 import 'curriculum_plan.dart';
 import 'dialogue_service.dart';
 
@@ -367,6 +368,9 @@ class CurriculumService {
     }
     return DialogueService.instance.list(region: k);
   }
+
+  /// 이용권 없이는 못 여는 단계인가(PAYWALL_SPEC) — 서버 단계 목록이면 단계 `free`, 없으면 회화 레벨 기준.
+  bool levelLocked(String k) => plan != null ? Access.stageLocked(int.tryParse(k) ?? 99) : Access.regionLocked(k);
 
   String levelBadge(String k) => k;
   String levelTitle(String k) => _stage(k)?.title ?? DialogueService.levelKo[k] ?? k;

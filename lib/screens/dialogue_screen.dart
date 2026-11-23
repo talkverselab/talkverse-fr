@@ -4,6 +4,8 @@ import '../core/l10n.dart';
 import '../core/platform.dart';
 import '../core/pane.dart';
 import '../core/theme.dart';
+import '../data/access.dart';
+import '../data/entitlement.dart';
 import '../services/dialogue_audio.dart';
 import '../services/dialogue_service.dart';
 import '../services/ko_reading.dart';
@@ -74,7 +76,7 @@ class _TodayCut extends StatelessWidget {
   Widget build(BuildContext context) {
     final svc = DialogueService.instance;
     final last = svc.lastOpenedId != null ? svc.byId(svc.lastOpenedId!) : null;
-    final d = last ?? (svc.all.isNotEmpty ? svc.all.first : null);
+    final d = (last != null && !Access.dialogueLocked(last)) ? last : svc.all.where((x) => !Access.dialogueLocked(x)).firstOrNull;
     if (d == null) return const SizedBox.shrink();
     final wide = isWide(context);
     final t = d.turns.first;
@@ -118,8 +120,18 @@ class _LevelHeader extends StatelessWidget {
           Text(tr(DialogueService.levelKo[lv] ?? lv), style: const TextStyle(fontSize: 13, fontWeight: FontWeight.w800, color: AppColors.sumi)),
           const SizedBox(width: 8),
           Text(trf('{0}편', [count]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+          if (Access.regionLocked(lv)) ...[const SizedBox(width: 6), const Icon(Icons.lock_outline, size: 16, color: AppColors.muted)],
         ]),
       );
+}
+
+/// 잠긴 편(PAYWALL_SPEC — 무료 단계 밖)은 결제 화면, 아니면 편 화면.
+void openDialogue(BuildContext context, Dialogue d) {
+  if (Access.dialogueLocked(d)) {
+    Entitlement.showPaywall(context);
+    return;
+  }
+  openPane(context, (_) => DialogueScreen(dialogue: d));
 }
 
 class _IslandRow extends StatelessWidget {
@@ -171,11 +183,13 @@ class DialogueListScreen extends StatelessWidget {
             child: Material(
               color: Colors.transparent,
               child: ListTile(
-                onTap: () => openPane(context, (_) => DialogueScreen(dialogue: d)),
+                onTap: () => openDialogue(context, d),
                 leading: Text(d.emoji, style: const TextStyle(fontSize: 24)),
                 title: Text(d.title, style: const TextStyle(fontSize: 15, fontWeight: FontWeight.w800, color: AppColors.sumi)),
                 subtitle: Text(d.sceneShown, maxLines: 2, overflow: TextOverflow.ellipsis, style: const TextStyle(fontSize: 11, color: AppColors.muted, height: 1.3)),
-                trailing: Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
+                trailing: Access.dialogueLocked(d)
+                    ? const Icon(Icons.lock_outline, color: AppColors.muted)
+                    : Text(trf('{0}턴', [d.turns.length]), style: const TextStyle(fontSize: 11, color: AppColors.muted)),
               ),
             ),
           );

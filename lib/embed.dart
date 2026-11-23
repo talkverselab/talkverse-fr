@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 
 import 'core/embed_env.dart';
@@ -12,6 +14,7 @@ import 'screens/main_screen.dart';
 import 'screens/sync_screen.dart';
 import 'services/achievement_service.dart';
 import 'services/content_sync.dart';
+import 'services/curriculum_plan.dart';
 import 'services/ko_reading.dart';
 import 'services/learner_prefs.dart';
 import 'services/script_sync.dart';
@@ -44,15 +47,18 @@ Future<void> embedInit({bool standalone = false}) async {
   await AchievementService.instance.load(); // 편 완주·그림 카드 기록(성과 데스크)
   Account.load(); // Talkverse ID — 저장된 로그인 표시 + 뒤에서 토큰 갱신(기다리지 않음). 로그인은 선택
   Purchase.ownStream = standalone; // 통합 앱이면 공용 결제가 구매 스트림을 넘겨준다
-  // 가격표 = ~/talkverse/PRICING.md(사용자 확정 2026-11-09) — 앱 할인가(30%)·앱 정가.
+  // 상품 = PAYWALL_SPEC §1. 가격은 스토어 값만 보인다(코드에 원화를 두지 않음).
   await Purchase.configure('fr', const [
-    Plan('lang_fr_1m', 1, 3900, listKrw: 5500),
-    Plan('lang_fr_3m', 3, 9000, listKrw: 12900),
-    Plan('lang_fr_1y', 12, 19900, listKrw: 28500),
-    Plan('lang_fr_life', 0, 49000, listKrw: 69900),
-    Plan('all_1y', 12, 79000, listKrw: 112900, bundle: true),
-    Plan('all_life', 0, 329000, listKrw: 469000, bundle: true),
+    Plan('lang_fr_1m', 1),
+    Plan('lang_fr_3m', 3),
+    Plan('lang_fr_1y', 12),
+    Plan('lang_fr_life', 0),
+    Plan('all_1y', 12, bundle: true),
+    Plan('all_life', 0, bundle: true),
   ]);
+  // 커리큘럼 단계·무료 경계(서버 DB) — 잠금 판단에 쓰므로 먼저 읽고, 서버 새 판은 뒤에서
+  await CurriculumPlanStore.instance.load();
+  unawaited(CurriculumPlanStore.instance.refresh());
   // 회화 원고: 켤 때마다 무조건 서버 판 확인(그림·음성 내려받기와 따로, 일본어앱 빌드 114). 15초 넘으면 뒤에서 마저 받는다.
   try {
     await ScriptSync.instance.refresh().timeout(ScriptSync.startupWait);

@@ -22,7 +22,9 @@ class CurriculumStage {
   final int pass;
   /// 하루 새 편 수 [가볍게, 보통, 집중] — 서버 `daily:{light, normal, focus}`, 없으면 1·2·3.
   final List<int> daily;
-  const CurriculumStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, this.pass, [this.daily = const [1, 2, 3]]);
+  /// 무료 단계인가 — 서버 `free`, 없으면 1단계만 무료(PAYWALL_SPEC §2).
+  final bool free;
+  const CurriculumStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, this.pass, [this.daily = const [1, 2, 3], bool? free]) : free = free ?? n == 1;
 
   static CurriculumStage? fromJson(Object? o) {
     if (o is! Map) return null;
@@ -34,14 +36,17 @@ class CurriculumStage {
     int d(String k, int def) => ((dm[k] as num?)?.toInt() ?? def).clamp(0, 20);
     final pass = ((o['pass'] as num?)?.toInt() ?? 80).clamp(1, 100);
     return CurriculumStage(n, '${o['title'] ?? ''}', '${o['desc'] ?? ''}', ids, pick.isEmpty ? const [3, 5, 10] : pick, pass,
-        [d('light', 1), d('normal', 2), d('focus', 3)]);
+        [d('light', 1), d('normal', 2), d('focus', 3)], o['free'] is bool ? o['free'] as bool : null);
   }
 }
 
 class CurriculumPlan {
   final int rev;
   final List<CurriculumStage> stages;
-  const CurriculumPlan(this.rev, this.stages);
+  /// 무료 문법 스텝 수·언어감각 급 수(PAYWALL_SPEC §2, 없으면 2·1).
+  final int freeSteps;
+  final int freeSenseLevels;
+  const CurriculumPlan(this.rev, this.stages, {this.freeSteps = 2, this.freeSenseLevels = 1});
 
   /// 깨진 JSON·단계 0개면 null.
   static CurriculumPlan? parse(String raw) {
@@ -50,7 +55,8 @@ class CurriculumPlan {
       final stages = [for (final s in (j['stages'] as List? ?? const [])) CurriculumStage.fromJson(s)].whereType<CurriculumStage>().toList()
         ..sort((a, b) => a.n.compareTo(b.n));
       if (stages.isEmpty) return null;
-      return CurriculumPlan((j['rev'] as num?)?.toInt() ?? 0, stages);
+      return CurriculumPlan((j['rev'] as num?)?.toInt() ?? 0, stages,
+          freeSteps: ((j['freeSteps'] as num?)?.toInt() ?? 2).clamp(0, 99), freeSenseLevels: ((j['freeSenseLevels'] as num?)?.toInt() ?? 1).clamp(0, 99));
     } catch (_) {
       return null;
     }

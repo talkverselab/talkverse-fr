@@ -515,10 +515,6 @@ class WordCardSheet extends StatelessWidget {
                     TextSpan(text: '  $mean', style: const TextStyle(fontSize: 15, color: AppColors.sumiLight)),
                   ])),
                 ),
-            const SizedBox(height: 10),
-            Container(height: 1, color: AppColors.line),
-            const SizedBox(height: 10),
-            Text(tr('성·수 · 관사 · 동사 활용은 준비 중'), style: const TextStyle(fontSize: 12, color: AppColors.muted)),
           ]),
         ),
       );

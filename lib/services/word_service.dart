@@ -12,6 +12,12 @@ class WordEntry {
   String get gloss => ko;
 }
 
+/// 12+ 등급 — 단어 화면·퀴즈·레마 칩에 내보내지 않는 비속어(단어장 파일은 한자 프로젝트와 공용이라 여기서 거른다, 출시 심사 점검 2026-11-23).
+const kHiddenWords = {
+  'putain', 'merde', 'foutre', 'con', 'conne', 'connard', 'connasse', 'cul', 'bordel', 'pute', 'chier', 'salope', 'enculé', 'encule',
+  'niquer', 'nique', 'bite', 'couille', 'couilles', 'branler', 'pédé', 'enfoiré', 'bâtard', 'emmerder', 'chiant', 'gueule',
+};
+
 class WordService {
   WordService._();
   static final WordService instance = WordService._();
@@ -29,7 +35,7 @@ class WordService {
         final r = rows[i];
         if (r.length < 8) continue;
         final w = '${r[1]}'.trim();
-        if (w.isEmpty || _byWord.containsKey(w)) continue;
+        if (w.isEmpty || _byWord.containsKey(w) || kHiddenWords.contains(w.toLowerCase())) continue;
         _byWord[w] = WordEntry(
           rank: int.tryParse('${r[0]}') ?? 0,
           word: w,

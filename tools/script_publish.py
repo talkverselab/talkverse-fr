@@ -60,6 +60,11 @@ def write_base(rev, files):
 
 
 def main():
+    # 공개 원고·앱 묶음에 작업 기록 칸(AI·출처 이름)을 남기지 않는다 — 빼고 나서 sha 를 잰다(출시 심사 점검 2026-11-23)
+    r = subprocess.run([sys.executable, str(ROOT / 'tools/strip_work_fields.py')], cwd=ROOT, capture_output=True, text=True)
+    print(r.stdout.strip())
+    if r.returncode != 0 or '남은 것 0' not in r.stdout:
+        sys.exit('작업 기록·AI 이름이 남아 있음 — 고친 뒤 다시')
     now = current()
     if '--init' in sys.argv:
         if BASE.exists():

@@ -486,11 +486,5 @@
     ]
    ]
   }
- ],
- "review": {
-  "stage": "grok_write",
-  "model": "grok-fast",
-  "date": "2026-11-22",
-  "outline_by": "claude"
- }
+ ]
 }

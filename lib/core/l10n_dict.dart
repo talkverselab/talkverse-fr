@@ -4,6 +4,10 @@
 // ignore_for_file: lines_longer_than_80_chars
 
 const Map<String, String> kDictEn = {
+  '프랑스어': 'French',
+  '로그인하면 내 다른 기기에서도': 'Sign in to use it on your other devices',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payments are processed by the App Store. Prices follow the store price and may include tax. No hidden fees.',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': 'Payments are processed by Google Play. Prices follow the store price and may include tax. No hidden fees.',
   '다른 언어 배우기': 'Learn another language',
   'Talkverse 언어 목록으로': 'Talkverse language list',
   // 이용권·결제(2026-11-09 가격 확정)
@@ -324,6 +328,10 @@ const Map<String, String> kDictEn = {
 };
 
 const Map<String, String> kDictJa = {
+  '프랑스어': 'フランス語',
+  '로그인하면 내 다른 기기에서도': 'ログインすれば自分の他の端末でも',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '決済は App Store で行われます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '決済は Google Play で行われます。表示価格はストア価格に従い、税が含まれる場合があります。隠れた料金はありません。',
   '다른 언어 배우기': 'ほかの言語を学ぶ',
   'Talkverse 언어 목록으로': 'Talkverse の言語一覧へ',
   // 이용권·결제(2026-11-09 가격 확정)
@@ -608,6 +616,10 @@ const Map<String, String> kDictJa = {
 };
 
 const Map<String, String> kDictZh = {
+  '프랑스어': '法语',
+  '로그인하면 내 다른 기기에서도': '登录后在我的其他设备上也能用',
+  '결제는 App Store 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 App Store 处理。显示价格以商店价格为准，可能含税。没有隐藏费用。',
+  '결제는 Google Play 에서 처리됩니다. 표시 가격은 스토어 가격을 따르며 세금이 포함될 수 있습니다. 숨은 요금은 없습니다.': '付款由 Google Play 处理。显示价格以商店价格为准，可能含税。没有隐藏费用。',
   '다른 언어 배우기': '学习其他语言',
   'Talkverse 언어 목록으로': '前往 Talkverse 语言列表',
   // 이용권·결제(2026-11-09 가격 확정)

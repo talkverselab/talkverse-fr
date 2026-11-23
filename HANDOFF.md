@@ -136,3 +136,8 @@
 - 언어감각도 급 목록은 원고에서, 회차 없는 급은 숨김(`SenseCourse.levels`), 상한 없음.
 - 새 스텝 올리기: `assets/data/grammar/lessonN.json` 만들고 `python3 tools/script_publish.py --publish` → `script_rev.json` 커밋. 문장은 Claude 로, 12+·형식 검사 뒤.
 - 현재 내용 있는 스텝: 문법 1(lesson1) · 언어감각 10급. 서버 rev 5.
+
+## 커리큘럼 단계 = 서버 DB (CURRICULUM_SPEC §12, 2026-11-23)
+- 1~5단계, 단계별 편 목록은 `assets/curriculum_fr.json`(uk 의 `~/talkverse/curriculum/fr.json` 복사, rev 1) → 시작 때 `https://talkverse.uk/api/curriculum/fr` rev 가 크면 받아 기기에 두고 씀(`lib/services/curriculum_plan.dart`). 지금 서버는 배포 전(404) → 기본 JSON.
+- 앱에 없는 편 id 는 건너뜀, 편 0개 단계 숨김, 옛 저장 `level:"R2"` 는 단계 `"2"` 로(R0·R1 → 1). JSON 이 깨지면 회화 레벨(R0~R5)로 돈다.
+- 코스·연습·복습·시험·매일 분량은 그대로. 오답 보기는 같은 회화 레벨 편에서(`poolFor`). prep(JLPT/HSK)은 fr 에 없음.

@@ -58,6 +58,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/curriculum_fr.json
     - assets/data/audio_manifest.json
     - assets/data/dialogues/
     - assets/data/dialogues/R0/culture/

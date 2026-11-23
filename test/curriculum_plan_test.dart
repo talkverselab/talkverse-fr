@@ -85,4 +85,27 @@ void main() {
     expect(CurriculumService.stageOfRegion('R1'), '1');
     expect(CurriculumService.stageOfRegion('R5'), '5');
   });
+
+  test('pass·daily 도 단계 JSON 에서 — 시험 판정·하루 새 편 수, 없으면 80·1·2·3', () {
+    final p = CurriculumPlan.parse(json.encode({
+      'rev': 1,
+      'stages': [
+        {'n': 1, 'dialogueIds': ['a'], 'pass': 70, 'daily': {'light': 2, 'normal': 4, 'focus': 6}},
+        {'n': 2, 'dialogueIds': ['b']},
+      ]
+    }))!;
+    expect(p.stages[0].pass, 70);
+    expect(p.stages[0].daily, [2, 4, 6]);
+    expect(p.stages[1].pass, 80);
+    expect(p.stages[1].daily, [1, 2, 3]);
+
+    final st = CurriculumState(dailyGoal: 2)
+      ..passPercent = 70
+      ..dailyCounts = p.stages[0].daily
+      ..course = Course('c', ['a']);
+    expect(st.newLeft('2026-11-23'), 4);
+    expect(st.recordExam(7, 10, {}, '2026-11-23'), isTrue, reason: '70점 기준이면 70점 통과');
+    expect(isPass(7, 10, 70), isTrue);
+    expect(isPass(7, 10), isFalse);
+  });
 }

@@ -20,7 +20,9 @@ class CurriculumStage {
   final List<String> dialogueIds;
   final List<int> pick;
   final int pass;
-  const CurriculumStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, this.pass);
+  /// 하루 새 편 수 [가볍게, 보통, 집중] — 서버 `daily:{light, normal, focus}`, 없으면 1·2·3.
+  final List<int> daily;
+  const CurriculumStage(this.n, this.title, this.desc, this.dialogueIds, this.pick, this.pass, [this.daily = const [1, 2, 3]]);
 
   static CurriculumStage? fromJson(Object? o) {
     if (o is! Map) return null;
@@ -28,7 +30,11 @@ class CurriculumStage {
     final ids = (o['dialogueIds'] as List?)?.map((e) => '$e').toList();
     if (n == null || ids == null) return null;
     final pick = ((o['pick'] as List?) ?? const [3, 5, 10]).whereType<num>().map((e) => e.toInt()).where((e) => e > 0).toList();
-    return CurriculumStage(n, '${o['title'] ?? ''}', '${o['desc'] ?? ''}', ids, pick.isEmpty ? const [3, 5, 10] : pick, (o['pass'] as num?)?.toInt() ?? 80);
+    final dm = o['daily'] is Map ? o['daily'] as Map : const {};
+    int d(String k, int def) => ((dm[k] as num?)?.toInt() ?? def).clamp(0, 20);
+    final pass = ((o['pass'] as num?)?.toInt() ?? 80).clamp(1, 100);
+    return CurriculumStage(n, '${o['title'] ?? ''}', '${o['desc'] ?? ''}', ids, pick.isEmpty ? const [3, 5, 10] : pick, pass,
+        [d('light', 1), d('normal', 2), d('focus', 3)]);
   }
 }
 

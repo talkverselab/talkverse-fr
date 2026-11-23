@@ -21,7 +21,7 @@ const kPassPercent = 80;
 
 /// 점수 = 정답 수 / 문제 수, 소수점 버림.
 int scorePercent(int correct, int total) => total <= 0 ? 0 : (correct * 100) ~/ total;
-bool isPass(int correct, int total) => scorePercent(correct, total) >= kPassPercent;
+bool isPass(int correct, int total, [int pass = kPassPercent]) => scorePercent(correct, total) >= pass;
 
 String ymd(DateTime d) => '${d.year.toString().padLeft(4, '0')}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
 DateTime parseYmd(String s) {
@@ -69,7 +69,13 @@ class Course {
 /// `curriculum_v1` 한 벌. 기준 형식 + `today`(오늘 한 양 — 홈 카드 진행 막대용, 기준 문서에 없는 칸이라 uk 에 알림).
 class CurriculumState {
   String? level;
-  int dailyGoal; // 새 편 수: 1 가볍게 · 2 보통 · 3 집중
+  int dailyGoal; // 하루 목표 칸: 1 가볍게 · 2 보통 · 3 집중
+
+  /// 칸별 새 편 수 — 단계 JSON 의 daily(§12), 저장하지 않음. 기본 1·2·3.
+  List<int> dailyCounts = const [1, 2, 3];
+
+  /// 통과 점수 — 단계 JSON 의 pass(§12), 저장하지 않음.
+  int passPercent = kPassPercent;
   Course? course;
   final List<String> passedDialogues;
   final List<ReviewItem> review;
@@ -129,7 +135,7 @@ class CurriculumState {
   List<ReviewItem> dueReview(String today) => review.where((r) => r.due.compareTo(today) <= 0).toList();
 
   /// 오늘 남은 새 편 수.
-  int newLeft(String today) => max(0, dailyGoal - (todayDay == today ? todayNew : 0));
+  int newLeft(String today) => max(0, dailyCounts[(dailyGoal - 1).clamp(0, dailyCounts.length - 1)] - (todayDay == today ? todayNew : 0));
 
   /// 오늘 분량을 다 했나(복습 0 + 새 편 목표 채움).
   bool dayDone(String today) => dueReview(today).isEmpty && newLeft(today) == 0;
@@ -188,7 +194,7 @@ class CurriculumState {
     if (c == null) return false;
     final s = scorePercent(correct, total);
     c.examScores.add(s);
-    if (s >= kPassPercent) {
+    if (s >= passPercent) {
       c.passedAt = today;
       for (final id in c.dialogueIds) {
         if (!passedDialogues.contains(id)) passedDialogues.add(id);
@@ -334,6 +340,14 @@ class CurriculumService {
     if (plan != null && lv.startsWith('R')) state.level = stageOfRegion(lv);
     if (plan == null && int.tryParse(lv) != null) state.level = 'R$lv';
     if (!levelKeys.contains(state.level)) state.level = null; // 서버에서 빠진 단계 — 다시 고르게
+    applyStage();
+  }
+
+  /// 지금 단계의 통과 점수·하루 새 편 수를 상태에 넣는다(단계를 바꿀 때마다).
+  void applyStage() {
+    final st = state.level == null ? null : _stage(state.level!);
+    state.passPercent = st?.pass ?? kPassPercent;
+    state.dailyCounts = st?.daily ?? const [1, 2, 3];
   }
 
   CurriculumStage? _stage(String k) => plan?.stages.where((s) => '${s.n}' == k).firstOrNull;

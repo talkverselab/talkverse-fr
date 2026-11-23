@@ -81,8 +81,9 @@ class Purchase {
     }
     if (ownStream) _sub ??= InAppPurchase.instance.purchaseStream.listen(_onUpdates, onError: (_) => status.value = 'error');
     await loadProducts();
-    // 시작 때 복원 조회(PAYWALL_SPEC §4) — 다른 기기에서 산 것·갱신된 구독을 받는다. 화면 상태는 건드리지 않는다.
-    if (ownStream) unawaited(restore(silent: true));
+    // 시작 때 복원 조회(PAYWALL_SPEC §4)는 안드로이드만 — iOS 는 restorePurchases 가 Apple ID 암호 창을 띄울 수 있어
+    // 미완료 거래 자동 수신(purchaseStream) + 「구매 복원」 단추만(uk 기준 통일 2026-11-23). 화면 상태는 건드리지 않는다.
+    if (ownStream && isAndroid) unawaited(restore(silent: true));
   }
 
   /// 스토어에서 상품·가격을 받는다. 12초 안에 못 받으면 'failed'(끝없이 기다리지 않음). 결제 화면의 「다시 시도」도 이것.

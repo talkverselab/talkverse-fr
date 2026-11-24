@@ -1,0 +1,83 @@
+{
+ "ep": "r1_study_d1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Tu travailles grave, Léa ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Ouais... attends, pas ça."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "Je regarde tes notes, d'accord ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "Ben, les dernières pages sont finies."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Je dessine aussi un peu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Non ! Tu regardes pas !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Tu m'as dessiné ici !"
+    ]
+   ],
+   "f": {
+    "text": "Tu m'as dessinée ici !",
+    "rd": "뛰 마 데시네 이시 !",
+    "ko": "네가 나를 여기 그렸네!",
+    "segs": [
+     [
+      "surprised",
+      "Tu m'as dessinée ici !"
+     ]
+    ]
+   }
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "C'est... c'est juste toi."
+    ]
+   ]
+  }
+ }
+}

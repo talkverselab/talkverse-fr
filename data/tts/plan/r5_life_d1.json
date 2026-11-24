@@ -1,0 +1,121 @@
+{
+ "ep": "r5_life_d1",
+ "cast": {
+  "B": "hugo",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bonjour, vous avez une ordonnance ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "sad",
+     "Non, j'ai un rhume. La gorge me fait mal."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Vous toussez beaucoup ? De la toux sèche ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Ouais, et un peu de fièvre. Température haute."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "D'accord. Du sirop ou des comprimés ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Le sirop, mais sans effet secondaire de somnolence."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Voilà, celui-ci est bien. Pas de nausée."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "En fait... j'ai mal au cœur aussi."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Vous allez vomir ? C'est l'estomac ?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Non non, je voulais dire... le cœur, genre triste."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Bah, il a le cœur brisé. Son crush l'a ghosté."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Ah, pas un médicament alors. Des mouchoirs ?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "sad",
+     "Trop gênant... oui, des mouchoirs."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "Tenez. Et reposez-vous bien pour le rhume."
+    ]
+   ]
+  }
+ }
+}

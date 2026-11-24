@@ -1,0 +1,120 @@
+{
+ "ep": "r4_study_d1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Attends, il faut qu'on finisse les slides ce soir."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "D'accord, tu me l'envoies le fichier ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Ouais, je te l'ai envoyé. Le tableau dont tu m'as parlé est dedans."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Trop bien ! Celui où tu disais que le prof est nul ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Ben oui... j'ai peur qu'il mette une mauvaise note."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "stiff",
+     "Je voudrais que tout soit parfait quand même."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Attends, je l'ai mis dans le groupe... le mauvais."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Quoi ? Le groupe avec le prof ?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Ouais... et les messages où on dit qu'il est chiant. Flustered total."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shout",
+     "Non ! Si tu me l'avais envoyé en privé, on n'aurait pas ça !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "Je sais... il faudrait que tu t'excuses pour moi."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "worried",
+     "Trop tard. Il a déjà vu, j'en suis sûre."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Ben, on dit que c'était une blague ?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "D'accord, mais la prochaine tu vérifies avant. Trop con."
+    ]
+   ]
+  }
+ }
+}

@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Salut ! Moi, c'est Camille. Et toi ?"
+     "Salut ! Ça va ?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Moi, c'est {name}. Ça va, toi ?"
+     "Ouais ! Moi, c'est {name}."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "cheerful",
-     "Ouais, je vais bien ! Et toi, tu viens d'où ?"
+     "Camille. Tu es d'où ?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "cheerful",
-     "Je viens de {city}. Et toi, Claire ?"
+     "D'ici. Et toi, Léa ?"
     ]
    ]
   },
@@ -40,11 +40,7 @@
    "segs": [
     [
      "surprised",
-     "Claire ?! C'est ma sœur !"
-    ],
-    [
-     "tsukkomi",
-     "Elle vient de Lyon."
+     "Pardon ? C'est Camille !"
     ]
    ]
   },
@@ -52,7 +48,7 @@
    "segs": [
     [
      "flustered",
-     "Euh… pardon, Camille ! Et toi, tu viens d'où ?"
+     "Ah, pardon ! Camille."
     ]
    ]
   }

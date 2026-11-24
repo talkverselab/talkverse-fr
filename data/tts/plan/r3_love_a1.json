@@ -10,19 +10,15 @@
    "segs": [
     [
      "shy",
-     "Pardon… vous lisez quoi ?"
+     "Pardon, vous lisez les mêmes livres ?"
     ]
    ]
   },
   "2": {
    "segs": [
     [
-     "neutral",
-     "Des livres sur Paris."
-    ],
-    [
-     "surprised",
-     "Pourquoi ?"
+     "cheerful",
+     "Ouais, nous les avons achetés ensemble."
     ]
    ]
   },
@@ -30,7 +26,7 @@
    "segs": [
     [
      "excited",
-     "Parce qu'on a les mêmes ! Vous voyez ?"
+     "C'est pas vrai ! Nous aussi !"
     ]
    ]
   },
@@ -38,7 +34,7 @@
    "segs": [
     [
      "surprised",
-     "C'est pas vrai ! Vous les aimez bien ?"
+     "Vous aussi ?"
     ]
    ]
   },
@@ -46,7 +42,7 @@
    "segs": [
     [
      "amused",
-     "Bof… on aime les couvertures. On les a pas lus."
+     "Bof, on les aime bien."
     ]
    ]
   },
@@ -54,7 +50,7 @@
    "segs": [
     [
      "teasing",
-     "Alors pourquoi vous les avez achetés ?"
+     "Vous voulez lire avec nous ?"
     ]
    ]
   },
@@ -62,19 +58,15 @@
    "segs": [
     [
      "shy",
-     "…Parce qu'on vous a vus les acheter hier."
+     "Ben... ouais, si ça vous dit."
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "surprised",
-     "Hier ?"
-    ],
-    [
      "gentle",
-     "Alors… on va les lire ensemble ?"
+     "Venez, il y a de la place pour vous."
     ]
    ]
   }

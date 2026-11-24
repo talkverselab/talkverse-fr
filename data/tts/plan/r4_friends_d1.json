@@ -1,0 +1,121 @@
+{
+ "ep": "r4_friends_d1",
+ "cast": {
+  "B": "camille",
+  "C": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Salut {name}, t'es là pour m'aider à déménager ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "amused",
+     "Ouais, Hugo m'en parlait d'un gros camion."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, mon oncle me l'a prêté. Il disait qu'il était énorme, je l'ai cru !"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Super ! Il faut qu'on ait tout descendu avant qu'il pleuve."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Attends, c'est ça le camion ? Il est minuscule !"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "T'inquiète, on va gérer. Tiens, je te le passe."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Sérieux, le canapé est coincé dans l'escalier."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "D'accord, il faut qu'il nous apporte un plus gros... non, les clés sont enfermées dedans !"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Il en reste combien ? J'en ai descendu dix déjà."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shout",
+     "Oh là là, il pleut, le canapé coincé et les clés dans le camion ! C'est le chaos !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "Si j'avais vérifié la taille, on n'aurait pas eu ça."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Tu rigoles ? Il était en morceaux, je l'avais monté hier !"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "stiff",
+     "Bon, on va appeler mon oncle, d'accord ?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Ouais, la prochaine fois tu mesures avant !"
+    ]
+   ]
+  }
+ }
+}

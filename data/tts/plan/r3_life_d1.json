@@ -1,0 +1,74 @@
+{
+ "ep": "r3_life_d1",
+ "cast": {
+  "B": "theo",
+  "C": "hugo",
+  "D": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "On lave nos chaussettes avec vos chemises ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "D'accord. Nos chemises sont blanches."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Voilà, nous lavons tout ensemble."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Vous lavez les rouges aussi ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Attends, les chemises deviennent roses !"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Quoi ? Nos blanches sont roses maintenant !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Tant pis, c'est tout mélangé."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Vous lavez mieux la prochaine fois."
+    ]
+   ]
+  }
+ }
+}

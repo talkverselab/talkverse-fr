@@ -1,0 +1,107 @@
+{
+ "ep": "r2_study_d1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "T'as fini les slides pour demain ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, ça marche. Je t'envoie le fichier."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Super. Je lis le texte, toi tu montres les images."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Voilà, c'est envoyé."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "En fait, j'ai regardé, tout est bon."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Attends, c'est un dossier de photos qui sont de vacances ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "amused",
+     "Trop marrant ! J'ai regardé deux secondes."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "Oh non, j'ai envoyé le mauvais dossier !"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Mais j'adore, t'es trop bien sur ces photos."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "Désolé, voilà le bon fichier stp."
+    ]
+   ],
+   "f": {
+    "text": "Désolée, voilà le bon fichier stp.",
+    "rd": "데졸레, 브왈라 르 봉 피시에 에쓰떼뻬",
+    "ko": "미안, 자 올바른 파일이야 부탁해.",
+    "segs": [
+     [
+      "flustered",
+      "Désolée, voilà le bon fichier stp."
+     ]
+    ]
+   }
+  },
+  "11": {
+   "segs": [
+    [
+     "teasing",
+     "Ça marche. Mais garde-les pour moi."
+    ]
+   ]
+  }
+ }
+}

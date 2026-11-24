@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Ce soir, je fais ma tarte aux pommes ! Tu veux venir ?"
+     "Ce soir je fais une tarte aux pommes. Tu viens ?"
     ]
    ]
   },
@@ -16,8 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Ouais, carrément ! J'arrive vers 20h.",
-     "Ouais, carrément ! J'arrive vers vingt heures."
+     "Ouais, carrément !"
     ]
    ]
   },
@@ -25,7 +24,7 @@
    "segs": [
     [
      "amused",
-     "Mdr, j'espère qu'il va pas encore brûler la tarte"
+     "Mdr Hugo brûle tout."
     ]
    ]
   },
@@ -33,7 +32,7 @@
    "segs": [
     [
      "annoyed",
-     "…C'est pour qui, ce message ?"
+     "Sérieux ? C'est quoi ça ?"
     ]
    ]
   },
@@ -41,36 +40,42 @@
    "segs": [
     [
      "flustered",
-     "Pour toi ! Enfin… pour Camille Pardon pardon !!"
+     "Merde, je me suis trompé."
     ]
-   ]
+   ],
+   "f": {
+    "text": "Merde, je me suis trompée.",
+    "rd": "메르드, 쥬 므 쉬 트롱페.",
+    "ko": "젠장, 잘못 보냈어.",
+    "segs": [
+     [
+      "flustered",
+      "Merde, je me suis trompée."
+     ]
+    ]
+   }
   },
   "6": {
    "segs": [
     [
      "teasing",
-     "Trop tard. Camille l'a vu aussi, elle est à côté de moi."
+     "Tu disais ça à Camille ?"
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "annoyed",
-     "Elle rigole depuis 5 min",
-     "Elle rigole depuis cinq minutes"
+     "amused",
+     "Carrément mdr."
     ]
    ]
   },
   "8": {
    "segs": [
     [
-     "surprised",
-     "Sérieux ?"
-    ],
-    [
      "flustered",
-     "Bon, je veux me faire pardonner… je viens avec un gâteau."
+     "C'était une blague."
     ]
    ]
   },
@@ -78,7 +83,7 @@
    "segs": [
     [
      "teasing",
-     "Pas besoin. Elle l'a déjà mis en story."
+     "Ah sérieux, tu me rates ?"
     ]
    ]
   },
@@ -86,16 +91,15 @@
    "segs": [
     [
      "flustered",
-     "Non… Tout le monde le voit ?!"
+     "Non, pardon mdr."
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "amused",
-     "Ouais. Même ma mère. Elle veut la recette de la tarte brûlée mdr",
-     "Ouais. Même ma mère. Elle veut la recette de la tarte brûlée."
+     "cheerful",
+     "Ouais, viens quand même."
     ]
    ]
   }

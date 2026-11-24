@@ -1,0 +1,72 @@
+{
+ "ep": "r0_work_d1",
+ "cast": {
+  "B": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Tu mets le café ici."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "D'accord, je mets ça ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Ouais. T'inquiète, c'est facile."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Je mets l'eau aussi ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "shout",
+     "Non ! Pas ce bouton !"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oh là là, j'ai mis le mauvais !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Ça va. Tu mets celui-là."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Tu apprends vite !"
+    ]
+   ]
+  }
+ }
+}

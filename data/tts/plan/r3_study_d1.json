@@ -1,0 +1,85 @@
+{
+ "ep": "r3_study_d1",
+ "cast": {
+  "B": "lea",
+  "C": "theo",
+  "D": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "teasing",
+     "Vous travaillez bien vos notes pour demain ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "flustered",
+     "Ben, nous regardons encore. C'est grave."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "worried",
+     "On peut emprunter vos notes ? Nous travaillons mal."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "flustered",
+     "D'accord, mais regardez pas les dessins."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Pourquoi ? Nous regardons juste les notes."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Non ! Vous travaillez pas avec ça !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Attends, ce sont des dessins de nous ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Oui... je vous dessine souvent. Vous êtes mignons."
+    ]
+   ],
+   "f": {
+    "text": "Oui... je vous dessine souvent. Vous êtes mignonnes.",
+    "rd": "위... 쥬 부 데신 수방. 부 제트 미논.",
+    "ko": "응... 내가 너희 자주 그려. 너희 귀여워.",
+    "segs": [
+     [
+      "shy",
+      "Oui... je vous dessine souvent. Vous êtes mignonnes."
+     ]
+    ]
+   }
+  }
+ }
+}

@@ -10,7 +10,7 @@
    "segs": [
     [
      "cheerful",
-     "Vous nous coupez les cheveux ? Juste un peu."
+     "Vous pouvez nous couper un peu les cheveux ?"
     ]
    ]
   },
@@ -18,7 +18,7 @@
    "segs": [
     [
      "excited",
-     "Ouais, carrément. Nous avons déjà coupé ceux de nos frères."
+     "Ouais, carrément ! Asseyez-vous !"
     ]
    ]
   },
@@ -26,19 +26,15 @@
    "segs": [
     [
      "worried",
-     "Et ils ont dit quoi, vos frères ?"
+     "Vous êtes sûrs de vous ?"
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "amused",
-     "Rien. Ils nous parlent plus depuis."
-    ],
-    [
      "cheerful",
-     "Bon, asseyez-vous !"
+     "Ouais, on s'occupe de vous."
     ]
    ]
   },
@@ -46,19 +42,15 @@
    "segs": [
     [
      "surprised",
-     "Attendez… vous allez couper avec ça ?!"
+     "Quoi ? Vous coupez trop !"
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "gentle",
-     "Vous inquiétez pas, ça va aller…"
-    ],
-    [
-     "shout",
-     "Atchoum !"
+     "flustered",
+     "Oups, ouais j'ai glissé carrément."
     ]
    ]
   },
@@ -66,7 +58,7 @@
    "segs": [
     [
      "worried",
-     "Hugo, Camille… vous nous parlez plus ?"
+     "Nos cheveux ! Vous avez tout coupé !"
     ]
    ]
   },
@@ -74,7 +66,7 @@
    "segs": [
     [
      "flustered",
-     "Bon… Vous avez déjà pensé aux casquettes ?"
+     "Attendez, je peux arranger ça."
     ]
    ]
   }

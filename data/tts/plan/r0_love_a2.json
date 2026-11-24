@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Attends, bouge pas ! Je dessine, là."
+     "Attends ! Bouge pas."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "surprised",
-     "Moi ? Pourquoi tu me dessines ?"
+     "Pourquoi ?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "shy",
-     "Parce que… je te regarde tout le temps."
+     "Parce que c'est beau."
     ]
    ]
   },
@@ -32,42 +32,23 @@
    "segs": [
     [
      "excited",
-     "Ah bon ? C'est fini ? Je peux voir ?"
+     "Ah bon ? Montre !"
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "shy",
-     "Tu es beau…"
-    ],
-    [
      "flustered",
-     "euh, il est beau, le dessin !"
+     "Voilà. C'est... Camille."
     ]
-   ],
-   "f": {
-    "text": "Tu es belle… euh, il est beau, le dessin !",
-    "rd": "뛰 에 벨… 외, 일 레 보, 르 데쌩!",
-    "ko": "너 잘생겼… 아니, 그림이 잘 나왔다고!",
-    "segs": [
-     [
-      "shy",
-      "Tu es belle…"
-     ],
-     [
-      "flustered",
-      "euh, il est beau, le dessin !"
-     ]
-    ]
-   }
+   ]
   },
   "6": {
    "segs": [
     [
      "tsukkomi",
-     "Mais… c'est pas moi, ça. Je vois un chat !"
+     "Quoi ? C'est moi !"
     ]
    ]
   }

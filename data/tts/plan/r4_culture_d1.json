@@ -1,0 +1,121 @@
+{
+ "ep": "r4_culture_d1",
+ "cast": {
+  "B": "camille",
+  "C": "man_o"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Regarde cette chaise vide ! Je pense pas que ce soit juste une chaise."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "stiff",
+     "Franchement, je sais pas. Il y en a plein des chaises."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Non, c'est la salle dont tout le monde parle. Celle où on y voyait un sens."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "teasing",
+     "Tu veux qu'on se pose dessus pour comprendre ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "excited",
+     "Oui ! Et cette veste mouillée. Il est possible qu'il l'ait mouillée exprès."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Oh là là. Si l'artiste avait voulu ça, on aurait compris."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Je dirais que c'est une critique de la société. Il pleuvait quand on est arrivés."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Tu y voyais vraiment un message profond ?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "flustered",
+     "Oui, franchement. La honte si c'est rien."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "neutral",
+     "Excusez-moi, c'est ma chaise. Je suis parti en pause."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Ah ! Donc la veste aussi ? Il y en a marre des œuvres."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "sad",
+     "Oui, il pleuvait et je l'ai laissée. Désolé."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Oh là là, la honte. Je pensais que c'était de l'art."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "C'est rien. Vous pouvez vous asseoir si vous voulez."
+    ]
+   ]
+  }
+ }
+}

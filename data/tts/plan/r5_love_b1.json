@@ -8,7 +8,7 @@
    "segs": [
     [
      "shy",
-     "Excuse-moi, tu as de la monnaie ? La machine prend que les pièces."
+     "Euh… t’aurais de la monnaie ? J’ai plus de pièces."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "gentle",
-     "Tiens, j'ai deux euros. Tu fais quel programme ?"
+     "Tiens, prends. J’en ai trop de toute façon."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "flustered",
-     "Je sais jamais. Quarante degrés, c'est trop pour la laine ?"
+     "Merci… euh, mon programme, c’est quarante degrés ?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "gentle",
-     "Pour la laine, trente maximum. Et sans essorage, sinon ton pull va rétrécir."
+     "Ouais, pour la laine c’est mieux. Ça rétrécit sinon."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "teasing",
-     "Waouh, tu t'y connais. Tu viens souvent ici ?"
+     "T’as vu mes chaussettes ? Elles sont déjà minuscules."
     ]
    ]
   },
@@ -48,19 +48,15 @@
    "segs": [
     [
      "amused",
-     "Tous les jeudis. Ma machine à laver est en panne depuis un mois."
+     "Ah ouais, t’as mis l’essorage trop fort."
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "flustered",
-     "Je sais."
-    ],
-    [
-     "shy",
-     "Enfin… je veux dire, moi aussi, je viens le jeudi."
+     "neutral",
+     "Tant pis… je les jette. T’as du linge à toi aussi ?"
     ]
    ]
   },
@@ -68,7 +64,7 @@
    "segs": [
     [
      "surprised",
-     "Ah bon ? C'est bizarre, je t'ai jamais vue ici."
+     "Ouais, une chemise. Le sèche-linge est libre ?"
     ]
    ]
   },
@@ -76,15 +72,15 @@
    "segs": [
     [
      "shy",
-     "Normal, toi, tu me vois jamais. Je m'assois toujours derrière le sèche-linge. Avec un livre."
+     "Oui… euh, je te vois souvent le jeudi, non ?"
     ]
    ]
   },
   "10": {
    "segs": [
     [
-     "surprised",
-     "…Derrière le sèche-linge ? Ça fait combien de temps ?"
+     "flustered",
+     "Ah… ouais, c’est mon jour."
     ]
    ]
   },
@@ -92,7 +88,7 @@
    "segs": [
     [
      "shy",
-     "Quatre jeudis. Ce soir, j'ai même apporté du linge, pour avoir une excuse."
+     "Depuis un mois j’ose pas te parler. Mais là… t’es vraiment mignon."
     ]
    ]
   },
@@ -100,7 +96,7 @@
    "segs": [
     [
      "gentle",
-     "Une excuse… Alors la prochaine fois, viens sans linge. Juste toi."
+     "Euh… toi aussi. On se voit plus souvent alors ?"
     ]
    ]
   },
@@ -108,7 +104,7 @@
    "segs": [
     [
      "flustered",
-     "Euh… tes chemises sont roses. C'est ma chaussette rouge, elle est tombée dedans."
+     "Ouais… si t’as encore de la monnaie, on peut faire un autre tour."
     ]
    ]
   },
@@ -116,7 +112,7 @@
    "segs": [
     [
      "amused",
-     "Tant pis. Jeudi prochain, tu t'assois à côté de moi… et tes chaussettes restent chez toi."
+     "Tiens, encore. Mais après on sort, hein."
     ]
    ]
   }

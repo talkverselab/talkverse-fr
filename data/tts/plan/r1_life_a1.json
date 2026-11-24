@@ -8,19 +8,15 @@
    "segs": [
     [
      "annoyed",
-     "Mon gâteau est plus dans le frigo. C'est toi ?"
+     "T'as mangé le gâteau ?"
     ]
    ]
   },
   "2": {
    "segs": [
     [
-     "surprised",
-     "Moi ? Non !"
-    ],
-    [
-     "worried",
-     "J'ai rien mangé, je te jure."
+     "neutral",
+     "Non, je te jure."
     ]
    ]
   },
@@ -28,7 +24,7 @@
    "segs": [
     [
      "annoyed",
-     "Sérieux ? Moi, je mange pas la nuit."
+     "Sérieux ? Y a rien."
     ]
    ]
   },
@@ -36,26 +32,15 @@
    "segs": [
     [
      "worried",
-     "Ben, hier soir, je suis rentré tard. Toi, non ?"
+     "Ben, c'est pas moi."
     ]
-   ],
-   "f": {
-    "text": "Ben, hier soir, je suis rentrée tard. Toi, non ?",
-    "rd": "뱅, 이에르 수아르, 쥬 쒸 랑트레 따르. 뚜아, 농?",
-    "ko": "그게, 어젯밤에 나 늦게 들어왔어. 넌 아니야?",
-    "segs": [
-     [
-      "worried",
-      "Ben, hier soir, je suis rentrée tard. Toi, non ?"
-     ]
-    ]
-   }
+   ]
   },
   "5": {
    "segs": [
     [
      "annoyed",
-     "Moi ? Je rentre jamais tard. J'ai dormi, moi."
+     "Je t'ai vu dans la cuisine."
     ]
    ]
   },
@@ -63,19 +48,15 @@
    "segs": [
     [
      "teasing",
-     "À deux heures, je t'ai vu dans la cuisine."
+     "Comment ça ? C'était toi."
     ]
    ]
   },
   "7": {
    "segs": [
     [
-     "surprised",
-     "Comment ça ? Je dormais, moi !"
-    ],
-    [
-     "worried",
-     "J'ai fait quoi ?"
+     "flustered",
+     "Ouais... j'ai mangé."
     ]
    ]
   },
@@ -83,7 +64,7 @@
    "segs": [
     [
      "amused",
-     "Tu dormais, ouais… et tu mangeais ton gâteau."
+     "Ah, trop drôle."
     ]
    ]
   }

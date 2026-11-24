@@ -1,0 +1,104 @@
+{
+ "ep": "r2_work_d1",
+ "cast": {
+  "B": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Salut, tu peux me remplacer samedi soir stp ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ben, je sais pas. Pourquoi ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "J'ai un truc. Tu pars à quelle heure d'habitude ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "annoyed",
+     "Je pars vers vingt heures. C'est pour une date ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "teasing",
+     "Sérieux, tu me caches un truc ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "En fait non. C'est un entretien dans un autre resto."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Ah ouais ? Si je te remplace, tu me dois un truc."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Vas-y, je te jure. C'est important."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "Si tu peux, je pars tranquille."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Ok, ça marche. Je te remplace."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Merci trop. Tu pars à ma place alors."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "amused",
+     "Ben ouais. Bonne chance pour l'entretien !"
+    ]
+   ]
+  }
+ }
+}

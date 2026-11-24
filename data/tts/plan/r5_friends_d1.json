@@ -1,0 +1,121 @@
+{
+ "ep": "r5_friends_d1",
+ "cast": {
+  "B": "hugo",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Bonjour, vous voulez commander un gâteau ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Oui, un fraisier pour un anniversaire."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Bien sûr. Avec de la ganache ou de la crème ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "polite",
+     "Plutôt framboisier, elle est allergique aux noisettes."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Parfait, génoise légère avec crème. Des bougies chiffre ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Oui, et en boîte sans nom de boutique, fait maison quoi."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Bah, comme l'année dernière alors ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "L'année dernière ?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Euh... c'était mon fameux gâteau fait maison."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "polite",
+     "Oui, vous aviez même laissé un acompte ici."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "surprised",
+     "Sérieux Hugo ? Ton fait maison c'était ici ?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "flustered",
+     "Bah oui... je voulais juste faire plaisir."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "C'était très bon quand même, non ?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Trop fort. La prochaine tu dis la vérité."
+    ]
+   ]
+  }
+ }
+}

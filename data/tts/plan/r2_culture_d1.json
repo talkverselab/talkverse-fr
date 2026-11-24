@@ -1,0 +1,104 @@
+{
+ "ep": "r2_culture_d1",
+ "cast": {
+  "B": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Ça te dit le musée ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Ouais, carrément ! On se retrouve devant."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "surprised",
+     "La file est énorme..."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "annoyed",
+     "Sérieux, deux heures ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Je dis qu'on attend."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Attends, je suis déjà entrée."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "shout",
+     "Quoi ?! Tu es où ?!"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Dedans, près des tableaux."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "annoyed",
+     "Tu dis ça maintenant !"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "Viens, je t'attends ici."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "neutral",
+     "D'accord, j'entre."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Ça te dit un café après ?"
+    ]
+   ]
+  }
+ }
+}

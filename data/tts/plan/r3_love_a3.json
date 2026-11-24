@@ -10,7 +10,7 @@
    "segs": [
     [
      "cheerful",
-     "Bon, premières crêpes. Vous les retournez, d'accord ?"
+     "Allez, vous les retournez comme nous."
     ]
    ]
   },
@@ -18,7 +18,7 @@
    "segs": [
     [
      "worried",
-     "Nous ? On a jamais fait ça. Vous allez rire."
+     "D'accord, mais elles sont chaudes."
     ]
    ]
   },
@@ -26,19 +26,15 @@
    "segs": [
     [
      "teasing",
-     "Nous allons pas rire. Allez, un, deux… trois !"
+     "Grave, vous pouvez le faire."
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "surprised",
-     "Elles sont où ?"
-    ],
-    [
-     "flustered",
-     "…Oh non, elles sont tombées."
+     "cheerful",
+     "Voilà, nous essayons."
     ]
    ]
   },
@@ -46,7 +42,7 @@
    "segs": [
     [
      "amused",
-     "Pas grave, les premières, elles tombent toujours."
+     "Vous les retournez bien !"
     ]
    ]
   },
@@ -54,7 +50,7 @@
    "segs": [
     [
      "gentle",
-     "Attendez, vous avez de la farine… là."
+     "Elles sont parfaites. Venez près."
     ]
    ]
   },
@@ -62,7 +58,7 @@
    "segs": [
     [
      "shy",
-     "…Ici ? Vous pouvez nous aider ?"
+     "Merci... c'est gentil."
     ]
    ]
   },
@@ -70,7 +66,7 @@
    "segs": [
     [
      "shy",
-     "Voilà. …Les prochaines, on va les retourner ensemble."
+     "Ouais, grave on a réussi."
     ]
    ]
   }

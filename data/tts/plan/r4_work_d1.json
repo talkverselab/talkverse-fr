@@ -1,0 +1,121 @@
+{
+ "ep": "r4_work_d1",
+ "cast": {
+  "C": "woman_m",
+  "D": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "stiff",
+     "Il faut que le rapport soit prêt avant la réunion."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Oui monsieur, vous me les apportez cinquante ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Pas de problème. Vas-y, imprime."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Attends, il en faut combien exactement ? Cinquante ou..."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Cinquante, tu pourrais vérifier avant."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Voilà, je lance. Elle en a sorti déjà plein."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "Mince, c'est cinq cents !"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "worried",
+     "Je sais pas, à moins qu'on la débranche..."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "Non ! Il y avait une feuille derrière !"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "flustered",
+     "C'est la lettre de démission du directeur... chaos !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "Si tu l'avais vérifié, on n'aurait pas imprimé ça."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "stiff",
+     "Je voulais vous le dire plus tard. Il voulait pas qu'on la voie."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Mince, je suis vraiment désolé..."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "polite",
+     "Bon, rangez tout. On en reparle après."
+    ]
+   ]
+  }
+ }
+}

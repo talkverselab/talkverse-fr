@@ -1,0 +1,121 @@
+{
+ "ep": "r4_travel_d1",
+ "cast": {
+  "B": "theo",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bonsoir, bienvenue. Vous avez une réservation ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, j'en ai réservé une hier soir. Double."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Parfait. Il faut que vous sachiez que c'est une chambre avec un lit."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Super, on y monte après ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Excusez-moi, vous avez réservé un grand lit double."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Attends... je croyais que double c'était deux lits quand j'ai réservé."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Théo, il aurait fallu que tu lises mieux."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "polite",
+     "Pas de souci, madame. Vous auriez une autre chambre ?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "polite",
+     "Bien qu'elle soit petite, il m'en reste une avec deux lits."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shout",
+     "Mais elle est au dernier étage et l'ascenseur ne marche plus. Chaos total !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "worried",
+     "J'étais sûr qu'on arrivait tranquille... on la prendrait quand même ?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Sérieux, tu me l'avais dit deux lits."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "On y monte à pied alors. Pas de souci."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "teasing",
+     "Trop bien Théo. La prochaine tu vérifies."
+    ]
+   ]
+  }
+ }
+}

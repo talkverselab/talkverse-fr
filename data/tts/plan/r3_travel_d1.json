@@ -1,0 +1,74 @@
+{
+ "ep": "r3_travel_d1",
+ "cast": {
+  "B": "theo",
+  "C": "camille",
+  "D": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Attends, nous partons pour Lyon maintenant ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "excited",
+     "Oui, courons ! Le train part."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Voilà le quai treize. Nous courons vite."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shout",
+     "Partez ! Montez avant qu'il parte !"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Vos billets, s'il vous plaît. Vous partez pour Lyon ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Oui, c'est bon. Nous avons les billets."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Attendez. Ces billets ne sont pas valides."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Nickel, on a les bons. Voilà."
+    ]
+   ]
+  }
+ }
+}

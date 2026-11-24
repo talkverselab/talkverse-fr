@@ -8,12 +8,8 @@
   "1": {
    "segs": [
     [
-     "excited",
-     "Enfin !"
-    ],
-    [
-     "annoyed",
-     "T'as la clé ? J'attends depuis une heure."
+     "worried",
+     "T'as ma clé ?"
     ]
    ]
   },
@@ -21,7 +17,7 @@
    "segs": [
     [
      "teasing",
-     "Ouais, tiens. Mais t'as perdu la tienne où ?"
+     "Tiens. T'as perdu la tienne ?"
     ]
    ]
   },
@@ -29,7 +25,7 @@
    "segs": [
     [
      "flustered",
-     "Je perds toujours mes clés… Bref, ouvre vite !"
+     "Ouais... la honte."
     ]
    ]
   },
@@ -37,19 +33,15 @@
    "segs": [
     [
      "worried",
-     "Attends… elle veut pas tourner. T'es sûre ?"
+     "Je vais essayer."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "annoyed",
-     "Donne, je veux essayer…"
-    ],
-    [
      "worried",
-     "Non, elle tourne pas."
+     "Attends, ça tourne pas."
     ]
    ]
   },
@@ -57,7 +49,7 @@
    "segs": [
     [
      "surprised",
-     "Camille… ta porte, elle est pas en haut ?"
+     "T'es sûr ? C'est ta porte ?"
     ]
    ]
   },
@@ -65,7 +57,7 @@
    "segs": [
     [
      "flustered",
-     "…Si, c'est en haut. Oh là là, la honte."
+     "Oh là là... non."
     ]
    ]
   },
@@ -73,7 +65,7 @@
    "segs": [
     [
      "annoyed",
-     "C'est fini, là ? Je dors, moi !"
+     "Bref, c'est ma porte."
     ]
    ]
   }

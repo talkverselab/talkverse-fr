@@ -1,0 +1,121 @@
+{
+ "ep": "r5_work_d1",
+ "cast": {
+  "C": "woman_m",
+  "D": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Bienvenue ! Ton badge et ton contrat."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Merci beaucoup. C'est pour aujourd'hui ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "Oui. Période d'essai de deux mois, horaires flexibles."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Trop bien ! Et les congés ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Vingt-cinq jours. Ticket-restaurant aussi. Mot de passe pour l'intranet."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Salut, je suis ton collègue. On va à la cantine ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Ouais, mais mon badge marche pas encore ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "gentle",
+     "Franchement, t'inquiète. Ça marche toujours."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "T'es sûr ? J'ai peur de l'alarme."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "surprised",
+     "Vas-y, passe. Oh non, t'es coincé !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "L'alarme sonne ! Attendez, je coupe."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Sérieux ? Premier jour et déjà coincé entre les portes."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Désolée, le badge des stagiaires… j'ai oublié."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Trop drôle. Allez, on va à la cantine maintenant."
+    ]
+   ]
+  }
+ }
+}

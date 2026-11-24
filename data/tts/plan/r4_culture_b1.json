@@ -9,26 +9,15 @@
    "segs": [
     [
      "cheerful",
-     "Te voilà enfin ! Je suis contente que tu sois venu, même en retard."
+     "Salut ! T'es en retard, le film est déjà fini."
     ]
-   ],
-   "f": {
-    "text": "Te voilà enfin ! Je suis contente que tu sois venue, même en retard.",
-    "rd": "뜨 부알라 앙팽! 쥬 쒸 꽁땅뜨 끄 뛰 쑤아 브뉘, 멤 앙 르따르.",
-    "ko": "드디어 왔네! 늦었어도 와 줘서 좋다.",
-    "segs": [
-     [
-      "cheerful",
-      "Te voilà enfin ! Je suis contente que tu sois venue, même en retard."
-     ]
-    ]
-   }
+   ]
   },
   "2": {
    "segs": [
     [
      "flustered",
-     "Pardon, le métro… Je viens d'arriver. J'ai raté le début ?"
+     "En fait, je l'ai vu deux fois."
     ]
    ]
   },
@@ -36,7 +25,7 @@
    "segs": [
     [
      "amused",
-     "Le début ? Le film est fini. Mais on va en discuter, tu restes ?"
+     "Tu es content que ce soit terminé ?"
     ]
    ]
   },
@@ -44,19 +33,15 @@
    "segs": [
     [
      "stiff",
-     "Je reste, bien sûr. En fait… je l'ai déjà vu. Deux fois."
+     "Bien sûr, j'adore cette histoire."
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "surprised",
-     "Deux fois ?"
-    ],
-    [
-     "gentle",
-     "Je suis content qu'un jeune l'aime autant que moi."
+     "amused",
+     "C'était pas mal, franchement."
     ]
    ]
   },
@@ -64,7 +49,7 @@
    "segs": [
     [
      "teasing",
-     "Ça m'étonnerait qu'il l'ait vu. Mais vas-y, raconte-nous ta scène préférée."
+     "Vas-y, dis-nous ce que t'as aimé."
     ]
    ]
   },
@@ -72,7 +57,7 @@
    "segs": [
     [
      "stiff",
-     "Euh… celle où ils se retrouvent à la gare. C'est là que tout change."
+     "La gare où il arrive, c'était magnifique."
     ]
    ]
   },
@@ -80,7 +65,7 @@
    "segs": [
     [
      "excited",
-     "Exactement ! La gare où il la voit pour la dernière fois…"
+     "Oui ! Et celle où ils se croisent !"
     ]
    ]
   },
@@ -88,7 +73,7 @@
    "segs": [
     [
      "teasing",
-     "Hmm. Pas mal. Et les acteurs, tu les as trouvés comment ?"
+     "J'avoue, franchement c'était silencieux."
     ]
    ]
   },
@@ -96,19 +81,15 @@
    "segs": [
     [
      "excited",
-     "Géniaux. Surtout la voix de l'acteur principal, elle m'a donné des frissons."
+     "J'ai adoré la voix du héros !"
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "surprised",
-     "Sa voix ?"
-    ],
-    [
-     "tsukkomi",
-     "{name}… c'est un film muet."
+     "teasing",
+     "Ça m'étonnerait que tu aies entendu ça."
     ]
    ]
   },
@@ -116,7 +97,7 @@
    "segs": [
     [
      "amused",
-     "Il aurait fallu que vous le voyiez une troisième fois, peut-être."
+     "Il aurait fallu que ce soit parlant."
     ]
    ]
   },
@@ -124,11 +105,7 @@
    "segs": [
     [
      "flustered",
-     "J'avoue. Je l'ai pas vu…"
-    ],
-    [
-     "amused",
-     "mais franchement, il avait une tête à avoir une belle voix."
+     "Euh... on va en discuter tranquillement ?"
     ]
    ]
   },
@@ -136,7 +113,7 @@
    "segs": [
     [
      "teasing",
-     "Allez, assieds-toi. Tu l'as vu deux fois, tu vas le voir une troisième. Tu me diras s'il chante."
+     "Allez, assieds-toi, ça me fait plaisir que tu sois là."
     ]
    ]
   }

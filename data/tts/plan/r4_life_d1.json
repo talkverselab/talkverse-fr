@@ -1,0 +1,120 @@
+{
+ "ep": "r4_life_d1",
+ "cast": {
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Excusez-moi, je viens récupérer le colis s'il vous plaît."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ah, je vous l'ai gardé avec plaisir ! Entrez."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "C'est gentil, merci. C'est un cadeau pour Théo."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "cheerful",
+     "Le livreur a sonné pendant que vous étiez sorti. J'attendais, je pensais que c'était le mien."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Vous l'avez ouvert ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oui, je suis désolée que vous l'appreniez comme ça. Je l'ai essayé."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "gentle",
+     "Ce n'est pas grave, vraiment."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shy",
+     "Je le lui ai montré, à Théo. Il passait."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "Oh là là, trop inattendu !"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "worried",
+     "Il a dit pourvu qu'il ne soit pas déçu... c'est le chaos !"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "Vous me le donnez maintenant ? Il le sait déjà !"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "cheerful",
+     "Oui, volontiers ! Il a adoré le style."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "amused",
+     "Trop drôle. Alors il vous en faut un aussi ?"
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "cheerful",
+     "Oh, trop gentil de votre part !"
+    ]
+   ]
+  }
+ }
+}

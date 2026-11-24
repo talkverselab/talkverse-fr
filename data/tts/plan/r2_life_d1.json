@@ -1,0 +1,104 @@
+{
+ "ep": "r2_life_d1",
+ "cast": {
+  "B": "theo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "sad",
+     "J'ai mal à la tête et de la fièvre. Tu peux y aller stp ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Ouais, bien sûr. T'as quoi d'autre ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "J'ai le nez qui coule aussi. Tu dis ça stp."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "neutral",
+     "Ok, je vais là-bas. Je dis que t'as mal à la tête."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "sad",
+     "Merci, je crois que c'est juste un rhume."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Bref, c'est fait. J'ai tout ce qu'il faut."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Mince ! Elle a cru que j'ai mal à la tête."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "flustered",
+     "J'ai dit \"j'ai mal à la tête\" et elle a cru ça pour moi."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "amused",
+     "mdr ! Sérieux ? Tu as dit j'ai ?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "annoyed",
+     "Ouais, et elle m'a regardé bizarre."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "amused",
+     "Bref, elle a ri et m'a donné les médocs."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Merci Théo, t'es le meilleur."
+    ]
+   ]
+  }
+ }
+}

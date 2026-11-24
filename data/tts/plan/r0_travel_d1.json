@@ -1,0 +1,72 @@
+{
+ "ep": "r0_travel_d1",
+ "cast": {
+  "B": "theo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "On descend où ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Dans trois stations."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Tu descends là-bas ?"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Ouais, tu vois, c'est simple."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Attends, la station est bizarre."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oh là là, on va dans l'autre sens !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "worried",
+     "Je descends maintenant ? Ça va pas !"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "Non ! On reste !"
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "ep": "r4_love_d1",
+ "cast": {
+  "B": "lea"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Vas-y, on s'entraîne au subjonctif ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Grave, j'ai vraiment du mal avec ça."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Tu vois, il faut que je l'utilise souvent."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "D'accord, alors je veux que tu viennes m'aider."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "J'aimerais que tu sois plus détendu."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "teasing",
+     "Attends, c'est juste un exemple là ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "teasing",
+     "Il faudrait que tu m'invites avant que je perde la tête."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "surprised",
+     "Sérieux ? Tu parles de samedi ?"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shy",
+     "Ouais... je voulais que ce soit samedi. J'avais préparé les phrases depuis lundi."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "Oh... c'est trop mignon."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shy",
+     "Alors, tu viens samedi ? Je veux que tu viennes."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Tu me dragues avec la grammaire, hein ?"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "gentle",
+     "Un peu, ouais. Il faut que je l'utilise bien."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "gentle",
+     "D'accord, je viens. Avec plaisir."
+    ]
+   ]
+  }
+ }
+}

@@ -9,7 +9,7 @@
    "segs": [
     [
      "excited",
-     "Regarde, c'est la lampe dont je t'ai parlé ! Il faut que je l'aie."
+     "Regarde ! C'est la lampe dont je t'ai parlé !"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "teasing",
-     "Bien qu'elle soit un peu vieille ? Elle a l'air cassée, ta lampe."
+     "Trop belle. Tu veux que je te la négocie ?"
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "gentle",
-     "C'est ça qui me plaît. Elle irait parfaitement dans le coin où je lis."
+     "Oui, s'il te plaît. Il faut que ce soit pas trop cher."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "cheerful",
-     "Bon. Avant que tu l'achètes, laisse-moi négocier. J'ai l'habitude."
+     "T'inquiète, je m'en occupe."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "polite",
-     "Celle-là ? Je la vends quarante euros. Elle vient d'un appartement du quartier."
+     "Bonjour, elle est à quarante euros."
     ]
    ]
   },
@@ -49,7 +49,7 @@
    "segs": [
     [
      "teasing",
-     "Quarante ? Si elle marchait, je dirais pas non. Vous me la faites à vingt ?"
+     "Franchement, trente c'est déjà bien, non ?"
     ]
    ]
   },
@@ -57,7 +57,7 @@
    "segs": [
     [
      "stiff",
-     "Elle marche très bien, je vous assure. Je l'ai testée ce matin."
+     "Bien que ce soit difficile... d'accord, trente."
     ]
    ]
   },
@@ -65,55 +65,47 @@
    "segs": [
     [
      "excited",
-     "Franchement, qu'elle marche ou pas, je suis prête à payer cinquante. Elle est trop belle."
+     "Yes ! Tu me la prends ?"
     ]
    ]
   },
   "9": {
    "segs": [
     [
-     "tsukkomi",
-     "Camille ! Il faut pas qu'il le sache !"
-    ],
-    [
-     "stiff",
-     "…Bon, trente, c'est mon dernier prix."
+     "surprised",
+     "Attends, je vérifie le prix en dessous."
     ]
    ]
   },
   "10": {
    "segs": [
     [
-     "amused",
-     "D'accord, trente. Moi, je l'ai payée dix, rue des Lilas. Un grand blond à vélo."
+     "flustered",
+     "Euh... le coin où c'est écrit, c'est vingt-cinq."
     ]
    ]
   },
   "11": {
    "segs": [
     [
-     "worried",
-     "Rue des Lilas… c'est chez moi."
-    ],
-    [
-     "shout",
-     "Théo a vendu ma lampe ?!"
+     "surprised",
+     "Quoi ? Il aurait fallu que tu regardes avant !"
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "surprised",
-     "Attends, c'est ta lampe qu'il a vendue ? Celle dont tu m'as dit qu'elle était moche ?"
+     "flustered",
+     "Si j'avais su, je l'aurais eue pour moins."
     ]
    ]
   },
   "13": {
    "segs": [
     [
-     "sad",
-     "Ouais… Si j'avais su, je l'aurais jamais laissée dans le couloir."
+     "polite",
+     "Avant que vous partiez, je peux faire vingt-huit ?"
     ]
    ]
   },
@@ -121,7 +113,7 @@
    "segs": [
     [
      "teasing",
-     "T'inquiète. Je te la prête quand tu veux… le dimanche, par exemple."
+     "Trop tard. Mais t'inquiète, elle est quand même parfaite."
     ]
    ]
   }

@@ -1,0 +1,104 @@
+{
+ "ep": "r2_travel_d1",
+ "cast": {
+  "B": "theo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Je suis à Nice ! L'hôtel est trop stylé."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Trop bien ! T'as trouvé facilement ?"
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, super facile. Je vais checker."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Attends, ils trouvent pas ma réservation."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Quoi ? T'as réservé pour aujourd'hui ?"
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, je crois. Attends, je regarde."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "sad",
+     "Oh non... c'est pour le dix-huit le mois prochain. Il reste rien."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "mdr ! T'as réservé pour dans un mois !"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "annoyed",
+     "Je te jure, j'ai cru que c'était aujourd'hui."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "T'inquiète, on trouve un autre hôtel."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "cheerful",
+     "Y a des chambres libres pas loin."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "gentle",
+     "Merci Théo, t'es trop gentil."
+    ]
+   ]
+  }
+ }
+}

@@ -1,0 +1,73 @@
+{
+ "ep": "r1_travel_d1",
+ "cast": {
+  "B": "theo",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "worried",
+     "Le train part ! On court !"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "neutral",
+     "J'ai acheté les billets, c'est bon."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "Voilà, quai treize ! Nickel !"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "shout",
+     "Attends, je cours trop !"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Billets, s'il vous plaît."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "Voilà, pour Lyon."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "stiff",
+     "Train pour Lille. Pars pas."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Théo a lu treize, pas trois !"
+    ]
+   ]
+  }
+ }
+}

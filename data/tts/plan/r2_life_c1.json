@@ -8,7 +8,7 @@
    "segs": [
     [
      "worried",
-     "T'es à la maison ? Je trouve plus ma clé"
+     "J'ai oublié les clés."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Non, je suis au ciné. Le film finit à minuit."
+     "Attends, t'es dehors ?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "shout",
-     "Minuit ?! Il fait trop froid, je vais mourir"
+     "Ouais, genre dehors."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "teasing",
-     "Attends, tu as regardé dans ta poche ? Genre, vraiment ?"
+     "Mdr trop con."
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "annoyed",
-     "Bah évidemment ! Tu me prends pour qui ? Je regarde encore… rien."
+     "Laisse tomber, je suis bloqué."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "gentle",
-     "Ça va, ça va, j'arrive. Je quitte le film pour toi, hein"
+     "Je suis au ciné, désolé."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "flustered",
-     "…"
+     "Attends..."
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "flustered",
-     "Je l'ai trouvée. Dans ma poche."
+     "Je l'ai trouvée dans ma poche !"
     ]
    ]
   },
@@ -72,7 +72,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Mdr. Trop tard, je suis déjà dans le métro."
+     "Sérieux mdr."
     ]
    ]
   },
@@ -80,7 +80,7 @@
    "segs": [
     [
      "sad",
-     "Laisse tomber… c'est la clé de mon vélo. Pas de l'appart."
+     "Trop bête, je rentre."
     ]
    ]
   }

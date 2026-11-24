@@ -1,0 +1,72 @@
+{
+ "ep": "r0_culture_d1",
+ "cast": {
+  "B": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Allez ! On y va ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Je comprends pas sans sous-titres."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "T'inquiète ! Je te dis tout."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Tu comprends tout, toi ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Ouais, bien sûr. Je t'explique."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "neutral",
+     "Tiens, là ! Euh... c'est qui lui ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Tu comprends rien !"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "amused",
+     "Ben, tu me dis alors !"
+    ]
+   ]
+  }
+ }
+}

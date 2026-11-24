@@ -8,19 +8,15 @@
    "segs": [
     [
      "shy",
-     "Pardon… tu lis quoi ?"
+     "Pardon, tu lis ce livre ?"
     ]
    ]
   },
   "2": {
    "segs": [
     [
-     "neutral",
-     "Un livre sur Paris."
-    ],
-    [
-     "surprised",
-     "Pourquoi ?"
+     "cheerful",
+     "Ouais, j'ai lu un peu hier."
     ]
    ]
   },
@@ -28,7 +24,7 @@
    "segs": [
     [
      "excited",
-     "Parce que j'ai le même ! Tu vois ?"
+     "Oh ! C'est le même, regarde !"
     ]
    ]
   },
@@ -36,7 +32,7 @@
    "segs": [
     [
      "surprised",
-     "C'est pas vrai ! Tu l'aimes bien ?"
+     "C'est pas vrai !"
     ]
    ]
   },
@@ -44,7 +40,7 @@
    "segs": [
     [
      "amused",
-     "Bof… j'aime la couverture. Je l'ai pas lu."
+     "Bof, j'adore ce livre."
     ]
    ]
   },
@@ -52,7 +48,7 @@
    "segs": [
     [
      "teasing",
-     "Alors pourquoi tu l'as acheté ?"
+     "Tu l'as acheté où, toi ?"
     ]
    ]
   },
@@ -60,30 +56,15 @@
    "segs": [
     [
      "shy",
-     "…Parce que je t'ai vu l'acheter hier."
+     "On peut en parler ensemble ?"
     ]
-   ],
-   "f": {
-    "text": "…Parce que je t'ai vue l'acheter hier.",
-    "rd": "…빠르스 끄 쥬 떼 뷔 라슈떼 이에르.",
-    "ko": "…어제 네가 그거 사는 걸 봤거든.",
-    "segs": [
-     [
-      "shy",
-      "…Parce que je t'ai vue l'acheter hier."
-     ]
-    ]
-   }
+   ]
   },
   "8": {
    "segs": [
     [
-     "surprised",
-     "Hier ?"
-    ],
-    [
-     "gentle",
-     "Alors… on va le lire ensemble ?"
+     "excited",
+     "Ouais, on y va."
     ]
    ]
   }

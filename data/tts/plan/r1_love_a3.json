@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Bon, première crêpe. Tu la retournes, d'accord ?"
+     "Allez, tu la retournes !"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "worried",
-     "Moi ? J'ai jamais fait ça. Tu vas rire."
+     "Attends, j'ai peur."
     ]
    ]
   },
@@ -24,19 +24,15 @@
    "segs": [
     [
      "teasing",
-     "Je vais pas rire. Allez, un, deux… trois !"
+     "Tu vas rire, c'est facile."
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "surprised",
-     "Elle est où ?"
-    ],
-    [
-     "flustered",
-     "…Oh non, elle est tombée."
+     "cheerful",
+     "D'accord, je tente."
     ]
    ]
   },
@@ -44,7 +40,7 @@
    "segs": [
     [
      "amused",
-     "Pas grave, la première, elle tombe toujours."
+     "Oh, elle est par terre !"
     ]
    ]
   },
@@ -52,7 +48,7 @@
    "segs": [
     [
      "gentle",
-     "Attends, t'as de la farine… là."
+     "Voilà, de la farine sur toi."
     ]
    ]
   },
@@ -60,7 +56,7 @@
    "segs": [
     [
      "shy",
-     "…Ici ? Tu peux m'aider ?"
+     "C'est grave mignon."
     ]
    ]
   },
@@ -68,7 +64,7 @@
    "segs": [
     [
      "shy",
-     "Voilà. …La prochaine, on la retourne ensemble."
+     "On en fait une autre ?"
     ]
    ]
   }

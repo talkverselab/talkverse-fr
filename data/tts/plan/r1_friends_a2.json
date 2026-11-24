@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Tu me coupes les cheveux ? Juste un peu."
+     "Tu vas couper un peu ?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "excited",
-     "Ouais, carrément. J'ai déjà coupé ceux de mon frère."
+     "Ouais, carrément. Assieds-toi."
     ]
    ]
   },
@@ -24,19 +24,15 @@
    "segs": [
     [
      "worried",
-     "Et il a dit quoi, ton frère ?"
+     "T'inquiète pas."
     ]
    ]
   },
   "4": {
    "segs": [
     [
-     "amused",
-     "Rien. Il me parle plus depuis."
-    ],
-    [
      "cheerful",
-     "Bon, assieds-toi !"
+     "J'ai déjà coupé plein."
     ]
    ]
   },
@@ -44,16 +40,12 @@
    "segs": [
     [
      "surprised",
-     "Attends… tu vas couper avec ça ?!"
+     "Attends... tu éternues ?"
     ]
    ]
   },
   "6": {
    "segs": [
-    [
-     "gentle",
-     "T'inquiète, ça va aller…"
-    ],
     [
      "shout",
      "Atchoum !"
@@ -64,7 +56,7 @@
    "segs": [
     [
      "worried",
-     "Hugo… tu me parles plus ?"
+     "Oh non..."
     ]
    ]
   },
@@ -72,7 +64,7 @@
    "segs": [
     [
      "flustered",
-     "Bon… T'as déjà pensé à la casquette ?"
+     "Pardon... t'inquiète."
     ]
    ]
   }

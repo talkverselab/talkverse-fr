@@ -1,0 +1,72 @@
+{
+ "ep": "r0_life_d1",
+ "cast": {
+  "B": "hugo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Salut ! Tu veux quoi ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "polite",
+     "Je veux un pain au chocolat, s'il te plaît."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "teasing",
+     "Un pain au chocolat ? On dit chocolatine !"
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "amused",
+     "Chocolatine ? C'est quoi ça ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "flustered",
+     "Ben, c'est le même ! Je dis chocolatine."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Ah, mince ! Vraiment ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "Euh, je dis pain au chocolat aussi... mince !"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Tu changes le nom tout le temps !"
+    ]
+   ]
+  }
+ }
+}

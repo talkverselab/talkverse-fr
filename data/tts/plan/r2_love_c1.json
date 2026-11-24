@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "Salut ! Le chat sur ta photo… c’est ton chat ?"
+     "Salut, ton chat est trop mignon mdr."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "amused",
-     "Mdr non, c'est le chat de ma voisine. Il squatte chez moi."
+     "Merci, c'est mon préféré."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "teasing",
-     "Ptdr. Donc tu mens sur ton profil ?"
+     "Genre c'est le chat du voisin ptdr."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "teasing",
-     "Un peu. Mais lui, il m'aime vraiment."
+     "Sérieux ? Pas le tien ?"
     ]
    ]
   },
@@ -40,19 +40,15 @@
    "segs": [
     [
      "teasing",
-     "Et moi, je peux venir squatter aussi ?"
+     "Ouais, tant pis mdr."
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "surprised",
-     "…Sérieux ?"
-    ],
-    [
-     "shy",
-     "Genre, samedi ? On boit un café ?"
+     "excited",
+     "On se voit ce soir ?"
     ]
    ]
   },
@@ -60,26 +56,15 @@
    "segs": [
     [
      "sad",
-     "Bon… je suis allé trop vite. Tant pis"
+     "T'es là ?"
     ]
-   ],
-   "f": {
-    "text": "Bon… je suis allée trop vite. Tant pis 🫠",
-    "rd": "봉… 쥬 쒸 잘레 트로 비뜨. 땅 삐.",
-    "ko": "음… 내가 너무 빨랐나. 뭐 어쩔 수 없지 🫠",
-    "segs": [
-     [
-      "sad",
-      "Bon… je suis allée trop vite. Tant pis"
-     ]
-    ]
-   }
+   ]
   },
   "8": {
    "segs": [
     [
      "flustered",
-     "NON PARDON !! Je me suis endormie sur mon téléphone"
+     "Pardon, je me suis endormie."
     ]
    ]
   },
@@ -87,7 +72,7 @@
    "segs": [
     [
      "cheerful",
-     "Samedi, c'est oui. Mais le chat vient aussi."
+     "On se voit demain ?"
     ]
    ]
   },
@@ -95,7 +80,7 @@
    "segs": [
     [
      "amused",
-     "Il peut pas. Il est jaloux, il me parle plus depuis hier soir."
+     "Ouais, sérieux."
     ]
    ]
   }

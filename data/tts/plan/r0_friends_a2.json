@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Oh, salut {name} ! Ça va ?"
+     "Salut ! Ça va ?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "surprised",
-     "Je vais bien ! Il est à toi, ce chien ?"
+     "Oh ! Un chien !"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "cheerful",
-     "Ouais ! Tu aimes les chiens ?"
+     "Ouais. Tu aimes les chiens ?"
     ]
    ]
   },
@@ -40,19 +40,15 @@
    "segs": [
     [
      "flustered",
-     "Euh… il s'appelle… {name}."
+     "Euh... Biscuit."
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "surprised",
-     "Quoi ? Comme moi ?!"
-    ],
-    [
      "amused",
-     "…Bon, il est beau, {name}."
+     "Quoi ? Biscuit !"
     ]
    ]
   }

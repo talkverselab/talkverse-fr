@@ -1,0 +1,121 @@
+{
+ "ep": "r5_study_d1",
+ "cast": {
+  "B": "lea",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bonjour, votre carte d'étudiant s'il vous plaît."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "Voilà. Je voudrais emprunter un livre pour mon mémoire."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "La cote est au rayon histoire. Mais il est en retard."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "En retard ? Depuis combien ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Trois mois. L'amende est de cinquante centimes par jour."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "worried",
+     "Pardon, c'est introuvable alors ? Je peux réserver ?"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "cheerful",
+     "Attends, je t'ai gardé une place. Montre la couverture."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "sad",
+     "C'est celui-là. Trop important pour le mémoire."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "gentle",
+     "Ah... je crois que je l'ai."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "shy",
+     "Oui, il est dans mon sac depuis des mois. J'ai oublié de rendre."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Léa ! C'est toi qui l'as en retard ?"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shy",
+     "Désolée... je le rends tout de suite."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "polite",
+     "Bien. L'amende sera calculée au moment de rendre."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "flustered",
+     "Attends, je sors le livre. Voilà."
+    ]
+   ]
+  }
+ }
+}

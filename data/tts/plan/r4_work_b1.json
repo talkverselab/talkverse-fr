@@ -9,7 +9,7 @@
    "segs": [
     [
      "polite",
-     "Asseyez-vous. Votre CV est intéressant. Vous avez travaillé où, avant ?"
+     "Bonjour. Je voudrais que vous goûtiez cette sauce."
     ]
    ]
   },
@@ -17,26 +17,15 @@
    "segs": [
     [
      "stiff",
-     "Dans un petit bistrot à {city}. J'y suis resté deux ans."
+     "D'accord, bien sûr."
     ]
-   ],
-   "f": {
-    "text": "Dans un petit bistrot à {city}. J'y suis restée deux ans.",
-    "rd": "당 장 쁘띠 비스트로 아 {city}. 쥐 쒸 레스떼 되 장.",
-    "ko": "{city}의 작은 비스트로에서요. 거기서 2년 있었어요.",
-    "segs": [
-     [
-      "stiff",
-      "Dans un petit bistrot à {city}. J'y suis restée deux ans."
-     ]
-    ]
-   }
+   ]
   },
   "3": {
    "segs": [
     [
      "polite",
-     "Bien. Il faudrait que vous soyez disponible le soir et le week-end. Ça vous irait ?"
+     "Il faudrait que vous soyez honnête, hein."
     ]
    ]
   },
@@ -44,7 +33,7 @@
    "segs": [
     [
      "polite",
-     "Pas de problème. Je préfère qu'on me le dise dès le début."
+     "Franchement, elle est un peu salée."
     ]
    ]
   },
@@ -52,19 +41,15 @@
    "segs": [
     [
      "stiff",
-     "Parfait. Avant qu'on aille plus loin, je voudrais que vous goûtiez cette sauce."
+     "Bien que ça fasse mal à entendre... merci."
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "worried",
-     "D'accord, je goûte… Franchement ?"
-    ],
-    [
      "stiff",
-     "Elle manque d'acidité, et il y a trop de sel."
+     "Pas de problème. C'est votre recette ?"
     ]
    ]
   },
@@ -72,7 +57,7 @@
    "segs": [
     [
      "stiff",
-     "Trop de sel… C'est moi qui l'ai faite, cette sauce."
+     "Oui. Avant qu'on aille plus loin, vous en pensez quoi d'autre ?"
     ]
    ]
   },
@@ -80,7 +65,7 @@
    "segs": [
     [
      "flustered",
-     "Ah… Si j'avais su, j'aurais été plus diplomate."
+     "Euh... j'aurais été plus doux, peut-être."
     ]
    ]
   },
@@ -88,15 +73,15 @@
    "segs": [
     [
      "amused",
-     "Non, j'aime qu'on me dise la vérité. Bien que ça fasse mal."
+     "Intéressant. On se tutoie si je t'embauche ?"
     ]
    ]
   },
   "10": {
    "segs": [
     [
-     "shout",
-     "Cheffe ! Le frigo est en panne et la salle est pleine ! Qu'est-ce qu'on fait ?"
+     "flustered",
+     "C'est moi qui ai mis plus de sel, en fait."
     ]
    ]
   },
@@ -104,23 +89,15 @@
    "segs": [
     [
      "surprised",
-     "Hugo ?!"
-    ],
-    [
-     "shout",
-     "Bon… il y a de la glace ? Mets-en dans les bacs, vite !"
+     "Quoi ? Tu me l'as pas dit !"
     ]
    ]
   },
   "12": {
    "segs": [
     [
-     "surprised",
-     "Vous vous connaissez ?"
-    ],
-    [
-     "stiff",
-     "…Peu importe. Aidez-le, je vous regarde."
+     "amused",
+     "Ah. On l'aurait servie telle quelle sinon."
     ]
    ]
   },
@@ -128,19 +105,15 @@
    "segs": [
     [
      "excited",
-     "Tout est sauvé ! Sans toi, on aurait tout jeté."
+     "D'accord, je m'en occupe la prochaine fois."
     ]
    ]
   },
   "14": {
    "segs": [
     [
-     "polite",
-     "Bon. Vous travaillez avec nous dès lundi."
-    ],
-    [
-     "gentle",
-     "Et ici, on se tutoie… si ça te va."
+     "cheerful",
+     "Pas de problème. Tu es embauché, bienvenue."
     ]
    ]
   },
@@ -148,7 +121,7 @@
    "segs": [
     [
      "teasing",
-     "Ça me va. Mais la sauce, je te la refais demain, cheffe."
+     "Franchement, merci. Je vais y faire attention."
     ]
    ]
   }

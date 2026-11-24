@@ -1,0 +1,121 @@
+{
+ "ep": "r5_travel_d1",
+ "cast": {
+  "B": "theo",
+  "C": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "polite",
+     "Bonjour, une voiture ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, la moins chère, boîte manuelle."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "polite",
+     "D'accord, celle-là, essence."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "surprised",
+     "Manuelle ? T'es sûr ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "polite",
+     "Oui, caution de cinq cents, carte bancaire."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "polite",
+     "Pas de problème, j'ai mon permis. Appris sur la voiture de mon grand-père."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "polite",
+     "Assurance incluse, franchise de huit cents, kilométrage illimité. Réservoir plein."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "cheerful",
+     "Nickel ! On y va."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "worried",
+     "T'es sûr de savoir démarrer ?"
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, facile. Embrayage, pédale…"
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "shout",
+     "Théo ! T'as calé encore !"
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "stiff",
+     "Monsieur, tenez l'embrayage."
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "flustered",
+     "Désolé, j'ai oublié. Ça fait longtemps."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Laisse tomber, je conduis."
+    ]
+   ]
+  }
+ }
+}

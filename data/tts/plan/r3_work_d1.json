@@ -1,0 +1,74 @@
+{
+ "ep": "r3_work_d1",
+ "cast": {
+  "B": "camille",
+  "C": "hugo",
+  "D": "woman_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Vous faites vos premiers cappuccinos aujourd'hui."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Oui, nous mettons le lait maintenant."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Bien sûr. Vous mettez la mousse après."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Attends, nous faisons deux en même temps ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Oui, vous avez fait le premier. Continuez."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Mince, nous mettons trop de lait !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Oh là là, vous faites n'importe quoi."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "stiff",
+     "Mes deux cappuccinos sont prêts ?"
+    ]
+   ]
+  }
+ }
+}

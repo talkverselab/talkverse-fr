@@ -8,7 +8,7 @@
    "segs": [
     [
      "shy",
-     "Pardon… tu attends le bus ?"
+     "Pardon... tu aimes la pluie ?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "annoyed",
-     "Oui. Il pleut, c'est nul."
+     "Non. Pourquoi ?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "gentle",
-     "Moi, j'aime bien la pluie."
+     "Parce que c'est beau."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "surprised",
-     "Ah bon ? Pourquoi tu aimes la pluie ?"
+     "Ah bon ?"
     ]
    ]
   },
@@ -40,19 +40,15 @@
    "segs": [
     [
      "shy",
-     "Parce que… comme ça, je peux parler avec toi."
+     "Je reste. Et toi ?"
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "surprised",
-     "Ah, le bus…"
-    ],
-    [
      "gentle",
-     "Bon, il peut partir."
+     "Ouais. Moi aussi."
     ]
    ]
   }

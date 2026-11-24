@@ -1,0 +1,121 @@
+{
+ "ep": "r5_culture_d1",
+ "cast": {
+  "B": "camille",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "excited",
+     "Enfin ! La file d'attente est longue mais on y est."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, c'est complet depuis des semaines."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "excited",
+     "On sera en fosse, debout devant la scène."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "T'inquiète, j'ai le billet de revente."
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "cheerful",
+     "Tiens, voilà le mien aussi. Première partie dans dix minutes."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "cheerful",
+     "La chanteuse est trop forte, j'espère le rappel."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "excited",
+     "Attends, mon tel s'éteint... batterie morte."
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "stiff",
+     "Vos billets s'il vous plaît. Pas de capture d'écran."
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "shout",
+     "C'est pas vrai ! Le mien est sur le tel éteint et le tien c'est une capture."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "gentle",
+     "T'inquiète, on demande un chargeur à l'accueil."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "stiff",
+     "Les captures ne sont pas valables. Filez ou partez."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "shout",
+     "Dix minutes avant la première partie, c'est le chaos !"
+    ]
+   ]
+  },
+  "13": {
+   "segs": [
+    [
+     "polite",
+     "Allez à l'accueil, ils ont peut-être un chargeur."
+    ]
+   ]
+  },
+  "14": {
+   "segs": [
+    [
+     "amused",
+     "Trop bien, on va rater le début mais on entre."
+    ]
+   ]
+  }
+ }
+}

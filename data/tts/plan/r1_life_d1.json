@@ -1,0 +1,83 @@
+{
+ "ep": "r1_life_d1",
+ "cast": {
+  "B": "theo"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Je lave tes affaires avec les miennes."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "gentle",
+     "D'accord, t'inquiète pas."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "cheerful",
+     "Voilà, je mets tout dedans."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "excited",
+     "Ma chemise blanche est là !"
+    ]
+   ],
+   "f": {
+    "text": "Ma chemise blanche est là !",
+    "rd": "마 슈미즈 블랑슈 에 라 !",
+    "ko": "내 흰 셔츠 거기 있어!",
+    "segs": [
+     [
+      "excited",
+      "Ma chemise blanche est là !"
+     ]
+    ]
+   }
+  },
+  "5": {
+   "segs": [
+    [
+     "surprised",
+     "Oh, une chaussette rouge aussi..."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "shout",
+     "Elle est rose maintenant !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "flustered",
+     "T'as mis la rouge avec !"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "teasing",
+     "Tant pis, c'est joli rose."
+    ]
+   ]
+  }
+ }
+}

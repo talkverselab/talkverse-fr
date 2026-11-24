@@ -1,0 +1,73 @@
+{
+ "ep": "r1_work_d1",
+ "cast": {
+  "B": "camille",
+  "C": "man_m"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "cheerful",
+     "Tu fais du café souvent ?"
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "cheerful",
+     "Ouais, je fais ça tous les jours."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "gentle",
+     "Bien sûr. Tu mets le lait là."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "worried",
+     "Attends, je mets trop ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "gentle",
+     "Non, appuie doucement."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "flustered",
+     "Oh là là, le lait part partout !"
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "tsukkomi",
+     "Mince, t'as fait n'importe quoi !"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "stiff",
+     "Mon cappuccino est prêt ?"
+    ]
+   ]
+  }
+ }
+}

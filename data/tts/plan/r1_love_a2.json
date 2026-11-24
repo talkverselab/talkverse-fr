@@ -8,7 +8,7 @@
    "segs": [
     [
      "shy",
-     "Il pleut fort, hein. Tu viens sous mon parapluie ?"
+     "Voilà, prends mon parapluie."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "amused",
-     "Merci. Mais il est petit, ton parapluie."
+     "Merci ! C'est grave gentil."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "shy",
-     "Pas grave, je suis petite. Viens plus près, voilà."
+     "Je t'ai vu de loin."
     ]
    ]
   },
@@ -32,19 +32,15 @@
    "segs": [
     [
      "gentle",
-     "Tu prends ce bus aussi ? Je t'ai jamais vue."
+     "Tu attends le bus aussi ?"
     ]
    ]
   },
   "5": {
    "segs": [
     [
-     "cheerful",
-     "Non, ma maison est à côté."
-    ],
-    [
      "flustered",
-     "Enfin… euh…"
+     "Non, je suis sortie pour toi."
     ]
    ]
   },
@@ -52,7 +48,7 @@
    "segs": [
     [
      "teasing",
-     "À côté ? Alors pourquoi attendre ici ?"
+     "Ah ouais ? Tu habites où ?"
     ]
    ]
   },
@@ -60,7 +56,7 @@
    "segs": [
     [
      "shy",
-     "…J'attendais quelqu'un. Toi. T'avais pas de parapluie."
+     "Juste là, en face."
     ]
    ]
   },
@@ -68,7 +64,7 @@
    "segs": [
     [
      "gentle",
-     "Le bus arrive… Je vais pas le prendre, alors."
+     "On peut marcher ensemble ?"
     ]
    ]
   }

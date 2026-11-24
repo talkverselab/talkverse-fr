@@ -8,7 +8,7 @@
    "segs": [
     [
      "cheerful",
-     "Allô, {name} ? Je peux pas te trouver !"
+     "Salut ! Tu es où ?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Je suis devant la gare."
+     "Devant la gare. Et toi ?"
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "surprised",
-     "Moi aussi ! Mais je te vois pas."
+     "Moi aussi ! Gare de Lyon."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "excited",
-     "Je fais coucou ! Tout le monde peut me voir !"
+     "Ouais ! Je suis là."
     ]
    ]
   },
@@ -40,19 +40,15 @@
    "segs": [
     [
      "worried",
-     "Attends… tu es gare de Lyon, à Paris ?"
+     "Attends... je te vois pas."
     ]
    ]
   },
   "6": {
    "segs": [
     [
-     "surprised",
-     "Gare de Lyon ?"
-    ],
-    [
-     "flustered",
-     "Ben non, je suis à Lyon."
+     "shout",
+     "Ben, je suis de l'autre côté !"
     ]
    ]
   }

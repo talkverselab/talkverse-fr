@@ -8,7 +8,7 @@
    "segs": [
     [
      "excited",
-     "{name}, tu es là ? Je fais des crêpes !"
+     "Tiens ! Ma crêpe."
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "excited",
-     "Oh, trop bon ! Avec du sucre, s'il te plaît."
+     "Trop bon ! Le sucre, s'il te plaît."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "cheerful",
-     "Ça marche. Tiens, voilà ta crêpe."
+     "Ça marche. Voilà."
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "cheerful",
-     "Merci ! Et le sucre, il est où ?"
+     "Merci. Il est où ?"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "tsukkomi",
-     "…Théo ! Tu manges ma crêpe ?!"
+     "Pardon ? Ma crêpe est où ?!"
     ]
    ]
   },
@@ -48,11 +48,7 @@
    "segs": [
     [
      "flustered",
-     "Pardon… elle est trop bonne."
-    ],
-    [
-     "amused",
-     "J'en refais une ?"
+     "Euh... voilà."
     ]
    ]
   }

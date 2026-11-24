@@ -1,0 +1,104 @@
+{
+ "ep": "r2_travel_d2",
+ "cast": {
+  "B": "camille"
+ },
+ "turns": {
+  "1": {
+   "segs": [
+    [
+     "annoyed",
+     "Je suis là mais ma valise sort pas."
+    ]
+   ]
+  },
+  "2": {
+   "segs": [
+    [
+     "worried",
+     "T'es où exactement ? Je te cherche."
+    ]
+   ]
+  },
+  "3": {
+   "segs": [
+    [
+     "sad",
+     "Au tapis. Ça fait longtemps, rien."
+    ]
+   ]
+  },
+  "4": {
+   "segs": [
+    [
+     "gentle",
+     "Décris-la stp. C'est quelle couleur ?"
+    ]
+   ]
+  },
+  "5": {
+   "segs": [
+    [
+     "worried",
+     "Rouge, avec un sticker bleu qui est gros."
+    ]
+   ]
+  },
+  "6": {
+   "segs": [
+    [
+     "surprised",
+     "Attends, je vois une rouge là-bas."
+    ]
+   ]
+  },
+  "7": {
+   "segs": [
+    [
+     "surprised",
+     "C'est celle qui a le sticker bleu ?"
+    ]
+   ]
+  },
+  "8": {
+   "segs": [
+    [
+     "shout",
+     "Oui ! C'est la mienne !"
+    ]
+   ]
+  },
+  "9": {
+   "segs": [
+    [
+     "excited",
+     "C'est bon, je l'ai ! J'arrive."
+    ]
+   ]
+  },
+  "10": {
+   "segs": [
+    [
+     "excited",
+     "Je sors avec ta valise rouge."
+    ]
+   ]
+  },
+  "11": {
+   "segs": [
+    [
+     "gentle",
+     "Merci Camille, t'es la meilleure."
+    ]
+   ]
+  },
+  "12": {
+   "segs": [
+    [
+     "teasing",
+     "Ouais, maintenant je te ramène chez moi ?"
+    ]
+   ]
+  }
+ }
+}

@@ -9,7 +9,7 @@
    "segs": [
     [
      "polite",
-     "Bonjour, asseyez-vous. C'est pour ouvrir un compte, c'est bien ça ?"
+     "Bonjour, vous souhaitez ouvrir un compte ?"
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "polite",
-     "Oui. J'ai apporté mon passeport et mon contrat de travail."
+     "Oui, avec mon justificatif de domicile."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "polite",
-     "Très bien. Il me faut aussi un justificatif de domicile de moins de trois mois."
+     "Parfait. Vous avez aussi une pièce d'identité et une facture ?"
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "cheerful",
-     "Pas de souci, j'ai tout. Facture d'électricité, bail… tout est dans cette pochette."
+     "Je te jure, j'ai tout dans le dossier : bail, attestation d'hébergement..."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "stiff",
-     "Mais le bail est seulement à votre nom, monsieur. Vous êtes le colocataire ?"
+     "Très bien. Pour la carte bancaire, il faut un RIB aussi."
     ]
    ]
   },
@@ -49,7 +49,7 @@
    "segs": [
     [
      "polite",
-     "Oui, on partage l'appartement. Je peux faire une attestation d'hébergement ?"
+     "Pas de souci, c'est là-dedans."
     ]
    ]
   },
@@ -57,7 +57,7 @@
    "segs": [
     [
      "polite",
-     "Oui. Avec une copie de votre pièce d'identité et votre signature, ici."
+     "Et votre mutuelle, vous avez le numéro pour le remboursement ?"
     ]
    ]
   },
@@ -65,7 +65,7 @@
    "segs": [
     [
      "worried",
-     "Et la carte bancaire, je la reçois quand ? J'en ai besoin pour payer le loyer."
+     "Euh... je crois que oui."
     ]
    ]
   },
@@ -73,7 +73,7 @@
    "segs": [
     [
      "polite",
-     "Vous la recevrez sous dix jours, par courrier. Le code arrive séparément, pour des raisons de sécurité."
+     "On va vérifier le courrier ensemble."
     ]
    ]
   },
@@ -81,11 +81,7 @@
    "segs": [
     [
      "flustered",
-     "Zut, la pochette !"
-    ],
-    [
-     "shout",
-     "…Ne regardez pas cette lettre, elle est personnelle !"
+     "Zut ! C'est une lettre de découvert qui tombe..."
     ]
    ]
   },
@@ -93,7 +89,7 @@
    "segs": [
     [
      "stiff",
-     "Trop tard, j'ai regardé. C'est notre logo. Vous êtes à découvert depuis deux mois, monsieur."
+     "Ah. Il y a un découvert en cours sur un autre compte ?"
     ]
    ]
   },
@@ -101,7 +97,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Théo… c'est pour ça que tu veux que je paie le loyer en avance ?"
+     "Théo ! Tu m'avais dit que tout était en règle !"
     ]
    ]
   },
@@ -109,7 +105,7 @@
    "segs": [
     [
      "flustered",
-     "C'est temporaire ! J'attends un remboursement de la mutuelle, je te jure."
+     "Je te jure, je savais pas que c'était dedans..."
     ]
    ]
   },
@@ -117,11 +113,7 @@
    "segs": [
     [
      "polite",
-     "Bon. J'ouvre votre compte ce soir."
-    ],
-    [
-     "teasing",
-     "Et vous, monsieur, on prend rendez-vous jeudi ?"
+     "Pas de souci, on peut quand même avancer avec les autres documents."
     ]
    ]
   }

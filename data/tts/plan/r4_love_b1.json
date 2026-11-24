@@ -9,7 +9,7 @@
    "segs": [
     [
      "excited",
-     "Il faut que tu me dises tout. Elle arrive à quelle heure ?"
+     "Tout est prêt ? Il faut que ce soit parfait pour Léa."
     ]
    ]
   },
@@ -17,7 +17,7 @@
    "segs": [
     [
      "worried",
-     "À huit heures. Et j'aimerais que tout soit parfait, d'accord ?"
+     "J'aimerais que tu caches les fleurs avant qu'elle arrive."
     ]
    ]
   },
@@ -25,7 +25,7 @@
    "segs": [
     [
      "amused",
-     "T'inquiète. Le dessert, je m'en occupe. Elle aime le chocolat ?"
+     "Pas de souci, je m'en occupe."
     ]
    ]
   },
@@ -33,7 +33,7 @@
    "segs": [
     [
      "worried",
-     "Elle l'adore. Mais n'en mets pas trop, elle n'aime pas quand c'est trop sucré."
+     "T'inquiète pas, mais le gâteau..."
     ]
    ]
   },
@@ -41,7 +41,7 @@
    "segs": [
     [
      "teasing",
-     "Pas de souci. Et les fleurs ? Tu les lui donnes quand ?"
+     "Je les lui ai déjà préparées, t'inquiète."
     ]
    ]
   },
@@ -49,7 +49,7 @@
    "segs": [
     [
      "worried",
-     "Au dessert. À moins qu'elle les voie avant… elles sont dans ta cuisine."
+     "Si j'avais su, j'aurais tout vérifié."
     ]
    ]
   },
@@ -57,7 +57,7 @@
    "segs": [
     [
      "cheerful",
-     "Coucou ! Je suis arrivée en avance, j'espère que ça vous dérange pas ?"
+     "Coucou ! Je suis en avance, c'est quoi cette odeur ?"
     ]
    ]
   },
@@ -65,19 +65,15 @@
    "segs": [
     [
      "flustered",
-     "Pas du tout ! Asseyez-vous, je vous apporte… euh… de l'eau."
+     "Euh... pas du tout brûlé, promis !"
     ]
    ]
   },
   "9": {
    "segs": [
     [
-     "gentle",
-     "Mmm, ça sent le chocolat."
-    ],
-    [
      "surprised",
-     "Et… c'est quoi, cette fumée ?"
+     "À moins que ce soit le gâteau qui crame ?"
     ]
    ]
   },
@@ -85,7 +81,7 @@
    "segs": [
     [
      "shout",
-     "Le gâteau ! Si tu m'avais pas parlé des fleurs, je l'aurais pas oublié !"
+     "Non ! J'en ai trop fait, tout brûle !"
     ]
    ]
   },
@@ -93,7 +89,7 @@
    "segs": [
     [
      "tsukkomi",
-     "Et c'est de ma faute si tu oublies tout ? Va le sortir, vite !"
+     "Sérieux ? Tu devais juste les lui cacher !"
     ]
    ]
   },
@@ -101,7 +97,7 @@
    "segs": [
     [
      "teasing",
-     "Attendez… ces fleurs dans la cuisine, elles sont pour qui ?"
+     "Les fleurs sont là... c'est pour moi ?"
     ]
    ]
   },
@@ -109,7 +105,7 @@
    "segs": [
     [
      "shy",
-     "Euh… pour toi. Je voulais te les donner au dessert."
+     "Euh... oui. Si j'avais mieux préparé, ce serait parfait."
     ]
    ]
   },
@@ -117,7 +113,7 @@
    "segs": [
     [
      "gentle",
-     "Alors on a déjà le dessert. Et le gâteau… même brûlé, j'en veux."
+     "Pas de souci. J'en suis touchée, vraiment."
     ]
    ]
   }

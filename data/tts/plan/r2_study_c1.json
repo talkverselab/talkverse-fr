@@ -8,7 +8,7 @@
    "segs": [
     [
      "polite",
-     "Léa stp, tu peux m'envoyer tes notes ? Pour l'exam de lundi"
+     "Salut, tu peux m'envoyer tes notes d'art stp ?"
     ]
    ]
   },
@@ -16,7 +16,7 @@
    "segs": [
     [
      "cheerful",
-     "Ouais, attends, je prends des photos."
+     "Ouais, grave."
     ]
    ]
   },
@@ -24,7 +24,7 @@
    "segs": [
     [
      "shy",
-     "Voilà Je t'envoie tout. C'est un peu le bazar, désolée."
+     "Au fait, c'est quand l'exam ?"
     ]
    ]
   },
@@ -32,7 +32,7 @@
    "segs": [
     [
      "cheerful",
-     "Merci, t'es la meilleure J'ai tout le week-end pour réviser."
+     "Lundi matin, non ?"
     ]
    ]
   },
@@ -40,7 +40,7 @@
    "segs": [
     [
      "surprised",
-     "Le week-end ?"
+     "Attends, c'est pas vrai."
     ]
    ]
   },
@@ -48,7 +48,7 @@
    "segs": [
     [
      "cheerful",
-     "Ben oui, l'exam, c'est lundi, neuf heures. Je lis tout dimanche."
+     "Ben, lundi."
     ]
    ]
   },
@@ -56,7 +56,7 @@
    "segs": [
     [
      "worried",
-     "{name}… l'exam, c'est demain. Neuf heures."
+     "Pour moi c'est mardi."
     ]
    ]
   },
@@ -64,7 +64,7 @@
    "segs": [
     [
      "shout",
-     "QUOI ?! C'est pas vrai… j'ai rien lu !"
+     "Quoi ?!"
     ]
    ]
   },
@@ -72,7 +72,7 @@
    "segs": [
     [
      "gentle",
-     "Viens chez moi. On révise ensemble cette nuit. J'ai du café."
+     "J'ai rien lu encore."
     ]
    ]
   },
@@ -80,7 +80,7 @@
    "segs": [
     [
      "excited",
-     "Grave. J'arrive, vingt minutes max !"
+     "On révise ensemble ?"
     ]
    ]
   },
@@ -88,7 +88,7 @@
    "segs": [
     [
      "shy",
-     "Au fait… page douze, c'est pas une note. C'est toi. Je dessine en cours"
+     "Ouais, ça me plaît."
     ]
    ]
   },
@@ -96,7 +96,7 @@
    "segs": [
     [
      "shy",
-     "…Tu me dessines, moi ? Je peux la garder, cette page ?"
+     "Super, demain soir ?"
     ]
    ]
   }

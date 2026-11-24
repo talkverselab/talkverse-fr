@@ -50,14 +50,20 @@ if ids:   # 참고 음성(2060) 먼저 — 없으면 문장 생성이 첫 조각
         if os.path.exists(f'{work}/job/{n}'):
             os.remove(f'{work}/job/{n}')
     log(sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', '--refs', *ids).stdout.strip())
-    while 'Ready' not in sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout:
-        time.sleep(30)
-    sh('scp', '-q', f'{work}/job/vox_jobs.json', f'{PC}:D:/tts_test/job/')
-    sh('ssh', PC, "Remove-Item D:\\tts_test\\job\\moss_jobs.json -ErrorAction SilentlyContinue; Start-ScheduledTask -TaskName 'TTS job 2060'")
-    time.sleep(20)
-    while 'Ready' not in sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout:
-        time.sleep(30)
-    os.remove(f'{work}/job/vox_jobs.json'); log('참고 음성 끝')
+    need = {os.path.basename(x['out']) for x in json.load(open(f'{work}/job/vox_jobs.json', encoding='utf-8'))}
+    have = set(sh('ssh', PC, "(Get-ChildItem D:\\tts_test\\job\\out\\ref_fr -Filter *.wav | ?{$_.Length -gt 1000}).Name", check=False).stdout.split())
+    if need <= have:   # 다 있으면 건너뜀 — 있는 파일을 건너뛰기만 해도 PC 가 모델을 읽느라 15분 걸렸다(11-24)
+        os.remove(f'{work}/job/vox_jobs.json'); log('참고 음성 이미 있음', len(need), '— 건너뜀')
+    else:
+        log('참고 음성 없는 것', len(need - have))
+        while 'Ready' not in sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout:
+            time.sleep(30)
+        sh('scp', '-q', f'{work}/job/vox_jobs.json', f'{PC}:D:/tts_test/job/')
+        sh('ssh', PC, "Remove-Item D:\\tts_test\\job\\moss_jobs.json -ErrorAction SilentlyContinue; Start-ScheduledTask -TaskName 'TTS job 2060'")
+        time.sleep(20)
+        while 'Ready' not in sh('ssh', PC, "(Get-ScheduledTask -TaskName 'TTS job 2060').State", check=False).stdout:
+            time.sleep(30)
+        os.remove(f'{work}/job/vox_jobs.json'); log('참고 음성 끝')
 for i in range(0, len(ids), N):
     eps = ids[i:i + N]
     sh(sys.executable, f'{HERE}/make_jobs.py', f'{work}/job', *eps); pc_run()

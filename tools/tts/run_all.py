@@ -29,8 +29,16 @@ def pc_run():
 
 
 def fetch(path):
-    os.makedirs(os.path.dirname(f'{work}/wav/{path}'), exist_ok=True)
-    sh('scp', '-q', '-r', f'{PC}:D:/tts_test/job/out/fr/{path}', os.path.dirname(f'{work}/wav/{path}') + '/', check=False)
+    """PC → M6. scp 가 조용히 실패해 폴더째 빠지는 일이 있어(11-24 r2_culture_d1) 세 번까지 다시 받고, 그래도 안 되면 기록한다.
+    재생성본(retake/…)은 없을 수도 있어 한 번만 받는다."""
+    os.makedirs(os.path.dirname(f'{work}/wav/{path}') , exist_ok=True)
+    for i in range(1 if path.startswith('retake/') else 3):
+        r = sh('scp', '-q', '-r', f'{PC}:D:/tts_test/job/out/fr/{path}', os.path.dirname(f'{work}/wav/{path}') + '/', check=False)
+        if r.returncode == 0:
+            return
+        time.sleep(10)
+    if not path.startswith('retake/'):
+        log('받기 실패', path, r.stderr.strip()[-120:])
 
 
 done = set(open(f'{work}/done.txt').read().split()) if os.path.exists(f'{work}/done.txt') else set()

@@ -56,6 +56,7 @@ def main():
             if not os.path.exists(f):
                 c = sorted(glob.glob(f'{wav}/retake/{k[:-4]}.t*.wav'))
                 if c:
+                    os.makedirs(os.path.dirname(f), exist_ok=True)
                     shutil.copy(c[0], f)
                 else:                     # 계획이 바뀌어 없어진 조각 — PC 의 옛 파일을 건너뛰지 않도록 retake 경로로 만든다
                     q.update(sim=0.0, ok=False); bad += 1

@@ -11,6 +11,11 @@
 - **진행 페이지(11-22)**: 상태가 바뀌면 `~/bin/tv-progress fr <stop|wait|user|run|done> "멈춘 것" "이유" "필요한 것" ["보고"]` (https://talkverse.uk/talkverse/review/release/). 지금 wait. 3090 순서 「한자 → 짐프리 → 문법 → 음성」, 음성은 낮에도 — uk 가 「지금 시작」을 보내면 시작, 앞 순서가 달라면 묶음 경계에서 비움.
 - 남은 것: Grok 독음이 fr 표기 기준(된소리 ㄲㄸㅃㅆ·r=ㄹ)과 군데군데 다름 — 손대지 않았음. 새 편 음성(새벽 01~07). 새 빌드는 하지 않음(원고는 서버로 감, pubspec 폴더는 다음 빌드에 반영). `missing_lemmas.csv` 220개 갱신됨.
 
+## 2026-11-24 회화 65편 음성 — 멈춤(짐프리 LTX 먼저, 재개는 uk 「fr 지금 시작」)
+- 이어받기: `cd ~/talkverse/fr && nohup ~/venvs/th/bin/python tools/tts/run_all.py ~/tts_work/fr/run65 12 >> ~/tts_work/fr/run65/run.log 2>&1 &` — 시작 전 PC job.log·moss_jobs.json 5분 멈춤·'TTS job 2060' Ready·3090 확인. 끝난 편은 done.txt, PC 에 있는 조각은 건너뜀.
+- 첫 묶음 12편: 조각 생성·첫 재생성까지 끝(올린 편 0). 참고 음성은 PC `out/ref_fr` 에 있음. 옛 시험 4편 조각은 PC `out/fr_old_20261124`.
+- 18:57~19:42 는 PC 메모리 부족(페이지 파일이 D: HDD)으로 모델 읽기가 30분 걸림. 진행 페이지 = wait, 끝나면 「GPU 끝」을 uk·fa 에(순서표는 fr → ru → fa 라 uk 에 확인).
+
 ## 2026-11-22 Grok 대사 작성 진행(uk 전달 「1. 프랑스어 허락」·「막힌거 각자 판단대로 일단 완료」)
 - PC 크롬: 사용자 허락(이 창에서 확인)으로 작업 스케줄러 **`Grok-Chrome-fr-9250`** 등록(다른 언어와 같은 꼴, 사용자 john, Interactive) → 쿠키 `grok_cookie_sync.py 9231 9250`(49개), 「빠른」 확인. **크롬 규칙(11-22)**: 끝나면 직접 끈다.
 - 도구: `docs/GROK_WRITE_fr.md`(규칙, 방 첫 메시지에만 첨부) · `tools/grok_brief.py`(대사 비운 뼈대) · `tools/grok_write_run.sh`(방당 10편, 「빠른」, 3분 상한) · `tools/grok_apply.py`(답 → 앱 JSON, 형식만: 칸 수·감정 확인, 작업 표시 지움, 낱말 칩) · 언어감각 `docs/GROK_SENSE_fr.md`·`tools/grok_sense.py`·`grok_sense_run.sh` · 장면 컷 `tools/grok_scene.py`(→ `~/talkverse/fr-art/scene/fr/`)·`tools/scene_upload.py`(R2 `scene/fr/`·D1 `art_scenes`). 답·뼈대·로그 `data/review/grok/write/`.

@@ -11,10 +11,12 @@
 - **진행 페이지(11-22)**: 상태가 바뀌면 `~/bin/tv-progress fr <stop|wait|user|run|done> "멈춘 것" "이유" "필요한 것" ["보고"]` (https://talkverse.uk/talkverse/review/release/). 지금 wait. 3090 순서 「한자 → 짐프리 → 문법 → 음성」, 음성은 낮에도 — uk 가 「지금 시작」을 보내면 시작, 앞 순서가 달라면 묶음 경계에서 비움.
 - 남은 것: Grok 독음이 fr 표기 기준(된소리 ㄲㄸㅃㅆ·r=ㄹ)과 군데군데 다름 — 손대지 않았음. 새 편 음성(새벽 01~07). 새 빌드는 하지 않음(원고는 서버로 감, pubspec 폴더는 다음 빌드에 반영). `missing_lemmas.csv` 220개 갱신됨.
 
-## 2026-11-24 회화 65편 음성 — 멈춤(짐프리 LTX 먼저, 재개는 uk 「fr 지금 시작」)
-- 이어받기: `cd ~/talkverse/fr && nohup ~/venvs/th/bin/python tools/tts/run_all.py ~/tts_work/fr/run65 12 >> ~/tts_work/fr/run65/run.log 2>&1 &` — 시작 전 PC job.log·moss_jobs.json 5분 멈춤·'TTS job 2060' Ready·3090 확인. 끝난 편은 done.txt, PC 에 있는 조각은 건너뜀.
-- 첫 묶음 12편: 조각 생성·첫 재생성까지 끝(올린 편 0). 참고 음성은 PC `out/ref_fr` 에 있음. 옛 시험 4편 조각은 PC `out/fr_old_20261124`.
-- 18:57~19:42 는 PC 메모리 부족(페이지 파일이 D: HDD)으로 모델 읽기가 30분 걸림. 진행 페이지 = wait, 끝나면 「GPU 끝」을 uk·fa 에(순서표는 fr → ru → fa 라 uk 에 확인).
+## 2026-11-24 회화 65편 음성 — 멈춤 24/65(사용자 「음성작업 하던거 하고 멈춰줘」 23:4x, 재개는 사용자가 다시 하라고 한 뒤 uk 「fr 지금 시작」으로만)
+- 이어받기: `cd ~/talkverse/fr && (nohup ~/venvs/th/bin/python tools/tts/run_all.py ~/tts_work/fr/run65 12 >> ~/tts_work/fr/run65/run.log 2>&1 & echo $! > ~/tts_work/fr/run65/pid)` — 시작 전 PC job.log·moss_jobs.json 5분 멈춤·'TTS job 2060' Ready·3090·메모리 확인. 끝난 편은 done.txt(24), PC 에 있는 조각은 건너뜀. 자동 재시작·예약 없음.
+- 상태: 1·2묶음 24편 올림(매니페스트 374줄). 셋째 묶음 12편은 조각만 PC `out/fr` 에 있음(검사·올리기 전). 남은 41편.
+- **끝난 뒤 할 일(3090 불필요)**: ① 1·2묶음은 마지막(3회째) 재생성본을 검사 없이 올렸음 — `qa.py <wav> <편>` 다시 돌려 나아진 편만 `pack.py --upload`(진행기는 a39cf4b 부터 고쳐짐) ② 그래도 미달인 조각 목록을 사용자에게(지금 13/275, 「Euh…」로 시작하는 것이 많음 — 다시 만들지·녹음을 빼 TTS 로 둘지는 사용자 결정) ③ pack.py TRIM(-45dB)이 작은 말을 자를 수 있음 — pt 고침 결과를 uk 가 알려 주면 맞추고 다시 묶기. 조각 원본 지우지 말 것.
+- 고친 것: 받기(scp) 실패 3회 재시도 7d70d82 · 참고 음성 다 있으면 건너뜀 60da3c5. PC 모델 읽기가 메모리 부족 때 15~30분(실행마다).
+- 끝나면 「GPU 끝」은 uk 에만(ru 신호는 uk 가). 옛 시험 4편 조각은 PC `out/fr_old_20261124`.
 
 ## 2026-11-22 Grok 대사 작성 진행(uk 전달 「1. 프랑스어 허락」·「막힌거 각자 판단대로 일단 완료」)
 - PC 크롬: 사용자 허락(이 창에서 확인)으로 작업 스케줄러 **`Grok-Chrome-fr-9250`** 등록(다른 언어와 같은 꼴, 사용자 john, Interactive) → 쿠키 `grok_cookie_sync.py 9231 9250`(49개), 「빠른」 확인. **크롬 규칙(11-22)**: 끝나면 직접 끈다.

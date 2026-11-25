@@ -5,8 +5,8 @@
  "kind": "chat",
  "title": "이웃집 고양이",
  "emoji": "💘",
- "scene": "데이팅앱에서 레아가 먼저 말을 건다. 프로필 사진 속 고양이는 사실 옆집 고양이. 데이트 신청에 레아가 답이 없다",
- "where": "데이팅앱",
+ "scene": "언어교류앱에서 레아가 먼저 말을 건다. 프로필 사진 속 고양이는 사실 옆집 고양이. 데이트 신청에 레아가 답이 없다",
+ "where": "언어교류앱",
  "speakers": {
   "A": "{name}",
   "B": "Léa"
@@ -23,7 +23,7 @@
  "domain": [
   "love"
  ],
- "goal": "데이팅앱 말투(mdr·ptdr·genre·sérieux)·복합과거 재귀(je me suis endormie)",
+ "goal": "언어교류앱 말투(mdr·ptdr·genre·sérieux)·복합과거 재귀(je me suis endormie)",
  "expressions": [
   "mdr",
   "ptdr",

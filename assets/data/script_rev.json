@@ -27,7 +27,7 @@
 "dialogues/R2/friends/r2_friends_c2.json": "8ed0f1c51e41",
 "dialogues/R2/life/r2_life_c1.json": "69b95d80919f",
 "dialogues/R2/life/r2_life_d1.json": "e64b3f79117a",
-"dialogues/R2/love/r2_love_c1.json": "f46b42630f96",
+"dialogues/R2/love/r2_love_c1.json": "5333a9f0b537",
 "dialogues/R2/study/r2_study_c1.json": "66f298599a05",
 "dialogues/R2/study/r2_study_d1.json": "b8dcd47c606c",
 "dialogues/R2/travel/r2_travel_d1.json": "cad4520daab5",
@@ -68,5 +68,5 @@
 "grammar/lesson1.json": "b1c4a8a562f3",
 "grammar/sense_course.json": "29cd35319c36"
 },
-"rev": 6
+"rev": 7
 }
